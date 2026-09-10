@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "libroKey": "song_of_songs",
+    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "totalCapitulos": 8,
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "ru",
+    "esquema": "modular_lazy_v4",
+    "dir": "ltr"
+  },
+  "capitulos": [
+    {
+      "id": "song_of_songs_chapter_1",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
+      "capituloNumero": 1,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
+      "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
+      "traducciones": {
+        "ru": "1. Пусть он поцелует меня поцелуями уст своих: ибо любовь твоя лучше вина.\n2. От благоухания мастей твоих имя твое — как миро пролитое, поэтому девы любят тебя.\n3. Нарисуй меня, мы побежим за тобой: царь ввёл меня в свои покои: мы будем радоваться и радоваться тебе, мы будем помнить твою любовь больше, чем вино: праведные любят тебя.\n4. Темна я, но прекрасна, дщери Иерусалима, как шатры Кидара, как покрывала Соломоновы.\n5. Скажи мне, ты, кого любит душа моя, где ты пасешь свое стадо, где отдыхаешь в полдень."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_2",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
+      "capituloNumero": 2,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
+      "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
+      "traducciones": {
+        "ru": "1. Я роза Сарона и ландыш.\n2. Что лилия среди терний, то любовь Моя среди дочерей.\n3. Что яблоня среди деревьев лесных, то возлюбленный Мой среди сыновей. Я с великой радостью сел под его тенью, и его плоды были сладки на мой вкус.\n4. Он привел меня в пиршественный дом, и его знамя надо мной было любовь.\n5. Голос моей любимой! вот, он скачет по горам, скачет по холмам.\n6. Мой возлюбленный заговорил и сказал мне: встань, любовь моя, прекрасная моя, и уйди. Вот, зима прошла, дождь прошел и закончился; цветы появляются на земле."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_3",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
+      "capituloNumero": 3,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
+      "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
+      "traducciones": {
+        "ru": "1. Ночью на постели моей я искал того, кого любит душа моя: я искал его, но не нашел.\n2. Встану теперь, и пойду по городу по улицам, и на широких путях буду искать того, кого любит душа моя: я искал его, но не нашел.\n3. Немного прошёл я от них, но нашёл того, кого любит душа моя: я держал его и не отпускал, пока не ввёл его в дом матери моей и в горницу зачавшей меня.\n4. Кто это, который выходит из пустыни, как столпы дыма, благоухая миррой и ладаном, всеми порошками купеческого?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_4",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
+      "capituloNumero": 4,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
+      "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
+      "traducciones": {
+        "ru": "1. Вот, ты прекрасна, любовь моя; вот, ты справедлив; у тебя голубиные глаза в локонах.\n2. Вы все прекрасны, любовь моя; в тебе нет пятна.\n3. Огороженный сад — моя сестра, моя супруга; родник замолчал, фонтан заперся.\n4. Ваши растения — гранатовый сад с приятными плодами; камфир с нардом;\n5. Садовый источник, источник живой воды и потоки с Ливана.\n6. Проснись, о северный ветер; и приди, ты, юг; подуй на сад мой, чтобы растеклись ароматы его. Пусть мой возлюбленный придет в свой сад и вкусит его приятных плодов."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_5",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
+      "capituloNumero": 5,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
+      "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
+      "traducciones": {
+        "ru": "1. Пришел я в сад мой, сестра моя, супруга моя: я собрал мирру мою с ароматом моим; Я съел соты мои с медом моим; Я выпил вино с молоком.\n2. Я сплю, но сердце мое просыпается: это стучится голос любимого!\n3. Мой возлюбленный — белый и румяный, лучший среди десяти тысяч.\n4. Голова его — как чистейшее золото, локоны его густы и черны, как ворон.\n5. Глаза Его — как глаза голубей при потоках вод, омытые молоком и хорошо посаженные.\n6. Его уста очень сладки: да, он вообще прекрасен. Вот возлюбленный мой и вот друг мой, дочери Иерусалима."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_6",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
+      "capituloNumero": 6,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
+      "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
+      "traducciones": {
+        "ru": "1. Куда пропал твой возлюбленный, о прекраснейшая из женщин? куда отвернулся твой любимый? чтобы мы могли искать его с вами.\n2. Мой возлюбленный пошел в свой сад, на грядки с ароматами, чтобы пастись в садах и собирать лилии.\n3. Я принадлежу возлюбленному моему, а возлюбленный мой — моему: он пасется среди лилий.\n4. Ты прекрасна, любовь моя, как Фирца, прекрасна, как Иерусалим, страшна, как войско со знаменами.\n5. Кто она, которая смотрит, как утро, прекрасная, как луна, ясная, как солнце, и страшная, как войско со знаменами?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_7",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
+      "capituloNumero": 7,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
+      "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
+      "traducciones": {
+        "ru": "1. Вернись, вернись, Суламифь; вернись, вернись, чтобы мы могли взглянуть на тебя. Что вы увидите в Суламите? Как бы компания двух армий.\n2. Как красивы твои ноги в туфлях, о царевича дочь! суставы бедер твоих - как драгоценности, дело рук искусного мастера.\n3. Как прекрасна и как приятна ты, о любовь, на наслаждения!\n4. Рост твой подобен пальме, и грудь твоя — гроздям винограда.\n5. Я принадлежу моему возлюбленному, и его желание направлено ко мне.\n6. Ну, возлюбленный мой, выйдем в поле; давайте поселимся в деревнях. Давайте встанем пораньше в виноградники; там я подарю тебе свою любовь."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_8",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
+      "capituloNumero": 8,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
+      "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
+      "traducciones": {
+        "ru": "1. Положи меня, как печать, на сердце твое, как печать на руку твою, ибо любовь крепка, как смерть; ревность жестока, как могила: угли ее — угли огненные, имеющие самое сильное пламя.\n2. Многие воды не могут угасить любви, и потоки не могут потопить ее: если бы человек отдал все имение своего дома за любовь, то она была бы совершенно пренебрежена.\n3. Мой виноградник, который принадлежит мне, передо мной: у тебя, Соломон, будет тысяча, и у тех, кто хранит плоды его, двести.\n4. Вы, живущие в садах, товарищи слушают голос ваш: дай мне услышать его.\n5. Поспеши, возлюбленный мой, и будь подобен косуле или молодому оленю на горах пряностей."
+      }
+    }
+  ]
+}

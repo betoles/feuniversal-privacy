@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "libroKey": "song_of_songs",
+    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "totalCapitulos": 8,
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "bn",
+    "esquema": "modular_lazy_v4",
+    "dir": "ltr"
+  },
+  "capitulos": [
+    {
+      "id": "song_of_songs_chapter_1",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
+      "capituloNumero": 1,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
+      "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
+      "traducciones": {
+        "bn": "1. সে তার মুখের চুম্বন দিয়ে আমাকে চুম্বন করুক: তোমার প্রেম মদের চেয়েও ভালো।\n2. তোমার ভাল মলমের গন্ধে তোমার নাম ঢেলে দেওয়া মলমের মত, তাই কুমারীরা তোমাকে ভালবাসে৷\n3. আমাকে আঁকুন, আমরা আপনার পিছনে দৌড়াবো: রাজা আমাকে তার কক্ষে নিয়ে এসেছেন: আমরা আপনাকে আনন্দিত করব এবং আনন্দ করব, আমরা মদের চেয়ে আপনার ভালবাসা বেশি মনে রাখব: ন্যায়পরায়ণরা আপনাকে ভালবাসে।\n4. আমি অন্ধকার, কিন্তু সুন্দর, হে জেরুজালেমের কন্যারা, কেদারের তাঁবুর মতো, শলোমনের পর্দার মতো৷\n5. আমাকে বলুন, আপনি যাকে আমার আত্মা ভালবাসে, যেখানে আপনি আপনার মেষপালকে চরান, যেখানে আপনি দুপুরে তাকে বিশ্রাম দেন।"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_2",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
+      "capituloNumero": 2,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
+      "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
+      "traducciones": {
+        "bn": "1. আমি শ্যারনের গোলাপ, এবং উপত্যকার লিলি।\n2. কাঁটার মধ্যে লিলি যেমন, কন্যাদের মধ্যে আমার ভালবাসা।\n3. কাঠের গাছের মধ্যে আপেল গাছ যেমন, পুত্রদের মধ্যে আমার প্রিয়তম। আমি খুব আনন্দে তার ছায়ার নীচে বসেছিলাম, এবং তার ফল আমার স্বাদে মিষ্টি ছিল।\n4. তিনি আমাকে ভোজ বাড়িতে নিয়ে এসেছিলেন, এবং আমার উপর তার ব্যানারটি ছিল ভালবাসা।\n5. আমার প্রেয়সীর কণ্ঠস্বর! দেখ, সে পাহাড়ের উপর লাফিয়ে লাফিয়ে পাহাড়ের উপর আসে।\n6. আমার প্রিয়তমা কথা বলেছিল, এবং আমাকে বলেছিল, উঠ, আমার প্রিয়, আমার সুন্দর, এবং চলে এসো। কারণ, দেখ, শীতকাল শেষ, বৃষ্টি শেষ হয়ে গেছে; ফুল পৃথিবীতে উপস্থিত হয়।"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_3",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
+      "capituloNumero": 3,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
+      "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
+      "traducciones": {
+        "bn": "1. রাতে আমার বিছানায় আমি তাকে খুঁজলাম যাকে আমার আত্মা ভালোবাসে: আমি তাকে খুঁজলাম, কিন্তু আমি তাকে পাইনি।\n2. আমি এখন উঠব, এবং শহরের রাস্তায় রাস্তায় ঘুরে বেড়াব, এবং বিস্তৃত পথে আমি তাকে খুঁজব যাকে আমার আত্মা ভালবাসে: আমি তাকে খুঁজছিলাম, কিন্তু আমি তাকে পাইনি।\n3. আমি তাদের কাছ থেকে সামান্যই পাড়ি দিয়েছিলাম, কিন্তু আমি তাকে পেয়েছি যাকে আমার আত্মা ভালোবাসে: আমি তাকে ধরে রেখেছিলাম এবং তাকে যেতে দেব না, যতক্ষণ না আমি তাকে আমার মায়ের বাড়িতে এবং যে আমাকে গর্ভধারণ করেছিল তার চেম্বারে নিয়ে এসেছি।\n4. ইনি কে যে মরুভূমি থেকে ধোঁয়ার স্তম্ভের মতো, গন্ধরস ও লোবানের সুগন্ধি এবং ব্যবসায়ীর সমস্ত গুঁড়ো দিয়ে বেরিয়ে আসে?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_4",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
+      "capituloNumero": 4,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
+      "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
+      "traducciones": {
+        "bn": "1. দেখ, তুমি ন্যায্য, আমার প্রেম; দেখ, তুমি ন্যায়পরায়ণ; তোমার তালার মধ্যে ঘুঘুর চোখ আছে।\n2. তুমি সব ন্যায়পরায়ণ, আমার ভালবাসা; তোমার মধ্যে কোন দাগ নেই।\n3. একটি বাগান ঘেরা আমার বোন, আমার পত্নী; একটি বসন্ত বন্ধ, একটি ঝর্ণা সিল।\n4. আপনার গাছপালা ডালিমের বাগান, মনোরম ফল সহ; ক্যাম্পফায়ার, স্পিকেনার্ড সহ;\n5. বাগানের একটি ফোয়ারা, জীবন্ত জলের একটি কূপ এবং লেবানন থেকে আসা স্রোতধারা।\n6. জেগে ওঠো, হে উত্তরের বাতাস; আর হে দক্ষিণে এসো; আমার বাগানে ফুঁ দাও, যাতে সেখান থেকে মশলা বের হয়ে যায়। আমার প্রিয় তার বাগানে আসুক, এবং তার মনোরম ফল খেতে দিন."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_5",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
+      "capituloNumero": 5,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
+      "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
+      "traducciones": {
+        "bn": "1. আমি আমার বাগানে এসেছি, আমার বোন, আমার স্ত্রী: আমি আমার মশলা দিয়ে আমার গন্ধরস সংগ্রহ করেছি; আমি আমার মধু দিয়ে আমার মৌচাক খেয়েছি; আমি আমার দুধের সাথে আমার ওয়াইন পান করেছি।\n2. আমি ঘুমাই, কিন্তু আমার হৃদয় জেগে ওঠে: এটি আমার প্রিয়তমের কণ্ঠস্বর যা নক করে!\n3. আমার প্রিয়তম সাদা এবং লালচে, দশ হাজারের মধ্যে প্রধান।\n4. তার মাথা সবচেয়ে সূক্ষ্ম সোনার মতো, তার তালাগুলি ঝোপঝাড় এবং কাকের মতো কালো।\n5. তার চোখগুলি জলের নদীর ধারে ঘুঘুর চোখের মতো, দুধে ধুয়ে এবং উপযুক্ত।\n6. তার মুখ সবচেয়ে মিষ্টি: হ্যাঁ, তিনি সম্পূর্ণরূপে সুন্দর। হে জেরুজালেমের কন্যারা, এই আমার প্রিয়, এবং এই আমার বন্ধু।"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_6",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
+      "capituloNumero": 6,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
+      "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
+      "traducciones": {
+        "bn": "1. নারীদের মধ্যে হে সুন্দরী, তোমার প্রিয়তম কোথায় গেল? তোমার প্রিয়তমা কোথায় সরে গেছে? যাতে আমরা তাকে আপনার সাথে খুঁজতে পারি।\n2. আমার প্রিয় তার বাগানে, মশলার বিছানায়, বাগানে খাওয়ানোর জন্য এবং লিলি সংগ্রহ করতে নেমে গেছে।\n3. আমি আমার প্রেয়সীর, এবং আমার প্রিয় আমার: তিনি লিলির মধ্যে ভোজন করেন।\n4. তুমি সুন্দর, হে আমার প্রেম, তিরজাহের মতো, জেরুজালেমের মতো সুন্দর, ব্যানারযুক্ত সেনাবাহিনীর মতো ভয়ঙ্কর।\n5. সে কে যে সকালের মতো, চাঁদের মতো সুন্দর, সূর্যের মতো পরিষ্কার এবং ব্যানার সহ একটি সেনাবাহিনীর মতো ভয়ঙ্কর দেখাচ্ছে?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_7",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
+      "capituloNumero": 7,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
+      "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
+      "traducciones": {
+        "bn": "1. প্রত্যাবর্তন, প্রত্যাবর্তন, হে শুলমাইট; ফিরে আসুন, ফিরে আসুন, যাতে আমরা আপনাকে দেখতে পারি। শুলামিতে কি দেখবেন? যেহেতু এটি ছিল দুটি সেনাবাহিনীর সঙ্গ।\n2. তোমার পায়ের জুতা কত সুন্দর, হে রাজপুত্র! তোমার উরুর সন্ধিগুলো রত্ন-পাথরের মত, ধূর্ত কাজের লোকের হাতের কাজ।\n3. হে প্রেম, আনন্দের জন্য তুমি কত ন্যায্য এবং কত মনোরম!\n4. এই তোমার উচ্চতা খেজুর গাছের মত, আর তোমার স্তন আঙ্গুরের গুচ্ছের মত।\n5. আমি আমার প্রেয়সীর, এবং তার কামনা আমার দিকে।\n6. এসো, আমার প্রিয়, আমরা মাঠে যাই; গ্রামে বাস করি। আসুন আমরা তাড়াতাড়ি আঙ্গুর ক্ষেতে উঠি; সেখানে আমি তোমাকে আমার ভালবাসা দেব।"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_8",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
+      "capituloNumero": 8,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
+      "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
+      "traducciones": {
+        "bn": "1. আমাকে আপনার হৃদয়ের উপর একটি সীলমোহর হিসাবে স্থাপন করুন, আপনার বাহুতে একটি সীলমোহর হিসাবে: প্রেম মৃত্যুর মত শক্তিশালী; ঈর্ষা কবরের মতো নিষ্ঠুর: এর কয়লাগুলি আগুনের কয়লা, যার সবচেয়ে প্রবল শিখা রয়েছে।\n2. অনেক জল ভালবাসাকে নিভিয়ে দিতে পারে না, বন্যাও তাকে ডুবাতে পারে না: যদি একজন মানুষ তার বাড়ির সমস্ত উপাদান ভালবাসার জন্য দিয়ে দেয় তবে তা সম্পূর্ণরূপে অপমানিত হবে।\n3. আমার দ্রাক্ষাক্ষেত্র, যেটি আমার, তা আমার সামনে রয়েছে: হে শলোমন, তোমার এক হাজার হবে এবং যারা এর ফল রাখে তাদের দু'শো থাকতে হবে।\n4. আপনি বাগানে বসবাসকারী, সঙ্গীরা আপনার কণ্ঠস্বর শোনেন: আমাকে এটি শুনতে দিন।\n5. তাড়াতাড়ি কর, আমার প্রিয়, এবং আপনি মশলার পাহাড়ে একটি মরিচা বা তরুণ হার্টের মতো হয়ে উঠুন।"
+      }
+    }
+  ]
+}

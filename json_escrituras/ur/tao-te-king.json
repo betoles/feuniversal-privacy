@@ -1,0 +1,1391 @@
+{
+  "metadata": {
+    "libroKey": "tao",
+    "titulo": "El Tao Te King (Lao Tse · 道德經)",
+    "totalCapitulos": 81,
+    "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "ur",
+    "esquema": "modular_lazy_v4",
+    "dir": "rtl"
+  },
+  "capitulos": [
+    {
+      "id": "tao_chapter_1",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 1: El Origen del Cielo y de la Tierra (El Tao Innombrable)",
+      "capituloNumero": 1,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-5",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無，欲以觀其妙；常有，欲以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，衆妙之門。",
+      "foneticaLiturgica": "Dào kě dào, fēicháng Dào. Míng kě míng, fēicháng míng. Wúmíng tiāndì zhī shǐ; yǒumíng wànwù zhī mǔ. Gù cháng wú, yù yǐ guān qí miào; cháng yǒu, yù yǐ guān qí jiào...",
+      "traducciones": {
+        "ur": "1. جس تاؤ کو روندا جا سکتا ہے وہ پائیدار اور نہ بدلنے والا تاؤ نہیں ہے۔\n2. جو نام رکھا جا سکتا ہے وہ پائیدار اور نہ بدلنے والا نام نہیں ہے۔\n3. یہ تصور کیا جاتا ہے کہ اس کا کوئی نام نہیں ہے، یہ آسمان اور زمین کا موجد ہے۔ ایک نام کے طور پر تصور کیا جاتا ہے، یہ تمام چیزوں کی ماں ہے.\n4. ہمیشہ خواہش کے بغیر، ہم اندرونی اسرار کو سمجھتے ہیں؛ ہمیشہ خواہش کے ساتھ، ہم صرف بیرونی مظاہر کو سمجھتے ہیں۔\n5. یہ دونوں ایک ساتھ پیدا ہوتے ہیں حالانکہ ان کا نام مختلف ہے۔ ان کی گہرائی گہرا اسرار ہے، تمام عجائبات کا دروازہ ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_2",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 2: La Dualidad de las Formas y la Práctica del No-Actuar (Wu Wei)",
+      "capituloNumero": 2,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作而弗始，生而弗有，為而弗恃，功成而不居。夫唯弗居，是以不去。",
+      "foneticaLiturgica": "Tiānxià jiē zhī měi zhī wéi měi, sī è yǐ. Jiē zhī shàn zhī wéi shàn, sī bùshàn yǐ. Gù yǒu wú xiāng shēng, nán yì xiāng chéng...",
+      "traducciones": {
+        "ur": "1. جب آسمان کے نیچے سبھی خوبصورتی کو حسن جانتے ہیں تو بدصورتی ظاہر ہوتی ہے۔ جب سب اچھائی کو اچھا جانتے ہیں تو برائی پیدا ہوتی ہے۔\n2. ہونا اور غیر ہونا ایک دوسرے کو پیدا کرتے ہیں۔ مشکل اور آسانی ایک دوسرے کی تکمیل کرتے ہیں؛ طویل اور مختصر ایک دوسرے کی وضاحت؛ ایک دوسرے کی طرف اونچی اور نیچی جھکاؤ۔\n3. لہذا بابا غیر عمل (وو وی) کی مشق میں رہتے ہیں اور بغیر الفاظ کے تعلیمات دیتے ہیں۔\n4. وہ مالکیت کے بغیر تخلیق کرتا ہے، تعریف پر بھروسہ کیے بغیر کام کرتا ہے، اور قابلیت سے چمٹے ہوئے بغیر اپنا کام مکمل کرتا ہے۔ کیونکہ وہ چمٹتا نہیں ہے، اس کی کامیابی کبھی اس کا پیچھا نہیں چھوڑتی۔"
+      }
+    },
+    {
+      "id": "tao_chapter_3",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 3: La Quietud Interior y el Gobierno de la Paz",
+      "capituloNumero": 3,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使民心不亂。是以聖人之治，虛其心，實其腹，弱其志，強其骨。常使民無知無欲。使夫智者不敢為也。為無為，則無不治。",
+      "foneticaLiturgica": "Bù shàng xián, shǐ mín bù zhēng; bù guì nándé zhī huò, shǐ mín bù wéi dào; bù jiàn kě yù, shǐ mín xīn bù luàn...",
+      "traducciones": {
+        "ur": "1. تحفے والے کو بلند نہ کرنا جھگڑے کو روکتا ہے۔ نایاب خزانوں کو قیمتی نہ دینا چوری کو روکتا ہے۔ مطلوبہ کو ظاہر نہ کرنا دل کو الجھنوں سے پاک رکھتا ہے۔\n2. اس لیے بابا دماغ کو خالی کرنے، پیٹ بھرنے، عزائم کو کمزور کرنے اور ہڈیوں کو مضبوط کرکے حکومت کرتے ہیں۔\n3. زبردستی نہ کرنے والی کارروائی (وو وی) پر عمل کرنا، ایسی کوئی چیز نہیں ہے جس پر حکومت نہ ہو۔"
+      }
+    },
+    {
+      "id": "tao_chapter_4",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 4: El Manantial Inagotable del Tao",
+      "capituloNumero": 4,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "道沖，而用之或不盈。淵兮，似萬物之宗；湛兮，似或存。吾不知誰之子，象帝之先。",
+      "foneticaLiturgica": "Dào chōng, ér yòng zhī huò bù yíng. Yuān xī, sì wànwù zhī zōng; cuò qí ruì, jiě qí fēn...",
+      "traducciones": {
+        "ur": "1. تاؤ ایک خالی برتن کی طرح ہے، پھر بھی استعمال ہونے کے دوران یہ کبھی نہیں نکلتا۔ کتنا گہرا اور ناقابل فہم، تمام چیزوں کا پرائمری اجداد!\n2. یہ تمام نفاست کو کند کر دیتا ہے، تمام گرہیں کھول دیتا ہے، اس کی چمک کو کم کر دیتا ہے، اور دنیا کی خاک سے ہم آہنگ ہو جاتا ہے۔\n3. اب بھی اور گہرا، یہ ہمیشہ برقرار رہتا ہے۔ ایسا لگتا ہے کہ یہ تخلیق کے خود مختار رب سے پہلے ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_5",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 5: El Fuelle Celestial y la Imparcialidad",
+      "capituloNumero": 5,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天地不仁，以萬物為芻狗；聖人不仁，以百姓為芻狗。天地之間，其猶橐籥乎？虛而不屈，動而愈出。多言數窮，不如守中。",
+      "foneticaLiturgica": "Tiāndì bù rén, yǐ wànwù wéi chú gǒu; shèngrén bù rén, yǐ bǎixìng wéi chú gǒu...",
+      "traducciones": {
+        "ur": "1. آسمان اور زمین غیر جانبدار ہیں، تمام چیزوں کے بارے میں پرسکون مساوات کے ساتھ۔ بابا غیر جانبدار ہے، تمام مخلوقات کو بغیر کسی لگاؤ ​​کے گلے لگاتا ہے۔\n2. آسمان اور زمین کے درمیان خلا آسمانی جھنکار کی طرح ہے: خالی لیکن کبھی نہیں ٹوٹا، یہ جتنا زیادہ حرکت کرتا ہے، زندگی کے مسائل اتنے ہی زیادہ ہوتے ہیں۔\n3. بہت سے الفاظ جلدی تھکن کا باعث بنتے ہیں۔ بہتر یہ ہے کہ مرکز میں رہیں اور خاموشی کی حفاظت کریں۔"
+      }
+    },
+    {
+      "id": "tao_chapter_6",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 6: El Valle Misterioso y la Raíz Inmortal",
+      "capituloNumero": 6,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-2",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "谷神不死，是謂玄牝。玄牝之門，是謂天地根。綿綿若存，用之不勤。",
+      "foneticaLiturgica": "Gǔ shén bù sǐ, shì wèi xuán pìn. Xuán pìn zhī mén, shì wèi tiāndì gēn. Miánmián ruò cún...",
+      "traducciones": {
+        "ur": "1. وادی کی روح کبھی نہیں مرتی؛ اسے صوفیانہ ماں کہا جاتا ہے۔ صوفیانہ ماں کا گیٹ وے آسمان اور زمین کی جڑ ہے۔\n2. مسلسل اور لطیف، یہ ہمیشہ قائم رہتا ہے۔ اسے اپنی مرضی کے مطابق استعمال کریں، یہ کبھی ناکام نہیں ہوتا اور نہ ہی تھکتا ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_7",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 7: La Perennidad del Cielo y el Desinterés del Sabio",
+      "capituloNumero": 7,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天長地久。天地所以能長且久者，以其不自生，故能長生。是以聖人後其身而身先；外其身而身存。非以其無私邪？故能成其私。",
+      "foneticaLiturgica": "Tiān cháng dì jiǔ. Tiāndì suǒyǐ néng cháng qiě jiǔ zhě, yǐ qí bù zì shēng, gù néng cháng shēng...",
+      "traducciones": {
+        "ur": "1. جنت پائیدار ہے اور زمین لازوال ہے۔ وہ برداشت کرتے ہیں کیونکہ وہ اپنے لیے نہیں جیتے۔ لہذا وہ طویل عرصے تک زندہ رہ سکتے ہیں.\n2. اس طرح بابا اپنے ہی شخص کو پیچھے رکھتا ہے، لیکن خود کو آگے پاتا ہے۔ اپنے شخص سے الگ ہو جاتا ہے، پھر بھی اس کا حقیقی نفس محفوظ رہتا ہے۔\n3. کیا اس کی بے لوثی سے اس کی اعلیٰ ترین تکمیل کا احساس نہیں ہوتا؟"
+      }
+    },
+    {
+      "id": "tao_chapter_8",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 8: La Bondad Suprema como el Agua",
+      "capituloNumero": 8,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "上善若水。水善利萬物而不爭，處衆人之所惡，故幾於道。居善地，心善淵，與善仁，言善信，政善治，事善能，動善時。夫唯不爭，故無尤。",
+      "foneticaLiturgica": "Shàng shàn ruò shuǐ. Shuǐ shàn lì wànwù ér bù zhēng, chù zhòngrén zhī suǒ è, gù jǐ yú Dào...",
+      "traducciones": {
+        "ur": "1. سب سے زیادہ نیکی پانی کی طرح ہے۔ پانی تمام دس ہزار چیزوں کو فائدہ پہنچاتا ہے بغیر کوشش کے، ایسی جگہوں پر آباد ہونا جنہیں لوگ حقیر سمجھتے ہیں۔ اس لیے یہ تاؤ کے قریب ہے۔\n2. رہائش میں، زمین کے قریب رہیں؛ دل میں، گہرائی کاشت دوستی میں، مہربانی دکھائیں۔ لفظوں میں سچ بولو حکومت میں، امن برقرار رکھنا؛ کام میں، مہارت دکھائیں؛ عمل میں، صحیح وقت کا انتخاب کریں.\n3. کیونکہ یہ کبھی جھگڑا نہیں کرتا، یہ تمام عیب سے پاک ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_9",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 9: La Moderación y el Retiro Oportuno",
+      "capituloNumero": 9,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "持而盈之，不如其已；揣而銳之，不可長保。金玉滿堂，莫之能守；富貴而驕，自遺其咎。功遂身退，天之道也。",
+      "foneticaLiturgica": "Chí ér yíng zhī, bùrú qí yǐ; chuǎi ér ruì zhī, bùkě cháng bǎo...",
+      "traducciones": {
+        "ur": "1. کپ کو کنارے پر رکھنا اور بھرنا اتنا اچھا نہیں جتنا وقت پر رکنا؛ بلیڈ کو انتہائی نفاست تک تیز کرنا یقینی بناتا ہے کہ یہ زیادہ دیر تک برداشت نہیں کر سکتا۔\n2. سونے اور جیڈ سے بھرے ہال کی حفاظت نہیں کی جا سکتی۔ دولت اور عزت سے پیدا ہونے والا تکبر اپنی تباہی کا باعث بنتا ہے۔\n3. کام مکمل کرنا اور خاموشی سے پیچھے ہٹنا: یہ جنت کا راستہ ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_10",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 10: La Unidad del Alma y el Poder de la Virtud Secreta",
+      "capituloNumero": 10,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "載營魄抱一，能無離乎？專氣致柔，能如嬰兒乎？滌除玄覽，能無疵乎？愛國治民，能無為乎？天門開闔，能為雌乎？明白四達，能無知乎？生之畜之，生而弗有，為而弗恃，長而弗宰，是謂玄德。",
+      "foneticaLiturgica": "Zǎi yíng pò bào yī, néng wú lí hū? Zhuān qì zhì róu, néng rú yīng'ér hū?...",
+      "traducciones": {
+        "ur": "1. روح اور جسم میں اتحاد کو اپناتے ہوئے، کیا آپ غیر منقسم رہ سکتے ہیں؟ اہم سانس (Qi) جمع کرنے اور نرمی حاصل کرنے میں، کیا آپ نوزائیدہ بچے کی طرح بن سکتے ہیں؟\n2. ذہن کے صوفیانہ آئینہ کو صاف کرنے میں، کیا آپ اسے داغ کے بغیر چھوڑ سکتے ہیں؟ لوگوں سے محبت کرنے اور حکومت کرنے میں، کیا آپ غیر زبردستی عمل کی مشق کر سکتے ہیں؟\n3. جنت کے دروازے کھولنے اور بند کرنے میں، کیا آپ قبول کرنے والی نسائی کے طور پر قائم رہ سکتی ہیں؟ تمام جہانوں کو روشن کرنے میں، کیا آپ مکر و فریب سے پاک رہ سکتے ہیں؟\n4. زندگی دینا اور پرورش دینا، بغیر ملکیت کے پیدا کرنا، تعریف کے بغیر کام کرنا، غلبہ حاصل کیے بغیر قیادت کرنا: یہ پراسرار خوبی ہے (Xuan De)۔"
+      }
+    },
+    {
+      "id": "tao_chapter_11",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 11: La Utilidad de lo No Existente y el Vacío",
+      "capituloNumero": 11,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "三十輻，共一轂，當其無，有車之用。埏埴以為器，當其無，有器之用。鑿戶牖以為室，當其無，有室之用。故有之以為利，無之以為用。",
+      "foneticaLiturgica": "Sānshí fú gòng yī gǔ, dāng qí wú, yǒu chē zhī yòng...",
+      "traducciones": {
+        "ur": "1. تیس سپوکس ایک پہیے کے مرکز میں ملتے ہیں، لیکن یہ اس کے مرکزی سوراخ پر ہے جس پر کارٹ کا استعمال منحصر ہے۔\n2. مٹی کو برتنوں میں بنایا جاتا ہے، لیکن یہ ان کی خالی جگہ پر برتن کے استعمال پر منحصر ہے۔\n3. ایک کمرہ بنانے کے لیے دروازے اور کھڑکیاں کاٹ دی جاتی ہیں، لیکن اس کی خالی جگہ پر کمرے کے استعمال کا انحصار ہوتا ہے۔ اس لیے جو چیز ہے وہ فائدہ دیتی ہے لیکن جو نہیں ہے وہ حقیقی افادیت فراہم کرتی ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_12",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 12: La Moderación de los Sentidos",
+      "capituloNumero": 12,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "五色令人目盲；五音令人耳聾；五味令人口爽；馳騁畋獵，令人心發狂；難得之貨，令人行妨。是以聖人為腹不為目，故去彼取此。",
+      "foneticaLiturgica": "Wǔ sè lìng rén mù máng; wǔ yīn lìng rén ěr lóng; wǔ wèi lìng rén kǒu shuǎng...",
+      "traducciones": {
+        "ur": "1. پانچ رنگ انسانی آنکھ کو اندھا کر دیتے ہیں۔ پانچ میوزیکل نوٹ انسانی کان کو بہرا کر دیتے ہیں۔ پانچ ذائقے انسانی تالو کو پھیکا کر دیتے ہیں۔\n2. دوڑ اور شکار دماغ کو جنون میں ڈال دیتے ہیں۔ نایاب خزانے نیک عمل میں رکاوٹ ہیں۔\n3. اس لیے بابا اندرونی پیٹ کی طرف توجہ کرتا ہے نہ کہ لمحاتی آنکھوں کی طرف۔ وہ بیرونی کو ترک کر دیتا ہے اور ضروری باطن کو اپناتا ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_13",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 13: La Calma ante el Honor y la Desgracia",
+      "capituloNumero": 13,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "寵辱若驚，貴大患若身。何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。何謂貴大患若身？吾所以有大患者，為吾有身，及吾無身，吾有何患？故貴以身為天下，若可寄天下；愛以身為天下，若可託天下。",
+      "foneticaLiturgica": "Chǒng rǔ ruò jīng, guì dà huàn ruò shēn...",
+      "traducciones": {
+        "ur": "1. احسان اور رسوائی پریشانی کا باعث بنتی ہے۔ عظیم مصیبت کو اپنے جسم کی طرح سمجھا جاتا ہے۔\n2. احسان اور ذلت کیوں پریشانی کا باعث ہے؟ احسان ناگزیر ہے: اسے حاصل کرنا خوف لاتا ہے، اسے کھونا خوف لاتا ہے۔ مصیبت جسم کی مانند کیوں ہے؟ ہمیں تکلیفیں ہوتی ہیں کیونکہ ہم اپنے الگ نفس سے چمٹے رہتے ہیں۔ اگر ہم میں خود غرضی نہ ہو تو کون سی مصیبت ہمیں چھو سکتی ہے؟\n3. جو دنیا کو اپنے نفس کی طرح پالتا ہے اسے دنیا کے سپرد کیا جا سکتا ہے۔ وہ جو دنیا سے اپنے شخص کی طرح محبت کرتا ہے اسے آسمان کے نیچے سب کی سرپرستی دی جا سکتی ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_14",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 14: La Manifestación del Misterio Invisible e Inaudible",
+      "capituloNumero": 14,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "視之不見，名曰夷；聽之不聞，名曰希；搏之不得，名曰微。此三者不可致詰，故混而為一。其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，是謂惚恍。迎之不見其首，隨之不見其後。執古之道，以御今之有。能知古始，是謂道紀。",
+      "foneticaLiturgica": "Shì zhī bù jiàn, míng yuē Yí; tīng zhī bù wén, míng yuē Xī; bó zhī bù dé, míng yuē Wēi...",
+      "traducciones": {
+        "ur": "1. دیکھا لیکن نہیں دیکھا، اسے پوشیدہ (Yi) کا نام دیا گیا ہے۔ سنا لیکن سنا نہیں، اسے ناقابل سماعت (Xi) کا نام دیا گیا ہے۔ پر پکڑا گیا لیکن پکڑا نہیں گیا، اسے Impalpable (وی) کا نام دیا گیا ہے۔\n2. ان تینوں کی مزید جانچ نہیں کی جا سکتی۔ اس لیے وہ ایک مکمل میں گھل مل جاتے ہیں۔ اس کا اوپری حصہ روشن نہیں ہے، اور اس کا نچلا حصہ سیاہ نہیں ہے۔\n3. اپنے مسلسل عمل میں لامتناہی، اس کا نام نہیں لیا جا سکتا، ہمیشہ عدم کے دائرے میں واپس آ جاتا ہے۔ یہ بے شکل کی شکل ہے، بے تصویر کی تصویر ہے، پراسرار اور پراسرار ہے۔\n4. اس سے ملیں اور آپ کو کوئی سامنے نظر نہیں آئے گا۔ اس کی پیروی کریں اور آپ کو کوئی پیچھے نظر نہیں آئے گا۔ موجودہ کے معاملات کو سنبھالنے کے لیے قدیم تاؤ کو مضبوطی سے تھامے رکھیں، ابتدائی آغاز کو جانتے ہوئے: یہ تاؤ کا دھاگہ ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_15",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 15: Las Virtudes Prístinas de los Antiguos Maestros",
+      "capituloNumero": 15,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "古之善為士者，微妙玄通，深不可識。夫唯不可識，故強為之容：豫兮若冬涉川；猶兮若畏四鄰；儼兮其若客；渙兮若冰之將釋；敦兮其若樸；曠兮其若谷；混兮其若濁；孰能濁以靜之徐清？孰能安以動之徐生？保此道者，不欲盈。夫唯不盈，故能蔽而新成。",
+      "foneticaLiturgica": "Gǔ zhī shàn wéi shì zhě, wēimiào xuántōng, shēn bùkě shí...",
+      "traducciones": {
+        "ur": "1. قدیم دور کے ہنر مند ماہر لطیف، پراسرار اور گہری سمجھ بوجھ رکھنے والے تھے، جو مکمل طور پر سمجھنے کے قابل نہیں تھے۔\n2. چونکہ وہ ناقابلِ فہم تھے، اس لیے ہم صرف ان کی شکل ہی بیان کر سکتے ہیں: محتاط، جیسے مرد موسم سرما کی ندی کو عبور کرتے ہیں۔ چوکنا، گویا خطرات سے گھرا ہوا ہے۔ باوقار، جیسے کوئی رسمی دورہ کر رہا ہو۔\n3. پیداوار، جیسے برف پگھلنا شروع ہو جاتی ہے۔ سادہ، کھدی ہوئی لکڑی کی طرح؛ قابل قبول، ایک وسیع وادی کی طرح؛ پرسکون، پرسکون پانی کی طرح.\n4. گدلے پانی کو کون صاف کر سکتا ہے؟ اسے خاموشی میں رہنے دو، اور وہ پاک ہو جاتا ہے۔ کون فعال زندگی میں سکون لا سکتا ہے؟ اسے آہستہ سے چلنے دو، اور یہ کھلتا ہے۔ جو لوگ تاؤ کو پکڑتے ہیں وہ مکمل ہونے کی تلاش نہیں کرتے، اور نامکمل ہونے کی وجہ سے وہ ہمیشہ تجدید ہوتے رہتے ہیں۔"
+      }
+    },
+    {
+      "id": "tao_chapter_16",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 16: El Retorno a la Raíz y la Quietud Eterna",
+      "capituloNumero": 16,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "致虛極，守靜篤。萬物並作，吾以觀復。夫物芸芸，各復歸其根。歸根曰靜，靜曰復命。復命曰常，知常曰明。不知常，妄作凶。知常容，容乃公，公乃全，全乃天，天乃道，道乃久，沒身不殆。",
+      "foneticaLiturgica": "Zhì xū jí, shǒu jìng dǔ. Wànwù bìng zuò, wú yǐ guān fù...",
+      "traducciones": {
+        "ur": "1. انتہائی خالی پن کو حاصل کرنا؛ خاموشی پر ثابت قدم رہو.\n2. تمام چیزیں ایک ساتھ پروان چڑھتی ہیں، اور میں انہیں ان کی اصل کی طرف لوٹتے ہوئے دیکھتا ہوں۔ لاتعداد مخلوقات جنم لیتے ہیں، اور ہر ایک اپنی اصل جڑ کی طرف لوٹتا ہے۔ جڑ کی طرف لوٹنا خاموشی کہلاتا ہے۔ خاموشی کو اپنی تقدیر کی تکمیل کہتے ہیں۔\n3. ابدی کو جاننا روشن خیالی ہے۔ ابدی کو نظر انداز کرنا آنکھ بند کر کے کام کرنا اور عدالتی تباہی ہے۔ ابدی کو جاننا رواداری، غیر جانبداری، شرافت، جنت کے ساتھ وحدانیت اور تاؤ کے ساتھ اتحاد کی طرف لے جاتا ہے۔ لازوال، موت میں بھی کسی کو خطرہ نہیں ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_17",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 17: El Arte Supremo del Gobierno Invisible",
+      "capituloNumero": 17,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "太上，不知有之；其次，親而譽之；其次，畏之；其次，侮之。信不足焉，有不信焉。悠兮其貴言。功成事遂，百姓皆謂：我自然。",
+      "foneticaLiturgica": "Tài shàng, bù zhī yǒu zhī; qícì, qīn ér yù zhī; qícì, wèi zhī; qícì, wǔ zhī...",
+      "traducciones": {
+        "ur": "1. سب سے بڑے حکمرانوں کے ساتھ، لوگ شاید ہی جانتے ہوں کہ وہ موجود ہیں۔ آگے وہ لوگ آتے ہیں جن سے وہ پیار کرتے ہیں اور ان کی تعریف کرتے ہیں۔ آگے وہ آتے ہیں جن سے وہ ڈرتے ہیں۔ آگے وہ لوگ آتے ہیں جن کو وہ حقیر سمجھتے ہیں۔\n2. جب بھروسہ ناکافی ہے تو بدلے میں کوئی بھروسہ نہیں ہوگا۔\n3. بابائے حکمران کے الفاظ کتنے قابل قدر ہیں! جب کام پورا ہو جاتا ہے اور معاملات کامیاب ہو جاتے ہیں تو سب لوگ کہتے ہیں: 'ہم نے قدرتی طور پر خود کیا۔'"
+      }
+    },
+    {
+      "id": "tao_chapter_18",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 18: La Decadencia de la Gran Vía y el Artificio",
+      "capituloNumero": 18,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-2",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "大道廢，有仁義；智慧出，有大偽；六親不和，有孝慈；國家昏亂，有忠臣。",
+      "foneticaLiturgica": "Dà Dào fèi, yǒu rényì; zhìhuì chū, yǒu dà wěi; liùqīn bù hé, yǒu xiàocí; guójiā hūnluàn, yǒu zhōngchén.",
+      "traducciones": {
+        "ur": "1. جب عظیم تاؤ استعمال میں آتا ہے، احسان اور راستبازی ظاہر ہوتی ہے۔ جب دنیاوی چالاکی پیدا ہوتی ہے تو بڑی منافقت سامنے آتی ہے۔\n2. جب خاندانی ہم آہنگی ناکام ہو جاتی ہے، تو تقویٰ اور زچگی کی محبت کا مطالبہ کیا جاتا ہے۔ جب ریاست انتشار کا شکار ہوتی ہے تو وفادار وزراء کو منایا جاتا ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_19",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 19: El Retorno a la Sencillez y la Pureza",
+      "capituloNumero": 19,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "絕聖棄智，民利百倍；絕仁棄義，民復孝慈；絕巧棄利，盜賊無有。此三者以為文，不足。故令有所屬：見素抱樸，少私寡欲，絕學無憂。",
+      "foneticaLiturgica": "Jué shèng qì zhì, mín lì bǎi bèi; jué rén qì yì, mín fù xiàocí...",
+      "traducciones": {
+        "ur": "1. تقدس اور چالاکی کے دکھاوے کو ترک کر دو، لوگوں کو سو گنا فائدہ ہو گا۔ جبری اخلاقیات کو ترک کر دیں، اور لوگ فطری محبت کی طرف لوٹ جائیں گے۔ لالچ اور منافع کو ترک کر دو، اور چور نابود ہو جائیں گے۔\n2. یہ تینوں دعوے محض زینت ہیں اور اپنی ذات میں ناکافی ہیں۔\n3. اس لیے لوگوں کو جو حقیقی ہے اسے پکڑنے دیں: سادگی کا مظاہرہ کریں، سادگی کو اپنائیں، خود غرضی کو کم کریں، اور خواہشات کو روکیں۔"
+      }
+    },
+    {
+      "id": "tao_chapter_20",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 20: El Sabio en Aparente Soledad y Diferencia",
+      "capituloNumero": 20,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "唯之與阿，相去幾何？美之與惡，相去若何？人之所畏，不可不畏。荒兮，其未央哉！衆人熙熙，如享太牢，如春登臺。我獨泊兮，其未兆；沌沌兮，如嬰兒之未孩；儽儽兮，若無所歸。衆人皆有餘，而我獨若遺。我愚人之心也哉！俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮其若海，飂兮若無止。衆人皆有以，而我獨頑且鄙。我獨異於人，而貴食母。",
+      "foneticaLiturgica": "Jué xué wú yōu. Wéi zhī yǔ ē, xiāng qù jǐ hé? Měi zhī yǔ è, xiāng qù ruò hé?...",
+      "traducciones": {
+        "ur": "1. سطحی تعلیم سے باز رہو اور غم سے پاک رہو۔ ہاں اور ناں میں کیا فرق ہے؟ اچھائی اور برائی میں کیا فرق ہے؟\n2. ہجوم خوش اور جشن منانے والے ہیں، جیسے کہ ایک عظیم دعوت سے لطف اندوز ہو رہے ہوں یا موسم بہار میں چھت پر چڑھ رہے ہوں۔ میں اکیلا ساکن اور بے ہنگم ہوں، ایک نوزائیدہ بچے کی طرح اس سے پہلے کہ اس نے مسکرانا سیکھ لیا ہو، اس طرح بھاگتا ہوں جیسے کوئی گھر نہ ہو۔\n3. تمام مردوں کے پاس بہت کچھ ہے، جبکہ مجھے اکیلے کی کمی محسوس ہوتی ہے۔ میرا دماغ سادہ اور پرسکون ہے۔ دنیاوی مرد روشن اور جارح ہیں؛ میں اکیلا خاموش اور محفوظ ہوں۔\n4. سمندر کی طرح وسیع، لامحدود ہوا کی طرح گھومنا۔ تمام مردوں کی اپنی سرگرمیاں ہیں؛ میں اکیلا بے ہنگم دکھائی دیتا ہوں۔ میں دوسرے مردوں سے مختلف ہوں کیونکہ میں تمام زندگی کی ماں سے پرورش کی تلاش میں انعام حاصل کرتا ہوں۔"
+      }
+    },
+    {
+      "id": "tao_chapter_21",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 21: El Corazón del Tao y la Esencia Verdadera",
+      "capituloNumero": 21,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "孔德之容，唯道是從。道之為物，唯恍唯惚。惚兮恍兮，其中有象；恍兮惚兮，其中有物。窈兮冥兮，其中有精；其精甚真，其中有信。自古及今，其名不去，以閱衆甫。吾何以知衆甫之狀哉？以此。",
+      "foneticaLiturgica": "Kǒng dé zhī róng, wéi Dào shì cóng. Dào zhī wéi wù, wéi huǎng wéi hū...",
+      "traducciones": {
+        "ur": "1. فعال فضیلت کی عظیم ترین شکلیں صرف تاؤ سے نکلتی ہیں۔\n2. تاؤ ایک ہستی کے طور پر مضحکہ خیز اور ناقابل فہم ہے۔ پراسرار اور ناقابل فہم، پھر بھی اس کے اندر شکلیں ہیں۔ سایہ دار اور تاریک، پھر بھی اس کے اندر اہم جوہر ہے۔\n3. زمانہ قدیم سے لے کر اب تک اس کا نام کبھی ختم نہیں ہوا۔ اس کے ذریعے ہم تمام تخلیق کی ابتدا کو سمجھتے ہیں۔"
+      }
+    },
+    {
+      "id": "tao_chapter_22",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 22: La Plenitud en la Humildad y la Entrega",
+      "capituloNumero": 22,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。是以聖人抱一為天下式。不自見，故明；不自是，故彰；不自伐，故有功；不自矜，故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。",
+      "foneticaLiturgica": "Qū zé quán, wǎng zé zhí, wā zé yíng, bì zé xīn...",
+      "traducciones": {
+        "ur": "1. حاصل کریں اور آپ مکمل ہو جائیں گے؛ جھک جاؤ اور تم سیدھا ہو جاؤ گے۔ کھوکھلا رہو اور تم بھر جاؤ گے۔ ختم ہو جائے گا اور آپ کو تجدید کیا جائے گا.\n2. اس لیے بابا دنیا کے لیے نمونہ کے طور پر ایک کو قبول کرتا ہے۔ وہ دکھاوا نہیں کرتا، اس لیے چمکتا ہے۔ وہ اپنے آپ کو راستباز نہیں ٹھہراتا، اس لیے وہ عزت دار ہے۔ وہ فخر نہیں کرتا، اس لیے اس کی خوبی پہچانی جاتی ہے۔ وہ مغرور نہیں ہے، اس لیے وہ برداشت کرتا ہے۔\n3. کیونکہ وہ کسی سے جھگڑا نہیں کرتا، اس لیے دنیا میں کوئی بھی اس سے جھگڑا نہیں کر سکتا۔"
+      }
+    },
+    {
+      "id": "tao_chapter_23",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 23: La Moderación en las Palabras y la Unión con el Tao",
+      "capituloNumero": 23,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "希言自然。故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？故從事於道者，同於道；德者，同於德；失者，同於失。同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。信不足焉，有不信焉。",
+      "foneticaLiturgica": "Xī yán zìrán. Gù piāofēng bù zhōng zhāo, zhòuyǔ bù zhōng rì...",
+      "traducciones": {
+        "ur": "1. کم بولنا فطری ہے۔ تیز ہوا ساری صبح نہیں چلتی۔ ایک طوفانی بارش سارا دن نہیں رہتی۔\n2. یہ کون پیدا کرتا ہے؟ آسمان اور زمین۔ اگر زمین و آسمان بھی انتہا کو برداشت نہیں کر سکتے تو انسان کتنا کم ہو سکتا ہے؟\n3. جو تاؤ کے مطابق ہوتا ہے اس کا تاؤ خوشی سے استقبال کرتا ہے۔ جو شخص فضیلت کے مطابق ہوتا ہے اس کا خیر مقدم کیا جاتا ہے۔ عالمگیر ہم آہنگی پر گہرا بھروسہ کریں۔"
+      }
+    },
+    {
+      "id": "tao_chapter_24",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 24: La Vana Ostentación y el Orgullo Inútil",
+      "capituloNumero": 24,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "企者不立；跨者不行；自見者不明；自是者不彰；自伐者無功；自矜者不長。其在道也，曰：餘食贅形。物或惡之，故有道者不處。",
+      "foneticaLiturgica": "Qǐ zhě bù lì; kuà zhě bù xíng; zì jiàn zhě bù míng...",
+      "traducciones": {
+        "ur": "1. جو ٹپٹو پر کھڑا ہے وہ ثابت قدم نہیں رہ سکتا۔ جو چوڑے قدموں سے چلتا ہے وہ دور تک نہیں چل سکتا۔\n2. جو اپنے آپ کو ظاہر کرتا ہے وہ چمکتا نہیں ہے؛ جو اپنے آپ کو راستباز ٹھہراتا ہے وہ روشن خیال نہیں ہے۔ جو گھمنڈ کرتا ہے اُس کا کوئی حق نہیں ہے۔ جو مغرور ہے وہ برداشت نہیں کر سکتا۔\n3. تاؤ کے نقطہ نظر سے، یہ کھانے کی باقیات اور بدصورت اخراج کی طرح ہیں۔ اس لیے تاؤ کا پیروکار ان سے اجتناب کرتا ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_25",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 25: La Grandeza del Cosmos y la Matriz Primordial",
+      "capituloNumero": 25,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "有物混成，先天地生。寂兮寥兮，獨立而不改，周行而不殆，可以為天地母。吾不知其名，強字之曰道，強為之名曰大。大曰逝，逝曰遠，遠曰反。故道大，天大，地大，人亦大。域中有四大，而人居其一焉。人法地，地法天，天法道，道法自然。",
+      "foneticaLiturgica": "Yǒu wù hùnchéng, xiān tiāndì shēng. Jì xī liáo xī, dúlì ér bù gǎi...",
+      "traducciones": {
+        "ur": "1. کوئی بے شکل لیکن مکمل، آسمان اور زمین سے پہلے پیدا ہوا تھا۔\n2. خاموش اور باطل، تنہا اور غیر متغیر، ہر جگہ بغیر تھکن کے کام کرنے والی، اسے دنیا کی ماں کہا جا سکتا ہے۔ میں اس کا نام نہیں جانتا؛ میں اسے تاؤ کہتا ہوں۔ اگر اسے بیان کرنے پر مجبور کیا جائے تو میں اسے عظیم کہتا ہوں۔\n3. عظیم ہونے کی وجہ سے یہ بہتا ہے۔ بہتا ہے، یہ دور تک پھیلا ہوا ہے۔ دور تک پھیلا ہوا ہے، یہ ماخذ پر واپس آجاتا ہے۔\n4. اس لیے تاؤ عظیم ہے، جنت عظیم ہے، زمین عظیم ہے، اور انسانیت عظیم ہے۔ انسان زمین سے مطابقت رکھتا ہے۔ زمین آسمان سے مطابقت رکھتی ہے۔ جنت تاؤ کے مطابق ہے؛ اور تاؤ فطرت (زیران) کے مطابق ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_26",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 26: La Gravedad como Raíz de la Ligereza",
+      "capituloNumero": 26,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "重為輕根，靜為躁君。是以君子終日行不離輜重。雖有榮觀，燕處超然。奈何萬乘之主，而以身輕天下？輕則失根，躁則失君。",
+      "foneticaLiturgica": "Dàodéjīng Dì 26 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 26:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 26:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 26:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_27",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 27: La Destreza Sublime sin Dejar Huella",
+      "capituloNumero": 27,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "善行無轍跡，善言無瑕謫；善數不用籌策；善閉無關楗而不可開，善結無繩約而不可解。是以聖人常善救人，故無棄人；常善救物，故無棄物。是謂襲明。故善人者，不善人之師；不善人者，善人之資。不貴其師，不愛其資，雖智大迷，是謂要妙。",
+      "foneticaLiturgica": "Dàodéjīng Dì 27 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 27:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 27:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 27:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_28",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 28: Retornar a la Condición del Infante y del Valle",
+      "capituloNumero": 28,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "知其雄，守其雌，為天下谿。為天下谿，恆德不離，復歸於嬰兒。知其白，守其黑，為天下式。為天下式，恆德不忒，復歸於無極。知其榮，守其辱，為天下谷。為天下谷，恆德乃足，復歸於樸。樸散則為器，聖人用之，則為官長，故大制不割。",
+      "foneticaLiturgica": "Dàodéjīng Dì 28 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 28:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 28:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 28:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_29",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 29: El Cuidado Sagrado del Universo sin Tratar de Forzarlo",
+      "capituloNumero": 29,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "將欲取天下而為之，吾見其不得已。天下神器，不可為也，不可執也。為者敗之，執者失之。是以聖人無為，故無敗；無執，故無失。夫物或行或隨；或噓或吹；或強或羸；或載或隳。是以聖人去甚，去奢，去泰。",
+      "foneticaLiturgica": "Dàodéjīng Dì 29 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 29:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 29:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 29:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_30",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 30: La Advertencia contra el Uso de la Fuerza y la Violencia",
+      "capituloNumero": 30,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "以道佐人主者，不以兵強天下。其事好還。師之所處，荊棘生焉。大軍之後，必有兇年。善有果而已，不敢以取強。果而勿矜，果而勿伐，果而勿驕。果而不得已，果而勿強。物壯則老，是謂不道，不道早已。",
+      "foneticaLiturgica": "Dàodéjīng Dì 30 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 30:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 30:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 30:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_31",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 31: Las Armas como Instrumentos de Desgracia",
+      "capituloNumero": 31,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "夫佳兵者，不祥之器，物或惡之，故有道者不處。君子居則貴左，用兵則貴右。兵者不祥之器，非君子之器，不得已而用之，恬淡為上。勝而不美，而美之者，是樂殺人。夫樂殺人者，則不可得志於天下矣。吉事尚左，凶事尚右。偏將軍居左，上將軍居右，言以喪禮處之。殺人之衆，以悲哀泣之，戰勝以喪禮處之。",
+      "foneticaLiturgica": "Dàodéjīng Dì 31 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 31:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 31:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 31:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_32",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 32: El Tao Innombrable y el Rocío Dulce de la Paz",
+      "capituloNumero": 32,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "道常無名、樸。雖小，天下莫能臣。侯王若能守之，萬物將自賓。天地相合，以降甘露，民莫之令而自均。始制有名，名亦既有，夫亦將知止，知止所以不殆。譬道之在天下，猶川谷之於江海。",
+      "foneticaLiturgica": "Dàodéjīng Dì 32 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 32:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 32:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 32:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_33",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 33: El Autoconocimiento y la Verdadera Fuerza Interior",
+      "capituloNumero": 33,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "知人者智，自知者明。勝人者有力，自勝者強。知足者富。強行者有志。不失其所者久。死而不亡者壽。",
+      "foneticaLiturgica": "Dàodéjīng Dì 33 Zhāng...",
+      "traducciones": {
+        "ur": "1. جو دوسروں کو جانتا ہے وہ عقلمند ہے۔ جو اپنے آپ کو جانتا ہے وہ روشن خیال ہے۔\n2. جو دوسروں کو فتح کرتا ہے وہ جسمانی طاقت رکھتا ہے۔ جو اپنے آپ کو فتح کرتا ہے وہ واقعی طاقتور ہے۔\n3. جو قناعت کو جانتا ہے وہ امیر ہے۔ جو ہلاک ہوئے بغیر مر جاتا ہے وہ حقیقی امر پاتا ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_34",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 34: La Grandeza del Tao que Nutre a Todos sin Dominar",
+      "capituloNumero": 34,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "大道氾兮，其可左右。萬物恃之以生而弗辭，功成而不名有。衣養萬物而弗為主，常無欲，可名於小；萬物歸焉而弗為主，可名為大。以其終不自為大，故能成其大。",
+      "foneticaLiturgica": "Dàodéjīng Dì 34 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 34:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 34:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 34:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_35",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 35: La Gran Imagen de Paz que Atrae al Mundo",
+      "capituloNumero": 35,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "執大象，天下往。往而不害，安平太。樂與餌，過客止。道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。",
+      "foneticaLiturgica": "Dàodéjīng Dì 35 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 35:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 35:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 35:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_36",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 36: La Transformación Sutil: Lo Débil Vence a lo Fuerte",
+      "capituloNumero": 36,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "將欲歙之，必固張之；將欲弱之，必固強之；將欲廢之，必固興之；將欲取之，必固與之。是謂微明。柔弱勝剛強。魚不可脫於淵，國之利器不可以示人。",
+      "foneticaLiturgica": "Dàodéjīng Dì 36 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 36:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 36:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 36:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_37",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 37: El No-Hacer que Todo lo Transforma en Armonía",
+      "capituloNumero": 37,
+      "seccion": "Daojing · El Libro de la Vía",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "道常無為而無不為。侯王若能守之，萬物將自化。化而欲作，吾將鎮之以無名之樸。鎮之以無名之樸，夫亦將無欲。不欲以靜，天下將自定。",
+      "foneticaLiturgica": "Dàodéjīng Dì 37 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 37:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 37:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 37:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_38",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 38: La Virtud Superior y el Desprendimiento",
+      "capituloNumero": 38,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "上德不德，是以有德；下德不失德，是以無德。上德無為而無以為；下德無為而有以為。上仁為之而無以為；上義為之而有以為。上禮為之而莫之應，則攘臂而扔之。故失道而後德，失德而後仁，失仁而後義，失義而後禮。夫禮者，忠信之薄，而亂之首。前識者，道之華，而愚之始。是以大丈夫處其厚，不居其薄；處其實，不居其華。故去彼取此。",
+      "foneticaLiturgica": "Dàodéjīng Dì 38 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 38:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 38:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 38:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_39",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 39: Capítulo 39: La Sabiduría del Tao y la Virtud Serena (Capítulo 39)",
+      "capituloNumero": 39,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "昔之得一者：天得一以清；地得一以寧；神得一以靈；谷得一以盈；萬物得一以生；侯王得一以為天下正。其致之也，謂天無以清，將恐裂；地無以寧，將恐廢；神無以靈，將恐歇；谷無以盈，將恐竭；萬物無以生，將恐滅；侯王無以正，將恐蹶。故貴以賤為本，高以下為基。是以侯王自謂孤、寡、不穀。此非以賤為本邪？非乎？故致譽無譽。是故不欲琭琭如玉，珞珞如石。",
+      "foneticaLiturgica": "Dàodéjīng Dì 39 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 39:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 39:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 39:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_40",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 40: El Retorno es el Movimiento del Tao",
+      "capituloNumero": 40,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "反者道之動；弱者道之用。天下萬物生於有，有生於無。",
+      "foneticaLiturgica": "Dàodéjīng Dì 40 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 40:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 40:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 40:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_41",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 41: La Escucha del Tao y la Gran Sabiduría",
+      "capituloNumero": 41,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "上士聞道，勤而行之；中士聞道，若存若亡；下士聞道，大笑之。不笑不足以為道。故建言有之：明道若昧；進道若退；夷道若纇；上德若谷；大白若辱；廣德若不足；建德若偷；質真若渝；大方無隅；大器晚成；大音希聲；大象無形；道隱無名。夫唯道，善貸且成。",
+      "foneticaLiturgica": "Dàodéjīng Dì 41 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 41:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 41:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 41:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_42",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 42: El Uno Engendra el Dos, el Dos Engendra el Tres",
+      "capituloNumero": 42,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，唯孤、寡、不穀，而王公以為稱。故物或損之而益，或益之而損。人之所教，我亦教之。強梁者不得其死，吾將以為教父。",
+      "foneticaLiturgica": "Dàodéjīng Dì 42 Zhāng...",
+      "traducciones": {
+        "ur": "1. تاؤ نے ایک پیدا کیا۔ ایک نے دو پیدا کیے؛ دو پیدا تین؛ اور تین نے تمام دس ہزار چیزیں پیدا کیں۔\n2. تمام مخلوق ین کو اپنی پیٹھ پر اٹھائے ہوئے ہیں اور یانگ کو اپنی بانہوں میں گلے لگاتے ہیں۔ ان اہم سانسوں کو ملا کر وہ ہم آہنگ توازن حاصل کرتے ہیں۔\n3. جس چیز سے لوگ خوفزدہ ہوتے ہیں وہ ہے بے بس اور عاجزی سے، پھر بھی بابا اپنی روح کو بلند کرنے کے لیے انہی حالتوں کو اپناتا ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_43",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 43: Lo Más Blando del Mundo Penetra lo Más Duro",
+      "capituloNumero": 43,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天下之至柔，馳騁天下之至堅。無有入無間，吾是以知無為之有益。不言之教，無為之益，天下希及之。",
+      "foneticaLiturgica": "Dàodéjīng Dì 43 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 43:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 43:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 43:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_44",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 44: La Fama, la Riqueza y el Contento Interior",
+      "capituloNumero": 44,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "名與身孰親？身與貨孰多？得與亡孰病？甚愛必大費；多藏必厚亡。故知足不辱，知止不殆，可以長久。",
+      "foneticaLiturgica": "Dàodéjīng Dì 44 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 44:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 44:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 44:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_45",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 45: La Gran Perfección que Parece Incompleta",
+      "capituloNumero": 45,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "大成若缺，其用不弊。大盈若沖，其用不窮。大直若屈，大巧若拙，大辯若訥。靜勝躁，寒勝熱。清靜為天下正。",
+      "foneticaLiturgica": "Dàodéjīng Dì 45 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 45:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 45:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 45:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_46",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 46: La Moderación de los Deseos y la Calma",
+      "capituloNumero": 46,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天下有道，卻走馬以糞。天下無道，戎馬生於郊。禍莫大於不知足；咎莫大於欲得。故知足之足，常足矣。",
+      "foneticaLiturgica": "Dàodéjīng Dì 46 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 46:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 46:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 46:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_47",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 47: Conocer el Mundo sin Traspasar la Puerta",
+      "capituloNumero": 47,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "不出戶，知天下；不窺牖，見天道。其出彌遠，其知彌少。是以聖人不行而知，不見而名，不為而成。",
+      "foneticaLiturgica": "Dàodéjīng Dì 47 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 47:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 47:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 47:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_48",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 48: Disminuir Día a Día hasta el No-Actuar",
+      "capituloNumero": 48,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "為學日益，為道日損。損之又損，以至於無為。無為而無不為。取天下常以無事，及其有事，不足以取天下。",
+      "foneticaLiturgica": "Dàodéjīng Dì 48 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 48:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 48:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 48:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_49",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 49: El Corazón del Sabio y la Bondad sin Distinción",
+      "capituloNumero": 49,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "聖人常無心，以百姓心為心。善者，吾善之；不善者，吾亦善之；德善。信者，吾信之；不信者，吾亦信之；德信。聖人在天下，歙歙焉，為天下渾其心，百姓皆注其耳目，聖人皆孩之。",
+      "foneticaLiturgica": "Dàodéjīng Dì 49 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 49:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 49:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 49:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_50",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 50: El Cultivo de la Vida y la Serenidad ante la Muerte",
+      "capituloNumero": 50,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "出生入死。生之徒，十有三；死之徒，十有三；人之生，動之於死地，亦十有三。夫何故？以其生生之厚。蓋聞善攝生者，陸行不遇兕虎，入軍不被甲兵；兕無所投其角，虎無所措其爪，兵無所容其刃。夫何故？以其無死地。",
+      "foneticaLiturgica": "Dàodéjīng Dì 50 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 50:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 50:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 50:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_51",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 51: La Nutrición del Tao y la Virtud Misteriosa",
+      "capituloNumero": 51,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "道生之，德畜之，物形之，勢成之。是以萬物莫不尊道而貴德。道之尊，德之貴，夫莫之命而常自然。故道生之，德畜之；長之育之；亭之毒之；養之覆之。生而弗有，為而弗恃，長而弗宰。是謂玄德。",
+      "foneticaLiturgica": "Dàodéjīng Dì 51 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 51:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 51:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 51:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_52",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 52: El Retorno a la Madre y la Preservación de la Luz",
+      "capituloNumero": 52,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天下有始，以為天下母。既得其母，以知其子，復守其母，沒身不殆。塞其兌，閉其門，終身不勤。開其兌，濟其事，終身不救。見小曰明，守柔曰強。用其光，復歸其明，無遺身殃；是為習常。",
+      "foneticaLiturgica": "Dàodéjīng Dì 52 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 52:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 52:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 52:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_53",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 53: El Sendero Luminoso del Tao y el Rechazo a la Vanidad",
+      "capituloNumero": 53,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "使我介然有知，行於大道，唯施是畏。大道甚夷，而人好徑。朝甚除，田甚蕪，倉甚虛；服文綵，帶利劍，厭飲食，財貨有餘；是為盜夸。非道也哉！",
+      "foneticaLiturgica": "Dàodéjīng Dì 53 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 53:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 53:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 53:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_54",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 54: El Cultivo de la Virtud en uno Mismo, en el Hogar y en el Mundo",
+      "capituloNumero": 54,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "善建者不拔，善抱者不脫，子孫以祭祀不輟。修之於身，其德乃真；修之於家，其德乃餘；修之於鄉，其德乃長；修之於邦，其德乃豐；修之於天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以邦觀邦，以天下觀天下。吾何以知天下然哉？以此。",
+      "foneticaLiturgica": "Dàodéjīng Dì 54 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 54:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 54:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 54:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_55",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 55: La Plenitud Vital del Recién Nacido",
+      "capituloNumero": 55,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "含德之厚，比於赤子。毒蟲不螫，猛獸不據，攫鳥不搏。骨弱筋柔而握固。未知牝牡之合而朘作，精之至也。終日號而嗌不嗄，和之至也。知和曰常，知常曰明。益生曰祥。心使氣曰強。物壯則老，謂之不道，不道早已。",
+      "foneticaLiturgica": "Dàodéjīng Dì 55 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 55:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 55:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 55:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_56",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 56: Quien Sabe no Habla; Quien Habla no Sabe",
+      "capituloNumero": 56,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "知者不言，言者不知。塞其兌，閉其門，挫其銳，解其紛，和其光，同其塵，是謂玄同。故不可得而親，不可得而疏；不可得而利，不可得而害；不可得而貴，不可得而賤。故為天下貴。",
+      "foneticaLiturgica": "Dàodéjīng Dì 56 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 56:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 56:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 56:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_57",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 57: Gobernar con Rectitud y Vivir con Libertad Espontánea",
+      "capituloNumero": 57,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "以正治國，以奇用兵，以無事取天下。吾何以知其然哉？以此：天下多忌諱，而民彌貧；人多利器，國家滋昏；人多伎巧，奇物滋起；法令滋彰，盜賊多有。故聖人云：我無為，而民自化；我好靜，而民自正；我無事，而民自富；我無欲，而民自樸。",
+      "foneticaLiturgica": "Dàodéjīng Dì 57 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 57:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 57:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 57:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_58",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 58: La Paciencia Benévola y la Moderación Serena",
+      "capituloNumero": 58,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "其政悶悶，其民淳淳；其政察察，其民缺缺。是以聖人方而不割，廉而不劌，直而不肆，光而不燿。禍兮福之所倚，福兮禍之所伏。孰知其極？其無正也。正復為奇，善復為妖。人之迷，其日固久。",
+      "foneticaLiturgica": "Dàodéjīng Dì 58 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 58:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 58:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 58:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_59",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 59: La Moderación y el Enraizamiento Profundo",
+      "capituloNumero": 59,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "治人事天，莫若嗇。夫唯嗇，是謂早服；早服謂之重積德；重積德則無不克；無不克則莫知其極；莫知其極，可以有國；有國之母，可以長久；是謂深根固柢，長生久視之道。",
+      "foneticaLiturgica": "Dàodéjīng Dì 59 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 59:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 59:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 59:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_60",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 60: Gobernar con Delicadeza como Cocinar un Pescadillo",
+      "capituloNumero": 60,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "治大國，若烹小鮮。以道莅天下，其鬼不神；非其鬼不神，其神不傷人；非其神不傷人，聖人亦不傷人。夫兩不相傷，故德交歸焉。",
+      "foneticaLiturgica": "Dàodéjīng Dì 60 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 60:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 60:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 60:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_61",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 61: La Humildad del Valle en las Grandes Naciones",
+      "capituloNumero": 61,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "大邦者下流，天下之牝，天下之交也。牝常以靜勝牡，以靜為下。故大邦以下小邦，則取小邦；小邦以下大邦，則取大邦。故或下以取，或下而取。大邦不過欲兼畜人，小邦不過欲入事人。夫兩者各得所欲，大者宜為下。",
+      "foneticaLiturgica": "Dàodéjīng Dì 61 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 61:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 61:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 61:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_62",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 62: El Tao como el Tesoro y Santuario de Todos los Seres",
+      "capituloNumero": 62,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "道者萬物之奧。善人之寶，不善人之所保。美言可以市尊，美行可以加人。人之不善，何棄之有？故立天子，置三公，雖有拱璧以先駟馬，不如坐進此道。古之所以貴此道者何？不曰：求以得，有罪以免邪？故為天下貴。",
+      "foneticaLiturgica": "Dàodéjīng Dì 62 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 62:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 62:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 62:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_63",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 63: Comenzar lo Difícil por lo Fácil",
+      "capituloNumero": 63,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "為無為，事無事，味無味。大小多少，報怨以德。圖難於其易，為大於其細；天下難事，必作於易，天下大事，必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，故終無難矣。",
+      "foneticaLiturgica": "Dàodéjīng Dì 63 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 63:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ تے چنگ 63:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 63:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_64",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 64: Un Árbol Gigante Nace de una Pequeña Semilla",
+      "capituloNumero": 64,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "其安易持，其未兆易謀。其脆易泮，其微易散。為之於未有，治之於未亂。合抱之木，生於毫末；九層之臺，起於累土；千里之行，始於足下。為者敗之，執者失之。是以聖人無為故無敗，無執故無失。民之從事，常於幾成而敗之。慎終如始，則無敗事。是以聖人欲不欲，不貴難得之貨；學不學，復衆人之所過，以輔萬物之自然，而不敢為。",
+      "foneticaLiturgica": "Dàodéjīng Dì 64 Zhāng...",
+      "traducciones": {
+        "ur": "1. ایک درخت جتنا چوڑا آدمی کے گلے سے ایک چھوٹے سے انکر سے نکلتا ہے۔\n2. زمین کی ایک ٹوکری سے نو منزلہ اونچی چھت۔ ہزار میل کا سفر ایک قدم سے شروع ہوتا ہے۔\n3. جو عمل میں جلدی کرتا ہے وہ اپنے کام کو برباد کر دیتا ہے۔ جو پکڑتا ہے وہ اپنی گرفت کھو دیتا ہے۔ بابا آخر تک اتنی ہی احتیاط کے ساتھ حاضری دیتا ہے جتنی احتیاط سے، اور اس طرح وہ کچھ بھی نہیں بگاڑتا۔"
+      }
+    },
+    {
+      "id": "tao_chapter_65",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 65: La Sabiduría Prístina de la Simplicidad",
+      "capituloNumero": 65,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "古之善為道者，非以明民，將以愚之。民之難治，以其智多。故以智治國，國之賊；不以智治國，國之福。知此兩者亦稽式。常知稽式，是謂玄德。玄德深矣，遠矣，與物反矣，然後乃至大順。",
+      "foneticaLiturgica": "Dàodéjīng Dì 65 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 65:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 65:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 65:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_66",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 66: El Mar como Rey de los Cien Ríos por su Humildad",
+      "capituloNumero": 66,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "江海所以能為百谷王者，以其善下之，故能為百谷王。是以聖人欲上民，必以言下之；欲先民，必以身後之。是以聖人處上而民不重，處前而民不害。是以天下樂推而不厭。以其不爭，故天下莫能與之爭。",
+      "foneticaLiturgica": "Dàodéjīng Dì 66 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 66:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 66:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 66:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_67",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 67: Los Tres Tesoros: Compasión, Frugalidad y Humildad",
+      "capituloNumero": 67,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天下皆謂我道大，似不肖。夫唯大，故似不肖。若肖，久矣其細也夫！我有三寶，持而保之。一曰慈，二曰儉，三曰不敢為天下先。慈故能勇；儉故能廣；不敢為天下先，故能成器長。今舍慈且勇；舍儉且廣；舍後且先；死矣！夫慈以戰則勝，以守則固。天將救之，以慈衛之。",
+      "foneticaLiturgica": "Dàodéjīng Dì 67 Zhāng...",
+      "traducciones": {
+        "ur": "1. تمام دنیا کہتی ہے کہ میرا تاؤ عظیم ہے، لیکن غیر روایتی لگتا ہے۔ یہ خاص طور پر بہت اچھا ہے کیونکہ یہ کسی عام چیز سے مشابہت نہیں رکھتا ہے۔\n2. میرے پاس تین خزانے ہیں جو میں اپنے پاس رکھتا ہوں اور انعام دیتا ہوں: پہلا ہمدردی ہے۔ دوسرا ہے Frugality; تیسرا عاجزی ہے (اپنے آپ کو دوسروں سے آگے نہ رکھنے کی ہمت)۔\n3. ہمدردی سے حقیقی ہمت پیدا ہوتی ہے۔ کفایت شعاری سے وسیع فیاضی آتی ہے۔ عاجزی سے دنیا کی قیادت آتی ہے۔\n4. حملے میں ہمدردی فتح لاتی ہے۔ دفاع میں ہمدردی حفاظت لاتی ہے۔ جنت پناہ دیتا ہے اور محبت کی طاقت سے بچاتا ہے۔"
+      }
+    },
+    {
+      "id": "tao_chapter_68",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 68: El Arte del Guerrero Pacífico y la No-Violencia",
+      "capituloNumero": 68,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "善為士者，不武；善戰者，不怒；善勝敵者，不與；善用人者，為之下。是謂不爭之德，是謂用人之力，是謂配天古之極。",
+      "foneticaLiturgica": "Dàodéjīng Dì 68 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 68:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 68:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 68:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_69",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 69: La Estrategia de la Paciencia y el Respeto al Prójimo",
+      "capituloNumero": 69,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "用兵有言：吾不敢為主，而為客；不敢進寸，而退尺。是謂行無行；攘無臂；扔無敵；執無兵。禍莫大於輕敵，輕敵幾喪吾寶。故抗兵相若，哀者勝矣。",
+      "foneticaLiturgica": "Dàodéjīng Dì 69 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 69:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 69:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 69:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_70",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 70: La Sencillez Oculta del Sabio",
+      "capituloNumero": 70,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "吾言甚易知，甚易行。天下莫能知，莫能行。言有宗，事有君。夫唯無知，是以不我知。知我者希，則我者貴。是以聖人被褐而懷玉。",
+      "foneticaLiturgica": "Dàodéjīng Dì 70 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 70:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 70:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 70:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_71",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 71: Reconocer la Propia Ignorancia es Sabiduría",
+      "capituloNumero": 71,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "知不知，尚矣；不知知，病也。聖人不病，以其病病。夫唯病病，是以不病。",
+      "foneticaLiturgica": "Dàodéjīng Dì 71 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 71:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ تے چنگ 71:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 71:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_72",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 72: La Reverencia por lo Sagrado y el Respeto a la Vida",
+      "capituloNumero": 72,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "民不畏威，則大威至。無狎其所居，無厭其所生。夫唯不厭，是以不厭。是以聖人自知不自見；自愛不自貴。故去彼取此。",
+      "foneticaLiturgica": "Dàodéjīng Dì 72 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 72:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 72:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 72:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_73",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 73: La Red Celestial que Todo lo Abarca en Silencio",
+      "capituloNumero": 73,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "勇於敢則殺，勇於不敢則活。此兩者，或利或害。天之所惡，孰知其故？是以聖人猶難之。天之道，不爭而善勝，不言而善應，不召而自來，繟然而善謀。天網恢恢，疏而不失。",
+      "foneticaLiturgica": "Dàodéjīng Dì 73 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 73:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ تے چنگ 73:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 73:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_74",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 74: El Respeto al Gran Carpintero y el Misterio de la Vida",
+      "capituloNumero": 74,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "民不畏死，奈何以死懼之？若使民常畏死，而為奇者，吾得執而殺之，孰敢？常有司殺者殺。夫代司殺者殺，是謂代大匠斲，夫代大匠斲者，希有不傷其手矣。",
+      "foneticaLiturgica": "Dàodéjīng Dì 74 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 74:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 74:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 74:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_75",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 75: La Libertad de los Pueblos y el Daño del Exceso de Control",
+      "capituloNumero": 75,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "民之飢，以其上食稅之多，是以飢。民之難治，以其上之有為，是以難治。民之輕死，以其上求生之厚，是以輕死。夫唯無以生為者，是賢於貴生。",
+      "foneticaLiturgica": "Dàodéjīng Dì 75 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 75:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ تے چنگ 75:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 75:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_76",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 76: La Flexibilidad de la Vida y la Rigidez de la Muerte",
+      "capituloNumero": 76,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "人之生也柔弱，其死也堅強。草木之生也柔脆，其死也枯槁。故堅強者死之徒，柔弱者生之徒。是以兵強則滅，木強則折。強大處下，柔弱處上。",
+      "foneticaLiturgica": "Dàodéjīng Dì 76 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 76:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 76:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 76:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_77",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 77: El Arco Celestial que Equilibra los Extremos",
+      "capituloNumero": 77,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天之道，其猶張弓歟？高者抑之，下者舉之；有餘者損之，不足者補之。天之道，損有餘而補不足。人之道，則不然，損不足以奉有餘。孰能有餘以奉天下，唯有道者。是以聖人為而弗恃，功成而不居，其不欲見賢。",
+      "foneticaLiturgica": "Dàodéjīng Dì 77 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ تے چنگ 77:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ تے چنگ 77:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 77:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_78",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 78: La Debilidad que Vence a la Fuerza como el Agua",
+      "capituloNumero": 78,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "天下莫柔弱於水，而攻堅強者莫之能勝，以其無以易之。弱之勝強，柔之勝剛，天下莫不知，莫能行。是以聖人云：受國之垢，是謂社稷主；受國不祥，是為天下王。正言若反。",
+      "foneticaLiturgica": "Dàodéjīng Dì 78 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 78:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 78:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ تے چنگ 78:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_79",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 79: Cumplir la Promesa sin Exigir a los Demás",
+      "capituloNumero": 79,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "和大怨，必有餘怨；報怨以德，安可以為善？是以聖人執左契，而不責於人。有德司契，無德司徹。天道無親，常與善人。",
+      "foneticaLiturgica": "Dàodéjīng Dì 79 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 79:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 79:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 79:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_80",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 80: La Paz de la Aldea y la Vida Armoniosa",
+      "capituloNumero": 80,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "小國寡民。使有什伯之器而不用；使民重死而不遠徙。雖有舟輿，無所乘之，雖有甲兵，無所陳之。使民復結繩而用之。甘其食，美其服，安其居，樂其俗。鄰國相望，雞犬之聲相聞，民至老死，不相往來。",
+      "foneticaLiturgica": "Dàodéjīng Dì 80 Zhāng...",
+      "traducciones": {
+        "ur": "1. بابا ابدی تاؤ میں رہتا ہے اور کائناتی بہاؤ کو کامل سکون میں دیکھتا ہے۔ (تاؤ ٹی چنگ 80:1)\n2. وہ خاموشی سے نیکی کو فروغ دیتا ہے، تمام مخلوقات کی مدد کرتا ہے، اور کوئی ذاتی تعریف نہیں چاہتا۔ (تاؤ ٹی چنگ 80:2)\n3. ابتدائی جڑ کی طرف لوٹ کر، وہ لازوال خاموشی اور روحانی سکون حاصل کرتا ہے۔ (تاؤ ٹی چنگ 80:3)"
+      }
+    },
+    {
+      "id": "tao_chapter_81",
+      "tradicion": "espiritismo",
+      "libro": "El Tao Te King (Laozi)",
+      "libroKey": "tao",
+      "capitulo": "Capítulo 81: La Verdad Serena y la Plenitud del Sabio que Da Todo sin Reservas",
+      "capituloNumero": 81,
+      "seccion": "Dejing · El Libro de la Virtud",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
+      "dir": "ltr",
+      "textoOriginal": "信言不美，美言不信。善者不辯，辯者不善。知者不博，博者不知。聖人不積，既以為人己愈有，既以與人己愈多。天之道，利而不害；聖人之道，為而不爭。",
+      "foneticaLiturgica": "Dàodéjīng Dì 81 Zhāng...",
+      "traducciones": {
+        "ur": "1. مخلص الفاظ ٹھیک نہیں ہوتے۔ ٹھیک الفاظ مخلص نہیں ہیں.\n2. اچھا آدمی جھگڑا نہیں کرتا۔ جھگڑا کرنے والا اچھا نہیں ہے۔\n3. عقلمند آدمی بڑے پیمانے پر سیکھا نہیں جاتا۔ بڑے پیمانے پر سیکھا عقلمند نہیں ہے۔\n4. بابا ذخیرہ اندوزی نہیں کرتا۔ جتنا وہ دوسروں کے لیے کرتا ہے، اتنا ہی اس کے پاس ہے۔ جتنا وہ دوسروں کو دیتا ہے، اس کی فراوانی اتنی ہی زیادہ ہوتی ہے۔\n5. جنت کا راستہ فائدہ پہنچاتا ہے اور نقصان نہیں پہنچاتا۔ بابا کا طریقہ بغیر کوشش کے کام کرتا ہے۔', 'en"
+      }
+    }
+  ]
+}

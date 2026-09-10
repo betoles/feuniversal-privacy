@@ -1,0 +1,50 @@
+{
+  "id": "com.feuniversal.app",
+  "name": "FeUniversal - Faith & Prayers",
+  "short_name": "FeUniversal",
+  "description": "Ecosistema universal de conexión espiritual, oraciones litúrgicas multilingües, fonética, altar virtual interactivo y contador táctil multisistema.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#080911",
+  "theme_color": "#080911",
+  "lang": "es",
+  "dir": "auto",
+  "categories": [
+    "lifestyle",
+    "utilities",
+    "books"
+  ],
+  "icons": [
+    {
+      "src": "ico.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "app-icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

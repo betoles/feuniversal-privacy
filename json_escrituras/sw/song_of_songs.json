@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "libroKey": "song_of_songs",
+    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "totalCapitulos": 8,
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "sw",
+    "esquema": "modular_lazy_v4",
+    "dir": "ltr"
+  },
+  "capitulos": [
+    {
+      "id": "song_of_songs_chapter_1",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
+      "capituloNumero": 1,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
+      "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
+      "traducciones": {
+        "sw": "1. Na anibusu kwa busu za kinywa chake, Maana upendo wako ni bora kuliko divai.\n2. Kwa ajili ya harufu ya marhamu yako nzuri jina lako ni kama marhamu iliyomiminwa; Kwa hiyo wanawali wanakupenda.\n3. Univue, tutakufuata mbio; mfalme ameniingiza vyumbani mwake; tutafurahi na kukushangilia, tutakumbuka upendo wako kuliko divai; wanyoofu wanakupenda.\n4. Mimi ni mweusi, lakini ninapendeza, enyi binti za Yerusalemu, kama hema za Kedari, kama mapazia ya Sulemani.\n5. Niambie, wewe ambaye nafsi yangu ikupenda, ni wapi unalilisha kundi lako, na mahali unapoipumzisha adhuhuri."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_2",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
+      "capituloNumero": 2,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
+      "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
+      "traducciones": {
+        "sw": "1. Mimi ni ua la Sharoni, na ua la bondeni.\n2. Kama yungiyungi katikati ya miiba, Ndivyo alivyo mpenzi wangu kati ya binti.\n3. Kama mpera kati ya miti ya mwituni, Ndivyo alivyo mpendwa wangu kati ya wana. Niliketi chini ya kivuli chake kwa furaha kuu, na matunda yake yalikuwa matamu kwangu.\n4. Akanileta kwenye nyumba ya karamu, na bendera yake juu yangu ni upendo.\n5. Sauti ya mpenzi wangu! tazama, anakuja akiruka-ruka juu ya milima, akiruka-ruka vilimani.\n6. Mpenzi wangu alinena, akaniambia, Ondoka, mpenzi wangu, mzuri wangu, uende zako. Kwa maana, tazama, majira ya baridi yamepita, mvua imekwisha na kupita; maua yanaonekana duniani."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_3",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
+      "capituloNumero": 3,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
+      "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
+      "traducciones": {
+        "sw": "1. Usiku kitandani mwangu nalimtafuta yeye ambaye nafsi yangu impenda; Nilimtafuta, lakini sikumwona.\n2. Nitasimama sasa, na kuzunguka-zunguka mjini katika njia kuu, na katika njia kuu, nitamtafuta yeye ambaye nafsi yangu impenda; Nilimtafuta, lakini sikumwona.\n3. Ilikuwa muda mfupi tu nilipotoka kwao, nikamwona yeye ambaye nafsi yangu impenda;\n4. Ni nani huyu atokaye nyikani kama nguzo za moshi, Anukizwa kwa manemane na ubani, pamoja na unga wote wa mfanyabiashara?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_4",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
+      "capituloNumero": 4,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
+      "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
+      "traducciones": {
+        "sw": "1. Tazama, wewe ni mzuri, mpenzi wangu; tazama, wewe ni mzuri; una macho ya hua ndani ya kufuli zako.\n2. Wewe ni mzuri, mpenzi wangu; hakuna doa ndani yako.\n3. Bustani iliyofungwa ni dada yangu, mke wangu; chemchemi iliyofungwa, chemchemi iliyotiwa muhuri.\n4. Mimea yako ni bustani ya komamanga, yenye matunda ya kupendeza; campfire, pamoja na spikenard;\n5. Chemchemi ya bustani, chemchemi ya maji ya uzima, na vijito vya Lebanoni.\n6. Amka, ee upepo wa kaskazini; na kuja, wewe kusini; pulizia bustani yangu, ili manukato yake yatoke nje. Mpendwa wangu na aingie bustanini mwake, na kula matunda yake mazuri."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_5",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
+      "capituloNumero": 5,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
+      "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
+      "traducciones": {
+        "sw": "1. Nimeingia bustanini mwangu, umbu langu, mwenzi wangu, Nimekusanya manemane yangu pamoja na manukato yangu; Nimekula sega langu la asali pamoja na asali yangu; Nimekunywa divai yangu pamoja na maziwa yangu.\n2. Ninalala, lakini moyo wangu unaamka: Ni sauti ya mpenzi wangu ambayo inabisha!\n3. Mpendwa wangu ni mweupe na mwekundu, Aliye mkuu kuliko elfu kumi.\n4. Kichwa chake ni kama dhahabu safi sana, Nyuzi zake ni mnene, na nyeusi kama kunguru.\n5. Macho yake ni kama macho ya hua kando ya mito ya maji, waliooshwa kwa maziwa, na kuwekwa vizuri.\n6. Kinywa chake ni kitamu sana, Naam, amependeza kabisa. Huyu ndiye mpendwa wangu, na huyu ndiye rafiki yangu, enyi binti za Yerusalemu."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_6",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
+      "capituloNumero": 6,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
+      "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
+      "traducciones": {
+        "sw": "1. Ameenda wapi mpenzi wako, Ewe uliye bora kuliko wanawake wote? mpendwa wako amegeuzwa wapi? ili tumtafute pamoja nanyi.\n2. Mpenzi wangu ameshuka kwenye bustani yake, kwenye vitanda vya manukato, ili kulisha bustanini na kuchuma yungiyungi.\n3. Mimi ni wa mpendwa wangu, na mpendwa wangu ni wangu, Hulisha kati ya maua.\n4. Ee mpenzi wangu, u mzuri kama Tirza, wa kupendeza kama Yerusalemu, wa kutisha kama jeshi lenye bendera.\n5. Ni nani yeye atazamaye kama asubuhi, mzuri kama mwezi, angavu kama jua, mwenye kutisha kama jeshi lenye bendera?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_7",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
+      "capituloNumero": 7,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
+      "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
+      "traducciones": {
+        "sw": "1. Rudi, rudi, Ee Mshulami; rudi, rudi, ili tukutazame wewe. Je! utaona nini kwa Mshulami? Kama kundi la majeshi mawili.\n2. Ni mizuri kama nini miguu yako kwa viatu, Ee binti mkuu! viungo vya mapaja yako ni kama vito vya thamani, kazi ya mikono ya fundi stadi.\n3. Jinsi ulivyo mzuri na wa kupendeza, ee mpenzi, kwa furaha!\n4. Kimo chako hiki ni kama mtende, na matiti yako kama vishada vya mizabibu.\n5. Mimi ni wa mpendwa wangu, na shauku yake inaelekea kwangu.\n6. Njoo, mpendwa wangu, twende shambani; tulale vijijini. Na tuamke asubuhi na mapema tuende kwenye mashamba ya mizabibu; hapo nitakupa wapenzi wangu."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_8",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
+      "capituloNumero": 8,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
+      "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
+      "traducciones": {
+        "sw": "1. Nitie kama muhuri juu ya moyo wako, kama muhuri juu ya mkono wako; wivu ni mbaya kama kaburi, makaa yake ni makaa ya moto, ambayo ina mwali mkali zaidi.\n2. Maji mengi hayawezi kuuzimisha upendo, wala mito haiwezi kuuzamisha; kama mtu angetoa mali yote ya nyumba yake kwa upendo, ingedharauliwa kabisa.\n3. Shamba langu la mizabibu, ambalo ni langu, liko mbele yangu;\n4. Wewe ukaaye bustanini, wenzi huisikia sauti yako, Unisikilize.\n5. Fanya haraka, mpendwa wangu, uwe kama paa au ayala juu ya milima ya manukato."
+      }
+    }
+  ]
+}

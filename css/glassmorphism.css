@@ -1,0 +1,992 @@
+/* ==========================================================================
+   FEUNIVERSAL - CRYSTAL GLASSMORPHISM UTILITIES & HUD COMPONENTS
+   Inspirado en la interfaz de referencia HUD con adaptabilidad Día/Noche
+   ========================================================================== */
+
+/* Fondo dinámico con malla translúcida */
+.app-viewport {
+  min-height: 100vh;
+  background: var(--bg-app);
+  background-image: var(--bg-gradient);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  transition: background var(--transition-slow), color var(--transition-normal);
+}
+
+.app-viewport::before,
+.app-viewport::after {
+  content: '';
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(120px);
+  z-index: 0;
+}
+
+.app-viewport::before {
+  width: 600px;
+  height: 600px;
+  top: -100px;
+  left: 20%;
+  background: var(--bg-mesh-1);
+}
+
+.app-viewport::after {
+  width: 500px;
+  height: 500px;
+  bottom: -50px;
+  right: 15%;
+  background: var(--bg-mesh-2);
+}
+
+/* ==========================================================================
+   SISTEMA DE ICONOS VECTORIALES SVG & CSS
+   ========================================================================== */
+.icon-svg {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), filter var(--transition-fast);
+}
+
+.icon-brand {
+  width: 26px;
+  height: 26px;
+  filter: drop-shadow(0 0 8px var(--accent-gold-glow));
+}
+
+.icon-trad {
+  width: 22px;
+  height: 22px;
+}
+
+/* Tarjeta Base de Cristal (Crystal Panel) */
+.crystal-card {
+  background: var(--glass-surface-1);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--glass-shadow-crystal);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-normal);
+}
+
+.crystal-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--glass-border-highlight), transparent);
+  pointer-events: none;
+}
+
+.crystal-card:hover {
+  border-color: var(--glass-border-highlight);
+  box-shadow: var(--glass-shadow-lg);
+}
+
+.crystal-card.active-glow-gold {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 25px var(--accent-gold-glow), var(--glass-shadow-crystal);
+}
+
+.crystal-card.active-glow-rose {
+  border-color: var(--accent-rose);
+  box-shadow: 0 0 25px var(--accent-rose-glow), var(--glass-shadow-crystal);
+}
+
+.crystal-card.active-glow-cyan {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 25px var(--accent-cyan-glow), var(--glass-shadow-crystal);
+}
+
+/* Contenedores Inset (Superficie hundida / Panel de datos) */
+.crystal-inset {
+  background: var(--glass-inset);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+[data-theme="light"] .crystal-inset {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+/* ==========================================================================
+   SEGMENTED CONTROL CRISTALINO (SUB-PESTAÑAS ANTI-SCROLL)
+   ========================================================================== */
+.crystal-segmented-control {
+  display: flex;
+  width: 100%;
+  background: var(--glass-inset);
+  border: 1px solid var(--glass-border);
+  padding: 4px;
+  border-radius: var(--radius-full);
+  gap: 4px;
+  margin-bottom: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.segmented-item {
+  flex: 1 1 0px;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 4px;
+  border-radius: var(--radius-full);
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.segmented-item span:first-child {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.segmented-item .icon-svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.segmented-item span:last-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.segmented-item:hover {
+  color: var(--text-primary);
+}
+
+.segmented-item.active {
+  background: var(--glass-surface-2);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border-highlight);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25), 0 0 12px var(--accent-gold-glow);
+  transform: scale(1.02);
+}
+
+/* ==========================================================================
+   TIRA HORIZONTAL DE TRADICIONES ACTIVAS
+   ========================================================================== */
+.active-traditions-ribbon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  margin-top: 14px;
+  margin-bottom: 18px;
+  padding: 4px 4px 12px;
+  scrollbar-width: none;
+}
+
+.active-traditions-ribbon::-webkit-scrollbar {
+  display: none;
+}
+
+.tradition-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  background: var(--glass-surface-1);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.tradition-chip:hover {
+  background: var(--glass-surface-hover);
+  border-color: var(--glass-border-highlight);
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   BARRA DE NAVEGACIÓN INFERIOR FLOTANTE (ESTILO APP NATIVA IOS & ANDROID)
+   ========================================================================== */
+.hud-bottom-bar {
+  position: fixed;
+  bottom: calc(12px + var(--sab));
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 24px);
+  max-width: 520px;
+  background: var(--glass-surface-2);
+  backdrop-filter: blur(28px) saturate(190%);
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  border: 1px solid var(--glass-border-highlight);
+  border-radius: var(--radius-full);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45), 0 0 20px rgba(99, 102, 241, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6px 8px;
+  gap: 2px;
+  z-index: 1500;
+  box-sizing: border-box;
+}
+
+.bottom-nav-item {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 44px;
+  padding: 5px 2px;
+  border-radius: var(--radius-full);
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+.bottom-nav-item .icon-svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.bottom-nav-item span:last-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  letter-spacing: -0.2px;
+  font-size: clamp(0.58rem, 1.8vw, 0.70rem);
+  text-align: center;
+  line-height: 1.1;
+}
+
+.bottom-nav-item:hover {
+  color: var(--text-primary);
+}
+
+.bottom-nav-item.active {
+  color: var(--accent-gold);
+  background: var(--glass-surface-1);
+}
+
+.bottom-nav-item.active .icon-svg {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 0 6px var(--accent-gold-glow));
+}
+
+/* ==========================================================================
+   HUD METRIC CARDS & GAUGES
+   ========================================================================== */
+.hud-score-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px 18px;
+}
+
+.hud-score-number {
+  font-family: var(--font-display);
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--accent-gold);
+  text-shadow: 0 0 35px var(--accent-gold-glow);
+  letter-spacing: -0.04em;
+  margin-bottom: 6px;
+}
+
+.hud-score-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.hud-gradient-bar-container {
+  padding: 22px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hud-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.hud-bar-labels .label-start {
+  color: var(--hud-high-risk);
+}
+
+.hud-bar-labels .label-end {
+  color: var(--hud-safe);
+}
+
+.hud-spectrum-track {
+  height: 14px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, #f43f5e 0%, #fb923c 35%, #facc15 65%, #10b981 100%);
+  position: relative;
+  margin: 44px 0 20px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+  overflow: visible;
+}
+
+/* Pin: ancho 0 → el dot se centra sobre su posición calculada */
+.hud-marker-pin {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  overflow: visible;
+  transition: left 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Dot: círculo de alta precisión, aro dorado pulido y punto central */
+.hud-marker-dot {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid var(--accent-gold);
+  box-shadow: 0 0 10px rgba(234, 179, 8, 0.7), 0 2px 6px rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hud-marker-dot::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+}
+
+/* Stem vertical áureo que conecta el badge con el dot sin cortarlo */
+.hud-marker-pin::after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 12px;
+  background: linear-gradient(180deg, rgba(234, 179, 8, 0.9), transparent);
+}
+
+/* Badge flotante */
+.hud-marker-badge {
+  position: absolute;
+  bottom: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 10px;
+  background: rgba(15, 23, 42, 0.92);
+  color: var(--accent-gold);
+  font-size: 0.72rem;
+  font-weight: 800;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(234, 179, 8, 0.5);
+  box-shadow: 0 0 10px rgba(234, 179, 8, 0.25), var(--glass-shadow-sm);
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+/* Badge cerca del borde izquierdo */
+.hud-marker-pin.near-left .hud-marker-badge {
+  left: 0;
+  transform: translateX(0%);
+}
+
+/* Badge cerca del borde derecho */
+.hud-marker-pin.near-right .hud-marker-badge {
+  left: auto;
+  right: 0;
+  transform: translateX(0%);
+}
+
+.hud-donut-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%, rgba(245, 158, 11, 0.12) 0%, rgba(99, 102, 241, 0.08) 55%, transparent 75%);
+  filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.22));
+}
+
+.hud-donut-svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+/* Anillos Biselados de Cristal 3D */
+.hud-donut-circle-outer-bevel {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.25);
+  stroke-width: 1.5;
+  stroke-dasharray: 6 3;
+  opacity: 0.85;
+}
+
+.hud-donut-circle-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.06);
+  stroke-width: 11;
+}
+
+.hud-donut-circle-val {
+  fill: none;
+  stroke-width: 11;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.8s var(--ease-smooth);
+}
+
+.hud-donut-circle-inner-bevel {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1;
+  opacity: 0.7;
+}
+
+.hud-donut-center-info {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: var(--glass-surface-2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border-highlight);
+  box-shadow: inset 0 2px 6px rgba(255, 255, 255, 0.2), 0 8px 20px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hud-donut-center-num {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: var(--accent-gold);
+  text-shadow: 0 0 14px var(--accent-gold-glow);
+  line-height: 1;
+}
+
+.hud-donut-center-lbl {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.06em;
+  margin-top: 3px;
+}
+
+.hud-category-row {
+  margin-bottom: 14px;
+}
+
+.hud-category-row:last-child {
+  margin-bottom: 0;
+}
+
+.hud-category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  gap: 8px;
+}
+
+.hud-category-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hud-category-metric {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.hud-category-bar-wrapper {
+  width: 100%;
+  height: 8px;
+  background: var(--glass-inset);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.hud-category-bar-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 0.8s var(--ease-smooth);
+}
+
+/* ==========================================================================
+   INTERRUPTORES TÁCTILES HUD (GLASS TOGGLES CENTRADOS EXACTOS)
+   ========================================================================== */
+.hud-switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 48px;
+  height: 26px;
+  flex-shrink: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.hud-switch input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.hud-slider {
+  position: absolute;
+  inset: 0;
+  background: var(--slider-track);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-full);
+  transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.hud-slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  top: 2px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.25s ease, box-shadow 0.25s ease;
+  box-sizing: border-box;
+}
+
+[data-theme="dark"] .hud-slider:before {
+  background-color: #f1f5f9;
+}
+
+input:checked + .hud-slider {
+  background: linear-gradient(135deg, var(--accent-indigo), var(--accent-cyan));
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 14px var(--accent-cyan-glow), inset 0 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+input:checked + .hud-slider:before {
+  transform: translateX(22px);
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Botones Crystal */
+.btn-crystal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 18px;
+  font-family: var(--font-main);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  background: var(--glass-surface-2);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  backdrop-filter: blur(12px);
+  box-sizing: border-box;
+}
+
+.btn-crystal svg,
+.btn-crystal .icon-svg {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+
+.btn-crystal:hover {
+  background: var(--glass-surface-hover);
+  border-color: var(--glass-border-highlight);
+  transform: translateY(-1px);
+  box-shadow: var(--glass-shadow-md);
+}
+
+.btn-crystal:active {
+  transform: translateY(1px);
+}
+
+/* CHIPS ENCAPSULADOS DE CRISTAL (SELECCIÓN TÁCTIL) */
+.candle-capsule-chip {
+  background: var(--glass-surface-2);
+  border: 1.5px solid var(--glass-border);
+  color: var(--text-primary);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  box-shadow: var(--glass-shadow-sm);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.candle-capsule-chip:hover {
+  background: var(--glass-surface-hover);
+  border-color: var(--glass-border-highlight);
+}
+
+.candle-capsule-chip.active {
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.22), rgba(245, 158, 11, 0.32));
+  border-color: var(--accent-gold);
+  color: var(--text-primary);
+  font-weight: 800;
+  box-shadow: 0 0 14px var(--accent-gold-glow), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+
+.btn-crystal-primary {
+  background: linear-gradient(135deg, var(--accent-indigo), #4338ca);
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.2);
+  box-shadow: 0 4px 15px var(--accent-indigo-glow);
+}
+
+.btn-crystal-primary:hover {
+  background: linear-gradient(135deg, #4f46e5, #3730a3);
+  box-shadow: 0 6px 20px var(--accent-indigo-glow);
+}
+
+.btn-crystal-gold {
+  background: linear-gradient(135deg, var(--accent-gold), #b45309);
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.2);
+  box-shadow: 0 4px 15px var(--accent-gold-glow);
+}
+
+.btn-crystal-gold:hover {
+  background: linear-gradient(135deg, #fbbf24, #92400e);
+  box-shadow: 0 6px 20px var(--accent-gold-glow);
+}
+
+/* Badges y Chips HUD */
+.hud-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: var(--glass-surface-1);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hud-pill.dot-red::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--hud-high-risk); box-shadow:0 0 6px var(--hud-high-risk); }
+.hud-pill.dot-orange::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--hud-med-risk); box-shadow:0 0 6px var(--hud-med-risk); }
+.hud-pill.dot-yellow::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--hud-low-risk); box-shadow:0 0 6px var(--hud-low-risk); }
+.hud-pill.dot-green::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--hud-safe); box-shadow:0 0 6px var(--hud-safe); }
+.hud-pill.dot-gold::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--accent-gold); box-shadow:0 0 6px var(--accent-gold); }
+
+/* Badges de Diagnóstico de IA en Bóveda */
+.ai-status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.ai-status-pill .status-icon {
+  width: 12px;
+  height: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ai-status-pill .status-icon .icon-svg {
+  width: 12px !important;
+  height: 12px !important;
+  display: block;
+}
+
+.ai-status-pill .status-text {
+  display: inline-block;
+  line-height: 1;
+}
+
+.ai-status-pill.status-connected {
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  color: #10b981;
+}
+
+.ai-status-pill.status-optional {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--text-muted);
+}
+
+.ai-status-pill.status-inactive {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #f87171;
+}
+
+.ai-test-provider-icon .icon-svg {
+  width: 18px !important;
+  height: 18px !important;
+  display: block;
+}
+
+/* Animaciones */
+@keyframes candle-flicker {
+  0% { transform: scale(1) rotate(-1deg); opacity: 0.95; }
+  25% { transform: scale(1.04, 0.98) rotate(1deg); opacity: 1; }
+  50% { transform: scale(0.97, 1.03) rotate(-0.5deg); opacity: 0.92; }
+  75% { transform: scale(1.02, 1.01) rotate(0.8deg); opacity: 0.98; }
+  100% { transform: scale(1) rotate(-1deg); opacity: 0.95; }
+}
+
+/* Centro de Atajos Devocionales Rápidos 2x2 */
+.hud-quick-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hud-pillar-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  text-align: justify;
+  text-justify: inter-word;
+  background: var(--glass-surface-1);
+  border: 1px solid var(--glass-border);
+  transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+  cursor: pointer;
+  box-sizing: border-box;
+  min-height: 74px;
+  min-width: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hud-pillar-btn:hover, .hud-pillar-btn:active {
+  transform: translateY(-2px);
+  background: var(--glass-surface-2);
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 18px var(--accent-gold-glow);
+}
+
+.hud-pillar-dot {
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  border-radius: 50%;
+  flex-shrink: 0 !important;
+  align-self: flex-start;
+  margin-top: 4px;
+}
+
+.hud-pillar-dot.dot-red {
+  background: var(--hud-high-risk);
+  box-shadow: 0 0 10px var(--hud-high-risk);
+}
+.hud-pillar-dot.dot-orange {
+  background: var(--hud-med-risk);
+  box-shadow: 0 0 10px var(--hud-med-risk);
+}
+.hud-pillar-dot.dot-yellow {
+  background: var(--hud-low-risk);
+  box-shadow: 0 0 10px var(--hud-low-risk);
+}
+.hud-pillar-dot.dot-green {
+  background: var(--hud-safe);
+  box-shadow: 0 0 10px var(--hud-safe);
+}
+
+.hud-pillar-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+  text-align: justify;
+  text-justify: inter-word;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+.hud-pillar-title {
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  line-height: 1.25;
+  white-space: normal;
+  word-break: break-word;
+  hyphens: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  display: block;
+}
+
+.hud-pillar-desc {
+  font-size: 0.69rem;
+  color: var(--text-secondary);
+  line-height: 1.35;
+  white-space: normal;
+  word-break: break-word;
+  hyphens: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 3px;
+  display: block;
+}
+
+/* ==========================================================================
+   SOPORTE BIDIRECCIONAL (RTL & LTR) Y PROTECCIÓN FLEXBOX
+   Previene deformaciones de botones, aplastamiento de iconos y descuadres
+   en Árabe, Hebreo y todos los dispositivos móviles, iPads y tablets.
+   ========================================================================== */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .color-picker-item,
+[dir="rtl"] .bead-mode-btn,
+[dir="rtl"] .hud-sound-pill,
+[dir="rtl"] .btn-crystal,
+[dir="rtl"] .segmented-item {
+  text-align: right;
+  direction: rtl;
+}
+
+.color-picker-item,
+.bead-mode-btn,
+.hud-sound-pill,
+.btn-crystal,
+.segmented-item {
+  text-align: start;
+}
+
+.hud-pillar-dot,
+.color-swatch-circle,
+.candle-symbol,
+.icon-svg {
+  flex-shrink: 0 !important;
+}
+
+/* Blindaje de tarjetas y modales para evitar descuadres en móviles y tablets */
+.crystal-card,
+.modal-content,
+.sacred-picker-modal {
+  box-sizing: border-box;
+  max-width: 100%;
+}

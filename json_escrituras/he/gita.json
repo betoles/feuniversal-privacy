@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "libroKey": "gita",
+    "titulo": "El Srimad Bhagavad Gita (श्रीमद्भगवद्गीता)",
+    "totalCapitulos": 18,
+    "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "he",
+    "esquema": "modular_lazy_v4",
+    "dir": "rtl"
+  },
+  "capitulos": [
+    {
+      "id": "gita_chapter_1",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 1: Arjuna Vishada Yoga (El Yoga del Desaliento de Arjuna)",
+      "capituloNumero": 1,
+      "seccion": "Mahabharata · El Desaliento y la Duda de Arjuna",
+      "versiculoNumero": "1-1",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "धृतराष्ट्र उवाच। धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
+      "foneticaLiturgica": "Dhṛtarāṣṭra uvāca: Dharmakṣetre kurukṣetre samavetā yuyutsavaḥ | Māmakāḥ pāṇḍavāścaiva kimakurvata sañjaya ||",
+      "traducciones": {
+        "he": "1. דריטרשטרה אמר: הו סנג'אי! מה עשינו אני ובניו של פנדו כשהם התאספו בארץ הקדושה קורושטרה מתוך רצון להילחם?\n2. סנג'אי אמר: המלך Duryodhana, שראה את צבא הפנדווה המסודר היטב, הלך לדרונאצ'ריה ואמר את המילים האלה..."
+      }
+    },
+    {
+      "id": "gita_chapter_2",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 2: Sankhya Yoga (El Yoga del Conocimiento y la Sabiduría)",
+      "capituloNumero": 2,
+      "seccion": "Mahabharata · El Yoga del Conocimiento y la Acción Desapegada",
+      "versiculoNumero": "1-2",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि। तथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही॥",
+      "foneticaLiturgica": "Karmaṇyevādhikāraste mā phaleṣu kadācana | Mā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi || Vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro'parāṇi | Tathā śarīrāṇi vihāya jīrṇānyanyāni saṁyāti navāni dehī ||",
+      "traducciones": {
+        "he": "47. יש לך זכויות רק בפעולה, לעולם לא בפירותיה. לכן, אל תהפוך למושא לתוצאות מעשיך, ואל תהיה קשור לאי-מעשיך.\n22. כשם שאדם מוותר על בגדים ישנים ומאמץ בגדים חדשים, כך הנשמה מוותרת על גופים ישנים ורוכשת גופים חדשים."
+      }
+    },
+    {
+      "id": "gita_chapter_3",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 3: Karma Yoga (El Yoga de la Acción Sagrada Desinteresada)",
+      "capituloNumero": 3,
+      "seccion": "Mahabharata · El Yoga de la Acción Sagrada Desinteresada",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः। शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः॥ यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः। तदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर॥",
+      "foneticaLiturgica": "Niyataṁ kuru karma tvaṁ karma jyāyo hyakarmaṇaḥ | Śarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ || Yajñārthātkarmaṇo'nyatra loko'yaṁ karmabandhanaḥ | Tadarthaṁ karma kaunteya muktasaṅgaḥ samācara ||",
+      "traducciones": {
+        "he": "8. אתה צריך לעשות את חובתך שנקבעה כפי שנקבע בכתובים, כי עדיף לעשות עבודה מאשר לא לעשות עבודה. אם לא תעשה עבודה, אפילו הקיום הפיזי שלך לא יצליח.\n9. קארמות שנעשות מלבד יאגיה (הקרבה לאלוהים) מחייבות בעולם הזה. לכן הו בן קונטי! היה חופשי מהיקשרות ועשה עבודה טובה רק למען אלוהים."
+      }
+    },
+    {
+      "id": "gita_chapter_4",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 4: Jnana-Karma-Sannyasa Yoga (El Yoga de la Sabiduría Divina)",
+      "capituloNumero": 4,
+      "seccion": "Mahabharata · El Yoga de la Sabiduría Espiritual y el Descenso del Avatar",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥ परित्राणाय साधूनां विनाशाय च दुष्कृताम्। धर्मसंस्थापनार्थाय सम्भवामि युगे युगे॥",
+      "foneticaLiturgica": "Yadā yadā hi dharmasya glānirbhavati bhārata | Abhyutthānamadharmasya tadātmānaṁ sṛjāmyaham || Paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām | Dharmasaṁsthāpanārthāya sambhavāmi yuge yuge ||",
+      "traducciones": {
+        "he": "7. היי הודו! בכל פעם שיש ירידה בצדקנות ועלייה בחוסר צדק, אני מתגלה.\n8. אני מופיע בכל עידן להצלת קדושים, השמדת חוטאים וביסוס נכון של הדת."
+      }
+    },
+    {
+      "id": "gita_chapter_5",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 5: Karma-Sannyasa Yoga (El Yoga de la Renuncia a la Acción)",
+      "capituloNumero": 5,
+      "seccion": "Mahabharata · El Yoga de la Renuncia a los Frutos de la Acción",
+      "versiculoNumero": "1-5",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः। लिप्यते न स पापेन पद्मपत्रमिवाम्भसा॥ कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि। योगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये॥",
+      "foneticaLiturgica": "Brahmaṇyādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ | Lipyate na sa pāpena padmapatramivāmbhasā || Kāyena manasā buddhyā kevalairindriyairapi | Yoginaḥ karma kurvanti saṅgaṁ tyaktvātmaśuddhaye ||",
+      "traducciones": {
+        "he": "10. האיש המבצע את מעשיו בהקרבת כל מעשיו לאלוהים ובוויתור על התקשרותו, אינו מתרפק על חטאים כמו עלה לוטוס במים.\n11. קארמה יוגי נוטשים את ההיקשרות ומבצעים פעולות דרך הגוף, הנפש, האינטלקט והחושים רק לצורך טיהור עצמי."
+      }
+    },
+    {
+      "id": "gita_chapter_6",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 6: Dhyana Yoga (El Yoga de la Meditación)",
+      "capituloNumero": 6,
+      "seccion": "Mahabharata · El Yoga de la Meditación Profunda y el Dominio de la Mente",
+      "versiculoNumero": "1-6",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम्। ततस्ततो नियम्यैतदात्मन्येव वशं नयेत्॥ प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम्। उपैति शान्तरजसं ब्रह्मभूतमकल्मषम्॥",
+      "foneticaLiturgica": "Yato yato niścarati manaścañcalamasthiram | Tatastato niyamyaitadātmanyeva vaśaṁ nayet || Praśāntamanasaṁ hyenaṁ yoginaṁ sukhamuttamam | Upaiti śāntarajasaṁ brahmabhūtamakalmaṣam ||",
+      "traducciones": {
+        "he": "26. מכל סיבה שהיא, המוח ההפכפך והלא יציב הזה משוטט בדברים ארציים, עצור את זה מלהתרחש ושלוט בו בנשמה עצמה.\n27. יוגי בדמות ברהמה, שכלו רגוע, נקי מחטא ותשוקתו נרגעה, זוכה לאושר עילאי."
+      }
+    },
+    {
+      "id": "gita_chapter_7",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 7: Jnana-Vijnana Yoga (El Yoga del Conocimiento y la Comprensión)",
+      "capituloNumero": 7,
+      "seccion": "Mahabharata · El Conocimiento Supremo de la Realidad Absoluta",
+      "versiculoNumero": "1-7",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च। अहङ्कार इतीयं मे भिन्ना प्रकृतिरष्टधा॥ अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम्। जीवभूतां महाबाहो ययेदं धार्यते जगत्॥",
+      "foneticaLiturgica": "Bhūmirāpo'nalo vāyuḥ khaṁ mano buddhireva ca | Ahaṅkāra itīyaṁ me bhinnā prakṛtiraṣṭadhā || Apareyamitastvanyāṁ prakṛtiṁ viddhi me parām | Jīvabhūtāṁ mahābāho yayedaṁ dhāryate jagat ||",
+      "traducciones": {
+        "he": "4. אדמה, מים, אש, אוויר, שמיים, נפש, אינטלקט ואגו - זה הטבע האדיש שלי מחולק לשמונה סוגים.\n5. הו חמוש חזק! זהו הטבע הנחות שלי; מלבד זאת, הכר את הטבע הטרנסצנדנטי (המודע) שלי, אשר קיים את כל העולם הזה."
+      }
+    },
+    {
+      "id": "gita_chapter_8",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 8: Aksara-Brahma Yoga (El Yoga del Absoluto Imperecedero)",
+      "capituloNumero": 8,
+      "seccion": "Mahabharata · El Yoga del Absoluto Eterno e Imperecedero",
+      "versiculoNumero": "1-8",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "ओमित्येकाक्षरं ब्रह्म व्याहरन्माममनुस्मरन्। यः प्रयाति त्यजन्देहं स याति परमां गतिम्॥ अनन्यचेताः सततं यो मां स्मरति नित्यशः। तस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः॥",
+      "foneticaLiturgica": "Omityekākṣaraṁ brahma vyāharanmāmanusmaran | Yaḥ prayāti tyajandehaṁ sa yāti paramāṁ gatim || Ananyacetāḥ satataṁ yo māṁ smarati nityaśaḥ | Tasyāhaṁ sulabhaḥ pārtha nityayuktasya yoginaḥ ||",
+      "traducciones": {
+        "he": "13. האדם שעוזב את גופו בזמן שהוא מדקלם את המילה החד-הברה הזו 'אום' וזוכר אותי, מגיע למצב העליון.\n14. היי פרת! אני נגיש ליוגי ניתיה יוקט שכל הזמן זוכר אותי בראש לא מחולק."
+      }
+    },
+    {
+      "id": "gita_chapter_9",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 9: Raja-Vidya-Raja-Guhya Yoga (El Yoga del Conocimiento Soberano y Secreto)",
+      "capituloNumero": 9,
+      "seccion": "Mahabharata · El Yoga de la Ciencia Soberana y el Misterio Secreto",
+      "versiculoNumero": "1-9",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति। तदहं भक्त्युपहृतमश्नामि प्रयतात्मनः॥ यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्। यत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम्॥",
+      "foneticaLiturgica": "Patraṁ puṣpaṁ phalaṁ toyaṁ yo me bhaktyā prayacchati | Tadahaṁ bhaktyupahṛtamaśnāmi prayatātmanaḥ || Yatkaroṣi yadaśnāsi yadjuhoṣi dadāsi yat | Yattapasyasi kaunteya tatkuruṣva madarpaṇam ||",
+      "traducciones": {
+        "he": "26. כל חסיד שמציע לי באהבה מכתב, פרח, פרי או מים, אני מקבל את המתנה האוהבת שניתנה על ידי אותו חסיד אוהב חסר אנוכיות.\n27. הו בן קונטי! מה שלא תעשה, מה שתאכל, מה שתבצע, מה שאתה תורם ואיזה תשובה שתבצע, הקדיש את הכל לי."
+      }
+    },
+    {
+      "id": "gita_chapter_10",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 10: Vibhuti Yoga (El Yoga de las Manifestaciones Divinas)",
+      "capituloNumero": 10,
+      "seccion": "Mahabharata · El Yoga de las Opulencias y Manifestaciones Divinas",
+      "versiculoNumero": "1-10",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः। अहमादिश्च मध्यं च भूतानामन्त एव च॥ आ Fallbacks: 0 | यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा। तत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम्॥",
+      "foneticaLiturgica": "Ahamātmā guḍākeśa sarvabhūtāśayasthitaḥ | Ahamādiśca madhyaṁ ca bhūtānāmanta eva ca || Yadyadvibhūtimatsattvaṁ śrīmadūrjitameva vā | Tattadevāvagaccha tvaṁ mama tejo'ṁśasambhavam ||",
+      "traducciones": {
+        "he": "20. הו גודקש (ארג'ון)! אני הנשמה שנמצאת בלב כל היצורים ואני גם ההתחלה, האמצע והסוף של כל היצורים.\n41. מה שהוא מפואר, זוהר ומלא עוצמה, אתה צריך לשקול אותו כאילו נולד מחלק מהתהילה שלי."
+      }
+    },
+    {
+      "id": "gita_chapter_11",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 11: Visvarupa-Darsana Yoga (El Yoga de la Visión de la Forma Cósmica)",
+      "capituloNumero": 11,
+      "seccion": "Mahabharata · La Visión de la Forma Cósmica Universal",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "कालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्ततः। ऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः॥",
+      "foneticaLiturgica": "Kālo'smi lokakṣayakṛtpravṛddho lokānsamāhartumiha pravṛttaḥ | Ṛte'pi tvāṁ na bhaviṣyanti sarve ye'vasthitāḥ pratyanīkeṣu yodhāḥ ||",
+      "traducciones": {
+        "he": "32. שרי בהגוואן אמר: אני מהכאל, משחית העולמות ובזמן הזה אני נוטה להשמיד את כל הצבאות האלה. גם אם לא תילחם, כל הלוחמים האלה בצבא היריב לא ישרדו."
+      }
+    },
+    {
+      "id": "gita_chapter_12",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 12: Bhakti Yoga (El Yoga de la Devoción Suprema)",
+      "capituloNumero": 12,
+      "seccion": "Mahabharata · El Yoga de la Devoción y el Amor Supremo",
+      "versiculoNumero": "1-12",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "मय्यावेश्य मनो ये मां नित्ययुक्ता उपासते। श्रद्धया परयोपेतास्ते मे युक्ततमा मताः॥ अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च। निर्ममो निरहङ्कारः समदुःखसुखः क्षमी॥",
+      "foneticaLiturgica": "Mayyāveśya mano ye māṁ nityayuktā upāsate | Śraddhayā parayopetāste me yuktatamā matāḥ || Adveṣṭā sarvabhūtānāṁ maitraḥ karuṇa eva ca | Nirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī ||",
+      "traducciones": {
+        "he": "2. Sri Bhagavan אמר: אלה שמרכזים את דעתם בי ועוסקים ללא הרף במסירות שלי והם מלאים באמונה עילאית, הם נחשבים בעיני ליוגי הטוב ביותר.\n13. החסיד חסר שנאה כלפי כל היצורים החיים, ידידותי ואדיב לכל, נקי מהיקשרות ואגו, שווה בשמחות ובצער וסלחן, יקר לי מאוד."
+      }
+    },
+    {
+      "id": "gita_chapter_13",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 13: Ksetra-Ksetrajna Vibhaga Yoga (El Yoga de la Distinción del Campo y el Conocedor)",
+      "capituloNumero": 13,
+      "seccion": "Mahabharata · La Distinción entre el Campo y el Conocedor del Campo",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते। एतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः॥ क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत। क्षेत्रक्षेत्रज्ञयोर्ज्ञानं यत्तज्ज्ञानं मतं मम॥",
+      "foneticaLiturgica": "Idaṁ śarīraṁ kaunteya kṣetramityabhidhīyate | Etadyo vetti taṁ prāhuḥ kṣetrajña iti tadvidaḥ || Kṣetrajñaṁ cāpi māṁ viddhi sarvakṣetreṣu bhārata | Kṣetrakṣetrajñayorjñānaṁ yattajjñānaṁ mataṁ mama ||",
+      "traducciones": {
+        "he": "1. הו בן קונטי! הגוף הזה נקרא 'קשתרא' (שדה פעולה) ומי שמכיר אותו נקרא בפי הפילוסופים 'קשתראגיה' (נשמה).\n2. היי הודו! הכר אותי בתור ה'קשטרגיה' (אלוהים) בכל התחומים. הידע המדויק של התחום והמומחה הוא הידע האמיתי."
+      }
+    },
+    {
+      "id": "gita_chapter_14",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 14: Gunatraya-Vibhaga Yoga (El Yoga de las Tres Cualidades de la Naturaleza)",
+      "capituloNumero": 14,
+      "seccion": "Mahabharata · El Yoga de las Tres Modalidades de la Naturaleza (Gunas)",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः। निबध्नन्ति महाबाहो देहे देहिनमव्ययम्॥ तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम्। सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ॥",
+      "foneticaLiturgica": "Sattvaṁ rajastama iti guṇāḥ prakṛtisambhavāḥ | Nibadhnanti mahābāho dehe dehinamavyayam || Tatra sattvaṁ nirmalatvāt prakāśakamanāmayam | Sukhasaṅgena badhnāti jñānasaṅgena cānagha ||",
+      "traducciones": {
+        "he": "5. הו חמוש חזק! Sattva, Raja ו-Tama - שלוש התכונות הללו הנובעות מהטבע קושרות את הנשמה הבלתי ניתנת להריסה לגוף.\n6. הו חטא! מבין השלושה, הסאטווה גונה טהורה מכיוון שהיא מאירה ונקייה מהפרעות; היא קושרת אדם עם התקשרות לאושר והתקשרות לידע."
+      }
+    },
+    {
+      "id": "gita_chapter_15",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 15: Purusottama Yoga (El Yoga del Ser Supremo)",
+      "capituloNumero": 15,
+      "seccion": "Mahabharata · El Yoga de la Persona Suprema y el Árbol Cósmico",
+      "versiculoNumero": "1-15",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्। छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्॥ द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च। क्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते॥ उत्तमः पुरुषस्त्वन्यः परमात्मेत्युदाहृतः।",
+      "foneticaLiturgica": "Ūrdhvamūlamadhaḥśākhamaśvatthaṁ prāhuravyayam | Chandāṁsi yasya parṇāni yastaṁ veda sa vedavit || Dvāvimau puruṣau loke kṣaraścākṣara eva ca | Kṣaraḥ sarvāṇi bhūtāni kūṭastho'kṣara ucyate || Uttamaḥ puruṣastvanyaḥ paramātmetyudāhṛtaḥ ||",
+      "traducciones": {
+        "he": "1. מומחי Vedanta יודעים על עץ Peepal האלמותי שמקורו בצורת אדי-פורוש ויש לו ענפים בצורת העולם; שעליו הם הוודות.\n16. ישנם שני סוגים של גברים בעולם הזה - קשר (גוף מתכלה) ואקשר (נשמה בלתי מתכלה).\n17. אבל מעבר לשני אלה, ישנו אדם גדול נוסף, שנקרא אלוהים."
+      }
+    },
+    {
+      "id": "gita_chapter_16",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 16: Daivasura-Sampad-Vibhaga Yoga (El Yoga de la División de las Naturalezas Divina y Demoníaca)",
+      "capituloNumero": 16,
+      "seccion": "Mahabharata · La Distinción entre la Naturaleza Divina y Demoníaca",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "अभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः। दानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्॥ अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्। दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्॥",
+      "foneticaLiturgica": "Abhayaṁ sattvasaṁśuddhirjñānayogavyavasthitiḥ | Dānaṁ damaśca yajñaśca svādhyāyastapa ārjavam || Ahiṁsā satyamakrodhastyāgaḥ śāntirapaiśunam | Dayā bhūteṣvaloluptvaṁ mārdavaṁ hrīracāpalam ||",
+      "traducciones": {
+        "he": "1-3. היעדר פחד, טוהר מצפון מוחלט, עמדה איתנה בגיאן יוגה, צדקה, דיכוי חושים, הקרבה, לימוד עצמי, תשובה, פשטות, אי אלימות, אמת, כעס, ויתור, שלום, חסד, סליחה וסבלנות - כל אלה הם המאפיינים של אדם שהשיג את ההישג האלוהי."
+      }
+    },
+    {
+      "id": "gita_chapter_17",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 17: Sraddhatraya-Vibhaga Yoga (El Yoga de las Tres Divisiones de la Fe)",
+      "capituloNumero": 17,
+      "seccion": "Mahabharata · Las Tres Formas de la Fe y la Verdad (Om Tat Sat)",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "त्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा। सात्त्विकी राजसी चैव तामसी चेति तां शृणु॥ ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः। ब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा॥",
+      "foneticaLiturgica": "Trividhā bhavati śraddhā dehināṁ sā svabhāvajā | Sāttvikī rājasī caiva tāmasī ceti tāṁ śṛṇu || Oṁ tatsaditi nirdeśo brahmaṇastrividhaḥ smṛtaḥ | Brāhmaṇāstena vedāśca yajñāśca vihitāḥ purā ||",
+      "traducciones": {
+        "he": "2. ישנם שלושה סוגי אמונה הנובעים מטבעם של בני האדם - סאטוויק, ראג'סי וטמאסי.\n23. 'Om Tat Sat' - אומרים שזה השם המשולש של אלוהים Sachchidanandaghan; ממנו נוצרו הוודות ויאגיה בראשית הבריאה."
+      }
+    },
+    {
+      "id": "gita_chapter_18",
+      "tradicion": "vedica",
+      "libro": "El Srimad Bhagavad Gita",
+      "libroKey": "gita",
+      "capitulo": "Capítulo 18: Moksa-Sannyasa Yoga (El Yoga de la Liberación por la Renuncia)",
+      "capituloNumero": 18,
+      "seccion": "Mahabharata · La Liberación Suprema por la Renuncia y la Gracia",
+      "versiculoNumero": "1-18",
+      "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
+      "dir": "ltr",
+      "textoOriginal": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज। अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥ यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः। तत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम॥",
+      "foneticaLiturgica": "Sarvadharmānparityajya māmekaṁ śaraṇaṁ vraja | Ahaṁ tvāṁ sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ || Yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanurdharaḥ | Tatra śrīrvijayo bhūtirdhruvā nītirmatirmama ||",
+      "traducciones": {
+        "he": "66. מסור לי את כל הדהרמה (חובות) ומצא מקלט רק בי. אשחרר אותך מכל החטאים; אל תתאבל.\n78. היכן שיוגשוואר הוא שרי קרישנה ואיפה הקשת הוא ארג'ון, יש שרי, ויג'אי, וויבהוטי ואחל ניטי - זו דעתי הנחרצת."
+      }
+    }
+  ]
+}

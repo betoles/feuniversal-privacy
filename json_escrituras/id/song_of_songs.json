@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "libroKey": "song_of_songs",
+    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "totalCapitulos": 8,
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "id",
+    "esquema": "modular_lazy_v4",
+    "dir": "ltr"
+  },
+  "capitulos": [
+    {
+      "id": "song_of_songs_chapter_1",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
+      "capituloNumero": 1,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
+      "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
+      "traducciones": {
+        "id": "1. Biarkan dia menciumku dengan ciuman di mulutnya: karena cintamu lebih baik dari pada anggur.\n2. Karena harumnya minyak urapanmu yang baik, namamu seperti minyak urapan yang ditumpahkan, oleh karena itu gadis-gadis pun mencintaimu.\n3. Tarik aku, kami akan mengejarmu: raja telah membawaku ke kamarnya: kami akan senang dan bersukacita padamu, kami akan mengingat cintamu lebih dari anggur: orang jujur ​​​​mencintaimu.\n4. Aku berkulit gelap, namun cantik, hai putri-putri Yerusalem, seperti kemah Kedar, seperti tirai Sulaiman.\n5. Katakan padaku, kamu yang dicintai jiwaku, di mana kamu memberi makan kawananmu, di mana kamu mengistirahatkannya pada siang hari."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_2",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
+      "capituloNumero": 2,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
+      "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
+      "traducciones": {
+        "id": "1. Akulah bunga mawar Sharon dan bunga bakung di lembah.\n2. Seperti bunga bakung di antara duri, demikianlah cintaku di antara anak-anak perempuan.\n3. Seperti pohon apel di antara pohon-pohon di hutan, demikianlah kekasihku di antara para putra. Aku duduk di bawah naungannya dengan penuh kegembiraan, dan buahnya terasa manis menurut seleraku.\n4. Dia membawaku ke ruang perjamuan, dan panjinya di atasku adalah cinta.\n5. Suara kekasihku! lihatlah, dia datang dengan melompat ke atas gunung, melompat ke atas bukit.\n6. Kekasihku berbicara dan berkata kepadaku, Bangunlah, sayangku, gadis cantikku, dan pergilah. Sebab, lihatlah, musim dingin sudah lewat, hujan sudah lewat dan berlalu; bunganya muncul di bumi."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_3",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
+      "capituloNumero": 3,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
+      "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
+      "traducciones": {
+        "id": "1. Pada malam hari di tempat tidurku aku mencari dia yang dicintai jiwaku: aku mencarinya, tetapi aku tidak menemukannya.\n2. Aku akan bangkit sekarang, dan berkeliling kota melalui jalan-jalan, dan di jalan-jalan luas aku akan mencari dia yang dikasihi jiwaku: Aku mencari dia, tetapi aku tidak menemukannya.\n3. Hanya sedikit yang aku lewati dari mereka, tetapi aku menemukan dia yang dicintai jiwaku: aku memegangnya, dan tidak membiarkan dia pergi, sampai aku membawanya ke rumah ibuku, dan ke dalam kamar wanita yang mengandung aku.\n4. Siapakah yang keluar dari padang gurun seperti tiang asap, harum mur dan kemenyan, dan segala bubuk pedagang?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_4",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
+      "capituloNumero": 4,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
+      "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
+      "traducciones": {
+        "id": "1. Lihatlah, kamu cantik, sayangku; lihatlah, kamu cantik; Anda memiliki mata merpati di dalam kunci Anda.\n2. Kalian semua cantik, sayangku; tidak ada tempat di dalam dirimu.\n3. Sebuah taman tertutup adalah saudara perempuan saya, pasangan saya; mata air tertutup, air mancur tertutup.\n4. Tanamanmu adalah kebun buah delima yang buahnya enak; camphire, dengan spikenard;\n5. Mata air taman, sumur air hidup, dan aliran sungai dari Lebanon.\n6. Bangunlah, hai angin utara; dan datanglah, kamu ke selatan; tiuplah ke kebunku, supaya rempah-rempahnya mengalir keluar. Biarlah kekasihku datang ke kebunnya dan memakan buah-buahannya yang lezat."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_5",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
+      "capituloNumero": 5,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
+      "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
+      "traducciones": {
+        "id": "1. Saya datang ke kebun saya, saudara perempuan saya, pasangan saya: Saya telah mengumpulkan mur dan rempah-rempah saya; Aku telah memakan sarang lebahku dengan maduku; Aku telah meminum anggurku dengan susuku.\n2. Aku tertidur, tapi hatiku terbangun: suara kekasihkulah yang mengetuk!\n3. Kekasihku berkulit putih dan kemerahan, yang paling utama di antara sepuluh ribu orang.\n4. Kepalanya seperti emas murni, rambutnya lebat, dan hitam seperti burung gagak.\n5. Matanya bagaikan mata merpati di tepi aliran air, dibasuh dengan susu, dan ditata dengan baik.\n6. Mulutnya manis sekali: ya, dia manis sekali. Inilah kekasihku dan inilah sahabatku, hai putri-putri Yerusalem."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_6",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
+      "capituloNumero": 6,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
+      "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
+      "traducciones": {
+        "id": "1. Kemana perginya kekasihmu, hai wanita tercantik? kemana kekasihmu disingkirkan? agar kami dapat mencarinya bersamamu.\n2. Kekasihku sedang pergi ke kebunnya, ke kebun rempah-rempah, untuk mencari makan di taman, dan untuk memetik bunga bakung.\n3. Aku milik kekasihku, dan kekasihku milikku: dia makan di antara bunga bakung.\n4. Kamu cantik, wahai cintaku, seperti Tirza, cantik seperti Yerusalem, mengerikan seperti tentara dengan panji-panji.\n5. Siapakah yang tampak seperti pagi hari, cerah seperti bulan, cerah seperti matahari, dan mengerikan seperti bala tentara yang membawa panji-panji?"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_7",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
+      "capituloNumero": 7,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
+      "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
+      "traducciones": {
+        "id": "1. Kembali, kembalilah, hai gadis Sulam; kembalilah, kembalilah, agar kami dapat memandangmu. Apa yang akan Anda lihat pada orang Sulam? Seolah-olah itu adalah kompi dari dua pasukan.\n2. Betapa indahnya kakimu dengan sepatu, hai putri pangeran! sendi-sendi pahamu bagaikan permata, hasil karya tangan seorang pekerja yang licik.\n3. Betapa cantik dan menyenangkannya kamu, hai cinta, karena kesenangan!\n4. Tinggi badanmu seperti pohon korma, dan dadamu seperti buah anggur.\n5. Akulah kekasihku, dan dia menginginkanku.\n6. Ayo, kekasihku, mari kita pergi ke ladang; marilah kita menginap di desa-desa. Marilah kita bangun pagi-pagi ke kebun anggur; di sanalah aku akan memberimu cintaku."
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_8",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
+      "capituloNumero": 8,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
+      "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
+      "traducciones": {
+        "id": "1. Jadikan aku sebagai meterai di hatimu, sebagai meterai di lenganmu: karena cinta itu kuat seperti maut; cemburu itu kejam seperti kuburan: bara apinya adalah bara api, yang nyalanya paling membara.\n2. Air yang banyak tidak dapat memadamkan cinta, banjir juga tidak dapat menenggelamkannya: jika seseorang memberikan seluruh harta benda rumahnya demi cinta, hal itu akan dihina sepenuhnya.\n3. Kebun anggurku, milikku, ada di hadapanku: engkau, hai Salomo, harus mempunyai seribu, dan mereka yang memelihara buahnya dua ratus.\n4. Hai kamu yang tinggal di taman-taman, para sahabat mendengarkan suaramu: buatlah aku mendengarnya.\n5. Bergegaslah, kekasihku, dan jadilah seperti kijang atau rusa muda di atas gunungan rempah-rempah."
+      }
+    }
+  ]
+}

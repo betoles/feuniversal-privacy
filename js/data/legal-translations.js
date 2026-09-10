@@ -1,0 +1,1439 @@
+/**
+ * FeUniversal - Multi-Language Legal Framework & Privacy Mirror (17 Languages)
+ * Version 8.2.0
+ * Canonical Source Language: Español (México)
+ */
+export const LEGAL_TRANSLATIONS = {
+  "es": {
+    "name": "Español (México)",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Santuario Devocional Universal • Todos los derechos reservados.","tagline":"Diseñado con reverencia para la fraternidad, la paz y la contemplación humana."},
+    "badge": "Versión Canónica Oficial",
+    "header": {
+      "title": "Marco Legal, Políticas de Privacidad y Términos de Uso",
+      "subtitle": "Iniciativa Espiritual y Fraterna Universal",
+      "effective_date": "Última actualización: Septiembre de 2026",
+      "version": "Versión Oficial 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Santuario Devocional Libre de Publicidad Comercial y Rastreo",
+      "p1": "La plataforma <strong>FeUniversal</strong> ha sido concebida y desarrollada como un santuario espiritual, devocional y cultural libre de intrusión mercantil. Declaramos de manera categórica e irrevocable que la aplicación <strong>no contiene anuncios comerciales, banners invasivos, anuncios intersticiales, rastreadores de comportamiento, scripts de retargeting ni mecanismos de monetización por publicidad de terceros</strong>.",
+      "p2": "La experiencia de oración, contemplación y meditación debe permanecer pura, solemne y respetuosa. No vendemos espacios publicitarios ni participamos en redes programáticas de subasta de anuncios en tiempo real (RTB), garantizando un ambiente digital digno de la devoción humana."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Política de Privacidad Estricta y Cero Recolección de Datos Personales",
+      "p1": "En estricto cumplimiento con el principio de minimización de datos y normativas internacionales (como el RGPD europeo, CCPA/CPRA, LGPD de Brasil y la LFPDPPP de México):",
+      "p2": "<strong>a) Arquitectura Local (Offline-First):</strong> Todo el corpus devocional de más de 4,000 oraciones y textos sagrados reside localmente en el dispositivo del usuario. No se transmiten consultas a servidores centrales para leer oraciones.<br><strong>b) Cero Perfilamiento:</strong> La aplicación no recopila nombres, correos electrónicos, números de teléfono, identificadores de publicidad (IDFA/GAID), ubicación geográfica por GPS ni agendas de contactos.<br><strong>c) Almacenamiento Local Aislado:</strong> Las preferencias de idioma, oraciones favoritas, notas personales e intenciones espirituales se almacenan exclusivamente en el almacenamiento local seguro de su dispositivo (localStorage / IndexedDB) y jamás son transmitidas, compartidas ni sincronizadas hacia servidores externos de la iniciativa ni de terceros.<br><strong>d) No Compartición de Datos:</strong> No comercializamos, cedemos, alquilamos ni divulgamos información alguna a corporaciones, corredores de datos (data brokers), instituciones religiosas ni agencias gubernamentales."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Neutralidad Doctrinal, No Proselitismo y Cumplimiento con Normativas Religiosas",
+      "p1": "<strong>FeUniversal</strong> es una iniciativa civil y fraterna orientada a la preservación del patrimonio literario y espiritual de la humanidad. La aplicación <strong>no es una congregación religiosa, iglesia, secta ni entidad proselitista</strong>. No promueve la conversión religiosa forzada, no emite dogmas teológicos vinculantes ni pretende reemplazar el liderazgo espiritual de las comunidades de fe.",
+      "p2": "Se exhorta a cada usuario a practicar su fe y devoción en estricto apego y respeto a las leyes, usos y costumbres de su país de residencia, honrando la coexistencia pacífica interreligiosa y el respeto mutuo entre todas las tradiciones."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Originalidad del Software y Dominio Público del Patrimonio Espiritual",
+      "p1": "<strong>a) Código Fuente y Diseño:</strong> La arquitectura de software, algoritmos, interfaz gráfica, diseño de experiencia de usuario (UI/UX) e iconografía vectorial son creaciones 100% originales desarrolladas con propósitos benéficos y culturales, protegidas por las leyes internacionales de propiedad intelectual.<br><strong>b) Textos Litúrgicos e Históricos:</strong> Las oraciones clásicas, salmos, mantras, himnos védicos, súplicas coránicas, cánticos y meditaciones tradicionales forman parte del patrimonio inmemorial de la humanidad y del Dominio Público Universal, habiendo sido recopiladas con reverencia desde fuentes históricas abiertas."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Puerto Seguro de Derechos de Autor (DMCA / Safe Harbor) y Retiro Oportuno",
+      "p1": "Si cualquier autor, titular de derechos o comunidad depositaria considera de buena fe que alguna traducción o versión específica de una oración protegida por derechos de autor vigentes ha sido incluida inadvertidamente, nos comprometemos bajo la doctrina de Puerto Seguro (DMCA y normativas equivalentes) a revisar la solicitud y <strong>proceder a la corrección, atribución o retiro definitivo del contenido en un plazo de 1 a 2 semanas hábiles</strong> tras recibir la notificación fehaciente en nuestro canal de contacto."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Alcance Filológico, Buena Fe y Descargo de Responsabilidad por Traducción",
+      "p1": "La traducción y adaptación de textos espirituales ancestrales desde lenguas clásicas (como sánscrito, hebreo bíblico, griego koiné, latín eclesiástico, árabe clásico, pali y arameo) a idiomas modernos representan un esfuerzo filológico de alta complejidad. Las traducciones y adaptaciones se ofrecen con total humildad, buena fe y reverencia fraternal.",
+      "p2": "<strong>FeUniversal</strong> ofrece de antemano una sincera disculpa por cualquier posible matiz lingüístico, inadvertencia de interpretación o variación dialectal no intencionada, aclarando expresamente que no existe mala fe, sesgo ideológico ni afán de alteración dogmática."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Protección de Menores (COPPA / Family-Friendly)",
+      "p1": "La plataforma es 100% apta para toda la familia y cumple plenamente con la Children's Online Privacy Protection Act (COPPA) y directivas internacionales de protección infantil. No contiene material explícito ni violencia. Las suscripciones opcionales y micro-ofrendas voluntarias se gestionan con absoluta transparencia a través de Google Play Billing."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Seguridad en la Meditación y Prácticas Contemplativas",
+      "p1": "Los ejercicios de respiración guiada, temporizadores de meditación y sonidos ambientales incluidos en la plataforma están diseñados exclusivamente para el bienestar espiritual y la relajación. <strong>No deben utilizarse mientras se conduce un vehículo de motor, se opera maquinaria pesada ni durante actividades que requieran atención visual y motriz plena</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Descargo de Responsabilidad Médica y de Salud (Google Play Health Policy)",
+      "p1": "<strong>AVISO MÉDICO CRÍTICO:</strong> El contenido, reflexiones, intenciones y oraciones de la categoría de Salud y Sanación se proporcionan con fines estrictamente devocionales, espirituales, culturales y de acompañamiento moral.",
+      "p2": "<strong>Esta aplicación NO proporciona asesoramiento médico, diagnóstico clínico, tratamiento ni prescripciones terapéuticas.</strong> El uso de esta aplicación NUNCA debe sustituir el consejo, diagnóstico o tratamiento de un médico calificado, psiquiatra, psicólogo u otro profesional de la salud con licencia. Ante cualquier condición física o mental, consulte siempre a su médico."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Transparencia de Asistencia Tecnológica e Inteligencia Artificial",
+      "p1": "En los módulos donde se habiliten herramientas de asistencia lingüística o reflexión (Faith-GPT), se informa que las respuestas son generadas por modelos computacionales sobre literatura espiritual pública. <strong>Dichas respuestas no constituyen profecías, absoluciones sacramentales, mandatos divinos ni consejos legales o financieros</strong>, debiendo ser recibidas con discernimiento personal."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Limitación General de Responsabilidad y Fuerza Mayor",
+      "p1": "El uso de la aplicación se realiza bajo la entera discreción y responsabilidad del usuario (\"tal cual\" y \"según disponibilidad\"). Los desarrolladores e impulsores de la iniciativa no serán responsables por interrupciones técnicas imprevistas, fallos de compatibilidad en dispositivos específicos ni decisiones de vida adoptadas por los usuarios basadas en lecturas o reflexiones de la aplicación."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Contacto Institucional, Sugerencias y Atención a Derechos",
+      "p1": "Para cualquier consulta legal, sugerencia de corrección lingüística fraterna, solicitudes DMCA o felicitaciones, ponemos a disposición de toda la comunidad global nuestro canal directo oficial:<br><strong>Correo Electrónico Oficial:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Cláusula de Idioma Prevaleciente y Referencia Canónica",
+      "p1": "La versión oficial, original y jurídicamente vinculante del presente Marco Legal, Políticas de Privacidad y Términos de Uso ha sido redactada formalmente en <strong>Español (México)</strong>.",
+      "p2": "Las versiones y traducciones disponibles en los restantes idiomas (Inglés, Francés, Portugués, Italiano, Alemán, Árabe, Ruso, Chino, Japonés, Hindi, Bengalí, Indonesio, Urdu y Suajili) se facilitan de buena fe como adaptaciones fraternas de cortesía para facilitar la comprensión y accesibilidad de la comunidad global. En caso de discrepancia lingüística, interpretación legal o ambigüedad conceptual entre cualquiera de las traducciones y el texto en español, <strong>prevalecerá de manera definitiva y vinculante la versión en Español (México)</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#006847\" d=\"M0 0h213.3v480H0z\"/><path fill=\"#fff\" d=\"M213.3 0h213.4v480H213.3z\"/><path fill=\"#ce1126\" d=\"M426.7 0H640v480H426.7z\"/><circle cx=\"320\" cy=\"240\" r=\"32\" fill=\"#c5a059\"/></svg>"
+  },
+  "en": {
+    "name": "English (Global)",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Universal Devotional Sanctuary • All rights reserved.","tagline":"Designed with reverence for fraternity, peace, and human contemplation."},
+    "badge": "Official Fraternal Mirror",
+    "header": {
+      "title": "Legal Framework, Privacy Policy & Terms of Use",
+      "subtitle": "Universal Spiritual & Fraternal Initiative",
+      "effective_date": "Last updated: September 2026",
+      "version": "Official Version 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Ad-Free Devotional Sanctuary & Zero Commercial Tracking",
+      "p1": "The <strong>FeUniversal</strong> platform has been conceived and developed as a sacred spiritual, devotional, and cultural sanctuary free from commercial intrusion. We categorically and irrevocably declare that the application <strong>contains no commercial advertisements, intrusive banners, interstitial ads, behavioral trackers, retargeting scripts, or third-party ad monetization mechanisms</strong>.",
+      "p2": "The experience of prayer, contemplation, and meditation must remain pure, solemn, and reverent. We do not sell ad space or participate in real-time bidding (RTB) ad networks, ensuring a digital atmosphere worthy of human devotion."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Strict Privacy Policy & Zero Personal Data Collection",
+      "p1": "In strict compliance with data minimization principles and international privacy frameworks (including EU GDPR, CCPA/CPRA, Brazilian LGPD, and Mexican LFPDPPP):",
+      "p2": "<strong>a) Offline-First Local Architecture:</strong> The entire devotional corpus of over 4,000 prayers and sacred texts resides locally on the user's device. No queries are transmitted to central servers to view prayers.<br><strong>b) Zero Profiling:</strong> The application does not collect names, email addresses, phone numbers, advertising identifiers (IDFA/GAID), GPS location, or contact address books.<br><strong>c) Isolated Local Storage:</strong> Language preferences, favorite prayers, personal notes, and spiritual intentions are stored strictly within your device's secure local storage (localStorage / IndexedDB) and are never transmitted, synchronized, or shared with external servers.<br><strong>d) No Data Sharing:</strong> We never sell, lease, disclose, or transfer any user data to corporations, data brokers, religious institutions, or government agencies."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Doctrinal Neutrality, Non-Proselytization & Religious Law Compliance",
+      "p1": "<strong>FeUniversal</strong> is a civil and fraternal initiative dedicated to preserving humanity's literary and spiritual heritage. The application <strong>is not a religious denomination, church, sect, or proselytizing entity</strong>. It does not advocate forced religious conversion, issue binding theological dogmas, or seek to replace the leadership of faith communities.",
+      "p2": "Every user is encouraged to practice their faith in full harmony and compliance with the laws, customs, and traditions of their country of residence, honoring peaceful interreligious coexistence and mutual respect."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Originality of Software & Public Domain of Spiritual Heritage",
+      "p1": "<strong>a) Source Code and Architecture:</strong> The software architecture, algorithms, graphical interface, user experience (UI/UX) design, and vector iconography are 100% original creations developed for benevolent, cultural purposes and protected by international intellectual property laws.<br><strong>b) Liturgical and Historical Texts:</strong> Classic prayers, psalms, mantras, Vedic hymns, Quranic supplications, chants, and traditional meditations belong to the timeless heritage of humankind and the Universal Public Domain, compiled reverently from open historical sources."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Copyright Safe Harbor (DMCA) & Takedown Policy",
+      "p1": "If any author, rights holder, or custodial community believes in good faith that a specific copyrighted translation or version has been inadvertently included, we commit under Safe Harbor doctrines (DMCA and global equivalents) to review the claim and <strong>correct, attribute, or permanently remove the content within 1 to 2 business weeks</strong> upon receipt of formal notification."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Philological Scope, Good Faith & Translation Disclaimer",
+      "p1": "Translating and adapting ancestral spiritual texts from classical languages (such as Sanskrit, Biblical Hebrew, Koine Greek, Ecclesiastical Latin, Classical Arabic, Pali, and Aramaic) into modern languages represents a profound and complex philological endeavor. All translations are offered with humility, goodwill, and fraternal reverence.",
+      "p2": "<strong>FeUniversal</strong> extends an advance sincere apology for any potential linguistic nuances, interpretive oversights, or unintended dialectal variations, expressly affirming that no ill intent, ideological bias, or doctrinal alteration exists."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Child Safety & Family-Friendly Standards (COPPA)",
+      "p1": "The platform is 100% family-friendly and fully complies with the Children's Online Privacy Protection Act (COPPA) and international child protection guidelines. It contains no explicit content or violence. Optional subscriptions and voluntary micro-offerings are managed transparently and securely via Google Play Billing."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Safety in Meditation & Contemplative Practices",
+      "p1": "Guided breathing exercises, meditation timers, and ambient sounds provided within the platform are intended solely for spiritual well-being and relaxation. <strong>They must not be used while driving motor vehicles, operating heavy machinery, or performing any activity requiring full visual and motor attention</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Medical & Health Disclaimer (Google Play Health Policy Compliance)",
+      "p1": "<strong>CRITICAL MEDICAL NOTICE:</strong> Content, reflections, intentions, and prayers in the Health & Healing category are provided solely for devotional, spiritual, cultural, and emotional solace.",
+      "p2": "<strong>This application does NOT provide medical advice, clinical diagnosis, medical treatment, or therapeutic prescriptions.</strong> The use of this app should NEVER replace the advice, diagnosis, or treatment of a licensed physician, psychiatrist, psychologist, or qualified healthcare professional. Always consult your doctor for any physical or mental health conditions."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Technological Assistance & Artificial Intelligence Transparency",
+      "p1": "In modules where linguistic assistance or reflection tools (Faith-GPT) are enabled, responses are generated by computational models trained on public spiritual literature. <strong>Such responses do not constitute divine prophecies, sacramental absolutions, theological mandates, or legal/financial advice</strong>, and must be received with personal discernment."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "General Limitation of Liability & Force Majeure",
+      "p1": "The use of this application is at the user's sole discretion and responsibility (provided \"as is\" and \"as available\"). The developers and promoters of this initiative shall not be liable for unforeseen technical interruptions, device compatibility limitations, or personal life decisions made by users based on app readings."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Institutional Contact & Rights Administration",
+      "p1": "For any legal inquiries, fraternal linguistic suggestions, DMCA notices, or feedback, please contact our official global channel:<br><strong>Official Email:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Governing Language Clause & Canonical Reference",
+      "p1": "The official, original, and legally binding version of this Legal Framework, Privacy Policy, and Terms of Use is formally drafted in <strong>Spanish (Mexico)</strong>.",
+      "p2": "All versions and translations provided in other languages (English, French, Portuguese, Italian, German, Arabic, Russian, Chinese, Japanese, Hindi, Bengali, Indonesian, Urdu, and Swahili) are provided in good faith as courtesy fraternal adaptations to foster global understanding and accessibility. In the event of any linguistic discrepancy, legal ambiguity, or divergence between any translation and the Spanish source text, <strong>the Spanish (Mexico) version shall definitively govern and prevail</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#012169\" d=\"M0 0h640v480H0z\"/><path fill=\"#FFF\" d=\"m75 0 245 180L565 0h75v60L435 240l205 180v60h-75L320 300 75 480H0v-60l205-180L0 60V0h75z\"/><path fill=\"#C8102E\" d=\"m420 280 220 160v40L370 300h50zM220 280 0 440v40l270-180h-50zM0 40l220 160h50L0 0v40zm640 0L420 200h-50l270-180v20z\"/><path fill=\"#FFF\" d=\"M240 0h160v480H240zM0 160h640v160H0z\"/><path fill=\"#C8102E\" d=\"M280 0h80v480h-80zM0 200h640v80H0z\"/></svg>"
+  },
+  "fr": {
+    "name": "Français",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Sanctuaire Dévotionnel Universel • Tous droits réservés.","tagline":"Conçu avec révérence pour la fraternité, la paix et la contemplation humaine."},
+    "badge": "Miroir Fraternel Officiel",
+    "header": {
+      "title": "Cadre Juridique, Politique de Confidentialité et Conditions d’Utilisation",
+      "subtitle": "Initiative Spirituelle et Fraternelle Universelle",
+      "effective_date": "Dernière mise à jour : Septembre 2026",
+      "version": "Version Officielle 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Sanctuaire Dévotionnel Sans Publicité Commerciale ni Traçage",
+      "p1": "La plateforme <strong>FeUniversal</strong> a été conçue comme un sanctuaire spirituel et culturel préservé de toute intrusion commerciale. Nous déclarons de manière catégorique et irrévocable que l’application <strong>ne contient aucune publicité commerciale, bannière intrusive, annonce interstitielle, traceur comportemental ni script de monétisation tiers</strong>.",
+      "p2": "L’expérience de prière et de méditation doit demeurer pure et digne. Nous ne commercialisons aucun espace publicitaire ni ne participons à des réseaux d’enchères publicitaires en temps réel (RTB)."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Politique Stricte de Confidentialité et Zéro Collecte de Données",
+      "p1": "En stricte conformité avec le principe de minimisation des données et le Règlement Général sur la Protection des Données (RGPD européen) :",
+      "p2": "<strong>a) Architecture Locale (Offline-First) :</strong> L’intégralité du corpus de plus de 4 000 prières réside localement sur l’appareil de l’utilisateur. Aucune requête n’est envoyée à des serveurs distants pour lire les prières.<br><strong>b) Zéro Profilage :</strong> L’application ne collecte aucun nom, adresse e-mail, numéro de téléphone, identifiant publicitaire (IDFA/GAID), géolocalisation GPS ni carnet de contacts.<br><strong>c) Stockage Local Isolé :</strong> Les préférences de langue, favoris, notes et intentions spirituelles sont conservés exclusivement dans le stockage local sécurisé de votre appareil (localStorage / IndexedDB) et ne sont jamais synchronisés avec des serveurs externes.<br><strong>d) Aucun Partage de Données :</strong> Nous ne vendons, ne louons ni ne transmettons aucune information à des courtiers en données, entités religieuses ou organismes tiers."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Neutralité Doctrinale, Non-Prosélytisme et Respect des Lois Religieuses",
+      "p1": "<strong>FeUniversal</strong> est une initiative civile dédiée à la préservation du patrimoine spirituel de l’humanité. L’application <strong>n’est ni une église, ni une congrégation, ni une secte, ni une entité de prosélytisme</strong>. Elle ne promeut aucune conversion forcée et n’émet aucun dogme théologique contraignant.",
+      "p2": "Chaque utilisateur est invité à vivre sa foi dans le plein respect des lois, coutumes et traditions de son pays de résidence, en favorisant la coexistence pacifique interreligieuse."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Originalité Logicielle et Domaine Public du Patrimoine Spirituel",
+      "p1": "<strong>a) Code Source et Interface :</strong> Le code source, l’architecture, la conception de l’interface utilisateur (UI/UX) et les icônes vectorielles sont des créations 100 % originales protégées par le droit d’auteur international.<br><strong>b) Textes Liturgiques et Historiques :</strong> Les prières classiques, psaumes, mantras, hymnes védiques et invocations coraniques appartiennent au Domaine Public Universel de l’humanité."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Port Sûr du Droit d’Auteur (DMCA / Safe Harbor) et Retrait Rapide",
+      "p1": "Si un ayant droit estime de bonne foi qu’un texte protégé a été inclus par inadvertance, nous nous engageons à examiner la demande et à <strong>corriger ou retirer le contenu sous 1 à 2 semaines ouvrées</strong> dès réception d’une notification officielle."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Portée Philologique, Bonne Foi et Décharge de Traduction",
+      "p1": "La traduction de textes sacrés anciens depuis des langues classiques (sanscrit, hébreu, grec, latin, arabe classique, etc.) constitue une œuvre philologique d’une grande complexité menée avec respect et bienveillance.",
+      "p2": "<strong>FeUniversal</strong> présente par avance ses excuses pour toute nuance dialectale ou inadvertance d’interprétation involontaire, affirmant qu’aucune altération doctrinale délibérée n’existe."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Protection des Mineurs et Cadre Familial (COPPA)",
+      "p1": "La plateforme est 100 % adaptée à un usage familial et respecte les normes internationales de protection des mineurs (COPPA). Elle ne contient aucun contenu explicite ni achat intégré."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Sécurité lors de la Méditation et Pratiques Contemplatives",
+      "p1": "Les guides de respiration et sons d’ambiance sont destinés à la relaxation spirituelle. <strong>Ils ne doivent en aucun cas être utilisés lors de la conduite automobile ou de l’utilisation de machines exigeant une attention soutenue</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Avis Médical et Décharge de Santé (Conformité Google Play Health)",
+      "p1": "<strong>AVIS MÉDICAL IMPORTANT :</strong> Les prières et réflexions de la section Santé et Guérison sont proposées à des fins purement spirituelles et morales.",
+      "p2": "<strong>Cette application NE fournit AUCUN conseil médical, diagnostic clinique ni traitement thérapeutique.</strong> Elle ne remplace en aucun cas l’avis d’un médecin qualifié ou d’un professionnel de santé."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Transparence Technologique et Intelligence Artificielle",
+      "p1": "Les réponses générées par des outils d’assistance linguistique sont informatiques et basées sur la littérature publique. <strong>Elles ne constituent pas des prophéties ni des avis doctrinaux contraignants</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Limitation Générale de Responsabilité",
+      "p1": "L’utilisation de l’application s’effectue sous la seule responsabilité de l’utilisateur (« en l’état »). Les auteurs déclinent toute responsabilité pour d’éventuelles interruptions techniques imprévues."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Contact Institutionnel",
+      "p1": "Pour toute demande juridique ou suggestion fraternelle :<br><strong>E-mail Officiel :</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Clause de Langue Prévalente et Référence Canonique",
+      "p1": "La version officielle et juridiquement contraignante des présentes politiques est rédigée en <strong>Espagnol (Mexique)</strong>.",
+      "p2": "Toutes les traductions dans les autres langues sont fournies de bonne foi à titre de courtoisie fraternelle. En cas de divergence d’interprétation juridique ou conceptuelle, <strong>la version en Espagnol (Mexique) prévaudra de manière définitive</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#002395\" d=\"M0 0h213.3v480H0z\"/><path fill=\"#fff\" d=\"M213.3 0h213.4v480H213.3z\"/><path fill=\"#ed2939\" d=\"M426.7 0H640v480H426.7z\"/></svg>"
+  },
+  "pt": {
+    "name": "Português",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Santuário Devocional Universal • Todos os direitos reservados.","tagline":"Projetado com reverência para a fraternidade, a paz e a contemplação humana."},
+    "badge": "Espelho Fraterno Oficial",
+    "header": {
+      "title": "Marco Legal, Políticas de Privacidade e Termos de Uso",
+      "subtitle": "Iniciativa Espiritual e Fraterna Universal",
+      "effective_date": "Última atualização: Setembro de 2026",
+      "version": "Versão Oficial 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Santuário Devocional Livre de Anúncios Comerciais e Rastreamento",
+      "p1": "A plataforma <strong>FeUniversal</strong> foi concebida e desenvolvida como um santuário espiritual, devocional e cultural livre de invasão comercial. Declaramos categoricamente que o aplicativo <strong>não contém anúncios comerciais, banners invasivos, anúncios intersticiais, rastreadores de comportamento nem mecanismos de monetização de terceiros</strong>.",
+      "p2": "A experiência de oração e meditação deve permanecer pura e respeitosa. Não vendemos espaços publicitários nem participamos de redes de leilão de anúncios em tempo real (RTB)."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Política Rigorosa de Privacidade e Zero Coleta de Dados Pessoais",
+      "p1": "Em estrito cumprimento com a LGPD (Lei Geral de Proteção de Dados do Brasil), RGPD e diretrizes globais:",
+      "p2": "<strong>a) Arquitetura Local (Offline-First):</strong> Todo o acervo de mais de 4.000 orações reside localmente no dispositivo do usuário. Nenhuma consulta é enviada a servidores para leitura de orações.<br><strong>b) Zero Perfilamento:</strong> O aplicativo não coleta nomes, e-mails, números de telefone, identificadores de anúncios (IDFA/GAID), localização GPS ou agenda de contatos.<br><strong>c) Armazenamento Local Isolado:</strong> Preferências de idioma, favoritos e intenções são gravados exclusivamente no armazenamento seguro do dispositivo (localStorage / IndexedDB).<br><strong>d) Não Compartilhamento:</strong> Não comercializamos nem transferimos dados a empresas, data brokers ou entidades terceiras."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Neutralidade Doutrinária, Não Proselitismo e Respeito às Leis Religiosas",
+      "p1": "<strong>FeUniversal</strong> é uma iniciativa civil voltada à preservação do patrimônio literário e espiritual da humanidade. O aplicativo <strong>não é uma denominação religiosa, igreja ou seita</strong>, não realizando proselitismo nem impondo dogmas.",
+      "p2": "Cada usuário é encorajado a praticar sua fé em conformidade com as leis e costumes de seu país, honrando o respeito mútuo inter-religioso."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Originalidade de Software e Domínio Público do Patrimônio Espiritual",
+      "p1": "<strong>a) Código e Interface:</strong> A arquitetura de software, design e ícones vetoriais são criações 100% originais protegidas pelas leis de propriedade intelectual.<br><strong>b) Textos Litúrgicos:</strong> Orações tradicionais, salmos, mantras e cânticos sagrados pertencem ao Domínio Público Universal da humanidade."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Porto Seguro de Direitos Autorais (DMCA / Safe Harbor) e Remoção Adequada",
+      "p1": "Caso algum titular de direitos considere de boa-fé que algum texto protegido foi incluído indevidamente, comprometemo-nos a <strong>revisar e remover ou corrigir o conteúdo em 1 a 2 semanas úteis</strong> após notificação formal."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Alcance Filológico, Boa-Fé e Isenção de Tradução",
+      "p1": "A tradução de textos ancestrais a partir de línguas clássicas (sânscrito, hebraico, grego, latim, árabe clássico, etc.) representa um trabalho filológico minucioso realizado com respeito fraternal.",
+      "p2": "<strong>FeUniversal</strong> pede escusas antecipadas por eventuais variações dialetais ou nuances involuntárias, reiterando a ausência de má-fé ou alteração dogmática."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Proteção de Menores e Ambiente Familiar (COPPA)",
+      "p1": "O aplicativo é 100% adequado para toda a família, sem conteúdo adulto, violência ou compras no aplicativo (in-app purchases)."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Segurança na Meditação e Práticas Contemplativas",
+      "p1": "Exercícios respiratórios e sons ambientes destinam-se exclusivamente ao relaxamento espiritual. <strong>Não devem ser utilizados durante a condução de veículos ou manuseio de máquinas pesadas</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Isenção de Responsabilidade Médica (Google Play Health Policy)",
+      "p1": "<strong>AVISO MÉDICO IMPORTANTE:</strong> Os conteúdos da categoria Saúde e Cura são fornecidos unicamente para fins espirituais e conforto moral.",
+      "p2": "<strong>Este aplicativo NÃO fornece aconselhamento médico, diagnóstico clínico ou tratamento terapêutico.</strong> Nunca deve substituir o acompanhamento de um médico ou profissional de saúde qualificado."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Transparência de Inteligência Artificial e Tecnologia",
+      "p1": "Recursos automatizados baseiam-se em modelos computacionais sobre literatura pública e <strong>não constituem profecias ou preceitos doutrinários vinculantes</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Limitação Geral de Responsabilidade",
+      "p1": "O uso do aplicativo dá-se sob a inteira responsabilidade do usuário (\"no estado em que se encontra\")."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Contato Institucional",
+      "p1": "Para solicitações legais ou sugestões linguísticas fraternas:<br><strong>E-mail Oficial:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Cláusula de Idioma Prevaleciente e Referência Canônica",
+      "p1": "A versão oficial e juridicamente vinculante destas Políticas de Privacidade e Termos de Uso é formalmente redigida em <strong>Espanhol (México)</strong>.",
+      "p2": "As traduções nos demais idiomas são disponibilizadas de boa-fé como cortesias fraternas. Em caso de divergência de interpretação legal, <strong>prevalecerá de forma definitiva a versão em Espanhol (México)</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#009c3b\" d=\"M0 0h640v480H0z\"/><path fill=\"#ffdf00\" d=\"m320 54 266 186-266 186L54 240z\"/><circle cx=\"320\" cy=\"240\" r=\"100\" fill=\"#002776\"/><path fill=\"#fff\" d=\"M220 240c50-30 150-30 200 0-45-15-155-15-200 0z\"/></svg>"
+  },
+  "it": {
+    "name": "Italiano",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Santuario Devozionale Universale • Tutti i diritti riservati.","tagline":"Progettato con riverenza per la fraternità, la pace e la contemplazione umana."},
+    "badge": "Specchio Fraterno Ufficiale",
+    "header": {
+      "title": "Quadro Giuridico, Informativa sulla Privacy e Termini di Utilizzo",
+      "subtitle": "Iniziativa Spirituale e Fraterna Universale",
+      "effective_date": "Ultimo aggiornamento: Settembre 2026",
+      "version": "Versione Ufficiale 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Santuario Devozionale Privo di Pubblicità Commerciale e Tracciamento",
+      "p1": "La piattaforma <strong>FeUniversal</strong> è stata concepita e realizzata come un santuario spirituale, devozionale e culturale esente da qualsiasi intrusione commerciale. Dichiariamo in modo categorico che l'applicazione <strong>non contiene annunci commerciali, banner invasivi, annunci interstiziali, tracker comportamentali né sistemi di monetizzazione terzi</strong>.",
+      "p2": "L'esperienza di preghiera e contemplazione deve rimanere pura, solenne e riverente. Non vendiamo spazi pubblicitari né partecipiamo a reti d'asta pubblicitaria in tempo reale (RTB)."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Rigida Politica di Privacy e Zero Raccolta di Dati Personali",
+      "p1": "In piena conformità con il Regolamento Generale sulla Protezione dei Dati (RGPD europeo):",
+      "p2": "<strong>a) Architettura Locale (Offline-First):</strong> L'intero corpus di oltre 4.000 preghiere risiede localmente sul dispositivo dell'utente. Nessuna interrogazione viene inviata a server remoti per la lettura.<br><strong>b) Zero Profilazione:</strong> L'applicazione non raccoglie nomi, indirizzi e-mail, numeri di telefono, ID pubblicitari (IDFA/GAID), posizione GPS né rubriche di contatti.<br><strong>c) Memoria Locale Isolata:</strong> Preferenze, preferiti e intenzioni spirituali sono memorizzati unicamente nella memoria locale protetta del dispositivo (localStorage / IndexedDB).<br><strong>d) Nessuna Cessione di Dati:</strong> Non vendiamo né condividiamo alcuna informazione con broker di dati o terze parti."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Neutralità Dottrinale, Non Proselitismo e Rispetto delle Leggi Religiose",
+      "p1": "<strong>FeUniversal</strong> è un'iniziativa civile volta alla salvaguardia del patrimonio spirituale dell'umanità. L'applicazione <strong>non è un'istituzione religiosa, chiesa o setta</strong> e non persegue fini di proselitismo.",
+      "p2": "Ogni utente è incoraggiato a vivere la propria fede nel rispetto delle leggi e consuetudini del proprio Paese, promuovendo la fraterna convivenza interreligiosa."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Originalità del Software e Pubblico Dominio del Patrimonio Spirituale",
+      "p1": "<strong>a) Codice Sorgente e Interfaccia:</strong> L'architettura del software e la grafica vettoriale sono opere 100% originali protette dalle leggi sul diritto d'autore.<br><strong>b) Testi Sacri e Liturgici:</strong> Le preghiere tradizionali, salmi e inni appartengono al Pubblico Dominio Universale."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Porto Sicuro sul Diritto d'Autore (DMCA) e Rimozione Adeguata",
+      "p1": "Qualora un avente diritto ritenga in buona fede che un testo protetto sia stato incluso inavvertitamente, ci impegniamo a <strong>verificare e rimuovere o correggere il contenuto entro 1-2 settimane lavorative</strong>."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Ambito Filologico, Buona Fede e Clausola di Traduzione",
+      "p1": "La traduzione di testi millenari da lingue classiche (sanscrito, ebraico, greco, latino, arabo classico, ecc.) è un'opera filologica intrapresa con rispetto e devozione.",
+      "p2": "<strong>FeUniversal</strong> porge anticipate scuse per eventuali sfumature linguistiche involontarie, ribadendo l'assoluta assenza di alterazioni dottrinali."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Tutela dei Minori e Ambiente Familiare (COPPA)",
+      "p1": "L'applicazione è conforme agli standard COPPA, priva di contenuti espliciti, violenza o acquisti in-app."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Sicurezza nella Meditazione e Pratiche Contemplative",
+      "p1": "Gli strumenti di meditazione e suoni rilassanti sono destinati al solo benessere spirituale. <strong>Non devono essere usati durante la guida di autoveicoli o l'uso di macchinari complessi</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Disclaimer Medico e Sanitario (Conformità Google Play Health)",
+      "p1": "<strong>AVVISO MEDICO FONDAMENTALE:</strong> I contenuti della sezione Salute e Guarigione sono forniti a scopo esclusivamente spirituale e di conforto morale.",
+      "p2": "<strong>Questa applicazione NON fornisce pareri medici, diagnosi cliniche né terapie.</strong> Non sostituisce in alcun caso il parere di un medico o professionista sanitario qualificato."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Trasparenza su Intelligenza Artificiale e Tecnologie",
+      "p1": "Eventuali strumenti di assistenza riflessiva si basano su modelli computazionali e <strong>non costituiscono precetti dottrinali o divini</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Limitazione Generale di Responsabilità",
+      "p1": "L'utilizzo dell'applicazione avviene sotto la piena responsabilità dell'utente (\"così com'è\")."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Contatto Ufficiale",
+      "p1": "Per richieste legali o comunicazioni:<br><strong>E-mail Ufficiale:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Clausola di Lingua Prevalente e Riferimento Canonico",
+      "p1": "La versione ufficiale e giuridicamente vincolante del presente documento è redatta in <strong>Spagnolo (Messico)</strong>.",
+      "p2": "Le traduzioni nelle altre lingue sono offerte in buona fede come cortesie fraterne. In caso di divergenza o dubbio interpretativo, <strong>farà fede esclusivamente e definitivamente la versione in Spagnolo (Messico)</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#009246\" d=\"M0 0h213.3v480H0z\"/><path fill=\"#fff\" d=\"M213.3 0h213.4v480H213.3z\"/><path fill=\"#ce2b37\" d=\"M426.7 0H640v480H426.7z\"/></svg>"
+  },
+  "de": {
+    "name": "Deutsch",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Universelles Andachtsheiligtum • Alle Rechte vorbehalten.","tagline":"Mit Ehrfurcht für Brüderlichkeit, Frieden und menschliche Kontemplation gestaltet."},
+    "badge": "Offizieller Brüderlicher Spiegel",
+    "header": {
+      "title": "Rechtlicher Rahmen, Datenschutzerklärung & Nutzungsbedingungen",
+      "subtitle": "Universelle spirituelle und brüderliche Initiative",
+      "effective_date": "Letzte Aktualisierung: September 2026",
+      "version": "Offizielle Version 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Werbefreies Andachtsheiligtum & Kein kommerzielles Tracking",
+      "p1": "Die Plattform <strong>FeUniversal</strong> wurde als heiliger spiritueller und kultureller Zufluchtsort ohne kommerzielle Einflüsse geschaffen. Wir erklären verbindlich, dass die Anwendung <strong>keinerlei kommerzielle Werbung, Bannerwerbung, interstitielle Anzeigen, Verhaltens-Tracker oder Werbemonetarisierung Dritter enthält</strong>.",
+      "p2": "Das Erlebnis des Gebets und der Meditation soll rein, feierlich und andächtig bleiben. Wir verkaufen keine Werbeflächen und nehmen nicht an Echtzeit-Gebotsnetzwerken (RTB) teil."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Strenge Datenschutzrichtlinie & Keine Erfassung personenbezogener Daten",
+      "p1": "In voller Übereinstimmung mit der europäischen Datenschutz-Grundverordnung (DSGVO):",
+      "p2": "<strong>a) Lokale Architektur (Offline-First):</strong> Der gesamte Gebetsbestand von über 4.000 Gebeten befindet sich lokal auf dem Gerät des Nutzers. Es werden keine Abfragen an externe Server gesendet.<br><strong>b) Kein Profiling:</strong> Die Anwendung erfasst weder Namen, E-Mail-Adressen, Telefonnummern, Werbe-IDs (GAID/IDFA), GPS-Standorte noch Kontaktbücher.<br><strong>c) Isolierter lokaler Speicher:</strong> Spracheinstellungen, Favoriten und persönliche spirituelle Anliegen verbleiben ausschließlich im geschützten Speicher Ihres Geräts (localStorage / IndexedDB).<br><strong>d) Keine Datenweitergabe:</strong> Wir verkaufen oder übermitteln keinerlei Daten an Datenhändler, Unternehmen oder Dritte."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Doktrinäre Neutralität, kein Proselytismus & Einhaltung von Gesetzen",
+      "p1": "<strong>FeUniversal</strong> ist eine zivilgesellschaftliche Initiative zur Bewahrung des spirituellen Erbes der Menschheit. Die Anwendung <strong>ist keine Religionsgemeinschaft, Kirche oder Sekte</strong> und betreibt keine missionarische Bekehrung.",
+      "p2": "Jeder Nutzer wird ermutigt, seinen Glauben im Einklang mit den Gesetzen und Traditionen seines Landes in gegenseitigem interreligiösem Respekt zu leben."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Originalität der Software & Gemeinfreiheit des geistlichen Erbes",
+      "p1": "<strong>a) Softwarecode & Design:</strong> Architektur, Quellcode, Benutzeroberfläche und Vektor-Icons sind 100%ige Originalschöpfungen und urheberrechtlich geschützt.<br><strong>b) Liturgische Texte:</strong> Traditionelle Gebete, Psalmen und Gesänge gehören zum zeitlosen Erbe der Menschheit und sind universell gemeinfrei (Public Domain)."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Safe-Harbor-Grundsätze (DMCA) & Fristgerechte Prüfung",
+      "p1": "Sollte ein Rechteinhaber der Ansicht sein, dass ein geschützter Text unbeabsichtigt aufgenommen wurde, verpflichten wir uns, <strong>den Inhalt innerhalb von 1 bis 2 Arbeitswochen nach Mitteilung zu prüfen und zu entfernen oder anzupassen</strong>."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Philologischer Rahmen, Treu und Glauben & Übersetzungshinweis",
+      "p1": "Die Übersetzung klassischer Texte aus alten Sprachen (Sanskrit, Hebräisch, Griechisch, Latein, klassisches Arabisch usw.) ist ein anspruchsvolles philologisches Werk, das mit Ehrfurcht ausgeführt wurde.",
+      "p2": "<strong>FeUniversal</strong> bittet vorab um Entschuldigung für unbeabsichtigte sprachliche Nuancen und bekräftigt das Fehlen jeglicher dogmatischer Verfälschungsabsicht."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Jugendschutz & Familienfreundlichkeit (COPPA)",
+      "p1": "Die Plattform ist uneingeschränkt familienfreundlich, frei von unangemessenen Inhalten und enthält keine In-App-Käufe."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Sicherheit bei Meditation & Kontemplation",
+      "p1": "Atemübungen und meditative Klänge dienen dem geistigen Wohlbefinden. <strong>Sie dürfen nicht beim Führen von Kraftfahrzeugen oder beim Bedienen schwerer Maschinen verwendet werden</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Medizinischer Haftungsausschluss (Google Play Health Policy)",
+      "p1": "<strong>WICHTIGER MEDIZINISCHER HINWEIS:</strong> Inhalte der Kategorie Gesundheit & Heilung dienen ausschließlich spirituellen Zwecken und moralischem Beistand.",
+      "p2": "<strong>Diese App bietet KEINE medizinische Beratung, Diagnose oder Behandlung.</strong> Sie ersetzt niemals die Konsultation eines qualifizierten Arztes oder Therapeuten."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Transparenz bezüglich Künstlicher Intelligenz",
+      "p1": "Automatisierte Assistenzfunktionen beruhen auf Rechenmodellen und <strong>stellen keine religiösen Gebote oder göttlichen Offenbarungen dar</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Allgemeine Haftungsbeschränkung",
+      "p1": "Die Nutzung erfolgt auf eigenes Risiko des Anwenders („wie besehen“)."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Institutioneller Kontakt",
+      "p1": "Für rechtliche Anfragen und Hinweise:<br><strong>Offizielle E-Mail:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Maßgebliche Sprachklausel & Kanonische Referenz",
+      "p1": "Die offizielle, rechtsverbindliche Originalfassung dieser Bestimmungen ist in <strong>Spanisch (Mexiko)</strong> verfasst.",
+      "p2": "Übersetzungen in andere Sprachen dienen als brüderliche Gefälligkeitsübersetzungen dem besseren Verständnis. Im Falle von Abweichungen oder Auslegungsfragen <strong>ist allein die spanische Fassung (Mexiko) maßgeblich und verbindlich</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#000\" d=\"M0 0h640v160H0z\"/><path fill=\"#dd0000\" d=\"M0 160h640v160H0z\"/><path fill=\"#ffce00\" d=\"M0 320h640v160H0z\"/></svg>"
+  },
+  "ru": {
+    "name": "Русский",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Всемирное Молитвенное Святилище • Все права защищены.","tagline":"Создано с благоговением для братства, мира и человеческого созерцания."},
+    "badge": "Официальное Братское Зеркало",
+    "header": {
+      "title": "Правовая База, Политика Конфиденциальности и Условия Использования",
+      "subtitle": "Всемирная Духовная и Братская Инициатива",
+      "effective_date": "Последнее обновление: Сентябрь 2026 г.",
+      "version": "Официальная версия 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Молитвенное Пространство Без Рекламы и Коммерческого Отслеживания",
+      "p1": "Платформа <strong>FeUniversal</strong> создана как духовное и культурное святилище, свободное от коммерческого вмешательства. Мы категорически заявляем, что приложение <strong>не содержит коммерческой рекламы, всплывающих баннеров, межстраничных объявлений, поведенческих трекеров и сторонней монетизации</strong>.",
+      "p2": "Молитвенный опыт и медитация должны оставаться чистыми и благоговейными. Мы не продаем рекламные площади и не участвуем в аукционах рекламы в реальном времени (RTB)."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Строгая Конфиденциальность и Полное Отсутствие Сбора Данных",
+      "p1": "В строгом соответствии с принципами минимизации данных и международными стандартами (включая GDPR):",
+      "p2": "<strong>a) Локальная Архитектура (Offline-First):</strong> Весь корпус из более чем 4 000 молитв хранится локально на устройстве пользователя. Запросы к внешним серверам для чтения молитв не отправляются.<br><strong>b) Отсутствие Профилирования:</strong> Приложение не собирает имена, адреса электронной почты, номера телефонов, рекламные идентификаторы (GAID/IDFA), геопозицию GPS и контакты.<br><strong>c) Изолированное Локальное Хранилище:</strong> Языковые настройки, избранное и намерения хранятся исключительно в памяти вашего устройства (localStorage / IndexedDB).<br><strong>d) Запрет Передачи Данных:</strong> Мы не продаем и не передаем данные третьим лицам или организациям."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Доктринальный Нейтралитет, Отсутствие Прозелитизма и Уважение Законов",
+      "p1": "<strong>FeUniversal</strong> — это гражданская инициатива по сохранению духовного наследия человечества. Приложение <strong>не является религиозной конгрегацией, церковью или сектой</strong> и не занимается принудительным обращением в веру.",
+      "p2": "Пользователям рекомендуется исповедовать веру в уважении к законам и традициям своей страны, способствуя межрелигиозному согласию."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Оригинальность Программного Обеспечения и Общественное Достояние",
+      "p1": "<strong>a) Исходный Код и Интерфейс:</strong> Архитектура, программный код, дизайн UI/UX и векторные иконки являются на 100% оригинальными произведениями, защищенными авторским правом.<br><strong>b) Литургические Тексты:</strong> Традиционные молитвы, псалмы и песнопения являются Всемирным Общественным Достоянием человечества."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Принципы Добросовестного Использования (DMCA) и Сроки Рассмотрения",
+      "p1": "В случае возникновения обоснованных претензий правообладателей мы обязуемся <strong>рассмотреть обращение и удалить или скорректировать материал в течение 1–2 рабочих недель</strong> после получения официального уведомления."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Филологический Объем, Добросовестность и Отказ от Ответственности за Перевод",
+      "p1": "Перевод древних текстов с классических языков (санскрит, библейский иврит, греческий, латынь, классический арабский) представляет собой сложнейший филологический труд, выполненный с глубоким почтением.",
+      "p2": "<strong>FeUniversal</strong> заранее приносит извинения за возможные языковые нюансы, подтверждая отсутствие какого-либо злого умысла или догматических искажений."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Защита Детей и Семейная Безопасность (COPPA)",
+      "p1": "Приложение полностью безопасно для всей семьи, не содержит нежелательного контента и встроенных покупок."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Безопасность во Время Медитации и Созерцания",
+      "p1": "Дыхательные практики и фоновые звуки предназначены для духовного отдыха. <strong>Запрещено использовать их во время вождения автомобиля или управления опасной техникой</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Медицинский Отказ от Ответственности (Google Play Health Policy)",
+      "p1": "<strong>ВАЖНОЕ МЕДИЦИНСКОЕ ПРЕДУПРЕЖДЕНИЕ:</strong> Материалы раздела «Здоровье и Исцеление» предоставляются исключительно в духовно-нравственных целях.",
+      "p2": "<strong>Приложение НЕ предоставляет медицинских консультаций, клинической диагностики или лечения.</strong> Оно ни при каких обстоятельствах не заменяет консультацию квалифицированного врача."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Прозрачность Применения Искусственного Интеллекта",
+      "p1": "Ответы автоматизированных помощников генерируются вычислительными моделями и <strong>не являются религиозными догматами или священными заповедями</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Ограничение Ответственности",
+      "p1": "Использование приложения осуществляется на собственный риск пользователя («как есть»)."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Официальные Контакты",
+      "p1": "Для правовых вопросов и предложений:<br><strong>Официальный e-mail:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Оговорка о Преимущественном Языке и Канонической Версии",
+      "p1": "Официальная и юридически обязывающая версия настоящих Политик и Условий составлена на <strong>испанском языке (Мексика)</strong>.",
+      "p2": "Переводы на другие языки предоставлены в порядке братской вежливости. В случае любых разночтений или юридических коллизий <strong>окончательную и преимущественную силу имеет текст на испанском языке (Мексика)</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#fff\" d=\"M0 0h640v160H0z\"/><path fill=\"#0039a6\" d=\"M0 160h640v160H0z\"/><path fill=\"#d52b1e\" d=\"M0 320h640v160H0z\"/></svg>"
+  },
+  "zh": {
+    "name": "简体中文",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • 普世灵修圣殿 • 版权所有。","tagline":"怀着对博爱、和平与人类沉思的崇敬而设计。"},
+    "badge": "官方友爱对照本",
+    "header": {
+      "title": "法律框架、隐私政策与使用条款",
+      "subtitle": "全球普世精神与友爱倡议",
+      "effective_date": "最后更新：2026年9月",
+      "version": "官方版本 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "无商业广告与零行为追踪的灵修圣所",
+      "p1": "<strong>FeUniversal</strong> 平台旨在打造一个不受商业利益侵扰的精神与文化净土。我们郑重声明：<strong>本应用绝不包含任何商业广告、弹窗横幅、插屏广告、行为追踪器或第三方广告盈利机制</strong>。",
+      "p2": "祈祷与冥想的体验应当保持纯净与庄严。我们不售卖任何广告位，亦不参与任何实时竞价（RTB）广告网络，确保庄重神圣的数字环境。"
+    },
+    "sec2": {
+      "num": "02",
+      "title": "严格的隐私政策与零个人数据收集",
+      "p1": "严格遵循数据最小化原则及国际通用隐私法规（如欧盟GDPR等）：",
+      "p2": "<strong>a) 本地离线架构（Offline-First）：</strong> 超过4000首祈祷文和经典全部存储于用户设备本地。阅读时无需向服务器发送查询请求。<br><strong>b) 零画像追踪：</strong> 应用不收集姓名、电子邮箱、手机号、广告标识符（GAID/IDFA）、GPS定位或通讯录。<br><strong>c) 独立本地存储：</strong> 语言偏好、收藏与祈愿内容仅保存在设备的本地安全存储（localStorage / IndexedDB）中，绝不上传至外部服务器。<br><strong>d) 绝不共享数据：</strong> 我们绝不向任何数据经纪商、商业机构或第三方出售或透露任何数据。"
+    },
+    "sec3": {
+      "num": "03",
+      "title": "教义中立、非传教性质与遵守宗教法规",
+      "p1": "<strong>FeUniversal</strong> 是一项致力于传承人类精神文化遗产的公益倡议。本应用<strong>并非宗教宗派、教会或传教组织</strong>，绝不进行强迫性传教或发布具约束力的神学教条。",
+      "p2": "我们倡导每位用户在遵守所在国家和地区法律法规及风俗习惯的前提下践行信仰，促进跨宗教和平共处。"
+    },
+    "sec4": {
+      "num": "04",
+      "title": "软件原创性与精神遗产的公有领域属性",
+      "p1": "<strong>a) 源代码与设计：</strong> 软件架构、算法、UI/UX界面及矢量图标均为100%原创设计，受国际知识产权法保护。<br><strong>b) 历史与礼仪文献：</strong> 传统祈祷文、赞美诗与经文属于全人类世代相传的公有领域（Public Domain）。"
+    },
+    "sec5": {
+      "num": "05",
+      "title": "版权避风港原则（DMCA）与规范处理时效",
+      "p1": "如有权利人善意认为某特定译本存在版权问题，我们承诺在收到正式通知后<strong>于1至2个工作周内核查并更正或下架</strong>。"
+    },
+    "sec6": {
+      "num": "06",
+      "title": "文献学范畴、善意声明与翻译免责",
+      "p1": "将古梵文、希伯来文、希腊文、拉丁文、古典阿拉伯文等古代经典翻译为现代语言是一项复杂的文献学工程，我们怀着崇高的敬意进行翻译。",
+      "p2": "<strong>FeUniversal</strong> 为可能存在的语言细微偏差或理解局限预先致歉，并重申绝无篡改教义之意。"
+    },
+    "sec7": {
+      "num": "07",
+      "title": "儿童隐私保护与家庭友好标准（COPPA）",
+      "p1": "本应用符合COPPA儿童隐私保护标准，无不当内容，无应用内购买项目。"
+    },
+    "sec8": {
+      "num": "08",
+      "title": "冥想与静心练习安全指引",
+      "p1": "呼吸指引与环境音效仅用于精神放松。<strong>严禁在驾驶机动车或操作重型机械等需要高度专注的场景下使用</strong>。"
+    },
+    "sec9": {
+      "num": "09",
+      "title": "医疗与健康免责声明（Google Play健康政策合规）",
+      "p1": "<strong>重要医疗警示：</strong> “健康与治愈”类目下的所有祈祷文和思考仅供精神慰藉与道德支持。",
+      "p2": "<strong>本应用不提供任何医疗诊断、临床咨询或处方建议。</strong> 本应用绝不能替代专业执业医师或心理医生的专业诊疗。"
+    },
+    "sec10": {
+      "num": "10",
+      "title": "人工智能辅助透明度声明",
+      "p1": "辅助思考工具由算法模型生成，<strong>不构成神谕、宗教裁决或权威指令</strong>。"
+    },
+    "sec11": {
+      "num": "11",
+      "title": "一般责任限制",
+      "p1": "用户自担使用风险（按“现状”提供）。"
+    },
+    "sec12": {
+      "num": "12",
+      "title": "官方联系方式",
+      "p1": "如需提出法律问询或友好建议：<br><strong>官方电子邮箱：</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "准据语言条款与权威文本说明",
+      "p1": "本法律框架、隐私政策与使用条款的官方、原始且具法律约束力的正式版本为<strong>西班牙语（墨西哥）</strong>文本。",
+      "p2": "其他语言版本均系出于友爱情谊提供的善意对照译本，以便于全球用户理解。如不同语言版本间存在任何歧义或释义冲突，<strong>均以西班牙语（墨西哥）版本为最终准据</strong>。"
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#ee1c25\" d=\"M0 0h640v480H0z\"/><path fill=\"#ffff00\" d=\"M120 70l20 60-52-37h64l-52 37zM200 40l10 30-26-19h32l-26 19zM240 80l10 30-26-19h32l-26 19zM240 140l10 30-26-19h32l-26 19zM200 180l10 30-26-19h32l-26 19z\"/></svg>"
+  },
+  "ja": {
+    "name": "日本語",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • 世界普遍の祈りの聖域 • 全著作権所有。","tagline":"友愛、平和、そして人間の深い黙想への敬意を込めて設計。"},
+    "badge": "公式友愛対訳版",
+    "header": {
+      "title": "法的枠組み・プライバシーポリシー・利用規約",
+      "subtitle": "世界普遍の精神的および友愛的イニシアチブ",
+      "effective_date": "最終更新：2026年9月",
+      "version": "公式版 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "商業広告および行動追跡を完全に排除した祈りの聖域",
+      "p1": "<strong>FeUniversal</strong> は、商業主義的干渉から完全に解放された精神的・文化的聖域として構築されました。本アプリには、<strong>いかなる商業広告、バナー広告、インタースティシャル広告、行動追跡スクリプト、第三者による広告収益化機能も一切含まれておりません</strong>。",
+      "p2": "祈りと黙想の体験は、清廉で厳かで敬虔なものであり続けるべきです。広告枠の販売やリアルタイム入札（RTB）への参加は一切行いません。"
+    },
+    "sec2": {
+      "num": "02",
+      "title": "厳格なプライバシー規約と個人情報の完全非収集方針",
+      "p1": "データ最小化の原則および国際的プライバシー基準（EU GDPR等）に厳格に準拠しております。",
+      "p2": "<strong>a) 完全ローカル構造（Offline-First）：</strong> 4,000篇以上の祈祷文・経典はすべて利用者の端末内に保存されています。閲覧のために外部サーバーへ通信することはありません。<br><strong>b) プロファイリングの排除：</strong> 氏名、メールアドレス、電話番号、広告識別子（GAID/IDFA）、GPS位置情報、連絡先などは一切取得いたしません。<br><strong>c) 隔離されたローカル保存：</strong> 言語設定、お気に入り、個人的な祈願は端末内の保護領域（localStorage / IndexedDB）にのみ保持され、外部へ送信されることはありません。<br><strong>d) 第三者への情報提供の禁止：</strong> データブローカーや企業等の第三者へデータを販売・譲渡することは一切ございません。"
+    },
+    "sec3": {
+      "num": "03",
+      "title": "教義的中立性・非勧誘方針および宗教法規の尊重",
+      "p1": "<strong>FeUniversal</strong> は人類の精神的遺産を保存するための市民的イニシアチブです。<strong>特定の宗派、教会、教団、または布教団体ではありません</strong>。強制的改宗の促進や拘束力ある神学的教条の発布は行いません。",
+      "p2": "各利用者が居住国の法規や伝統を遵守し、宗教間の調和と相互尊重をもって信仰を深められることを願っております。"
+    },
+    "sec4": {
+      "num": "04",
+      "title": "ソフトウェアの独自性と精神的文化遺産のパブリックドメイン性",
+      "p1": "<strong>a) プログラムとデザイン：</strong> 本アプリの構造、UI/UXデザイン、ベクターアイコンは100%オリジナルの創作物であり、国際著作権法により保護されています。<br><strong>b) 伝統的祈祷文・経典：</strong> 歴史的な祈祷文、詩篇、マントラ等は人類共有の無形遺産であり、パブリックドメイン（公有）に属します。"
+    },
+    "sec5": {
+      "num": "05",
+      "title": "著作権セーフハーバー（DMCA）および適正な対応期間",
+      "p1": "万が一、権利を有する方が特定の翻訳について著作権上の疑義を持たれた場合、正式な通知を受領後<strong>1〜2営業週間以内に内容を精査し、修正または削除等の対応を実施いたします</strong>。"
+    },
+    "sec6": {
+      "num": "06",
+      "title": "文献学的配慮・誠実な意図と翻訳に関する免責事項",
+      "p1": "古代諸言語（サンスクリット語、古典ヘブライ語、コイネーギリシャ語、ラテン語、古典アラビア語等）からの翻訳・翻案は、最大限の敬意と誠意をもって行われた文献学的取り組みです。",
+      "p2": "<strong>FeUniversal</strong> は、意図せぬニュアンスの差異や表現の限界についてあらかじめお詫び申し上げますとともに、いかなる悪意や教義改変の意図も存在しないことを明明に宣言いたします。"
+    },
+    "sec7": {
+      "num": "07",
+      "title": "青少年の保護とファミリーフレンドリー基準（COPPA）",
+      "p1": "本アプリはCOPPA基準に準拠し、不適切なコンテンツやアプリ内課金は一切含まれておらず、ご家族皆様で安心してご利用いただけます。"
+    },
+    "sec8": {
+      "num": "08",
+      "title": "瞑想および静寂の実践における安全上の注意",
+      "p1": "呼吸ガイドや環境音は精神的安らぎのために提供されています。<strong>自動車の運転中や危険な機械の操作中など、注意力を要する状況でのご使用は絶対にお控えください</strong>。"
+    },
+    "sec9": {
+      "num": "09",
+      "title": "医療および健康に関する重要免責事項（Google Play規約遵守）",
+      "p1": "<strong>【極めて重要な医療上の注意】</strong> 「健康と癒やし」カテゴリの祈祷文や黙想は、純粋に精神的慰めおよび精神的支援のために提供されるものです。",
+      "p2": "<strong>本アプリはいかなる医療的助言、診断、または治療を提供するものではありません。</strong> 医師や心理カウンセラー等、専門資格を有する医療専門家の診断・指導に決して代わるものではありません。"
+    },
+    "sec10": {
+      "num": "10",
+      "title": "人工知能および技術的支援の透明性",
+      "p1": "支援機能による応答は公開文献に基づく計算モデルによって生成されるものであり、<strong>神託や宗教的決定権を持つものではありません</strong>。"
+    },
+    "sec11": {
+      "num": "11",
+      "title": "一般的責任の制限",
+      "p1": "本アプリのご利用は利用者ご自身の判断と責任において行われるものとします（現状有姿での提供）。"
+    },
+    "sec12": {
+      "num": "12",
+      "title": "公式連絡先",
+      "p1": "法的なお問い合わせや友愛的なご意見・ご指摘：<br><strong>公式メールアドレス：</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "準拠言語条項および正本に関する規定",
+      "p1": "本法的枠組み、プライバシーポリシーおよび利用規約の公式かつ法的拘束力を有する正本は、<strong>スペイン語（メキシコ）</strong>にて作成されております。",
+      "p2": "日本語を含む他言語による翻訳は、世界各地の皆様の理解を助けるための友愛的配慮に基づく便宜上の対訳版です。解釈の相違や法的疑義が生じた場合には、<strong>常にスペイン語（メキシコ）正本の定めが最優先され、確定的な効力を持ちます</strong>。"
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#fff\" d=\"M0 0h640v480H0z\"/><circle cx=\"320\" cy=\"240\" r=\"144\" fill=\"#bc002d\"/></svg>"
+  },
+  "hi": {
+    "name": "हिन्दी",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • सार्वभौमिक भक्ति अभयारण्य • सर्वाधिकार सुरक्षित।","tagline":"भाईचारे, शांति और मानवीय चिंतन के प्रति श्रद्धा के साथ निर्मित।"},
+    "badge": "आधिकारिक सौहार्दपूर्ण अनुवाद",
+    "header": {
+      "title": "कानूनी ढांचा, गोपनीयता नीति और उपयोग की शर्तें",
+      "subtitle": "सार्वभौमिक आध्यात्मिक एवं भ्रातृ पहल",
+      "effective_date": "अंतिम अद्यतन: सितंबर 2026",
+      "version": "आधिकारिक संस्करण 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "व्यावसायिक विज्ञापनों और ट्रैकिंग से मुक्त पावन स्थल",
+      "p1": "<strong>FeUniversal</strong> मंच को व्यावसायिक हस्तक्षेप से पूरी तरह मुक्त एक आध्यात्मिक और सांस्कृतिक अभयारण्य के रूप में विकसित किया गया है। हम स्पष्ट घोषणा करते हैं कि इस एप्लिकेशन में <strong>कोई व्यावसायिक विज्ञापन, बैनर, अंतरालीय विज्ञापन, व्यवहार ट्रैकर या तीसरे पक्ष के मुद्रीकरण तंत्र नहीं हैं</strong>।",
+      "p2": "प्रार्थना और ध्यान का अनुभव शुद्ध, शांत और पावन रहना चाहिए। हम विज्ञापन स्थान नहीं बेचते हैं।"
+    },
+    "sec2": {
+      "num": "02",
+      "title": "सख्त गोपनीयता नीति और व्यक्तिगत डेटा का शून्य संग्रह",
+      "p1": "डेटा न्यूनीकरण सिद्धांतों और अंतर्राष्ट्रीय गोपनीयता मानकों के पूर्ण अनुपालन में:",
+      "p2": "<strong>क) स्थानीय ऑफ़लाइन संरचना (Offline-First):</strong> 4,000 से अधिक प्रार्थनाओं और पवित्र ग्रंथों का संपूर्ण संग्रह स्थानीय रूप से उपयोगकर्ता के उपकरण पर रहता है।<br><strong>ख) शून्य प्रोफाइलिंग:</strong> एप्लिकेशन नाम, ईमेल, फ़ोन नंबर, विज्ञापन आईडी (GAID/IDFA), जीपीएस स्थान या संपर्क एकत्र नहीं करता है।<br><strong>ग) सुरक्षित स्थानीय संग्रहण:</strong> भाषा प्राथमिकताएं, पसंदीदा प्रार्थनाएं और व्यक्तिगत संकल्प केवल उपकरण के स्थानीय स्टोरेज (localStorage / IndexedDB) में सुरक्षित रहते हैं।<br><strong>घ) डेटा साझा न करना:</strong> हम किसी भी डेटा ब्रोकर या तीसरे पक्ष को उपयोगकर्ता डेटा नहीं बेचते हैं।"
+    },
+    "sec3": {
+      "num": "03",
+      "title": "सैद्धांतिक तटस्थता, धर्मपरिवर्तन का अभाव और धार्मिक नियमों का सम्मान",
+      "p1": "<strong>FeUniversal</strong> मानवता की आध्यात्मिक धरोहर को संरक्षित करने की एक नागरिक पहल है। यह <strong>कोई धार्मिक संप्रदाय, चर्च या मतांतरण संस्था नहीं है</strong>।",
+      "p2": "प्रत्येक उपयोगकर्ता को अपने देश के कानूनों और परंपराओं का सम्मान करते हुए पारस्परिक सद्भाव के साथ अपनी आस्था का पालन करने के लिए प्रोत्साहित किया जाता है।"
+    },
+    "sec4": {
+      "num": "04",
+      "title": "सॉफ्टवेयर की मौलिकता और आध्यात्मिक धरोहर का सार्वजनिक दायरा",
+      "p1": "<strong>क) स्रोत कोड और इंटरफ़ेस:</strong> सॉफ्टवेयर संरचना और वेक्टर आइकन बौद्धिक संपदा कानूनों द्वारा संरक्षित मौलिक कृतियां हैं।<br><strong>ख) पारंपरिक प्रार्थनाएं:</strong> प्राचीन प्रार्थनाएं और भजन संपूर्ण मानवता के सार्वजनिक अधिकार क्षेत्र (Public Domain) का हिस्सा हैं।"
+    },
+    "sec5": {
+      "num": "05",
+      "title": "कॉपीराइट सेफ हार्बर (DMCA) और यथोचित निवारण समय",
+      "p1": "यदि किसी अधिकार धारक को सद्भावनापूर्वक लगता है कि कोई संरक्षित सामग्री अनजाने में शामिल हो गई है, तो हम <strong>औपचारिक सूचना प्राप्त होने के 1 से 2 कार्य सप्ताहों के भीतर सामग्री की समीक्षा और संशोधन/हटाने के लिए प्रतिबद्ध हैं</strong>।"
+    },
+    "sec6": {
+      "num": "06",
+      "title": "भाषा शास्त्रीय दायरा, सद्भावना और अनुवाद अस्वीकरण",
+      "p1": "संस्कृत, हिब्रू, ग्रीक, लैटिन और शास्त्रीय अरबी जैसी प्राचीन भाषाओं से प्रार्थनाओं का अनुवाद अत्यंत श्रद्धा और विनम्रता के साथ किया गया है।",
+      "p2": "<strong>FeUniversal</strong> किसी भी अनपेक्षित भाषाई अंतर के लिए अग्रिम क्षमा याचना करता है और पुष्टि करता है कि कोई भी दुर्भावना या सैद्धांतिक बदलाव का इरादा नहीं है।"
+    },
+    "sec7": {
+      "num": "07",
+      "title": "बाल सुरक्षा और पारिवारिक मानक (COPPA)",
+      "p1": "यह एप्लिकेशन 100% पारिवारिक उपयोग हेतु सुरक्षित है और COPPA मानकों का पूर्ण अनुपालन करता है।"
+    },
+    "sec8": {
+      "num": "08",
+      "title": "ध्यान और एकाग्रता के दौरान सुरक्षा",
+      "p1": "श्वास अभ्यास और शांत ध्वनियां केवल आध्यात्मिक शांति के लिए हैं। <strong>वाहन चलाते समय या भारी मशीनरी चलाते समय इनका उपयोग कदापि न करें</strong>।"
+    },
+    "sec9": {
+      "num": "09",
+      "title": "चिकित्सीय एवं स्वास्थ्य अस्वीकरण (Google Play Health Policy)",
+      "p1": "<strong>महत्वपूर्ण चिकित्सीय सूचना:</strong> स्वास्थ्य एवं आरोग्य श्रेणी की प्रार्थनाएं केवल आध्यात्मिक सांत्वना के लिए प्रदान की गई हैं।",
+      "p2": "<strong>यह ऐप कोई चिकित्सीय सलाह, निदान या उपचार प्रदान नहीं करता है।</strong> यह कभी भी किसी योग्य चिकित्सक की सलाह का विकल्प नहीं है।"
+    },
+    "sec10": {
+      "num": "10",
+      "title": "आर्टिफिशियल इंटेलिजेंस और तकनीकी पारदर्शिता",
+      "p1": "सहायक उत्तर कम्प्यूटेशनल मॉडल द्वारा उत्पन्न होते हैं और <strong>ये कोई दिव्य संदेश या बाध्यकारी धार्मिक आदेश नहीं हैं</strong>।"
+    },
+    "sec11": {
+      "num": "11",
+      "title": "सामान्य दायित्व सीमा",
+      "p1": "एप्लिकेशन का उपयोग पूरी तरह से उपयोगकर्ता के स्वयं के विवेक पर निर्भर है (\"जैसा है वैसा\")।"
+    },
+    "sec12": {
+      "num": "12",
+      "title": "आधिकारिक संपर्क",
+      "p1": "कानूनी प्रश्नों या सुझावों के लिए:<br><strong>आधिकारिक ईमेल:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "शासी भाषा खंड और विधिक प्रामाणिक संदर्भ",
+      "p1": "इस कानूनी ढांचे, गोपनीयता नीति और उपयोग की शर्तों का आधिकारिक, मूल और कानूनी रूप से बाध्यकारी संस्करण <strong>स्पेनिश (मैक्सिको)</strong> में तैयार किया गया है।",
+      "p2": "हिन्दी सहित अन्य भाषाओं के अनुवाद वैश्विक समझ और सुगमता हेतु सद्भावनापूर्वक प्रदान किए गए हैं। किसी भी भाषाई विसंगति या कानूनी व्याख्या के मामले में <strong>केवल स्पेनिश (मैक्सिको) संस्करण ही अंतिम और बाध्यकारी रूप से मान्य होगा</strong>।"
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#f4c430\" d=\"M0 0h640v160H0z\"/><path fill=\"#fff\" d=\"M0 160h640v160H0z\"/><path fill=\"#228b22\" d=\"M0 320h640v160H0z\"/><circle cx=\"320\" cy=\"240\" r=\"50\" fill=\"none\" stroke=\"#000080\" stroke-width=\"6\"/></svg>"
+  },
+  "bn": {
+    "name": "বাংলা",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • সর্বজনীন ভক্তিমূলক অভয়ারণ্য • সর্বস্বত্ব সংরক্ষিত।","tagline":"ভ্রাতৃত্ব, শান্তি এবং মানবিক ধ্যানের প্রতি শ্রদ্ধার সাথে পরিকল্পিত।"},
+    "badge": "অফিসিয়াল সৌহার্দ্যপূর্ণ অনুবাদ",
+    "header": {
+      "title": "আইনি কাঠামো, গোপনীয়তা নীতি ও ব্যবহারের শর্তাবলী",
+      "subtitle": "বিশ্বজনীন আধ্যাত্মিক ও ভ্রাতৃত্বপূর্ণ উদ্যোগ",
+      "effective_date": "সর্বশেষ আপডেট: সেপ্টেম্বর ২০২৬",
+      "version": "অফিসিয়াল সংস্করণ ৮.১.০"
+    },
+    "sec1": {
+      "num": "০১",
+      "title": "বাণিজ্যিক বিজ্ঞাপন ও ট্র্যাকিং মুক্ত প্রার্থনার স্থান",
+      "p1": "<strong>FeUniversal</strong> প্ল্যাটফর্মটি বাণিজ্যিক হস্তক্ষেপ মুক্ত একটি পবিত্র আধ্যাত্মিক ও সাংস্কৃতিক আশ্রয়স্থল হিসেবে তৈরি করা হয়েছে। আমরা স্পষ্টভাবে ঘোষণা করছি যে এই অ্যাপ্লিকেশনে <strong>কোনও বাণিজ্যিক বিজ্ঞাপন, ব্যানার, ট্র্যাকার বা তৃতীয় পক্ষের বিজ্ঞাপন নগদীকরণ ব্যবস্থা নেই</strong>।",
+      "p2": "প্রার্থনা ও ধ্যানের অভিজ্ঞতা পবিত্র ও শ্রদ্ধাশীল থাকা উচিত। আমরা কোনও বিজ্ঞাপন বিক্রি করি না।"
+    },
+    "sec2": {
+      "num": "০২",
+      "title": "কঠোর গোপনীয়তা নীতি ও ব্যক্তিগত তথ্য সংগ্রহ না করার অঙ্গীকার",
+      "p1": "আন্তর্জাতিক গোপনীয়তা সুরক্ষা মান ও জিডিপিআর (GDPR) মেনে:",
+      "p2": "<strong>ক) সম্পূর্ণ লোকাল আর্কিটেকচার (Offline-First):</strong> ৪,০০০-এর বেশি প্রার্থনার সমগ্র ভাণ্ডার ব্যবহারকারীর ডিভাইসে সংরক্ষিত থাকে। প্রার্থনার জন্য কোনও দূরবর্তী সার্ভারে যোগাযোগ করা হয় না।<br><strong>খ) ট্র্যাকিং মুক্ত:</strong> অ্যাপ্লিকেশন নাম, ইমেইল, ফোন নম্বর, বিজ্ঞাপন আইডি বা অবস্থান সংগ্রহ করে না।<br><strong>গ) ডিভাইসেই সংরক্ষিত:</strong> পছন্দের ভাষা ও প্রার্থনার তালিকা ব্যবহারকারীর ডিভাইসের লোকাল স্টোরেজে (localStorage / IndexedDB) সুরক্ষিত থাকে।<br><strong>ঘ) তথ্য প্রকাশ না করা:</strong> আমরা কোনও তৃতীয় পক্ষের কাছে ব্যবহারকারীর তথ্য বিক্রি বা শেয়ার করি না।"
+    },
+    "sec3": {
+      "num": "০৩",
+      "title": "মতাদর্শগত নিরপেক্ষতা, ধর্মান্তরিত না করা ও আইনের প্রতি শ্রদ্ধা",
+      "p1": "<strong>FeUniversal</strong> মানবতার আধ্যাত্মিক ঐতিহ্য সংরক্ষণের একটি নাগরিক উদ্যোগ। এটি <strong>কোনও ধর্মীয় সম্প্রদায়, গির্জা বা ধর্মান্তরিত করার প্রতিষ্ঠান নয়</strong>।",
+      "p2": "প্রত্যেক ব্যবহারকারীকে নিজ দেশের আইন ও ঐতিহ্য মেনে আন্তঃধর্মীয় সম্প্রীতি বজায় রেখে চলার আহ্বান জানানো হচ্ছে।"
+    },
+    "sec4": {
+      "num": "০৪",
+      "title": "সফটওয়্যারের মৌলিকত্ব ও আধ্যাত্মিক ঐতিহ্যের উন্মুক্ত অধিকার",
+      "p1": "<strong>ক) সোর্স কোড ও ডিজাইন:</strong> সফটওয়্যার আর্কিটেকচার ও ভেক্টর আইকনসমূহ সম্পূর্ণ মৌলিক সৃষ্টি যা আন্তর্জাতিক মেধাস্বত্ব আইনে সুরক্ষিত।<br><strong>খ) ঐতিহাসিক পাঠ্য:</strong> সনাতন প্রার্থনা ও স্তোত্রসমূহ মানবজাতির সার্বজনীন উন্মুক্ত অধিকারের (Public Domain) অংশ।"
+    },
+    "sec5": {
+      "num": "০৫",
+      "title": "কপিরাইট নিরাপদ আশ্রয় (DMCA) ও পর্যালোচনা সময়সীমা",
+      "p1": "যদি কোনও অধিকারধারী মনে করেন যে কপিরাইটযুক্ত কোনও বিষয়বস্তু অসাবধানতাবশত যুক্ত হয়েছে, তবে আনুষ্ঠানিক নোটিশ পাওয়ার <strong>১ থেকে ২ কার্যসপ্তাহের মধ্যে আমরা তা পর্যালোচনা ও সংশোধন/অপসারণ করব</strong>।"
+    },
+    "sec6": {
+      "num": "০৬",
+      "title": "ভাষাতাত্ত্বিক পরিধি, সদিচ্ছা ও অনুবাদের অস্বীকৃতি",
+      "p1": "প্রাচীন শাস্ত্রীয় ভাষা থেকে আধুনিক ভাষায় অনুবাদ একটি অত্যন্ত সংবেদনশীল কাজ যা গভীর শ্রদ্ধার সাথে সম্পন্ন করা হয়েছে।",
+      "p2": "<strong>FeUniversal</strong> অনিচ্ছাকৃত ভাষাগত ত্রুটির জন্য অগ্রিম আন্তরিক ক্ষমা প্রার্থনা করছে এবং নিশ্চিত করছে যে কোনও অসৎ উদ্দেশ্য বা মতাদর্শ পরিবর্তনের ইচ্ছা নেই।"
+    },
+    "sec7": {
+      "num": "০৭",
+      "title": "শিশু সুরক্ষা ও পারিবারিক নিরাপত্তা (COPPA)",
+      "p1": "অ্যাপ্লিকেশনটি সম্পূর্ণ পারিবারিক পরিবেশের উপযোগী এবং COPPA নীতিমালার পূর্ণ অনুসারী।"
+    },
+    "sec8": {
+      "num": "০৮",
+      "title": "ধ্যান ও আধ্যাত্মিক অনুশীলনে সতর্কতা",
+      "p1": "শ্বাস-প্রশ্বাসের ব্যায়াম ও শান্ত সুর কেবল আধ্যাত্মিক প্রশান্তির জন্য। <strong>গাড়ি চালানো বা ভারী যন্ত্রপাতি চালানোর সময় এটি ব্যবহার করবেন না</strong>।"
+    },
+    "sec9": {
+      "num": "০৯",
+      "title": "চিকিৎসা ও স্বাস্থ্য সংক্রান্ত অস্বীকৃতি (Google Play Health Policy)",
+      "p1": "<strong>জরুরি চিকিৎসা সংক্রান্ত নোটিশ:</strong> আরোগ্য ও স্বাস্থ্য বিভাগের প্রার্থনাসমূহ কেবল আত্মিক সান্ত্বনার জন্য।",
+      "p2": "<strong>এই অ্যাপ কোনও চিকিৎসা পরামর্শ, রোগ নির্ণয় বা চিকিৎসা প্রদান করে না।</strong> এটি কোনও নিবন্ধিত চিকিৎসকের বিকল্প নয়।"
+    },
+    "sec10": {
+      "num": "১০",
+      "title": "কৃত্রিম বুদ্ধিমত্তা ও প্রযুক্তিগত স্বচ্ছতা",
+      "p1": "সহায়ক প্রযুক্তি ভিত্তিক প্রতিক্রিয়াগুলো সাধারণ সাহিত্যের ওপর নির্মিত গাণিতিক মডেল দ্বারা তৈরি এবং <strong>এগুলো কোনও ঐশী বাণী বা ধর্মীয় আদেশ নয়</strong>।"
+    },
+    "sec11": {
+      "num": "১১",
+      "title": "দায়বদ্ধতার সীমাবদ্ধতা",
+      "p1": "অ্যাপ্লিকেশন ব্যবহারের সম্পূর্ণ দায়িত্ব ব্যবহারকারীর নিজের (\"যেমন আছে\")।"
+    },
+    "sec12": {
+      "num": "১২",
+      "title": "অফিসিয়াল যোগাযোগ",
+      "p1": "আইনি প্রশ্ন বা পরামর্শের জন্য:<br><strong>অফিসিয়াল ইমেইল:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "১৩",
+      "title": "প্রাধান্যপ্রাপ্ত ভাষা সংক্রান্ত ধারা ও প্রামাণিক সংস্করণ",
+      "p1": "এই আইনি কাঠামো, গোপনীয়তা নীতি ও ব্যবহারের শর্তাবলীর মূল ও আইনগতভাবে বাধ্যতামূলক সংস্করণটি আনুষ্ঠানিকভাবে <strong>স্প্যানিশ (মেক্সিকো)</strong> ভাষায় রচিত।",
+      "p2": "বাংলাসহ অন্যান্য ভাষার সংস্করণসমূহ বিশ্বব্যাপী বোঝাপড়ার সুবিধার্থে সৌহার্দ্যপূর্ণ অনুবাদ হিসেবে প্রদান করা হয়েছে। যেকোনো ভাষাগত বা আইনি ব্যাখ্যার পার্থক্যের ক্ষেত্রে <strong>স্প্যানিশ (মেক্সিকো) সংস্করণটিই চূড়ান্ত ও কার্যকর বলে গণ্য হবে</strong>।"
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#006a4e\" d=\"M0 0h640v480H0z\"/><circle cx=\"280\" cy=\"240\" r=\"160\" fill=\"#f42a41\"/></svg>"
+  },
+  "id": {
+    "name": "Bahasa Indonesia",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Tempat Suci Doa Universal • Hak cipta dilindungi undang-undang.","tagline":"Dirancang dengan takzim demi persaudaraan, kedamaian, dan perenungan manusia."},
+    "badge": "Cermin Persaudaraan Resmi",
+    "header": {
+      "title": "Kerangka Hukum, Kebijakan Privasi & Syarat Penggunaan",
+      "subtitle": "Inisiatif Spiritual dan Persaudaraan Universal",
+      "effective_date": "Pembaruan Terakhir: September 2026",
+      "version": "Versi Resmi 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Suaka Doa Bebas Iklan Komersial dan Pelacakan",
+      "p1": "Platform <strong>FeUniversal</strong> dirancang sebagai suaka spiritual dan budaya yang bebas dari gangguan komersial. Kami menyatakan secara tegas bahwa aplikasi ini <strong>tidak mengandung iklan komersial, spanduk invasif, pelacak perilaku, maupun monetisasi pihak ketiga</strong>.",
+      "p2": "Pengalaman doa dan meditasi harus tetap murni dan khidmat. Kami tidak menjual ruang iklan atau berpartisipasi dalam jaringan lelang iklan real-time (RTB)."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Kebijakan Privasi Ketat dan Tanpa Pengumpulan Data Pribadi",
+      "p1": "Sesuai dengan prinsip minimalisasi data dan standar privasi internasional (termasuk GDPR):",
+      "p2": "<strong>a) Arsitektur Lokal (Offline-First):</strong> Seluruh korpus lebih dari 4.000 doa tersimpan secara lokal di perangkat pengguna. Tidak ada permintaan data ke server untuk membaca doa.<br><strong>b) Tanpa Pemprofilan:</strong> Aplikasi tidak mengumpulkan nama, email, nomor telepon, ID iklan (GAID/IDFA), lokasi GPS, atau kontak.<br><strong>c) Penyimpanan Lokal Terisolasi:</strong> Pengaturan bahasa, doa favorit, dan niat spiritual disimpan secara eksklusif di memori lokal aman perangkat (localStorage / IndexedDB).<br><strong>d) Tanpa Pembagian Data:</strong> Kami tidak pernah menjual atau membagikan data kepada pihak ketiga."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Netralitas Doktrinal, Non-Proselitisme & Kepatuhan Hukum",
+      "p1": "<strong>FeUniversal</strong> adalah inisiatif masyarakat untuk melestarikan warisan spiritual umat manusia. Aplikasi ini <strong>bukan organisasi keagamaan, gereja, atau sekte</strong> dan tidak melakukan upaya pengalihan keyakinan paksa.",
+      "p2": "Setiap pengguna dianjurkan menjalankan keyakinannya dengan mematuhi hukum dan tradisi negaranya demi persaudaraan antarumat beragama."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Keaslian Perangkat Lunak dan Domain Publik Warisan Spiritual",
+      "p1": "<strong>a) Kode Sumber dan Desain:</strong> Arsitektur perangkat lunak, UI/UX, dan ikon vektor adalah karya 100% orisinal yang dilindungi undang-undang hak cipta.<br><strong>b) Teks Doa Tradisional:</strong> Doa-doa klasik, mazmur, dan nyanyian suci merupakan warisan abadi milik Domain Publik Universal."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Pelabuhan Aman Hak Cipta (DMCA) dan Waktu Penanganan",
+      "p1": "Jika pemegang hak cipta meyakini dengan itikad baik bahwa suatu teks terlindungi dimasukkan secara tidak sengaja, kami berkomitmen untuk <strong>meninjau dan menghapus atau memperbaikinya dalam waktu 1 hingga 2 minggu kerja</strong>."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Kajian Filologis, Itikad Baik dan Penafian Terjemahan",
+      "p1": "Penerjemahan teks suci kuno dari bahasa-bahasa klasik (Sanskerta, Ibrani, Yunani, Latin, Arab Klasik, dll.) dilakukan dengan penuh rasa hormat dan itikad baik.",
+      "p2": "<strong>FeUniversal</strong> menyampaikan permohonan maaf terlebih dahulu atas potensi perbedaan dialek atau nuansa bahasa yang tidak disengaja."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Perlindungan Anak dan Ramah Keluarga (COPPA)",
+      "p1": "Aplikasi ini 100% ramah keluarga, mematuhi standar COPPA, tanpa konten eksplisit maupun pembelian dalam aplikasi."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Keselamatan Selama Meditasi dan Praktik Kontemplatif",
+      "p1": "Panduan pernapasan dan suara alam ditujukan untuk ketenangan batin. <strong>Dilarang digunakan saat mengemudikan kendaraan bermotor atau mengoperasikan mesin berat</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Penafian Medis dan Kesehatan (Google Play Health Policy)",
+      "p1": "<strong>PEMBERITAHUAN MEDIS PENTING:</strong> Konten doa pada kategori Kesehatan dan Penyembuhan disediakan murni untuk penguatan spiritual dan moral.",
+      "p2": "<strong>Aplikasi ini TIDAK menyediakan nasihat medis, diagnosis klinis, atau pengobatan.</strong> Aplikasi ini bukan pengganti penanganan dokter profesional."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Transparansi Kecerdasan Buatan dan Teknologi",
+      "p1": "Respon asisten berbasis model komputasi literatur terbuka dan <strong>bukan merupakan wahyu ilahi atau fatwa doktrinal</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Batasan Tanggung Jawab Umum",
+      "p1": "Penggunaan aplikasi sepenuhnya menjadi tanggung jawab pengguna (\"sebagaimana adanya\")."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Kontak Resmi",
+      "p1": "Untuk pertanyaan hukum atau saran persaudaraan:<br><strong>Email Resmi:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Klausul Bahasa yang Berlaku dan Rujukan Kanonik",
+      "p1": "Versi resmi dan mengikat secara hukum dari dokumen Kerangka Hukum, Kebijakan Privasi, dan Syarat Penggunaan ini disusun dalam <strong>Bahasa Spanyol (Meksiko)</strong>.",
+      "p2": "Semua versi terjemahan bahasa lainnya disediakan dengan itikad baik sebagai adaptasi persaudaraan demi kemudahan pemahaman global. Jika terdapat perbedaan interpretasi hukum, <strong>versi Bahasa Spanyol (Meksiko) yang akan berlaku secara definitif</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#e70011\" d=\"M0 0h640v240H0z\"/><path fill=\"#fff\" d=\"M0 240h640v240H0z\"/></svg>"
+  },
+  "ar": {
+    "name": "العربية",
+    "dir": "rtl",
+    "footer": {"copyright":"© 2026 FeUniversal • الملاذ الروحي العالمي • جميع الحقوق محفوظة.","tagline":"صُمم بخشوع وإجلال من أجل الإخاء والسلام والتأمل البشري."},
+    "badge": "المرآة الأخوية الرسمية",
+    "header": {
+      "title": "الإطار القانوني وسياسة الخصوصية وشروط الاستخدام",
+      "subtitle": "مبادرة روحية وأخوية عالمية",
+      "effective_date": "آخر تحديث: سبتمبر 2026",
+      "version": "الإصدار الرسمي 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "محراب تعبدي خالٍ تماماً من الإعلانات التجارية والتتبع",
+      "p1": "تم تصميم وتطوير منصة <strong>FeUniversal</strong> كمحراب روحي وثقافي مقدس بعيداً عن أي استغلال تجاري. نعلن بشكل قاطع ولا رجعة فيه أن التطبيق <strong>لا يحتوي على أي إعلانات تجارية، أو لافتات مزعجة، أو إعلانات بينية، أو أدوات تتبع سلوكي، أو آليات لتحقيق الدخل الإعلاني</strong>.",
+      "p2": "إن تجربة الصلاة والذكر والتأمل يجب أن تظل نقية وخاشعة ومهيبة. نحن لا نبيع مساحات إعلانية ولا نشارك في شبكات المزايدة الإعلانية الفورية (RTB)."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "سياسة خصوصية صارمة وعدم جمع البيانات الشخصية نهائياً",
+      "p1": "امتثالاً لمبدأ تقليل جمع البيانات واللوائح الدولية لحماية الخصوصية (مثل اللائحة العامة الأوروبية GDPR):",
+      "p2": "<strong>أ) بنية محلية دون اتصال (Offline-First):</strong> المجموعة الكاملة التي تضم أكثر من 4,000 صلاة ونص مقدس محفوظة محلياً على جهاز المستخدم دون إرسال طلبات للخوادم لقراءتها.<br><strong>ب) انعدام التنميط الرقمي:</strong> لا يجمع التطبيق الأسماء، أو البريد الإلكتروني، أو أرقام الهواتف، أو المعرفات الإعلانية (GAID/IDFA)، أو الموقع الجغرافي، أو جهات الاتصال.<br><strong>ج) تخزين محلي معزول:</strong> تفضيلات اللغة وقوائم التفضيل والنوايا الروحية تُحفظ حصرياً داخل الذاكرة الآمنة للجهاز (localStorage / IndexedDB) ولا تُنقل إطلاقاً إلى أي خوادم خارجية.<br><strong>د) عدم مشاركة البيانات:</strong> لا نبيع ولا نشارك أي معلومات مع وسطاء البيانات أو الكيانات التجارية أو أي أطراف ثالثة."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "الحياد العقائدي وعدم التبشير واحترام القوانين الدينية",
+      "p1": "<strong>FeUniversal</strong> هي مبادرة مدنية لحفظ التراث الروحي والإنساني. إن التطبيق <strong>ليس كنيسة أو طائفة أو هيئة تبشيرية</strong>، ولا يدعو إلى تغيير قسري للمعتقد أو فرض عقائد ملزمة.",
+      "p2": "يُنصح كل مستخدم بممارسة شعائره في إطار الاحترام التام لقوانين وتقاليد بلده، تعزيزاً للتعايش السلمي والاحترام المتبادل بين كافة الأديان."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "أصالة البرمجيات والملكية العامة للتراث الروحي",
+      "p1": "<strong>أ) الشفرة المصدرية والتصميم:</strong> تعد بنية البرمجيات وواجهة المستخدم والأيقونات المتجهية أعمالاً أصلية بنسبة 100% ومحمية بقوانين الملكية الفكرية الدولية.<br><strong>ب) النصوص التاريخية والدينية:</strong> تعد الأدعية والصلوات التقليدية والمزامير والأناشيد جزءاً لا يتجزأ من التراث الإنساني الخالد وضمن الملكية العامة العالمية."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "الملاذ الآمن لحقوق النشر (DMCA) والمدة الزمنية للمعالجة",
+      "p1": "إذا اعتقد أي صاحب حق بحسن نية أن محتوى محمياً بحقوق النشر قد أُدرج عن غير قصد، فإننا نتعهد بموجب مبادئ الملاذ الآمن <strong>بمراجعة الطلب وتعديل أو إزالة المحتوى خلال أسبوع إلى أسبوعين من أيام العمل</strong> من تلقي الإشعار الرسمي."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "النطاق الفيلولوجي وحسن النية وإخلاء مسؤولية الترجمة",
+      "p1": "إن ترجمة النصوص الروحية العريقة من اللغات الكلاسيكية القديمة (كالسنسكريتية والعبرية واليونانية واللاتينية والعربية الكلاسيكية) تمثل جهداً فيلولوجياً معقداً تم إنجازه بأقصى درجات التوقير والإخلاص.",
+      "p2": "يقدم <strong>FeUniversal</strong> اعتذاره المسبق عن أي فروق لغوية دقيقة غير مقصودة، مؤكداً عدم وجود أي نية تحريف عقائدي."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "حماية الأطفال والملاءمة العائلية (COPPA)",
+      "p1": "المنصة مناسبة تماماً لجميع أفراد الأسرة وتتوافق مع معايير حماية خصوصية الأطفال (COPPA)، وهي خالية من المحتوى غير اللائق أو عمليات الشراء داخل التطبيق."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "السلامة أثناء جلسات التأمل والسكينة",
+      "p1": "تم تصميم تمارين التنفس والأصوات الهادئة لتحقيق السكينة الروحية. <strong>يُحظر تماماً استخدامها أثناء قيادة المركبات أو تشغيل الآلات الثقيلة التي تتطلب تركيزاً كاملاً</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "إخلاء المسؤولية الطبية والصحية (وفقاً لسياسات Google Play)",
+      "p1": "<strong>تنبيه طبي بالغ الأهمية:</strong> يتم توفير الأدعية والصلوات في قسم الصحة والشفاء لأغراض الدعم الروحي والمعنوي حصراً.",
+      "p2": "<strong>هذا التطبيق لا يقدم أي استشارة طبية أو تشخيص سريري أو علاج.</strong> ولا يغني بأي حال من الأحوال عن استشارة طبيب متخصص أو مقدم رعاية صحية مؤهل."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "الشفافية في استخدام الذكاء الاصطناعي والتقنيات",
+      "p1": "الردود التفاعلية المساعدة تعتمد على نماذج حوسبية للأدب الروحي العام و<strong>لا تمثل نبوءات أو فتاوى دينية ملزمة</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "حدود المسؤولية العامة",
+      "p1": "يقع استخدام التطبيق على المسؤولية الكاملة للمستخدم (\"كما هو\")."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "التواصل الرسمي",
+      "p1": "للاستفسارات القانونية أو الملاحظات اللغوية الأخوية:<br><strong>البريد الإلكتروني الرسمي:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "بند اللغة الحاكمة والمرجعية القانونية الرسمية",
+      "p1": "تمت صياغة النسخة الرسمية والأصلية والملزمة قانوناً لهذا الإطار القانوني وسياسة الخصوصية وشروط الاستخدام باللغة <strong>الإسبانية (المكسيك)</strong>.",
+      "p2": "تُقدم جميع النسخ والترجمات المتوفرة باللغات الأخرى (بما فيها العربية) بحسن نية كترجمات أخوية لتسهيل الفهم العام. وفي حال وجود أي تعارض لغوي أو اختلاف في التفسير القانوني، <strong>فإن النص المعتمد باللغة الإسبانية (المكسيك) هو الذي يسود ويكون له الحجية النهائية والملزمة</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#007a3d\" d=\"M0 0h640v160H0z\"/><path fill=\"#fff\" d=\"M0 160h640v160H0z\"/><path fill=\"#000\" d=\"M0 320h640v160H0z\"/><path fill=\"#ce1126\" d=\"m0 0 240 240L0 480z\"/></svg>"
+  },
+  "ur": {
+    "name": "اردو",
+    "dir": "rtl",
+    "footer": {"copyright":"© 2026 FeUniversal • عالمگیر روحانی و دعائیہ پناہ گاہ • تمام حقوق محفوظ ہیں۔","tagline":"اخوت، امن اور انسانی غور و فکر کے احترام کے ساتھ تخلیق کیا گیا۔"},
+    "badge": "سرکاری برادرانہ ترجمہ",
+    "header": {
+      "title": "قانونی فریم ورک، پرائیویسی پالیسی اور شرائطِ استعمال",
+      "subtitle": "عالمگیر روحانی و برادرانہ اقدام",
+      "effective_date": "آخری تجدید: ستمبر 2026",
+      "version": "سرکاری ورژن 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "تجارتی اشتہارات اور ٹریکنگ سے پاک روحانی پناہ گاہ",
+      "p1": "<strong>FeUniversal</strong> پلیٹ فارم کو تجارتی دخل اندازی سے مکمل طور پر پاک ایک روحانی اور ثقافتی پناہ گاہ کے طور پر تیار کیا گیا ہے۔ ہم واضح اعلان کرتے ہیں کہ یہ ایپلیکیشن <strong>کسی قسم کے تجارتی اشتہارات، پاپ اپ، بینرز، رویے کی نگرانی کے ٹریکرز یا فریق ثالث کے کاروباری طریقہ کار پر مشتمل نہیں ہے</strong>۔",
+      "p2": "دعا، عبادت اور مراقبہ کا تجربہ پاکیزہ، پُروقار اور خالص رہنا چاہیے۔ ہم اشتہاری جگہ فروخت نہیں کرتے ہیں۔"
+    },
+    "sec2": {
+      "num": "02",
+      "title": "سخت پرائیویسی پالیسی اور ذاتی ڈیٹا کا مکمل عدم جمع",
+      "p1": "ڈیٹا کے کم سے کم استعمال اور بین الاقوامی پرائیویسی قوانین (بشمول GDPR) کی مکمل پاسداری کرتے ہوئے:",
+      "p2": "<strong>الف) آف لائن اور مقامی ساخت (Offline-First):</strong> 4,000 سے زائد دعاؤں اور مقدس متون کا مکمل ذخیرہ صارف کے آلے پر مقامی طور پر موجود ہے۔ مطالعہ کے لیے کسی بیرونی سرور سے رابطہ نہیں کیا جاتا۔<br><strong>ب) کوئی پروفائلنگ نہیں:</strong> ایپلیکیشن نام، ای میل، فون نمبر، اشتہاری شناختی نمبر (GAID/IDFA)، جی پی ایس مقام یا رابطوں کی فہرست جمع نہیں کرتی۔<br><strong>ج) محفوظ مقامی اسٹوریج:</strong> زبان کی ترجیحات، پسندیدہ دعائیں اور روحانی نیتیں صرف آپ کے آلے کے محفوظ اسٹوریج (localStorage / IndexedDB) میں محفوظ رہتی ہیں۔<br><strong>د) ڈیٹا کا عدم اشتراک:</strong> ہم کسی بھی ڈیٹا بروکر، کارپوریشن یا تیسرے فریق کو ڈیٹا فروخت یا منتقل نہیں کرتے۔"
+    },
+    "sec3": {
+      "num": "03",
+      "title": "نظریاتی غیر جانبداری، عدم تبلیغ اور مذہبی قوانین کا احترام",
+      "p1": "<strong>FeUniversal</strong> انسانیت کے روحانی ورثے کے تحفظ کے لیے ایک شہری اقدام ہے۔ یہ <strong>کوئی مذہبی فرقہ، چرچ یا تبلیغی ادارہ نہیں ہے</strong> اور جبری مذہب تبدیلی کی ترویج نہیں کرتا۔",
+      "p2": "ہر صارف کو اپنے ملک کے قوانین اور روایات کا احترام کرتے ہوئے باہمی ہم آہنگی کے ساتھ اپنی عبادت کرنے کی تلقین کی جاتی ہے۔"
+    },
+    "sec4": {
+      "num": "04",
+      "title": "سافٹ ویئر کی اصلیت اور روحانی ورثے کا عوامی دائرہ",
+      "p1": "<strong>الف) سورس کوڈ اور ڈیزائن:</strong> ایپلیکیشن کا بنیادی کوڈ، انٹرفیس اور ویکٹر شبیہیں 100% اصل تخلیق ہیں جو دانشورانہ ملکیت کے بین الاقوامی قوانین کے تحت محفوظ ہیں۔<br><strong>ب) تاریخی عبادات اور متون:</strong> روایتی دعائیں، مناجات اور حمد و ثناء پوری انسانیت کے لازوال ورثے اور پبلک ڈومین (عوامی ملکیت) کا حصہ ہیں۔"
+    },
+    "sec5": {
+      "num": "05",
+      "title": "کاپی رائٹ سیف ہاربر (DMCA) اور بروقت تدارک کی پالیسی",
+      "p1": "اگر کسی حق دار کو حسنِ نیت سے محسوس ہو کہ کوئی محفوظ مواد نادانستہ طور پر شامل ہو گیا ہے، تو ہم باضابطہ اطلاع کے <strong>1 سے 2 کاروباری ہفتوں کے اندر مواد کی جانچ اور اصلاح یا خاتمے کے پابند ہیں</strong>۔"
+    },
+    "sec6": {
+      "num": "06",
+      "title": "علمِ لسانیات کا دائرہ، خیر سگالی اور ترجمے سے متعلق اعلامیہ",
+      "p1": "قدیم کلاسیکی زبانوں (سنسکرت، عبرانی، یونانی، لاطینی، کلاسیکی عربی وغیرہ) سے جدید زبانوں میں ترجمہ ایک گہرا علمی کام ہے جو انتہائی عقیدت اور احترام کے ساتھ انجام دیا گیا ہے۔",
+      "p2": "<strong>FeUniversal</strong> غیر ارادی لسانی غلطیوں یا فہم کی خامیوں کے لیے پیشگی معذرت خواہ ہے اور اس بات کی تصدیق کرتا ہے کہ کسی بدنیتی کا کوئی وجود نہیں ہے۔"
+    },
+    "sec7": {
+      "num": "07",
+      "title": "بچوں کا تحفظ اور خاندانی معیارات (COPPA)",
+      "p1": "ایپلیکیشن خاندانی استعمال کے لیے 100% محفوظ ہے اور بچوں کے آن لائن تحفظ کے تمام بین الاقوامی معیارات پر پوری اترتی ہے۔"
+    },
+    "sec8": {
+      "num": "08",
+      "title": "مراقبہ اور سکون بخش مشقوں کے دوران احتیاط",
+      "p1": "سانس کی مشقیں اور پُرسکون آوازیں صرف روحانی سکون کے لیے ہیں۔ <strong>گاڑی چلاتے وقت یا بھاری مشینری چلاتے وقت ان کا استعمال ہرگز نہ کریں</strong>۔"
+    },
+    "sec9": {
+      "num": "09",
+      "title": "طبی و صحت سے متعلق ضروری انتباہ (Google Play Health Policy)",
+      "p1": "<strong>انتہائی اہم طبی انتباہ:</strong> صحت اور شفا کے زمرے کی دعائیں اور متون صرف روحانی تسکین اور اخلاقی تقویت کے لیے فراہم کیے گئے ہیں۔",
+      "p2": "<strong>یہ ایپلیکیشن کوئی طبی مشورہ، تشخیص یا علاج فراہم نہیں کرتی ہے۔</strong> یہ کبھی بھی کسی مستند ڈاکٹر یا طبی ماہر کے مشورے کا نعم البدل نہیں ہو سکتی۔"
+    },
+    "sec10": {
+      "num": "10",
+      "title": "مصنوعی ذہانت اور ٹیکنالوجی کی شفافیت",
+      "p1": "تخلیقی ردعمل حسابی ماڈلز کے ذریعے تیار کیے جاتے ہیں اور <strong>یہ کوئی الہامی احکامات یا قطعی مذہبی فتاویٰ نہیں ہیں</strong>۔"
+    },
+    "sec11": {
+      "num": "11",
+      "title": "عمومی ذمہ داری کی حد بندی",
+      "p1": "ایپلیکیشن کا استعمال مکمل طور پر صارف کے اپنے صوابدید اور ذمہ داری پر ہے (\"جیسا ہے ویسا\")۔"
+    },
+    "sec12": {
+      "num": "12",
+      "title": "سرکاری رابطہ",
+      "p1": "قانونی استفسارات یا برادرانہ تجاویز کے لیے:<br><strong>سرکاری ای میل:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "حاکم زبان کی شق اور قانونی سند",
+      "p1": "اس قانونی فریم ورک، پرائیویسی پالیسی اور شرائطِ استعمال کا سرکاری، اصل اور قانونی طور پر پابند نسخہ <strong>ہسپانوی (میکسیکو)</strong> زبان میں تحریر کیا گیا ہے۔",
+      "p2": "اردو سمیت دیگر تمام زبانوں میں فراہم کردہ تراجم عالمی برادری کی سہولت اور فہم کے لیے برادرانہ خیر سگالی کے طور پر دیے گئے ہیں۔ کسی بھی لسانی اختلاف، ابہام یا قانونی تعبیر کی صورت میں <strong>صرف اور صرف ہسپانوی (میکسیکو) ورژن ہی حتمی، معتبر اور قانونی طور پر نافذ العمل ہوگا</strong>۔"
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#01411c\" d=\"M0 0h640v480H0z\"/><path fill=\"#fff\" d=\"M0 0h160v480H0z\"/><circle cx=\"420\" cy=\"240\" r=\"110\" fill=\"#fff\"/><circle cx=\"450\" cy=\"220\" r=\"100\" fill=\"#01411c\"/><polygon points=\"460,170 470,200 500,200 475,220 485,250 460,230 435,250 445,220 420,200 450,200\" fill=\"#fff\"/></svg>"
+  },
+  "sw": {
+    "name": "Kiswahili",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Patakatifu pa Sala pa Ulimwengu • Haki zote zimehifadhiwa.","tagline":"Imebuniwa kwa heshima ya udugu, amani, na tafakari ya kibinadamu."},
+    "badge": "Kioo Rasmi cha Kidugu",
+    "header": {
+      "title": "Mfumo wa Kisheria, Sera ya Faragha na Masharti ya Matumizi",
+      "subtitle": "Mpango wa Kiroho na Kidugu wa Ulimwengu",
+      "effective_date": "Ilisasishwa Mwisho: Septemba 2026",
+      "version": "Toleo Rasmi 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Patakatifu pa Ibada Pasipo Matangazo ya Biashara wala Ufuatiliaji",
+      "p1": "Jukwaa la <strong>FeUniversal</strong> limebuniwa kama patakatifu pa kiroho na kitamaduni pasipo usumbufu wa kibiashara. Tunatangaza kwa dhati kuwa programu hii <strong>haina matangazo ya kibiashara, mabango yenye kuudhi, vifuatiliaji tabia, wala njia zozote za uchumaji mapato ya matangazo</strong>.",
+      "p2": "Uzoefu wa maombi na tafakari unapaswa kubaki safi na mtukufu. Hatuuzi nafasi za matangazo wala kushiriki katika mitandao ya minada ya matangazo (RTB)."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Sera Madhubuti ya Faragha na Kutokusanya Taarifa Binafsi",
+      "p1": "Kwa kuzingatia kikamilifu kanuni za kimataifa za ulinzi wa faragha (ikiwemo GDPR):",
+      "p2": "<strong>a) Mfumo wa Ndani ya Kifaa (Offline-First):</strong> Hazina nzima ya zaidi ya sala 4,000 ipo ndani ya kifaa cha mtumiaji. Hakuna maombi yanayotumwa kwa seva ili kusoma sala.<br><strong>b) Hakuna Ukusanyaji wa Data:</strong> Programu haikusanyi majina, barua pepe, nambari za simu, vitambulisho vya matangazo (GAID/IDFA), wala anwani za mawasiliano.<br><strong>c) Hifadhi Salama ya Ndani:</strong> Mapendeleo ya lugha, sala pendwa, na nia za kiroho zinahifadhiwa kwenye kumbukumbu salama ya kifaa chako tu (localStorage / IndexedDB).<br><strong>d) Kutoshiriki Data:</strong> Hatuzi wala kusambaza taarifa yoyote kwa makampuni au wahusika wengine."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Msimamo Usiofungamana na Upande, Kutoshawishi Dini & Kuheshimu Sheria",
+      "p1": "<strong>FeUniversal</strong> ni mpango wa kiraia unaolenga kuhifadhi urithi wa kiroho wa mwanadamu. Programu hii <strong>si dhehebu la kidini, kanisa, au kikundi cha ushawishi wa kidini</strong>.",
+      "p2": "Kila mtumiaji anahimizwa kuishi imani yake kwa kuheshimu sheria na mila za nchi yake, akidumisha amani na heshima ya pande zote."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Uasili wa Programu na Urithi wa Kiroho wa Umma",
+      "p1": "<strong>a) Kanuni na Muundo:</strong> Muundo wa programu na aikoni za vekta ni ubunifu asili 100% unaolindwa na sheria za haki miliki.<br><strong>b) Maandiko ya Kale:</strong> Sala za kitamaduni, zaburi, na nyimbo takatifu ni sehemu ya Urithi wa Umma wa Ulimwengu (Public Domain)."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Hifadhi Salama ya Hakimiliki (DMCA) na Muda wa Utekelezaji",
+      "p1": "Ikiwa mwenye hakimiliki anaamini kwa nia njema kuwa andiko lililolindwa limejumuishwa bila kukusudia, tunajitolea <strong>kuchunguza na kurekebisha au kuondoa maudhui hayo ndani ya wiki 1 hadi 2 za kazi</strong> baada ya kupokea taarifa rasmi."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Upeo wa Kifilolojia, Nia Njema na Kanusho la Tafsiri",
+      "p1": "Tafsiri ya maandiko ya kale kutoka lugha za asili (Sanskriti, Kiebrania, Kigiriki, Kilatini, Kiarabu cha Kale, n.k.) imefanywa kwa unyenyekevu na heshima kubwa ya kidugu.",
+      "p2": "<strong>FeUniversal</strong> inaomba radhi mapema kwa tofauti yoyote ndogo ya lugha isiyokusudiwa, ikithibitisha kuwa hakuna nia mbaya au mabadiliko ya mafundisho ya imani."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Ulinzi wa Watoto na Mazingira Salama ya Familia (COPPA)",
+      "p1": "Programu hii inafaa 100% kwa matumizi ya familia nzima na inazingatia kikamilifu viwango vya COPPA pasipo maudhui yasiyofaa."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Usalama Wakati wa Tafakari na Mazoezi ya Kiroho",
+      "p1": "Mazoezi ya kupumua na sauti za utulivu ni kwa ajili ya amani ya kiroho. <strong>Usitumie unapoendesha chombo cha moto au kuendesha mashine nzito</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Kanusho Muhimu la Kimatibabu na Afya (Google Play Health Policy)",
+      "p1": "<strong>TAARIFA MUHIMU YA MATIBABU:</strong> Sala na tafakari za sehemu ya Afya na Uponyaji zinatolewa kwa ajili ya faraja ya kiroho pekee.",
+      "p2": "<strong>Programu hii HAITOI ushauri wa matibabu, uchunguzi wa kimatibabu, wala matibabu.</strong> Haipaswi kamwe kuchukua nafasi ya daktari mwenye leseni au mtaalamu wa afya aliyehitimu."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Uwazi wa Akili Bandia na Teknolojia",
+      "p1": "Majibu ya usaidizi wa kiotomatiki yanatokana na mifano ya kihisabati ya fasihi ya umma na <strong>si maneno ya kinabii au amri za kiimani</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Kikomo cha Jumla cha Dhima",
+      "p1": "Matumizi ya programu hii ni kwa hiari na wajibu kamili wa mtumiaji mwenyewe (\"kama ilivyo\")."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Mawasiliano Rasmi",
+      "p1": "Kwa maswali ya kisheria au maoni ya kidugu:<br><strong>Barua Pepe Rasmi:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Kifungu cha Lugha Inayotawala na Rejeleo Rasmi",
+      "p1": "Toleo rasmi, asilia na lenye nguvu ya kisheria la Mfumo huu wa Kisheria, Sera ya Faragha na Masharti ya Matumizi limeandikwa rasmi kwa lugha ya <strong>Kihispania (Meksiko)</strong>.",
+      "p2": "Tafsiri zote za lugha nyingine (ikiwemo Kiswahili) zimetolewa kwa nia njema kama marekebisho ya kidugu ya hisani ili kusaidia uelewa wa kimataifa. Ikitokea hitilafu ya kuelewana au utata wa kisheria, <strong>toleo la Kihispania (Meksiko) ndilo litakalotawala na kuwa na mamlaka ya mwisho</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><rect width=\"640\" height=\"480\" fill=\"#007a3d\"/><circle cx=\"320\" cy=\"240\" r=\"145\" fill=\"#ffffff\" opacity=\"0.2\"/><circle cx=\"320\" cy=\"240\" r=\"135\" fill=\"none\" stroke=\"#fcd116\" stroke-width=\"5\" stroke-dasharray=\"8 6\"/><path d=\"M280,140 Q315,125 350,140 Q380,155 385,185 Q405,195 400,225 Q385,250 375,275 Q355,315 345,345 Q330,375 320,380 Q305,355 300,320 Q285,290 268,265 Q245,240 245,215 Q240,190 268,175 Z\" fill=\"#fcd116\"/><g fill=\"#fcd116\"><circle cx=\"320\" cy=\"115\" r=\"7\"/><circle cx=\"360\" cy=\"122\" r=\"7\"/><circle cx=\"395\" cy=\"142\" r=\"7\"/><circle cx=\"420\" cy=\"172\" r=\"7\"/><circle cx=\"435\" cy=\"210\" r=\"7\"/><circle cx=\"435\" cy=\"250\" r=\"7\"/><circle cx=\"420\" cy=\"288\" r=\"7\"/><circle cx=\"395\" cy=\"318\" r=\"7\"/><circle cx=\"360\" cy=\"338\" r=\"7\"/><circle cx=\"320\" cy=\"345\" r=\"7\"/><circle cx=\"280\" cy=\"338\" r=\"7\"/><circle cx=\"245\" cy=\"318\" r=\"7\"/><circle cx=\"220\" cy=\"288\" r=\"7\"/><circle cx=\"205\" cy=\"250\" r=\"7\"/><circle cx=\"205\" cy=\"210\" r=\"7\"/><circle cx=\"220\" cy=\"172\" r=\"7\"/><circle cx=\"245\" cy=\"142\" r=\"7\"/><circle cx=\"280\" cy=\"122\" r=\"7\"/></g></svg>"
+  },
+  "la": {
+    "name": "Latina (Vaticana)",
+    "dir": "ltr",
+    "footer": {"copyright":"© 2026 FeUniversal • Sanctuarium Devotionis Universale • Omnia iura reservata.","tagline":"Cum reverentia ad fraternitatem, pacem et humanam contemplationem designatum."},
+    "badge": "Speculum Fraternum Canonicum",
+    "header": {
+      "title": "Normae Iuridicae, Decretum de Secreto et Usus Conditiones",
+      "subtitle": "Inceptum Spirituale ac Fraternum Universale",
+      "effective_date": "Novissima renovatio: September MMXXVI",
+      "version": "Editio Authentica 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "Sanctuarium Devotionis Sine Reclamiis Mercatoriis et Sine Perquisitione",
+      "p1": "Platforma <strong>FeUniversal</strong> condita atque evoluta est velut sanctuarium spirituale, devotionale ac culturale immune ab omni mercaturae invasione. Categorice ac irrevocabiliter declaramus hanc applicationem <strong>nulla continere praeconia mercatoria, nulla signa invasiva, nullas vestigationes morum neque mercaturas tertiarum partium</strong>.",
+      "p2": "Orandi, contemplandi ac meditandi experientia debet manere pura, sollemnis et reverens. Nullum spatium publicum vendimus ad dignitatem devotionis humanae custodiendam."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "Regula Rigida de Secreto et Cero Collectio Datorum Personalium",
+      "p1": "In stricto obsequio normarum internationalium tutelae datorum (ut RGPD Europaeum, CCPA/CPRA, LGPD et LFPDPPP):",
+      "p2": "<strong>a) Architectura Localis (Offline-First):</strong> Omnis thesaurus devotionalis plus quam 4,000 orationum in ipso machinae apparatu residet.<br><strong>b) Cero Descriptio:</strong> Applicatio nomina, electronicas inscriptiones, numeros telephonicos vel locum geographicum minime colligit.<br><strong>c) Repositorium Locale Secretum:</strong> Linguae praelectiones, orationes praedilectae et privatae petitiones in solis machinae memorandis clauduntur.<br><strong>d) Nulla Datorum Communicatio:</strong> Nullum datum venditur, communicatur aut traditur."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "Neutralitas Doctrinalis, Non Proselytismus et Obsequium Legum",
+      "p1": "<strong>FeUniversal</strong> inceptum est civile et fraternum ad conservandum patrimonium spirituale orbis terrarum. Applicatio <strong>non est ecclesia, communitas religiosa neque secta proselytica</strong>.",
+      "p2": "Omnes fideles hortantur ut fidem suam colant in pace, concordia et mutua reverentia erga omnes traditiones et leges patrias."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "Originalitas Programmatis et Dominium Publicum Textuum Sacrorum",
+      "p1": "<strong>a) Codex et Structura:</strong> Architectura programmatis, graphica et icones vectoriales creationes originales sunt legibus intellectualibus munitae.<br><strong>b) Textus Liturgici:</strong> Orationes antiquae, psalmi et hymni ad Dominium Publicum Universale pertinent, summa reverentia collecti."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "Portus Tutus Auctorum Iuris (DMCA / Safe Harbor)",
+      "p1": "Si quis auctor vel iuris possessor animadvertat translationem aliquam per errorem inclusam esse, promittimus nos <strong>intra spatium unius vel duarum hebdomadarum emendaturos vel omnino remoturos</strong>."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "Modus Philologicus et Bona Fides in Translationibus",
+      "p1": "Translatio textuum sacrorum ex antiquis linguis opus philologicum arduum est. Omnes versiones humili et sincero animo offeruntur.",
+      "p2": "<strong>FeUniversal</strong> veniam rogat pro quolibet involuntario errore linguisticis, absque ullo dolo aut dogmatica mutatione."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "Tutela Minorum et Salus Familiaris (COPPA)",
+      "p1": "Platforma est omnino apta familiis et pueris secundum normam COPPA. Nullum continet periculum neque violentiam. Subscriptiones et oblationes voluntariae per Google Play Billing secure et perspicue geruntur."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "Salus in Meditatione et Exercitiis Spiritualibus",
+      "p1": "Exercitia spirandi et soni contemplativi ad pacem animi tantum destinantur. <strong>Numquam adhibenda sunt dum vehiculum agitur aut machinae periculosae operantur</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "Decretum de Salute et Monitum Medicum",
+      "p1": "<strong>MONITUM MEDICUM CRITICUM:</strong> Orationes et meditationes sanitatis ad solatium spirituale solum praebentur.",
+      "p2": "<strong>Haec applicatio NON praebet consilium medicum, diagnosim vel curam therapeuticam.</strong> Numquam reponere debet iudicium medici professi vel valetudinis periti."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "Perspicuitas de Intelligentia Artificiali (Faith-GPT)",
+      "p1": "Responsiones electronice generatae orationes auxiliarias tantum proponunt, quae <strong>non sunt oracula divina, absolutiones sacramentales neque mandata theologica</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "Limitatio Obligationis et Vis Maior",
+      "p1": "Usus applicationis sub propria fidelium prudentia et responsabilitate peragitur ('ut est' et 'secundum promptitudinem')."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "Contactus Fraternus et Administratrix Notitia",
+      "p1": "Pro omnibus quaestionibus iuridicis vel fraternis emendationibus, electronica inscriptio adest:<br><strong>Epistula Electronica:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "Clausula Linguae Praevalentis",
+      "p1": "Versio authentica et primigenia huius Decreti Iuridici in <strong>Hispana Lingua (Mexicana)</strong> scripta est.",
+      "p2": "In omni dubio vel discrepantia translationum, <strong>versio Hispana canonicum ius habet et praevalet</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#ffe000\" d=\"M0 0h320v480H0z\"/><path fill=\"#fff\" d=\"M320 0h320v480H320z\"/><circle cx=\"480\" cy=\"240\" r=\"50\" fill=\"#d4af37\" stroke=\"#854d0e\" stroke-width=\"4\"/></svg>"
+  },
+  "he": {
+    "name": "עברית (ישראל)",
+    "dir": "rtl",
+    "footer": {"copyright":"© 2026 FeUniversal • מקדש תפילה אוניברסלי • כל הזכויות שמורות.","tagline":"עוצב ביראת כבוד למען אחווה, שלום והתבוננות אנושית."},
+    "badge": "גרסה רשמית אחוותית",
+    "header": {
+      "title": "מסגרת משפטית, מדיניות פרטיות ותנאי שימוש",
+      "subtitle": "יוזמה רוחנית ואחוותית אוניברסלית",
+      "effective_date": "עדכון אחרון: ספטמבר 2026",
+      "version": "גרסה רשמית 8.1.0"
+    },
+    "sec1": {
+      "num": "01",
+      "title": "מקדש דבקות ללא פרסום מסחרי וללא מעקב",
+      "p1": "פלטפורמת <strong>FeUniversal</strong> נוצרה כמקדש רוחני ותרבותי נקי מהפרעות מסחריות. אנו מצהירים באופן חד משמעי כי האפליקציה <strong>אינה מכילה פרסומות מסחריות, באנרים חודרניים, מעקב התנהגותי או מנגנוני מוניטיזציה של צד שלישי</strong>.",
+      "p2": "חוויית התפילה וההתבוננות חייבת להישאר טהורה, שקטה ומכבדת עבור כל בני האדם."
+    },
+    "sec2": {
+      "num": "02",
+      "title": "מדיניות פרטיות מחמירה ואפס איסוף נתונים אישיים",
+      "p1": "בהתאם לעקרון מזעור הנתונים ולתקנות הבינלאומיות (כולל GDPR, CCPA/CPRA, LGPD ו-LFPDPPP):",
+      "p2": "<strong>א) ארכיטקטורה מקומית (Offline-First):</strong> כל מאגר התפילות מעל 4,000 תפילות שמור במכשיר המשתמש בלבד.<br><strong>ב) ללא פרופיל משתמש:</strong> האפליקציה אינה אוספת שמות, כתובות דוא\"ל, מספרי טלפון או מיקום גאוגרפי.<br><strong>ג) אחסון מקומי מאובטח:</strong> תפילות שמורות, פתקים ובקשות אישיות נשמרים אך ורק בזיכרון המקומי של המכשיר שלך.<br><strong>ד) ללא שיתוף נתונים:</strong> איננו מוכרים או מעבירים מידע לאף גורם חיצוני."
+    },
+    "sec3": {
+      "num": "03",
+      "title": "ניטרליות דוקטרינרית, אי-מיסיונריות וציות לחוק",
+      "p1": "<strong>FeUniversal</strong> היא יוזמה תרבותית ואחוותית לשימור המורשת הרוחנית של האנושות. האפליקציה <strong>אינה גוף דתי, מוסד או כת מיסיונרית</strong>.",
+      "p2": "כל משתמש מוזמן לקיים את אמונתו בכבוד הדדי, שלום ואחווה בין כל המסורות ובהתאם לחוקי ארצו."
+    },
+    "sec4": {
+      "num": "04",
+      "title": "מקוריות התוכנה ורשות הרבים של הטקסטים המקודשים",
+      "p1": "<strong>א) קוד ועיצוב:</strong> ארכיטקטורת התוכנה, הממשק והגרפיקה הינם יצירות מקוריות המוגנות בחוקי הקניין הרוחני.<br><strong>ב) טקסטים ליטורגיים:</strong> מזמורים ותפילות עתיקות שייכים לרשות הרבים של האנושות ונאספו בחרדת קודש."
+    },
+    "sec5": {
+      "num": "05",
+      "title": "נמל מבטחים של זכויות יוצרים (DMCA / Safe Harbor)",
+      "p1": "אם בעל זכויות סבור בתום לב כי תרגום מסוים נכלל בשגגה, אנו מתחייבים <strong>לתקן או להסיר את התוכן תוך שבוע עד שבועיים</strong> מקבלת פנייה מסודרת."
+    },
+    "sec6": {
+      "num": "06",
+      "title": "היקף פילולוגי, תום לב והבהרת תרגום",
+      "p1": "תרגום טקסטים עתיקים משפות מקור מהווה מאמץ פילולוגי מורכב המוצע בענווה ובתום לב.",
+      "p2": "<strong>FeUniversal</strong> מבקשת סליחה מראש על כל ניואנס לשוני לא מכוון, ומבהירה כי אין כל כוונת זדון או הטיה דוגמטית."
+    },
+    "sec7": {
+      "num": "07",
+      "title": "הגנת קטינים וסביבה ידידותית למשפחה (COPPA)",
+      "p1": "הפלטפורמה בטוחה ב-100% למשפחות ועומדת בתקן COPPA. מנויים אופציונליים ותרומות סמליות מנוהלים בשקיפות מלאה דרך Google Play Billing."
+    },
+    "sec8": {
+      "num": "08",
+      "title": "בטיחות בהתבוננות ומדיטציה",
+      "p1": "תרגילי הנשימה וצלילי הרקע מיועדים להרפיה ושלווה בלבד. <strong>אין להשתמש בהם בעת נהיגה ברכב מנועי או הפעלת מכשור כבד</strong>."
+    },
+    "sec9": {
+      "num": "09",
+      "title": "הצהרת בריאות וכתב ויתור רפואי (Google Play Health)",
+      "p1": "<strong>הודעה רפואית קריטית:</strong> תפילות וכוונות לרפואה ניתנות לצורכי חיזוק רוחני ורגשי בלבד.",
+      "p2": "<strong>אפליקציה זו אינה מספקת ייעוץ רפואי, אבחון קליני או טיפול.</strong> השימוש באפליקציה אינו מהווה תחליף לרופא מוסמך או איש מקצוע בתחום הבריאות."
+    },
+    "sec10": {
+      "num": "10",
+      "title": "שקיפות סיוע בינה מלאכותית (Faith-GPT)",
+      "p1": "תשובות שנוצרו על ידי מודלים חישוביים מיועדות להשראה בלבד ו<strong>אינן מהוות נבואות אלוהיות, פסיקות הלכתיות או ייעוץ משפטי/פיננסי</strong>."
+    },
+    "sec11": {
+      "num": "11",
+      "title": "הגבלת אחריות כללית וכוח עליון",
+      "p1": "השימוש באפליקציה נעשה לפי שיקול דעתו ואחריותו המלאה של המשתמש (כמות שהוא 'As-Is')."
+    },
+    "sec12": {
+      "num": "12",
+      "title": "יצירת קשר רשמי ופניות",
+      "p1": "לכל פנייה משפטית, הערה לשונית או משוב, ניתן לפנות לערוץ הרשמי:<br><strong>דוא\"ל רשמי:</strong> <a href=\"mailto:feuniversal_faith_and_prayers@outlook.com\" style=\"color:var(--primary); font-weight:700;\">feuniversal_faith_and_prayers@outlook.com</a>"
+    },
+    "sec13": {
+      "num": "13",
+      "title": "סעיף שפה קובעת וגרסה מחייבת",
+      "p1": "הגרסה הרשמית והמחייבת מבחינה משפטית של מסמך זה נכתבה ב<strong>ספרדית (מקסיקו)</strong>.",
+      "p2": "בכל מקרה של סתירה או אי בהירות בין התרגומים לבין הנוסח הספרדי, <strong>הנוסח בספרדית (מקסיקו) יגבר באופן בלעדי</strong>."
+    },
+    "flag_svg": "<svg viewBox=\"0 0 640 480\" width=\"24\" height=\"18\" class=\"flag-icon\"><path fill=\"#fff\" d=\"M0 0h640v480H0z\"/><path fill=\"#0038b8\" d=\"M0 48h640v64H0zM0 368h640v64H0z\"/><path fill=\"none\" stroke=\"#0038b8\" stroke-width=\"16\" d=\"m320 160 70 120H250zm0 160 70-120H250z\"/></svg>"
+  }
+};
+
+if (typeof window !== 'undefined') {
+  window.LEGAL_TRANSLATIONS = LEGAL_TRANSLATIONS;
+}

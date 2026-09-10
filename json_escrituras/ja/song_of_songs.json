@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "libroKey": "song_of_songs",
+    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "totalCapitulos": 8,
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "ja",
+    "esquema": "modular_lazy_v4",
+    "dir": "ltr"
+  },
+  "capitulos": [
+    {
+      "id": "song_of_songs_chapter_1",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
+      "capituloNumero": 1,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
+      "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
+      "traducciones": {
+        "ja": "1. 口のキスで私にキスさせてください。あなたの愛はワインよりも優れているからです。\n2. あなたの良い軟膏の香りのおかげで、あなたの名前は注がれた軟膏のようです、それゆえ処女たちはあなたを愛しています。\n3. 私を引き寄せてください、私たちはあなたの後を追いかけます：王は私を彼の部屋に連れて行きました：私たちはあなたのことで喜び、喜びます、私たちはワインよりもあなたの愛を覚えています：正しい人はあなたを愛しています。\n4. ケダルの天幕のように、ソロモンのカーテンのように、エルサレムの娘たちよ、私は暗いですが、愛らしいです。\n5. 私の魂が愛するあなた、どこで群れに餌を与え、正午にどこで休ませているか教えてください。"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_2",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
+      "capituloNumero": 2,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
+      "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
+      "traducciones": {
+        "ja": "1. 私はシャロンのバラであり、スズランです。\n2. いばらの中の百合のように、娘たちの間の私の愛も同様です。\n3. 森の木々の中のリンゴの木のように、息子たちの中で私の愛する人もそうです。私は大喜びで彼の影の下に座りました、そして彼の果物は私の好みに甘かったです。\n4. 彼は私を宴会場に連れて行きました、そして私に対する彼の旗印は愛でした。\n5. 愛する人の声!見よ、彼は山を飛び越え、丘を飛び越えて来る。\n6. 私の愛する人が話し、私に言いました。「立ち上がって、私の愛する人、私の美しい人、そして立ち去ってください。」というのは、見よ、冬は過ぎ、雨は止み、去ったからである。花は地上に現れます。"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_3",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
+      "capituloNumero": 3,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
+      "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
+      "traducciones": {
+        "ja": "1. 夜、ベッドの上で、私は私の魂が愛する彼を探しました。私は彼を探しましたが、見つかりませんでした。\n2. 私は今立ち上がって、街路を歩き回り、広い道で私の魂が愛する彼を探します。私は彼を探しましたが、見つかりませんでした。\n3. 彼らと別れたのはほんの少しのことでしたが、私の魂が愛する彼を見つけました。私は彼を抱きしめ、母の家、そして私を妊娠した部屋に連れて行くまで彼を離しませんでした。\n4. 没薬と乳香の香りを漂わせ、商人の粉をすべて積んで、煙の柱のように荒野から出てくるこの人は誰ですか？"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_4",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
+      "capituloNumero": 4,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
+      "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
+      "traducciones": {
+        "ja": "1. 見よ、あなたは公正です、愛する人よ。見よ、あなたは公平だ。あなたは自分の髪の中に鳩の目を持っています。\n2. あなたは皆公平です、愛する人。あなたにはスポットがありません。\n3. 囲まれた庭園には私の妹、私の配偶者がいます。泉は閉まり、泉は封印される。\n4. あなたの植物は、心地よい果実が実るザクロの果樹園です。カンファイヤ、スパイクナード付き。\n5. 庭園の噴水、生きた水の井戸、そしてレバノンからの小川。\n6. 目覚めよ、北風よ。そして来てください、南へ。私の庭に息を吹きかけて、スパイスが流れ出るように。私の愛する人に彼の庭に来て、彼のおいしい果物を食べさせてください。"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_5",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
+      "capituloNumero": 5,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
+      "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
+      "traducciones": {
+        "ja": "1. 妹よ、配偶者よ、私は庭に来ています。私はミルラとスパイスを集めました。私は蜂の巣を蜂蜜と一緒に食べました。私はワインを牛乳と一緒に飲みました。\n2. 私は眠っていますが、私の心は目覚めています。ノックするのは私の愛する人の声です！\n3. 私の愛する人は白くて血色が良く、一万人の中で一番長です。\n4. 彼の頭は最高級の金のようで、髪の毛はふさふさしていて、カラスのように黒いです。\n5. 彼の目は、水の川のほとりにある鳩の目のように、牛乳で洗われ、しっかりと固まっています。\n6. 彼の口はとても優しいです。そう、彼はとても素敵です。これは私の愛する人であり、私の友人です、エルサレムの娘たちよ。"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_6",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
+      "capituloNumero": 6,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
+      "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
+      "traducciones": {
+        "ja": "1. あなたの最愛の人はどこへ行ったのですか、おお、女性の中で最も美しいあなたよ。あなたの最愛の人はどこに目を背けたのですか？私たちがあなたと一緒に彼を捜すことができるように。\n2. 私の愛する人は庭に行って、スパイスの床に行き、庭で餌を食べ、ユリを集めています。\n3. 私は私の最愛の人であり、私の最愛の人は私のものです：彼はユリの間で食事をします。\n4. 愛する人よ、あなたはティルザのように美しく、エルサレムのように美しく、旗を掲げた軍隊のように恐ろしいです。\n5. 朝のように前を向き、月のように美しく、太陽のように晴れ、そして旗を掲げた軍隊のように恐ろしい彼女は誰ですか？"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_7",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
+      "capituloNumero": 7,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
+      "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
+      "traducciones": {
+        "ja": "1. シュラム人よ、帰れ、帰れ。戻って、戻って、私たちがあなたを見てくれるように。シュラムでは何を見るでしょうか？まるで二軍の一団のようだった。\n2. 靴を履いたあなたの足はなんて美しいのでしょう、おお王子の娘よ！太ももの関節はまるで宝石のようで、狡猾な職人の手によるものです。\n3. 愛する人よ、あなたはなんと公平で、なんと楽しいことでしょう！\n4. あなたの身長はヤシの木に似ており、胸はブドウの房に似ています。\n5. 私は私の最愛の人であり、彼の欲望は私に向けられています。\n6. さあ、愛する人よ、野原に出かけましょう。村に泊まろう。早起きしてブドウ畑へ行きましょう。そこで私はあなたに私の愛を捧げます。"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_8",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
+      "capituloNumero": 8,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
+      "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
+      "traducciones": {
+        "ja": "1. 私をあなたの心に封印し、あなたの腕に封印してください。愛は死のように強いからです。嫉妬は墓のように残酷です。その炭は最も激しい炎を持つ火の炭です。\n2. 多くの水が愛を消すことはできませんし、洪水も愛を溺らすことはできません。もし人が愛のために家のすべての物質を差し出すとしたら、それは完全に非難されるでしょう。\n3. 私のぶどう畑は私のものであり、私の前にあります。ソロモンよ、あなたは千を持っていなければなりません、そしてその実を保つものは二百でなければなりません。\n4. 庭園に住むあなた、仲間たちはあなたの声を聞きます。私に聞かせてください。\n5. 急いでください、愛する人よ、あなたはスパイスの山にいる卵や若いハートのようになりなさい。"
+      }
+    }
+  ]
+}

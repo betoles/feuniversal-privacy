@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "libroKey": "dhammapada",
+    "titulo": "El Dhammapada Canónico (धम्मपद · Tipitaka)",
+    "totalCapitulos": 26,
+    "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "de",
+    "esquema": "modular_lazy_v4",
+    "dir": "ltr"
+  },
+  "capitulos": [
+    {
+      "id": "dhammapada_vagga_1",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 1: Yamakavagga (Los Versos Gemelos (La Mente y el Karma))",
+      "capituloNumero": 1,
+      "seccion": "Tipitaka · Khuddaka Nikaya · Los Versos Gemelos (La Mente y el Karma)",
+      "versiculoNumero": "1-1",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पदुट्ठेन भासति वा करोति वा। ततो नं दुक्खमन्वेति चक्कंव वहतो पदं॥ मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पसन्नेन भासति वा करोति वा। ततो नं सुखमन्वेति छायाव अनपायिनी॥",
+      "foneticaLiturgica": "Manopubbaṅgamā dhammā manoseṭṭhā manomayā | manasā ce paduṭṭhena bhāsati vā karoti vā...",
+      "traducciones": {
+        "de": "1. Der Geist geht allen Geisteszuständen voraus. Der Geist ist ihr oberstes Gebot; sie sind alle vom Geist geschaffen. Wenn ein Mensch mit einem unreinen Geist spricht oder handelt, folgt ihm Leid.\n2. Wenn ein Mensch mit reinem Geist spricht oder handelt, folgt ihm das Glück wie ein niemals verschwindender Schatten."
+      }
+    },
+    {
+      "id": "dhammapada_vagga_2",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 2: Appamadavagga (La Atención y la Consciencia Plena)",
+      "capituloNumero": 2,
+      "seccion": "Tipitaka · Khuddaka Nikaya · La Atención y la Consciencia Plena",
+      "versiculoNumero": "1-2",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "अप्पमादो अमतपदं पमादो मच्चुनो पदं। अप्पमत्ता न मीयन्ति ये पमत्ता यथा मता॥",
+      "foneticaLiturgica": "Appamādo amatapadaṁ pamādo maccuno padaṁ | appamattā na mīyanti ye pamattā yathā matā ||",
+      "traducciones": {
+        "de": "[\"21. „Achtsamkeit ist der Weg zum Unsterblichen; Achtlosigkeit ist der Weg zum Tod. Die Achtsamen sterben nicht; die Unvorsichtigen sind wie die Toten.'\""
+      }
+    },
+    {
+      "id": "dhammapada_vagga_3",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 3: Cittavagga (El Dominio y la Serenidad de la Mente)",
+      "capituloNumero": 3,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio y la Serenidad de la Mente",
+      "versiculoNumero": "1-3",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "फन्दनं चपलं चित्तं दुरक्खं दुन्निवारयं। उजुं करोति मेधावी उसुकारोव तेजनं॥",
+      "foneticaLiturgica": "Phandanaṁ capalaṁ cittaṁ durakkhaṁ dunnivārayaṁ | ujuṁ karoti medhāvī usukāro'va tejanaṁ ||",
+      "traducciones": {
+        "de": "33. „So wie ein Pfeilflieger einen Pfeil gerade richtet, so richtet der weise Mensch den unsicheren, wankelmütigen Geist auf, der schwer zu schützen und zu kontrollieren ist.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_4",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 4: Pupphavagga (Las Flores de la Sabiduría)",
+      "capituloNumero": 4,
+      "seccion": "Tipitaka · Khuddaka Nikaya · Las Flores de la Sabiduría",
+      "versiculoNumero": "1-4",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "यथापि रुचिरं पुप्फं वण्णवन्तं अगन्धकं। एवं सुभासिता वाचा अफला होती अकुब्बतो॥ यथापि रुचिरं पुप्फं वण्णवन्तं सगन्धकं। एवं सुभासिता वाचा सफला होती सुकुब्बतो॥",
+      "foneticaLiturgica": "Yathāpi ruciraṁ pupphaṁ vaṇṇavantaṁ agandhakaṁ...",
+      "traducciones": {
+        "de": "51. „Wie eine schöne Blume voller Farben, aber ohne Duft, so sind die schönen Worte dessen, der sie nicht praktiziert, fruchtlos.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_5",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 5: Balavagga (El Necio y el Apego)",
+      "capituloNumero": 5,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Necio y el Apego",
+      "versiculoNumero": "1-5",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "दीघा जागरतो रत्ति दीघं सन्तस्स योजनं। दीघो बालानं संसारो सद्धम्मं अविजानतं॥",
+      "foneticaLiturgica": "Dīghā jāgarato ratti dīghaṁ santassa yojanaṁ...",
+      "traducciones": {
+        "de": "[\"60. „Lang ist die Nacht für die Schlaflosen; lang ist die Liga für den müden Reisenden; Lang ist der Kreislauf der Wiedergeburten für die Dummen, die die erhabene Wahrheit nicht kennen.'\""
+      }
+    },
+    {
+      "id": "dhammapada_vagga_6",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 6: Panditavagga (El Hombre Sabio e Iluminado)",
+      "capituloNumero": 6,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Sabio e Iluminado",
+      "versiculoNumero": "1-6",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "सेलो यथा एकघनो वातेन न समीरति। एवं निन्दापसंसासु न सम्मिञ्जन्ति पण्डिता॥",
+      "foneticaLiturgica": "Selo yathā ekaghano vātena na samīrati | evaṁ nindā-pasaṁsāsu na sammiñjanti paṇḍitā ||",
+      "traducciones": {
+        "de": "81. „Wie ein fester Fels nicht vom Wind erschüttert wird, so lassen sich die Weisen weder durch Lob noch durch Tadel bewegen.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_7",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 7: Arahantavagga (El Santo que Alcanzó la Paz Suprema)",
+      "capituloNumero": 7,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Santo que Alcanzó la Paz Suprema",
+      "versiculoNumero": "1-7",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "गताद्धिनो विसोकस्स विप्पमुत्तस्स सब्बधि। सब्बगन्थप्पहीनस्स परिळाहो न विज्जति॥",
+      "foneticaLiturgica": "Gataddhino visokassa vippamuttassa sabbadhi...",
+      "traducciones": {
+        "de": "90. „Für den, der die Reise vollendet hat, der frei von Kummer ist, in jeder Hinsicht befreit und der alle Bindungen zerstört hat, existiert das Fieber der Leidenschaft nicht mehr.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_8",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 8: Sahassavagga (El Valor de los Mil Pasajes y la Paz Interior)",
+      "capituloNumero": 8,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Valor de los Mil Pasajes y la Paz Interior",
+      "versiculoNumero": "1-8",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "सहस्समपि चे वाचा अनत्थपदसंहिता। एकं अत्थपदं सेय्यो यं सुत्वा उपसम्मति॥",
+      "foneticaLiturgica": "Sahassam api ce vācā anattha-pada-saṁhitā | ekaṁ attha-padaṁ seyyo yaṁ sutvā upasammati ||",
+      "traducciones": {
+        "de": "100. „Besser als tausend nutzlose Worte ist ein einziges bedeutungsvolles Wort, wenn man es hört, findet man Frieden.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_9",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 9: Papavagga (El Mal y la Protección de la Virtud)",
+      "capituloNumero": 9,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Mal y la Protección de la Virtud",
+      "versiculoNumero": "1-9",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "अभिथरेथ कल्याणे पापा चित्तं निवारये। दन्धं हि करोतो पुञ्ञं पापिस्मिं रमती मनो॥",
+      "foneticaLiturgica": "Abhittharetha kalyāṇe pāpā cittaṁ nivāraye...",
+      "traducciones": {
+        "de": "116. „Beeile dich, Gutes zu tun; Bewahre deinen Geist vor dem Bösen. Wenn man das Gute nur langsam tut, findet der Geist Freude am Bösen."
+      }
+    },
+    {
+      "id": "dhammapada_vagga_10",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 10: Dandavagga (La Compasión y la No-Violencia hacia Todos los Seres)",
+      "capituloNumero": 10,
+      "seccion": "Tipitaka · Khuddaka Nikaya · La Compasión y la No-Violencia hacia Todos los Seres",
+      "versiculoNumero": "1-10",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "सब्बे तसन्ति दण्डस्स सब्बे भायन्ति मच्चुनो। अत्तानं उपमं कत्वा न हनेय्य न घातये॥",
+      "foneticaLiturgica": "Sabbe tasanti daṇḍassa sabbe bhāyanti maccuno | attānaṁ upamaṁ katvā na haneyya na ghātaye ||",
+      "traducciones": {
+        "de": "129. „Alle zittern vor Gewalt; alle fürchten den Tod. Man sollte sich nicht in die Lage eines anderen versetzen, weder töten noch einen anderen zum Töten veranlassen.‘"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_11",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 11: Jaravagga (La Vejez y la Transitoriedad de la Vida)",
+      "capituloNumero": 11,
+      "seccion": "Tipitaka · Khuddaka Nikaya · La Vejez y la Transitoriedad de la Vida",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "को नु हासो किमानन्दो निच्चं पज्जलितो सति। अन्धकारेन ओनद्धा पदीपं न गवेस्सथ॥",
+      "foneticaLiturgica": "Ko nu hāso kim ānando niccaṁ pajjalite sati...",
+      "traducciones": {
+        "de": "[\"146. „Warum gibt es Lachen, warum gibt es Freude, wenn die Welt für immer brennt?“ Willst du, eingehüllt in die Dunkelheit, nicht nach einem Licht suchen?'\""
+      }
+    },
+    {
+      "id": "dhammapada_vagga_12",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 12: Attavagga (El Sí Mismo y la Autorrealización)",
+      "capituloNumero": 12,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Sí Mismo y la Autorrealización",
+      "versiculoNumero": "1-12",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "अत्ता हि अत्तनो नाथो को हि नाथो परो सिया। अत्तना हि सुदन्तेन नाथं लभति दुल्लभं॥",
+      "foneticaLiturgica": "Attā hi attano nātho ko hi nātho paro siyā | attanā hi sudantena nāthaṁ labhati dullabhaṁ ||",
+      "traducciones": {
+        "de": "160. „Man ist wirklich der Beschützer seiner selbst; Wer sonst könnte der Beschützer sein? „Wenn man sich selbst vollständig kontrolliert, erlangt man eine Meisterschaft, die schwer zu finden ist.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_13",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 13: Lokavagga (El Mundo y el Despertar de la Ilusión)",
+      "capituloNumero": 13,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Mundo y el Despertar de la Ilusión",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "यथा बुब्बुळकं पस्से यथा पस्से मरीचिकं। एवं लोकं अवेक्खन्तं मच्चुराजा न पस्सति॥",
+      "foneticaLiturgica": "Yathā bubbuḷakaṁ passe yathā passe marīcikaṁ...",
+      "traducciones": {
+        "de": "170. „Betrachten Sie die Welt als eine Blase, betrachten Sie sie als eine Fata Morgana.“ Der König des Todes sieht den nicht, der so auf die Welt herabblickt."
+      }
+    },
+    {
+      "id": "dhammapada_vagga_14",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 14: Buddhavagga (El Iluminado y el Cese del Sufrimiento)",
+      "capituloNumero": 14,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Iluminado y el Cese del Sufrimiento",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "सब्बपापस्स अकरणं कुसलस्स उपसम्पदा। सचित्तपरियोदपनं एतं बुद्धान सासनं॥",
+      "foneticaLiturgica": "Sabbapāpassa akaraṇaṁ kusalassa upasampadā | sacittapariyodapanaṁ etaṁ buddhāna sāsanaṁ ||",
+      "traducciones": {
+        "de": "183. „Alles Böse meiden, das Gute kultivieren und den Geist reinigen – das ist die Lehre der Buddhas.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_15",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 15: Sukhavagga (La Verdadera Dicha y Felicidad Interior)",
+      "capituloNumero": 15,
+      "seccion": "Tipitaka · Khuddaka Nikaya · La Verdadera Dicha y Felicidad Interior",
+      "versiculoNumero": "1-15",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "सुसुखं वत जीवाम वेरिनेसु अवेरिनो। वेरिनेसु मनुस्सेसु विहराम अवेरिनो॥ जयं वेरं पसवति दुक्खं सेति पराजितो। उपसन्तो सुखं सेति हित्वा जयपराजयं॥",
+      "foneticaLiturgica": "Susukhaṁ vata jīvāma verinesu averino...",
+      "traducciones": {
+        "de": "197. „Glücklich leben wir in der Tat, freundlich inmitten der Feindseligkeit.“\n201. „Der Sieg erzeugt Hass.“ Die Besiegten leben im Schmerz. „Glücklich leben die Friedlichen und geben Sieg und Niederlage auf.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_16",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 16: Piyavagga (El Afecto Apego y la Libertad Emocional)",
+      "capituloNumero": 16,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Afecto Apego y la Libertad Emocional",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "पियतो जायती सोको पियतो जायती भयं। पियतो विप्पमुत्तस्स नत्थि सोको कुतो भयं॥",
+      "foneticaLiturgica": "Piyato jāyatī soko piyato jāyatī bhayaṁ...",
+      "traducciones": {
+        "de": "212. „Aus Zärtlichkeit entsteht Trauer, aus Zärtlichkeit entsteht Angst.“ Für den, der völlig frei von Zärtlichkeiten ist, gibt es keinen Kummer, woher kommt die Angst?‘"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_17",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 17: Kodhavagga (El Dominio de la Ira y el Amor Incondicional)",
+      "capituloNumero": 17,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio de la Ira y el Amor Incondicional",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "अक्कोधेन जिने कोधं असाधुं साधुना जिने। जिने कदरियं दानेन सच्चेन अलिकवादिनं॥",
+      "foneticaLiturgica": "Akkodhena jine kodhaṁ asādhuṁ sādhunā jine | jine kadariyaṁ dānena saccena alikavādinaṁ ||",
+      "traducciones": {
+        "de": "223. „Besiege die Wut mit der Nicht-Wut.“ Besiege das Böse mit dem Guten. Überwinde Gemeinheit mit Großzügigkeit. Überwinde Unehrlichkeit mit Wahrheit.‘"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_18",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 18: Malavagga (La Pureza y la Eliminación de las Impurezas)",
+      "capituloNumero": 18,
+      "seccion": "Tipitaka · Khuddaka Nikaya · La Pureza y la Eliminación de las Impurezas",
+      "versiculoNumero": "1-18",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "अनुपुब्बेन मेधावी थोकथोकं खणे खणे। कम्मclassो रजतस्सेव निद्धमे मलमत्तनो॥",
+      "foneticaLiturgica": "Anupubbena medhāvī thoka-thokaṁ khaṇe khaṇe...",
+      "traducciones": {
+        "de": "239. „Nach und nach, nach und nach, von Zeit zu Zeit, sollte ein weiser Mensch seine eigenen Unreinheiten entfernen, so wie ein Schmied die Schlacke von Silber entfernt.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_19",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 19: Dhammatthavagga (El Justo y el Establecido en el Dharma)",
+      "capituloNumero": 19,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Justo y el Establecido en el Dharma",
+      "versiculoNumero": "1-19",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "न तेन होति धम्मट्ठो येनत्थं सहसा नये। यो च अत्थं अनत्थं च उभो निच्छेय्य पण्डितो॥",
+      "foneticaLiturgica": "Na tena hoti dhammattho yen'atthaṁ sahasā naye...",
+      "traducciones": {
+        "de": "[\"256. „Ein Mensch ist nicht gerecht, wenn er einen Fall willkürlich entscheidet.“ Aber wer sowohl richtig als auch falsch beurteilt, ist wirklich weise.'\""
+      }
+    },
+    {
+      "id": "dhammapada_vagga_20",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 20: Maggavagga (El Noble Óctuple Sendero)",
+      "capituloNumero": 20,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Noble Óctuple Sendero",
+      "versiculoNumero": "1-20",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "मग्गानट्ठङ्गिको सेट्ठो सच्चानं चतुरो पदा। विरागो सेट्ठो धम्मानं द्विपदानं च चक्खुमा॥",
+      "foneticaLiturgica": "Maggānaṭṭhaṅgiko seṭṭho saccānaṁ caturo padā...",
+      "traducciones": {
+        "de": "[\"273. „Von allen Pfaden ist der Achtfache der beste; der Wahrheiten, die vier Sprüche; der Tugenden, Freiheit von Anhaftung; und der Menschen, derjenige, der Augen hat, um zu sehen.'\""
+      }
+    },
+    {
+      "id": "dhammapada_vagga_21",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 21: Pakinnakavagga (Versos Misceláneos de la Sabiduría)",
+      "capituloNumero": 21,
+      "seccion": "Tipitaka · Khuddaka Nikaya · Versos Misceláneos de la Sabiduría",
+      "versiculoNumero": "1-21",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "मत्तासुखपरिच्चागा पस्से चे विपुलं सुखं। चजे मत्तासुखं धीरो सम्पस्सं विपुलं सुखं॥",
+      "foneticaLiturgica": "Mattāsukha-pariccāgā passe ce vipulaṁ sukhaṁ...",
+      "traducciones": {
+        "de": "290. „Wenn man durch den Verzicht auf ein geringeres Glück ein größeres erblicken kann, soll der weise Mensch auf das geringere verzichten und dabei das größere berücksichtigen.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_22",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 22: Nirayavagga (La Consecuencia de las Acciones Dañinas)",
+      "capituloNumero": 22,
+      "seccion": "Tipitaka · Khuddaka Nikaya · La Consecuencia de las Acciones Dañinas",
+      "versiculoNumero": "1-22",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "अभूतवादी निरयं उपेति यो वापि कत्वा न करोमीति चाह। उभोपि ते पेच्च समा भवन्ति निहीनकम्मा मनुजा परत्थ॥",
+      "foneticaLiturgica": "Abhūtavādī nirayaṁ upeti...",
+      "traducciones": {
+        "de": "306. „Der Sprecher der Unwahrheit gerät in einen Zustand des Kummers, ebenso wie derjenige, der, nachdem er eine Tat begangen hat, sagt: ‚Ich habe sie nicht getan‘.“"
+      }
+    },
+    {
+      "id": "dhammapada_vagga_23",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 23: Nagavagga (La Fortaleza y Nobleza del Elefante)",
+      "capituloNumero": 23,
+      "seccion": "Tipitaka · Khuddaka Nikaya · La Fortaleza y Nobleza del Elefante",
+      "versiculoNumero": "1-23",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "अहं नागोवा सङ्गामे चापातो पतितं सरं। अतिवाक्यं तितिक्खिस्सं दुस्सclassो हि बहुज्जनो॥",
+      "foneticaLiturgica": "Ahaṁ nāgo'va saṅgāme cāpāto patitaṁ saraṁ...",
+      "traducciones": {
+        "de": "[\"320. „Ich werde Misshandlungen ertragen, wie ein Elefant im Kampf Pfeile erträgt, die mit einem Bogen abgeschossen werden; denn die Welt ist voller unkontrollierter Menschen.'\""
+      }
+    },
+    {
+      "id": "dhammapada_vagga_24",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 24: Tanhavagga (El Deseo Ávido y el Origen de la Sed)",
+      "capituloNumero": 24,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Deseo Ávido y el Origen de la Sed",
+      "versiculoNumero": "1-24",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "मनुजस्स पमत्तचारिनो तण्हा वड्ढति मालुवा विय। सो पलवति हुरा हुरं फलं इच्छं व वनस्मि मक्कclassो॥",
+      "foneticaLiturgica": "Manujassa pamattacārino taṇhā vaḍḍhati māluvā viya...",
+      "traducciones": {
+        "de": "334. „Das Verlangen eines Menschen, der rücksichtslos lebt, wächst wie eine Ranke. Er springt von Leben zu Leben wie ein Affe im Wald auf der Suche nach Früchten."
+      }
+    },
+    {
+      "id": "dhammapada_vagga_25",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 25: Bhikkhuvagga (El Monje y el Buscador de la Verdad)",
+      "capituloNumero": 25,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Monje y el Buscador de la Verdad",
+      "versiculoNumero": "1-25",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "चक्खुना संवरो साधु साधु सोतेन संवरो। घानेन संवरो साधु साधु जिव्हाय संवरो॥ कायेन संवरो साधु साधु वाचाय संवरो। मनसा संवरो साधु साधु सब्बत्थ संवरो॥",
+      "foneticaLiturgica": "Cakkhunā saṁvaro sādhu sādhu sotena saṁvaro...",
+      "traducciones": {
+        "de": "[\"360. „Gut ist Zurückhaltung gegenüber dem Auge; gut ist Zurückhaltung über dem Ohr; gut ist Zurückhaltung gegenüber der Nase; gut ist die Zurückhaltung der Zunge.‘\n361. „Gut ist Zurückhaltung im Körper; gut ist Zurückhaltung im Reden; Gut ist Zurückhaltung im Denken. Der in jeder Hinsicht zurückgehaltene Mönch ist von allem Leiden befreit.'\""
+      }
+    },
+    {
+      "id": "dhammapada_vagga_26",
+      "tradicion": "budismo",
+      "libro": "El Dhammapada (Palabras de Sabiduría)",
+      "libroKey": "dhammapada",
+      "capitulo": "Capítulo 26: Brahmanavagga (El Hombre Santo y el Iluminado de Corazón Puro)",
+      "capituloNumero": 26,
+      "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Santo y el Iluminado de Corazón Puro",
+      "versiculoNumero": "1-26",
+      "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
+      "dir": "ltr",
+      "textoOriginal": "छिन्न सोतं परक्कम्म कामे पनुद ब्राह्मण। सङ्खारानं खयं ञत्वा अकतञ्ञू सि ब्राह्मण॥ यस्स पारं अपारं वा पारापारं न विज्जति। वीतद्दरं विसंयुत्तं तमहं ब्रूमि ब्राह्मणं॥",
+      "foneticaLiturgica": "Chinda sotaṁ parakkamma kāme panuda brāhmaṇa...",
+      "traducciones": {
+        "de": "[\"383. „O Sucher, strenge dich an und unterbreche den Strom der Wünsche!“ Sei jemand, der die Zerstörung bedingter Dinge kennt und das Unerschaffene kennt.'\n385. „Den, für den es weder dieses noch das andere Ufer gibt, der furchtlos und distanziert ist – den nenne ich einen Heiligen.“\""
+      }
+    }
+  ]
+}

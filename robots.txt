@@ -1,0 +1,52 @@
+# FeUniversal - Robots.txt para Rastreo e Indexacion Global Multi-Motor
+# Permite a los motores de busqueda de todos los continentes rastrear el ecosistema espiritual
+
+User-agent: *
+Allow: /
+
+# Googlebot (Americas, Europa, Asia, Global)
+User-agent: Googlebot
+Allow: /
+
+# Bingbot & MSN (Microsoft)
+User-agent: Bingbot
+Allow: /
+
+# Baiduspider (China y Asia Oriental)
+User-agent: Baiduspider
+Allow: /
+
+# YandexBot (Rusia, Eurasia y Europa del Este)
+User-agent: YandexBot
+Allow: /
+
+# Applebot (Siri, Safari, Spotlight e iOS)
+User-agent: Applebot
+Allow: /
+
+# DuckDuckBot (Privacidad Global)
+User-agent: DuckDuckBot
+Allow: /
+
+# Yeti / Naver (Corea del Sur)
+User-agent: Yeti
+Allow: /
+
+# SeznamBot (Europa Central)
+User-agent: SeznamBot
+Allow: /
+
+# Qwantify (Europa)
+User-agent: Qwantify
+Allow: /
+
+# PetalBot (Huawei / Africa / Asia / Medio Oriente)
+User-agent: PetalBot
+Allow: /
+
+# Sogou Spider (Asia Oriental)
+User-agent: Sogou spider
+Allow: /
+
+# Ubicacion Oficial del Mapa de Sitio XML
+Sitemap: https://feuniversal.app/sitemap.xml

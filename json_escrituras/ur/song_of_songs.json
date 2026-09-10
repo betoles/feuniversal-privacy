@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "libroKey": "song_of_songs",
+    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "totalCapitulos": 8,
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idioma": "ur",
+    "esquema": "modular_lazy_v4",
+    "dir": "rtl"
+  },
+  "capitulos": [
+    {
+      "id": "song_of_songs_chapter_1",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
+      "capituloNumero": 1,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
+      "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
+      "traducciones": {
+        "ur": "1. اسے اپنے منہ کے بوسوں سے مجھے چومنے دو: کیونکہ تیری محبت شراب سے بہتر ہے۔\n2. تیرے اچھے مرہم کی خوشبو کے سبب سے تیرا نام ڈالا گیا مرہم ہے، اِس لیے کنواریاں تجھ سے محبت کرتی ہیں۔\n3. مجھے کھینچو، ہم آپ کے پیچھے بھاگیں گے: بادشاہ مجھے اپنے حجروں میں لے آیا ہے: ہم آپ سے خوش اور خوش ہوں گے، ہم آپ کی محبت کو شراب سے زیادہ یاد رکھیں گے: راست باز آپ سے محبت کرتے ہیں۔\n4. میں تاریک ہوں، لیکن پیاری ہوں، اے یروشلم کی بیٹیو، کیدار کے خیموں کی طرح، سلیمان کے پردے کی طرح۔\n5. مجھے بتاؤ، جس سے میری جان پیار کرتی ہے، جہاں تم اپنے ریوڑ کو چراتے ہو، کہاں دوپہر کے وقت اسے آرام دیتے ہو۔"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_2",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
+      "capituloNumero": 2,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-17",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
+      "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
+      "traducciones": {
+        "ur": "1. میں شیرون کا گلاب ہوں، اور وادیوں کا کنول ہوں۔\n2. جیسے کانٹوں کے درمیان کنول ہے، اسی طرح بیٹیوں میں میری محبت ہے۔\n3. جس طرح سیب کا درخت لکڑی کے درختوں میں ہے، اسی طرح میرا پیارا بیٹوں میں ہے۔ میں بڑی خوشی سے اس کے سائے میں بیٹھ گیا، اور اس کا پھل میرے ذائقے میں میٹھا تھا۔\n4. وہ مجھے ضیافت کے گھر لے آیا، اور اس کا جھنڈا مجھ پر محبت کا تھا۔\n5. میرے محبوب کی آواز! دیکھو، وہ پہاڑوں پر چھلانگ لگاتا، پہاڑیوں پر اچھالتا ہوا آتا ہے۔\n6. میرے محبوب نے بات کی، اور مجھ سے کہا، میرے پیارے، میرے پیارے، اٹھ اور چلی آ۔ کیونکہ، دیکھو، سردیاں گزر چکی ہیں، بارش ختم ہو چکی ہے اور ختم ہو چکی ہے۔ زمین پر پھول نمودار ہوتے ہیں۔"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_3",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
+      "capituloNumero": 3,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-11",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
+      "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
+      "traducciones": {
+        "ur": "1. رات کو اپنے بستر پر میں نے اسے ڈھونڈا جس سے میری جان پیاری ہے: میں نے اسے ڈھونڈا، لیکن مجھے وہ نہیں ملا۔\n2. میں اب اٹھوں گا، اور گلیوں میں شہر میں گھوموں گا، اور وسیع راستوں میں اسے ڈھونڈوں گا جس سے میری جان پیاری ہے: میں نے اسے ڈھونڈا، لیکن مجھے وہ نہیں ملا۔\n3. یہ تھوڑا ہی تھا کہ میں ان کے پاس سے گزرا، لیکن میں نے اسے پایا جس سے میری جان پیار کرتی ہے: میں نے اسے پکڑ لیا، اور اسے جانے نہیں دیا، جب تک کہ میں اسے اپنی ماں کے گھر اور اس کے حجرے میں نہ لاؤں جس نے مجھے حاملہ کیا تھا۔\n4. یہ کون ہے جو بیابان سے دھوئیں کے ستونوں کی مانند نکلتا ہے، جو مُر اور لوبان سے معطر ہو اور سوداگر کے تمام پاؤڈروں کے ساتھ؟"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_4",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
+      "capituloNumero": 4,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
+      "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
+      "traducciones": {
+        "ur": "1. دیکھو، تم منصف ہو، میری محبت؛ دیکھو تم انصاف پسند ہو۔ آپ کے تالے میں کبوتر کی آنکھیں ہیں۔\n2. تم سب منصف ہو، میری محبت؛ تم میں کوئی جگہ نہیں ہے.\n3. ایک منسلک باغ میری بہن، میری شریک حیات ہے۔ ایک چشمہ بند، ایک چشمہ بند۔\n4. آپ کے پودے انار کے باغ ہیں جن میں خوشگوار پھل ہیں۔ کیمپائر، اسپیکنارڈ کے ساتھ؛\n5. باغات کا چشمہ، زندہ پانیوں کا ایک کنواں، اور لبنان سے آنے والی ندیاں۔\n6. جاگو، اے شمالی ہوا! اور آؤ اے جنوب۔ میرے باغ پر پھونک مارو، تاکہ اس کے مسالے بہہ جائیں۔ میرے محبوب کو اپنے باغ میں آنے دو، اور اس کے خوشگوار پھل کھائیں۔"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_5",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
+      "capituloNumero": 5,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-16",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
+      "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
+      "traducciones": {
+        "ur": "1. میں اپنے باغ میں آیا ہوں، میری بہن، میری شریک حیات: میں نے اپنے مسالے کے ساتھ مرر جمع کیا ہے۔ میں نے اپنے شہد کے چھتے کو اپنے شہد کے ساتھ کھایا ہے۔ میں نے اپنی شراب اپنے دودھ کے ساتھ پی لی ہے۔\n2. میں سوتا ہوں، لیکن میرا دل جاگتا ہے: یہ میرے محبوب کی آواز ہے جو دستک دیتی ہے!\n3. میرا محبوب سفید اور سرخ ہے، دس ہزار میں سب سے بڑا ہے۔\n4. اس کا سر انتہائی باریک سونے جیسا ہے، اس کے تالے جھاڑیوں کی طرح اور کوے کی طرح کالے ہیں۔\n5. اُس کی آنکھیں پانی کی ندیوں کے کنارے کبوتر کی آنکھیں ہیں، جو دودھ سے دھوئی ہوئی اور ٹھیک ٹھاک ہیں۔\n6. اس کا منہ سب سے پیارا ہے: ہاں، وہ مکمل طور پر پیارا ہے۔ اے یروشلم کی بیٹیو، یہ میرا محبوب ہے، اور یہ میرا دوست ہے۔"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_6",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
+      "capituloNumero": 6,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
+      "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
+      "traducciones": {
+        "ur": "1. اے عورتوں میں سب سے حسین، تیری محبوبہ کہاں گئی؟ تیرا محبوب کدھر گیا ہے تاکہ ہم اسے تمہارے ساتھ ڈھونڈیں۔\n2. میرا محبوب اپنے باغ میں، مسالوں کے بستروں پر، باغوں میں کھانا کھلانے اور کنول جمع کرنے گیا ہے۔\n3. میں اپنے محبوب کا ہوں، اور میرا محبوب میرا ہے: وہ کنول کے درمیان چراتا ہے۔\n4. اے میرے پیارے، تُرزا کی طرح خوبصورت، یروشلم کی طرح خوبصورت، جھنڈے والی فوج کی طرح خوفناک۔\n5. وہ کون ہے جو صبح کی طرح، چاند کی طرح صاف، سورج کی طرح صاف، اور جھنڈوں والی فوج کی طرح خوفناک نظر آتی ہے؟"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_7",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
+      "capituloNumero": 7,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-13",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
+      "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
+      "traducciones": {
+        "ur": "1. واپس آ، واپس آ، اے شولامی۔ لوٹ جاؤ، لوٹ جاؤ، تاکہ ہم تمہیں دیکھ سکیں۔ تم شولمائٹ میں کیا دیکھیں گے؟ جیسا کہ یہ دو لشکروں کی کمپنی تھی۔\n2. تیرے پاؤں جوتوں سے کتنے خوبصورت ہیں، اے شہزادے کی بیٹی! تیری رانوں کے جوڑ جواہرات کی مانند ہیں، ایک چالاک کاریگر کے ہاتھ کا کام۔\n3. اے محبت، تم کتنی منصفانہ اور کتنی خوشگوار ہو!\n4. یہ تمہارا قد کھجور کے درخت جیسا ہے، اور تمہاری چھاتیاں انگوروں کے جھرمٹ کی طرح ہیں۔\n5. میں اپنے محبوب کا ہوں، اور اس کی خواہش میری طرف ہے۔\n6. میرے پیارے آؤ، ہم میدان میں نکلیں۔ ہمیں گاؤں میں رہنے دو۔ آؤ ہم صبح سویرے انگور کے باغوں میں جائیں۔ وہاں میں تمہیں اپنی محبت دوں گا۔"
+      }
+    },
+    {
+      "id": "song_of_songs_chapter_8",
+      "tradicion": "hebreo_salmos",
+      "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+      "libroKey": "song_of_songs",
+      "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
+      "capituloNumero": 8,
+      "seccion": "Ketuvim · Shir HaShirim",
+      "versiculoNumero": "1-14",
+      "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+      "dir": "rtl",
+      "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
+      "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
+      "traducciones": {
+        "ur": "1. مجھے اپنے دل پر مہر کے طور پر، اپنے بازو پر مہر کے طور پر مقرر کرو: محبت موت کی طرح مضبوط ہے۔ حسد قبر کی طرح ظالمانہ ہے: اس کے کوئلے آگ کے کوئلے ہیں، جس میں سب سے زیادہ شدید شعلہ ہے۔\n2. بہت سے پانی محبت کو بجھ نہیں سکتے، نہ سیلاب اسے ڈبو سکتے ہیں: اگر کوئی شخص اپنے گھر کا سارا مال محبت کے لیے دے دے تو اس کی سراسر توہین ہوگی۔\n3. میرا انگور کا باغ جو میرا ہے میرے سامنے ہے: اے سلیمان، تیرے پاس ایک ہزار اور اس کے پھل رکھنے والوں کے پاس دو سو ضرور ہیں۔\n4. آپ جو باغوں میں رہتے ہیں، ساتھی آپ کی آواز سنتے ہیں: مجھے اس کی آواز سنائیں۔\n5. جلدی کرو، میرے پیارے، اور تم مسالوں کے پہاڑوں پر ہرن یا جوان ہرن کی طرح بن جاؤ۔"
+      }
+    }
+  ]
+}
