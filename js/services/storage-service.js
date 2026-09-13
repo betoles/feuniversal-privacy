@@ -33,7 +33,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '太阳金',
       la: 'Aurum Solare',
       ja: 'ソーラーゴールド',
-      bn: 'সৌর স্বর্ণ'
+      bn: 'সৌর স্বর্ণ',
+      id: "Emas Surya",
+      ur: "شمسی سونا",
+      sw: "Dhahabu ya Jua"
     },
     mes: {
       es: 'Enero',
@@ -49,7 +52,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '一月',
       la: 'Ianuarius',
       ja: '1月',
-      bn: 'জানুয়ারি'
+      bn: 'জানুয়ারি',
+      id: "Januari",
+      ur: "جنوری",
+      sw: "Januari"
     },
     meaning: {
       es: 'Sabiduría, luz divina, apertura de caminos y prosperidad',
@@ -65,7 +71,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '智慧、神圣之光、开辟道路与繁荣',
       la: 'Sapientia, lux divina, viarum apertura et prosperitas',
       ja: '知恵、神聖な光、道の開拓と繁栄',
-      bn: 'জ্ঞান, ঐশ্বরিক আলো, পথ উন্মোচন এবং সমৃদ্ধি'
+      bn: 'জ্ঞান, ঐশ্বরিক আলো, পথ উন্মোচন এবং সমৃদ্ধি',
+      id: "Kebijaksanaan, cahaya ilahi, pembuka jalan, dan kemakmuran",
+      ur: "حکمت، الٰہی نور، راستے کھولنا اور خوشحالی",
+      sw: "Hekima, nuru ya kiungu, kufungua njia na ufanisi"
     }
   },
   {
@@ -87,7 +96,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '纯洁白',
       la: 'Candidus Purus',
       ja: '純白',
-      bn: 'বিশুদ্ধ সাদা'
+      bn: 'বিশুদ্ধ সাদা',
+      id: "Putih Murni",
+      ur: "خالص سفید",
+      sw: "Nyeupe Safi"
     },
     mes: {
       es: 'Febrero',
@@ -103,7 +115,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '二月',
       la: 'Februarius',
       ja: '2月',
-      bn: 'ফেব্রুয়ারি'
+      bn: 'ফেব্রুয়ারি',
+      id: "Februari",
+      ur: "فروری",
+      sw: "Februari"
     },
     meaning: {
       es: 'Paz interior, purificación, bendición y salud',
@@ -119,7 +134,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '内心安宁、净化、祝福与安康',
       la: 'Pax interior, purificatio, benedictio et salus',
       ja: '内なる平和、浄化、祝福、健康',
-      bn: 'অন্তরের শান্তি, পবিত্রতা, আশীর্বাদ এবং স্বাস্থ্য'
+      bn: 'অন্তরের শান্তি, পবিত্রতা, আশীর্বাদ এবং স্বাস্থ্য',
+      id: "Kedamaian batin, penyucian, berkat, dan kesehatan",
+      ur: "اندرونی سکون، پاکیزگی، برکت اور صحت",
+      sw: "Amani ya ndani, utakaso, baraka na afya njema"
     }
   },
   {
@@ -141,7 +159,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '深绯红',
       la: 'Ruber Coccineus',
       ja: '深紅',
-      bn: 'উজ্জ্বল লাল'
+      bn: 'উজ্জ্বল লাল',
+      id: "Merah Kirmizi",
+      ur: "سرخ قرمزی",
+      sw: "Nyekundu ya Damu"
     },
     mes: {
       es: 'Marzo',
@@ -157,7 +178,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '三月',
       la: 'Martius',
       ja: '3月',
-      bn: 'মার্চ'
+      bn: 'মার্চ',
+      id: "Maret",
+      ur: "مارچ",
+      sw: "Machi"
     },
     meaning: {
       es: 'Fortaleza espiritual, coraje, pasión redentora y causas urgentes',
@@ -173,7 +197,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '灵性力量、勇气、救赎热情与紧要祈求',
       la: 'Fortitudo spiritualis, animus et causae urgentes',
       ja: '精神の強さ、勇気、救いの情熱、緊急の願い',
-      bn: 'আধ্যাত্মিক শক্তি, সাহস, মুক্তি এবং জরুরি প্রার্থনা'
+      bn: 'আধ্যাত্মিক শক্তি, সাহস, মুক্তি এবং জরুরি প্রার্থনা',
+      id: "Kekuatan spiritual, perlindungan dari kesulitan, keberanian, dan kemenangan",
+      ur: "روحانی طاقت، مصیبتوں سے حفاظت، ہمت اور فتح",
+      sw: "Nguvu za kiroho, ulinzi dhidi ya dhiki, ujasiri na ushindi"
     }
   },
   {
@@ -195,7 +222,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '琥珀橙',
       la: 'Aurantius Electrinus',
       ja: '琥珀オレンジ',
-      bn: 'অ্যাম্বার কমলা'
+      bn: 'অ্যাম্বার কমলা',
+      id: "Oranye Amber",
+      ur: "عنبر نارنجی",
+      sw: "Machungwa Kahawia"
     },
     mes: {
       es: 'Abril',
@@ -211,7 +241,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '四月',
       la: 'Aprilis',
       ja: '4月',
-      bn: 'এপ্রিল'
+      bn: 'এপ্রিল',
+      id: "April",
+      ur: "اپریل",
+      sw: "Aprili"
     },
     meaning: {
       es: 'Alegría, vitalidad, éxito en negocios y entusiasmo',
@@ -227,7 +260,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '喜乐、生机、事业成功与热情',
       la: 'Gaudium, vitalitas, successus et alacritas',
       ja: '喜び、活力、仕事の成功、情熱',
-      bn: 'আনন্দ, প্রাণশক্তি, সাফল্যে কর্মোদ্যম এবং উৎসাহ'
+      bn: 'আনন্দ, প্রাণশক্তি, সাফল্যে কর্মোদ্যম এবং উৎসাহ',
+      id: "Vitalitas, sukacita sakral, kreativitas, dan harmoni keluarga",
+      ur: "توانائی، مقدس خوشی، تخلیقی صلاحیت اور خاندانی ہم آہنگی",
+      sw: "Uhuru wa uhai, furaha takatifu, ubunifu na amani ya familia"
     }
   },
   {
@@ -249,7 +285,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '天蓝色',
       la: 'Caeruleus Caelestis',
       ja: '天上の青',
-      bn: 'স্বর্গীয় নীল'
+      bn: 'স্বর্গীয় নীল',
+      id: "Biru Langit",
+      ur: "آسمانی نیلا",
+      sw: "Bluu ya Mbingu"
     },
     mes: {
       es: 'Mayo',
@@ -265,7 +304,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '五月',
       la: 'Maius',
       ja: '5月',
-      bn: 'মে'
+      bn: 'মে',
+      id: "Mei",
+      ur: "مئی",
+      sw: "Mei"
     },
     meaning: {
       es: 'Manto de la Virgen María, serenidad, calma y salud mental',
@@ -281,7 +323,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '圣母庇佑披肩、安宁、平静与心灵抚慰',
       la: 'Pallium serenitatis, tranquillitas et pax mentis',
       ja: '静寂の衣、穏やかさ、心の平安',
-      bn: 'প্রশান্তির আবরণ, মানসিক স্থৈর্য এবং ঐশ্বরিক করুণা'
+      bn: 'প্রশান্তির আবরণ, মানসিক স্থৈর্য এবং ঐশ্বরিক করুণা',
+      id: "Ketenangan, kebenaran ilahi, perlindungan surgawi, dan penyembuhan emosional",
+      ur: "سکون، الٰہی سچائی، آسمانی حفاظت اور جذباتی شفا",
+      sw: "Utulivu, ukweli wa kiungu, ulinzi wa mbinguni na uponyaji wa hisia"
     }
   },
   {
@@ -303,7 +348,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '希望绿',
       la: 'Viridis Spei',
       ja: '希望の緑',
-      bn: 'আশার সবুজ'
+      bn: 'আশার সবুজ',
+      id: "Hijau Harapan",
+      ur: "سبز امید",
+      sw: "Kijani cha Tumaini"
     },
     mes: {
       es: 'Junio',
@@ -319,7 +367,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '六月',
       la: 'Iunius',
       ja: '6月',
-      bn: 'জুন'
+      bn: 'জুন',
+      id: "Juni",
+      ur: "جون",
+      sw: "Juni"
     },
     meaning: {
       es: 'Salud física, sanación de enfermos, trabajo y bendición',
@@ -335,7 +386,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '身体健康、医治病患、事业与恩泽',
       la: 'Salus corporis, sanatio infirmorum, labor et benedictio',
       ja: '身体の健康、病の癒し、仕事の恵み、祝福',
-      bn: 'শারীরিক সুস্থতা, রোগ নিরাময়, কর্ম ও কল্যাণ'
+      bn: 'শারীরিক সুস্থতা, রোগ নিরাময়, কর্ম ও কল্যাণ',
+      id: "Penyembuhan fisik, harapan baru, kelimpahan, dan pembaruan hidup",
+      ur: "جسمانی شفا، نئی امید، فراوانی اور زندگی کی تجدید",
+      sw: "Uponyaji wa mwili, tumaini jipya, wingi wa riziki na uhai mpya"
     }
   },
   {
@@ -357,7 +411,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '玄妙紫',
       la: 'Purpura Mystica',
       ja: '神秘の紫',
-      bn: 'রহস্যময় বেগুনি'
+      bn: 'রহস্যময় বেগুনি',
+      id: "Ungu Mistik",
+      ur: "صوفیانہ جامنی",
+      sw: "Zambarau ya Mafumbo"
     },
     mes: {
       es: 'Julio',
@@ -373,7 +430,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '七月',
       la: 'Iulius',
       ja: '7月',
-      bn: 'জুলাই'
+      bn: 'জুলাই',
+      id: "Juli",
+      ur: "جولائی",
+      sw: "Julai"
     },
     meaning: {
       es: 'Perdón, transmutación de penas, superación de pruebas y fe',
@@ -389,7 +449,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '宽恕、化解苦痛、克服磨难与坚毅信仰',
       la: 'Venia, transmutatio dolorum, superatio probationum et fides',
       ja: '許し、苦しみの昇華、試練の克服、信仰',
-      bn: 'ক্ষমা, শোকমুক্তি, পরীক্ষা জয় এবং গভীর বিশ্বাস'
+      bn: 'ক্ষমা, শোকমুক্তি, পরীক্ষা জয় এবং গভীর বিশ্বাস',
+      id: "Transformasi spiritual, kebijaksanaan luhur, pengampunan, dan doa mendalam",
+      ur: "روحانی تبدیلی، اعلیٰ حکمت، مغفرت اور گہری دعا",
+      sw: "Mabadiliko ya kiroho, hekima ya juu, msamaha na maombi ya kina"
     }
   },
   {
@@ -411,7 +474,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '极光粉',
       la: 'Roseus Aurorae',
       ja: 'オーロラピンク',
-      bn: 'ঊষা গোলাপি'
+      bn: 'ঊষা গোলাপি',
+      id: "Merah Muda Fajar",
+      ur: "گلابی سحر",
+      sw: "Waridi la Alfajiri"
     },
     mes: {
       es: 'Agosto',
@@ -427,7 +493,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '八月',
       la: 'Augustus',
       ja: '8月',
-      bn: 'আগস্ট'
+      bn: 'আগস্ট',
+      id: "Agustus",
+      ur: "اگست",
+      sw: "Agosti"
     },
     meaning: {
       es: 'Amor en el hogar, ternura, reconciliación familiar y de pareja',
@@ -443,7 +512,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '家庭仁爱、温情、家庭和睦与情感和解',
       la: 'Amor in domo, dulcedo, reconciliatio familiaris et harmonia',
       ja: '家庭の愛、優しさ、家族の和解、調和',
-      bn: 'পারিবারিক প্রেম, স্নেহ, পুনর্মিলন এবং সম্প্রীতি'
+      bn: 'পারিবারিক প্রেম, স্নেহ, পুনর্মিলন এবং সম্প্রীতি',
+      id: "Kasih ilahi, perdamaian, kelembutan, dan persatuan persaudaraan",
+      ur: "الٰہی محبت، صلح، نرمی اور برادرانہ اتحاد",
+      sw: "Upendo wa kiungu, amani ya moyo, upole na umoja wa kindugu"
     }
   },
   {
@@ -465,7 +537,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '神圣铜色',
       la: 'Aes Sacrum',
       ja: '神聖な銅',
-      bn: 'পবিত্র তামা'
+      bn: 'পবিত্র তামা',
+      id: "Tembaga Suci",
+      ur: "مقدس تانبا",
+      sw: "Shaba Takatifu"
     },
     mes: {
       es: 'Septiembre',
@@ -481,7 +556,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '九月',
       la: 'September',
       ja: '9月',
-      bn: 'সেপ্টেম্বর'
+      bn: 'সেপ্টেম্বর',
+      id: "September",
+      ur: "ستمبر",
+      sw: "Septemba"
     },
     meaning: {
       es: 'Estabilidad material, protección del patrimonio, fertilidad y arraigo',
@@ -497,7 +575,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '物质稳固、资产守护、丰盛与根基扎实',
       la: 'Stabilitas materialis, tutela patrimonii et firmitas',
       ja: '物質的安定、資産の保護、豊かさ、堅実な基盤',
-      bn: 'বস্তুগত স্থায়িত্ব, সম্পদের সুরক্ষা এবং স্থিতিশীলতা'
+      bn: 'বস্তুগত স্থায়িত্ব, সম্পদের সুরক্ষা এবং স্থিতিশীলতা',
+      id: "Ketabahan, rasa syukur, panen berlimpah, dan hubungan mendalam dengan alam",
+      ur: "ثابت قدمی، شکرگزاری، شاندار فصل اور فطرت کے ساتھ گہرا ربط",
+      sw: "Uimara wa moyo, shukrani, mavuno tele na uhusiano mwema na asili"
     }
   },
   {
@@ -519,7 +600,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '月华银',
       la: 'Argentum Lunare',
       ja: '月光の銀',
-      bn: 'চন্দ্র রূপা'
+      bn: 'চন্দ্র রূপা',
+      id: "Perak Rembulan",
+      ur: "چاند جیسی چاندی",
+      sw: "Fedha ya Mwezi"
     },
     mes: {
       es: 'Octubre',
@@ -535,7 +619,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '十月',
       la: 'October',
       ja: '10月',
-      bn: 'অক্টোবর'
+      bn: 'অক্টোবর',
+      id: "Oktober",
+      ur: "اکتوبر",
+      sw: "Oktoba"
     },
     meaning: {
       es: 'Claridad mental, discernimiento justo y protección espiritual',
@@ -551,7 +638,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '心智澄明、公正辨识与灵性护佑',
       la: 'Claritas mentis, iustum discernimentum et tutela spiritualis',
       ja: '精神の明晰さ、正しい洞察、スピリチュアルな保護',
-      bn: 'মানসিক স্বচ্ছতা, ন্যায়নিষ্ঠ বিচারবোধ এবং আধ্যাত্মিক সুরক্ষা'
+      bn: 'মানসিক স্বচ্ছতা, ন্যায়নিষ্ঠ বিচারবোধ এবং আধ্যাত্মিক সুরক্ষা',
+      id: "Intuisi batin, kejernihan mental, bimbingan malam, dan perlindungan rahasia",
+      ur: "باطنی فراست، ذہنی وضاحت، رات کی رہنمائی اور پوشیدہ حفاظت",
+      sw: "Ufahamu wa ndani, uwazi wa fikra, uongozi wa usiku na ulinzi wa siri"
     }
   },
   {
@@ -573,7 +663,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '御尊金',
       la: 'Aurum Imperiale',
       ja: 'インペリアルゴールド',
-      bn: 'রাজকীয় স্বর্ণ'
+      bn: 'রাজকীয় স্বর্ণ',
+      id: "Emas Kerajaan",
+      ur: "شاہی سنہرا",
+      sw: "Dhahabu ya Kifalme"
     },
     mes: {
       es: 'Noviembre',
@@ -589,7 +682,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '十一月',
       la: 'November',
       ja: '11月',
-      bn: 'নভেম্বর'
+      bn: 'নভেম্বর',
+      id: "November",
+      ur: "نومبر",
+      sw: "Novemba"
     },
     meaning: {
       es: 'Abundancia máxima, gloria celestial, memoria y Divina Providencia',
@@ -605,7 +701,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '至上丰饶、天国荣耀与神圣天佑',
       la: 'Abundantia maxima, gloria caelestis et Divina Providentia',
       ja: '無限の豊かさ、天上の栄光、神の御摂理',
-      bn: 'চরম প্রাচুর্য, স্বর্গীয় মহিমা এবং ঐশ্বরিক বিধান'
+      bn: 'চরম প্রাচুর্য, স্বর্গীয় মহিমা এবং ঐশ্বরিক বিধান',
+      id: "Kemenangan iman, kemuliaan abadi, martabat luhur, dan kelimpahan tak terhingga",
+      ur: "ایمان کی فتح، ابدی جلال، اعلیٰ وقار اور لامحدود فراوانی",
+      sw: "Ushindi wa imani, utukufu wa milele, heshima kuu na baraka zisizo na mwisho"
     }
   },
   {
@@ -627,7 +726,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '守护乌木',
       la: 'Ebenus Tutelae',
       ja: '守護のエボニー',
-      bn: 'সুরক্ষা কৃষ্ণকাঠ'
+      bn: 'সুরক্ষা কৃষ্ণকাঠ',
+      id: "Kayu Hitam Pelindung",
+      ur: "حفاظتی آبنوس",
+      sw: "Mti Mweusi wa Ulinzi"
     },
     mes: {
       es: 'Diciembre',
@@ -643,7 +745,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '十二月',
       la: 'December',
       ja: '12月',
-      bn: 'ডিসেম্বর'
+      bn: 'ডিসেম্বর',
+      id: "Desember",
+      ur: "دسمبر",
+      sw: "Desemba"
     },
     meaning: {
       es: 'Absorción de negatividades, destrabe de obstáculos y corte de males',
@@ -659,7 +764,10 @@ export const TRADITIONAL_CANDLE_COLORS = [
       zh: '吸收负面能量、化解阻碍与灵性护盾',
       la: 'Absorptio negativitatis, remotio impedimentorum et clipeus spiritualis',
       ja: 'ネガティブの吸収、障害の打破、スピリチュアルな盾',
-      bn: 'নেতিবাচকতা দূরীকরণ, বাধা অপসারণ এবং আধ্যাত্মিক রক্ষা'
+      bn: 'নেতিবাচকতা দূরীকরণ, বাধা অপসারণ এবং আধ্যাত্মিক রক্ষা',
+      id: "Pelepasan beban, penangkal energi negatif, dan benteng perlindungan mutlak",
+      ur: "بوجھ سے نجات، منفی توانائی کا خاتمہ اور مکمل حفاظتی ڈھال",
+      sw: "Kufunguliwa kutoka kwenye mizigo, kuzuia nguvu hasi na ngao thabiti ya ulinzi"
     }
   }
 ];
@@ -937,7 +1045,7 @@ export class StorageService {
 
     return [
       {
-        id: 'entry_1',
+        id: 'vault_init_1',
         tipo: 'peticion',
         titulo: 'Petición por la salud y la paz de mi familia',
         contenido: 'Plegaria elevada con fe para la pronta recuperación y bendición en el hogar.',
@@ -945,7 +1053,7 @@ export class StorageService {
         cumplido: false
       },
       {
-        id: 'entry_2',
+        id: 'vault_init_2',
         tipo: 'testimonio',
         titulo: 'Agradecimiento por puerta laboral abierta',
         contenido: 'Doy gracias infinitas por la provisión y el trabajo concedido.',

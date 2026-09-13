@@ -13,29 +13,31 @@ import { MembershipComponent } from './membership.js';
 import { PrivacyModalComponent } from './privacy-modal.js';
 import { t } from '../data/i18n.js';
 
-export const GEMINI_MODELS = [
+export const getGeminiModels = (lang = 'es') => [
   {
     id: 'gemini-2.0-flash',
     name: 'Gemini 2.0 Flash',
-    badge: 'Ultra Rápido',
+    badge: t('gemini_badge_ultra_fast', lang) || 'Ultra Rápido',
     dot: 'dot-gold',
-    desc: 'Última generación, latencia mínima y respuesta instantánea.'
+    desc: t('gemini_desc_ultra_fast', lang) || 'Última generación, latencia mínima y respuesta instantánea.'
   },
   {
     id: 'gemini-1.5-flash',
     name: 'Gemini 1.5 Flash',
-    badge: 'Recomendado',
+    badge: t('gemini_badge_recommended', lang) || 'Recomendado',
     dot: 'dot-green',
-    desc: 'Alta velocidad y balance óptimo para devocionales diarios.'
+    desc: t('gemini_desc_recommended', lang) || 'Alta velocidad y balance óptimo para devocionales diarios.'
   },
   {
     id: 'gemini-1.5-pro',
     name: 'Gemini 1.5 Pro',
-    badge: 'Máxima Profundidad',
+    badge: t('gemini_badge_max_depth', lang) || 'Máxima Profundidad',
     dot: 'dot-cyan',
-    desc: 'Máxima capacidad poética, contexto extenso y síntesis profunda.'
+    desc: t('gemini_desc_max_depth', lang) || 'Máxima capacidad poética, contexto extenso y síntesis profunda.'
   }
 ];
+
+export const GEMINI_MODELS = getGeminiModels('es');
 
 export class VaultComponent {
   constructor() {
@@ -49,20 +51,20 @@ export class VaultComponent {
     this.selectedTradition = (prefs.tradicionesActivas && prefs.tradicionesActivas[0]) || 'catolicismo';
   }
 
-  static getProviderDefinitions() {
+  static getProviderDefinitions(lang = 'es') {
     return [
       {
         id: 'auto',
-        name: 'Automático (Motor Master)',
-        desc: 'Conmutación inteligente: ultra rápido, offline y nube optimizada',
-        badge: 'Recomendado',
+        name: t('faithgpt_auto_title', lang) || 'Automático (Motor Master)',
+        desc: t('vault_ai_master_desc', lang) || t('faithgpt_auto_desc', lang) || 'Conmutación inteligente: ultra rápido, offline y nube optimizada',
+        badge: t('faithgpt_recommended', lang) || 'Recomendado',
         dot: 'dot-gold',
         icon: 'ui_sparkles'
       },
       {
         id: 'local',
-        name: 'Motor Local Canónico',
-        desc: '0 descargas · 100% Offline · Privacidad absoluta sin costo ni datos',
+        name: t('vault_ai_local_engine', lang) || 'Motor Local Canónico',
+        desc: t('vault_ai_offline_no_cost', lang) || '0 descargas · 100% Offline · Privacidad absoluta sin costo ni datos',
         badge: '100% Offline',
         dot: 'dot-gold',
         icon: 'ui_cpu'
@@ -70,7 +72,7 @@ export class VaultComponent {
       {
         id: 'gemini',
         name: 'Google Gemini 1.5/2.0 Flash',
-        desc: 'Inferencia en la nube de alta fidelidad litúrgica con tu API Key',
+        desc: t('vault_ai_cloud_inference', lang) || 'Inferencia en la nube de alta fidelidad litúrgica con tu API Key',
         badge: 'Google AI',
         dot: 'dot-green',
         icon: 'ai_gemini'
@@ -78,7 +80,7 @@ export class VaultComponent {
       {
         id: 'ollama',
         name: 'Ollama Local (Desktop / Mac)',
-        desc: 'Conexión a servidor local en localhost:11434 para privacidad total',
+        desc: t('vault_ai_local_server_conn', lang) || 'Conexión a servidor local en localhost:11434 para privacidad total',
         badge: 'Localhost',
         dot: 'dot-cyan',
         icon: 'ai_ollama'
@@ -91,8 +93,9 @@ export class VaultComponent {
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
     const aiConfig = AIConnector.getAIConfig();
+    const geminiModels = getGeminiModels(lang);
 
-    const providers = VaultComponent.getProviderDefinitions();
+    const providers = VaultComponent.getProviderDefinitions(lang);
     const activeProviderObj = providers.find(p => p.id === this.selectedProvider) || providers[0];
 
     const currentTradObj = TRADITIONS[this.selectedTradition] || TRADITIONS.catolicismo || {
@@ -117,30 +120,44 @@ export class VaultComponent {
            ${t('vault_empty_msg', lang)}
          </div>`
       : items.map(item => {
-          const itemTitle = item.id === 'vault_init_1' ? (t('sample_vault_title_1', lang) || item.titulo) : (item.id === 'vault_init_2' ? (t('sample_vault_title_2', lang) || item.titulo) : item.titulo);
-          const itemDesc = item.id === 'vault_init_1' ? (t('sample_vault_desc_1', lang) || item.contenido) : (item.id === 'vault_init_2' ? (t('sample_vault_desc_2', lang) || item.contenido) : item.contenido);
+          const itemTitle = (item.id === 'vault_init_1' || item.id === 'entry_1')
+            ? (t('sample_vault_title_1', lang) || item.titulo)
+            : ((item.id === 'vault_init_2' || item.id === 'entry_2')
+              ? (t('sample_vault_title_2', lang) || item.titulo)
+              : item.titulo);
+          const itemDesc = (item.id === 'vault_init_1' || item.id === 'entry_1')
+            ? (t('sample_vault_desc_1', lang) || item.contenido)
+            : ((item.id === 'vault_init_2' || item.id === 'entry_2')
+              ? (t('sample_vault_desc_2', lang) || item.contenido)
+              : item.contenido);
           const statusBadge = item.cumplido ? (t('vault_status_fulfilled', lang) || 'OK') : (t('vault_status_active', lang) || 'Active');
           const toggleText = item.cumplido ? (t('vault_btn_active', lang) || 'Activa') : (t('vault_btn_fulfilled', lang) || 'Cumplido');
 
           return `
             <div class="crystal-card" style="padding: 18px 16px; margin-bottom: 14px; position: relative;">
-              <!-- Botón de Eliminar (X) -->
-              <button class="btn-crystal btn-delete-vault-item" data-id="${item.id}" style="position: absolute; top: 12px; right: 12px; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; padding: 0; font-size: 0.85rem; border-radius: 50%; color: var(--text-muted); z-index: 10;" title="Eliminar registro">
-                ${renderIcon('ui_close')}
-              </button>
+              <!-- Barra Superior: Estado (Badge) + Botón Eliminar (X) -->
+              <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px;">
+                <span class="hud-pill ${item.cumplido ? 'dot-green' : 'dot-gold'}" style="font-size: 0.74rem; padding: 3px 10px; font-weight: 700; display: inline-flex; align-items: center;">
+                  ${statusBadge}
+                </span>
+                <button class="btn-crystal btn-delete-vault-item" data-id="${item.id}" style="width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; padding: 0; font-size: 0.85rem; border-radius: 50%; color: var(--text-muted); cursor: pointer; flex-shrink: 0;" title="${t('close_label', lang) || 'Eliminar'}">
+                  ${renderIcon('ui_close')}
+                </button>
+              </div>
 
-              <!-- Encabezado de la Tarjeta con Título y Estado -->
-              <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; padding-right: 36px;">
-                <div style="font-weight: 800; font-size: 1.06rem; color: var(--text-primary); line-height: 1.35;">${escapeHTML(itemTitle)}</div>
-                <span class="hud-pill ${item.cumplido ? 'dot-green' : 'dot-gold'}" style="flex-shrink: 0; font-size: 0.76rem; padding: 3px 8px; font-weight: 700;">${statusBadge}</span>
+              <!-- Título de la Petición a Ancho Completo -->
+              <div style="font-weight: 800; font-size: 1.08rem; color: var(--text-primary); line-height: 1.35; margin-bottom: 8px;">
+                ${escapeHTML(itemTitle)}
               </div>
 
               <!-- Contenido de la Petición -->
-              <div style="font-size: 0.94rem; color: var(--text-secondary); margin: 10px 0 12px; line-height: 1.5; white-space: pre-line;">${escapeHTML(itemDesc)}</div>
+              <div style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 14px; line-height: 1.55; white-space: pre-line;">
+                ${escapeHTML(itemDesc)}
+              </div>
 
               <!-- Pie con Fecha y Acción Rápida -->
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--glass-border);">
-                <div style="font-size: 0.8rem; font-family: var(--font-code); color: var(--text-muted);">${new Date(item.fecha).toLocaleDateString()}</div>
+              <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 10px; border-top: 1px solid var(--glass-border);">
+                <div style="font-size: 0.78rem; font-family: var(--font-code); color: var(--text-muted);">${new Date(item.fecha).toLocaleDateString()}</div>
                 <button class="btn-toggle-vault-status" data-id="${item.id}" style="background: none; border: none; font-size: 0.84rem; color: var(--accent-gold); font-weight: 800; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; padding: 4px 6px;">
                   ${item.cumplido ? `<span style="display:inline-flex; align-items:center;">${renderIcon('ui_refresh')}</span> <span>${toggleText}</span>` : `<span style="display:inline-flex; align-items:center; color: #10b981;">${renderIcon('ui_check')}</span> <span style="color: var(--accent-gold);">${toggleText}</span>`}
                 </button>
@@ -254,7 +271,7 @@ export class VaultComponent {
                   </div>
                   <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
                     <span id="label-selected-faithgpt-tradition" style="font-size: 0.92rem; font-weight: 800; color: var(--text-primary); line-height: 1.3;">${currentTradObj.nombre[lang] || currentTradObj.nombre.es}</span>
-                    <span style="font-size: 0.75rem; color: var(--text-secondary); opacity: 0.9;">${currentTradObj.subtitulo || 'Tradición canónica activa'}</span>
+                    <span style="font-size: 0.75rem; color: var(--text-secondary); opacity: 0.9;">${(currentTradObj.descripcion && (currentTradObj.descripcion[lang] || currentTradObj.descripcion.es)) || t('vault_tradition_canonical_active', lang)}</span>
                   </div>
                 </div>
                 <span style="color: var(--accent-cyan); font-size: 0.8rem; flex-shrink: 0; padding-left: 8px; display: flex; align-items: center;">
@@ -357,7 +374,7 @@ export class VaultComponent {
           </div>
 
           <button type="button" id="btn-cancel-provider-picker" class="btn-crystal btn-crystal-gold" style="width: 100%; padding: 11px; font-size: 0.85rem; font-weight: 800; cursor: pointer;">
-            Confirmar Selección
+            ${t('confirm_selection', lang) || 'Confirmar Selección'}
           </button>
         </div>
       </div>
@@ -366,7 +383,7 @@ export class VaultComponent {
       <div id="modal-faithgpt-tradition-picker" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88); backdrop-filter: blur(28px); -webkit-backdrop-filter: blur(28px); z-index: 6000; padding: 24px 12px 110px; align-items: flex-start; justify-content: center; overflow-y: auto; -webkit-overflow-scrolling: touch; box-sizing: border-box;">
         <div class="crystal-card" style="max-width: 520px; width: 100%; margin: auto 0; padding: 20px 18px 24px; position: relative; box-sizing: border-radius: var(--radius-lg);">
           <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 2px;">
-            <button id="btn-close-faithgpt-tradition-picker" class="btn-modal-close" style="position: static;" title="Cerrar">${renderIcon('ui_close')}</button>
+            <button id="btn-close-faithgpt-tradition-picker" class="btn-modal-close" style="position: static;" title="${t('close_label', lang) || 'Cerrar'}">${renderIcon('ui_close')}</button>
           </div>
           
           <div style="text-align: center; margin-bottom: 16px;">
@@ -374,10 +391,10 @@ export class VaultComponent {
               <span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center;">${renderIcon('nav_altar')}</span>
             </div>
             <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; margin: 0 0 4px; color: var(--text-primary);">
-              ${lang === 'en' ? 'Sacred Liturgical Tradition' : 'Tradición Litúrgica Sagrada'}
+              ${t('vault_tradition_modal_title', lang) || t('vault_tradition_select_title', lang)}
             </h3>
             <p style="font-size: 0.78rem; color: var(--text-secondary); margin: 0; line-height: 1.4;">
-              ${lang === 'en' ? 'Select canonical devotion to enrich the sacred wording of your prayer:' : 'Selecciona la devoción canónica para enriquecer el lenguaje sagrado de tu plegaria:'}
+              ${t('vault_tradition_modal_desc', lang) || t('vault_tradition_select_desc', lang)}
             </p>
           </div>
 
@@ -394,9 +411,9 @@ export class VaultComponent {
                   <div style="display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0;">
                     <div style="display: flex; align-items: center; justify-content: space-between; gap: 6px;">
                       <span style="font-size: 0.92rem; font-weight: 800; color: var(--text-primary); line-height: 1.3;">${tObj.nombre[lang] || tObj.nombre.es}</span>
-                      ${isUserTrad ? `<span class="hud-pill dot-green" style="font-size: 0.65rem; padding: 2px 7px;">${lang === 'en' ? 'Your Faith' : 'Tu Fe'}</span>` : ''}
+                      ${isUserTrad ? `<span class="hud-pill dot-green" style="font-size: 0.65rem; padding: 2px 7px;">${t('scriptures_your_faith_badge', lang) || 'Tu Fe'}</span>` : ''}
                     </div>
-                    <span style="font-size: 0.75rem; color: var(--text-secondary); opacity: 0.88; white-space: normal; line-height: 1.3;">${tObj.subtitulo || 'Tradición canónica universal'}</span>
+                    <span style="font-size: 0.75rem; color: var(--text-secondary); opacity: 0.88; white-space: normal; line-height: 1.3;">${(tObj.descripcion && (tObj.descripcion[lang] || tObj.descripcion.es)) || t('vault_tradition_canonical_universal', lang)}</span>
                   </div>
                 </button>
               `;
@@ -404,7 +421,7 @@ export class VaultComponent {
           </div>
 
           <button type="button" id="btn-cancel-faithgpt-tradition-picker" class="btn-crystal btn-crystal-gold" style="width: 100%; padding: 11px; font-size: 0.85rem; font-weight: 800; cursor: pointer;">
-            Confirmar Tradición
+            ${t('picker_tradition_confirm', lang) || 'Confirmar Tradición'}
           </button>
         </div>
       </div>
@@ -414,34 +431,34 @@ export class VaultComponent {
         <div class="crystal-card" style="max-width: 500px; width: 100%; margin: auto 0; padding: 20px 18px 24px; position: relative; border-radius: var(--radius-lg); background: var(--glass-surface-2); border: 1.5px solid var(--glass-border); box-shadow: 0 24px 60px rgba(0,0,0,0.65); box-sizing: border-box;">
           
           <div style="display: flex; justify-content: flex-end; align-items: center; width: 100%; margin-bottom: 2px;">
-            <button id="btn-close-ai-settings" class="btn-modal-close" style="position: static;" title="Cerrar">${renderIcon('ui_close')}</button>
+            <button id="btn-close-ai-settings" class="btn-modal-close" style="position: static;" title="${t('close_label', lang) || 'Cerrar'}">${renderIcon('ui_close')}</button>
           </div>
           
           <div style="text-align: center; margin-bottom: 18px;">
             <div style="width: 44px; height: 44px; margin: 0 auto 8px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-gold), var(--accent-indigo)); display: flex; align-items: center; justify-content: center; color: #fff; box-shadow: 0 0 16px var(--accent-gold-glow);">
               <span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center;">${renderIcon('ui_settings')}</span>
             </div>
-            <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; margin: 0 0 4px; color: var(--text-primary);">Configuración Multi-IA</h3>
-            <p style="font-size: 0.78rem; color: var(--text-secondary); margin: 0;">Configura tus proveedores y llaves privadas de inteligencia artificial</p>
+            <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; margin: 0 0 4px; color: var(--text-primary);">${t('vault_ai_settings_title', lang)}</h3>
+            <p style="font-size: 0.78rem; color: var(--text-secondary); margin: 0;">${t('vault_ai_settings_subtitle', lang)}</p>
           </div>
 
           <!-- Google Gemini -->
           <div class="crystal-card" style="padding: 14px; margin-bottom: 12px; background: var(--glass-inset); border-radius: var(--radius-md);">
             <div style="font-weight: 800; font-size: 0.88rem; color: var(--accent-gold); margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
               <span style="color: var(--accent-gold); display: inline-flex; width: 18px; height: 18px; flex-shrink: 0;">${renderIcon('ui_sparkles')}</span>
-              <span>Google Gemini (Nube)</span>
+              <span>${t('vault_ai_gemini_cloud', lang)}</span>
             </div>
             <div class="form-group" style="margin-bottom: 8px;">
-              <label class="form-label" style="font-size: 0.74rem;">API Key de Google Gemini:</label>
+              <label class="form-label" style="font-size: 0.74rem;">${t('vault_ai_gemini_key_label', lang)}</label>
               <input type="password" id="ai-input-gemini-key" class="form-input" placeholder="AIzaSy..." value="${aiConfig.geminiKey || ''}" style="font-size: 0.8rem;">
             </div>
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-size: 0.74rem; display: block; margin-bottom: 6px;">Modelo:</label>
+              <label class="form-label" style="font-size: 0.74rem; display: block; margin-bottom: 6px;">${t('vault_ai_model_label', lang)}</label>
               <input type="hidden" id="ai-input-gemini-model" value="${(aiConfig.geminiModel || 'gemini-2.0-flash')}">
               <button type="button" id="btn-open-gemini-model-picker" class="hud-sound-pill" style="width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; background: var(--glass-surface-2); border: 1.5px solid var(--glass-border); border-radius: var(--radius-md); color: var(--text-primary); cursor: pointer; box-sizing: border-box; text-align: left; min-height: 48px; transition: all var(--transition-fast);">
                 <span style="display: flex; align-items: center; gap: 10px; min-width: 0; overflow: hidden;">
                   <span style="color: var(--accent-gold); display: flex; align-items: center; flex-shrink: 0; width: 18px; height: 18px;">${renderIcon('ui_sparkles')}</span>
-                  <span id="label-gemini-model-selected" style="font-size: 0.85rem; font-weight: 800; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${(GEMINI_MODELS.find(m => m.id === (aiConfig.geminiModel || 'gemini-2.0-flash')) || GEMINI_MODELS[0]).name} (${(GEMINI_MODELS.find(m => m.id === (aiConfig.geminiModel || 'gemini-2.0-flash')) || GEMINI_MODELS[0]).badge})</span>
+                  <span id="label-gemini-model-selected" style="font-size: 0.85rem; font-weight: 800; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${(geminiModels.find(m => m.id === (aiConfig.geminiModel || 'gemini-2.0-flash')) || geminiModels[0]).name} (${(geminiModels.find(m => m.id === (aiConfig.geminiModel || 'gemini-2.0-flash')) || geminiModels[0]).badge})</span>
                 </span>
                 <span style="color: var(--accent-gold); font-size: 0.75rem; flex-shrink: 0; padding-left: 8px; display: flex; align-items: center;">
                   <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><polyline points="6 9 12 15 18 9"></polyline></svg>
@@ -454,14 +471,14 @@ export class VaultComponent {
           <div class="crystal-card" style="padding: 14px; margin-bottom: 16px; background: var(--glass-inset); border-radius: var(--radius-md);">
             <div style="font-weight: 800; font-size: 0.88rem; color: var(--accent-cyan); margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
               <span style="color: var(--accent-cyan); display: inline-flex; width: 18px; height: 18px; flex-shrink: 0;">${renderIcon('ui_shield')}</span>
-              <span>Ollama Local (Privacidad Total)</span>
+              <span>${t('vault_ai_ollama_local', lang)}</span>
             </div>
             <div class="form-group" style="margin-bottom: 8px;">
-              <label class="form-label" style="font-size: 0.74rem;">Host URL de Ollama:</label>
+              <label class="form-label" style="font-size: 0.74rem;">${t('vault_ai_ollama_host_label', lang)}</label>
               <input type="text" id="ai-input-ollama-host" class="form-input" placeholder="http://localhost:11434" value="${aiConfig.ollamaHost || 'http://localhost:11434'}" style="font-size: 0.8rem;">
             </div>
             <div class="form-group" style="margin-bottom: 0;">
-              <label class="form-label" style="font-size: 0.74rem;">Nombre del Modelo:</label>
+              <label class="form-label" style="font-size: 0.74rem;">${t('vault_ai_ollama_model_label', lang)}</label>
               <input type="text" id="ai-input-ollama-model" class="form-input" placeholder="llama3" value="${aiConfig.ollamaModel || 'llama3'}" style="font-size: 0.8rem;">
             </div>
           </div>
@@ -470,10 +487,10 @@ export class VaultComponent {
 
           <div style="display: flex; gap: 10px;">
             <button id="btn-test-ai-connections" class="btn-crystal" style="flex: 1; padding: 10px; font-size: 0.82rem; font-weight: 700;">
-              Probar Conexiones
+              ${t('vault_ai_btn_test', lang)}
             </button>
             <button id="btn-save-ai-settings" class="btn-crystal btn-crystal-primary" style="flex: 1; padding: 10px; font-size: 0.82rem; font-weight: 800;">
-              Guardar Ajustes
+              ${t('vault_ai_btn_save', lang)}
             </button>
           </div>
         </div>
@@ -483,7 +500,7 @@ export class VaultComponent {
       <div id="modal-gemini-model-picker" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88); backdrop-filter: blur(28px); -webkit-backdrop-filter: blur(28px); z-index: 7000; padding: calc(env(safe-area-inset-top, 24px) + 24px) 12px calc(env(safe-area-inset-bottom, 24px) + 80px); align-items: flex-start; justify-content: center; overflow-y: auto; -webkit-overflow-scrolling: touch; box-sizing: border-box;">
         <div class="crystal-card" style="max-width: 480px; width: 100%; margin: 0 auto; padding: 20px 18px 24px; position: relative; box-sizing: border-box; border-radius: var(--radius-lg); background: var(--glass-surface-2); border: 1.5px solid var(--glass-border); box-shadow: 0 24px 60px rgba(0,0,0,0.65);">
           <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 2px;">
-            <button id="btn-close-gemini-model-picker" class="btn-modal-close" style="position: static;" title="Cerrar">${renderIcon('ui_close')}</button>
+            <button id="btn-close-gemini-model-picker" class="btn-modal-close" style="position: static;" title="${t('close_label', lang) || 'Cerrar'}">${renderIcon('ui_close')}</button>
           </div>
           
           <div style="text-align: center; margin-bottom: 16px;">
@@ -491,15 +508,15 @@ export class VaultComponent {
               <span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center;">${renderIcon('ui_sparkles')}</span>
             </div>
             <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; margin: 0 0 4px; color: var(--text-primary);">
-              Modelo de Google Gemini
+              ${t('vault_ai_gemini_modal_title', lang)}
             </h3>
             <p style="font-size: 0.78rem; color: var(--text-secondary); margin: 0; line-height: 1.4;">
-              Selecciona la versión del motor de IA para redactar tus plegarias:
+              ${t('vault_ai_gemini_modal_desc', lang)}
             </p>
           </div>
 
           <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
-            ${GEMINI_MODELS.map(m => {
+            ${geminiModels.map(m => {
               const isSelected = m.id === (aiConfig.geminiModel || 'gemini-2.0-flash');
               return `
                 <button type="button" class="report-type-chip ${isSelected ? 'active' : ''} gemini-model-select-card" data-model-id="${m.id}" data-model-label="${m.name} (${m.badge})" style="width: 100%; padding: 14px 14px; text-align: left; display: flex; align-items: flex-start; gap: 12px; box-sizing: border-box; min-height: 58px; transition: all var(--transition-fast); cursor: pointer;">
@@ -519,7 +536,7 @@ export class VaultComponent {
           </div>
 
           <button type="button" id="btn-cancel-gemini-model-picker" class="btn-crystal btn-crystal-gold" style="width: 100%; padding: 11px; font-size: 0.85rem; font-weight: 800; cursor: pointer;">
-            Confirmar Selección
+            ${t('vault_ai_gemini_modal_confirm', lang) || t('confirm_selection', lang) || 'Confirmar Selección'}
           </button>
         </div>
       </div>
@@ -717,12 +734,15 @@ export class VaultComponent {
 
     if (testSettingsBtn) {
       testSettingsBtn.addEventListener('click', async () => {
+        const prefs = StorageService.getPreferences();
+        const lang = prefs.idioma || 'es';
+
         const feedback = document.getElementById('ai-test-feedback');
         if (feedback) {
           feedback.innerHTML = `
             <div style="display: flex; align-items: center; gap: 8px; color: var(--accent-gold); padding: 9px 12px; background: rgba(212,175,55,0.08); border-radius: 8px; border: 1px solid rgba(212,175,55,0.2); margin-top: 6px;">
               <span style="display: inline-flex; width: 16px; height: 16px; flex-shrink: 0;">${renderIcon('ui_refresh')}</span>
-              <span>Verificando conexiones de IA en tiempo real...</span>
+              <span>${t('vault_ai_testing_msg', lang) || t('vault_ai_verifying_msg', lang) || 'Verificando conexiones de IA en tiempo real...'}</span>
             </div>
           `;
         }
@@ -736,7 +756,7 @@ export class VaultComponent {
         const localTest = await AIConnector.testProvider('local');
 
         // 2. Google Gemini
-        let gemTest = { success: false, status: 'missing_key', message: 'Clave no ingresada (opcional)' };
+        let gemTest = { success: false, status: 'missing_key', message: t('vault_ai_key_not_entered', lang) || 'Clave no ingresada (opcional)' };
         if (geminiKey) {
           gemTest = await AIConnector.testProvider('gemini', { geminiKey, geminiModel });
         }
@@ -747,20 +767,20 @@ export class VaultComponent {
         const items = [
           {
             icon: 'ui_shield',
-            title: 'Motor Local Canónico',
-            subtitle: 'Base litúrgica offline integrada',
+            title: t('vault_ai_local_engine', lang) || 'Motor Local Canónico',
+            subtitle: t('vault_ai_local_offline_desc', lang) || 'Base litúrgica offline integrada',
             res: localTest
           },
           {
             icon: 'ui_sparkles',
             title: `Google Gemini (${geminiModel})`,
-            subtitle: gemTest.message,
+            subtitle: gemTest.status === 'missing_key' ? (t('vault_ai_key_not_entered', lang) || 'Clave no ingresada (opcional)') : (gemTest.message || t('vault_ai_status_active', lang) || 'Activo'),
             res: gemTest
           },
           {
             icon: 'ui_laptop',
             title: `Ollama Local (${ollamaModel})`,
-            subtitle: ollamaTest.message,
+            subtitle: ollamaTest.success ? (ollamaTest.message || t('vault_ai_status_active', lang) || 'Activo') : (t('vault_ai_ollama_not_detected', lang) || ollamaTest.message || 'Inactivo'),
             res: ollamaTest
           }
         ];
@@ -768,16 +788,16 @@ export class VaultComponent {
         const renderBadge = (res) => {
           let badgeClass = 'status-connected';
           let iconName = 'ui_check';
-          let labelText = res.latencyMs !== undefined ? `${res.latencyMs} ms` : 'Activo';
+          let labelText = res.latencyMs !== undefined ? `${res.latencyMs} ms` : (t('vault_ai_status_active', lang) || 'Activo');
 
           if (res.status === 'missing_key') {
             badgeClass = 'status-optional';
             iconName = 'ui_lock';
-            labelText = 'Opcional';
+            labelText = t('vault_ai_status_optional', lang) || 'Opcional';
           } else if (!res.success) {
             badgeClass = 'status-inactive';
             iconName = 'ui_close';
-            labelText = 'Inactivo';
+            labelText = t('vault_ai_status_inactive', lang) || 'Inactivo';
           }
 
           return `
@@ -826,8 +846,8 @@ export class VaultComponent {
 
         if (!title || !content) {
           SacredDialog.alert({
-            title: t('vault_alert_fields_req_title', lang) || 'Campos Requeridos',
-            message: t('vault_alert_fields_req_msg', lang) || 'Por favor ingresa un título y el detalle de tu testimonio o petición para guardarlo en tu bóveda.',
+            title: t('vault_alert_required_title', lang) || t('vault_alert_fields_req_title', lang),
+            message: t('vault_alert_required_msg', lang) || t('vault_alert_fields_req_msg', lang),
             icon: '🔒',
             buttonText: t('understood_label', lang) || t('dialog_accept', lang) || 'Entendido',
             type: 'warning'
@@ -855,12 +875,14 @@ export class VaultComponent {
     const labelGen = document.getElementById('label-btn-generate');
     const situationInput = document.getElementById('faithgpt-situation');
     const box = document.getElementById('faithgpt-result-box');
+    const prefs = StorageService.getPreferences();
+    const currentLang = prefs.idioma || 'es';
 
     if (situationInput && genBtn) {
       situationInput.addEventListener('input', () => {
         if (genBtn.getAttribute('data-mode') === 'reset') {
           genBtn.removeAttribute('data-mode');
-          if (labelGen) labelGen.innerText = 'Generar Plegaria Sagrada';
+          if (labelGen) labelGen.innerText = t('faithgpt_generate_btn', currentLang);
         }
       });
     }
@@ -872,6 +894,9 @@ export class VaultComponent {
           return;
         }
 
+        const activePrefs = StorageService.getPreferences();
+        const lang = activePrefs.idioma || 'es';
+
         // Modo: Nueva Petición (Limpiar formulario y preparar otro motivo)
         if (genBtn.getAttribute('data-mode') === 'reset') {
           if (situationInput) {
@@ -880,7 +905,7 @@ export class VaultComponent {
           }
           if (box) box.style.display = 'none';
           genBtn.removeAttribute('data-mode');
-          if (labelGen) labelGen.innerText = 'Generar Plegaria Sagrada';
+          if (labelGen) labelGen.innerText = t('faithgpt_generate_btn', lang);
           situationInput?.scrollIntoView({ behavior: 'smooth', block: 'center' });
           return;
         }
@@ -888,22 +913,20 @@ export class VaultComponent {
         const situacion = situationInput?.value.trim();
         const tradicion = document.getElementById('faithgpt-tradition')?.value || 'catolicismo';
         const proveedor = document.getElementById('faithgpt-provider-select')?.value || 'auto';
-        const prefs = StorageService.getPreferences();
-        const lang = prefs.idioma || 'es';
 
         if (!situacion) {
           SacredDialog.alert({
-            title: t('vault_alert_intention_req_title', lang) || 'Intención Requerida',
-            message: t('vault_alert_intention_req_msg', lang) || 'Por favor describe tu motivo, necesidad o situación para sintetizar la plegaria sagrada.',
+            title: t('vault_alert_intention_title', lang) || t('vault_alert_intention_req_title', lang),
+            message: t('vault_alert_intention_msg', lang) || t('vault_alert_intention_req_msg', lang),
             icon: '✨',
-            buttonText: t('understood_label', lang) || t('dialog_accept', lang) || 'Comprender',
+            buttonText: t('understood_label', lang) || t('dialog_accept', lang) || 'Entendido',
             type: 'warning'
           });
           return;
         }
 
         genBtn.disabled = true;
-        if (labelGen) labelGen.innerText = 'Componiendo Plegaria Sagrada...';
+        if (labelGen) labelGen.innerText = t('faithgpt_composing_msg', lang) || 'Componiendo Plegaria Sagrada...';
 
         const titleEl = document.getElementById('faithgpt-result-title');
         const textEl = document.getElementById('faithgpt-result-text');
@@ -913,7 +936,7 @@ export class VaultComponent {
             proveedor,
             tradicion,
             situacion,
-            idioma: prefs.idioma || 'es',
+            idioma: activePrefs.idioma || 'es',
             onProgress: (msg) => {
               if (labelGen) labelGen.innerText = msg;
             },
@@ -932,7 +955,7 @@ export class VaultComponent {
 
             // Transformar el botón para permitir iniciar una nueva petición fácilmente
             genBtn.setAttribute('data-mode', 'reset');
-            if (labelGen) labelGen.innerText = '↺ Nueva Petición (Escribir Otro Motivo)';
+            if (labelGen) labelGen.innerText = '↺ ' + (t('faithgpt_new_petition_btn', lang) || 'Nueva Petición');
 
             box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
           }
@@ -945,7 +968,7 @@ export class VaultComponent {
             buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'Aceptar',
             type: 'warning'
           });
-          if (labelGen) labelGen.innerText = 'Generar Plegaria Sagrada';
+          if (labelGen) labelGen.innerText = t('faithgpt_generate_btn', lang);
         } finally {
           genBtn.disabled = false;
         }
@@ -963,7 +986,7 @@ export class VaultComponent {
           const title = document.getElementById('faithgpt-result-title')?.innerText || 'Plegaria Sagrada';
           const attribLine = t('share_attribution_line', lang) || '✦ Compartido a través de FeUniversal · Faith & Prayers';
           const sanctuaryTagline = t('share_sanctuary_tagline', lang) || 'Santuario Espiritual Universal';
-          const canonicalUrl = 'https://feuniversal.app';
+          const canonicalUrl = 'https://betoles.github.io/feuniversal.app';
           const fullPayload = `« ${title} »\n\n${text}\n\n—\n${attribLine}\n${sanctuaryTagline}\n${canonicalUrl}`;
           
           navigator.clipboard.writeText(fullPayload).then(() => {
@@ -993,8 +1016,10 @@ export class VaultComponent {
         });
 
         StorageService.saveVaultItems(items);
-        saveGeneratedBtn.innerText = '✓ ¡Guardada en Bóveda!';
-        setTimeout(() => { saveGeneratedBtn.innerText = '🔒 Guardar en mi Bóveda'; }, 2500);
+        const prefs = StorageService.getPreferences();
+        const lang = prefs.idioma || 'es';
+        saveGeneratedBtn.innerText = '✓ ' + (t('vault_btn_saved_toast', lang) || t('vault_btn_save', lang));
+        setTimeout(() => { saveGeneratedBtn.innerText = t('vault_btn_save', lang); }, 2500);
       });
     }
 

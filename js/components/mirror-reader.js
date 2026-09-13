@@ -32,8 +32,10 @@ export class MirrorReaderComponent {
     this.render();
     if (this.container) {
       this.container.style.display = 'flex';
+      this.container.style.flexDirection = 'column';
       this.container.style.alignItems = 'center';
-      this.container.style.justifyContent = 'center';
+      this.container.style.justifyContent = 'flex-start';
+      this.container.scrollTop = 0;
     }
     StorageService.incrementSpiritualScore(5, prayer.categoriaIntencion || 'paz_interior');
 
@@ -221,7 +223,7 @@ export class MirrorReaderComponent {
     }
 
     this.container.innerHTML = `
-      <div class="crystal-card ${isZen ? 'zen-reader-card' : ''}" dir="${isLangRTL ? 'rtl' : 'ltr'}" style="max-width: 1040px; width: 98%; margin: 20px auto; padding: 28px 24px; position: relative; border-radius: var(--radius-xl); box-shadow: 0 16px 50px rgba(0,0,0,0.7); box-sizing: border-box;">
+      <div class="crystal-card ${isZen ? 'zen-reader-card' : ''}" dir="${isLangRTL ? 'rtl' : 'ltr'}" style="max-width: 1040px; width: 98%; margin: 0 auto 24px; padding: 28px 24px; position: relative; border-radius: var(--radius-xl); box-shadow: 0 16px 50px rgba(0,0,0,0.7); box-sizing: border-box; flex-shrink: 0;">
         <button id="btn-close-reader" class="btn-modal-close" title="${t('dialog_cancel', lang) || 'Cerrar'}">${renderIcon('ui_close')}</button>
 
         <!-- Cabecera del Rezo -->

@@ -11910,10 +11910,104 @@ export const SCRIPTURES_CATALOG = [
     "versiculoNumero": "1-4",
     "idiomaLiturgicoOriginal": "Inglés Canónico de 1830 (Original Dictation Edition)",
     "dir": "ltr"
+  },
+  {
+    "id": "song_of_songs_chapter_1",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
+    "capituloNumero": 1,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-17",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
+  },
+  {
+    "id": "song_of_songs_chapter_2",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
+    "capituloNumero": 2,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-17",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
+  },
+  {
+    "id": "song_of_songs_chapter_3",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
+    "capituloNumero": 3,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-11",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
+  },
+  {
+    "id": "song_of_songs_chapter_4",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
+    "capituloNumero": 4,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-16",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
+  },
+  {
+    "id": "song_of_songs_chapter_5",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
+    "capituloNumero": 5,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-16",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
+  },
+  {
+    "id": "song_of_songs_chapter_6",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
+    "capituloNumero": 6,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-13",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
+  },
+  {
+    "id": "song_of_songs_chapter_7",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
+    "capituloNumero": 7,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-13",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
+  },
+  {
+    "id": "song_of_songs_chapter_8",
+    "tradicion": "hebreo_salmos",
+    "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "libroKey": "song_of_songs",
+    "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
+    "capituloNumero": 8,
+    "seccion": "Ketuvim · Shir HaShirim",
+    "versiculoNumero": "1-14",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "dir": "rtl"
   }
 ];
-
-
 
 export const SACRED_BOOKS_INDEX = [
   {
@@ -12034,7 +12128,7 @@ export const SACRED_BOOKS_INDEX = [
     language: 'Griego Koiné (Ἑλληνική Κοινή)'
   },
   {
-    key: 'epistle_1corinthians',
+    key: 'epistle_1_corinthians',
     title: 'Primera Epístola a los Corintios',
     subtitle: '16 Capítulos · El Amor Supremo, los Dones y la Resurrección',
     tradicion: 'catolicismo',
@@ -12061,7 +12155,7 @@ export const SACRED_BOOKS_INDEX = [
     language: 'Griego Koiné (Ἑλληνική Κοινή)'
   },
   {
-    key: 'epistle_1john',
+    key: 'epistle_1_john',
     title: 'Primera Epístola de San Juan',
     subtitle: '5 Capítulos · «Dios es Amor» y la Comunión Celestial',
     tradicion: 'catolicismo',
@@ -13821,6 +13915,12 @@ export const SACRED_BOOKS_I18N = {
   }
 };
 
+// Alias canónicos para resolución de claves
+SACRED_BOOKS_I18N['epistle_1_corinthians'] = SACRED_BOOKS_I18N['epistle_1corinthians'];
+SACRED_BOOKS_I18N['epistle_1_john'] = SACRED_BOOKS_I18N['epistle_1john'];
+SACRED_BOOKS_I18N['epistle_1corinthians'] = SACRED_BOOKS_I18N['epistle_1_corinthians'];
+SACRED_BOOKS_I18N['epistle_1john'] = SACRED_BOOKS_I18N['epistle_1_john'];
+
 export function getLocalizedBookTitle(bookKey, lang = 'es') {
   if (!bookKey) return '';
   if (SACRED_BOOKS_I18N[bookKey] && SACRED_BOOKS_I18N[bookKey].title) {
@@ -13932,10 +14032,14 @@ export function getScripturesByBook(bookKey) {
 }
 
 export function getAdjacentScriptures(id) {
-  if (!id) return { prev: null, next: null };
+  if (!id) return { prev: null, next: null, currentIndex: 0, totalInBook: 1 };
   const idx = SCRIPTURES_CATALOG.findIndex(item => item.id === id);
-  if (idx === -1) return { prev: null, next: null };
+  if (idx === -1) return { prev: null, next: null, currentIndex: 0, totalInBook: 1 };
   const currentItem = SCRIPTURES_CATALOG[idx];
+
+  const bookItems = SCRIPTURES_CATALOG.filter(item => item.libroKey === currentItem.libroKey);
+  const currentInBookIndex = bookItems.findIndex(item => item.id === id);
+  const totalInBook = bookItems.length;
 
   let prev = null;
   let next = null;
@@ -13954,7 +14058,12 @@ export function getAdjacentScriptures(id) {
     }
   }
 
-  return { prev, next };
+  return {
+    prev,
+    next,
+    currentIndex: currentInBookIndex >= 0 ? currentInBookIndex : 0,
+    totalInBook: totalInBook > 0 ? totalInBook : 1
+  };
 }
 
 

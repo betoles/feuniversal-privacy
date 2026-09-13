@@ -11,11 +11,57 @@ import { StorageService } from '../services/storage-service.js';
 import { renderIcon } from './icons.js';
 import { SacredDialog } from './sacred-dialog.js';
 import { MembershipComponent } from './membership.js';
+import { getScriptureBookTitle, formatChapterLabel } from '../data/scriptures-catalog.js';
+
+export function getShareItemTitle(item, lang) {
+  if (!item) return 'Plegaria Sagrada';
+  if (typeof item === 'string') return item;
+  if (item.libroKey || item.libro) {
+    const bookTitle = getScriptureBookTitle(item, lang);
+    const chapLabel = formatChapterLabel(item, lang);
+    return `${bookTitle}: ${chapLabel}`;
+  }
+  if (item.titulo) {
+    if (typeof item.titulo === 'object') {
+      return item.titulo[lang] || item.titulo.es || item.titulo.en || Object.values(item.titulo)[0] || 'Plegaria Sagrada';
+    }
+    return String(item.titulo);
+  }
+  if (item.nombre) {
+    if (typeof item.nombre === 'object') {
+      return item.nombre[lang] || item.nombre.es || item.nombre.en || Object.values(item.nombre)[0] || 'Plegaria Sagrada';
+    }
+    return String(item.nombre);
+  }
+  return 'Plegaria Sagrada';
+}
+
+export function getShareItemText(item, lang, customText = null) {
+  if (customText) return customText;
+  if (!item) return '';
+  if (typeof item === 'string') return item;
+  const transMap = item.traducciones || item.traduccion || {};
+  if (transMap && typeof transMap === 'object' && Object.keys(transMap).length > 0) {
+    return transMap[lang] || transMap.es || transMap.en || Object.values(transMap)[0] || item.textoOriginal || '';
+  }
+  return item.textoOriginal || item.texto || '';
+}
+
+export function getShareItemTradition(item, lang) {
+  if (!item || typeof item === 'string') return 'UNIVERSAL';
+  const tradKey = item.tradicion || 'universal';
+  const tradObj = getTradition(tradKey);
+  if (tradObj && tradObj.nombre) {
+    return (tradObj.nombre[lang] || tradObj.nombre.es || tradObj.nombre.en || tradKey).toUpperCase();
+  }
+  return String(tradKey).toUpperCase().replace(/_/g, ' ');
+}
 
 export class SocialShareComponent {
   constructor() {
     this.modal = null;
     this.currentPrayer = null;
+    this.customText = null;
     if (typeof Image !== 'undefined') {
       this.logoImg = new Image();
       this.logoImg.src = 'logo.png?v=5.0';
@@ -24,8 +70,9 @@ export class SocialShareComponent {
     }
   }
 
-  open(prayer) {
+  open(prayer, customText = null) {
     this.currentPrayer = prayer;
+    this.customText = customText;
     this.ensureModal();
     this.render();
     this.modal.style.display = 'flex';
@@ -51,7 +98,6 @@ export class SocialShareComponent {
     if (!this.currentPrayer) return;
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
-    const prayer = this.currentPrayer;
     const isUnlocked = StorageService.isAccessUnlocked();
 
     this.modal.innerHTML = `
@@ -165,18 +211,17 @@ export class SocialShareComponent {
     const closeBtn = document.getElementById('btn-close-share-modal');
     if (closeBtn) closeBtn.addEventListener('click', () => this.close());
 
-    const prayer = this.currentPrayer;
+    const item = this.currentPrayer;
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
 
-    const title = (prayer.titulo && (prayer.titulo[lang] || prayer.titulo.es || prayer.titulo.en || Object.values(prayer.titulo)[0])) || 'Plegaria Sagrada';
-    const transMap = prayer.traducciones || prayer.traduccion || {};
-    const textToShare = transMap[lang] || transMap.es || transMap.en || Object.values(transMap)[0] || prayer.textoOriginal || '';
+    const title = getShareItemTitle(item, lang);
+    const textToShare = getShareItemText(item, lang, this.customText);
 
     // FIRMA LITÚRGICA SAGRADA Y DIFUSIÓN VIRAL ELEGANTE (CERO EMOJIS, 17 IDIOMAS)
     const attribLine = t('share_attribution_line', lang) || '✦ Compartido a través de FeUniversal · Faith & Prayers';
     const sanctuaryTagline = t('share_sanctuary_tagline', lang) || 'Santuario Espiritual Universal';
-    const canonicalUrl = 'https://feuniversal.app';
+    const canonicalUrl = 'https://betoles.github.io/feuniversal.app';
     const sacredAttribution = `\n\n—\n${attribLine}\n${sanctuaryTagline}\n${canonicalUrl}`;
 
     // Payload completo para copiar y compartir en mensajería
@@ -319,7 +364,7 @@ export class SocialShareComponent {
           mem.open();
           return;
         }
-        this.generateStoryCardCanvas(prayer);
+        this.generateStoryCardCanvas(this.currentPrayer);
       });
     }
   }
@@ -363,54 +408,60 @@ export class SocialShareComponent {
     ctx.fillStyle = '#f59e0b';
     ctx.font = 'bold 36px "Cinzel", Georgia, serif';
     ctx.textAlign = 'center';
-    ctx.fillText('FEUNIVERSAL · FAITH & PRAYERS', 540, 180);
+    ctx.fillText('FEUNIVERSAL · FAITH & PRAYERS', 540, 175);
 
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.65)';
-    ctx.font = '24px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText('SANTUARIO UNIVERSAL DE ORACIÓN', 540, 224);
+    const sanctuarySubtitle = (t('share_sanctuary_tagline', lang) || 'Santuario Espiritual Universal').toUpperCase();
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.75)';
+    ctx.font = '22px "Plus Jakarta Sans", sans-serif';
+    ctx.fillText(sanctuarySubtitle, 540, 218);
 
     // 5. Destello central decorativo
     ctx.fillStyle = '#fbbf24';
-    ctx.font = 'bold 48px "Cinzel", Georgia, serif';
-    ctx.fillText('✦ ✦ ✦', 540, 330);
-
-    // 6. Tradición Pill
-    const tradKey = prayer.tradicion || 'universal';
-    const tradObj = getTradition(tradKey);
-    const tradName = tradObj.nombre[lang] || tradObj.nombre.es || tradKey;
-    ctx.fillStyle = 'rgba(234, 179, 8, 0.22)';
-    ctx.fillRect(330, 390, 420, 52);
-    ctx.strokeStyle = 'rgba(234, 179, 8, 0.55)';
-    ctx.strokeRect(330, 390, 420, 52);
-    ctx.fillStyle = '#fef08a';
-    ctx.font = 'bold 22px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText(String(tradName).toUpperCase().replace('_', ' '), 540, 424);
-
-    // 7. Título de la Oración (Multilínea)
-    const titleText = (prayer.titulo && (prayer.titulo[lang] || prayer.titulo.es || prayer.titulo.en || Object.values(prayer.titulo)[0])) || 'Plegaria Sagrada';
-    ctx.fillStyle = '#ffffff';
     ctx.font = 'bold 44px "Cinzel", Georgia, serif';
-    this.wrapText(ctx, titleText, 540, 520, 840, 54);
+    ctx.fillText('✦ ✦ ✦', 540, 310);
 
-    // 8. Texto Sagrado de la Plegaria (En el idioma seleccionado por el usuario)
-    const transMap = prayer.traducciones || prayer.traduccion || {};
-    const prayerText = transMap[lang] || transMap.es || transMap.en || Object.values(transMap)[0] || prayer.textoOriginal || '';
+    // 6. Tradición Pill Adaptativo
+    const tradName = getShareItemTradition(prayer, lang);
+    ctx.font = 'bold 22px "Plus Jakarta Sans", sans-serif';
+    const textMeasure = ctx.measureText(tradName);
+    const pillWidth = Math.min(840, Math.max(340, textMeasure.width + 50));
+    const pillX = 540 - pillWidth / 2;
+    
+    ctx.fillStyle = 'rgba(234, 179, 8, 0.20)';
+    ctx.fillRect(pillX, 365, pillWidth, 50);
+    ctx.strokeStyle = 'rgba(234, 179, 8, 0.55)';
+    ctx.lineWidth = 1.5;
+    ctx.strokeRect(pillX, 365, pillWidth, 50);
+    ctx.fillStyle = '#fef08a';
+    ctx.fillText(tradName, 540, 398);
+
+    // 7. Título de la Oración o Escritura (Multilínea)
+    const titleText = getShareItemTitle(prayer, lang);
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 40px "Cinzel", Georgia, serif';
+    this.wrapText(ctx, titleText, 540, 485, 840, 48, 680);
+
+    // 8. Texto Sagrado de la Plegaria / Versículo
+    const rawPrayerText = getShareItemText(prayer, lang, this.customText);
+    const cleanPrayerText = rawPrayerText.replace(/^\d+\.\s*/gm, '').replace(/\n+/g, ' ').trim();
+    const snippet = cleanPrayerText.substring(0, 320) + (cleanPrayerText.length > 320 ? '...' : '');
+
     ctx.fillStyle = 'rgba(248, 250, 252, 0.95)';
-    ctx.font = '32px "Plus Jakarta Sans", sans-serif';
-    this.wrapText(ctx, '« ' + prayerText.substring(0, 380) + '... »', 540, 900, 820, 48);
+    ctx.font = '30px "Plus Jakarta Sans", sans-serif';
+    this.wrapText(ctx, '« ' + snippet + ' »', 540, 760, 840, 44, 1260);
 
     // 9. Pie de Foto / Invitación
     ctx.fillStyle = '#f59e0b';
     ctx.font = 'bold 24px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText(t('share_story_card_cta_prefix', lang) || 'Reza la devoción completa y enciende tu veladora en:', 540, 1370);
+    ctx.fillText(t('share_story_card_cta_prefix', lang) || 'Reza la devoción completa y enciende tu veladora en:', 540, 1345);
 
     ctx.fillStyle = '#38bdf8';
-    ctx.font = 'bold 32px "JetBrains Mono", monospace';
-    ctx.fillText('feuniversal.app', 540, 1415);
+    ctx.font = 'bold 30px "JetBrains Mono", monospace';
+    ctx.fillText('feuniversal.app', 540, 1390);
 
     // 9.1 MEDALLÓN OFICIAL FEUNIVERSAL EN EL PIE DE LA TARJETA
     const iconX = 540;
-    const iconY = 1500;
+    const iconY = 1475;
     const iconRadius = 38;
 
     // Halo de resplandor áureo del logo
@@ -462,13 +513,13 @@ export class SocialShareComponent {
     // 9.2 CORREO DE OUTLOOK Y LEYENDA DE PETICIÓN (Debajo del ícono y dentro del marco)
     ctx.fillStyle = '#fde047';
     ctx.font = 'bold 22px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText('feuniversal_faith_and_prayers@outlook.com', 540, 1590);
+    ctx.fillText('feuniversal_faith_and_prayers@outlook.com', 540, 1565);
 
     const petitionLegend = t('share_card_petition_legend', lang) || '« Si deseas que tu oración favorita se incluya, escríbenos tu petición y haremos lo posible por integrarla a FeUniversal. Que así sea... »';
     
-    ctx.fillStyle = 'rgba(226, 232, 240, 0.92)';
-    ctx.font = 'italic 20px "Plus Jakarta Sans", sans-serif';
-    this.wrapText(ctx, petitionLegend, 540, 1640, 800, 28, 1800);
+    ctx.fillStyle = 'rgba(241, 245, 249, 0.95)';
+    ctx.font = 'italic 23px "Plus Jakarta Sans", sans-serif';
+    this.wrapText(ctx, petitionLegend, 540, 1615, 840, 32, 1820);
 
     // 10. Descargar de forma instantánea
     try {
@@ -512,6 +563,8 @@ export class SocialShareComponent {
         line = testLine;
       }
     }
-    ctx.fillText(line.trim(), x, currentY);
+    if (currentY <= maxY) {
+      ctx.fillText(line.trim(), x, currentY);
+    }
   }
 }

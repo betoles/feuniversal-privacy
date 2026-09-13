@@ -26,7 +26,7 @@ export class OnboardingComponent {
       el.id = 'modal-onboarding';
       document.body.appendChild(el);
     }
-    el.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 4000; padding: 12px 10px 80px; align-items: center; justify-content: center; box-sizing: border-box; overflow-y: auto;';
+    el.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 4000; padding: 12px 10px 80px; align-items: flex-start; justify-content: center; box-sizing: border-box; overflow-y: auto; -webkit-overflow-scrolling: touch;';
     this.container = el;
   }
 
@@ -35,6 +35,7 @@ export class OnboardingComponent {
     this.currentStep = step || 1;
     this.render();
     this.container.style.display = 'flex';
+    if (this.container) this.container.scrollTop = 0;
   }
 
   close() {
@@ -54,6 +55,8 @@ export class OnboardingComponent {
 
   renderStep1Language(currentLang) {
     const isLangRTL = typeof currentLang === 'string' && ['ar', 'he', 'ur'].includes(currentLang);
+    const scrollList = this.container ? this.container.querySelector('.onboarding-scroll-list') : null;
+    const prevScrollTop = scrollList ? scrollList.scrollTop : null;
 
     const langGridHTML = SUPPORTED_LANGUAGES.map(lang => {
       const isSelected = lang.code === currentLang;
@@ -90,7 +93,7 @@ export class OnboardingComponent {
           </p>
         </div>
 
-        <div style="overflow-y: auto; padding-right: 4px; flex: 1; margin-bottom: 12px;">
+        <div class="onboarding-scroll-list" style="overflow-y: auto; padding-right: 4px; flex: 1; margin-bottom: 12px; overscroll-behavior: contain;">
           ${langGridHTML}
         </div>
 
@@ -109,9 +112,20 @@ export class OnboardingComponent {
     `;
 
     this.attachStep1Events();
+
+    if (prevScrollTop !== null) {
+      const newScrollList = this.container.querySelector('.onboarding-scroll-list');
+      if (newScrollList) {
+        newScrollList.scrollTop = prevScrollTop;
+      }
+    }
   }
 
   renderStep2Traditions(prefs, lang) {
+    const isLangRTL = typeof lang === 'string' && ['ar', 'he', 'ur'].includes(lang);
+    const scrollList = this.container ? this.container.querySelector('.onboarding-scroll-list') : null;
+    const prevScrollTop = scrollList ? scrollList.scrollTop : null;
+
     const traditionsHTML = Object.values(TRADITIONS).map(trad => {
       const isChecked = prefs.tradicionesActivas.includes(trad.id);
       const color = trad.colorAcento || 'var(--accent-gold)';
@@ -132,28 +146,28 @@ export class OnboardingComponent {
           </div>
           <label class="hud-switch" style="flex-shrink: 0; margin-left: 6px;">
             <input type="checkbox" class="tradition-toggle" data-trad-id="${trad.id}" ${isChecked ? 'checked' : ''}>
-            <span class="hud-slider"></span>
+              <span class="hud-slider"></span>
           </label>
         </div>
       `;
     }).join('');
 
     this.container.innerHTML = `
-      <div class="crystal-card" style="max-width: 520px; width: 100%; margin: auto; padding: 22px 18px; position: relative; max-height: 88vh; display: flex; flex-direction: column; box-sizing: border-box;">
-        <button id="btn-close-onboarding" class="btn-modal-close" title="Cerrar">${renderIcon('ui_close')}</button>
+      <div class="crystal-card" dir="${isLangRTL ? 'rtl' : 'ltr'}" style="max-width: 520px; width: 100%; margin: auto; padding: 22px 18px; position: relative; max-height: 88vh; display: flex; flex-direction: column; box-sizing: border-box; text-align: ${isLangRTL ? 'right' : 'left'};">
+        <button id="btn-close-onboarding" class="btn-modal-close" style="position: absolute; top: 12px; inset-inline-end: 12px;" title="${t('close_label', lang) || 'Cerrar'}">${renderIcon('ui_close')}</button>
         
         <div style="text-align: center; margin-bottom: 12px; flex-shrink: 0;">
-          <div style="width: 44px; height: 44px; margin: 0 auto 6px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-gold), var(--accent-indigo)); display: flex; align-items: center; justify-content: center; color: #fff;">
-            ${renderIcon('brand_logo')}
+          <div style="width: 44px; height: 44px; margin: 0 auto 6px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 16px var(--accent-gold-glow); border: 1.5px solid rgba(212, 175, 55, 0.4); overflow: hidden; background: #000;">
+            <img src="ico.png?v=5.0" alt="FeUniversal" style="width: 44px; height: 44px; min-width: 44px; min-height: 44px; max-width: 44px; max-height: 44px; object-fit: cover; border-radius: 50%; display: block;" />
           </div>
           <div class="hud-pill dot-cyan" style="display: inline-block; font-size: 0.65rem; margin-bottom: 4px;">${t('onboarding_step_2_of_2', lang) || 'PASO 2 DE 2'}</div>
-          <h2 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; margin: 0 0 4px;">${t('onboarding_customize_traditions', lang) || 'Personaliza tus Tradiciones'}</h2>
-          <p style="font-size: 0.76rem; color: var(--text-secondary); margin: 0; line-height: 1.4; max-width: 440px; margin: 0 auto;">
+          <h2 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; margin: 0 0 4px; text-align: center;">${t('onboarding_customize_traditions', lang) || 'Personaliza tus Tradiciones'}</h2>
+          <p style="font-size: 0.76rem; color: var(--text-secondary); margin: 0; line-height: 1.4; max-width: 440px; margin: 0 auto; text-align: center;">
             ${t('onboarding_traditions_desc', lang) || 'Selecciona las corrientes devocionales para tu santuario sagrado e íntimo.'}
           </p>
         </div>
 
-        <div style="overflow-y: auto; padding-right: 4px; flex: 1; margin-bottom: 12px;">
+        <div class="onboarding-scroll-list" style="overflow-y: auto; padding-right: 4px; flex: 1; margin-bottom: 12px; overscroll-behavior: contain;">
           ${traditionsHTML}
         </div>
 
@@ -165,6 +179,13 @@ export class OnboardingComponent {
     `;
 
     this.attachStep2Events();
+
+    if (prevScrollTop !== null) {
+      const newScrollList = this.container.querySelector('.onboarding-scroll-list');
+      if (newScrollList) {
+        newScrollList.scrollTop = prevScrollTop;
+      }
+    }
   }
 
   attachStep1Events() {

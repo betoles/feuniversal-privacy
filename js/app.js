@@ -3,30 +3,30 @@
  * Unifica la arquitectura de datos, el HUD Glassmorphic y las funcionalidades interactivas.
  */
 
-import { TRADITIONS, getTradition } from './data/traditions.js';
-import { INTENTIONS, CANONICAL_INTENTIONS, EMOTIONAL_STATES, getCanonicalIntention } from './data/intentions.js';
-import { PRAYERS_DB } from './data/prayers-db.js';
-import { PrayerCorpusService } from './services/prayer-corpus-service.js';
-import { StorageService } from './services/storage-service.js';
-import { soundManager } from './services/sound-service.js';
-import { renderIcon, renderLangBadge } from './components/icons.js';
-import { t, isRTL } from './data/i18n.js';
+import { TRADITIONS, getTradition } from './data/traditions.js?v=9.3.0';
+import { INTENTIONS, CANONICAL_INTENTIONS, EMOTIONAL_STATES, getCanonicalIntention } from './data/intentions.js?v=9.3.0';
+import { PRAYERS_DB } from './data/prayers-db.js?v=9.3.0';
+import { PrayerCorpusService } from './services/prayer-corpus-service.js?v=9.3.0';
+import { StorageService } from './services/storage-service.js?v=9.3.0';
+import { soundManager } from './services/sound-service.js?v=9.3.0';
+import { renderIcon, renderLangBadge } from './components/icons.js?v=9.3.0';
+import { t, isRTL } from './data/i18n.js?v=9.3.0';
 
-import { OnboardingComponent } from './components/onboarding.js';
-import { MirrorReaderComponent } from './components/mirror-reader.js';
-import { AltarComponent } from './components/altar.js';
-import { BeadCounterComponent } from './components/bead-counter.js';
-import { VaultComponent } from './components/vault.js';
-import { SpiritualCompassComponent } from './components/spiritual-compass.js';
-import { SacredHabitComponent } from './components/sacred-habit.js';
-import { SacredSoundPicker } from './components/sacred-sound-picker.js';
-import { NovenaModalComponent } from './components/novena-modal.js';
-import { NotificationModalComponent } from './components/notification-modal.js';
-import { ScripturesViewComponent } from './components/scriptures-view.js';
-import { MembershipComponent } from './components/membership.js';
-import { LanguageModalComponent } from './components/language-modal.js';
-import { SacredDialog } from './components/sacred-dialog.js';
-import { PrivacyModalComponent } from './components/privacy-modal.js';
+import { OnboardingComponent } from './components/onboarding.js?v=9.3.0';
+import { MirrorReaderComponent } from './components/mirror-reader.js?v=9.3.0';
+import { AltarComponent } from './components/altar.js?v=9.3.0';
+import { BeadCounterComponent } from './components/bead-counter.js?v=9.3.0';
+import { VaultComponent } from './components/vault.js?v=9.3.0';
+import { SpiritualCompassComponent } from './components/spiritual-compass.js?v=9.3.0';
+import { SacredHabitComponent } from './components/sacred-habit.js?v=9.3.0';
+import { SacredSoundPicker } from './components/sacred-sound-picker.js?v=9.3.0';
+import { NovenaModalComponent } from './components/novena-modal.js?v=9.3.0';
+import { NotificationModalComponent } from './components/notification-modal.js?v=9.3.0';
+import { ScripturesViewComponent } from './components/scriptures-view.js?v=9.3.0';
+import { MembershipComponent } from './components/membership.js?v=9.3.0';
+import { LanguageModalComponent } from './components/language-modal.js?v=9.3.0';
+import { SacredDialog } from './components/sacred-dialog.js?v=9.3.0';
+import { PrivacyModalComponent } from './components/privacy-modal.js?v=9.3.0';
 
 
 export class FeUniversalApp {
@@ -85,11 +85,57 @@ export class FeUniversalApp {
     try { this.renderDashboard(); } catch (e) { console.warn('Error renderDashboard:', e); }
     try { this.attachGlobalEvents(); } catch (e) { console.warn('Error attachGlobalEvents:', e); }
     try { this.initAndroidBackButtonHandler(); } catch (e) { console.warn('Error initAndroidBackButtonHandler:', e); }
+    try { this.checkPayPalBillingReturn(); } catch (e) { console.warn('Error checkPayPalBillingReturn:', e); }
 
     if (!this.prefs.onboardingCompletado) {
       setTimeout(() => this.onboarding.open(1), 500);
     } else if (StorageService.shouldShowWeeklyPaywallReminder()) {
       setTimeout(() => this.membership.open(true), 1200);
+    }
+  }
+
+  checkPayPalBillingReturn() {
+    if (typeof window === 'undefined') return;
+    const urlParams = new URLSearchParams(window.location.search);
+    const billing = urlParams.get('billing');
+    const plan = urlParams.get('plan') || 'annual';
+
+    if (billing === 'paypal_success') {
+      StorageService.activateSubscription(plan);
+      const lang = this.prefs.idioma || 'es';
+      setTimeout(() => {
+        SacredDialog.alert({
+          title: t('membership_pass_activated_title', lang) || 'Bendición Activada con Éxito',
+          message: t('membership_paypal_success_msg', lang) || 'Tu membresía a FeUniversal Santuario PRO ha sido confirmada vía PayPal. ¡Disfruta de acceso total e ilimitado!',
+          icon: 'ui_check',
+          buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'Aceptar',
+          type: 'gold'
+        });
+        const badge = document.getElementById('header-membership-badge');
+        if (badge) badge.innerHTML = '👑 <span>PRO</span>';
+      }, 600);
+
+      // Limpiar URL
+      try {
+        const cleanUrl = window.location.pathname + window.location.hash;
+        window.history.replaceState({}, document.title, cleanUrl);
+      } catch (e) {}
+    } else if (billing === 'paypal_offering_success') {
+      const lang = this.prefs.idioma || 'es';
+      setTimeout(() => {
+        SacredDialog.alert({
+          title: t('micro_offering_thanks_title', lang) || 'Micro-Ofrenda Litúrgica ($0.49 USD)',
+          message: t('micro_offering_thanks_msg', lang) || '¡Muchas gracias por tu generosidad! Tu ofrenda apadrina la traducción de nuevas oraciones y preserva el santuario universal.',
+          icon: 'ui_heart',
+          buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'Aceptar',
+          type: 'gold'
+        });
+      }, 600);
+
+      try {
+        const cleanUrl = window.location.pathname + window.location.hash;
+        window.history.replaceState({}, document.title, cleanUrl);
+      } catch (e) {}
     }
   }
 
@@ -143,6 +189,7 @@ export class FeUniversalApp {
       { id: 'modal-faithgpt-provider-picker', close: () => { const el = document.getElementById('modal-faithgpt-provider-picker'); if (el) el.style.display = 'none'; } },
       { id: 'modal-faithgpt-tradition-picker', close: () => { const el = document.getElementById('modal-faithgpt-tradition-picker'); if (el) el.style.display = 'none'; } },
       { id: 'modal-ai-settings', close: () => { const el = document.getElementById('modal-ai-settings'); if (el) el.style.display = 'none'; } },
+      { id: 'modal-gemini-model-picker', close: () => { const el = document.getElementById('modal-gemini-model-picker'); if (el) el.style.display = 'none'; } },
       { id: 'modal-new-candle', close: () => { const el = document.getElementById('modal-new-candle'); if (el) el.style.display = 'none'; } },
       { id: 'modal-novenas-interactive', close: () => { if (this.novenasModal) this.novenasModal.close(); else { const el = document.getElementById('modal-novenas-interactive'); if (el) el.style.display = 'none'; } } },
       { id: 'modal-compass', close: () => { if (this.spiritualCompass) this.spiritualCompass.close(); else { const el = document.getElementById('modal-compass'); if (el) el.style.display = 'none'; } } },

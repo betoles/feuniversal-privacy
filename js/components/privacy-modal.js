@@ -56,6 +56,58 @@ export class PrivacyModalComponent {
 
     const isRtl = legalData.dir === 'rtl';
 
+    const sectionKeys = [
+      'sec1', 'sec2', 'sec3', 'sec4', 'sec5', 'sec6',
+      'sec7', 'sec8', 'sec9', 'sec10', 'sec11', 'sec12', 'sec13'
+    ];
+
+    const sectionsHtml = sectionKeys.map(key => {
+      const sec = legalData[key];
+      if (!sec) return '';
+      const isMedical = key === 'sec9';
+      const isLanguage = key === 'sec13';
+
+      if (isMedical) {
+        return `
+          <!-- Artículo 09: Descargo de Salud (Google Play Health) -->
+          <div style="padding: 16px 18px; border-radius: 14px; background: rgba(244, 63, 94, 0.09); border: 1.5px solid rgba(244, 63, 94, 0.35);">
+            <h4 style="color: #fb7185; font-size: 0.94rem; margin: 0 0 8px; font-weight: 700; display: flex; align-items: center; gap: 8px;">
+              <span style="color: #f43f5e; font-family: var(--font-code); font-weight: 800; font-size: 0.90rem;">${sec.num || '09'}.</span>
+              <span style="line-height: 1.35;">${sec.title || ''}</span>
+            </h4>
+            <div style="color: #fecdd3; font-size: 0.86rem; text-align: justify; text-justify: inter-word; line-height: 1.6;">${sec.p1 || ''}</div>
+            ${sec.p2 ? `<div style="color: #fecdd3; margin-top: 8px; font-size: 0.86rem; text-align: justify; text-justify: inter-word; line-height: 1.6;">${sec.p2}</div>` : ''}
+          </div>
+        `;
+      }
+
+      if (isLanguage) {
+        return `
+          <!-- Artículo 13: Cláusula de Idioma Canónico -->
+          <div style="padding: 16px 18px; border-radius: 14px; background: rgba(197, 160, 89, 0.12); border: 1.5px solid rgba(197, 160, 89, 0.4);">
+            <h4 style="color: #fef08a; font-size: 0.94rem; margin: 0 0 8px; font-weight: 700; display: flex; align-items: center; gap: 8px;">
+              <span style="color: var(--accent-gold); font-family: var(--font-code); font-weight: 800; font-size: 0.90rem;">${sec.num || '13'}.</span>
+              <span style="line-height: 1.35;">${sec.title || ''}</span>
+            </h4>
+            <div style="color: #fef08a; font-size: 0.86rem; text-align: justify; text-justify: inter-word; line-height: 1.6;">${sec.p1 || ''}</div>
+            ${sec.p2 ? `<div style="color: #fef08a; margin-top: 8px; font-size: 0.86rem; text-align: justify; text-justify: inter-word; line-height: 1.6;">${sec.p2}</div>` : ''}
+          </div>
+        `;
+      }
+
+      return `
+        <!-- Artículo ${sec.num || key} -->
+        <div style="padding: 16px 18px; border-radius: 14px; background: rgba(30, 41, 59, 0.55); border: 1px solid rgba(255, 255, 255, 0.08);">
+          <h4 style="color: #ffffff; font-size: 0.94rem; margin: 0 0 8px; font-weight: 700; display: flex; align-items: center; gap: 8px;">
+            <span style="color: var(--accent-gold); font-family: var(--font-code); font-weight: 800; font-size: 0.90rem;">${sec.num || ''}.</span>
+            <span style="line-height: 1.35;">${sec.title || ''}</span>
+          </h4>
+          <div style="color: #cbd5e1; font-size: 0.86rem; text-align: justify; text-justify: inter-word; line-height: 1.6;">${sec.p1 || ''}</div>
+          ${sec.p2 ? `<div style="color: #cbd5e1; margin-top: 8px; font-size: 0.86rem; text-align: justify; text-justify: inter-word; line-height: 1.6;">${sec.p2}</div>` : ''}
+        </div>
+      `;
+    }).join('');
+
     this.container.innerHTML = `
       <div class="crystal-card" style="background: #131b2e; border: 1.5px solid rgba(255, 255, 255, 0.14); border-radius: 22px; width: 100%; max-width: 680px; max-height: 88vh; display: flex; flex-direction: column; box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.9); overflow: hidden; font-family: 'Outfit', sans-serif; color: #f8fafc; position: relative;" dir="${isRtl ? 'rtl' : 'ltr'}">
         
@@ -75,40 +127,23 @@ export class PrivacyModalComponent {
           </button>
         </div>
 
-        <!-- Contenido Justificado y Formateado -->
+        <!-- Contenido Justificado y Formateado con Todas las Cláusulas -->
         <div style="padding: 20px 22px; overflow-y: auto; font-size: 0.88rem; line-height: 1.75; color: #cbd5e1; display: flex; flex-direction: column; gap: 16px; flex: 1; text-align: justify; text-justify: inter-word;">
           
-          <!-- Cláusula de Idioma Canónico -->
-          <div style="padding: 12px 16px; border-radius: 14px; background: rgba(197, 160, 89, 0.1); border: 1px solid rgba(197, 160, 89, 0.35); font-size: 0.82rem; color: #fef08a; text-align: justify; text-justify: inter-word;">
-            <strong style="color: #fde047;">${legalData.sec13?.title || 'Idioma Prevaleciente y Referencia Canónica'}:</strong> ${legalData.sec13?.p1 || 'La versión oficial y jurídicamente vinculante de este documento ha sido redactada en Español (México).'}
+          <!-- Banner de Encabezado y Versión Oficial -->
+          <div style="padding: 12px 16px; border-radius: 14px; background: rgba(197, 160, 89, 0.1); border: 1px solid rgba(197, 160, 89, 0.35); font-size: 0.82rem; color: #fef08a; text-align: justify; text-justify: inter-word; display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span style="width: 18px; height: 18px; display: inline-flex; color: var(--accent-gold);">${renderIcon('ui_shield')}</span>
+              <strong style="color: #fde047;">${legalData.badge || 'Versión Canónica Oficial'}:</strong>
+              <span>${legalData.header?.version || '8.1.0'}</span>
+            </div>
+            <div style="font-size: 0.75rem; color: #cbd5e1; opacity: 0.9;">
+              ${legalData.header?.effective_date || 'Septiembre de 2026'}
+            </div>
           </div>
 
-          <!-- Artículo 01: Sin Publicidad -->
-          <div style="padding: 16px 18px; border-radius: 14px; background: rgba(30, 41, 59, 0.55); border: 1px solid rgba(255, 255, 255, 0.08);">
-            <h4 style="color: #ffffff; font-size: 0.94rem; margin-bottom: 6px; font-weight: 700; display: flex; align-items: center; gap: 8px;">
-              <span style="color: var(--accent-gold); font-family: var(--font-code); font-weight: 800;">${legalData.sec1?.num || '01'}.</span>
-              <span>${legalData.sec1?.title || 'Santuario Devocional Libre de Publicidad Comercial y Rastreo'}</span>
-            </h4>
-            <p style="margin: 0; color: #cbd5e1; font-size: 0.86rem; text-align: justify; text-justify: inter-word;">${legalData.sec1?.p1 || 'La plataforma FeUniversal es un santuario espiritual libre de publicidad invasiva, banners comerciales, rastreadores ni mecanismos de monetización por terceros.'}</p>
-          </div>
-
-          <!-- Artículo 02: Cero Recolección -->
-          <div style="padding: 16px 18px; border-radius: 14px; background: rgba(30, 41, 59, 0.55); border: 1px solid rgba(255, 255, 255, 0.08);">
-            <h4 style="color: #ffffff; font-size: 0.94rem; margin-bottom: 6px; font-weight: 700; display: flex; align-items: center; gap: 8px;">
-              <span style="color: var(--accent-gold); font-family: var(--font-code); font-weight: 800;">${legalData.sec2?.num || '02'}.</span>
-              <span>${legalData.sec2?.title || 'Política de Privacidad Estricta y Cero Recolección de Datos'}</span>
-            </h4>
-            <p style="margin: 0; color: #cbd5e1; font-size: 0.86rem; text-align: justify; text-justify: inter-word;">${legalData.sec2?.p1 || 'En estricto cumplimiento con el principio de minimización de datos (RGPD, CCPA/CPRA, LGPD), las oraciones y notas personales residen exclusivamente en su dispositivo.'}</p>
-          </div>
-
-          <!-- Artículo 09: Descargo de Salud (Google Play Health) -->
-          <div style="padding: 16px 18px; border-radius: 14px; background: rgba(244, 63, 94, 0.08); border: 1px solid rgba(244, 63, 94, 0.35);">
-            <h4 style="color: #fb7185; font-size: 0.94rem; margin-bottom: 6px; font-weight: 700; display: flex; align-items: center; gap: 8px;">
-              <span style="color: #f43f5e; font-family: var(--font-code); font-weight: 800;">${legalData.sec9?.num || '09'}.</span>
-              <span>${legalData.sec9?.title || 'Aviso Médico y Descargo de Salud (Google Play Health)'}</span>
-            </h4>
-            <p style="color: #fecdd3; margin: 0; font-size: 0.86rem; text-align: justify; text-justify: inter-word;">${legalData.sec9?.p1 || 'Las oraciones y reflexiones espirituales son un acompañamiento para la paz interior; no sustituyen el diagnóstico, tratamiento ni consejo de profesionales médicos cualificados.'}</p>
-          </div>
+          <!-- Todas las 13 Cláusulas Renderizadas Dinámicamente -->
+          ${sectionsHtml}
 
           <!-- Botón de Derecho al Olvido / Borrado Seguro -->
           <div style="padding: 16px 18px; border-radius: 16px; background: rgba(239, 68, 68, 0.07); border: 1.5px dashed rgba(239, 68, 68, 0.35); text-align: center; box-shadow: 0 4px 16px rgba(0,0,0,0.25);">
@@ -127,7 +162,7 @@ export class PrivacyModalComponent {
 
           <!-- Enlace al Documento Completo en 17 Idiomas -->
           <div style="text-align: center; margin-top: 4px; padding-bottom: 4px;">
-            <a href="privacy-policy.html" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; border-radius: var(--radius-full); background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #7dd3fc; text-decoration: none; font-weight: 700; font-size: 0.84rem; transition: all 0.2s;">
+            <a href="https://betoles.github.io/feuniversal-privacy/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; border-radius: var(--radius-full); background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #7dd3fc; text-decoration: none; font-weight: 700; font-size: 0.84rem; transition: all 0.2s;">
               <span>${t('privacy_open_legal_btn', lang) || 'Abrir documento legal completo (17 idiomas)'}</span>
               <span style="width: 14px; height: 14px; display: inline-flex;">${renderIcon('ui_sparkles')}</span>
             </a>

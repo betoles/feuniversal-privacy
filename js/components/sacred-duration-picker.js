@@ -192,9 +192,9 @@ export class SacredDurationPicker {
           <div style="display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0;">
             <div style="display: flex; align-items: center; justify-content: space-between; gap: 6px;">
               <span style="font-size: 0.84rem; font-weight: 800; color: var(--text-primary);">${def.title}</span>
-              ${dur.default ? `<span class="hud-pill dot-green" style="font-size: 0.60rem; padding: 1px 6px;">Canónico</span>` : ''}
+              ${dur.default ? `<span class="hud-pill dot-green" style="font-size: 0.60rem; padding: 1px 6px;">${t('canonical_badge', lang) || 'Canónico'}</span>` : ''}
             </div>
-            <span style="font-size: 0.70rem; color: var(--text-secondary); opacity: 0.85;">${dur.subtitle}</span>
+            <span style="font-size: 0.70rem; color: var(--text-secondary); opacity: 0.85;">${def.subtitle}</span>
           </div>
         </button>
       `;

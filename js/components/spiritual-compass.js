@@ -26,6 +26,11 @@ export class SpiritualCompassComponent {
     this.currentSkin = "classic_celestial"; // "classic_celestial" | "islamic_qibla" | "vedic_surya" | "zen_dharma"
     this.orientationListener = null;
     this.hasSensor = false;
+    this.isDesktopMode = false;
+    this.isDragging = false;
+    this.dragStartAngle = 0;
+    this.dragStartHeading = 0;
+    this.animFrameId = null;
     this.membership = new MembershipComponent();
   }
 
@@ -51,10 +56,15 @@ export class SpiritualCompassComponent {
     this.container.style.display = "flex";
     if (this.container) this.container.scrollTop = 0;
     this.startListening();
+    this.setupDesktopInteractions();
   }
 
   close() {
     this.stopListening();
+    if (this.animFrameId) {
+      cancelAnimationFrame(this.animFrameId);
+      this.animFrameId = null;
+    }
     if (this.container) this.container.style.display = "none";
   }
 
@@ -69,17 +79,22 @@ export class SpiritualCompassComponent {
   }
 
   startListening() {
+    // Check if device orientation is supported
+    let sensorReceived = false;
     this.orientationListener = (e) => {
       let heading = null;
       if (e.webkitCompassHeading !== undefined) {
         heading = e.webkitCompassHeading;
         this.hasSensor = true;
-      } else if (e.alpha !== null && e.alpha !== undefined) {
+        sensorReceived = true;
+      } else if (e.alpha !== null && e.alpha !== undefined && e.absolute) {
         heading = 360 - e.alpha;
         this.hasSensor = true;
+        sensorReceived = true;
       }
       if (heading !== null) {
         this.currentHeading = Math.round(heading);
+        this.isDesktopMode = false;
         this.updateCompassDisplay();
       }
     };
@@ -87,12 +102,124 @@ export class SpiritualCompassComponent {
     if (window.DeviceOrientationEvent) {
       window.addEventListener("deviceorientation", this.orientationListener, true);
     }
+
+    // After 800ms, if no hardware orientation sensor emitted data, activate desktop interactive mode
+    setTimeout(() => {
+      if (!sensorReceived) {
+        this.isDesktopMode = true;
+        this.updateSensorBadge();
+      }
+    }, 800);
   }
 
   stopListening() {
     if (this.orientationListener) {
       window.removeEventListener("deviceorientation", this.orientationListener, true);
       this.orientationListener = null;
+    }
+  }
+
+  setupDesktopInteractions() {
+    const ring = document.getElementById("compass-glow-ring");
+    if (!ring) return;
+
+    const getAngleFromEvent = (e) => {
+      const rect = ring.getBoundingClientRect();
+      const centerX = rect.left + rect.width / 2;
+      const centerY = rect.top + rect.height / 2;
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+      const rad = Math.atan2(clientY - centerY, clientX - centerX);
+      return (rad * 180 / Math.PI + 360) % 360;
+    };
+
+    const startDrag = (e) => {
+      this.isDragging = true;
+      this.dragStartAngle = getAngleFromEvent(e);
+      this.dragStartHeading = this.currentHeading;
+      ring.style.cursor = "grabbing";
+    };
+
+    const onDrag = (e) => {
+      if (!this.isDragging) return;
+      if (e.cancelable) e.preventDefault();
+      const currentAngle = getAngleFromEvent(e);
+      const delta = currentAngle - this.dragStartAngle;
+      this.currentHeading = Math.round((this.dragStartHeading + delta + 360) % 360);
+      this.updateCompassDisplay();
+    };
+
+    const endDrag = () => {
+      if (this.isDragging) {
+        this.isDragging = false;
+        ring.style.cursor = "grab";
+      }
+    };
+
+    ring.style.cursor = "grab";
+    ring.onmousedown = startDrag;
+    window.addEventListener("mousemove", onDrag);
+    window.addEventListener("mouseup", endDrag);
+
+    ring.ontouchstart = startDrag;
+    ring.ontouchmove = onDrag;
+    ring.ontouchend = endDrag;
+
+    // Keyboard navigation (Arrow keys)
+    window.onkeydown = (e) => {
+      if (this.container && this.container.style.display !== "none") {
+        if (e.key === "ArrowLeft") {
+          this.currentHeading = (this.currentHeading - 5 + 360) % 360;
+          this.updateCompassDisplay();
+        } else if (e.key === "ArrowRight") {
+          this.currentHeading = (this.currentHeading + 5) % 360;
+          this.updateCompassDisplay();
+        }
+      }
+    };
+  }
+
+  animateToHeading(target) {
+    if (this.animFrameId) cancelAnimationFrame(this.animFrameId);
+
+    const start = this.currentHeading;
+    let diff = (target - start + 360) % 360;
+    if (diff > 180) diff -= 360; // Shortest rotation path
+
+    const startTime = performance.now();
+    const duration = 900; // ms
+
+    const step = (now) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(1, elapsed / duration);
+      // Ease out cubic
+      const ease = 1 - Math.pow(1 - progress, 3);
+      this.currentHeading = Math.round((start + diff * ease + 360) % 360);
+      this.updateCompassDisplay();
+
+      if (progress < 1) {
+        this.animFrameId = requestAnimationFrame(step);
+      } else {
+        this.animFrameId = null;
+        if (navigator.vibrate) {
+          try { navigator.vibrate([40, 30, 40]); } catch (e) {}
+        }
+      }
+    };
+
+    this.animFrameId = requestAnimationFrame(step);
+  }
+
+  updateSensorBadge() {
+    const badge = document.getElementById("compass-sensor-badge");
+    if (badge) {
+      const prefs = StorageService.getPreferences();
+      const lang = prefs.idioma || "es";
+      if (this.isDesktopMode) {
+        badge.innerHTML = `💻 <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`;
+      } else {
+        badge.innerHTML = `📱 <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`;
+      }
     }
   }
 
@@ -402,24 +529,18 @@ export class SpiritualCompassComponent {
         </div>
 
         <!-- Selector de Modos de Orientación -->
-        <div class="crystal-segmented-control" style="width: 100%; margin-bottom: 14px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px;">
-          <button class="segmented-item ${this.currentMode === "qibla" ? "active" : ""}" data-compass-mode="qibla" style="font-size: 0.74rem; padding: 8px 4px; min-height: 42px;">
-            <span style="display: inline-flex; align-items: center; gap: 5px;">
-              <span style="width: 15px; height: 15px; display: inline-flex; color: var(--accent-gold);">${renderIcon("trad_islam")}</span>
-              <span>Qibla</span>
-            </span>
+        <div class="crystal-segmented-control" style="width: 100%; margin-bottom: 14px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; box-sizing: border-box; padding: 4px;">
+          <button type="button" class="segmented-item ${this.currentMode === "qibla" ? "active" : ""}" data-compass-mode="qibla" style="font-size: 0.72rem; padding: 6px 4px; min-height: 38px; min-width: 0; width: 100%; gap: 4px;">
+            <span style="width: 14px; height: 14px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-gold);">${renderIcon("trad_islam")}</span>
+            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 18px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_qibla", lang) || "Qibla"}</span>
           </button>
-          <button class="segmented-item ${this.currentMode === "east" ? "active" : ""}" data-compass-mode="east" style="font-size: 0.74rem; padding: 8px 4px; min-height: 42px;">
-            <span style="display: inline-flex; align-items: center; gap: 5px;">
-              <span style="width: 15px; height: 15px; display: inline-flex; color: var(--accent-rose);">${renderIcon("ui_sunrise_sunset")}</span>
-              <span>${t("compass_mode_east", lang) || "Oriente"}</span>
-            </span>
+          <button type="button" class="segmented-item ${this.currentMode === "east" ? "active" : ""}" data-compass-mode="east" style="font-size: 0.72rem; padding: 6px 4px; min-height: 38px; min-width: 0; width: 100%; gap: 4px;">
+            <span style="width: 14px; height: 14px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-rose);">${renderIcon("ui_sunrise_sunset")}</span>
+            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 18px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_east", lang) || "Oriente"}</span>
           </button>
-          <button class="segmented-item ${this.currentMode === "zen" ? "active" : ""}" data-compass-mode="zen" style="font-size: 0.74rem; padding: 8px 4px; min-height: 42px;">
-            <span style="display: inline-flex; align-items: center; gap: 5px;">
-              <span style="width: 15px; height: 15px; display: inline-flex; color: var(--accent-cyan);">${renderIcon("trad_budismo")}</span>
-              <span>${t("compass_mode_zen", lang) || "Zen Norte"}</span>
-            </span>
+          <button type="button" class="segmented-item ${this.currentMode === "zen" ? "active" : ""}" data-compass-mode="zen" style="font-size: 0.72rem; padding: 6px 4px; min-height: 38px; min-width: 0; width: 100%; gap: 4px;">
+            <span style="width: 14px; height: 14px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-cyan);">${renderIcon("trad_budismo")}</span>
+            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 18px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_zen", lang) || "Zen"}</span>
           </button>
         </div>
 
@@ -478,11 +599,25 @@ export class SpiritualCompassComponent {
           </div>
         </div>
 
-        <!-- Botón de Calibración Activa & Diagnóstico de Sensores -->
-        <button id="btn-calibrate-sensors" class="btn-crystal" style="font-size: 0.72rem; color: var(--text-secondary); text-align: center; padding: 9px 14px; background: var(--glass-surface-1); border-radius: var(--radius-sm); border: 1.5px solid var(--glass-border); width: 100%; box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: 7px; cursor: pointer; transition: all var(--transition-fast);">
-          <span id="calibrate-icon-box" style="width: 16px; height: 16px; display: inline-flex; color: var(--accent-gold); flex-shrink: 0;">${renderIcon("ui_device_calibrate")}</span>
-          <span id="calibrate-text-label">${t("compass_calibrate_hint", lang) || "Toca para calibrar sensores o gira tu móvil en 8"}</span>
-        </button>
+        <!-- Barra de Estado de Sensores / Modo Escritorio -->
+        <div id="compass-sensor-badge" style="margin-bottom: 12px; font-size: 0.72rem; color: var(--text-secondary); text-align: center; background: rgba(0,0,0,0.35); padding: 6px 12px; border-radius: var(--radius-full); border: 1px solid var(--glass-border); width: 100%; box-sizing: border-box;">
+          ${this.isDesktopMode 
+            ? `💻 <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`
+            : `📱 <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`}
+        </div>
+
+        <!-- Botones de Acción: Auto-Alineación y Calibración -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; box-sizing: border-box;">
+          <button id="btn-auto-align-compass" class="btn-crystal btn-crystal-gold" style="font-size: 0.74rem; font-weight: 800; padding: 10px 8px; border-radius: var(--radius-sm); display: inline-flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer;">
+            <span style="width: 15px; height: 15px; display: inline-flex; color: var(--accent-gold);">${renderIcon("ui_sparkles")}</span>
+            <span>${t("compass_auto_align", lang) || "Auto-Alinear"} (${this.targetHeading}°)</span>
+          </button>
+
+          <button id="btn-calibrate-sensors" class="btn-crystal" style="font-size: 0.72rem; color: var(--text-secondary); text-align: center; padding: 10px 8px; background: var(--glass-surface-1); border-radius: var(--radius-sm); border: 1.5px solid var(--glass-border); display: inline-flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer; transition: all var(--transition-fast);">
+            <span id="calibrate-icon-box" style="width: 15px; height: 15px; display: inline-flex; color: var(--accent-cyan); flex-shrink: 0;">${renderIcon("ui_device_calibrate")}</span>
+            <span id="calibrate-text-label">${t("compass_calibrate_hint", lang) || "Calibrar"}</span>
+          </button>
+        </div>
 
       </div>
     `;
@@ -499,6 +634,14 @@ export class SpiritualCompassComponent {
         this.render();
       };
     });
+
+    // Evento Auto-Alinear
+    const autoAlignBtn = document.getElementById("btn-auto-align-compass");
+    if (autoAlignBtn) {
+      autoAlignBtn.onclick = () => {
+        this.animateToHeading(this.targetHeading);
+      };
+    }
 
     // Eventos de Selector de Estilos 3D (Gratis y PRO)
     this.container.querySelectorAll(".btn-compass-skin").forEach((btn) => {
@@ -553,13 +696,13 @@ export class SpiritualCompassComponent {
         }
 
         if (label) {
-          const calMsg = t('compass_calibrated_msg', lang) || '✨ ¡Sensores Calibrados! Precisión Óptima';
+          const calMsg = t('compass_calibrated_msg', lang) || '✨ ¡Calibrado!';
           label.innerHTML = `<strong style="color: var(--accent-gold);">${calMsg}</strong>`;
         }
 
         setTimeout(() => {
           if (label) {
-            label.innerHTML = t("compass_calibrate_hint", lang) || "Toca para calibrar sensores o gira tu móvil en 8";
+            label.innerHTML = t("compass_calibrate_hint", lang) || "Calibrar";
           }
         }, 2800);
       };

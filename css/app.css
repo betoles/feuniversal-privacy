@@ -5,15 +5,18 @@
 
 /* Layout General Adaptable (Android, iOS, iPad, Desktop) */
 .app-container {
-  max-width: 1280px;
+  max-width: 680px;
+  width: 100%;
   margin: 0 auto;
-  padding-top: calc(14px + var(--sat));
+  padding-top: calc(12px + var(--sat));
   padding-bottom: calc(115px + var(--sab));
-  padding-left: calc(16px + var(--sal));
-  padding-right: calc(16px + var(--sar));
+  padding-left: calc(14px + var(--sal));
+  padding-right: calc(14px + var(--sar));
   position: relative;
   z-index: 1;
   box-sizing: border-box;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 /* Touch responsiveness para iOS Safari y Android */
@@ -34,24 +37,27 @@ button, input, select, textarea, .crystal-card, .bottom-nav-item, .tradition-chi
   border-radius: var(--radius-full);
   background: var(--glass-surface-1);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--glass-border);
   box-sizing: border-box;
 }
 
-/* HEADER EN DOS RENGLONES ERGONÓMICOS (MOBILE-FIRST) */
+/* HEADER EN DOS RENGLONES ERGONÓMICOS (MOBILE-FIRST & DESKTOP ADAPTIVE) */
 .hud-header-dual {
   width: 100%;
   padding: 12px 14px 10px;
   background: var(--glass-surface-1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--glass-border);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 10px;
   position: relative;
   z-index: 100;
+  margin-bottom: 14px;
 }
 
 .hud-header-top-row {
@@ -549,7 +555,7 @@ button, input, select, textarea, .crystal-card, .bottom-nav-item, .tradition-chi
   }
 }
 
-.pane-sacred, .pane-translation {
+.pane-sacred, .pane-translation, .pane-translation-block {
   background: var(--glass-surface-2);
   border-radius: var(--radius-lg);
   padding: 24px 22px;
@@ -623,6 +629,101 @@ button, input, select, textarea, .crystal-card, .bottom-nav-item, .tradition-chi
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
+}
+
+/* ==========================================================================
+   GRAN BIBLIOTECA DE LAS SAGRADAS ESCRITURAS (RESPONSIVE SCRIPTORIUM)
+   ========================================================================== */
+.scripture-hero-desc {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 16px;
+  line-height: 1.45;
+}
+
+@media (min-width: 768px) {
+  .scripture-hero-desc {
+    max-width: 780px;
+    font-size: 0.90rem;
+  }
+}
+
+.scripture-controls-wrap {
+  max-width: 600px;
+  margin: 0 auto 14px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .scripture-controls-wrap {
+    max-width: 960px;
+  }
+}
+
+.scripture-card-container {
+  max-width: 1080px;
+  margin: 0 auto 30px;
+  padding: 0 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .scripture-card-container {
+    padding: 0 4px;
+  }
+}
+
+.scripture-panes-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.scripture-panes-wrapper > .pane-sacred,
+.scripture-panes-wrapper > .pane-translation-block {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (min-width: 861px) {
+  .scripture-panes-wrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px;
+    align-items: stretch;
+  }
+  
+  .scripture-panes-wrapper > .pane-sacred,
+  .scripture-panes-wrapper > .pane-translation-block {
+    margin-bottom: 0 !important;
+    height: auto;
+    min-height: 100%;
+  }
+}
+
+.scripture-nav-bottom {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  box-sizing: border-box;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -1150,15 +1251,16 @@ button, input, select, textarea, .crystal-card, .bottom-nav-item, .tradition-chi
   #modal-notification-schedule > div,
   #modal-translation-report > div,
   #modal-membership > div {
-    margin: auto !important;
+    margin: 0 auto 24px !important;
     padding: 20px 16px 28px !important;
     width: 100% !important;
     max-width: 480px !important;
-    max-height: 88vh !important;
-    overflow-y: auto !important;
+    max-height: none !important;
+    overflow-y: visible !important;
     overflow-x: hidden !important;
     box-sizing: border-box !important;
     -webkit-overflow-scrolling: touch;
+    flex-shrink: 0 !important;
   }
 }
 
@@ -1931,4 +2033,58 @@ html[lang="ar"], [lang="ar"] {
 
 [dir="rtl"] .ritual-suggested-card {
   direction: rtl;
+}
+
+/* ==========================================================================
+   BLINDAJE Y COMPATIBILIDAD UNIVERSAL MULTI-NAVEGADOR & MULTI-DISPOSITIVO
+   Safari (iOS/macOS), Chrome (Android/Windows/macOS), Firefox, Edge, iPadOS
+   ========================================================================== */
+
+/* 1. Reset Global y Renderizado Tipográfico Nítido */
+html, body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Prevención de Rebotes Elásticos Rotos en Safari / iOS */
+body.app-viewport {
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 3. Normalización de Inputs y Botones en WebKit / Safari */
+input[type="text"],
+input[type="search"],
+button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 4. Adaptabilidad Responsiva para iPad, Tablets y Monitores Desktop */
+@media (min-width: 768px) {
+  .app-container {
+    max-width: 680px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+
+  .hud-header-dual {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--glass-shadow-sm);
+  }
+}
+
+@media (min-width: 1200px) {
+  .app-container {
+    max-width: 720px;
+  }
 }

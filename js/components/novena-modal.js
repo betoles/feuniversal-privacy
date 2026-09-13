@@ -6,12 +6,21 @@
  * oraciones preparatorias, reflexiones y conexión con el Altar Virtual.
  */
 
-import { NOVENAS_DB } from '../data/novenas-db.js';
+import { NOVENAS_DB } from '../data/novenas-db.js?v=9.3.0';
 import { StorageService } from '../services/storage-service.js';
 import { soundManager } from '../services/sound-service.js';
 import { renderIcon } from './icons.js';
 import { SacredDialog } from './sacred-dialog.js';
 import { t, isRTL } from '../data/i18n.js';
+
+function getNovenaI18n(obj, lang) {
+  if (!obj) return '';
+  if (typeof obj === 'string') return obj;
+  if (obj[lang]) return obj[lang];
+  if (obj['es']) return obj['es'];
+  if (obj['en']) return obj['en'];
+  return Object.values(obj)[0] || '';
+}
 
 export class NovenaModalComponent {
   constructor() {
@@ -155,7 +164,7 @@ export class NovenaModalComponent {
       const isCur = n.id === novena.id;
       const nProg = StorageService.getNovenaProgress(n.id);
       const doneCount = (nProg.completedDays || []).length;
-      const novTitle = n.titulo[lang] || n.titulo.fr || n.titulo.es || n.titulo.en || '';
+      const novTitle = getNovenaI18n(n.titulo, lang);
       return `
         <button class="btn-crystal novena-pill-btn ${isCur ? 'active-glow-gold' : ''}" data-novena-id="${n.id}" style="font-size: 0.76rem; padding: 7px 12px; border-radius: var(--radius-full); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; flex-shrink: 0; max-width: 240px; box-sizing: border-box;" title="${novTitle}">
           <span style="display: flex; align-items: center; width: 14px; height: 14px; color: var(--accent-gold); flex-shrink: 0;">${renderIcon(n.icono || 'trad_catolicismo')}</span>
@@ -185,16 +194,16 @@ export class NovenaModalComponent {
       `;
     }).join('');
 
-    const novenaTitleText = novena.titulo[lang] || novena.titulo.fr || novena.titulo.es || novena.titulo.en;
-    const novenaSubText = novena.subtitulo[lang] || novena.subtitulo.fr || novena.subtitulo.es || novena.subtitulo.en;
-    const novenaDescText = novena.descripcion[lang] || novena.descripcion.fr || novena.descripcion.es || novena.descripcion.en;
+    const novenaTitleText = getNovenaI18n(novena.titulo, lang);
+    const novenaSubText = getNovenaI18n(novena.subtitulo, lang);
+    const novenaDescText = getNovenaI18n(novena.descripcion, lang);
 
-    const dayTemaText = currentDayData.tema[lang] || currentDayData.tema.fr || currentDayData.tema.es || currentDayData.tema.en;
-    const dayMeditacionText = currentDayData.meditacion[lang] || currentDayData.meditacion.fr || currentDayData.meditacion.es || currentDayData.meditacion.en;
-    const dayOracionText = currentDayData.oracion[lang] || currentDayData.oracion.fr || currentDayData.oracion.es || currentDayData.oracion.en;
+    const dayTemaText = getNovenaI18n(currentDayData.tema, lang);
+    const dayMeditacionText = getNovenaI18n(currentDayData.meditacion, lang);
+    const dayOracionText = getNovenaI18n(currentDayData.oracion, lang);
 
-    const prepOracionText = novena.oracionPreparatoria[lang] || novena.oracionPreparatoria.fr || novena.oracionPreparatoria.es || novena.oracionPreparatoria.en;
-    const finalOracionText = novena.oracionFinal[lang] || novena.oracionFinal.fr || novena.oracionFinal.es || novena.oracionFinal.en;
+    const prepOracionText = getNovenaI18n(novena.oracionPreparatoria, lang);
+    const finalOracionText = getNovenaI18n(novena.oracionFinal, lang);
 
     container.innerHTML = `
       <!-- Encabezado del Modal -->
@@ -361,7 +370,7 @@ export class NovenaModalComponent {
         const updated = StorageService.completeNovenaDay(novena.id, activeDayNumber, novena.totalDias);
         
         if (updated.isFinished && activeDayNumber === novena.totalDias) {
-          const novTitle = novena.titulo[lang] || novena.titulo.fr || novena.titulo.es || novena.titulo.en;
+          const novTitle = getNovenaI18n(novena.titulo, lang);
           const msgTemplate = t('novena_completed_alert_msg', lang) || 'Has culminado los {days} días del ciclo sagrado de {title}. Que las bendiciones de paz, gracia y fortaleza iluminen tu vida.';
           const alertMsg = msgTemplate.replace('{days}', novena.totalDias).replace('{title}', novTitle);
 
@@ -390,8 +399,8 @@ export class NovenaModalComponent {
           if (altarTab) altarTab.click();
           const altarInst = window.feApp.altar || window.feApp.altarComponent;
           if (altarInst && typeof altarInst.lightCandle === 'function') {
-            const novTitle = novena.titulo[lang] || novena.titulo.fr || novena.titulo.es || novena.titulo.en;
-            const novSub = novena.subtitulo[lang] || novena.subtitulo.fr || novena.subtitulo.es || novena.subtitulo.en;
+            const novTitle = getNovenaI18n(novena.titulo, lang);
+            const novSub = getNovenaI18n(novena.subtitulo, lang);
             altarInst.lightCandle(
               'amarillo_oro',
               `${t('novena_day_prefix', lang) || 'Novena Día'} ${activeDayNumber}: ${novTitle}`,

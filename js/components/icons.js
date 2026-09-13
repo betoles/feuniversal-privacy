@@ -8,7 +8,7 @@
 
 export const SVG_ICONS = {
   // --- IDENTIDAD Y NAVEGACIÓN ---
-  brand_logo: `<img src="ico.png?v=5.0" alt="FeUniversal" class="icon-brand-img" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block;" />`,
+  brand_logo: `<img src="ico.png?v=5.0" alt="FeUniversal" class="icon-brand-img" style="width: 18px; height: 18px; min-width: 18px; min-height: 18px; max-width: 18px; max-height: 18px; object-fit: cover; border-radius: 50%; display: inline-block; vertical-align: middle;" />`,
 
   nav_explore: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="12" cy="12" r="10"/>
@@ -132,6 +132,13 @@ export const SVG_ICONS = {
   trad_islam: `<svg class="icon-svg icon-trad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z" fill="currentColor" fill-opacity="0.2"/>
     <polygon points="17 4 17.9 6.2 20.3 6.3 18.4 7.8 19.1 10.1 17 8.8 14.9 10.1 15.6 7.8 13.7 6.3 16.1 6.2 17 4" fill="currentColor"/>
+  </svg>`,
+
+  trad_universal: `<svg class="icon-svg icon-trad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9" stroke="url(#goldGrad)" />
+    <circle cx="12" cy="12" r="3" fill="url(#cyanGrad)" fill-opacity="0.35" />
+    <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-opacity="0.4" />
+    <path d="M5.64 5.64l12.72 12.72M5.64 18.36L18.36 5.64" stroke="currentColor" stroke-opacity="0.2" />
   </svg>`,
 
   // --- INTENCIONES UNIVERSALES ---
@@ -530,7 +537,10 @@ const ICON_ALIASES = {
   espiritismo: 'trad_espiritismo',
   mormonismo: 'trad_mormonismo',
   adventista: 'trad_adventista',
-  testigos_jehova: 'trad_testigos'
+  testigos_jehova: 'trad_testigos',
+  universal: 'trad_universal',
+  espiritualidad_universal: 'trad_universal',
+  tradition_universal: 'trad_universal'
 };
 
 /**

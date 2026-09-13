@@ -554,7 +554,7 @@ export const TRADITIONS = {
       "ur": "مشترکہ دعائیں، تمام مذاہب کا احترام، عالمی امن اور محبت خداوندی۔",
       "sw": "Sala za pamoja za amani, upendo wa Kimungu na utunzaji wa uumbaji wote."
     },
-    "iconKey": "brand_logo",
+    "iconKey": "trad_universal",
     "colorAcento": "#38bdf8",
     "totalRezosDisponibles": 432,
     "tipoContadorSugerido": "libre",

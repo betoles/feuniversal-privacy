@@ -18,7 +18,7 @@ export class SacredTraditionPicker {
     if (!el) {
       el = document.createElement('div');
       el.id = 'modal-sacred-tradition-picker';
-      el.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 5200; padding: 12px 10px 80px; align-items: center; justify-content: center; box-sizing: border-box; overflow-y: auto;';
+      el.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 5200; padding: 12px 10px 80px; align-items: flex-start; justify-content: center; box-sizing: border-box; overflow-y: auto; -webkit-overflow-scrolling: touch;';
       document.body.appendChild(el);
     }
     SacredTraditionPicker.modalEl = el;
@@ -31,6 +31,7 @@ export class SacredTraditionPicker {
 
     SacredTraditionPicker.render();
     SacredTraditionPicker.modalEl.style.display = 'flex';
+    if (SacredTraditionPicker.modalEl) SacredTraditionPicker.modalEl.scrollTop = 0;
   }
 
   static close() {
@@ -70,7 +71,7 @@ export class SacredTraditionPicker {
                 <span style="width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: ${trad.colorAcento || 'var(--accent-gold)'};">${renderIcon(trad.iconKey)}</span>
                 <div style="display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0;">
                   <span style="font-size: 0.84rem; font-weight: 800; color: var(--text-primary);">${titleText}</span>
-                  <span style="font-size: 0.70rem; color: var(--text-secondary); opacity: 0.85;">${(trad.descripcion && (trad.descripcion[lang] || trad.descripcion.es)) || trad.subtitulo || ''}</span>
+                  <span style="font-size: 0.70rem; color: var(--text-secondary); opacity: 0.85;">${(trad.descripcion && (trad.descripcion[lang] || trad.descripcion.es)) || t('vault_tradition_canonical_universal', lang)}</span>
                 </div>
               </button>
             `;

@@ -8,6 +8,8 @@
 
 import { soundManager } from "../services/sound-service.js";
 import { renderIcon } from "./icons.js";
+import { StorageService } from "../services/storage-service.js";
+import { t } from "../data/i18n.js";
 
 export class SacredDialog {
   static getContainer() {
@@ -29,15 +31,17 @@ export class SacredDialog {
    * @param {string} [options.icon] - Clave de icono SVG (por defecto 'ui_sparkles')
    * @param {string} [options.buttonText] - Texto del botón (por defecto "Aceptar")
    * @param {string} [options.type] - "gold" | "success" | "info" | "warning" | "danger"
+   * @param {string} [options.lang] - Código de idioma forzado (opcional)
    * @returns {Promise<void>}
    */
   static alert(options, legacyMessage = '') {
     return new Promise((resolve) => {
-      let title = "FeUniversal";
+      let title = "";
       let message = "";
       let icon = "ui_sparkles";
-      let buttonText = "Aceptar";
+      let buttonText = "";
       let type = "gold";
+      let lang = null;
 
       if (typeof options === "string") {
         if (legacyMessage) {
@@ -47,12 +51,17 @@ export class SacredDialog {
           message = options;
         }
       } else if (typeof options === "object" && options !== null) {
-        title = options.title || title;
+        title = options.title || "";
         message = options.message || message;
         icon = options.icon || icon;
-        buttonText = options.buttonText || buttonText;
+        buttonText = options.buttonText || "";
         type = options.type || type;
+        lang = options.lang || null;
       }
+
+      const activeLang = lang || (typeof StorageService !== 'undefined' && StorageService.getPreferences ? StorageService.getPreferences().idioma : 'es') || 'es';
+      if (!title) title = "FeUniversal";
+      if (!buttonText) buttonText = t('dialog_accept', activeLang) || t('accept_label', activeLang) || "Aceptar";
 
       // Si el icono trae un emoji o texto no reconocido, mapear a clave SVG pura
       const iconKey = (icon && typeof icon === 'string' && icon.startsWith('ui_')) ? icon : 'ui_sparkles';
@@ -68,9 +77,10 @@ export class SacredDialog {
       };
 
       const glowColor = glowColors[type] || glowColors.gold;
+      const isRtl = typeof activeLang === 'string' && ['ar', 'he', 'ur'].includes(activeLang);
 
       container.innerHTML = `
-        <div class="crystal-card" style="max-width: 440px; width: 100%; margin: auto; padding: 28px 22px; text-align: center; position: relative; border-radius: var(--radius-lg); box-shadow: 0 0 40px ${glowColor}, var(--glass-shadow-lg); animation: fadeIn 0.25s ease-out; box-sizing: border-box; border: 1px solid var(--glass-border);">
+        <div class="crystal-card" dir="${isRtl ? 'rtl' : 'ltr'}" style="max-width: 440px; width: 100%; margin: auto; padding: 28px 22px; text-align: center; position: relative; border-radius: var(--radius-lg); box-shadow: 0 0 40px ${glowColor}, var(--glass-shadow-lg); animation: fadeIn 0.25s ease-out; box-sizing: border-box; border: 1px solid var(--glass-border);">
           
           <!-- Medallón Oficial Vectorial / SVG -->
           <div style="width: 68px; height: 68px; margin: 0 auto 12px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 28px rgba(245, 158, 11, 0.5), 0 0 14px rgba(99, 102, 241, 0.35); box-sizing: border-box; overflow: hidden; border: 2px solid var(--accent-gold);">
@@ -123,27 +133,36 @@ export class SacredDialog {
    */
   static confirm(options, legacyOnConfirm = null) {
     return new Promise((resolve) => {
-      let title = "Confirmación Requerida";
+      let title = "";
       let message = "";
       let icon = "ui_shield";
-      let confirmText = "Confirmar";
-      let cancelText = "Cancelar";
+      let confirmText = "";
+      let cancelText = "";
       let type = "warning";
+      let lang = null;
       let onConfirm = typeof legacyOnConfirm === 'function' ? legacyOnConfirm : null;
       let onCancel = null;
 
       if (typeof options === "string") {
         message = options;
       } else if (typeof options === "object" && options !== null) {
-        title = options.title || title;
-        message = options.message || message;
+        title = options.title || "";
+        message = options.message || "";
         icon = options.icon || icon;
-        confirmText = options.confirmText || confirmText;
-        cancelText = options.cancelText || cancelText;
+        confirmText = options.confirmText || "";
+        cancelText = options.cancelText || "";
         type = options.type || type;
+        lang = options.lang || null;
         if (typeof options.onConfirm === 'function') onConfirm = options.onConfirm;
         if (typeof options.onCancel === 'function') onCancel = options.onCancel;
       }
+
+      const activeLang = lang || (typeof StorageService !== 'undefined' && StorageService.getPreferences ? StorageService.getPreferences().idioma : 'es') || 'es';
+
+      if (!title) title = t('dialog_confirm_title', activeLang) || "Confirmación Requerida";
+      if (!confirmText) confirmText = t('dialog_confirm_btn', activeLang) || "Confirmar";
+      if (!cancelText) cancelText = t('dialog_cancel_btn', activeLang) || "Cancelar";
+      const securityProtocolLabel = t('dialog_security_protocol', activeLang) || "Protocolo de Seguridad";
 
       const iconKey = (icon && typeof icon === 'string' && icon.startsWith('ui_')) ? icon : 'ui_shield';
       const container = this.getContainer();
@@ -156,8 +175,10 @@ export class SacredDialog {
         ? 'background: linear-gradient(135deg, rgba(239, 68, 68, 0.8), rgba(185, 28, 28, 0.9)); border: 1.5px solid #ef4444; color: #ffffff; box-shadow: 0 4px 16px rgba(239, 68, 68, 0.35);'
         : 'background: linear-gradient(135deg, var(--accent-gold), #b45309); border: 1.5px solid var(--accent-gold); color: #ffffff; box-shadow: 0 4px 16px var(--accent-gold-glow);';
 
+      const isRtl = typeof activeLang === 'string' && ['ar', 'he', 'ur'].includes(activeLang);
+
       container.innerHTML = `
-        <div class="crystal-card" style="max-width: 460px; width: 100%; margin: auto; padding: 26px 22px; text-align: center; position: relative; border-radius: var(--radius-lg); box-shadow: 0 0 45px rgba(0,0,0,0.8), var(--glass-shadow-lg); animation: fadeIn 0.25s ease-out; box-sizing: border-box; border: 1.5px solid ${badgeBorder}; background: var(--glass-surface-1);">
+        <div class="crystal-card" dir="${isRtl ? 'rtl' : 'ltr'}" style="max-width: 460px; width: 100%; margin: auto; padding: 26px 22px; text-align: center; position: relative; border-radius: var(--radius-lg); box-shadow: 0 0 45px rgba(0,0,0,0.8), var(--glass-shadow-lg); animation: fadeIn 0.25s ease-out; box-sizing: border-box; border: 1.5px solid ${badgeBorder}; background: var(--glass-surface-1);">
           
           <!-- Insignia Circular SVG -->
           <div style="width: 58px; height: 58px; margin: 0 auto 12px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: ${badgeBg}; border: 1.5px solid ${badgeBorder}; color: ${iconColor}; box-shadow: 0 0 20px ${isDanger ? 'rgba(239, 68, 68, 0.3)' : 'rgba(245, 158, 11, 0.3)'};">
@@ -167,7 +188,7 @@ export class SacredDialog {
           </div>
 
           <div style="font-size: 0.74rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: ${iconColor}; margin-bottom: 6px;">
-            FeUniversal · Protocolo de Seguridad
+            FeUniversal · ${securityProtocolLabel}
           </div>
 
           <h3 style="font-family: var(--font-display); font-size: 1.18rem; font-weight: 800; margin: 0 0 10px; color: var(--text-primary); line-height: 1.3;">

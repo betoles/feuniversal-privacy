@@ -70,9 +70,11 @@ export class ScriptureCorpusService {
     'pentateuch': 'pentateuch.json',
     'epistles': 'epistles.json',
     'epistle_romans': 'epistles.json',
+    'epistle_1_corinthians': 'epistles.json',
     'epistle_1corinthians': 'epistles.json',
     'epistle_ephesians': 'epistles.json',
     'epistle_james': 'epistles.json',
+    'epistle_1_john': 'epistles.json',
     'epistle_1john': 'epistles.json',
     'revelation': 'revelation.json',
     'proverbs': 'wisdom.json',
@@ -217,7 +219,7 @@ export class ScriptureCorpusService {
       else if (chapterId.startsWith('dhammapada_')) bookKey = 'dhammapada';
       else if (chapterId.startsWith('tao_te_king_')) bookKey = 'tao';
       else if (chapterId.startsWith('mormon_')) bookKey = 'mormon';
-      else if (chapterId.startsWith('bible_song_of_songs_')) bookKey = 'song_of_songs';
+      else if (chapterId.startsWith('song_of_songs_') || chapterId.startsWith('bible_song_of_songs_')) bookKey = 'song_of_songs';
     }
 
     if (bookKey) {

@@ -40,7 +40,7 @@ export class LanguageModalComponent {
       el.id = "modal-language";
       document.body.appendChild(el);
     }
-    el.style.cssText = "display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 5000; padding: 12px 10px 80px; align-items: center; justify-content: center; box-sizing: border-box; overflow-y: auto;";
+    el.style.cssText = "display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 5000; padding: 12px 10px 80px; align-items: flex-start; justify-content: center; box-sizing: border-box; overflow-y: auto; -webkit-overflow-scrolling: touch;";
     this.container = el;
   }
 
@@ -48,6 +48,7 @@ export class LanguageModalComponent {
     this.ensureContainer();
     this.render();
     this.container.style.display = "flex";
+    if (this.container) this.container.scrollTop = 0;
   }
 
   close() {

@@ -142,11 +142,12 @@
 .segmented-item {
   flex: 1 1 0px;
   min-width: 0;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
-  padding: 9px 4px;
+  padding: 8px 6px;
   border-radius: var(--radius-full);
   background: transparent;
   border: 1px solid transparent;
@@ -155,9 +156,14 @@
   font-size: 0.8rem;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   box-sizing: border-box;
   user-select: none;
+  overflow: hidden;
+}
+
+.segmented-item span {
+  min-width: 0;
 }
 
 .segmented-item span:first-child {
@@ -175,9 +181,12 @@
 }
 
 .segmented-item span:last-child {
+  display: inline-block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .segmented-item:hover {
@@ -187,9 +196,9 @@
 .segmented-item.active {
   background: var(--glass-surface-2);
   color: var(--text-primary);
-  border: 1px solid var(--glass-border-highlight);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25), 0 0 12px var(--accent-gold-glow);
-  transform: scale(1.02);
+  border: 1.5px solid var(--accent-gold);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), 0 0 14px var(--accent-gold-glow);
+  transform: none;
 }
 
 /* ==========================================================================
@@ -200,14 +209,21 @@
   align-items: center;
   gap: 8px;
   overflow-x: auto;
-  margin-top: 14px;
-  margin-bottom: 18px;
-  padding: 4px 4px 12px;
+  overflow-y: hidden;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding: 4px 4px 10px;
   scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
 
 .active-traditions-ribbon::-webkit-scrollbar {
   display: none;
+  width: 0;
+  height: 0;
 }
 
 .tradition-chip {
@@ -231,6 +247,34 @@
   background: var(--glass-surface-hover);
   border-color: var(--glass-border-highlight);
   transform: translateY(-1px);
+}
+
+.tradition-chip span:first-child {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
+  max-width: 18px;
+  max-height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.tradition-chip img,
+.icon-brand-img {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  max-width: 18px !important;
+  max-height: 18px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
 }
 
 /* ==========================================================================
@@ -388,7 +432,7 @@
   bottom: 0;
   width: 0;
   overflow: visible;
-  transition: left 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: left 0.3s ease-out;
   z-index: 2;
   pointer-events: none;
 }
@@ -676,6 +720,7 @@ input:checked + .hud-slider:before {
   transition: all var(--transition-fast);
   text-decoration: none;
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   box-sizing: border-box;
 }
 

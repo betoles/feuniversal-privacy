@@ -1,0 +1,17 @@
+En Google Play Console, cuando configures la ficha de tu aplicación:
+
+En el campo "Política de Privacidad" (Obligatorio por Google): Pones la URL directa a las políticas:
+
+https://betoles.github.io/feuniversal.app/privacy-policy.html
+
+
+
+En el campo "Sitio Web" (Datos de contacto de la app): Pones tu página principal:
+
+
+https://betoles.github.io/feuniversal.app/
+
+
+
+
+el plan detallado para robustecer la indexación global de PassQ, incluyendo Google Rich Snippets (Schema.org), OpenGraph para redes sociales, sitemap XML avanzado y directivas para motores de búsqueda con IA.

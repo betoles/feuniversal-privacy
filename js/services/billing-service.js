@@ -1,13 +1,17 @@
 /**
- * BILLING SERVICE - GOOGLE PLAY IN-APP PURCHASES & SUBSCRIPTIONS
+ * BILLING SERVICE - DUAL ENGINE (GOOGLE PLAY & PAYPAL MERCHANT CHECKOUT)
  * FeUniversal - Faith & Prayers
  * 
- * Cumplimiento estricto de Google Play Payments Policy (Play Billing Library v6/v7).
- * Gestiona suscripciones, productos no consumibles y micro-ofrendas consumibles
- * con detección transparente de entorno (Nativo Android/Capacitor vs Web Fallback).
+ * - Móvil / Android Nativo (Capacitor): Google Play Billing Library v6/v7
+ * - Web / PC / iOS Web: Pasarela Segura PayPal Merchant (ID: EQNTHLAVHUL52)
+ *   * Plan Anual: $2.99 USD/año con 7 días de prueba gratuita ($0.00 hoy)
+ *   * Pase Vitalicio: $4.99 USD Pago único de por vida
+ *   * Micro-Ofrenda: $0.49 USD Donación de apadrinamiento litúrgico
  */
 
 import { StorageService } from './storage-service.js';
+
+export const PAYPAL_MERCHANT_ID = 'EQNTHLAVHUL52';
 
 export const PLAY_STORE_SKUS = {
   ANNUAL_SUB: 'feuniversal_annual_sub',       // $2.99 USD/año (7 días prueba gratuita)
@@ -26,7 +30,6 @@ export class BillingService {
     if (typeof window !== 'undefined' && window.Capacitor && window.Capacitor.isNativePlatform()) {
       this.#isNative = true;
       try {
-        // Inicialización de plugin nativo si está presente
         if (window.Capacitor.Plugins && window.Capacitor.Plugins.InAppPurchasing) {
           await window.Capacitor.Plugins.InAppPurchasing.initialize();
         }
@@ -34,6 +37,13 @@ export class BillingService {
         console.warn('[BillingService] Plugin nativo no disponible o en desarrollo:', e.message);
       }
     }
+  }
+
+  /**
+   * Retorna si la app corre en entorno nativo con Google Play
+   */
+  static isNativePlatform() {
+    return this.#isNative || (typeof window !== 'undefined' && !!window.Capacitor?.isNativePlatform?.());
   }
 
   /**
@@ -82,7 +92,82 @@ export class BillingService {
   }
 
   /**
-   * Ejecuta la compra de un plan o producto
+   * Lanza la pasarela de PayPal para pagos en la Web
+   */
+  static launchPayPalPurchase(planKey) {
+    if (typeof window === 'undefined') return { success: false };
+
+    const currentUrl = window.location.href.split('?')[0].split('#')[0];
+    const returnUrl = `${currentUrl}?billing=paypal_success&plan=${planKey}`;
+    const cancelUrl = `${currentUrl}?billing=paypal_cancel`;
+    const offeringReturnUrl = `${currentUrl}?billing=paypal_offering_success`;
+
+    let params;
+
+    if (planKey === 'annual') {
+      // Cálculo de días restantes de prueba gratuita (Mínimo 1 día de gracia)
+      const trialDays = Math.max(1, StorageService.getTrialDaysRemaining() || 7);
+
+      params = new URLSearchParams({
+        cmd: '_xclick-subscriptions',
+        business: PAYPAL_MERCHANT_ID,
+        item_name: 'FeUniversal Santuario PRO - Plan Anual (7 Dias Gratis)',
+        item_number: PLAY_STORE_SKUS.ANNUAL_SUB,
+        no_shipping: '1',
+        no_note: '1',
+        currency_code: 'USD',
+        a1: '0',
+        p1: trialDays.toString(),
+        t1: 'D',
+        a3: '2.99',
+        p3: '1',
+        t3: 'Y',
+        src: '1',
+        sra: '1',
+        return: returnUrl,
+        cancel_return: cancelUrl
+      });
+    } else if (planKey === 'lifetime') {
+      params = new URLSearchParams({
+        cmd: '_xclick',
+        business: PAYPAL_MERCHANT_ID,
+        item_name: 'FeUniversal - Pase Vitalicio Fundador (Acceso de por Vida)',
+        item_number: PLAY_STORE_SKUS.LIFETIME_PASS,
+        amount: '4.99',
+        currency_code: 'USD',
+        no_shipping: '1',
+        no_note: '1',
+        return: returnUrl,
+        cancel_return: cancelUrl
+      });
+    } else if (planKey === 'micro_offering') {
+      params = new URLSearchParams({
+        cmd: '_xclick',
+        business: PAYPAL_MERCHANT_ID,
+        item_name: 'FeUniversal - Micro-Ofrenda Liturgica ($0.49 USD)',
+        item_number: PLAY_STORE_SKUS.MICRO_OFFERING,
+        amount: '0.49',
+        currency_code: 'USD',
+        no_shipping: '1',
+        no_note: '1',
+        return: offeringReturnUrl,
+        cancel_return: cancelUrl
+      });
+    } else {
+      return { success: false, message: 'Plan no reconocido' };
+    }
+
+    const checkoutUrl = `https://www.paypal.com/cgi-bin/webscr?${params.toString()}`;
+    window.open(checkoutUrl, '_blank', 'noopener,noreferrer');
+    return {
+      success: true,
+      method: 'paypal_web',
+      checkoutUrl
+    };
+  }
+
+  /**
+   * Ejecuta la compra de un plan o producto (Google Play en Android o PayPal en Web)
    */
   static async purchaseProduct(planKey) {
     const sku = planKey === 'lifetime'
@@ -105,20 +190,12 @@ export class BillingService {
       }
     }
 
-    // 2. Modo Desarrollo Web / Fallback Controlado
-    if (sku !== PLAY_STORE_SKUS.MICRO_OFFERING) {
-      StorageService.activateSubscription(planKey);
-    }
-    return {
-      success: true,
-      isNative: false,
-      sku,
-      message: 'Bendición activada con éxito.'
-    };
+    // 2. Entorno Web / PC / iOS Web (Pasarela Segura PayPal)
+    return this.launchPayPalPurchase(planKey);
   }
 
   /**
-   * Restaura compras previas activas del usuario en Google Play
+   * Restaura compras previas activas del usuario en Google Play o comprueba estado local
    */
   static async restorePurchases() {
     if (this.#isNative && window.Capacitor?.Plugins?.InAppPurchasing) {

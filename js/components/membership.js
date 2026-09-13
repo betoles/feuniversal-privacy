@@ -127,7 +127,7 @@ export class MembershipComponent {
               <div style="font-size: 1.45rem; font-weight: 900; color: var(--accent-gold); margin: 6px 0 2px;">$2.99 <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600;">${t('plan_annual_unit', lang) || 'USD/año'}</span></div>
               <div style="font-size: 0.72rem; color: var(--text-muted); margin-bottom: 12px;">${t('plan_annual_rate', lang) || 'Solo $0.25 al mes'}</div>
             </div>
-            <button class="btn-crystal btn-crystal-gold btn-activate-plan" data-plan="annual" style="width: 100%; padding: 9px; font-size: 0.8rem; font-weight: 800; cursor: pointer;">
+            <button class="btn-crystal btn-crystal-gold btn-activate-plan" data-plan="annual" style="width: 100%; min-height: 48px; padding: 8px; font-size: 0.8rem; font-weight: 800; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;">
               ${isPro && sub.planType === 'annual' ? (t('plan_active', lang) || '✓ Activo') : (t('plan_annual_btn', lang) || 'Elegir Anual')}
             </button>
           </div>
@@ -143,7 +143,7 @@ export class MembershipComponent {
               <div style="font-size: 1.45rem; font-weight: 900; color: var(--accent-gold); margin: 6px 0 2px;">$4.99 <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600;">USD</span></div>
               <div style="font-size: 0.72rem; color: var(--text-muted); margin-bottom: 12px;">${t('plan_lifetime_rate', lang) || 'De por vida · Sin renovar'}</div>
             </div>
-            <button class="btn-crystal btn-crystal-primary btn-activate-plan" data-plan="lifetime" style="width: 100%; min-height: 48px; padding: 8px; font-size: 0.80rem; font-weight: 800; cursor: pointer;">
+            <button class="btn-crystal btn-crystal-primary btn-activate-plan" data-plan="lifetime" style="width: 100%; min-height: 48px; padding: 8px; font-size: 0.80rem; font-weight: 800; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;">
               ${isPro && sub.planType === 'lifetime' ? (t('plan_active', lang) || '✓ Activo') : (t('plan_lifetime_btn', lang) || 'Pase Vitalicio')}
             </button>
           </div>
@@ -163,10 +163,12 @@ export class MembershipComponent {
           </button>
         </div>
 
-        <!-- NOTA DE TRANSPARENCIA GOOGLE PLAY BILLING -->
+        <!-- NOTA DE TRANSPARENCIA GOOGLE PLAY & PAYPAL BILLING -->
         <div style="margin: 8px 0 12px; padding: 10px 14px; background: rgba(0,0,0,0.3); border-radius: var(--radius-sm); border: 1px solid var(--glass-border); font-size: 0.72rem; color: var(--text-muted); line-height: 1.45; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px;">
           <span style="width: 14px; height: 14px; display: inline-flex; color: var(--accent-cyan); flex-shrink: 0;">${renderIcon('ui_sparkles')}</span>
-          <span>${t('google_play_terms_note', lang) || 'Las suscripciones se renuevan automáticamente salvo cancelación. Puedes gestionar o cancelar en cualquier momento desde Google Play Store > Pagos y Suscripciones.'}</span>
+          <span>${BillingService.isNativePlatform() 
+            ? (t('google_play_terms_note', lang) || 'Las suscripciones se renuevan automáticamente salvo cancelación. Puedes gestionar o cancelar en cualquier momento desde Google Play Store > Pagos y Suscripciones.') 
+            : (t('paypal_terms_note', lang) || 'Pagos seguros procesados con cifrado SSL bancario a través de PayPal y tarjetas bancarias. Las suscripciones anuales incluyen 7 días de prueba gratuita.')}</span>
         </div>
 
         <!-- ACCIONES SECUNDARIAS & RESTAURAR COMPRAS -->
@@ -198,26 +200,31 @@ export class MembershipComponent {
 
     const microBtn = document.getElementById('btn-membership-micro-offering');
     if (microBtn) {
-      microBtn.addEventListener('click', () => {
-        SacredDialog.alert({
-          title: t('micro_offering_thanks_title', lang) || 'Micro-Ofrenda Litúrgica ($0.49 USD)',
-          message: t('micro_offering_thanks_msg', lang) || '¡Muchas gracias por tu generosidad! Tu ofrenda apadrina la traducción de nuevas oraciones y preserva el santuario universal.',
-          icon: 'ui_heart',
-          buttonText: t('close_label', lang) || 'Aceptar',
-          type: 'gold'
-        });
+      microBtn.addEventListener('click', async () => {
+        const res = await BillingService.purchaseProduct('micro_offering');
+        if (res && res.method === 'paypal_web') {
+          SacredDialog.toast(t('paypal_redirecting_toast', lang) || 'Abriendo pasarela de ofrenda segura PayPal...', 3000, 'ui_heart');
+        } else if (res && res.success) {
+          SacredDialog.alert({
+            title: t('micro_offering_thanks_title', lang) || 'Micro-Ofrenda Litúrgica ($0.49 USD)',
+            message: t('micro_offering_thanks_msg', lang) || '¡Muchas gracias por tu generosidad! Tu ofrenda apadrina la traducción de nuevas oraciones y preserva el santuario universal.',
+            icon: 'ui_heart',
+            buttonText: t('close_label', lang) || 'Aceptar',
+            type: 'gold'
+          });
+        }
       });
     }
 
     const restoreBtn = document.getElementById('btn-restore-purchases');
     if (restoreBtn) {
       restoreBtn.addEventListener('click', async () => {
-        SacredDialog.toast(t('checking_purchases_msg', lang) || 'Verificando compras previas en Google Play...', 2000, 'ui_refresh');
+        SacredDialog.toast(t('checking_purchases_msg', lang) || 'Verificando compras previas...', 2000, 'ui_refresh');
         const result = await BillingService.restorePurchases();
         if (result && result.restored) {
           SacredDialog.alert({
             title: t('membership_purchases_restored_title', lang) || 'Compras Restauradas',
-            message: t('membership_purchases_restored_msg', lang) || 'Tu plan previo ha sido restaurado con éxito desde tu cuenta de Google Play.',
+            message: t('membership_purchases_restored_msg', lang) || 'Tu plan previo ha sido restaurado con éxito.',
             icon: 'ui_check',
             buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'Aceptar',
             type: 'gold'
@@ -235,7 +242,9 @@ export class MembershipComponent {
       btn.addEventListener('click', async () => {
         const plan = btn.getAttribute('data-plan');
         const res = await BillingService.purchaseProduct(plan);
-        if (res && res.success) {
+        if (res && res.method === 'paypal_web') {
+          SacredDialog.toast(t('paypal_checkout_opened_toast', lang) || 'Abriendo pasarela de pago seguro en PayPal...', 3500, 'ui_sparkles');
+        } else if (res && res.success) {
           SacredDialog.alert({
             title: t('membership_pass_activated_title', lang) || 'Bendición Activada con Éxito',
             message: t('membership_pass_activated_msg', lang) || 'Has adquirido tu plan. Disfruta de todas las funciones de tu Santuario Celestial.',
