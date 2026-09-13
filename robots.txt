@@ -49,4 +49,4 @@ User-agent: Sogou spider
 Allow: /
 
 # Ubicacion Oficial del Mapa de Sitio XML
-Sitemap: https://betoles.github.io/feuniversal.app/sitemap.xml
+Sitemap: https://betoles.github.io/feuniversal-privacy/sitemap.xml

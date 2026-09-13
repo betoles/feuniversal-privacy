@@ -2,14 +2,14 @@ En Google Play Console, cuando configures la ficha de tu aplicación:
 
 En el campo "Política de Privacidad" (Obligatorio por Google): Pones la URL directa a las políticas:
 
-https://betoles.github.io/feuniversal.app/privacy-policy.html
+https://betoles.github.io/feuniversal-privacy/privacy-policy.html
 
 
 
 En el campo "Sitio Web" (Datos de contacto de la app): Pones tu página principal:
 
 
-https://betoles.github.io/feuniversal.app/
+https://betoles.github.io/feuniversal-privacy/
 
 
 
