@@ -23,6 +23,14 @@ export class MirrorReaderComponent {
   }
 
   open(prayer) {
+    const quota = StorageService.getDailyPrayerQuota();
+    if (!quota.allowed) {
+      this.membership.open();
+      return;
+    }
+
+    StorageService.recordPrayerRead();
+
     this.currentPrayer = prayer;
     window.activePrayerSession = prayer;
 

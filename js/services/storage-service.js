@@ -10,7 +10,8 @@ const STORAGE_KEYS = {
   VAULT: 'feuniversal_vault_v1',
   STREAKS: 'feuniversal_streaks_v1',
   SUBSCRIPTION: 'feuniversal_subscription_v1',
-  NOVENAS: 'feuniversal_novenas_v1'
+  NOVENAS: 'feuniversal_novenas_v1',
+  PRAYER_USAGE: 'feuniversal_prayer_usage_v1'
 };
 
 export const TRADITIONAL_CANDLE_COLORS = [
@@ -851,12 +852,17 @@ export class StorageService {
     }
   }
 
+  static isNativePlatform() {
+    return typeof window !== 'undefined' && !!(window.Capacitor && window.Capacitor.isNativePlatform?.());
+  }
+
   // GESTIÓN DE PRUEBA GRATUITA DE 7 DÍAS Y MEMBRESÍA SANTUARIO PRO
   static getSubscription() {
     const defaults = {
       version: '5.2',
       isPremium: false,
       planType: null, // 'annual' ($2.99) | 'lifetime' ($4.99)
+      trialStarted: true,
       trialStartDate: Date.now(),
       trialDurationDays: 7,
       activatedDate: null,
@@ -874,6 +880,7 @@ export class StorageService {
         // Si no es premium y viene de una versión previa, restablecer el Trial al ciclo canónico de 7 días completos
         if (!parsed.version || parsed.version !== '5.2') {
           parsed.version = '5.2';
+          parsed.trialStarted = true;
           parsed.trialStartDate = Date.now();
           parsed.trialDurationDays = 7;
           this.saveSubscription(parsed);
@@ -889,6 +896,15 @@ export class StorageService {
     return defaults;
   }
 
+  static startTrial() {
+    const sub = this.getSubscription();
+    if (sub.isPremium) return sub;
+    sub.trialStarted = true;
+    sub.trialStartDate = Date.now();
+    sub.trialDurationDays = 7;
+    this.saveSubscription(sub);
+    return sub;
+  }
 
   static saveSubscription(sub) {
     try {
@@ -901,6 +917,7 @@ export class StorageService {
   static getTrialDaysRemaining() {
     const sub = this.getSubscription();
     if (sub.isPremium) return Infinity;
+    if (!sub.trialStarted) return 7;
     const msElapsed = Math.max(0, Date.now() - (sub.trialStartDate || Date.now()));
     const daysElapsed = msElapsed / (1000 * 60 * 60 * 24);
     const duration = sub.trialDurationDays || 7;
@@ -914,12 +931,70 @@ export class StorageService {
     return this.getTrialDaysRemaining() > 0;
   }
 
+  /**
+   * Cuota diaria de oraciones para usuarios sin suscripción ni prueba activa:
+   * - Web: 2 oraciones diarias
+   * - Google Play (Android): 3 oraciones diarias
+   * - PRO / Trial activo: Ilimitadas
+   */
+  static getDailyPrayerQuota() {
+    const today = new Date().toISOString().split('T')[0];
+    let usage = { date: today, count: 0 };
+    try {
+      const data = _safeGetItem(STORAGE_KEYS.PRAYER_USAGE);
+      if (data) {
+        const parsed = JSON.parse(data);
+        if (parsed.date === today) {
+          usage = parsed;
+        }
+      }
+    } catch (e) {}
+
+    const isUnlocked = this.isAccessUnlocked();
+    const isNative = this.isNativePlatform();
+    const limit = isUnlocked ? Infinity : (isNative ? 3 : 2);
+    const count = usage.count || 0;
+    const remaining = isUnlocked ? Infinity : Math.max(0, limit - count);
+
+    return {
+      today,
+      count,
+      limit,
+      remaining,
+      isUnlimited: isUnlocked,
+      allowed: isUnlocked || count < limit,
+      isNative
+    };
+  }
+
+  static recordPrayerRead() {
+    const today = new Date().toISOString().split('T')[0];
+    let usage = { date: today, count: 0 };
+    try {
+      const data = _safeGetItem(STORAGE_KEYS.PRAYER_USAGE);
+      if (data) {
+        const parsed = JSON.parse(data);
+        if (parsed.date === today) {
+          usage = parsed;
+        }
+      }
+    } catch (e) {}
+
+    usage.count = (usage.count || 0) + 1;
+    _safeSetItem(STORAGE_KEYS.PRAYER_USAGE, JSON.stringify(usage));
+    return usage;
+  }
+
   // Verifica si una función específica está desbloqueada
-  // Las oraciones y compartir texto básico son 100% gratuitas siempre.
-  // Música, Altar, Tarjetas HD, Bóveda/IA y Reportes requieren Trial activo o Plan PRO.
+  // Las escrituras y compartir texto básico son 100% gratuitas siempre.
+  // Oraciones respetan cuota diaria en Free o son ilimitadas en PRO/Trial.
+  // Música, Altar múltiple, Brújula 3D, Bóveda/IA requieren Trial activo o Plan PRO.
   static isFeatureUnlocked(featureKey) {
-    if (featureKey === 'prayers' || featureKey === 'share_text' || featureKey === 'scriptures') {
+    if (featureKey === 'share_text' || featureKey === 'scriptures') {
       return true;
+    }
+    if (featureKey === 'prayers') {
+      return this.getDailyPrayerQuota().allowed;
     }
     return this.isAccessUnlocked();
   }

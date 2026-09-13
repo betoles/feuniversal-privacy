@@ -1011,6 +1011,9 @@ export class SacredSoundPicker {
 
     const silenceDef = SacredSoundPicker.getSoundDef('silencio_profundo', lang);
 
+    const isUnlocked = StorageService.isAccessUnlocked();
+    const FREE_SOUND_IDS = ['silencio_profundo', 'solfeggio_432', 'campanas_tibetanas', 'lluvia_templo'];
+
     SacredSoundPicker.modalEl.innerHTML = `
       <div class="crystal-card" style="max-width: 480px; width: 100%; margin: auto 0; padding: 24px 18px 28px; position: relative; max-height: 88vh; overflow-y: auto; overflow-x: hidden; box-sizing: border-box; border: 1.5px solid var(--glass-border-highlight); box-shadow: 0 20px 50px rgba(0,0,0,0.65);">
         <button id="btn-close-sound-picker" class="btn-modal-close" title="${getTxt('close')}" style="position: absolute; top: 14px; right: 14px; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: var(--glass-surface-2); border: 1px solid var(--glass-border); color: var(--text-secondary); cursor: pointer;">
@@ -1055,18 +1058,24 @@ export class SacredSoundPicker {
                   <span>${cat.name}</span>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 8px;">
-                  ${items.map(s => `
-                    <button type="button" class="sound-choice-btn ${activeId === s.id ? 'active' : ''}" data-sound-id="${s.id}" style="width: 100%; padding: 11px 13px;">
+                  ${items.map(s => {
+                    const isSoundLocked = !isUnlocked && !FREE_SOUND_IDS.includes(s.id);
+                    return `
+                    <button type="button" class="sound-choice-btn ${activeId === s.id ? 'active' : ''}" data-sound-id="${s.id}" style="width: 100%; padding: 11px 13px; position: relative;">
                       <span class="chip-radio-dot"></span>
                       <div style="display: flex; flex-direction: column; text-align: start; gap: 2px; flex: 1; min-width: 0;">
-                        <span style="font-size: 0.84rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
-                          <span style="color: ${s.color}; display: flex; width: 16px; height: 16px; flex-shrink: 0;">${renderIcon(s.icon)}</span>
-                          <span>${s.name}</span>
+                        <span style="font-size: 0.84rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+                          <span style="display: inline-flex; align-items: center; gap: 8px;">
+                            <span style="color: ${s.color}; display: flex; width: 16px; height: 16px; flex-shrink: 0;">${renderIcon(s.icon)}</span>
+                            <span>${s.name}</span>
+                          </span>
+                          ${isSoundLocked ? `<span style="font-size: 0.6rem; background: var(--accent-gold); color: #000; font-weight: 900; padding: 1px 5px; border-radius: 4px; box-shadow: 0 0 6px rgba(245,158,11,0.5);">PRO</span>` : ''}
                         </span>
                         <span style="font-size: 0.7rem; color: var(--text-muted); padding-left: 24px; line-height: 1.3;">${s.desc}</span>
                       </div>
                     </button>
-                  `).join('')}
+                  `;
+                  }).join('')}
                 </div>
               </div>
             `;
@@ -1089,6 +1098,7 @@ export class SacredSoundPicker {
     const confirmBtn = document.getElementById('btn-confirm-sound-picker');
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
+    const FREE_SOUND_IDS = ['silencio_profundo', 'solfeggio_432', 'campanas_tibetanas', 'lluvia_templo'];
 
     const handleConfirm = () => {
       const soundId = SacredSoundPicker.selectedSoundId;
@@ -1106,7 +1116,9 @@ export class SacredSoundPicker {
     soundBtns.forEach(btn => {
       btn.addEventListener('click', () => {
         const soundId = btn.getAttribute('data-sound-id');
-        if (soundId !== 'silencio_profundo' && !StorageService.isFeatureUnlocked('music')) {
+        const isFree = FREE_SOUND_IDS.includes(soundId);
+        
+        if (!isFree && !StorageService.isAccessUnlocked()) {
           SacredSoundPicker.close();
           const mem = new MembershipComponent();
           mem.open();

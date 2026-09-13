@@ -86,33 +86,61 @@ export class MembershipComponent {
         ${messageHtml}
 
         <!-- PILARES DE VALOR CON ICONOS SVG PUROS -->
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 20px; text-align: left;">
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 16px; text-align: left;">
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: var(--accent-cyan); display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('ui_audio')}</span>
             <div style="min-width: 0;">
               <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_music_title', lang) || 'Música & Frecuencias'}</div>
-              <div style="color: var(--text-muted); font-size: 0.78rem; line-height: 1.4;">${t('pillar_music_desc', lang) || '11 frecuencias y solfeggio sagrado.'}</div>
+              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_music_desc', lang) || '11 frecuencias sagradas y solfeggio sin límites.'}</div>
             </div>
           </div>
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: var(--accent-gold); display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('nav_altar')}</span>
             <div style="min-width: 0;">
-              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_altar_title', lang) || 'Altar de 12 Colores'}</div>
-              <div style="color: var(--text-muted); font-size: 0.78rem; line-height: 1.4;">${t('pillar_altar_desc', lang) || 'Veladoras litúrgicas consagradas.'}</div>
+              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_altar_title', lang) || 'Altar Consagrado'}</div>
+              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_altar_desc', lang) || 'Hasta 12 veladoras simultáneas y llama eterna.'}</div>
             </div>
           </div>
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: #60a5fa; display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('ui_compass')}</span>
             <div style="min-width: 0;">
-              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_compass_title', lang) || 'Brújula Espiritual 3D'}</div>
-              <div style="color: var(--text-muted); font-size: 0.78rem; line-height: 1.4;">${t('pillar_compass_desc', lang) || 'Skins Kaaba, Surya, Dharma y Cristal.'}</div>
+              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_compass_title', lang) || 'Brújula 3D Mística'}</div>
+              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_compass_desc', lang) || 'Skins 3D Kaaba, Surya Mandala y Dharma Zen.'}</div>
             </div>
           </div>
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: var(--accent-gold); display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('nav_vault')}</span>
             <div style="min-width: 0;">
               <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_vault_title', lang) || 'Bóveda & FaithGPT'}</div>
-              <div style="color: var(--text-muted); font-size: 0.78rem; line-height: 1.4;">${t('pillar_vault_desc', lang) || 'Diario cifrado y oraciones con IA.'}</div>
+              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_vault_desc', lang) || 'Oraciones con IA ilimitadas y diario cifrado.'}</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CUADRO COMPARATIVO MODO LIBRE VS PRO -->
+        <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); border-radius: var(--radius-md); padding: 12px 14px; margin-bottom: 18px; text-align: left;">
+          <div style="font-size: 0.72rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px;">
+            ${t('benefits_comparison_title', lang) || 'Comparativa de Beneficios'}
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.74rem;">
+            <div style="background: var(--glass-surface-1); padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <div style="color: var(--text-muted); font-weight: 700; margin-bottom: 4px;">🕊️ Modo Gratuito</div>
+              <div style="color: var(--text-secondary); line-height: 1.4;">
+                • ${BillingService.isNativePlatform() ? '3 oraciones diarias' : '2 oraciones diarias'}<br>
+                • 1 veladora activa en altar<br>
+                • 3 sonidos de meditación<br>
+                • Brújula clásica astrolabio
+              </div>
+            </div>
+            <div style="background: rgba(234, 179, 8, 0.08); padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid rgba(234, 179, 8, 0.25);">
+              <div style="color: var(--accent-gold); font-weight: 800; margin-bottom: 4px;">👑 Santuario PRO</div>
+              <div style="color: var(--text-primary); font-weight: 600; line-height: 1.4;">
+                • <strong>Oraciones ilimitadas</strong><br>
+                • <strong>12 veladoras</strong> simultáneas<br>
+                • <strong>11 frecuencias</strong> completas<br>
+                • <strong>Brújula 3D</strong> Kaaba/Surya/Zen<br>
+                • <strong>Bóveda con IA</strong> ilimitada
+              </div>
             </div>
           </div>
         </div>

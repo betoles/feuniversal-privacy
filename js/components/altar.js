@@ -235,7 +235,11 @@ export class AltarComponent {
 
     if (openModalBtn && modal) {
       openModalBtn.addEventListener('click', () => {
-        if (!StorageService.isFeatureUnlocked('altar')) {
+        const altarState = StorageService.getAltarState();
+        const activeCandles = altarState.veladoras || [];
+        const isUnlocked = StorageService.isAccessUnlocked();
+
+        if (!isUnlocked && activeCandles.length >= 1) {
           this.membership.open();
           return;
         }
