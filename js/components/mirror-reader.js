@@ -25,7 +25,7 @@ export class MirrorReaderComponent {
   open(prayer) {
     const quota = StorageService.getDailyPrayerQuota();
     if (!quota.allowed) {
-      this.membership.open();
+      this.membership.open('prayer_limit');
       return;
     }
 

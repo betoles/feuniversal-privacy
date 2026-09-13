@@ -240,7 +240,7 @@ export class AltarComponent {
         const isUnlocked = StorageService.isAccessUnlocked();
 
         if (!isUnlocked && activeCandles.length >= 1) {
-          this.membership.open();
+          this.membership.open('candle_limit');
           return;
         }
         modal.style.display = 'flex';

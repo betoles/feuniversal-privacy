@@ -16,9 +16,9 @@ export class MembershipComponent {
     this.isWeeklyReminder = false;
   }
 
-  open(isWeeklyReminder = false) {
-    this.isWeeklyReminder = isWeeklyReminder;
-    if (isWeeklyReminder) {
+  open(context = null) {
+    this.context = typeof context === 'string' ? context : (context === true ? 'weekly_reminder' : null);
+    if (this.context === 'weekly_reminder') {
       StorageService.recordPaywallReminderShown();
     }
     this.ensureModal();
@@ -48,6 +48,7 @@ export class MembershipComponent {
     const sub = StorageService.getSubscription();
     const daysLeft = StorageService.getTrialDaysRemaining();
     const isPro = sub.isPremium;
+    const isNative = StorageService.isNativePlatform();
 
     let headline = t('membership_title', lang) || 'Membresía Santuario Celestial';
     let messageHtml = '';
@@ -55,7 +56,26 @@ export class MembershipComponent {
     if (isPro) {
       headline = t('membership_active_headline', lang) || 'Membresía Celestial Activa';
       messageHtml = `<p style="font-size: 0.86rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 18px; line-height: 1.5;">${t('membership_active_msg', lang) || '¡Eres Miembro Sagrado Activo! Tienes acceso ilimitado a todas las bendiciones, música y funciones de FeUniversal.'}</p>`;
-    } else if (this.isWeeklyReminder || daysLeft === 0) {
+    } else if (this.context === 'prayer_limit') {
+      headline = '🕊️ Cuota Diaria de Oraciones';
+      const quotaLimit = isNative ? '3' : '2';
+      messageHtml = `
+        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 18px; max-width: 500px;">
+          <p style="font-size: 0.88rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
+            «Con profundo respeto, has alcanzado tus ${quotaLimit} oraciones devocionales de hoy en la versión gratuita. Puedes regresar mañana con una nueva bendición diaria o, si deseas orar sin límites y acceder a todas las frecuencias sagradas y lecturas guiadas, te invitamos a unirte al Santuario PRO.»
+          </p>
+        </div>
+      `;
+    } else if (this.context === 'candle_limit') {
+      headline = '🕯️ Altar Mayor de 12 Veladoras';
+      messageHtml = `
+        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 18px; max-width: 500px;">
+          <p style="font-size: 0.88rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
+            «En el modo devocional libre puedes mantener 1 veladora encendida con tu intención sagrada activa. Para consagrar múltiples veladoras de los 12 colores litúrgicos simultáneamente y preservar su llama perpetua, te invitamos a unirte al Santuario PRO.»
+          </p>
+        </div>
+      `;
+    } else if (this.context === 'weekly_reminder' || daysLeft === 0) {
       headline = t('membership_reminder_headline', lang) || 'Recordatorio de Bendición';
       messageHtml = `
         <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 18px; max-width: 500px;">
