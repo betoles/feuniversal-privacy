@@ -78,42 +78,97 @@ export class SpiritualCompassComponent {
     }
   }
 
+  getTargetBeaconSVG() {
+    let beaconContent = "";
+    if (this.currentMode === "qibla") {
+      beaconContent = `
+        <!-- Marcador Sagrado Kaaba Al-Mukarramah -->
+        <g filter="drop-shadow(0 0 8px rgba(251, 191, 36, 0.95))">
+          <circle cx="120" cy="18" r="12" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+          <rect x="114" y="12" width="12" height="12" rx="1.5" fill="#1e293b" stroke="#f59e0b" stroke-width="0.8"/>
+          <line x1="114" y1="15" x2="126" y2="15" stroke="#fef08a" stroke-width="1.2"/>
+          <polygon points="120,4 124,10 116,10" fill="#fbbf24"/>
+        </g>
+      `;
+    } else if (this.currentMode === "east") {
+      beaconContent = `
+        <!-- Marcador Sagrado Sol Naciente -->
+        <g filter="drop-shadow(0 0 8px rgba(244, 63, 94, 0.95))">
+          <circle cx="120" cy="18" r="12" fill="url(#roseGrad)" stroke="#fbbf24" stroke-width="2"/>
+          <circle cx="120" cy="18" r="6" fill="#fef08a"/>
+          <polygon points="120,4 124,10 116,10" fill="#f43f5e"/>
+        </g>
+      `;
+    } else {
+      beaconContent = `
+        <!-- Marcador Sagrado Zen Norte Armónico -->
+        <g filter="drop-shadow(0 0 8px rgba(56, 189, 248, 0.95))">
+          <circle cx="120" cy="18" r="12" fill="#0369a1" stroke="#38bdf8" stroke-width="2"/>
+          <circle cx="120" cy="18" r="5" fill="#ffffff"/>
+          <polygon points="120,4 124,10 116,10" fill="#38bdf8"/>
+        </g>
+      `;
+    }
+
+    return `
+      <!-- BEACON DE OBJETIVO SAGRADO ROTADO A TARGET HEADING -->
+      <g id="compass-target-beacon" transform="rotate(${this.targetHeading} 120 120)">
+        <line x1="120" y1="28" x2="120" y2="70" stroke="#fbbf24" stroke-width="1.8" stroke-dasharray="3 3" opacity="0.85"/>
+        ${beaconContent}
+      </g>
+    `;
+  }
+
   startListening() {
-    // Check if device orientation is supported
     let sensorReceived = false;
+
     this.orientationListener = (e) => {
       let heading = null;
-      if (e.webkitCompassHeading !== undefined) {
+
+      // 1. iOS Safari (webkitCompassHeading: 0-360 respecto al norte magnético)
+      if (typeof e.webkitCompassHeading === "number" && !isNaN(e.webkitCompassHeading)) {
         heading = e.webkitCompassHeading;
-        this.hasSensor = true;
-        sensorReceived = true;
-      } else if (e.alpha !== null && e.alpha !== undefined && e.absolute) {
-        heading = 360 - e.alpha;
-        this.hasSensor = true;
-        sensorReceived = true;
       }
+      // 2. Android Chrome / Standard Device Orientation Absolute
+      else if (typeof e.alpha === "number" && !isNaN(e.alpha)) {
+        heading = (360 - e.alpha + 360) % 360;
+      }
+
       if (heading !== null) {
         this.currentHeading = Math.round(heading);
-        this.isDesktopMode = false;
+        this.hasSensor = true;
+        sensorReceived = true;
+        if (this.isDesktopMode) {
+          this.isDesktopMode = false;
+          this.updateSensorBadge();
+        }
         this.updateCompassDisplay();
       }
     };
 
+    // Intentar primero con evento absoluto (Android Chrome moderno)
+    if ("ondeviceorientationabsolute" in window) {
+      window.addEventListener("deviceorientationabsolute", this.orientationListener, true);
+    }
+    // Y registrar listener estándar para iOS y navegadores genéricos
     if (window.DeviceOrientationEvent) {
       window.addEventListener("deviceorientation", this.orientationListener, true);
     }
 
-    // After 800ms, if no hardware orientation sensor emitted data, activate desktop interactive mode
+    // Si después de 900ms no hay señal del giroscopio físico, activar modo interactivo para ratón/táctil/teclado
     setTimeout(() => {
       if (!sensorReceived) {
         this.isDesktopMode = true;
         this.updateSensorBadge();
       }
-    }, 800);
+    }, 900);
   }
 
   stopListening() {
     if (this.orientationListener) {
+      if ("ondeviceorientationabsolute" in window) {
+        window.removeEventListener("deviceorientationabsolute", this.orientationListener, true);
+      }
       window.removeEventListener("deviceorientation", this.orientationListener, true);
       this.orientationListener = null;
     }
@@ -236,22 +291,27 @@ export class SpiritualCompassComponent {
       headingText.innerText = `${this.currentHeading}°`;
     }
 
-    const diff = Math.abs((this.currentHeading - this.targetHeading + 360) % 360);
-    const isAligned = diff <= 5 || diff >= 355;
+    let diff = (this.targetHeading - this.currentHeading + 360) % 360;
+    if (diff > 180) diff -= 360; // -180 a +180
+
+    const isAligned = Math.abs(diff) <= 4;
 
     if (targetDiff) {
+      const prefs = StorageService.getPreferences();
+      const lang = prefs.idioma || "es";
+
       if (isAligned) {
-        targetDiff.innerHTML = "✨ ¡Alineación Sagrada Perfecta!";
-        targetDiff.style.color = "var(--accent-gold)";
+        targetDiff.innerHTML = `<span style="color: var(--accent-gold); font-weight: 800; text-shadow: 0 0 10px rgba(251,191,36,0.6);">✨ ¡Alineación Sagrada Perfecta! (${this.targetHeading}°)</span>`;
+      } else if (diff > 0) {
+        targetDiff.innerHTML = `👉 <strong style="color: var(--accent-gold);">Gira a la derecha ${Math.round(diff)}°</strong> · Objetivo: ${this.targetHeading}°`;
       } else {
-        targetDiff.innerHTML = `Objetivo: ${this.targetHeading}° (Desvío: ${Math.round(diff > 180 ? 360 - diff : diff)}°)`;
-        targetDiff.style.color = "var(--text-muted)";
+        targetDiff.innerHTML = `👈 <strong style="color: var(--accent-cyan);">Gira a la izquierda ${Math.round(Math.abs(diff))}°</strong> · Objetivo: ${this.targetHeading}°`;
       }
     }
 
     if (glowRing) {
       glowRing.style.boxShadow = isAligned 
-        ? "0 0 35px rgba(251, 191, 36, 0.75), inset 0 0 25px rgba(251, 191, 36, 0.45)" 
+        ? "0 0 35px rgba(251, 191, 36, 0.85), inset 0 0 25px rgba(251, 191, 36, 0.55)" 
         : "var(--glass-shadow-crystal)";
     }
   }
@@ -338,7 +398,10 @@ export class SpiritualCompassComponent {
             <rect x="21" y="16" width="3.5" height="6.5" rx="0.5" fill="#fbbf24" stroke="#d97706" stroke-width="0.4"/>
           </g>
 
-          <!-- Aguja Litúrgica Verde Esmeralda y Oro hacia La Meca -->
+          <!-- Marcador Dinámico de Rumbo Sagrado (Target Beacon) -->
+          ${this.getTargetBeaconSVG()}
+
+          <!-- Aguja Litúrgica Norte / Sur -->
           <polygon points="120,18 126,104 120,96 114,104" fill="url(#goldGrad)" filter="drop-shadow(0 0 8px rgba(251,191,36,0.9))"/>
           <polygon points="120,222 125,136 120,144 115,136" fill="rgba(16,185,129,0.5)"/>
         `;
@@ -387,6 +450,9 @@ export class SpiritualCompassComponent {
           <!-- Símbolo Sagrado OM Radiante en el Eje -->
           <circle cx="120" cy="120" r="18" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="1.5" filter="drop-shadow(0 0 10px rgba(251,191,36,0.8))"/>
           <text x="120" y="126" font-size="14" font-weight="900" fill="#881337" text-anchor="middle">ॐ</text>
+
+          <!-- Marcador Dinámico de Rumbo Sagrado (Target Beacon) -->
+          ${this.getTargetBeaconSVG()}
 
           <!-- Aguja Solar Radiante Rubí / Fuego -->
           <polygon points="120,16 127,100 120,94 113,100" fill="url(#roseGrad)" filter="drop-shadow(0 0 8px rgba(244,63,94,0.9))"/>
@@ -438,6 +504,9 @@ export class SpiritualCompassComponent {
           <circle cx="120" cy="120" r="14" fill="#0284c7" stroke="#38bdf8" stroke-width="2" filter="drop-shadow(0 0 10px rgba(56,189,248,0.8))"/>
           <circle cx="120" cy="120" r="6" fill="#ffffff"/>
 
+          <!-- Marcador Dinámico de Rumbo Sagrado (Target Beacon) -->
+          ${this.getTargetBeaconSVG()}
+
           <!-- Aguja de Zafiro Celestial -->
           <polygon points="120,18 126,104 120,96 114,104" fill="url(#cyanGrad)" filter="drop-shadow(0 0 8px rgba(56,189,248,0.9))"/>
           <polygon points="120,222 125,136 120,144 115,136" fill="rgba(99,102,241,0.4)"/>
@@ -482,6 +551,9 @@ export class SpiritualCompassComponent {
           <text x="210" y="125" font-size="13" font-weight="800" fill="var(--text-primary)" text-anchor="middle" font-family="serif">E</text>
           <text x="120" y="214" font-size="13" font-weight="800" fill="var(--text-muted)" text-anchor="middle" font-family="serif">S</text>
           <text x="30" y="125" font-size="13" font-weight="800" fill="var(--text-primary)" text-anchor="middle" font-family="serif">W</text>
+
+          <!-- Marcador Dinámico de Rumbo Sagrado (Target Beacon) -->
+          ${this.getTargetBeaconSVG()}
 
           <!-- Aguja Facetada Clásica de Precisión -->
           <polygon points="120,20 126,110 120,102 114,110" fill="#ef4444" filter="drop-shadow(0 0 6px rgba(239,68,68,0.7))"/>
