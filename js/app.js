@@ -400,6 +400,7 @@ export class FeUniversalApp {
     setTxt('label-intentions-title', t('intentions_balance', safeLang));
 
     // Banner Devocional de la Comunidad
+    setTxt('label-community-tag', t('community_banner_badge', safeLang) || 'FeUniversal · Fraternidad Global');
     setTxt('label-community-banner-title', t('community_banner_title', safeLang) || 'Tu Fe es Sagrada para Nosotros');
     setTxt('label-community-banner-text', t('community_banner_text', safeLang) || 'Estimado creyente: apoyamos y respetamos profundamente tu fe. Si deseas que tu oración favorita sea incluida en FeUniversal, contáctanos y en menos de 72 horas tendrás respuesta.');
     setTxt('label-copy-email-btn', t('community_banner_copy', safeLang) || 'Copiar Correo');
