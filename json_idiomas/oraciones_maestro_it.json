@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Toscano-Liturgico-CEI-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4253
+    "totalOraciones": 4266
   },
   "oraciones": [
     {
@@ -81761,9 +81761,9 @@
     {
       "id": "CAT_MEX_ZAPOPAN_GENERALA",
       "numero": 3738,
-      "titulo": "Preghiera alla Madonna di Zapopan (La Generala)",
+      "titulo": "Nostra Signora di Zapopan · La Generala e Pacificatrice, Aiuto contro Tempeste ed Epidemie",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_tempestades_y_paz",
+      "categoriaIntencion": "Protezione contro Tempeste ed Epidemie",
       "estadosEmocionales": [
         "en_tempestad",
         "temeroso",
@@ -81771,14 +81771,10 @@
         "devoto"
       ],
       "idiomaLiturgicoOriginal": "Español novohispano",
-      "textoOriginal": "¡Oh Virgen de Zapopan, Madre nuestra, Generala y Patrona contra tempestades, rayos y pestilencias! Tú que pacificaste a los pueblos originarios con tu presencia luminosa en el cerro del Mixtón: extiende tu manto bendito sobre nuestros campos y ciudades. Aleja las discordias, aplaca las tormentas de la vida, cuida a los campesinos y llévanos por caminos de fraternidad y concordia. Amén.",
-      "guiaFonetica": "[O Vir-jen de Sa-po-pan, Ma-dre nues-tra, Je-ne-ra-la y Pa-tro-na]",
-      "textoTraducido": "Vergine di Zapopan, Regina e Pacificatrice: calma le tempeste del corpo e dell'anima, proteggi i nostri raccolti e custodisci le nostre famiglie nel tuo amore divino. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "romeria_zapopana_tres_padrenuestros",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Danzas autóctonas con concheros y campanas de Zapopan"
-      },
+      "textoOriginal": "¡Oh Soberana Reina y Celestial Patrona, benditísima Virgen de Zapopan, amada Generala y Pacificadora! Desde hace siglos los pueblos de Jalisco y de México han encontrado en ti el refugio seguro contra las tempestades, pestes, epidemias y calamidades. Con filial confianza nos acogemos bajo tu sagrado amparo: aquieta las tormentas que sacuden nuestras vidas, protege nuestros hogares de todo peligro y haz brotar en nuestra sociedad los frutos de la paz, la reconciliación y la concordia. Madre amorosa de Zapopan, no desampares a tus devotos y llévanos siempre de la mano hacia tu amado Hijo Jesucristo. Amén.",
+      "guiaFonetica": "O So-be-ra-na Rei-na y Ce-les-tial Pa-tro-na, ben-di-tí-si-ma Vir-gen de Za-po-pan... a-quie-ta las tor-men-tas... A-mén.",
+      "textoTraducido": "O Sovrana Regina e Celeste Patrona, benedettissima Vergine di Zapopan, amata Generala e Pacificatrice! Da secoli i popoli di Jalisco e del Messico hanno trovato in te un sicuro rifugio contro tempeste, pesti, epidemie e calamità. Con filiale fiducia ci rifugiamo sotto la tua sacra protezione: placa le tempeste che scuotono le nostre vite, proteggi le nostre case da ogni pericolo e fa' sbocciare nella nostra società i frutti della pace, della riconciliazione e della concordia. Madre amorevole di Zapopan, non abbandonare i tuoi devoti e conducici sempre per mano al tuo amato Figlio Gesù Cristo. Amen.",
+      "ritualesAsociados": "Rezar en tiempos de tormentas climáticas, crisis de salud o tempestades espirituales, encendiendo una vela bendecida y portando la medalla de la Virgen de Zapopan.",
       "dir": "ltr"
     },
     {
@@ -82151,9 +82147,9 @@
     {
       "id": "CAT_HND_VIRGEN_SUYAPA_MORENITA",
       "numero": 3755,
-      "titulo": "Supplica alla Madonna di Suyapa",
+      "titulo": "Nostra Signora di Suyapa · Capitana e Patrona dell'Honduras, Rifugio Materno e Riconciliazione",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "paz_hondurena_y_proteccion_hogar",
+      "categoriaIntencion": "Rifugio Materno e Pace Sociale",
       "estadosEmocionales": [
         "humilde",
         "labrador",
@@ -82161,14 +82157,10 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español hondureño",
-      "textoOriginal": "¡Virgen de Suyapa, pequeñita y milagrosa Morenita hallada en el campo por humildes labradores! Tú que eres la Capitana y Reina de Honduras: mira las fatigas de nuestro pueblo. Danos pan en nuestras mesas, trabajo honrado en nuestros campos, salud en nuestros hogares y aparta de nuestra patria la discordia y la violencia. Amén.",
-      "guiaFonetica": "[Vir-jen de Su-ya-pa, pe-que-ñi-ta y mi-la-gro-sa Mo-re-ni-ta]",
-      "textoTraducido": "Vergine di Suyapa, Madre e Patrona dell'Honduras: proteggici sotto il tuo manto e guida le nostre famiglie su sentieri di pace, salute e speranza. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_suyapa",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Suyapa y guitarra campesina"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de Suyapa, tierna Morenita y Excelsa Patrona y Capitana de la República de Honduras! Tú que en tu diminuta y milagrosa imagen quisiste manifestar que Dios ensalza a los humildes y derrama su amor sobre los sencillos: acoge con bondad maternal las súplicas de tus hijos. Protege a nuestras familias de la violencia y la discordia, abre caminos de prosperidad y trabajo digno para la juventud, y guía a nuestros gobernantes por senderos de honradez y justicia. Manto de amor y paz, cobija a los más vulnerables y haz que Honduras y el mundo entero vivan en fraternidad cristiana. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de Su-ya-pa, tier-na Mo-re-ni-ta... co-bi-ja a los más vul-ne-ra-bles... A-mén.",
+      "textoTraducido": "O Santissima Vergine di Suyapa, tenera Morenita ed Eccelsa Patrona e Capitana della Repubblica dell'Honduras! Tu che nella tua minuscola e miracolosa immagine hai voluto manifestare che Dio innalza gli umili e riversa il suo amore sui semplici: accogli con materna bontà le suppliche dei tuoi figli. Proteggi le nostre famiglie dalla violenza e dalla discordia, apri vie di prosperità e lavoro dignitoso per i giovani, e guida i nostri governanti su sentieri di onestà e giustizia. Manto di amore e pace, accogli i più vulnerabili e fa' che l'Honduras e il mondo intero vivano nella fraternità cristiana. Amen.",
+      "ritualesAsociados": "Rezar con fervor ante la imagen de la Virgen de Suyapa, encendiendo una veladora blanca o azul pidiendo paz, empleo y protección familiar.",
       "dir": "ltr"
     },
     {
@@ -93691,6 +93683,196 @@
         "Agua bendita",
         "Estampa sagrada"
       ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SANTO_NINO_DIOS_LEVANTAMIENTO",
+      "numero": 4257,
+      "titulo": "Santo Bambino Gesù · Preghiera per il Sollevamento, Benedizione della Casa e della Famiglia",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Benedizione della Casa e Famiglia",
+      "estadosEmocionales": [
+        "paz",
+        "gratitud",
+        "devocion_familiar",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh dulcísimo y tierno Niño Jesús, Rey de cielos y tierra, nacido en el humilde portal de Belén para traer paz y redención a la humanidad! Hoy nos postramos ante tu divina presencia para levantarte en nuestros brazos y en lo más hondo de nuestros corazones. Bendice este hogar que te acoge, bendice a nuestros hijos, a los enfermos y a los ancianos. Que tu inocencia disipe todo rencor y tiniebla de nuestra casa, que nunca nos falte el pan bendito en la mesa, el trabajo digno ni la santa fe. Divino Niño Jesús, quédate con nosotros para siempre; que tus manitas inocentes guíen nuestros pasos por caminos de paz, santidad y mutuo amor. Amén.",
+      "guiaFonetica": "O dul-sí-si-mo y tier-no Ni-ño Je-sús, Rey de cie-los y tie-rra... ben-di-ce es-te ho-gar... A-mén.",
+      "textoTraducido": "O dolcissimo e tenero Bambino Gesù, Re del cielo e della terra, nato nell'umile stalla di Betlemme per portare pace e redenzione all'umanità! Oggi ci prostriamo davanti alla Tua divina presenza per sollevarti tra le nostre braccia e nel profondo dei nostri cuori. Benedici questa casa che Ti accoglie, benedici i nostri figli, i malati e gli anziani. La Tua innocenza dissipi ogni rancore e oscurità dalla nostra dimora; non ci manchi mai il pane benedetto sulla mensa, il lavoro dignitoso né la santa fede. Divino Bambino Gesù, rimani con noi per sempre; le Tue manine innocenti guidino i nostri passi su vie di pace, santità e reciproco amore. Amen.",
+      "ritualesAsociados": "Rezar en familia ante la imagen del Niño Dios, encendiendo una vela blanca el 2 de febrero (Día de la Candelaria) o durante las festividades navideñas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_PASCUAL_BAILON_COCINA_ABUNDANCIA",
+      "numero": 4258,
+      "titulo": "San Pasquale Baylon · Patrono dei Cuochi, Abbondanza nella Casa e Adorazione Eucaristica",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Provvidenza e Alimenti",
+      "estadosEmocionales": [
+        "gratitud",
+        "esperanza",
+        "paz",
+        "provision"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Glorioso San Pascual Bailón, humilde franciscano y enamorado ferviente del Santísimo Sacramento del Altar! Tú que con santa alegría y profundo amor serviste al Señor en el convento y en los quehaceres más sencillos de la cocina: pon tu gracia y bendición en nuestro fogón, en nuestras mesas y despensas. San Pascualito Bailón, que nunca falte en nuestro hogar el pan de cada día, la sal del amor cristiano ni el sustento para alimentar a los más necesitados. Bendice nuestras manos al preparar el alimento y enséñanos a adorar con corazón puro a Jesús Sacramentado, verdadero Pan de Vida eterna. Por Cristo nuestro Señor. Amén.",
+      "guiaFonetica": "Glo-rio-so San Pas-cual Bai-lón, hu-mil-de fran-cis-ca-no... pon tu gra-cia en nues-tro fo-gón... A-mén.",
+      "textoTraducido": "Glorioso San Pasquale Baylon, umile francescano e fervido innamorato del Santissimo Sacramento dell'Altare! Tu che con santa gioia e profondo amore hai servito il Signore nel convento e nelle più semplici mansioni della cucina: effondi la tua grazia e benedizione sul nostro focolare, sulle nostre mense e dispense. San Pasquale, non manchi mai nella nostra casa il pane quotidiano, il sale della carità cristiana né il nutrimento per sostenere i più bisognosi. Benedici le nostre mani nel preparare il cibo e insegnaci ad adorare con cuore puro Gesù Sacramentato, vero Pane di Vita eterna. Per Cristo nostro Signore. Amen.",
+      "ritualesAsociados": "Rezar en la cocina o comedor, encendiendo una vela amarilla o blanca, pidiendo providencia y bendición sobre los alimentos y la familia.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JOSE_SANCHEZ_DEL_RIO_VALENTIA",
+      "numero": 4259,
+      "titulo": "San José Sánchez del Río · Testimonianza Cristera, Coraggio e Incrollabile Fedeltà a Cristo Re",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Fortezza e Fedeltà nella Fede",
+      "estadosEmocionales": [
+        "fortaleza",
+        "fe_inquebrantable",
+        "coraje",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh San José Sánchez del Río, 'Joselito', joven mártir y valiente soldado de Cristo Jesús! Tú que supiste preferir la palma del martirio antes que negar tu fe en el Redentor, y con tus pies llagados y tu voz firme proclamaste hasta el último suspiro: '¡Viva Cristo Rey y Santa María de Guadalupe!': intercede por la juventud del mundo entero, por nuestras familias y por nuestras naciones. Danos la fortaleza y la pureza de corazón para ser testigos valientes del Evangelio, sin ceder ante el miedo ni la indiferencia. Ruega por nosotros ante el trono de Dios, para que permanezcamos fieles a Cristo hasta el final de nuestros días. Amén.",
+      "guiaFonetica": "O San Jo-sé Sán-chez del Rí-o, Jo-se-li-to... ¡Vi-va Cris-to Rey y San-ta Ma-rí-a de Gua-da-lu-pe!... A-mén.",
+      "textoTraducido": "O San José Sánchez del Río, 'Joselito', giovane martire e valoroso soldato di Cristo Gesù! Tu che hai preferito la palma del martirio piuttosto che rinnegare la tua fede nel Redentore, e con i piedi feriti e la voce salda hai proclamato fino all'ultimo respiro: 'Viva Cristo Re e Santa Maria di Guadalupe!': intercedi per i giovani del mondo intero, per le nostre famiglie e per le nostre nazioni. Donaci fortezza e purezza di cuore per essere testimoni coraggiosi del Vangelo, senza cedere alla paura o all'indifferenza. Prega per noi davanti al trono di Dio, affinché rimaniamo fedeli a Cristo fino alla fine dei nostri giorni. Amen.",
+      "ritualesAsociados": "Rezar pidiendo fortaleza espiritual, valentía en las pruebas y fidelidad en la fe, encendiendo una vela roja o blanca.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUAN_DIEGO_CUAUHTLATOATZIN",
+      "numero": 4260,
+      "titulo": "San Juan Diego Cuauhtlatoatzin · Umile Messaggero di Nostra Signora di Guadalupe",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Umiltà e Protezione Mariana",
+      "estadosEmocionales": [
+        "humildad",
+        "devocion_mariana",
+        "esperanza",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Bienaventurado San Juan Diego, varón humilde, sencillo y de fe inquebrantable! Tú que fuiste elegido por la Santísima Virgen María de Guadalupe como su embajador y confidente en la colina del Tepeyac, llevando en tu ayate las benditas rosas de Castilla y la sagrada estampa de la Morenita del Tepeyac: enséñanos a escuchar la voz de Dios en la sencillez de la vida diaria. Alcánzanos de la Madre del Cielo el consuelo en las pruebas, la sanación de los enfermos y la dignidad para todos los pueblos. Que como tú, caminemos siempre con docilidad, alegría y esperanza cristiana bajo el amparo amoroso de María. Amén.",
+      "guiaFonetica": "Bie-na-ven-tu-ra-do San Juan Die-go Cuauh-tla-toat-zin... lle-van-do en tu a-ya-te las ben-di-tas ro-sas... A-mén.",
+      "textoTraducido": "Beato San Juan Diego, uomo umile, semplice e di incrollabile fede! Tu che fosti scelto dalla Santissima Vergine Maria di Guadalupe come suo ambasciatore e confidente sulla collina del Tepeyac, portando nella tua tilma le benedette rose di Castiglia e la sacra immagine della Morenita: insegnaci ad ascoltare la voce di Dio nella semplicità della vita quotidiana. Ottienici dalla Madre Celeste conforto nelle prove, guarigione per i malati e dignità per tutti i popoli. Possa ciascuno di noi camminare sempre con docilità, gioia e speranza cristiana sotto la materna protezione di Maria. Amen.",
+      "ritualesAsociados": "Rezar con devoción guadalupana ante una imagen de la Virgen de Guadalupe o San Juan Diego, pidiendo sencillez de corazón y ayuda maternal.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SENOR_DEL_VENENO_CATEDRAL_MEXICO",
+      "numero": 4261,
+      "titulo": "Signore del Veleno (Cristo Nero della Cattedrale del Messico) · Protezione Assoluta e Miracolo d'Amore",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Protezione contro Tradimenti e Mali",
+      "estadosEmocionales": [
+        "proteccion",
+        "liberacion",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Milagrosísimo Señor del Veneno, Cristo crucificado de piedad y misericordia infinita! Tú que en la venerable Catedral Metropolitana de la Ciudad de México manifestaste tu poder y bondad al doblar tus sagradas piernas y absorber en tu divino cuerpo el veneno de la traición para salvar la vida de tu devoto fiel: mírame con ojos de compasión en esta hora de necesidad. Neutraliza en mi vida todo veneno del alma y del cuerpo: la envidia, el odio, el rencor, la murmuración y cualquier maldad que busque dañarme a mí o a los míos. Sé mi escudo protector, sana mis heridas y enséñame a perdonar como Tú perdonaste desde la Santa Cruz. Amén.",
+      "guiaFonetica": "O Mi-la-gro-sí-si-mo Se-ñor del Ve-ne-no, Cris-to cru-ci-fi-ca-do... neu-tra-li-za en mi vi-da to-do ve-ne-no... A-mén.",
+      "textoTraducido": "O Miracolosissimo Signore del Veleno, Cristo crocifisso di infinita pietà e misericordia! Tu che nella venerabile Cattedrale Metropolitana di Città del Messico hai manifestato la Tua potenza e bontà piegando le Tue sacre gambe e assorbendo nel Tuo divino corpo il veleno del tradimento per salvare la vita del Tuo fedele devoto: guardami con occhi di compassione in quest'ora di bisogno. Neutralizza nella mia vita ogni veleno dell'anima e del corpo: l'invidia, l'odio, il rancore, la maldicenza e qualsiasi male che cerchi di nuocere a me o ai miei cari. Sii il mio scudo protettore, sana le mie ferite e insegnami a perdonare come Tu hai perdonato dalla Santa Croce. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una veladora negra o morada que luego se torna en luz blanca de liberación, pidiendo protección contra envidias, traiciones y daños ocultos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LA_SOLEDAD_OAXACA",
+      "numero": 4262,
+      "titulo": "Nostra Signora della Solitudine di Oaxaca · Conforto nel Dolore, Rifugio e Fortezza",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Conforto nella Tristezza e Solitudine",
+      "estadosEmocionales": [
+        "consuelo",
+        "paz",
+        "fortaleza",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen de la Soledad, Excelsa Patrona y Reina coronada del pueblo de Oaxaca! Madre amorosa que al pie de la Cruz permaneciste firme en la fe cuando las sombras cubrieron la tierra: acudimos hoy a ti en busca de refugio y fortaleza. Enjuga las lágrimas de quienes lloran en soledad, alivia las penas del corazón angustiado y acompaña a quienes sufren abandono, enfermedad o pérdida. Manto bendito de terciopelo bordado, cúbrenos y protégenos de toda adversidad. Que en medio de nuestras pruebas nunca perdamos la esperanza de la resurrección y el abrazo eterno con tu Hijo Jesucristo. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la So-le-dad... en-ju-ga las lá-gri-mas de quie-nes llo-ran en so-le-dad... A-mén.",
+      "textoTraducido": "O Santissima Vergine della Solitudine, Eccelsa Patrona e Regina incoronata di Oaxaca! Madre amorevole che ai piedi della Croce sei rimasta salda nella fede quando le tenebre coprirono la terra: a te ricorriamo oggi in cerca di rifugio e fortezza. Asciuga le lacrime di quanti piangono nella solitudine, allevia le pene del cuore angosciato e accompagna chi soffre abbandono, malattia o lutto. Manto benedetto di velluto ricamato, coprici e proteggici da ogni avversità. In mezzo alle nostre prove, non perdiamo mai la speranza della risurrezione e dell'abbraccio eterno con tuo Figlio Gesù Cristo. Amen.",
+      "ritualesAsociados": "Rezar en momentos de luto, angustia profunda, soledad o desamparo, encendiendo un cirio blanco ante la imagen de la Virgen Dolorosa o de la Soledad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_NEGRO_ESQUIPULAS_CENTROAMERICA",
+      "numero": 4263,
+      "titulo": "Signore di Esquipulas (Cristo Nero) · Riconciliazione, Guarigione e Pace dei Popoli Centroamericani",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Guarigione, Pace e Riconciliazione",
+      "estadosEmocionales": [
+        "paz",
+        "sanacion",
+        "reconciliacion",
+        "devocion"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Milagroso Señor de Esquipulas, Cristo crucificado y moreno que en la Basílica de Guatemala congregas a millones de peregrinos como Capital Centroamericana de la Fe! Ante tu bendita cruz nos postramos con profunda devoción y humildad. Tú que con tu tez morena te hiciste uno con el dolor, la esperanza y la identidad de nuestros pueblos: derrama sobre nosotros el bálsamo de tu divina misericordia. Sana nuestros cuerpos de toda enfermedad incurable, rompe las cadenas de la violencia y la discordia, y concede a nuestras naciones la verdadera justicia y paz duradera. Acoge nuestras súplicas y guíanos hacia el Reino de los Cielos. Amén.",
+      "guiaFonetica": "O Mi-la-gro-so Se-ñor de Es-qui-pu-las, Cris-to cru-ci-fi-ca-do y mo-re-no... de-rra-ma so-bre no-so-tros el bál-sa-mo de tu mi-se-ri-cor-dia... A-mén.",
+      "textoTraducido": "O Miracoloso Signore di Esquipulas, Cristo crocifisso e bruno che nella Basilica del Guatemala raduni milioni di pellegrini come Capitale Centroamericana della Fede! Davanti alla Tua santa croce ci prostriamo con profonda devozione e umiltà. Tu che con la Tua carnagione bruna Ti sei fatto uno con il dolore, la speranza e l'identità dei nostri popoli: effondi su di noi il balsamo della Tua divina misericordia. Sana i nostri corpi da ogni malattia incurabile, spezza le catene della violenza e della discordia, e concedi alle nostre nazioni vera giustizia e pace duratura. Accogli le nostre suppliche e guidaci verso il Regno dei Cieli. Amen.",
+      "ritualesAsociados": "Rezar con devoción de peregrino, encendiendo velas moradas o blancas pidiendo sanación de enfermedades difíciles y reconciliación familiar o comunitaria.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_CONCEPCION_EL_VIEJO_NICARAGUA",
+      "numero": 4264,
+      "titulo": "Nostra Signora dell'Immacolata Concezione di El Viejo · La Purissima, Patrona Nazionale del Nicaragua",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Protezione Mariana e Gioia Spirituale",
+      "estadosEmocionales": [
+        "alegria",
+        "devocion_mariana",
+        "paz",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Purísima e Inmaculada Virgen de la Concepción de El Viejo, amadísima Patrona de Nicaragua! Con inmenso gozo y devoción filial exclamamos: '¿Quién causa tanta alegría? ¡La Concepción de María!'. Tú que llegaste a nuestras tierras para ser faro de consuelo, paz y esperanza: protege a nuestro pueblo, custodia a las familias y bendice los campos y los hogares. Líbranos de todo pecado, de tempestades y calamidades, y haz florecer en nuestros corazones la pureza, la fraternidad y la justicia. Que tu dulce nombre sea siempre alabado en cada rincón de nuestra patria y del mundo. Amén.",
+      "guiaFonetica": "O Pu-rí-si-ma e In-ma-cu-la-da Vir-gen de la Con-cep-ción de El Vie-jo... ¿Quién cau-sa tan-ta a-le-grí-a? ¡La Con-cep-ción de Ma-rí-a!... A-mén.",
+      "textoTraducido": "O Purissima e Immacolata Vergine della Concezione di El Viejo, amatissima Patrona del Nicaragua! Con immenso gaudio e filiale devozione esclamiamo: 'Chi causa tanta gioia? La Concezione di Maria!'. Tu che giungesti nelle nostre terre per essere faro di conforto, pace e speranza: proteggi il nostro popolo, custodisci le famiglie e benedici i campi e le case. Liberaci da ogni peccato, tempeste e calamità, e fa' fiorire nei nostri cuori la purezza, la fraternità e la giustizia. Il tuo dolce nome sia sempre lodato in ogni angolo della nostra patria e del mondo. Amen.",
+      "ritualesAsociados": "Rezar en la fiesta de La Gritería y la Inmaculada Concepción con cantos tradicionales, encendiendo luces y compartiendo alimentos de caridad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "DIVINO_SALVADOR_DEL_MUNDO_PATRONO",
+      "numero": 4265,
+      "titulo": "Divino Salvatore del Mondo · Sovrano e Patrono di El Salvador, Luce e Guida delle Nazioni",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Pace, Giustizia e Speranza",
+      "estadosEmocionales": [
+        "paz",
+        "esperanza",
+        "fortaleza",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Divino Salvador del Mundo, Señor Jesucristo, Rey de Reyes y Señor de Señores! Tú que sobre la cumbre del Monte Tabor te transfiguraste mostrando a los discípulos el resplandor de tu gloria eterna y celestial: extiende tu mano omnipotente sobre la nación salvadoreña y sobre todas las familias de la tierra. Transfigura nuestras penas en esperanza, nuestros temores en fortaleza y nuestras divisiones en unidad fraternal. Concédenos la paz que el mundo no puede dar, defiende a los desamparados y haz que nuestro pueblo viva en justicia, trabajo y santa reverencia a tu Santo Nombre. Amén.",
+      "guiaFonetica": "O Di-vi-no Sal-va-dor del Mun-do, Se-ñor Je-su-cris-to... trans-fi-gu-ra nues-tras pe-nas en es-pe-ran-za... A-mén.",
+      "textoTraducido": "O Divino Salvatore del Mondo, Signore Gesù Cristo, Re dei Re e Signore dei Signori! Tu che sulla vetta del Monte Tabor Ti sei trasfigurato mostrando ai discepoli lo splendore della Tua gloria eterna e celeste: stendi la Tua mano onnipotente sulla nazione salvadoregna e su tutte le famiglie della terra. Trasfigura le nostre sofferenze in speranza, i nostri timori in fortezza e le nostre divisioni in unità fraterna. Donaci la pace che il mondo non può dare, difendi gli indifesi e fa' che il nostro popolo viva nella giustizia, nel lavoro e nel santo timore del Tuo Santo Nome. Amen.",
+      "ritualesAsociados": "Rezar en la solemnidad de la Transfiguración del Señor (6 de agosto) o en momentos de clamor nacional y familiar por la paz y el progreso.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_RAMON_NONATO_CANDADO_MALAS_LENGUAS",
+      "numero": 4266,
+      "titulo": "San Raimondo Nonnato · Preghiera Solenne del Lucchetto, Silenzio alle Calunnie e Parto Sicuro",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Protezione da Calunnie e Maternità",
+      "estadosEmocionales": [
+        "proteccion",
+        "justicia",
+        "paz",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosísimo San Ramón Nonato, insigne confesor de Cristo y amparo de los afligidos! Tú que por defender la fe y anunciar el Evangelio sufriste el tormento de ver tus labios sellados con un candado de hierro: pongo bajo tu protección mi vida, mi honra, mi familia y mi hogar. Coloca tu sagrado candado sobre las bocas que intentan perjudicarme con mentiras, envidias, calumnias o falsos testimonios; apaga el fuego de la murmuración y haz que triunfe la divina verdad y la paz. Asimismo, protege a todas las mujeres embarazadas, asiste con tu bondad la hora del alumbramiento y concede partos felices, sin peligro para la madre ni para el recién nacido. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "Glo-rio-sí-si-mo San Ra-món No-na-to... co-lo-ca tu sa-gra-do can-da-do so-bre las bo-cas que in-ten-tan per-ju-di-car-me... A-mén.",
+      "textoTraducido": "Gloriosissimo San Raimondo Nonnato, insigne confessore di Cristo e rifugio degli afflitti! Tu che per difendere la fede e annunziare il Vangelo hai sofferto il tormento di vedere le tue labbra serrate con un lucchetto di ferro: pongo sotto la tua protezione la mia vita, il mio onore, la mia famiglia e la mia casa. Poni il tuo sacro lucchetto sulle bocche che tentano di nuocermi con menzogne, invidie, calunnie o false testimonianze; spegni il fuoco della maldicenza e fa' trionfare la divina verità e la pace. Proteggi inoltre tutte le donne in dolce attesa, assisti con la tua bontà l'ora del parto e concedi nascite serene, senza pericolo per la madre né per il neonato. Per Gesù Cristo nostro Signore. Amen.",
+      "ritualesAsociados": "Rezar sosteniendo una medalla o estampa de San Ramón Nonato o cerrando simbólicamente un pequeño candado ante una vela blanca, pidiendo protección contra murmuraciones y bendición para embarazos.",
       "dir": "ltr"
     }
   ]

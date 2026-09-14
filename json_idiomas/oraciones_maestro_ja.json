@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Keigo-Kyodoyaku-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4253
+    "totalOraciones": 4266
   },
   "oraciones": [
     {
@@ -81761,9 +81761,9 @@
     {
       "id": "CAT_MEX_ZAPOPAN_GENERALA",
       "numero": 3738,
-      "titulo": "サポパンの聖母への祈り (ラ・ジェネラ)",
+      "titulo": "サポパンの聖母 · 女司令官と平和の使者、嵐と疫病からの保護の祈り",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_tempestades_y_paz",
+      "categoriaIntencion": "嵐と疫病からの保護",
       "estadosEmocionales": [
         "en_tempestad",
         "temeroso",
@@ -81771,14 +81771,10 @@
         "devoto"
       ],
       "idiomaLiturgicoOriginal": "Español novohispano",
-      "textoOriginal": "¡Oh Virgen de Zapopan, Madre nuestra, Generala y Patrona contra tempestades, rayos y pestilencias! Tú que pacificaste a los pueblos originarios con tu presencia luminosa en el cerro del Mixtón: extiende tu manto bendito sobre nuestros campos y ciudades. Aleja las discordias, aplaca las tormentas de la vida, cuida a los campesinos y llévanos por caminos de fraternidad y concordia. Amén.",
-      "guiaFonetica": "[O Vir-jen de Sa-po-pan, Ma-dre nues-tra, Je-ne-ra-la y Pa-tro-na]",
-      "textoTraducido": "サポパンの聖母、女王であり平和実現者よ、あなたの神聖な愛で身と魂の嵐を静め、私たちの作物を守り、私たちの家族を守護したまえ。アーメン。",
-      "ritualesAsociados": {
-        "tipoContador": "romeria_zapopana_tres_padrenuestros",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Danzas autóctonas con concheros y campanas de Zapopan"
-      },
+      "textoOriginal": "¡Oh Soberana Reina y Celestial Patrona, benditísima Virgen de Zapopan, amada Generala y Pacificadora! Desde hace siglos los pueblos de Jalisco y de México han encontrado en ti el refugio seguro contra las tempestades, pestes, epidemias y calamidades. Con filial confianza nos acogemos bajo tu sagrado amparo: aquieta las tormentas que sacuden nuestras vidas, protege nuestros hogares de todo peligro y haz brotar en nuestra sociedad los frutos de la paz, la reconciliación y la concordia. Madre amorosa de Zapopan, no desampares a tus devotos y llévanos siempre de la mano hacia tu amado Hijo Jesucristo. Amén.",
+      "guiaFonetica": "O So-be-ra-na Rei-na y Ce-les-tial Pa-tro-na, ben-di-tí-si-ma Vir-gen de Za-po-pan... a-quie-ta las tor-men-tas... A-mén.",
+      "textoTraducido": "最高権能の女王にして天の守護者、いと祝福されたサポパンの聖母、愛される司令官にして平和の使者よ！何世紀にもわたり、ハリスコとメキシコの人々は嵐、疫病、感染症、災害に対する確かな避難所をあなたの中に見出してきました。親愛なる信頼をもってあなたの聖なる保護のもとに身を寄せます：私たちの生活を揺るがす嵐を鎮め、家庭をあらゆる危険から守り、社会に平和、和解、協調の実を結ばせ給え。慈愛深きサポパンの母よ、信徒たちを見捨てることなく、愛する御子イエス・キリストへと常に手をとって導いてください。アーメン。",
+      "ritualesAsociados": "Rezar en tiempos de tormentas climáticas, crisis de salud o tempestades espirituales, encendiendo una vela bendecida y portando la medalla de la Virgen de Zapopan.",
       "dir": "ltr"
     },
     {
@@ -82151,9 +82147,9 @@
     {
       "id": "CAT_HND_VIRGEN_SUYAPA_MORENITA",
       "numero": 3755,
-      "titulo": "スヤパの聖母に嘆願します",
+      "titulo": "スヤパの聖母 · ホンジュラスの保護者、母なる避難所と平和の祈り",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "paz_hondurena_y_proteccion_hogar",
+      "categoriaIntencion": "母なる保護と社会の平和",
       "estadosEmocionales": [
         "humilde",
         "labrador",
@@ -82161,14 +82157,10 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español hondureño",
-      "textoOriginal": "¡Virgen de Suyapa, pequeñita y milagrosa Morenita hallada en el campo por humildes labradores! Tú que eres la Capitana y Reina de Honduras: mira las fatigas de nuestro pueblo. Danos pan en nuestras mesas, trabajo honrado en nuestros campos, salud en nuestros hogares y aparta de nuestra patria la discordia y la violencia. Amén.",
-      "guiaFonetica": "[Vir-jen de Su-ya-pa, pe-que-ñi-ta y mi-la-gro-sa Mo-re-ni-ta]",
-      "textoTraducido": "ホンジュラスの母であり守護聖人、スヤパの聖母よ、私たちをあなたのマントの下に守り、私たちの家族を平和、健康、希望の道に導きたまえ。アーメン。",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_suyapa",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Suyapa y guitarra campesina"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de Suyapa, tierna Morenita y Excelsa Patrona y Capitana de la República de Honduras! Tú que en tu diminuta y milagrosa imagen quisiste manifestar que Dios ensalza a los humildes y derrama su amor sobre los sencillos: acoge con bondad maternal las súplicas de tus hijos. Protege a nuestras familias de la violencia y la discordia, abre caminos de prosperidad y trabajo digno para la juventud, y guía a nuestros gobernantes por senderos de honradez y justicia. Manto de amor y paz, cobija a los más vulnerables y haz que Honduras y el mundo entero vivan en fraternidad cristiana. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de Su-ya-pa, tier-na Mo-re-ni-ta... co-bi-ja a los más vul-ne-ra-bles... A-mén.",
+      "textoTraducido": "いと聖なるスヤパの聖母、優しき黒き聖母、ホンジュラス共和国の高貴なる保護者にして総帥よ！その小さくも奇跡的な御像において、神が謙遜な者を高め、素朴な心に愛を注がれることを示された聖母よ：母なる慈愛をもって子どもたちの祈りを受け入れ給え。暴力といさかいから私たちの家庭を守り、青少年のために繁栄と尊き勤労の道を開き、指導者たちを誠実と正義の道へと導き給え。愛と平和のマントよ、最も脆弱な人々を覆い、ホンジュラスと全世界がキリスト者の兄弟愛のうちに生きられるようにし給え。アーメン。",
+      "ritualesAsociados": "Rezar con fervor ante la imagen de la Virgen de Suyapa, encendiendo una veladora blanca o azul pidiendo paz, empleo y protección familiar.",
       "dir": "ltr"
     },
     {
@@ -93691,6 +93683,196 @@
         "Agua bendita",
         "Estampa sagrada"
       ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SANTO_NINO_DIOS_LEVANTAMIENTO",
+      "numero": 4257,
+      "titulo": "幼子イエス · 奉迎、家庭と住まいの祝福の祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "家庭と住まいの祝福",
+      "estadosEmocionales": [
+        "paz",
+        "gratitud",
+        "devocion_familiar",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh dulcísimo y tierno Niño Jesús, Rey de cielos y tierra, nacido en el humilde portal de Belén para traer paz y redención a la humanidad! Hoy nos postramos ante tu divina presencia para levantarte en nuestros brazos y en lo más hondo de nuestros corazones. Bendice este hogar que te acoge, bendice a nuestros hijos, a los enfermos y a los ancianos. Que tu inocencia disipe todo rencor y tiniebla de nuestra casa, que nunca nos falte el pan bendito en la mesa, el trabajo digno ni la santa fe. Divino Niño Jesús, quédate con nosotros para siempre; que tus manitas inocentes guíen nuestros pasos por caminos de paz, santidad y mutuo amor. Amén.",
+      "guiaFonetica": "O dul-sí-si-mo y tier-no Ni-ño Je-sús, Rey de cie-los y tie-rra... ben-di-ce es-te ho-gar... A-mén.",
+      "textoTraducido": "いと優しく慈しみ深き幼子イエス、天と地の王、人類に平和と贖いをもたらすためにベツレヘムの貧しい飼い葉桶にお生まれになった主よ！本日、私たちは御前にひれ伏し、腕の中と心の奥深くに幼子イエスをお抱き申し上げます。主をお迎えするこの家庭を祝福し、子どもたち、病める人々、高齢者を守り給え。主の無垢なる清らかさが、家庭からすべての怨みと暗闇を払い去り、日々の糧、尊き仕事、聖なる信仰が決して絶えぬようにし給え。神聖なる幼子イエスよ、永遠に私たちと共におられ、その清き御手をもって平和と聖化、互いの愛の道へと私たちをお導きください。アーメン。",
+      "ritualesAsociados": "Rezar en familia ante la imagen del Niño Dios, encendiendo una vela blanca el 2 de febrero (Día de la Candelaria) o durante las festividades navideñas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_PASCUAL_BAILON_COCINA_ABUNDANCIA",
+      "numero": 4258,
+      "titulo": "聖パスカル・バイロン · 料理人の保護者、家庭の豊かさと聖体礼拝の祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "日々の糧と神の摂理",
+      "estadosEmocionales": [
+        "gratitud",
+        "esperanza",
+        "paz",
+        "provision"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Glorioso San Pascual Bailón, humilde franciscano y enamorado ferviente del Santísimo Sacramento del Altar! Tú que con santa alegría y profundo amor serviste al Señor en el convento y en los quehaceres más sencillos de la cocina: pon tu gracia y bendición en nuestro fogón, en nuestras mesas y despensas. San Pascualito Bailón, que nunca falte en nuestro hogar el pan de cada día, la sal del amor cristiano ni el sustento para alimentar a los más necesitados. Bendice nuestras manos al preparar el alimento y enséñanos a adorar con corazón puro a Jesús Sacramentado, verdadero Pan de Vida eterna. Por Cristo nuestro Señor. Amén.",
+      "guiaFonetica": "Glo-rio-so San Pas-cual Bai-lón, hu-mil-de fran-cis-ca-no... pon tu gra-cia en nues-tro fo-gón... A-mén.",
+      "textoTraducido": "栄えある聖パスカル・バイロン、謙遜なるフランシスコ会士、祭壇のいと尊きご聖体の熱烈なる愛好者よ！修道院と厨房の最もささやかな仕事において、聖なる喜びと深い愛をもって主に仕えた聖人よ：私たちの炉、食卓、食糧庫にあなたの恵みと祝福を注ぎ給え。聖パスカルよ、私たちの家庭に日々の糧、キリスト者の愛の塩、困窮する人々を養う食物が決して尽きぬようにし給え。食事を準備する私たちの手を祝福し、永遠の命のまことのパンであるご聖体のイエスを、清き心をもって礼拝することを教えてください。私たちの主キリストによって。アーメン。",
+      "ritualesAsociados": "Rezar en la cocina o comedor, encendiendo una vela amarilla o blanca, pidiendo providencia y bendición sobre los alimentos y la familia.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JOSE_SANCHEZ_DEL_RIO_VALENTIA",
+      "numero": 4259,
+      "titulo": "聖ホセ・サンチェス・デル・リオ · キリストの王に対する殉教の証しと不屈の信仰の祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "信仰の堅忍と勇気",
+      "estadosEmocionales": [
+        "fortaleza",
+        "fe_inquebrantable",
+        "coraje",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh San José Sánchez del Río, 'Joselito', joven mártir y valiente soldado de Cristo Jesús! Tú que supiste preferir la palma del martirio antes que negar tu fe en el Redentor, y con tus pies llagados y tu voz firme proclamaste hasta el último suspiro: '¡Viva Cristo Rey y Santa María de Guadalupe!': intercede por la juventud del mundo entero, por nuestras familias y por nuestras naciones. Danos la fortaleza y la pureza de corazón para ser testigos valientes del Evangelio, sin ceder ante el miedo ni la indiferencia. Ruega por nosotros ante el trono de Dios, para que permanezcamos fieles a Cristo hasta el final de nuestros días. Amén.",
+      "guiaFonetica": "O San Jo-sé Sán-chez del Rí-o, Jo-se-li-to... ¡Vi-va Cris-to Rey y San-ta Ma-rí-a de Gua-da-lu-pe!... A-mén.",
+      "textoTraducido": "聖ホセ・サンチェス・デル・リオ（ホセリート）、若き殉教者にしてイエス・キリストの雄々しき兵士よ！贖い主への信仰を否定するよりも殉教の栄冠を選び、傷ついた足と揺るぎなき声をもって息絶えるまで叫んだ聖人よ：「キリストの王万歳！グアダルーペの聖母万歳！」：全世界の青少年のため、私たちの家庭と国のために取り次ぎ給え。私たちが恐れや無関心に屈することなく、福音の勇敢な証人となるよう、心の強さと清らかさを与え給え。私たちが人生の終わりまでキリストに忠実であり続けられるよう、神の玉座の前で私たちのために祈り給え。アーメン。",
+      "ritualesAsociados": "Rezar pidiendo fortaleza espiritual, valentía en las pruebas y fidelidad en la fe, encendiendo una vela roja o blanca.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUAN_DIEGO_CUAUHTLATOATZIN",
+      "numero": 4260,
+      "titulo": "聖フアン・ディエゴ · グアダルーペの聖母の謙遜なる使者の祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "謙遜と聖母の保護",
+      "estadosEmocionales": [
+        "humildad",
+        "devocion_mariana",
+        "esperanza",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Bienaventurado San Juan Diego, varón humilde, sencillo y de fe inquebrantable! Tú que fuiste elegido por la Santísima Virgen María de Guadalupe como su embajador y confidente en la colina del Tepeyac, llevando en tu ayate las benditas rosas de Castilla y la sagrada estampa de la Morenita del Tepeyac: enséñanos a escuchar la voz de Dios en la sencillez de la vida diaria. Alcánzanos de la Madre del Cielo el consuelo en las pruebas, la sanación de los enfermos y la dignidad para todos los pueblos. Que como tú, caminemos siempre con docilidad, alegría y esperanza cristiana bajo el amparo amoroso de María. Amén.",
+      "guiaFonetica": "Bie-na-ven-tu-ra-do San Juan Die-go Cuauh-tla-toat-zin... lle-van-do en tu a-ya-te las ben-di-tas ro-sas... A-mén.",
+      "textoTraducido": "福者聖フアン・ディエゴ、謙遜と純朴、不屈の信仰の人よ！グアダルーペのいと聖なるおとめマリアによりテペヤクの丘で使者として選ばれ、マントの中にカスティリャの奇跡の薔薇と聖母の聖なる御影を携えた聖人よ：日々の生活の素朴さの中で神の御声を聴くことを教えてください。試練における慰め、病者の癒やし、すべての人々の尊厳を天の母に取り次ぎ給え。私たちがあなたのように、マリアの愛の保護のもと、従順と喜び、キリスト者の希望をもって歩むことができますように。アーメン。",
+      "ritualesAsociados": "Rezar con devoción guadalupana ante una imagen de la Virgen de Guadalupe o San Juan Diego, pidiendo sencillez de corazón y ayuda maternal.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SENOR_DEL_VENENO_CATEDRAL_MEXICO",
+      "numero": 4261,
+      "titulo": "毒の主（メキシコ大聖堂の黒いキリスト） · 完全なる保護と愛の奇跡の祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "裏切りと悪からの保護",
+      "estadosEmocionales": [
+        "proteccion",
+        "liberacion",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Milagrosísimo Señor del Veneno, Cristo crucificado de piedad y misericordia infinita! Tú que en la venerable Catedral Metropolitana de la Ciudad de México manifestaste tu poder y bondad al doblar tus sagradas piernas y absorber en tu divino cuerpo el veneno de la traición para salvar la vida de tu devoto fiel: mírame con ojos de compasión en esta hora de necesidad. Neutraliza en mi vida todo veneno del alma y del cuerpo: la envidia, el odio, el rencor, la murmuración y cualquier maldad que busque dañarme a mí o a los míos. Sé mi escudo protector, sana mis heridas y enséñame a perdonar como Tú perdonaste desde la Santa Cruz. Amén.",
+      "guiaFonetica": "O Mi-la-gro-sí-si-mo Se-ñor del Ve-ne-no, Cris-to cru-ci-fi-ca-do... neu-tra-li-za en mi vi-da to-do ve-ne-no... A-mén.",
+      "textoTraducido": "いと奇跡なる毒の主、無限の慈悲と憐れみの十字架のキリストよ！メキシコシティの大聖堂において、敬虔な信徒の命を救うために聖なる足を曲げ、裏切りの毒をご自身の神聖なる御体に吸い取って力と慈愛を示された主よ：この困窮の時に慈愛の眼差しをもって私を顧み給え。私の魂と肉体からすべての毒を取り除き給え：嫉妬、憎悪、怨恨、悪口、私や家族を害そうとするあらゆる邪悪を無力化し給え。我が守りの盾となり、傷を癒やし、十字架の上から赦されたように赦すことを教えてください。アーメン。",
+      "ritualesAsociados": "Rezar encendiendo una veladora negra o morada que luego se torna en luz blanca de liberación, pidiendo protección contra envidias, traiciones y daños ocultos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LA_SOLEDAD_OAXACA",
+      "numero": 4262,
+      "titulo": "オアハカの孤独の聖母 · 苦難における慰め、避難所と強さの祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "悲哀と孤独における慰め",
+      "estadosEmocionales": [
+        "consuelo",
+        "paz",
+        "fortaleza",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen de la Soledad, Excelsa Patrona y Reina coronada del pueblo de Oaxaca! Madre amorosa que al pie de la Cruz permaneciste firme en la fe cuando las sombras cubrieron la tierra: acudimos hoy a ti en busca de refugio y fortaleza. Enjuga las lágrimas de quienes lloran en soledad, alivia las penas del corazón angustiado y acompaña a quienes sufren abandono, enfermedad o pérdida. Manto bendito de terciopelo bordado, cúbrenos y protégenos de toda adversidad. Que en medio de nuestras pruebas nunca perdamos la esperanza de la resurrección y el abrazo eterno con tu Hijo Jesucristo. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la So-le-dad... en-ju-ga las lá-gri-mas de quie-nes llo-ran en so-le-dad... A-mén.",
+      "textoTraducido": "オアハカのいと聖なる孤独の聖母、高貴なる保護者にして戴冠の女王よ！暗闇が地を覆ったとき、十字架の足元で信仰に堅く立ち続けた慈愛深き母よ：避難所と強さを求めて私たちは今日あなたのもとに寄り頼みます。孤独に泣く者の涙を拭い、苦悶する心の痛みを和らげ、見捨てられた者、病める者、喪失に苦しむ者に寄り添い給え。美しい刺繍の聖なるマントで私たちを覆い、あらゆる逆境から守り給え。試練の只中にあっても、復活と御子イエス・キリストとの永遠の抱擁への希望を決して失わぬようにし給え。アーメン。",
+      "ritualesAsociados": "Rezar en momentos de luto, angustia profunda, soledad o desamparo, encendiendo un cirio blanco ante la imagen de la Virgen Dolorosa o de la Soledad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_NEGRO_ESQUIPULAS_CENTROAMERICA",
+      "numero": 4263,
+      "titulo": "エスキプラスの主（黒いキリスト） · 中米諸国民の和解、癒やし、平和の祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "癒やし、平和と和解",
+      "estadosEmocionales": [
+        "paz",
+        "sanacion",
+        "reconciliacion",
+        "devocion"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Milagroso Señor de Esquipulas, Cristo crucificado y moreno que en la Basílica de Guatemala congregas a millones de peregrinos como Capital Centroamericana de la Fe! Ante tu bendita cruz nos postramos con profunda devoción y humildad. Tú que con tu tez morena te hiciste uno con el dolor, la esperanza y la identidad de nuestros pueblos: derrama sobre nosotros el bálsamo de tu divina misericordia. Sana nuestros cuerpos de toda enfermedad incurable, rompe las cadenas de la violencia y la discordia, y concede a nuestras naciones la verdadera justicia y paz duradera. Acoge nuestras súplicas y guíanos hacia el Reino de los Cielos. Amén.",
+      "guiaFonetica": "O Mi-la-gro-so Se-ñor de Es-qui-pu-las, Cris-to cru-ci-fi-ca-do y mo-re-no... de-rra-ma so-bre no-so-tros el bál-sa-mo de tu mi-se-ri-cor-dia... A-mén.",
+      "textoTraducido": "奇跡なるエスキプラスの主、グアテマラの大聖堂に中米信仰の首都として無数の巡礼者を集める十字架の黒きキリストよ！聖なる十字架の御前に私たちは深い崇敬と謙遜をもってお祈り申し上げます。その浅黒き御肌をもって諸民族の苦痛、希望、絆と一つになられた主よ：神聖なる慈愛の香油を私たちの上に注ぎ給え。難病から私たちの肉体を癒やし、暴力といさかいの鎖を断ち切り、諸国に真の正義と永続する平和を授け給え。私たちの祈りを受け入れ、天の御国へと導いてください。アーメン。",
+      "ritualesAsociados": "Rezar con devoción de peregrino, encendiendo velas moradas o blancas pidiendo sanación de enfermedades difíciles y reconciliación familiar o comunitaria.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_CONCEPCION_EL_VIEJO_NICARAGUA",
+      "numero": 4264,
+      "titulo": "エル・ビエホの無原罪の聖母 · 純潔の母、ニカラグアの守護者への祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "聖母の保護と霊的喜び",
+      "estadosEmocionales": [
+        "alegria",
+        "devocion_mariana",
+        "paz",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Purísima e Inmaculada Virgen de la Concepción de El Viejo, amadísima Patrona de Nicaragua! Con inmenso gozo y devoción filial exclamamos: '¿Quién causa tanta alegría? ¡La Concepción de María!'. Tú que llegaste a nuestras tierras para ser faro de consuelo, paz y esperanza: protege a nuestro pueblo, custodia a las familias y bendice los campos y los hogares. Líbranos de todo pecado, de tempestades y calamidades, y haz florecer en nuestros corazones la pureza, la fraternidad y la justicia. Que tu dulce nombre sea siempre alabado en cada rincón de nuestra patria y del mundo. Amén.",
+      "guiaFonetica": "O Pu-rí-si-ma e In-ma-cu-la-da Vir-gen de la Con-cep-ción de El Vie-jo... ¿Quién cau-sa tan-ta a-le-grí-a? ¡La Con-cep-ción de Ma-rí-a!... A-mén.",
+      "textoTraducido": "エル・ビエホのいと純潔にして無原罪の聖母、ニカラグアの愛される守護者よ！あふれる歓喜と親愛の情をもって私たちは叫びます：「かくも大いなる喜びをもたらすのは誰か？それはマリアの無原罪の御宿りなり！」。慰め、平和、希望の灯台として私たちの地にお越しになった聖母よ：国民を守り、家庭を保護し、田畑と住まいを祝福し給え。すべての罪、嵐、災厄から私たちを救い、心の中に清らかさ、兄弟愛、正義を満開に咲かせ給え。あなたの甘美な御名が祖国と全世界の隅々に至るまで永遠に賛美されますように。アーメン。",
+      "ritualesAsociados": "Rezar en la fiesta de La Gritería y la Inmaculada Concepción con cantos tradicionales, encendiendo luces y compartiendo alimentos de caridad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "DIVINO_SALVADOR_DEL_MUNDO_PATRONO",
+      "numero": 4265,
+      "titulo": "世界の救い主 · エルサルバドルの保護者、諸国民の光と導きの祈り",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "平和、正義と希望",
+      "estadosEmocionales": [
+        "paz",
+        "esperanza",
+        "fortaleza",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Divino Salvador del Mundo, Señor Jesucristo, Rey de Reyes y Señor de Señores! Tú que sobre la cumbre del Monte Tabor te transfiguraste mostrando a los discípulos el resplandor de tu gloria eterna y celestial: extiende tu mano omnipotente sobre la nación salvadoreña y sobre todas las familias de la tierra. Transfigura nuestras penas en esperanza, nuestros temores en fortaleza y nuestras divisiones en unidad fraternal. Concédenos la paz que el mundo no puede dar, defiende a los desamparados y haz que nuestro pueblo viva en justicia, trabajo y santa reverencia a tu Santo Nombre. Amén.",
+      "guiaFonetica": "O Di-vi-no Sal-va-dor del Mun-do, Se-ñor Je-su-cris-to... trans-fi-gu-ra nues-tras pe-nas en es-pe-ran-za... A-mén.",
+      "textoTraducido": "世界の神聖なる救い主、主イエス・キリスト、王の王、主の主よ！タボル山の頂でご変容を遂げ、永遠の天の栄光の輝きを弟子たちにお示しになった主よ：エルサルバドルの国民と地上のすべての家庭に全能の御手を差し伸べ給え。私たちの苦難を希望へ、恐れを力へ、分裂を兄弟の結束へと変容させ給え。世が与えることのできぬ平和を私たちに授け、拠り所なき人々を守り、国民が正義と勤労、御名への聖なる崇敬のうちに生きられるようにし給え。アーメン。",
+      "ritualesAsociados": "Rezar en la solemnidad de la Transfiguración del Señor (6 de agosto) o en momentos de clamor nacional y familiar por la paz y el progreso.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_RAMON_NONATO_CANDADO_MALAS_LENGUAS",
+      "numero": 4266,
+      "titulo": "聖レイモンド・ノンナトゥス · 錠前の厳かな祈り、中傷の沈黙と安産の恵み",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "中傷からの保護と安産",
+      "estadosEmocionales": [
+        "proteccion",
+        "justicia",
+        "paz",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosísimo San Ramón Nonato, insigne confesor de Cristo y amparo de los afligidos! Tú que por defender la fe y anunciar el Evangelio sufriste el tormento de ver tus labios sellados con un candado de hierro: pongo bajo tu protección mi vida, mi honra, mi familia y mi hogar. Coloca tu sagrado candado sobre las bocas que intentan perjudicarme con mentiras, envidias, calumnias o falsos testimonios; apaga el fuego de la murmuración y haz que triunfe la divina verdad y la paz. Asimismo, protege a todas las mujeres embarazadas, asiste con tu bondad la hora del alumbramiento y concede partos felices, sin peligro para la madre ni para el recién nacido. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "Glo-rio-sí-si-mo San Ra-món No-na-to... co-lo-ca tu sa-gra-do can-da-do so-bre las bo-cas que in-ten-tan per-ju-di-car-me... A-mén.",
+      "textoTraducido": "いと栄えある聖レイモンド・ノンナトゥス、キリストの証聖者にして苦しむ者の拠り所よ！信仰を守り福音を宣べ伝えるために、鉄の錠前で唇を閉ざされる苦難に耐えた聖人よ：私の命、名誉、家族、家庭をあなたの保護に委ねます。嘘、嫉妬、中傷、偽証をもって私を害そうとする者たちの口にあなたの聖なる錠前をかけ給え。悪意ある噂の火を消し去り、神の真理と平和を勝利させ給え。また、すべての妊婦を守り、出産の時に慈愛をもって寄り添い、母子ともに安全で幸福な安産を授け給え。私たちの主イエス・キリストによって。アーメン。",
+      "ritualesAsociados": "Rezar sosteniendo una medalla o estampa de San Ramón Nonato o cerrando simbólicamente un pequeño candado ante una vela blanca, pidiendo protección contra murmuraciones y bendición para embarazos.",
       "dir": "ltr"
     }
   ]

@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Sadhu-Munajat-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4253
+    "totalOraciones": 4266
   },
   "oraciones": [
     {
@@ -81761,9 +81761,9 @@
     {
       "id": "CAT_MEX_ZAPOPAN_GENERALA",
       "numero": 3738,
-      "titulo": "আওয়ার লেডি অফ জাপোপানের কাছে প্রার্থনা (লা জেনারেল",
+      "titulo": "জাপোপানের ধন্য জননী · সেনাপতি ও শান্তিদায়িনী, ঝড় ও মহামারীর বিরুদ্ধে আশ্রয়",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "সুরক্ষা_ঝড়_এন্ড_শান্তি",
+      "categoriaIntencion": "ঝড় ও মহামারী থেকে সুরক্ষা",
       "estadosEmocionales": [
         "en_tempestad",
         "temeroso",
@@ -81771,14 +81771,10 @@
         "devoto"
       ],
       "idiomaLiturgicoOriginal": "Español novohispano",
-      "textoOriginal": "¡Oh Virgen de Zapopan, Madre nuestra, Generala y Patrona contra tempestades, rayos y pestilencias! Tú que pacificaste a los pueblos originarios con tu presencia luminosa en el cerro del Mixtón: extiende tu manto bendito sobre nuestros campos y ciudades. Aleja las discordias, aplaca las tormentas de la vida, cuida a los campesinos y llévanos por caminos de fraternidad y concordia. Amén.",
-      "guiaFonetica": "[O Vir-jen de Sa-po-pan, Ma-dre nues-tra, Je-ne-ra-la y Pa-tro-na]",
-      "textoTraducido": "ওহ জাপোপানের ভার্জিন, আমাদের মা, জেনারেল এবং ঝড়, বজ্রপাত এবং মহামারীর বিরুদ্ধে পৃষ্ঠপোষক! আপনি যিনি মিক্সটন পাহাড়ে আপনার উজ্জ্বল উপস্থিতি দিয়ে স্থানীয় জনগণকে শান্ত করেছেন: আমাদের ক্ষেত এবং শহরগুলিতে আপনার আশীর্বাদের চাদর প্রসারিত করুন। বিরোধ দূর করুন, জীবনের ঝড় শান্ত করুন, কৃষকদের যত্ন নিন এবং আমাদের ভ্রাতৃত্ব ও সম্প্রীতির পথে নিয়ে যান। আমীন।",
-      "ritualesAsociados": {
-        "tipoContador": "romeria_zapopana_tres_padrenuestros",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Danzas autóctonas con concheros y campanas de Zapopan"
-      },
+      "textoOriginal": "¡Oh Soberana Reina y Celestial Patrona, benditísima Virgen de Zapopan, amada Generala y Pacificadora! Desde hace siglos los pueblos de Jalisco y de México han encontrado en ti el refugio seguro contra las tempestades, pestes, epidemias y calamidades. Con filial confianza nos acogemos bajo tu sagrado amparo: aquieta las tormentas que sacuden nuestras vidas, protege nuestros hogares de todo peligro y haz brotar en nuestra sociedad los frutos de la paz, la reconciliación y la concordia. Madre amorosa de Zapopan, no desampares a tus devotos y llévanos siempre de la mano hacia tu amado Hijo Jesucristo. Amén.",
+      "guiaFonetica": "O So-be-ra-na Rei-na y Ce-les-tial Pa-tro-na, ben-di-tí-si-ma Vir-gen de Za-po-pan... a-quie-ta las tor-men-tas... A-mén.",
+      "textoTraducido": "হে সার্বভৌম রানী ও স্বর্গীয় পৃষ্ঠপোষক, জাপোপানের পরম ধন্য কুমারী জননী, প্রিয় সেনাপতি ও শান্তিদায়িনী! শতাব্দীর পর শতাব্দী ধরে জালিস্কো ও মেক্সিকোর জনগণ ঝড়, মহামারী ও দুর্যোগের বিরুদ্ধে আপনার মধ্যে নিরাপদ আশ্রয় খুঁজে পেয়েছে। আমরা আপনার পবিত্র সুরক্ষায় আশ্রয় নিচ্ছি: আমাদের জীবনকে নাড়া দেওয়া ঝড়গুলিকে শান্ত করুন, আমাদের বাড়িকে সমস্ত বিপদ থেকে রক্ষা করুন এবং আমাদের সমাজে শান্তি, পুনর্মিলন ও সম্প্রীতির ফল ফলান। জাপোপানের স্নেহময়ী জননী, আপনার ভক্তদের ত্যাগ করবেন না এবং সর্বদা আপনার প্রিয় পুত্র যীশু খ্রিস্টের দিকে আমাদের পরিচালিত করুন। আমেন।",
+      "ritualesAsociados": "Rezar en tiempos de tormentas climáticas, crisis de salud o tempestades espirituales, encendiendo una vela bendecida y portando la medalla de la Virgen de Zapopan.",
       "dir": "ltr"
     },
     {
@@ -82151,9 +82147,9 @@
     {
       "id": "CAT_HND_VIRGEN_SUYAPA_MORENITA",
       "numero": 3755,
-      "titulo": "আওয়ার লেডি অফ সুয়াপার কাছে আবেদন",
+      "titulo": "সুয়াপার ধন্য জননী · হন্ডুরাসের পৃষ্ঠপোষক, মাতৃসুলভ আশ্রয় ও শান্তি",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Paz_Hondurena_Y_Proteccion_Homees",
+      "categoriaIntencion": "মাতৃসুলভ আশ্রয় ও সামাজিক শান্তি",
       "estadosEmocionales": [
         "humilde",
         "labrador",
@@ -82161,14 +82157,10 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español hondureño",
-      "textoOriginal": "¡Virgen de Suyapa, pequeñita y milagrosa Morenita hallada en el campo por humildes labradores! Tú que eres la Capitana y Reina de Honduras: mira las fatigas de nuestro pueblo. Danos pan en nuestras mesas, trabajo honrado en nuestros campos, salud en nuestros hogares y aparta de nuestra patria la discordia y la violencia. Amén.",
-      "guiaFonetica": "[Vir-jen de Su-ya-pa, pe-que-ñi-ta y mi-la-gro-sa Mo-re-ni-ta]",
-      "textoTraducido": "সুয়াপা কুমারী, ক্ষুদ্র ও অলৌকিক মোরেনিটা মাঠে খুঁজে পেয়েছেন নম্র কৃষক! আপনি যারা হন্ডুরাসের ক্যাপ্টেন এবং রানী: আমাদের জনগণের ক্লান্তি দেখুন। আমাদের টেবিলে রুটি দিন, আমাদের মাঠে সৎ কাজ করুন, আমাদের বাড়িতে স্বাস্থ্য দিন এবং আমাদের দেশ থেকে বিরোধ ও সহিংসতা দূর করুন। আমীন।",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_suyapa",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Suyapa y guitarra campesina"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de Suyapa, tierna Morenita y Excelsa Patrona y Capitana de la República de Honduras! Tú que en tu diminuta y milagrosa imagen quisiste manifestar que Dios ensalza a los humildes y derrama su amor sobre los sencillos: acoge con bondad maternal las súplicas de tus hijos. Protege a nuestras familias de la violencia y la discordia, abre caminos de prosperidad y trabajo digno para la juventud, y guía a nuestros gobernantes por senderos de honradez y justicia. Manto de amor y paz, cobija a los más vulnerables y haz que Honduras y el mundo entero vivan en fraternidad cristiana. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de Su-ya-pa, tier-na Mo-re-ni-ta... co-bi-ja a los más vul-ne-ra-bles... A-mén.",
+      "textoTraducido": "হে সুয়াপার পরম পবিত্র কুমারী জননী, হন্ডুরাস প্রজাতন্ত্রের মহান পৃষ্ঠপোষক ও স্নেহময়ী মোরেতিনা! আপনি আপনার ক্ষুদ্র ও অলৌকিক প্রতিকৃতিতে প্রকাশ করেছিলেন যে ঈশ্বর নম্রদের উন্নীত করেন এবং সরল হৃদয়ের উপর তাঁর ভালোবাসা ঢেলে দেন: আপনার সন্তানদের মিনতি মাতৃসুলভ করুণার সাথে গ্রহণ করুন। আমাদের পরিবারগুলিকে সহিংসতা ও বিভেদ থেকে রক্ষা করুন, তরুণদের জন্য সমৃদ্ধি ও মর্যাদাপূর্ণ কাজের পথ উন্মুক্ত করুন এবং আমাদের নেতাদের সততা ও ন্যায়ের পথে পরিচালিত করুন। প্রেম ও শান্তির চাদর দুর্বলতমদের রক্ষা করুক এবং হন্ডুরাস ও সমগ্র বিশ্ব যেন খ্রিস্টীয় ভ্রাতৃত্বে বসবাস করতে পারে। আমেন।",
+      "ritualesAsociados": "Rezar con fervor ante la imagen de la Virgen de Suyapa, encendiendo una veladora blanca o azul pidiendo paz, empleo y protección familiar.",
       "dir": "ltr"
     },
     {
@@ -93691,6 +93683,196 @@
         "Agua bendita",
         "Estampa sagrada"
       ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SANTO_NINO_DIOS_LEVANTAMIENTO",
+      "numero": 4257,
+      "titulo": "পবিত্র শিশু যীশু · গৃহ ও পরিবারের আশীর্বাদ ও উত্তোলনের প্রার্থনা",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "গৃহ ও পরিবারের আশীর্বাদ",
+      "estadosEmocionales": [
+        "paz",
+        "gratitud",
+        "devocion_familiar",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh dulcísimo y tierno Niño Jesús, Rey de cielos y tierra, nacido en el humilde portal de Belén para traer paz y redención a la humanidad! Hoy nos postramos ante tu divina presencia para levantarte en nuestros brazos y en lo más hondo de nuestros corazones. Bendice este hogar que te acoge, bendice a nuestros hijos, a los enfermos y a los ancianos. Que tu inocencia disipe todo rencor y tiniebla de nuestra casa, que nunca nos falte el pan bendito en la mesa, el trabajo digno ni la santa fe. Divino Niño Jesús, quédate con nosotros para siempre; que tus manitas inocentes guíen nuestros pasos por caminos de paz, santidad y mutuo amor. Amén.",
+      "guiaFonetica": "O dul-sí-si-mo y tier-no Ni-ño Je-sús, Rey de cie-los y tie-rra... ben-di-ce es-te ho-gar... A-mén.",
+      "textoTraducido": "হে পরম করুণাময় ও কোমল শিশু যীশু, স্বর্গ ও মর্ত্যের রাজা, মানবজাতিকে শান্তি ও মুক্তি দিতে বেথলেহেমের নম্র গোয়ালঘরে জন্ম নিয়েছিলেন! আজ আমরা আপনার দিব্য উপস্থিতিতে নতজানু হয়ে আপনাকে আমাদের বাহুতে এবং অন্তরের গভীরে তুলে ধরছি। এই গৃহকে আশীর্বাদ করুন যা আপনাকে বরণ করে, আমাদের সন্তান, অসুস্থ ও প্রবীণদের আশীর্বাদ করুন। আপনার পবিত্র নিষ্পাপতা যেন আমাদের গৃহের সমস্ত বিদ্বেষ ও অন্ধকার দূর করে, এবং আমাদের জীবনে যেন কখনও আশীর্বাদযুক্ত অন্ন, মর্যাদাপূর্ণ কাজ ও পবিত্র বিশ্বাসের অভাব না হয়। দিব্য শিশু যীশু, চিরকাল আমাদের সাথে থাকুন; আপনার নিষ্পাপ হাতগুলি যেন আমাদের শান্তির, পবিত্রতার ও পারস্পরিক প্রেমের পথে পরিচালিত করে। আমেন।",
+      "ritualesAsociados": "Rezar en familia ante la imagen del Niño Dios, encendiendo una vela blanca el 2 de febrero (Día de la Candelaria) o durante las festividades navideñas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_PASCUAL_BAILON_COCINA_ABUNDANCIA",
+      "numero": 4258,
+      "titulo": "সন্ত পাস্কাল বায়লন · পাচকগণের পৃষ্ঠপোষক, গৃহের প্রাচুর্য ও ইউক্যারিস্টিক আরাধনা",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "ঐশ্বরিক ব্যবস্থা ও খাদ্য",
+      "estadosEmocionales": [
+        "gratitud",
+        "esperanza",
+        "paz",
+        "provision"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Glorioso San Pascual Bailón, humilde franciscano y enamorado ferviente del Santísimo Sacramento del Altar! Tú que con santa alegría y profundo amor serviste al Señor en el convento y en los quehaceres más sencillos de la cocina: pon tu gracia y bendición en nuestro fogón, en nuestras mesas y despensas. San Pascualito Bailón, que nunca falte en nuestro hogar el pan de cada día, la sal del amor cristiano ni el sustento para alimentar a los más necesitados. Bendice nuestras manos al preparar el alimento y enséñanos a adorar con corazón puro a Jesús Sacramentado, verdadero Pan de Vida eterna. Por Cristo nuestro Señor. Amén.",
+      "guiaFonetica": "Glo-rio-so San Pas-cual Bai-lón, hu-mil-de fran-cis-ca-no... pon tu gra-cia en nues-tro fo-gón... A-mén.",
+      "textoTraducido": "হে মহিমান্বিত সন্ত পাস্কাল বায়লন, নম্র ফ্রান্সিসকান এবং বেদীর পরম পবিত্র স্যাক্রামেন্টের একনিষ্ঠ প্রেমিক! আপনি যিনি পবিত্র আনন্দ ও গভীর ভালোবাসার সাথে মঠে ও রান্নাঘরের অতি সাধারণ কাজে প্রভুর সেবা করেছিলেন: আমাদের উনুন, খাদ্যতালিকা ও ভাণ্ডারে আপনার অনুগ্রহ ও আশীর্বাদ বর্ষণ করুন। সন্ত পাস্কাল, আমাদের গৃহে যেন কখনও দৈনিক আহার, খ্রিস্টীয় ভালোবাসার লবণ এবং অভাবীদের অন্ন জোগানোর সামর্থ্যের অভাব না হয়। খাদ্য প্রস্তুত করার সময় আমাদের হাতগুলিকে আশীর্বাদ করুন এবং অনন্ত জীবনের প্রকৃত খাদ্যরূপে পবিত্র স্যাক্রামেন্টে বিরাজমান যীশুকে খাঁটি হৃদয়ে আরাধনা করতে শেখান। আমাদের প্রভু খ্রিস্টের মাধ্যমে। আমেন।",
+      "ritualesAsociados": "Rezar en la cocina o comedor, encendiendo una vela amarilla o blanca, pidiendo providencia y bendición sobre los alimentos y la familia.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JOSE_SANCHEZ_DEL_RIO_VALENTIA",
+      "numero": 4259,
+      "titulo": "সন্ত হোসে সানচেজ দেল রিও · খ্রিস্ট রাজার প্রতি সাহস, সাক্ষ্য ও অবিচল বিশ্বস্ততা",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "বিশ্বাসে শক্তি ও বিশ্বস্ততা",
+      "estadosEmocionales": [
+        "fortaleza",
+        "fe_inquebrantable",
+        "coraje",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh San José Sánchez del Río, 'Joselito', joven mártir y valiente soldado de Cristo Jesús! Tú que supiste preferir la palma del martirio antes que negar tu fe en el Redentor, y con tus pies llagados y tu voz firme proclamaste hasta el último suspiro: '¡Viva Cristo Rey y Santa María de Guadalupe!': intercede por la juventud del mundo entero, por nuestras familias y por nuestras naciones. Danos la fortaleza y la pureza de corazón para ser testigos valientes del Evangelio, sin ceder ante el miedo ni la indiferencia. Ruega por nosotros ante el trono de Dios, para que permanezcamos fieles a Cristo hasta el final de nuestros días. Amén.",
+      "guiaFonetica": "O San Jo-sé Sán-chez del Rí-o, Jo-se-li-to... ¡Vi-va Cris-to Rey y San-ta Ma-rí-a de Gua-da-lu-pe!... A-mén.",
+      "textoTraducido": "হে সন্ত হোসে সানচেজ দেল রিও, 'হোसेलিতো', তরুণ শহীদ এবং যীশু খ্রিস্টের বীর সৈনিক! আপনি আপনার মুক্তিদাতার প্রতি বিশ্বাস ত্যাগ করার চেয়ে শাহাদাত বরণ করাকে বেছে নিয়েছিলেন এবং রক্তাক্ত পায়ে ও দৃঢ় কণ্ঠে শেষ নিঃশ্বাস পর্যন্ত ঘোষণা করেছিলেন: 'খ্রিস্ট রাজা এবং গুয়াদালুপের পবিত্র মরিয়মের জয়!': সমগ্র বিশ্বের তরুণদের জন্য, আমাদের পরিবার ও জাতিগুলির জন্য মধ্যস্থতা করুন। আমাদের অন্তরে সাহস ও পবিত্রতা দিন যাতে আমরা সুসমাচারের নির্ভীক সাক্ষী হতে পারি, কখনও ভয় বা উদাসীনতার কাছে নতি স্বীকার না করি। ঈশ্বরের সিংহাসনের সামনে আমাদের জন্য প্রার্থনা করুন, যেন আমরা জীবনের শেষ দিন পর্যন্ত খ্রিস্টের প্রতি বিশ্বস্ত থাকি। আমেন।",
+      "ritualesAsociados": "Rezar pidiendo fortaleza espiritual, valentía en las pruebas y fidelidad en la fe, encendiendo una vela roja o blanca.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUAN_DIEGO_CUAUHTLATOATZIN",
+      "numero": 4260,
+      "titulo": "সন্ত হুয়ান দিয়েগো · গুয়াদালুপের জননীর নম্র বার্তাবাহক",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "নম্রতা ও মারীয় সুরক্ষা",
+      "estadosEmocionales": [
+        "humildad",
+        "devocion_mariana",
+        "esperanza",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Bienaventurado San Juan Diego, varón humilde, sencillo y de fe inquebrantable! Tú que fuiste elegido por la Santísima Virgen María de Guadalupe como su embajador y confidente en la colina del Tepeyac, llevando en tu ayate las benditas rosas de Castilla y la sagrada estampa de la Morenita del Tepeyac: enséñanos a escuchar la voz de Dios en la sencillez de la vida diaria. Alcánzanos de la Madre del Cielo el consuelo en las pruebas, la sanación de los enfermos y la dignidad para todos los pueblos. Que como tú, caminemos siempre con docilidad, alegría y esperanza cristiana bajo el amparo amoroso de María. Amén.",
+      "guiaFonetica": "Bie-na-ven-tu-ra-do San Juan Die-go Cuauh-tla-toat-zin... lle-van-do en tu a-ya-te las ben-di-tas ro-sas... A-mén.",
+      "textoTraducido": "ধন্য সন্ত হুয়ান দিয়েগো, নম্রতা, সরলতা ও অবিচল বিশ্বাসের মানুষ! আপনাকে গুয়াদালুপের ধন্য কুমারী মরিয়ম তেপেয়াক পাহাড়ে তাঁর দূত ও বিশ্বস্তজন হিসেবে মনোনীত করেছিলেন, এবং আপনি আপনার পোশাকে কাস্টিলের অলৌকিক গোলাপ ও পবিত্র প্রতিকৃতি ধারণ করেছিলেন: দৈনন্দিন জীবনের সরলতায় আমাদের ঈশ্বরের কণ্ঠ শুনতে শেখান। স্বর্গীয় জননীর কাছ থেকে আমাদের পরীক্ষায় সান্ত্বনা, অসুস্থদের আরোগ্য এবং সমস্ত মানুষের জন্য মর্যাদা প্রার্থনা করুন। আমরাও যেন মারীয় সুরক্ষার অধীনে খ্রিস্টীয় আশায় পথ চলতে পারি। আমেন।",
+      "ritualesAsociados": "Rezar con devoción guadalupana ante una imagen de la Virgen de Guadalupe o San Juan Diego, pidiendo sencillez de corazón y ayuda maternal.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SENOR_DEL_VENENO_CATEDRAL_MEXICO",
+      "numero": 4261,
+      "titulo": "বিষের প্রভু (মেক্সিকো ক্যাথেড্রালের কৃষ্ণ খ্রিস্ট) · পরম সুরক্ষা ও ভালোবাসার অলৌকিক নিদর্শন",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "বিশ্বাসঘাতকতা ও অমঙ্গল থেকে সুরক্ষা",
+      "estadosEmocionales": [
+        "proteccion",
+        "liberacion",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Milagrosísimo Señor del Veneno, Cristo crucificado de piedad y misericordia infinita! Tú que en la venerable Catedral Metropolitana de la Ciudad de México manifestaste tu poder y bondad al doblar tus sagradas piernas y absorber en tu divino cuerpo el veneno de la traición para salvar la vida de tu devoto fiel: mírame con ojos de compasión en esta hora de necesidad. Neutraliza en mi vida todo veneno del alma y del cuerpo: la envidia, el odio, el rencor, la murmuración y cualquier maldad que busque dañarme a mí o a los míos. Sé mi escudo protector, sana mis heridas y enséñame a perdonar como Tú perdonaste desde la Santa Cruz. Amén.",
+      "guiaFonetica": "O Mi-la-gro-sí-si-mo Se-ñor del Ve-ne-no, Cris-to cru-ci-fi-ca-do... neu-tra-li-za en mi vi-da to-do ve-ne-no... A-mén.",
+      "textoTraducido": "হে পরম অলৌকিক বিষের প্রভু, অনন্ত করুণা ও অনুকম্পার ক্রুশারোপিত খ্রিস্ট! আপনি যিনি মেক্সিকো সিটির ক্যাথেড্রালে আপনার বিশ্বস্ত ভক্তের জীবন বাঁচাতে নিজের পবিত্র পা বাঁকিয়ে এবং আপনার দিব্য শরীরে বিশ্বাসঘাতকতার বিষ শোষণ করে আপনার ক্ষমতা ও করুণা প্রকাশ করেছিলেন: এই প্রয়োজনের মুহূর্তে আমার প্রতি দয়ার দৃষ্টি রাখুন। আমার জীবন থেকে আত্মা ও দেহের সমস্ত বিষ নিষ্ক্রিয় করুন: হিংসা, ঘৃণা, ক্ষোভ, পরনিন্দা এবং যে কোনও মন্দ যা আমার বা আমার প্রিয়জনদের ক্ষতি করতে চায়। আমার সুরক্ষার ঢাল হোন, আমার ক্ষত নিরাময় করুন এবং ক্রুশ থেকে যেভাবে ক্ষমা করেছিলেন সেভাবে আমাদের ক্ষমা করতে শেখান। আমেন।",
+      "ritualesAsociados": "Rezar encendiendo una veladora negra o morada que luego se torna en luz blanca de liberación, pidiendo protección contra envidias, traiciones y daños ocultos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LA_SOLEDAD_OAXACA",
+      "numero": 4262,
+      "titulo": "ওয়াহাকার নিঃসঙ্গতার ধন্য কুমারী জননী · ব্যথায় সান্ত্বনা, আশ্রয় ও শক্তি",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "শোক ও একাকীত্বে সান্ত্বনা",
+      "estadosEmocionales": [
+        "consuelo",
+        "paz",
+        "fortaleza",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen de la Soledad, Excelsa Patrona y Reina coronada del pueblo de Oaxaca! Madre amorosa que al pie de la Cruz permaneciste firme en la fe cuando las sombras cubrieron la tierra: acudimos hoy a ti en busca de refugio y fortaleza. Enjuga las lágrimas de quienes lloran en soledad, alivia las penas del corazón angustiado y acompaña a quienes sufren abandono, enfermedad o pérdida. Manto bendito de terciopelo bordado, cúbrenos y protégenos de toda adversidad. Que en medio de nuestras pruebas nunca perdamos la esperanza de la resurrección y el abrazo eterno con tu Hijo Jesucristo. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la So-le-dad... en-ju-ga las lá-gri-mas de quie-nes llo-ran en so-le-dad... A-mén.",
+      "textoTraducido": "হে ওয়াহাকার নিঃসঙ্গতার পরম পবিত্র কুমারী জননী, মহিমান্বিত পৃষ্ঠপোষক ও মুকুটধারী রানী! যখন অন্ধকার পৃথিবীকে ঢেকে ফেলেছিল, তখন ক্রুশের পাদদেশে আপনি বিশ্বাসে অবিচল ছিলেন: আজ আমরা আশ্রয় ও শক্তির সন্ধানে আপনার কাছে আসি। যারা একাকীত্বে কাঁদছে তাদের অশ্রু মুছে দিন, ব্যথিত হৃদয়ের দুঃখ লাঘব করুন এবং পরিত্যাগ, অসুস্থতা বা শোকে আক্রান্তদের সঙ্গী হোন। আপনার আশীর্বাদযুক্ত পবিত্র আলখাল্লা আমাদের সমস্ত প্রতিকূলতা থেকে রক্ষা করুক। পরীক্ষার মধ্যেও যেন আমরা পুনরুত্থান এবং আপনার পুত্র যীশু খ্রিস্টের সাথে অনন্ত মিলনের আশা কখনও না হারাই। আমেন।",
+      "ritualesAsociados": "Rezar en momentos de luto, angustia profunda, soledad o desamparo, encendiendo un cirio blanco ante la imagen de la Virgen Dolorosa o de la Soledad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_NEGRO_ESQUIPULAS_CENTROAMERICA",
+      "numero": 4263,
+      "titulo": "এসকিপুলাসের প্রভু (কৃষ্ণ খ্রিস্ট) · মধ্য আমেরিকার জনগণের পুনর্মিলন, আরোগ্য ও শান্তি",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "আরোগ্য, শান্তি ও পুনর্মিলন",
+      "estadosEmocionales": [
+        "paz",
+        "sanacion",
+        "reconciliacion",
+        "devocion"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Milagroso Señor de Esquipulas, Cristo crucificado y moreno que en la Basílica de Guatemala congregas a millones de peregrinos como Capital Centroamericana de la Fe! Ante tu bendita cruz nos postramos con profunda devoción y humildad. Tú que con tu tez morena te hiciste uno con el dolor, la esperanza y la identidad de nuestros pueblos: derrama sobre nosotros el bálsamo de tu divina misericordia. Sana nuestros cuerpos de toda enfermedad incurable, rompe las cadenas de la violencia y la discordia, y concede a nuestras naciones la verdadera justicia y paz duradera. Acoge nuestras súplicas y guíanos hacia el Reino de los Cielos. Amén.",
+      "guiaFonetica": "O Mi-la-gro-so Se-ñor de Es-qui-pu-las, Cris-to cru-ci-fi-ca-do y mo-re-no... de-rra-ma so-bre no-so-tros el bál-sa-mo de tu mi-se-ri-cor-dia... A-mén.",
+      "textoTraducido": "হে এসকিপুলাসের অলৌকিক প্রভু, ক্রুশারোপিত শ্যামবর্ণ খ্রিস্ট যিনি গুয়াতেমালার ব্যাসিলিকায় লক্ষ লক্ষ তীর্থযাত্রীকে মধ্য আমেরিকার বিশ্বাসের রাজধানী হিসেবে একত্রিত করেন! আপনার পবিত্র ক্রুশের সামনে আমরা গভীর ভক্তি ও নম্রতার সাথে প্রণতি জানাই। আপনি আপনার শ্যামল রূপের মাধ্যমে আমাদের জনগণের বেদনা, আশা ও পরিচয়ের সাথে একাত্ম হয়েছেন: আমাদের উপর আপনার দিব্য করুণার মলম ঢেলে দিন। আমাদের দেহকে সমস্ত দুরারোগ্য ব্যাধি থেকে নিরাময় করুন, সহিংসতা ও বিভেদের শৃঙ্খল ভেঙে দিন এবং আমাদের দেশগুলিতে সত্য ন্যায়বিচার ও চিরস্থায়ী শান্তি দান করুন। আমাদের প্রার্থনা গ্রহণ করুন এবং আমাদের স্বর্গরাজ্যে পরিচালিত করুন। আমেন।",
+      "ritualesAsociados": "Rezar con devoción de peregrino, encendiendo velas moradas o blancas pidiendo sanación de enfermedades difíciles y reconciliación familiar o comunitaria.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_CONCEPCION_EL_VIEJO_NICARAGUA",
+      "numero": 4264,
+      "titulo": "এল ভিয়েহোর নিষ্কলঙ্ক গর্ভধারণের জননী · নিকারাগুয়ার জাতীয় পৃষ্ঠপোষক",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "মারীয় সুরক্ষা ও আত্মিক আনন্দ",
+      "estadosEmocionales": [
+        "alegria",
+        "devocion_mariana",
+        "paz",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Purísima e Inmaculada Virgen de la Concepción de El Viejo, amadísima Patrona de Nicaragua! Con inmenso gozo y devoción filial exclamamos: '¿Quién causa tanta alegría? ¡La Concepción de María!'. Tú que llegaste a nuestras tierras para ser faro de consuelo, paz y esperanza: protege a nuestro pueblo, custodia a las familias y bendice los campos y los hogares. Líbranos de todo pecado, de tempestades y calamidades, y haz florecer en nuestros corazones la pureza, la fraternidad y la justicia. Que tu dulce nombre sea siempre alabado en cada rincón de nuestra patria y del mundo. Amén.",
+      "guiaFonetica": "O Pu-rí-si-ma e In-ma-cu-la-da Vir-gen de la Con-cep-ción de El Vie-jo... ¿Quién cau-sa tan-ta a-le-grí-a? ¡La Con-cep-ción de Ma-rí-a!... A-mén.",
+      "textoTraducido": "হে এল ভিয়েহোর নিষ্কলঙ্ক গর্ভধারণের পরম পবিত্র কুমারী জননী, নিকারাগুয়ার প্রিয় পৃষ্ঠপোষক! অপরিসীম আনন্দ ও ভক্তিতে আমরা উচ্চারণ করি: 'কে এত আনন্দের কারণ? মরিয়মের নিষ্কলঙ্ক গর্ভধারণ!': আপনি যিনি আমাদের দেশে সান্ত্বনা, শান্তি ও আশার বাতিঘর হিসেবে এসেছিলেন: আমাদের জনগণকে রক্ষা করুন, পরিবারগুলির যত্ন নিন এবং মাঠ ও গৃহগুলিকে আশীর্বাদ করুন। সমস্ত পাপ, ঝড় ও বিপর্যয় থেকে আমাদের মুক্ত রাখুন এবং আমাদের অন্তরে পবিত্রতা, ভ্রাতৃত্ব ও ন্যায়বিচার বিকশিত করুন। আপনার মধুর নাম চিরকাল আমাদের দেশে ও বিশ্বজুড়ে প্রশংসিত হোক। আমেন।",
+      "ritualesAsociados": "Rezar en la fiesta de La Gritería y la Inmaculada Concepción con cantos tradicionales, encendiendo luces y compartiendo alimentos de caridad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "DIVINO_SALVADOR_DEL_MUNDO_PATRONO",
+      "numero": 4265,
+      "titulo": "জগতের দিব্য ত্রাণকর্তা · এল সালভাদোরের সার্বভৌম পৃষ্ঠপোষক, জাতিসমূহের আলো ও পথপ্রদর্শক",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "শান্তি, ন্যায়বিচার ও জাতীয় আশা",
+      "estadosEmocionales": [
+        "paz",
+        "esperanza",
+        "fortaleza",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Divino Salvador del Mundo, Señor Jesucristo, Rey de Reyes y Señor de Señores! Tú que sobre la cumbre del Monte Tabor te transfiguraste mostrando a los discípulos el resplandor de tu gloria eterna y celestial: extiende tu mano omnipotente sobre la nación salvadoreña y sobre todas las familias de la tierra. Transfigura nuestras penas en esperanza, nuestros temores en fortaleza y nuestras divisiones en unidad fraternal. Concédenos la paz que el mundo no puede dar, defiende a los desamparados y haz que nuestro pueblo viva en justicia, trabajo y santa reverencia a tu Santo Nombre. Amén.",
+      "guiaFonetica": "O Di-vi-no Sal-va-dor del Mun-do, Se-ñor Je-su-cris-to... trans-fi-gu-ra nues-tras pe-nas en es-pe-ran-za... A-mén.",
+      "textoTraducido": "হে জগতের দিব্য ত্রাণকর্তা, প্রভু যীশু খ্রিস্ট, রাজাদের রাজা এবং প্রভুদের প্রভু! আপনি যিনি তাবোর পর্বতের চূড়ায় রূপান্তরিত হয়ে আপনার শিষ্যদের কাছে আপনার চিরন্তন ও স্বর্গীয় মহিমার দীপ্তি প্রকাশ করেছিলেন: এল সালভাদোর জাতি এবং পৃথিবীর সমস্ত পরিবারের উপর আপনার সর্বশক্তিমান হাত প্রসারিত করুন। আমাদের কষ্টগুলিকে আশায়, আমাদের ভয়কে শক্তিতে এবং আমাদের বিভাজনকে ভ্রাতৃত্বের ঐক্যে রূপান্তরিত করুন। আমাদের সেই শান্তি দান করুন যা বিশ্ব দিতে পারে না, অসহায়দের রক্ষা করুন এবং আমাদের জনগণকে ন্যায়বিচার, শ্রম ও আপনার পবিত্র নামের শ্রদ্ধায় বাঁচার অনুগ্রহ দিন। আমেন।",
+      "ritualesAsociados": "Rezar en la solemnidad de la Transfiguración del Señor (6 de agosto) o en momentos de clamor nacional y familiar por la paz y el progreso.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_RAMON_NONATO_CANDADO_MALAS_LENGUAS",
+      "numero": 4266,
+      "titulo": "সন্ত রেমন্ড নোনাটাস · তালার পবিত্র প্রার্থনা, অপবাদ নিরোধ ও নিরাপদ প্রসব",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "অপবাদ থেকে সুরক্ষা ও নিরাপদ প্রসব",
+      "estadosEmocionales": [
+        "proteccion",
+        "justicia",
+        "paz",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosísimo San Ramón Nonato, insigne confesor de Cristo y amparo de los afligidos! Tú que por defender la fe y anunciar el Evangelio sufriste el tormento de ver tus labios sellados con un candado de hierro: pongo bajo tu protección mi vida, mi honra, mi familia y mi hogar. Coloca tu sagrado candado sobre las bocas que intentan perjudicarme con mentiras, envidias, calumnias o falsos testimonios; apaga el fuego de la murmuración y haz que triunfe la divina verdad y la paz. Asimismo, protege a todas las mujeres embarazadas, asiste con tu bondad la hora del alumbramiento y concede partos felices, sin peligro para la madre ni para el recién nacido. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "Glo-rio-sí-si-mo San Ra-món No-na-to... co-lo-ca tu sa-gra-do can-da-do so-bre las bo-cas que in-ten-tan per-ju-di-car-me... A-mén.",
+      "textoTraducido": "হে পরম মহিমান্বিত সন্ত রেমন্ড নোনাটাস, খ্রিস্টের বিশ্বস্ত প্রচারক এবং নিপীড়িতদের আশ্রয়! আপনি যিনি বিশ্বাস রক্ষা এবং সুসমাচার প্রচারের জন্য আপনার ঠোঁটে লোহার তালা লাগানোর যন্ত্রণা সহ্য করেছিলেন: আমি আমার জীবন, সম্মান, পরিবার এবং বাড়িকে আপনার সুরক্ষায় অর্পণ করছি। যারা মিথ্যা, হিংসা, পরনিন্দা বা মিথ্যা সাক্ষ্যের মাধ্যমে আমার ক্ষতি করতে চায় তাদের মুখে আপনার পবিত্র তালা স্থাপন করুন; অপবাদের আগুন নিভিয়ে দিন এবং ঐশ্বরিক সত্য ও শান্তির জয় নিশ্চিত করুন। একই সাথে, সমস্ত গর্ভবতী নারীদের রক্ষা করুন, প্রসবের সময় আপনার দয়া দিয়ে সাহায্য করুন এবং মা ও নবজাতকের জন্য নিরাপদ প্রসবের বরদান দিন। আমাদের প্রভু যীশু খ্রিস্টের মাধ্যমে। আমেন।",
+      "ritualesAsociados": "Rezar sosteniendo una medalla o estampa de San Ramón Nonato o cerrando simbólicamente un pequeño candado ante una vela blanca, pidiendo protección contra murmuraciones y bendición para embarazos.",
       "dir": "ltr"
     }
   ]
