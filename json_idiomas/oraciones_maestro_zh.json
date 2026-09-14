@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "version": "10.4.0",
+    "version": "10.6.0",
     "idioma": "zh",
     "nombreIdioma": "中文 (Chinese)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Wenyan-Canonical-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4252
+    "totalOraciones": 4253
   },
   "oraciones": [
     {
@@ -93598,6 +93598,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528hz"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION",
+      "numero": 4253,
+      "titulo": "翻转圣灵尊者（唐·胡安·德尔·沃尔特奥）祷文 · 破除邪恶与负面能量祈祷",
+      "tradicion": "espiritismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "peligro_enemigos",
+        "desesperacion",
+        "rabia_resentimiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Espiritismo Devocional de Protección)",
+      "textoOriginal": "Con la bendición del gran poder de Dios, invoco al espíritu de Don Juan del Volteo para voltear toda clase de brujerías y magias, hechicerías, encantamiento, separación, amarre, envidia, chisme, pelea, traición, malas energías, malas vibraciones, así como enfermedades postizas y naturales.\n\nInvoco el espíritu de Don Juan del Volteo para voltear todo tipo de atrancamientos, obstáculos, velas encendidas, lámparas encendidas, trabajos con picante, trabajos con velones negros, trabajos con muñecos, con vudú, trabajos con muertos, con sombras, duendes, espíritus malos, cirios, sortilegios, conjuros, envíos, entierros...\n\nTe pido que se retiren y desaparezcan por siempre los daños espirituales y corporales que me hayan hecho mis enemigos conocidos y desconocidos, videntes y no videntes, ocultos y no ocultos, visibles y no visibles, hombre o mujer; y te ruego me ayudes a voltear toda la mala fe, malas obras, malos pensamientos, malos deseos y las malas intenciones de todos mis enemigos, de mis adversarios y contrarios.\n\n¡Oh, Don Juan del Volteo! Tú que eres el dueño de todo lo mal previsto, ayúdame a cortar en nombre de Dios todo el mal que me han hecho o estén haciendo, dado o tirado, en cualquier maleficio de mis enemigos. Dame la luz y la claridad a mi vida y a mis caminos.\n\nSé que pronto volverá a mi vida y la de mi familia la paz, la tranquilidad y la prosperidad, y se alejará toda maldad y odio, toda envidia y mal deseo.\n\nAsí sea. Amén. +",
+      "guiaFonetica": "[Kon la ben-di-sión del gran po-dér de Diós, in-vó-ko al es-pí-ri-tu de Don Juán del Vol-téo pa-ra vol-teár to-da klá-se de bru-je-rí-as...]",
+      "textoTraducido": "蒙全能天主的大能护佑，我祈请翻转尊者（唐·胡安·德尔·沃尔特奥）之灵，翻转并破除一切巫术、诅咒、邪术、离间、束缚、嫉妒、谗言、争端、背叛，以及所有负面能量与非自然的疾苦。\n\n我祈请翻转尊者之灵，破除一切阻碍、困境、恶意祭祀、黑夜凶煞、邪气骚扰以及一切隐秘的阴暗陷阱……\n\n我恳求所有已知与未知、可见与不可见的敌人对我施加的身心损害彻底消除并永不复返。求您助我化解并反转一切敌对者的恶意、恶行与恶念。\n\n啊，翻转尊者！您洞悉并能化解一切未防之险，求您因天主之圣名助我斩断一切邪恶力量。愿神圣的光明与清晰重回我的生命与道路。\n\n我坚信，和平、安宁与丰盛必将迅速回归于我及我的家庭，一切邪恶与嫉恨将永远远离。\n\n愿此成就。阿们。+",
+      "ritualesAsociados": {
+        "tipoContador": "decretos_21",
+        "duracionVeladoraSugeridaHoras": 72,
+        "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
       "dir": "ltr"
     }

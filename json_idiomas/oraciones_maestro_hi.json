@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "version": "10.4.0",
+    "version": "10.6.0",
     "idioma": "hi",
     "nombreIdioma": "हिन्दी (Hindi)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Bhakti-Tatsama-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4252
+    "totalOraciones": 4253
   },
   "oraciones": [
     {
@@ -93598,6 +93598,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528hz"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION",
+      "numero": 4253,
+      "titulo": "डॉन जुआन डेल वोल्टेओ प्रार्थना · नकारात्मक ऊर्जा और संकट निवारण हेतु",
+      "tradicion": "espiritismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "peligro_enemigos",
+        "desesperacion",
+        "rabia_resentimiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Espiritismo Devocional de Protección)",
+      "textoOriginal": "Con la bendición del gran poder de Dios, invoco al espíritu de Don Juan del Volteo para voltear toda clase de brujerías y magias, hechicerías, encantamiento, separación, amarre, envidia, chisme, pelea, traición, malas energías, malas vibraciones, así como enfermedades postizas y naturales.\n\nInvoco el espíritu de Don Juan del Volteo para voltear todo tipo de atrancamientos, obstáculos, velas encendidas, lámparas encendidas, trabajos con picante, trabajos con velones negros, trabajos con muñecos, con vudú, trabajos con muertos, con sombras, duendes, espíritus malos, cirios, sortilegios, conjuros, envíos, entierros...\n\nTe pido que se retiren y desaparezcan por siempre los daños espirituales y corporales que me hayan hecho mis enemigos conocidos y desconocidos, videntes y no videntes, ocultos y no ocultos, visibles y no visibles, hombre o mujer; y te ruego me ayudes a voltear toda la mala fe, malas obras, malos pensamientos, malos deseos y las malas intenciones de todos mis enemigos, de mis adversarios y contrarios.\n\n¡Oh, Don Juan del Volteo! Tú que eres el dueño de todo lo mal previsto, ayúdame a cortar en nombre de Dios todo el mal que me han hecho o estén haciendo, dado o tirado, en cualquier maleficio de mis enemigos. Dame la luz y la claridad a mi vida y a mis caminos.\n\nSé que pronto volverá a mi vida y la de mi familia la paz, la tranquilidad y la prosperidad, y se alejará toda maldad y odio, toda envidia y mal deseo.\n\nAsí sea. Amén. +",
+      "guiaFonetica": "[Kon la ben-di-sión del gran po-dér de Diós, in-vó-ko al es-pí-ri-tu de Don Juán del Vol-téo pa-ra vol-teár to-da klá-se de bru-je-rí-as...]",
+      "textoTraducido": "परमेश्वर की महान शक्ति के आशीर्वाद से, मैं डॉन जुआन डेल वोल्टेओ की आत्मा का आह्वान करता हूँ ताकि सभी प्रकार के टोने-टोटके, बुरी नजर, अलगाव, बंधन, ईर्ष्या, कलह, विश्वासघात, नकारात्मक ऊर्जाओं और अस्वाभाविक व्याधियों को निष्फल और वापस लौटाया जा सके।\n\nमैं सभी बाधाओं, रुकावटों, अनिष्टकारी अनुष्ठानों, काले जादू, दुर्भावनापूर्ण मंत्रों और नकारात्मक प्रभावों को समाप्त करने के लिए डॉन जुआन डेल वोल्टेओ का स्मरण करता हूँ...\n\nमैं प्रार्थना करता हूँ कि ज्ञात और अज्ञात, प्रत्यक्ष और अप्रत्यक्ष शत्रुओं द्वारा मुझे पहुँचाई गई सभी आध्यात्मिक और शारीरिक हानियाँ सदा के लिए नष्ट हो जाएँ। मेरे विरोधियों के सभी बुरे विचारों, कुकर्मों और द्वेषपूर्ण इरादों को दूर करने में मेरी सहायता करें।\n\nहे डॉन जुआन डेल वोल्टेओ! आप जो सभी अनपेक्षित कष्टों का निवारण करते हैं, ईश्वर के पवित्र नाम में मेरे विरुद्ध किए गए हर अनिष्ट को काटने में मेरी सहायता करें। मेरे जीवन और मेरे मार्ग को दिव्य प्रकाश से आलोकित करें।\n\nमुझे विश्वास है कि मेरे और मेरे परिवार के जीवन में शांति, स्थिरता और समृद्धि शीघ्र लौटेगी, और सारी बुराई व द्वेष समाप्त हो जाएगा।\n\nऐसा ही हो। आमीन। +",
+      "ritualesAsociados": {
+        "tipoContador": "decretos_21",
+        "duracionVeladoraSugeridaHoras": 72,
+        "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
       "dir": "ltr"
     }

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "version": "10.4.0",
+    "version": "10.6.0",
     "idioma": "id",
     "nombreIdioma": "Bahasa Indonesia",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Bahasa-Rohani-Kemenag-LAI-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4252
+    "totalOraciones": 4253
   },
   "oraciones": [
     {
@@ -93598,6 +93598,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528hz"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION",
+      "numero": 4253,
+      "titulo": "Doa Don Juan del Volteo · Pembalik Energi Negatif dan Perlindungan Spiritual",
+      "tradicion": "espiritismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "peligro_enemigos",
+        "desesperacion",
+        "rabia_resentimiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Espiritismo Devocional de Protección)",
+      "textoOriginal": "Con la bendición del gran poder de Dios, invoco al espíritu de Don Juan del Volteo para voltear toda clase de brujerías y magias, hechicerías, encantamiento, separación, amarre, envidia, chisme, pelea, traición, malas energías, malas vibraciones, así como enfermedades postizas y naturales.\n\nInvoco el espíritu de Don Juan del Volteo para voltear todo tipo de atrancamientos, obstáculos, velas encendidas, lámparas encendidas, trabajos con picante, trabajos con velones negros, trabajos con muñecos, con vudú, trabajos con muertos, con sombras, duendes, espíritus malos, cirios, sortilegios, conjuros, envíos, entierros...\n\nTe pido que se retiren y desaparezcan por siempre los daños espirituales y corporales que me hayan hecho mis enemigos conocidos y desconocidos, videntes y no videntes, ocultos y no ocultos, visibles y no visibles, hombre o mujer; y te ruego me ayudes a voltear toda la mala fe, malas obras, malos pensamientos, malos deseos y las malas intenciones de todos mis enemigos, de mis adversarios y contrarios.\n\n¡Oh, Don Juan del Volteo! Tú que eres el dueño de todo lo mal previsto, ayúdame a cortar en nombre de Dios todo el mal que me han hecho o estén haciendo, dado o tirado, en cualquier maleficio de mis enemigos. Dame la luz y la claridad a mi vida y a mis caminos.\n\nSé que pronto volverá a mi vida y la de mi familia la paz, la tranquilidad y la prosperidad, y se alejará toda maldad y odio, toda envidia y mal deseo.\n\nAsí sea. Amén. +",
+      "guiaFonetica": "[Kon la ben-di-sión del gran po-dér de Diós, in-vó-ko al es-pí-ri-tu de Don Juán del Vol-téo pa-ra vol-teár to-da klá-se de bru-je-rí-as...]",
+      "textoTraducido": "Dengan berkat kuasa Tuhan yang Maha Besar, aku memanggil roh Don Juan del Volteo untuk membalikkan dan melenyapkan segala bentuk sihir, guna-guna, kutukan, perpisahan yang dipaksakan, iri hati, fitnah, pengkhianatan, serta segala getaran dan energi negatif.\n\nAku memohon perlindungan Don Juan del Volteo untuk mematahkan setiap rintangan, penghalang gaib, lilin-lilin kegelapan, ritual jahat, jeratan roh-roh jahat, dan segala ikatan kutukan yang tersembunyi...\n\nAku memohon agar segala bahaya rohani dan jasmani yang dikirimkan oleh musuh yang tampak maupun tak tampak, yang dikenal maupun tidak, disingkirkan untuk selamanya. Bantulah aku membalikkan segala niat buruk, prasangka jahat, dan tipu daya musuh-musuhku.\n\nWahai Don Juan del Volteo! Pelindung dari segala marabahaya tak terduga, tolonglah aku dalam nama Tuhan untuk memutuskan segala ikatan jahat. Berikanlah cahaya dan kejernihan bagi hidup dan langkahku.\n\nAku percaya damai, ketenangan, dan kelimpahan akan segera kembali ke dalam hidupku dan keluargaku, serta segala kebencian akan lenyap selamanya.\n\nSemoga demikian. Amin. +",
+      "ritualesAsociados": {
+        "tipoContador": "decretos_21",
+        "duracionVeladoraSugeridaHoras": 72,
+        "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
       "dir": "ltr"
     }

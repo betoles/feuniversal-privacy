@@ -78,7 +78,18 @@ export const CROSS_TRADITION_RULES = [
     sharedWith: ['budismo', 'vedica', 'universal']
   },
 
-  // 7. Plegarias Universales de Paz y Conexión con la Creación
+  // 7. Don Juan del Volteo / Plegarias de Volteo y Reversión Espiritual
+  {
+    matcher: (p) => {
+      const id = String(p.id || '').toLowerCase();
+      const tit = String(p.titulo?.es || p.titulo || '').toLowerCase();
+      return id.includes('volteo') || id.includes('don_juan') || tit.includes('volteo') || tit.includes('don juan');
+    },
+    rootTradition: 'espiritismo',
+    sharedWith: ['santeria_yoruba', 'universal', 'catolicismo']
+  },
+
+  // 8. Plegarias Universales de Paz y Conexión con la Creación
   {
     matcher: (p) => {
       const trad = String(p.tradicion || '').toLowerCase();

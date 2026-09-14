@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "version": "10.4.0",
+    "version": "10.6.0",
     "idioma": "fr",
     "nombreIdioma": "Français (French)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-GrandSiecle-Liturgique-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4252
+    "totalOraciones": 4253
   },
   "oraciones": [
     {
@@ -93598,6 +93598,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528hz"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION",
+      "numero": 4253,
+      "titulo": "Don Juan del Volteo · Prière de Retournement des Sortilèges et du Mal",
+      "tradicion": "espiritismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "peligro_enemigos",
+        "desesperacion",
+        "rabia_resentimiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Espiritismo Devocional de Protección)",
+      "textoOriginal": "Con la bendición del gran poder de Dios, invoco al espíritu de Don Juan del Volteo para voltear toda clase de brujerías y magias, hechicerías, encantamiento, separación, amarre, envidia, chisme, pelea, traición, malas energías, malas vibraciones, así como enfermedades postizas y naturales.\n\nInvoco el espíritu de Don Juan del Volteo para voltear todo tipo de atrancamientos, obstáculos, velas encendidas, lámparas encendidas, trabajos con picante, trabajos con velones negros, trabajos con muñecos, con vudú, trabajos con muertos, con sombras, duendes, espíritus malos, cirios, sortilegios, conjuros, envíos, entierros...\n\nTe pido que se retiren y desaparezcan por siempre los daños espirituales y corporales que me hayan hecho mis enemigos conocidos y desconocidos, videntes y no videntes, ocultos y no ocultos, visibles y no visibles, hombre o mujer; y te ruego me ayudes a voltear toda la mala fe, malas obras, malos pensamientos, malos deseos y las malas intenciones de todos mis enemigos, de mis adversarios y contrarios.\n\n¡Oh, Don Juan del Volteo! Tú que eres el dueño de todo lo mal previsto, ayúdame a cortar en nombre de Dios todo el mal que me han hecho o estén haciendo, dado o tirado, en cualquier maleficio de mis enemigos. Dame la luz y la claridad a mi vida y a mis caminos.\n\nSé que pronto volverá a mi vida y la de mi familia la paz, la tranquilidad y la prosperidad, y se alejará toda maldad y odio, toda envidia y mal deseo.\n\nAsí sea. Amén. +",
+      "guiaFonetica": "[Kon la ben-di-sión del gran po-dér de Diós, in-vó-ko al es-pí-ri-tu de Don Juán del Vol-téo pa-ra vol-teár to-da klá-se de bru-je-rí-as...]",
+      "textoTraducido": "Avec la bénédiction du grand pouvoir de Dieu, j'invoque l'esprit de Don Juan del Volteo pour retourner et dissoudre toute sorcellerie, magie noire, sortilèges, envoûtements, rituels de séparation, nœuds d'attache, jalousies, médisances, trahisons et énergies néfastes.\n\nJ'invoque l'esprit de Don Juan del Volteo pour briser tout blocage, obstacle, cierges ou lampes allumés contre moi, rituels occultes, vaudou, emprises d'esprits sombres et maléfices enfouis...\n\nJe te demande d'éloigner et de faire disparaître à jamais tout préjudice spirituel et physique causé par des ennemis connus ou inconnus, visibles ou invisibles, hommes ou femmes. Aide-moi à renvoyer toute mauvaise foi, mauvaises actions et mauvaises intentions de mes adversaires.\n\nÔ Don Juan del Volteo ! Toi qui déjoues toute malice imprévue, aide-moi à trancher au nom de Dieu tout le mal qui m'a été fait ou qu'on tente de me faire. Accorde la lumière et la paix à ma vie et à mes chemins.\n\nJe sais que la paix, la sérénité et la prospérité reviendront promptement sur mon foyer, et que toute haine et envie s'éloigneront à jamais.\n\nQu'il en soit ainsi. Amen. +",
+      "ritualesAsociados": {
+        "tipoContador": "decretos_21",
+        "duracionVeladoraSugeridaHoras": 72,
+        "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
       "dir": "ltr"
     }
