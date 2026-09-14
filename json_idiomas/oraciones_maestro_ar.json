@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "صلاة للقديس يوحنا ماكسيموفيتش من شنغهاي والقديس فرنسيس – مساعدة سريعة",
+      "titulo": "القديس يوحنا مكسيموفيتش أسقف شنغهاي وسان فرانسيسكو · صلاة العون السريع وشفاء المرضى",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "صحة_وشفاء",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "أيها الرب يسوع المسيح،  ابن الله الحي،  بشفاعة والدة الإله القديسة ووالديك القديسين: صلاة إلى القديس يوحنا مكسيموفيتش من شنغهاي والقديس فرنسيس – مساعدة سريعة! أسكب روحك القدوس على حياتنا،  وطهّر أذهاننا في صمت الصلاة،  وامنحنا الصحة والصبر وغفران الخطايا،  وأرشدنا إلى السلام الأبدي في ملكوتك السماوي. آمين!",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[Ya ay-yu-hal Qid-disul Baar Al-Ab Yu-han-na, ar-raa'iyus saalih...]",
+      "textoTraducido": "يا أيها القديس البار الأب يوحنا، الراعي الصالح وصانع العجائب بالمسيح! يا من طفت العالم حاملاً العزاء للمرضى والمأوى للأيتام والعون السريع للمتألمين، استجب لصلاتنا المتواضعة. يا من صنعت في شنغهاي وأوروبا وسان فرانسيسكو معجزات الإيمان والشفاء بقوة الصليب المقدس، تشفع أمام عرش العلي من أجل حاجاتنا الروحية والجسدية. نجنا من الشدائد واشفِ أمراضنا وقُدنا إلى الخلاص الأبدي بربنا يسوع المسيح. آمين.",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

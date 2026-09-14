@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "Prière à saint Jean Maximovitch de Shanghai et à saint François – Aide rapide",
+      "titulo": "Saint Jean Maximovitch de Shanghai et San Francisco · Prompt Secours et Guérison des Malades",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "sante_guerison",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "Seigneur Jésus-Christ, Fils du Dieu vivant, par l'intercession de la Très Sainte Théotokos et de tes saints parents : Prière à saint Jean Maximovitch de Shanghai et à saint François – Aide rapide ! Déverse ton Esprit Saint sur nos vies, purifie nos esprits dans le silence de la prière, accorde-nous la santé, la patience et le pardon des fautes, et guide-nous vers la paix éternelle de ton Royaume céleste. Amen!",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[O saint ié-rark Pèr Jan, bon pas-tœr e to-ma-türj dü Krist...]",
+      "textoTraducido": "Ô saint hiérarque Père Jean, bon pasteur et thaumaturge du Christ ! Toi qui as parcouru le monde en apportant le réconfort aux malades, l'abri aux orphelins et un prompt secours aux affligés, écoute notre humble prière. Toi qui à Shanghai, en Europe et à San Francisco as accompli des miracles de foi et de guérison par la puissance de la Sainte Croix, intercède devant le Trône du Très-Haut pour nos besoins spirituels et corporels. Délivre-nous des épreuves, guéris nos infirmités et conduis-nous au salut éternel par Jésus-Christ notre Seigneur. Amen !",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

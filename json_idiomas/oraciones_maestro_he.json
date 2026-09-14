@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "תחינה ל San Juan Maximovich של Shanghái ו San Francisco – Auxilio Rápido",
+      "titulo": "הבישוף הקדוש יוחנן מקסימוביץ' משנחאי וסן פרנסיסקו · עזרה מהירה ורפואת הגוף והנפש",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "אֵל נָא, רְפָא נָא לָנוּ.\nרוֹפֵא כָּל בָּשָׂר וּמַפְלִיא לַעֲשׂוֹת, הוֹשֵׁט יָדְךָ הַמְּרַפֵּאת וּשְׁלַח רְפוּאָה שְׁלֵמָה מִן הַשָּׁמַיִם, רְפוּאַת הַנֶּפֶשׁ וּרְפוּאַת הַגּוּף.\nחַדֵּשׁ כֹּחוֹתֵינוּ, גָּרֵשׁ כָּל מַחֲלָה וּמַכְאוֹב, וּמַלֵּא אֶת לִבֵּנוּ שַׁלְוָה, תִּקְוָה וּבְרִיאוּת אֵיתָנָה. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[Ho ha-Ro'eh ha-Ka-dosh ha-Av Yo-cha-nan, ish ha-E-lo-him...]",
+      "textoTraducido": "הו הרועה הקדוש האב יוחנן, איש האלוהים ועושה הנפלאות! אתה אשר נדדת בעולם והבאת מרפא לחולים, מקלט ליתומים ועזרה מהירה לכל נדכא, שמע את תפילתנו הצנועה. פעלת בשנחאי, באירופה ובסן פרנסיסקו ניסי אמונה ורפואה בכוח הצלב הקדוש, העתר לפני כסא המרומים למען צרכינו הגופניים והנפשיים. הצל אותנו ממצוקות, רפא את חליינו והדרך אותנו אל הישועה הנצחית. אמן.",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

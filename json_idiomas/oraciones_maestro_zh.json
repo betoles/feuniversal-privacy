@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "向上海圣约翰·马克西莫维奇和圣方济各祈祷 – 快速帮助",
+      "titulo": "上海与旧金山的圣约翰·马克西莫维奇主教 · 疾速救援与病患医治祈祷",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "健康与医治",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "主耶稣基督，永生神的儿子，通过至圣圣母和你们神圣父母的代祷：向上海的圣约翰·马克西莫维奇和圣方济各祈祷 – 快速帮助！将您的圣灵倾注在我们的生活中，在安静的祈祷中净化我们的思想，赐予我们健康，耐心和对过失的宽恕，并引导我们进入您天国的永恒和平。阿门！",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[Sheng-de qi-ji mu-zhe Sheng Yue-han Ma-ke-xi-mo-wei-qi shen-fu...]",
+      "textoTraducido": "圣德奇迹牧者圣约翰·马克西莫维奇神父！您曾巡行普世，抚慰病患，庇护孤儿，为一切受苦者带来及时救援，求您垂听我们谦卑的祈祷。您在上海、欧洲及旧金山以十字圣架的大能行了无数坚固信仰与治愈的奇迹，求您在至高者的宝座前为我们身心的需求转求。求您救我们脱离患难，医治我们的疾病，并引导我们迈向永恒的救恩。阿们！",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

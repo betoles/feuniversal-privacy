@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "Oração a São João Maximovich de Xangai e São Francisco – Ajuda Rápida",
+      "titulo": "São João Maximovich de Xangai e São Francisco · Auxílio Rápido e Cura dos Enfermos",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "saude_cura",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "Senhor Jesus Cristo, Filho do Deus Vivo, pela intercessão do Santíssimo Theotokos e dos seus santos pais: Oração a São João Maximovich de Xangai e a São Francisco – Socorro Rápido! Derrama o teu Espírito Santo sobre as nossas vidas, purifica as nossas mentes no silêncio da oração, concede-nos saúde, paciência e perdão das faltas, e guia-nos à paz eterna do teu Reino celestial. Amém!",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[Ó santo hie-rár-ka Pádre Ju-án, bom pas-tor e tau-ma-túr-go de Kris-to! Ou-ví a nós-sa hu-míl-de sú-pli-ka...]",
+      "textoTraducido": "Ó santo hierarca Padre João, bom pastor e taumaturgo de Cristo! Vós que percorrestes o mundo levando consolo aos enfermos, abrigo aos órfãos e auxílio aos aflitos, ouvi a nossa humilde súplica. Vós que em Xangai, na Europa e em São Francisco operastes prodígios de fé e cura pelo poder da Santa Cruz, intercedei diante do Trono do Altíssimo pelas nossas necessidades espirituais e corporais. Livrai-nos das tribulações, curai as nossas enfermidades, dai-nos fortaleza e conduzi-nos à salvação eterna por Jesus Cristo, Nosso Senhor. Amém!",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

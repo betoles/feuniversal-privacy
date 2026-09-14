@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido",
+      "titulo": "San Juan Maximovich de Shanghái y San Francisco · Auxilio Rápido y Sanación de los Enfermos",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "¡Señor Jesucristo, Hijo del Dios Viviente, por la intercesión de la Santísima Theotokos y de tus santos padres: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido! Derrama tu Santo Espíritu sobre nuestra vida, purifica nuestra mente en el silencio de la oración, concédenos salud, paciencia y perdón de las faltas, y guíanos a la paz eterna de tu Reino celestial. ¡Amén!",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[O svya-ti-té-lyu ót-che I-o-án-ne, pás-ty-ryu dób-ryi i chu-dot-vór-che pre-dív-nyi Khris-tóv! Mo-lí-sya Khris-tú Bó-gu...]",
+      "textoTraducido": "¡Oh santo jerarca Padre Juan, buen pastor y taumaturgo de Cristo! Tú que recorriste el mundo llevando consuelo a los enfermos, amparo a los huérfanos y auxilio a los afligidos, atiende nuestra humilde súplica. Tú que en Shanghái, en Europa y en San Francisco obraste milagros de fe y sanación por el poder de la Santa Cruz, intercede ante el Trono del Altísimo por nuestras necesidades espirituales y corporales. Líbranos de las tribulaciones, sana nuestras dolencias, danos fortaleza en la aflicción y alcánzanos la gracia de la salvación eterna por Jesucristo Nuestro Señor. ¡Amén!",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

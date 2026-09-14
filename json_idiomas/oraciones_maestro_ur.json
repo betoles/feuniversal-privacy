@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "دعا مقدس مقدس –",
+      "titulo": "شنگھائی اور سان فرانسسکو کے سینٹ جان میکسمووچ · شفا اور فوری مدد کی دعا",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "اے قادرِ مطلق اور رحیم خدا، خداوند یسوع مسیح کے مقدس نام میں ہم تیرے حضور حاضر ہوتے ہیں۔ ہمارے گناہ معاف فرما، دل کو سکون دے اور اپنی پاک روح سے ہماری رہنمائی فرما۔ آمین۔",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[Ae mu-qad-das Fa-dhar John, Ma-seeh ke sac-che char-wa-he...]",
+      "textoTraducido": "اے مقدس فادر جان، مسیح کے سچے چرواہے اور برکت کا وسیلہ! آپ نے دنیا بھر میں جا کر بیماروں کو تسلی، یتیموں کو پناہ اور مصیبت زدوں کو بروقت مدد فراہم کی، ہماری عاجزانہ دعا سنیں۔ آپ نے شنگھائی، یورپ اور سان فرانسسکو میں ایمان اور شفاء کے معجزات دکھائے، ہماری روحانی اور جسمانی ضروریات کے لیے خداوند کے حضور شفاعت کریں۔ ہمیں آزمائشوں سے بچائیں اور نجات کی راہ پر چلائیں۔ آمین!",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

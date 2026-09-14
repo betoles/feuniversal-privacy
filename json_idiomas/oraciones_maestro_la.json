@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "Preces ad San Juan Maximovich de Shanghái et San Francisco – Auxilio Rápido",
+      "titulo": "Sanctus Ioannes Maximovicius Sciamhaevensis et Sancti Francisci · Promptum Auxilium et Sanatio",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "sanitas_sanatio",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "¡Dominus Iesus Christus, Filius Deus Viviente, por la intercesión Santísima Theotokos et de tus sancti padres: Plegaria a San Juan Maximovich de Shanghái et Sanctus Franciscus – Auxilio Rápido! Derrama tu sanctus spiritus super nuestra vita, purifica nuestra mens in silencio oratio, concédenos salus, paciencia et venia et remissio faltas, y dirige nos ad pax eterna de tu regnum celestial. ¡Amen!. Amen.",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[O sánc-te pon-tí-fex Pá-ter Io-án-nes, pás-tor bó-ne et tau-ma-túr-dje Krís-ti...]",
+      "textoTraducido": "O sancte pontifex Pater Ioannes, pastor bone et thaumaturge Christi! Qui orbem peragrasti aegrotantibus solamen, orphanis perfugium et afflictis promptum auxilium afferens, audi humilem precationem nostram. Qui Sciamhaevi, in Europa et Sancto Francisco miracula fidei et sanationis virtute Sanctae Crucis effecisti, intercede ante Thronum Altissimi pro necessitatibus nostris spiritalibus et corporalibus. Libera nos a tribulationibus, sana languores nostros et ad salutem aeternam perduc nos per Iesum Christum Dominum nostrum. Amen.",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

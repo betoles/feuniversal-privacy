@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "Preghiera a San Giovanni Maximovich di Shanghai ed San Francesco – Aiuto rapido",
+      "titulo": "San Giovanni Maximovich di Shanghai e San Francisco · Pronto Soccorso e Guarigione",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "salute_guarigione",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "Signore Gesù Cristo, Figlio del Dio vivente, per intercessione della Santissima Theotokos e dei tuoi santi genitori: Preghiera a San Giovanni Maximovich di Shanghai e San Francesco – Aiuto rapido! Effondi il tuo Santo Spirito sulla nostra vita, purifica le nostre menti nel silenzio della preghiera, donaci salute, pazienza e perdono delle colpe, e guidaci alla pace eterna del tuo Regno celeste. Amen!",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[O sán-to dje-rár-ka Pádre Djo-ván-ni, bwón pas-tó-re e tau-ma-túr-go di Krís-to...]",
+      "textoTraducido": "O santo gerarca Padre Giovanni, buon pastore e taumaturgo di Cristo! Tu che hai attraversato il mondo portando conforto ai malati, rifugio agli orfani e pronto soccorso agli afflitti, ascolta la nostra umile preghiera. Tu che a Shanghai, in Europa e a San Francisco hai operato miracoli di fede e guarigione con la potenza della Santa Croce, intercedi presso il Trono dell'Altissimo per le nostre necessità spirituali e corporali. Liberaci dalle tribolazioni, risana le nostre infermità e guidaci alla salvezza eterna per Gesù Cristo nostro Signore. Amen!",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

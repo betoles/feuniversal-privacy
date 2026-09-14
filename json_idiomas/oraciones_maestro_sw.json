@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "Maombi kwa Mtakatifu John Maximovich wa Shanghai na Mtakatifu Francis - Msaada wa Haraka",
+      "titulo": "Mtakatifu Yohane Maksimovich wa Shanghai na San Francisco · Msaada wa Haraka na Uponyaji",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "afya_uponyaji",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Bwana Yesu Kristo, Mwana wa Mungu, kwa maombi ya watakatifu wako, utuhurumie: Plegaria a San Juan Maximovich de Shanghai y San Francisco - Auxilio Rapido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "Bwana Yesu Kristo, Mwana wa Mungu, kwa maombi ya watakatifu wako, utuhurumie: Sala kwa Mtakatifu Juan Maximovich de Shanghai y San Francisco - Auxilio Rapido.",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[E-e Ba-ba Mta-ka-ti-fu Yo-ha-ne Mak-si-mo-vich, mchun-ga-ji mwê-ma...]",
+      "textoTraducido": "Ee Baba Mtakatifu Yohane Maksimovich, mchungaji mwema na mtenda miujiza wa Kristo! Wewe uliyezuru duniani kote kuleta faraja kwa wagonjwa, kimbilio kwa mayatima na msaada wa haraka kwa wanaoteseka, sikiliza sala yetu ya unyenyekevu. Wewe uliyetenda miujiza ya uponyaji huko Shanghai, Ulaya na San Francisco kwa uwezo wa Msalaba Mtakatifu, tuombee mbele ya Kiti cha Enzi cha Mwenyezi Mungu kwa mahitaji yetu ya kiroho na kimwili. Utuokoe katika mateso na utuongoze kwenye uzima wa milele. Amina!",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,

@@ -47674,7 +47674,7 @@
     {
       "id": "ORT_EXT_SAN_JUAN_MAXIMOVICH_SHANGAI_SF",
       "numero": 2197,
-      "titulo": "上海の聖ヨハネ・マクシモヴィチと聖フランシスコへの祈り – クイックヘルプ",
+      "titulo": "上海とサンフランシスコの聖イオアン・マキシモヴィッチ · 速やかな助けと病の癒しの祈り",
       "tradicion": "ortodoxia",
       "categoriaIntencion": "健康と癒やし",
       "estadosEmocionales": [
@@ -47682,10 +47682,10 @@
         "auxilio_rapido",
         "taumaturgo_moderno"
       ],
-      "idiomaLiturgicoOriginal": "Tradición Ortodoxa Oriental",
-      "textoOriginal": "Господи Иисусе Христе, Сыне Божий, молитвами святых Твоих помилуй нас: Plegaria a San Juan Maximovich de Shanghái y San Francisco – Auxilio Rápido.",
-      "guiaFonetica": "Gospodi Iisuse Khriste, Syne Bozhiy, molitvami svyatykh Tvoikh pomiluy nas...",
-      "textoTraducido": "生ける神の御子、主イエス・キリスト、至聖なる母なる御母様と皆さんの聖なる両親のとりなしにより、上海の聖ヨハネ・マクシモヴィチと聖フランシスコへの祈り – すぐに救いたまえ！私たちの人生にあなたの聖霊を注ぎ、沈黙の祈りの中で私たちの心を清め、私たちに健康と忍耐と過ちの許しを与え、あなたの天の王国の永遠の平和に私たちを導きたまえ。アーメン！",
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "textoOriginal": "О святителю отче Иоанне, пастырю добрый и чудотворче предивный Христов! Молися Христу Богу о спасении душ наших, исцели недуги телесныя и душевныя, и защити нас от всякаго зла. Аминь.",
+      "guiaFonetica": "[Sei na-ru shin-pin, ki-se-ki no bo-ku-sha, Sei I-o-an Ma-ki-shi-mo-vi-cchi...]",
+      "textoTraducido": "聖なる神品・奇跡の牧者、聖イオアン・マキシモヴィッチ主教よ！全世界を巡り、病める者に慰めを、孤児に庇護を、苦しむ者に速やかな助けをもたらした聖人よ、私たちの謙虚な祈りをお聞き入れください。上海、ヨーロッパ、そしてサンフランシスコにおいて聖なる十字架の力により信仰と癒しの奇跡を行われたように、私たちの霊肉の必要のために至高の玉座の前に執り成してください。患難から救い、病を癒し、永遠の救いへと導いてください。アーメン。",
       "ritualesAsociados": {
         "tipoContador": "chotki_100",
         "duracionVeladoraSugeridaHoras": 4,
