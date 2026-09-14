@@ -1,12 +1,15 @@
 /**
  * MIRROR READER COMPONENT (LECTOR ESPEJO PARALELO)
  * FeUniversal - Faith & Prayers
+ * 
+ * Incorpora Tarjeta Consagrada de Compartir Bendición con Segmentación Geo-Lingüística
+ * y activación por aura tras finalización de la oración (TTS onend / scroll final).
  */
 
 import { soundManager } from '../services/sound-service.js';
 import { StorageService } from '../services/storage-service.js';
 import { renderIcon } from './icons.js';
-import { SocialShareComponent } from './social-share.js';
+import { SocialShareComponent, getHeroMessagingPlatform, executePlatformShare } from './social-share.js';
 import { TranslationReportModalComponent } from './translation-report-modal.js';
 import { MembershipComponent } from './membership.js';
 import { SacredSoundPicker } from './sacred-sound-picker.js';
@@ -75,6 +78,7 @@ export class MirrorReaderComponent {
     const lang = prefs.idioma || 'es';
     const prayer = this.currentPrayer;
     const origLangStr = (prayer.idiomaLiturgicoOriginal || '').toLowerCase();
+    const heroPlatform = getHeroMessagingPlatform(lang);
     
     const isNativeLanguageMatch =
       (lang === 'es' && /español|castellano|mexic|latino|argentin|colomb|venezol|chile|peru|cuban|paraguay|uruguay|boliv|guatemal|costa rica|panam|salvador|honduras|nicaragua/i.test(origLangStr)) ||
@@ -322,6 +326,30 @@ export class MirrorReaderComponent {
           </div>
         </div>
 
+        <!-- TARJETA CONSAGRADA DE COMPARTIR BENDICIÓN (VIRAL GROWTH ENGINE) -->
+        <div id="card-blessing-share" class="blessing-share-card">
+          <div class="blessing-share-header">
+            <div class="blessing-medallion">
+              <img src="logo.png?v=5.0" alt="FeUniversal" class="blessing-logo-img" />
+            </div>
+            <div class="blessing-text-wrapper">
+              <h4 class="blessing-share-title">${t('share_blessing_title', lang) || 'Comparte esta Bendición Sagrada'}</h4>
+              <p class="blessing-share-desc">${t('share_blessing_desc', lang) || '¿Conoces a alguien que necesite consuelo o protección hoy? Envíale esta plegaria con su enlace directo.'}</p>
+            </div>
+          </div>
+          
+          <div class="blessing-actions-row">
+            <button id="btn-blessing-hero-share" class="btn-crystal btn-blessing-hero" data-platform="${heroPlatform.key}" style="background: ${heroPlatform.bg}; border-color: ${heroPlatform.border}; color: ${heroPlatform.color}; box-shadow: 0 0 16px ${heroPlatform.glow};">
+              <span class="blessing-btn-icon">${renderIcon(heroPlatform.icon)}</span>
+              <span class="blessing-btn-text">${t(heroPlatform.actionKey, lang) || `Enviar por ${heroPlatform.name}`}</span>
+            </button>
+            <button id="btn-blessing-more-options" class="btn-crystal btn-blessing-more">
+              <span class="blessing-btn-icon" style="color: var(--accent-gold);">${renderIcon('ui_camera')}</span>
+              <span class="blessing-btn-text">${t('share_card_hd_title', lang) || 'Estados HD / Más'}</span>
+            </button>
+          </div>
+        </div>
+
         <!-- Barra Inferior de Acciones Rituales (Distribución Sagrada y Estética) -->
         <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--glass-border); display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; box-sizing: border-box; text-align: center;">
           
@@ -330,7 +358,6 @@ export class MirrorReaderComponent {
             <span style="font-style: italic;">${t('breathe_deeply_prompt', lang) || 'Respira profundamente 3 veces antes de entonar.'}</span>
           </div>
 
-          <!-- Botón Principal Hero (Centrado y Destacado) -->
           <!-- Descargo de Responsabilidad Médica (Google Play Health Policy) -->
           ${(prayer.categoriaIntencion === 'salud_sanacion' || prayer.categoriaIntencion === 'sanacion') ? `
           <div style="margin-bottom: 14px; padding: 10px 14px; background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: var(--radius-md); font-size: 0.74rem; color: var(--text-muted); line-height: 1.45; display: flex; align-items: flex-start; gap: 8px;">
@@ -338,6 +365,7 @@ export class MirrorReaderComponent {
             <span>${t('health_disclaimer', lang)}</span>
           </div>` : ''}
 
+          <!-- Botón Principal Hero Altar -->
           <button id="btn-open-altar-from-reader" class="btn-crystal btn-crystal-gold" style="width: 100%; max-width: 320px; margin: 0 auto 12px; padding: 12px 22px; font-size: 0.88rem; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 9px; border-radius: var(--radius-full); box-shadow: 0 0 24px rgba(245, 158, 11, 0.4); text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer; transition: all var(--transition-fast);">
             <span style="display: inline-flex; width: 18px; height: 18px;">${renderIcon('nav_altar')}</span>
             <span>${t('altar_light_candle', lang) || 'Encender Veladora'}</span>
@@ -365,6 +393,7 @@ export class MirrorReaderComponent {
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
     const prayer = this.currentPrayer;
+    const heroPlatform = getHeroMessagingPlatform(lang);
 
     const closeBtn = document.getElementById('btn-close-reader');
     const shareBtn = document.getElementById('btn-share-prayer-top');
@@ -376,11 +405,29 @@ export class MirrorReaderComponent {
     const ttsBtn = document.getElementById('btn-read-tts');
     const altarBtn = document.getElementById('btn-open-altar-from-reader');
     const countBtn = document.getElementById('btn-count-from-reader');
+    const blessingHeroBtn = document.getElementById('btn-blessing-hero-share');
+    const blessingMoreBtn = document.getElementById('btn-blessing-more-options');
 
     if (closeBtn) closeBtn.addEventListener('click', () => this.close());
 
     if (shareBtn) {
       shareBtn.addEventListener('click', () => {
+        if (this.currentPrayer) {
+          this.socialShare.open(this.currentPrayer);
+        }
+      });
+    }
+
+    if (blessingHeroBtn) {
+      blessingHeroBtn.addEventListener('click', () => {
+        if (this.currentPrayer) {
+          executePlatformShare(heroPlatform.key, this.currentPrayer, lang);
+        }
+      });
+    }
+
+    if (blessingMoreBtn) {
+      blessingMoreBtn.addEventListener('click', () => {
         if (this.currentPrayer) {
           this.socialShare.open(this.currentPrayer);
         }
@@ -476,6 +523,18 @@ export class MirrorReaderComponent {
       } else if (state === 'paused') {
         ttsBtn.innerHTML = `${renderIcon('ui_play')}<span>${t('test_sound', lang) || 'Reanudar'}</span>`;
         ttsBtn.classList.remove('active-glow-cyan');
+      } else if (state === 'ended') {
+        ttsBtn.innerHTML = `${renderIcon('ui_voice')}<span>${t('sound_audio_btn', lang) || 'Audio'}</span>`;
+        ttsBtn.classList.remove('active-glow-cyan');
+        
+        // Iluminación áurea de la tarjeta de bendición al concluir el audio
+        const card = document.getElementById('card-blessing-share');
+        if (card) {
+          card.classList.add('blessing-card-aura');
+          try {
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          } catch (e) {}
+        }
       } else {
         ttsBtn.innerHTML = `${renderIcon('ui_voice')}<span>${t('sound_audio_btn', lang) || 'Audio'}</span>`;
         ttsBtn.classList.remove('active-glow-cyan');
@@ -503,6 +562,23 @@ export class MirrorReaderComponent {
         const beadsTab = document.querySelector('.bottom-nav-item[data-tab="beads"]');
         if (beadsTab) beadsTab.click();
       });
+    }
+
+    // Scroll listener para activar el aura suavemente si el devoto llega al final de la lectura
+    if (this.container) {
+      const handleScrollAura = () => {
+        const scrollBottom = this.container.scrollTop + this.container.clientHeight;
+        const scrollHeight = this.container.scrollHeight;
+        if (scrollHeight > 0 && scrollBottom >= scrollHeight - 220) {
+          const card = document.getElementById('card-blessing-share');
+          if (card && !card.classList.contains('blessing-card-aura')) {
+            card.classList.add('blessing-card-aura');
+          }
+        }
+      };
+      this.container.removeEventListener('scroll', this._lastScrollHandler);
+      this._lastScrollHandler = handleScrollAura;
+      this.container.addEventListener('scroll', handleScrollAura, { passive: true });
     }
   }
 }

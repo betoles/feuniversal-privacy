@@ -1,8 +1,9 @@
 import { t } from '../data/i18n.js';
 /**
- * SOCIAL SHARE COMPONENT - DIFUSIÓN DEVOCIONAL GLOBAL
- * Redes: WhatsApp, Telegram, WeChat, LINE, ShareChat, Zalo, X/Twitter, Facebook, Instagram Stories
- * Generador de Tarjetas HD en Canvas (1080x1920 px) con Bloqueo Amable Pro y Footer Viral en Gratis
+ * SOCIAL SHARE COMPONENT - DIFUSIÓN DEVOCIONAL GLOBAL & VIRALIZACIÓN
+ * Segmentación Geo-Lingüística Dinámica: WhatsApp, WeChat (微信), LINE, Telegram, X, FB
+ * Generador Universal de Tarjetas HD en Canvas (1080x1920 px) para Estados/Stories
+ * Enlaces Directos Litúrgicos (Deep Links Canónicos)
  * FeUniversal - Faith & Prayers
  */
 
@@ -10,8 +11,9 @@ import { TRADITIONS, getTradition } from '../data/traditions.js';
 import { StorageService } from '../services/storage-service.js';
 import { renderIcon } from './icons.js';
 import { SacredDialog } from './sacred-dialog.js';
-import { MembershipComponent } from './membership.js';
 import { getScriptureBookTitle, formatChapterLabel } from '../data/scriptures-catalog.js';
+
+export const CANONICAL_WEB_URL = 'https://betoles.github.io/feuniversal-privacy/';
 
 export function getShareItemTitle(item, lang) {
   if (!item) return 'Plegaria Sagrada';
@@ -44,7 +46,7 @@ export function getShareItemText(item, lang, customText = null) {
   if (transMap && typeof transMap === 'object' && Object.keys(transMap).length > 0) {
     return transMap[lang] || transMap.es || transMap.en || Object.values(transMap)[0] || item.textoOriginal || '';
   }
-  return item.textoOriginal || item.texto || '';
+  return item.textoTraducido || item.textoOriginal || item.texto || '';
 }
 
 export function getShareItemTradition(item, lang) {
@@ -55,6 +57,150 @@ export function getShareItemTradition(item, lang) {
     return (tradObj.nombre[lang] || tradObj.nombre.es || tradObj.nombre.en || tradKey).toUpperCase();
   }
   return String(tradKey).toUpperCase().replace(/_/g, ' ');
+}
+
+export function getShareDeepLink(item, lang = 'es') {
+  const base = CANONICAL_WEB_URL;
+  if (!item) return `${base}?lang=${encodeURIComponent(lang)}`;
+  if (item.id) {
+    return `${base}?p=${encodeURIComponent(item.id)}&lang=${encodeURIComponent(lang)}`;
+  }
+  if (item.libroKey) {
+    return `${base}?tab=scriptures&book=${encodeURIComponent(item.libroKey)}&cap=${encodeURIComponent(item.capitulo || 1)}&lang=${encodeURIComponent(lang)}`;
+  }
+  return `${base}?lang=${encodeURIComponent(lang)}`;
+}
+
+export function getHeroMessagingPlatform(lang = 'es') {
+  const l = (lang || 'es').toLowerCase();
+  if (l === 'zh') {
+    return {
+      key: 'wechat',
+      name: 'WeChat (微信)',
+      icon: 'brand_wechat',
+      color: '#07c160',
+      bg: 'rgba(7, 193, 96, 0.16)',
+      border: 'rgba(7, 193, 96, 0.45)',
+      glow: 'rgba(7, 193, 96, 0.35)',
+      actionKey: 'share_via_wechat'
+    };
+  }
+  if (l === 'ja') {
+    return {
+      key: 'line',
+      name: 'LINE',
+      icon: 'brand_line',
+      color: '#00b900',
+      bg: 'rgba(0, 185, 0, 0.16)',
+      border: 'rgba(0, 185, 0, 0.45)',
+      glow: 'rgba(0, 185, 0, 0.35)',
+      actionKey: 'share_via_line'
+    };
+  }
+  if (l === 'ru') {
+    return {
+      key: 'telegram',
+      name: 'Telegram',
+      icon: 'brand_telegram',
+      color: '#0088cc',
+      bg: 'rgba(0, 136, 204, 0.16)',
+      border: 'rgba(0, 136, 204, 0.45)',
+      glow: 'rgba(0, 136, 204, 0.35)',
+      actionKey: 'share_via_telegram'
+    };
+  }
+  // Predeterminado para América Latina, Norteamérica, Europa, Medio Oriente, India, África
+  return {
+    key: 'whatsapp',
+    name: 'WhatsApp',
+    icon: 'brand_whatsapp',
+    color: '#25d366',
+    bg: 'rgba(37, 211, 102, 0.16)',
+    border: 'rgba(37, 211, 102, 0.45)',
+    glow: 'rgba(37, 211, 102, 0.35)',
+    actionKey: 'share_via_whatsapp'
+  };
+}
+
+export async function copyToClipboardSafely(str) {
+  try {
+    if (typeof navigator !== 'undefined' && navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(str);
+      return true;
+    }
+  } catch (e) {}
+
+  if (typeof document !== 'undefined') {
+    const textArea = document.createElement('textarea');
+    textArea.value = str;
+    textArea.style.position = 'fixed';
+    textArea.style.left = '-999999px';
+    textArea.style.top = '-999999px';
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    try {
+      document.execCommand('copy');
+    } catch (err) {}
+    document.body.removeChild(textArea);
+    return true;
+  }
+  return false;
+}
+
+export function executePlatformShare(platform, prayer, lang = 'es', customText = null) {
+  const title = getShareItemTitle(prayer, lang);
+  const textToShare = getShareItemText(prayer, lang, customText);
+  const deepLink = getShareDeepLink(prayer, lang);
+  const attribLine = t('share_attribution_line', lang) || '✦ FeUniversal · Faith & Prayers';
+  const sanctuaryTagline = t('share_sanctuary_tagline', lang) || 'Santuario Espiritual Universal';
+  
+  const sacredAttribution = `\n\n—\n${attribLine}\n${sanctuaryTagline}\n${deepLink}`;
+  const fullShareText = `« ${title} »\n\n${textToShare}${sacredAttribution}`;
+  const encodedFullText = encodeURIComponent(fullShareText);
+  const encodedDeepLink = encodeURIComponent(deepLink);
+
+  const twitterText = `« ${title} » · FeUniversal - Faith & Prayers\n${deepLink} #FeUniversal #Faith`;
+
+  let targetUrl = '';
+
+  switch (platform) {
+    case 'whatsapp':
+      targetUrl = `https://api.whatsapp.com/send?text=${encodedFullText}`;
+      break;
+    case 'telegram':
+      targetUrl = `https://t.me/share/url?url=${encodedDeepLink}&text=${encodeURIComponent('« ' + title + ' »\n\n' + textToShare + '\n\n—\n' + attribLine)}`;
+      break;
+    case 'twitter':
+      targetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(twitterText)}`;
+      break;
+    case 'facebook':
+      targetUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedDeepLink}&quote=${encodedFullText}`;
+      break;
+    case 'line':
+      targetUrl = `https://social-plugins.line.me/lineit/share?url=${encodedDeepLink}&text=${encodedFullText}`;
+      break;
+    case 'sharechat':
+      targetUrl = `https://sharechat.com/share?url=${encodedDeepLink}&title=${encodedFullText}`;
+      break;
+    case 'zalo':
+      targetUrl = `https://sp.zalo.me/share?url=${encodedDeepLink}`;
+      break;
+    case 'wechat':
+      copyToClipboardSafely(fullShareText);
+      SacredDialog.alert({
+        title: t('share_wechat_title', lang) || 'Texto Copiado para WeChat',
+        message: t('share_wechat_msg', lang) || 'El texto sagrado y su enlace han sido copiados a tu portapapeles con formato oficial.\n\nPuedes pegarlo en WeChat (微信) en tus Momentos o enviarlo a tus chats.',
+        icon: 'brand_wechat',
+        buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'Aceptar',
+        type: 'gold'
+      });
+      return;
+  }
+
+  if (targetUrl && typeof window !== 'undefined') {
+    window.open(targetUrl, '_blank', 'noopener,noreferrer');
+  }
 }
 
 export class SocialShareComponent {
@@ -88,7 +234,7 @@ export class SocialShareComponent {
     if (!el) {
       el = document.createElement('div');
       el.id = 'modal-social-share';
-      el.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 3000; padding: 24px 12px 90px; align-items: flex-start; justify-content: center; box-sizing: border-box; overflow-y: auto; -webkit-overflow-scrolling: touch;';
+      el.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 3000; padding: 24px 12px 90px; align-items: flex-start; justify-content: center; box-sizing: border-box; overflow-y: auto; -webkit-overflow-scrolling: touch;';
       document.body.appendChild(el);
     }
     this.modal = el;
@@ -98,7 +244,7 @@ export class SocialShareComponent {
     if (!this.currentPrayer) return;
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
-    const isUnlocked = StorageService.isAccessUnlocked();
+    const heroPlatform = getHeroMessagingPlatform(lang);
 
     this.modal.innerHTML = `
       <div class="crystal-card" style="max-width: 500px; width: 100%; padding: 24px 18px 20px; position: relative; box-sizing: border-box; margin: auto 0;">
@@ -108,36 +254,44 @@ export class SocialShareComponent {
         </button>
 
         <!-- Cabecera Sagrada -->
-        <div style="text-align: center; margin-bottom: 14px; padding: 0 36px;">
-          <div style="width: 54px; height: 54px; margin: 0 auto 8px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 24px var(--accent-gold-glow); box-sizing: border-box; overflow: hidden;">
+        <div style="text-align: center; margin-bottom: 16px; padding: 0 36px;">
+          <div style="width: 54px; height: 54px; margin: 0 auto 8px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 24px var(--accent-gold-glow); box-sizing: border-box; overflow: hidden; border: 1.5px solid var(--accent-gold);">
             <img src="logo.png?v=5.0" alt="FeUniversal" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block;" />
           </div>
-          <h3 style="font-family: var(--font-sacred); font-size: 1.25rem; margin: 0 0 3px; color: var(--text-primary); line-height: 1.2;">${t('share_modal_title', lang)}</h3>
-          <p style="font-size: 0.76rem; color: var(--text-secondary); margin: 0; line-height: 1.35;">${t('share_modal_desc', lang)}</p>
+          <h3 style="font-family: var(--font-sacred); font-size: 1.25rem; margin: 0 0 4px; color: var(--text-primary); line-height: 1.25;">${t('share_modal_title', lang)}</h3>
+          <p style="font-size: 0.78rem; color: var(--text-secondary); margin: 0; line-height: 1.35;">${t('share_modal_desc', lang)}</p>
+        </div>
+
+        <!-- BOTÓN HÉROE REGIONAL DESTACADO (Segmentación Geo-Lingüística) -->
+        <div style="margin-bottom: 16px;">
+          <button id="btn-hero-share" class="btn-crystal" data-platform="${heroPlatform.key}" style="width: 100%; min-height: 50px; padding: 12px 18px; display: flex; align-items: center; justify-content: center; gap: 10px; background: ${heroPlatform.bg}; border: 1.5px solid ${heroPlatform.border}; color: ${heroPlatform.color}; font-weight: 800; font-size: 0.95rem; border-radius: var(--radius-full); box-shadow: 0 0 20px ${heroPlatform.glow}; cursor: pointer; transition: all var(--transition-fast);">
+            <span style="display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; flex-shrink: 0;">${renderIcon(heroPlatform.icon)}</span>
+            <span style="letter-spacing: 0.02em;">${t(heroPlatform.actionKey, lang) || `Enviar por ${heroPlatform.name}`}</span>
+          </button>
         </div>
 
         <!-- GENERADOR DE TARJETAS HD PARA STORIES / ESTADOS (CANVAS) -->
-        <div class="crystal-card" style="background: var(--glass-inset); border: 1px solid var(--glass-border); padding: 12px 14px; margin-bottom: 12px; text-align: center; border-radius: var(--radius-md);">
+        <div class="crystal-card" style="background: var(--glass-inset); border: 1px solid var(--glass-border); padding: 14px 14px; margin-bottom: 14px; text-align: center; border-radius: var(--radius-md);">
           <div style="display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 0.78rem; font-weight: 800; color: var(--accent-gold); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.04em;">
-            <span style="display: flex; align-items: center; color: var(--accent-gold); flex-shrink: 0;">${renderIcon('ui_camera')}</span>
+            <span style="display: flex; align-items: center; color: var(--accent-gold); flex-shrink: 0; width: 16px; height: 16px;">${renderIcon('ui_camera')}</span>
             <span>${t('share_card_hd_title', lang)}</span>
-            ${!isUnlocked ? '<span class="hud-pill dot-gold" style="font-size: 0.58rem; padding: 2px 6px;">PRO</span>' : ''}
+            <span class="hud-pill dot-gold" style="font-size: 0.60rem; padding: 2px 7px;">1080×1920 HD</span>
           </div>
-          <p style="font-size: 0.72rem; color: var(--text-muted); margin: 0 0 8px; line-height: 1.3;">${t('share_card_hd_desc', lang)}</p>
+          <p style="font-size: 0.74rem; color: var(--text-muted); margin: 0 0 10px; line-height: 1.35;">${t('share_card_hd_desc', lang)}</p>
           <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
-            <button id="btn-download-story-card" class="btn-crystal btn-crystal-gold" style="padding: 7px 14px; font-size: 0.78rem; font-weight: 800; display: inline-flex; align-items: center; gap: 6px; border-radius: var(--radius-full);">
-              <span style="display: flex; align-items: center;">${renderIcon('ui_download')}</span>
-              <span>${isUnlocked ? t('share_download_hd', lang) : t('share_create_hd_pro', lang)}</span>
+            <button id="btn-download-story-card" class="btn-crystal btn-crystal-gold" style="padding: 8px 16px; font-size: 0.80rem; font-weight: 800; display: inline-flex; align-items: center; gap: 6px; border-radius: var(--radius-full); cursor: pointer;">
+              <span style="display: flex; align-items: center; width: 15px; height: 15px;">${renderIcon('ui_download')}</span>
+              <span>${t('share_download_hd', lang)}</span>
             </button>
-            <button id="btn-share-native" class="btn-crystal btn-crystal-cyan" style="padding: 7px 14px; font-size: 0.78rem; font-weight: 800; display: inline-flex; align-items: center; gap: 6px; border-radius: var(--radius-full);">
-              <span style="display: flex; align-items: center;">${renderIcon('ui_share_nodes')}</span>
+            <button id="btn-share-native" class="btn-crystal btn-crystal-cyan" style="padding: 8px 16px; font-size: 0.80rem; font-weight: 800; display: inline-flex; align-items: center; gap: 6px; border-radius: var(--radius-full); cursor: pointer;">
+              <span style="display: flex; align-items: center; width: 15px; height: 15px;">${renderIcon('ui_share_nodes')}</span>
               <span>${t('share_native_btn', lang)}</span>
             </button>
           </div>
         </div>
 
         <!-- PESTAÑAS DE REDES SOCIALES POR REGIÓN Y TRADICIÓN (TEXTO GRATIS CON FOOTER VIRAL) -->
-        <div style="font-size: 0.80rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; margin-bottom: 10px; letter-spacing: 0.05em; text-align: center;">
+        <div style="font-size: 0.76rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; margin-bottom: 10px; letter-spacing: 0.06em; text-align: center;">
           ${t('share_free_channels_title', lang)}
         </div>
 
@@ -217,90 +371,32 @@ export class SocialShareComponent {
 
     const title = getShareItemTitle(item, lang);
     const textToShare = getShareItemText(item, lang, this.customText);
+    const deepLink = getShareDeepLink(item, lang);
 
     // FIRMA LITÚRGICA SAGRADA Y DIFUSIÓN VIRAL ELEGANTE (CERO EMOJIS, 17 IDIOMAS)
-    const attribLine = t('share_attribution_line', lang) || '✦ Compartido a través de FeUniversal · Faith & Prayers';
+    const attribLine = t('share_attribution_line', lang) || '✦ FeUniversal · Faith & Prayers';
     const sanctuaryTagline = t('share_sanctuary_tagline', lang) || 'Santuario Espiritual Universal';
-    const canonicalUrl = 'https://betoles.github.io/feuniversal.app';
-    const sacredAttribution = `\n\n—\n${attribLine}\n${sanctuaryTagline}\n${canonicalUrl}`;
+    const sacredAttribution = `\n\n—\n${attribLine}\n${sanctuaryTagline}\n${deepLink}`;
 
     // Payload completo para copiar y compartir en mensajería
     const fullShareText = `« ${title} »\n\n${textToShare}${sacredAttribution}`;
-    const encodedFullText = encodeURIComponent(fullShareText);
-    const shareUrl = encodeURIComponent(canonicalUrl);
 
-    // Texto sintético para plataformas con límite estricto de caracteres (X / Twitter)
-    const twitterText = `« ${title} » · FeUniversal - Faith & Prayers\n${canonicalUrl} #FeUniversal #Prayers`;
+    // Botón Héroe Regional
+    const heroBtn = document.getElementById('btn-hero-share');
+    if (heroBtn) {
+      heroBtn.addEventListener('click', () => {
+        const platform = heroBtn.getAttribute('data-platform') || 'whatsapp';
+        executePlatformShare(platform, this.currentPrayer, lang, this.customText);
+      });
+    }
 
-    // Acciones por Plataforma
+    // Acciones por Plataforma en la Cuadrícula
     this.modal.querySelectorAll('.btn-share-action').forEach(btn => {
       btn.addEventListener('click', () => {
         const platform = btn.getAttribute('data-platform');
-        let targetUrl = '';
-
-        switch (platform) {
-          case 'whatsapp':
-            targetUrl = `https://api.whatsapp.com/send?text=${encodedFullText}`;
-            break;
-          case 'telegram':
-            targetUrl = `https://t.me/share/url?url=${shareUrl}&text=${encodeURIComponent('« ' + title + ' »\n\n' + textToShare + '\n\n—\n' + attribLine)}`;
-            break;
-          case 'twitter':
-            targetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(twitterText)}`;
-            break;
-          case 'facebook':
-            targetUrl = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}&quote=${encodedFullText}`;
-            break;
-          case 'line':
-            targetUrl = `https://social-plugins.line.me/lineit/share?url=${shareUrl}&text=${encodedFullText}`;
-            break;
-          case 'sharechat':
-            targetUrl = `https://sharechat.com/share?url=${shareUrl}&title=${encodedFullText}`;
-            break;
-          case 'zalo':
-            targetUrl = `https://sp.zalo.me/share?url=${shareUrl}`;
-            break;
-          case 'wechat':
-            copyToClipboardSafely(fullShareText);
-            SacredDialog.alert({
-              title: t('share_wechat_title', lang) || 'Texto Copiado para WeChat',
-              message: t('share_wechat_msg', lang) || 'El texto sagrado ha sido copiado a tu portapapeles con su formato y atribución oficial.\n\nPuedes pegarlo en WeChat (微信) en tus Momentos o enviarlo a tus grupos.',
-              icon: 'brand_wechat',
-              buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'Aceptar',
-              type: 'gold'
-            });
-            return;
-        }
-
-        if (targetUrl) {
-          window.open(targetUrl, '_blank', 'noopener,noreferrer');
-        }
+        executePlatformShare(platform, this.currentPrayer, lang, this.customText);
       });
     });
-
-    const copyToClipboardSafely = async (str) => {
-      try {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          await navigator.clipboard.writeText(str);
-          return true;
-        }
-      } catch (e) {}
-
-      // Fallback universal con textarea invisible
-      const textArea = document.createElement('textarea');
-      textArea.value = str;
-      textArea.style.position = 'fixed';
-      textArea.style.left = '-999999px';
-      textArea.style.top = '-999999px';
-      document.body.appendChild(textArea);
-      textArea.focus();
-      textArea.select();
-      try {
-        document.execCommand('copy');
-      } catch (err) {}
-      document.body.removeChild(textArea);
-      return true;
-    };
 
     // Copiar Texto Sagrado Completo al Portapapeles
     const copyBtn = document.getElementById('btn-copy-prayer-text');
@@ -320,12 +416,12 @@ export class SocialShareComponent {
     const nativeShareBtn = document.getElementById('btn-share-native');
     if (nativeShareBtn) {
       nativeShareBtn.addEventListener('click', async () => {
-        if (navigator.share) {
+        if (typeof navigator !== 'undefined' && navigator.share) {
           try {
             await navigator.share({
               title: title,
               text: fullShareText,
-              url: canonicalUrl
+              url: deepLink
             });
             SacredDialog.toast(t('share_native_success', lang) || 'Plegaria compartida con éxito');
           } catch (err) {
@@ -353,25 +449,20 @@ export class SocialShareComponent {
       });
     }
 
-    // Generador de Tarjeta Canvas HD 1080x1920 con Gate Pro
+    // Generador de Tarjeta Canvas HD 1080x1920 (Totalmente Desbloqueado para Todos)
     const downloadCardBtn = document.getElementById('btn-download-story-card');
     if (downloadCardBtn) {
       downloadCardBtn.addEventListener('click', () => {
-        const isUnlocked = StorageService.isAccessUnlocked();
-        if (!isUnlocked) {
-          this.close();
-          const mem = new MembershipComponent();
-          mem.open();
-          return;
-        }
         this.generateStoryCardCanvas(this.currentPrayer);
       });
     }
   }
 
   generateStoryCardCanvas(prayer) {
+    if (typeof document === 'undefined') return;
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
+    const deepLink = getShareDeepLink(prayer, lang);
 
     const canvas = document.createElement('canvas');
     canvas.width = 1080;
@@ -456,8 +547,8 @@ export class SocialShareComponent {
     ctx.fillText(t('share_story_card_cta_prefix', lang) || 'Reza la devoción completa y enciende tu veladora en:', 540, 1345);
 
     ctx.fillStyle = '#38bdf8';
-    ctx.font = 'bold 30px "JetBrains Mono", monospace';
-    ctx.fillText('feuniversal.app', 540, 1390);
+    ctx.font = 'bold 28px "JetBrains Mono", monospace';
+    ctx.fillText('betoles.github.io/feuniversal-privacy', 540, 1390);
 
     // 9.1 MEDALLÓN OFICIAL FEUNIVERSAL EN EL PIE DE LA TARJETA
     const iconX = 540;
@@ -510,7 +601,7 @@ export class SocialShareComponent {
     ctx.arc(iconX, iconY, iconRadius + 4, 0, Math.PI * 2);
     ctx.stroke();
 
-    // 9.2 CORREO DE OUTLOOK Y LEYENDA DE PETICIÓN (Debajo del ícono y dentro del marco)
+    // 9.2 CORREO DE OUTLOOK Y LEYENDA DE PETICIÓN
     ctx.fillStyle = '#fde047';
     ctx.font = 'bold 22px "Plus Jakarta Sans", sans-serif';
     ctx.fillText('feuniversal_faith_and_prayers@outlook.com', 540, 1565);
@@ -530,7 +621,6 @@ export class SocialShareComponent {
       link.click();
       document.body.removeChild(link);
 
-      // Confirmación Sagrada con Logo de la App
       SacredDialog.alert({
         title: t('share_hd_card_title', lang) || '¡Tarjeta HD Consagrada!',
         message: t('share_hd_card_msg', lang) || 'Tu tarjeta visual en alta resolución (1080×1920 px) ha sido descargada con éxito en tu dispositivo.\n\nLista para compartir en tus Stories o Estados.',

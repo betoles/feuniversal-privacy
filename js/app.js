@@ -87,11 +87,81 @@ export class FeUniversalApp {
     try { this.attachGlobalEvents(); } catch (e) { console.warn('Error attachGlobalEvents:', e); }
     try { this.initAndroidBackButtonHandler(); } catch (e) { console.warn('Error initAndroidBackButtonHandler:', e); }
     try { this.checkPayPalBillingReturn(); } catch (e) { console.warn('Error checkPayPalBillingReturn:', e); }
+    try { this.handleIncomingDeepLinks(); } catch (e) { console.warn('Error handleIncomingDeepLinks:', e); }
 
-    if (!this.prefs.onboardingCompletado) {
+    const urlParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
+    const hasIncomingPrayer = urlParams && (urlParams.get('p') || urlParams.get('prayer'));
+
+    if (!this.prefs.onboardingCompletado && !hasIncomingPrayer) {
       setTimeout(() => this.onboarding.open(1), 500);
     } else if (StorageService.shouldShowWeeklyPaywallReminder()) {
       setTimeout(() => this.membership.open(true), 1200);
+    }
+  }
+
+  handleIncomingDeepLinks() {
+    if (typeof window === 'undefined') return;
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // 1. Detección y cambio dinámico de idioma si viene en el enlace (?lang=...)
+    const langParam = urlParams.get('lang');
+    if (langParam && ['es', 'en', 'pt', 'it', 'fr', 'de', 'la', 'ar', 'ru', 'hi', 'bn', 'zh', 'ja', 'he', 'id', 'ur', 'sw'].includes(langParam.toLowerCase())) {
+      const cleanLang = langParam.toLowerCase();
+      if (this.prefs.idioma !== cleanLang) {
+        this.prefs.idioma = cleanLang;
+        StorageService.savePreferences(this.prefs);
+        this.updateAllUITexts(cleanLang);
+      }
+    }
+
+    const currentLang = this.prefs.idioma || 'es';
+
+    // 2. Detección de Oración Directa (?p=[ID_O_NUMERO])
+    const prayerId = urlParams.get('p') || urlParams.get('prayer');
+    if (prayerId) {
+      setTimeout(async () => {
+        try {
+          const prayer = await PrayerCorpusService.getPrayerById(prayerId, currentLang);
+          if (prayer) {
+            this.mirrorReader.open(prayer);
+          } else {
+            const fallback = await PrayerCorpusService.getPrayerById(prayerId, 'es');
+            if (fallback) {
+              this.mirrorReader.open(fallback);
+            }
+          }
+        } catch (e) {
+          console.warn('[DeepLink] Error cargando oración:', e);
+        }
+      }, 450);
+      return;
+    }
+
+    // 3. Detección de Pestañas y Escrituras (?tab=...)
+    const tabParam = urlParams.get('tab');
+    if (tabParam) {
+      setTimeout(() => {
+        if (tabParam === 'altar') {
+          const altarTab = document.querySelector('.bottom-nav-item[data-tab="altar"]');
+          if (altarTab) altarTab.click();
+        } else if (tabParam === 'beads') {
+          const beadsTab = document.querySelector('.bottom-nav-item[data-tab="beads"]');
+          if (beadsTab) beadsTab.click();
+        } else if (tabParam === 'vault') {
+          const vaultTab = document.querySelector('.bottom-nav-item[data-tab="vault"]');
+          if (vaultTab) vaultTab.click();
+        } else if (tabParam === 'scriptures') {
+          const scripturesTab = document.querySelector('.bottom-nav-item[data-tab="scriptures"]');
+          if (scripturesTab) scripturesTab.click();
+          const book = urlParams.get('book');
+          const cap = parseInt(urlParams.get('cap') || '1', 10);
+          if (book && this.scripturesView && this.scripturesView.openBook) {
+            setTimeout(() => {
+              this.scripturesView.openBook(book, cap);
+            }, 300);
+          }
+        }
+      }, 400);
     }
   }
 

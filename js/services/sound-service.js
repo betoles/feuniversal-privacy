@@ -1350,7 +1350,7 @@ export class SoundService {
       this.isTTSPlaying = false;
       this.isTTSPaused = false;
       this.currentUtterance = null;
-      if (onStateChange) onStateChange('idle');
+      if (onStateChange) onStateChange('ended');
     };
     utterance.onerror = (err) => {
       console.warn('SpeechSynthesis error:', err);
