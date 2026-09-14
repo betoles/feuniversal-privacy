@@ -4,10 +4,10 @@
     "idioma": "he",
     "nombreIdioma": "עִבְרִית (Hebrew)",
     "dir": "rtl",
-    "total_oraciones": 4251,
+    "total_oraciones": 4289,
     "estandar": "FeUniversal-Tefilot-Masoretic-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4281
+    "totalOraciones": 4289
   },
   "oraciones": [
     {
@@ -82,18 +82,18 @@
     {
       "id": "SAN_CAYETANO_PROSPERIDAD",
       "numero": 4,
-      "titulo": "סן קייטנו · פתיחת דרכים, פרנסה ושפע ישר",
+      "titulo": "הקדוש קאיטאן מתיינה · אבי ההשגחה העליונה, פטרון הלחם והפרנסה",
       "tradicion": "catolicismo",
       "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
-        "necesidad_escasez",
-        "confusion_duda",
-        "desesperacion"
+        "desesperacion",
+        "escasez",
+        "miedo_angustia"
       ],
-      "idiomaLiturgicoOriginal": "Español Canónico",
-      "textoOriginal": "San Cayetano glorioso, padre de la divina providencia,\nintercede ante el Señor para que en mi hogar nunca falte la paz, la salud y el trabajo bendito. Amén.",
-      "guiaFonetica": "[San Ka-ye-tá-no glo-rió-so...]",
-      "textoTraducido": "אָבִינוּ הַמְּפַרְנֵס וְהַזָּן אֶת הַכֹּל בְּרַחֲמָיו.\nפְּתַח לָנוּ שַׁעֲרֵי שָׁמַיִם, שַׁעֲרֵי בְּרָכָה, שַׁעֲרֵי פַּרְנָסָה טוֹבָה וְרֶוַח לְלֹא מְצוּקָה.\nבָּרֵךְ אֶת מַעֲשֵׂה יָדֵינוּ, הַסֵּר כָּל חֹסֶר וּמַחְסוֹר, וּתְנֵנוּ לִהְיוֹת צִנּוֹר שֶׁל שֶׁפַע, חֶסֶד וּנְתִינָה לַזּוּלַת. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español / Italiano / Latín",
+      "textoOriginal": "Sancte Caietane Thienaei, Patrone Providentiae et Laboris, ora pro nobis et impetra nobis panem quotidianum.",
+      "guiaFonetica": "[San Cayetano, Padre de Providencia, alcánzanos pan y trabajo]",
+      "textoTraducido": "הקדוש המהולל קאיטאן מתיינה, אבי ההשגחה האלוהית ומגן הנזקקים! אתה שבטחת באלוהים בכל לבבך, הבט עלינו בחמלה. אנו מתחננים: אל יחסר בביתנו לחם חוקנו, עבודה הגונה לפרנסת משפחותינו ובריאות איתנה. הרחק מאיתנו מחסור והענק לנו בטחון מלא בחסדי שמיים. בשם המשיح אדוננו. אמן.",
       "ritualesAsociados": {
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 72,
@@ -237,19 +237,18 @@
     {
       "id": "VIRGEN_LUJAN_ARGENTINA",
       "numero": 11,
-      "titulo": "Nuestra Señora של Luján · Manto Maternal של la Patria ו el בית",
+      "titulo": "גבירתנו מלוחאן · פטרונית ארגנטינה ואם החסד",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
         "miedo_angustia",
-        "soledad_vacio",
-        "tristeza_duelo",
-        "desesperacion"
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español Litúrgico & Latín",
-      "textoOriginal": "¡Virgen Santísima de Luján, Madre de Dios y Madre nuestra!\nHumildemente postrados a tus plantas, te consagramos nuestros hogares, nuestras alegrías y nuestras penas.\nGuarda a nuestra tierra, defiende a los desvalidos y alcánzanos de tu divino Hijo la paz y la concordia.\nBajo tu manto celeste y blanco ponemos nuestra esperanza. Amén.",
-      "guiaFonetica": "[Vír-jen San-tí-si-ma de Lu-ján, Má-dre de Diós y Má-dre nués-tra...]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים, מָגֵן וּמַחֲסֶה לְכָל הַחוֹסִים בְּךָ.\nשְׁמֹר עָלַי וְעַל כָּל יַקִּירַי מִכָּל רַע, פַּחַד, עַיִן רָעָה וּמַלְכֹּדֶת אוֹיֵב.\nפְּרֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ, צַוֵּה מַלְאָכֶיךָ לְשָׁמְרֵנוּ בְּכָל דְּרָכֵינוּ, וְהָיִיתָ לָנוּ לְאוֹר וּלְמִשְׂגָּב לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "מרים הבתולה הקדושה מלוחאן, פטרונית ארגנטינה ואם רחומה! את שבחרת להישאר על גדות נהר לוחאן לאות אהבתך, שמעי את תפילותינו. הגני על משפחותינו, נחמי את החולים והשכיני שלום בקרבנו. אֵם לוחאן, העניקי לנו בריאות וחסד מאת המשיח ישוע. אמן.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -20700,7 +20699,7 @@
     {
       "id": "CAT_AR_VIRGEN_LUJAN",
       "numero": 944,
-      "titulo": "Nuestra Señora של Luján – Patrona של Argentina ו Protectora שלl Cono Sur",
+      "titulo": "גבירתנו מלוחאן · פטרונית ארגנטינה ואם החסד",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_interior",
       "estadosEmocionales": [
@@ -20709,9 +20708,9 @@
         "proteccion"
       ],
       "idiomaLiturgicoOriginal": "Latín / Español / Portugués / Italiano",
-      "textoOriginal": "Virgen de Luján, Madre del pueblo y auxilio en las encrucijadas, bendice a tus hijos.",
-      "guiaFonetica": "Virgen de Lujan, Madre purisima...",
-      "textoTraducido": "אֱלֹהֵי הַשָּׁלוֹם וְהַשַּׁלְוָה, שְׁפֹךְ מֵרוּחֲךָ הַטּוֹבָה עַל נַפְשִׁי הַסּוֹעֶרֶת.\nהַרְגַּע כָּל סְעָרָה, גָּרֵשׁ כָּל חֲרָדָה, וּטְעַ אֶת שְׁלוֹמְךָ הָעֶלְיוֹן בְּמַעֲמַקֵּי לִבִּי.\nבְּךָ אֶבְטַח וְלֹא אִירָא, כִּי עִמָּדִי אַתָּה בְּכָל עֵת וּבְכָל נְתִיב. אָמֵן.",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "מרים הבתולה הקדושה מלוחאן, פטרונית ארגנטינה ואם רחומה! את שבחרת להישאר על גדות נהר לוחאן לאות אהבתך, שמעי את תפילותינו. הגני על משפחותינו, נחמי את החולים והשכיני שלום בקרבנו. אֵם לוחאן, העניקי לנו בריאות וחסד מאת המשיח ישוע. אמן.",
       "ritualesAsociados": {
         "tipoContador": "rosario_50",
         "duracionVeladoraSugeridaHoras": 8,
@@ -59113,19 +59112,18 @@
     {
       "id": "CAT_ARG_CURA_BROCHERO",
       "numero": 2731,
-      "titulo": "תחינה ל Santo Cura Brochero (El Cura Gaucho)",
+      "titulo": "הקדוש קורה ברוצ'רו · כומר הגאוצ'ו ושליח ההרים",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Fortaleza_Enfermedad_Y_Servicio",
+      "categoriaIntencion": "fortaleza_caridad",
       "estadosEmocionales": [
-        "enfermo",
-        "cansado",
-        "servicial",
-        "confiado"
+        "cansancio",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español criollo",
-      "textoOriginal": "Señor, que hiciste de San José Gabriel del Rosario Brochero un pastor incansable a lomo de mula por las sierras, amigo de los pobres y consuelo de los enfermos hasta entregar su propia salud: concédenos su mismo celo por el prójimo, su valentía ante la adversidad y su alegría evangélica. Por su intercesión, sana a nuestros enfermos y danos un corazón gaucho, noble y generoso. Amén.",
-      "guiaFonetica": "[Se-ñor, que hi-cis-te de San Jo-se Ga-briel del Ro-sa-rio Bro-che-ro un pas-tor in-can-sa-ble a lo-mo de mu-la]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancte Iosephe Gabriel Brochero, Pastor animarum in montibus, ora pro nobis et adiuva nos.",
+      "guiaFonetica": "[Santo Cura Brochero, pastor gaucho con olor a oveja, ruega por nosotros]",
+      "textoTraducido": "אל שדי, אשר הקמת את הקדוש חוסה גבריאל ברוצ'רו כרועה נאמן שפעל ללא לאות למען החולים והעניים! למדנו רוחב לב ומסירות לעזור לנזקקים. הענק לנו בתפילתו אמונה איתנה, בריאות וחסד. בשם המשיח אדוננו. אמן.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_con_mate_o_silencio",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81825,19 +81823,18 @@
     {
       "id": "CAT_MEX_JOSE_SANCHEZ_RIO_JOSELITO",
       "numero": 3742,
-      "titulo": "תפילה ל יוסף הקדוש Sánchez שלl Río (El Joven Mártir Cristero)",
+      "titulo": "הקדוש חוסה סאנצ'ס דל ריו · נאמנות בלתי מנוצחת למשיח המלך",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Valentia_Juvenil_Y_Militancia_Santa",
+      "categoriaIntencion": "valentia_fidelidad",
       "estadosEmocionales": [
-        "joven",
-        "perseguido",
-        "valiente",
-        "inquebrantable"
+        "miedo_angustia",
+        "persecucion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Joselito, niño mártir de Sahuayo que con tus piececitos desollados caminaste hacia el camposanto sin doblegar tu fe diciendo: «¡Nunca ha sido tan fácil ganarse el cielo!»: alcánzanos tu misma valentía. Que la juventud de hoy no se venda a los placeres vanos ni al miedo, sino que confiese con gallardía a Cristo Rey y a la Virgen de Guadalupe. ¡Viva Cristo Rey! Amén.",
-      "guiaFonetica": "San Jo-se-li-to, ni-ño mar-tir de Sa-hua-yo... ¡Vi-va Cris-to Rey! A-mén.",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "Sancte Iosephe Sanchez del Rio, martyr Christi Regis, ora pro nobis. ¡Viva Cristo Rey y Santa María de Guadalupe!",
+      "guiaFonetica": "[¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Joselito, intercede por nosotros]",
+      "textoTraducido": "הקדוש המהולל חוסה סאנצ'ס דל ריו, מרטיר צעיר ועד נאמן למלכות שמיים! אתה שבגיל ארבע עשרה מסרת נפשך על אמונתך וקראת: 'מעולם לא היה קל כל כך לזכות בשמיים! יחי המשיח המלך! תחי מרים מגואדלופה!', התפלל בעדנו. הענק לנו אומץ להגן על אמונתנו ואיתנות בכל ניסיון. בשם המשיח אדוננו. אמן.",
       "ritualesAsociados": {
         "tipoContador": "tres_padrenuestros_cristeros",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81871,19 +81868,18 @@
     {
       "id": "CAT_BRA_FREI_GALVAO_PILULAS",
       "numero": 3744,
-      "titulo": "Oração של São Frei Galvão (Pílulas של Graça e Saúשל)",
+      "titulo": "הקדוש פריי גלוואו · הקדוש הברזילאי הראשון, רפואה ולידה בטוחה",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Parto_Dificil_Y_Cura_Enfermidades",
+      "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
-        "enfermo",
-        "parturienta",
-        "aflito",
-        "curado"
+        "enfermedad",
+        "miedo_angustia",
+        "maternidad"
       ],
-      "idiomaLiturgicoOriginal": "Portugués / Latín",
-      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. São Frei Antônio de Sant'Anna Galvão, homem de paz e caridade: vós que pelo poder da oração e da santa medalha socorrestes tantas mães em partos aflitivos e enfermos desesperados, intercedei a Deus por esta minha necessidade (pedir a graça). Restabelecei a minha saúde e fazei-me viver na graça divina. Amém.",
-      "guiaFonetica": "Post par-tum, Vir-go, in-vio-la-ta per-man-sis-ti... Saw Fray An-to-nio de San-tAn-na Gal-vaw... A-maym.",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Português / Latín",
+      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. Sancte Antonius de Sancta Anna Galvão, ora pro nobis.",
+      "guiaFonetica": "[São Frei Galvão, arauto da paz e da caridade, rogai por nós]",
+      "textoTraducido": "אל הרחמים האינסופיים, אשר הפכת את הקדוש אנטוניו מסנטה אנה גלוואו למקור מזור לחולים וליולדות! בזכות מרים הבתולה הקדושה, קבל את תפילתנו. הענק רפואה לחולים, הגן על האמהות והעוברים לשלום וחיים, והענק לנו סיוע שמימי בכל מצוקותינו. בשם המשיח אדוננו. אמן.",
       "ritualesAsociados": {
         "tipoContador": "pilula_devocional_com_agua_benta",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81894,19 +81890,18 @@
     {
       "id": "CAT_BRA_IRMA_DULCE_POBRES",
       "numero": 3745,
-      "titulo": "Oração a Santa Dulce dos Pobres (O Anjo Bom da Bahia)",
+      "titulo": "הקדושה דולסה של העניים (האחות דולסה) · המלאך הטוב של באהיה",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Caridade_Incondicional_Y_Consolo",
+      "categoriaIntencion": "caridad_salud",
       "estadosEmocionales": [
-        "desamparado",
-        "carente_de_amor",
-        "generoso",
-        "consolado"
+        "enfermedad",
+        "desesperacion",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Portugués brasileiro",
-      "textoOriginal": "Senhor nosso Deus, que concedestes a Santa Dulce dos Pobres um amor infinito aos mais pequeninos, aos enfermos das ruas e aos abandonados: dai-nos o mesmo coração generoso para enxergar o Vosso rosto em cada irmão que sofre. Por sua intercessão, curai as nossas enfermidades, dai pão aos famintos e concedei-nos a graça de amar e servir com humildade e alegria. Amém.",
-      "guiaFonetica": "Se-nhor nos-so Dews, ke kon-se-des-tes a San-ta Dul-se doosh Po-bresh... A-maym.",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Sancta Dulcis Pauperum, Angelus Bonus Salvadoriae, ora pro nobis et sana infirmos nostros.",
+      "guiaFonetica": "[Santa Dulce dos Pobres, Anjo Bom da Bahia, rogai por nós]",
+      "textoTraducido": "אל האהבה האינסופית, אשר הצתת בלב הקדושה דולסה של העניים חמלה עצומה לחולים ולנדכאים! השרה בלבנו את רוח אהבת הזולת. הענק בתפילתה רפואה לחולים, נחמה לסובלים ואת החסד שאנו מבקשים בענווה. בשם המשיח אדוננו. אמן.",
       "ritualesAsociados": {
         "tipoContador": "tres_atos_de_caridade_ou_oracao",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81940,19 +81935,18 @@
     {
       "id": "CAT_BOL_COPACABANA_TITICACA",
       "numero": 3747,
-      "titulo": "Súplica a la Virgen של Copacabana (Reina של Bolivia)",
+      "titulo": "גבירתנו מקופקבנה · מלכתה ופטרוניתה של בוליביה",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Altiplano_Y_Unidad",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "peregrino",
-        "arrepentido",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español / Aymara / Quechua",
-      "textoOriginal": "¡Virgen de Copacabana, Candelaria bendita esculpida por la devoción de Tito Yupanqui en la ribera del lago sagrado! Madre de los pueblos andinos, bendice a Bolivia y a todos tus devotos. Calma las tempestades del lago y de la vida, da salud a los enfermos, bendice nuestros viajes por las cumbres y guíanos hacia la luz de tu Divino Hijo. Amén.",
-      "guiaFonetica": "[Vir-jen de Co-pa-ca-ba-na, Can-de-la-ria ben-di-ta]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Aimara / Quechua",
+      "textoOriginal": "Sancta Maria de Copacabana, Regina et Patrona Boliviae, ora pro nobis et protege populum tuum.",
+      "guiaFonetica": "[Virgen de Copacabana, Reina de Bolivia, bendícenos]",
+      "textoTraducido": "מרים הבתולה הקדושה, גבירתנו מקופקבנה, מלכת ופטרונית בוליביה! ממימי אגם טיטיקקה הרעפת לאורך הדורות את ברכותייך ונסיך על כל עולי הרגל. הגני על משפחותינו מכל פגע, השכיני שלום בקרבנו והעניקי לנו אמונה איתנה, בריאות וחסד. אמן.",
       "ritualesAsociados": {
         "tipoContador": "challa_de_flores_o_cirio_candelaria",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81963,19 +81957,18 @@
     {
       "id": "CAT_BOL_URKUPINA_COCHABAMBA",
       "numero": 3748,
-      "titulo": "תפילה ל la Virgen של Urkupiña (Patrona של la Integración)",
+      "titulo": "בתולת אורקופיניה · פטרונית האחדות, ברכת הבית והפרנסה",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Abundancia_Trabajo_Y_Salud",
+      "categoriaIntencion": "prosperidad_familia",
       "estadosEmocionales": [
-        "necesitado_de_sustento",
-        "trabajador",
-        "agradecido",
-        "ferviente"
+        "escasez",
+        "miedo_angustia",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español / Quechua",
-      "textoOriginal": "¡Mamita de Urkupiña, Virgen del cerro de Cota donde te apareciste a la pastorcita diciendo: «¡Urkupiña! ¡Ya está en el cerro!»! Vengo ante Ti con fe viva a pedir tu bendición para mi trabajo, mi hogar y mi salud. Así como picamos la piedra del cerro en señal de préstamo sagrado, prometo honrar tu bondad con generosidad hacia los pobres y fidelidad a Dios. Amén.",
-      "guiaFonetica": "[Ma-mi-ta de Ur-ku-pi-ña, Vir-jen del ce-rro de Co-ta]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Quechua",
+      "textoOriginal": "Sancta Maria de Urkupiña, Patrona Integrationis Nationalis, ora pro nobis et familias nostras benedic.",
+      "guiaFonetica": "[Virgen de Urkupiña, Madre de la Integración, bendícenos]",
+      "textoTraducido": "מרים הבתולה הקדושה מאורקופיניה, אם רחומה ופטרונית האחדות! את שהתגלית על גבעת קוטה, שמעי את תפילת בנייך. ברכי את פרי עמלנו, הרבי את לחמנו והעניקי לנו בית מאוחד באמונה ובאהבה. הרחיקי כל מצוקה והעניקי לנו שפע רוחני וגשמי. בשם המשיח אדוננו. אמן.",
       "ritualesAsociados": {
         "tipoContador": "piedra_del_calvario_y_ofrenda",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81986,19 +81979,18 @@
     {
       "id": "CAT_URY_VIRGEN_TREINTA_Y_TRES",
       "numero": 3749,
-      "titulo": "תפילה ל la Virgen של los Treinta ו Tres (Patrona של Uruguaו)",
+      "titulo": "גבירתנו של השלושים ושלושה · פטרונית אורוגוואי",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Paz_Republicana_Y_Libertad",
+      "categoriaIntencion": "libertad_patria",
       "estadosEmocionales": [
-        "patriota",
-        "deseoso_de_paz",
-        "firme",
-        "esperanzado"
+        "miedo_angustia",
+        "esperanza",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español uruguayo",
-      "textoOriginal": "Virgen de los Treinta y Tres, ante cuya humilde imagen los libertadores de la Patria Oriental juraron la independencia de nuestra tierra: mira con amor al pueblo uruguayo. Concédenos la verdadera libertad de los hijos de Dios, preserva la paz republicana, ilumina a nuestros gobernantes y bendice a cada familia de este suelo oriental. Amén.",
-      "guiaFonetica": "[Vir-jen de los Trein-ta y Tres, an-te cu-ya hu-mil-de i-ma-gen]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Uruguayo / Latín",
+      "textoOriginal": "Sancta Maria a Triginta et Tribus, Patrona Reipublicae Orientalis Uruquariae, ora pro nobis et liberta nos.",
+      "guiaFonetica": "[Virgen de los Treinta y Tres, Libertadora y Patrona, ruega por nosotros]",
+      "textoTraducido": "מרים הבתולה הקדושה של השלושים ושלושה, פטרונית ומגינת אורוגוואי! בידייך אנו מפקידים את בתינו ותקוותינו. שחררי אותנו מכבלי החטא והמחלוקת, והעניקי לנו אחדות, עבודה ושלום מאת האלוהים. אמן.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_patronales",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82031,19 +82023,18 @@
     {
       "id": "CAT_PRY_CAACUPE_TUPASY",
       "numero": 3751,
-      "titulo": "Ñembo'e Tupãsו Ka'akupépe (Súplica a la Virgen של Caacupé)",
+      "titulo": "גבירתנו בעלת הנסים מקאקופה · פטרונית פרגוואי",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Amparo_Maternal_Guarani_Y_Fe",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "devoto",
-        "peregrino_guarani",
-        "agradecido",
-        "amparado"
+        "miedo_angustia",
+        "esperanza",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Guaraní / Español paraguayo",
-      "textoOriginal": "Tupãsy Ka'akupe, nde niko ore sy marangatuite. Ema'ẽmína ne membykuéra rehe roúva ne rendápe rojerure haḡua ndéve py'aguapy, tesãi ha tory ore rógapere. Virgen de Caacupé, Madre de todos los paraguayos: bendice a nuestra patria, cuida a los campesinos y humildes, y guíanos siempre hacia tu Hijo Jesús. Amén.",
-      "guiaFonetica": "[Tu-pan-sy Ka-a-ku-pe, nde ni-ko o-re sy ma-ran-ga-tu-i-te... E-ma-en-mi-na ne mem-by-ku-e-ra re-he]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Guaraní / Español Paraguayo / Latín",
+      "textoOriginal": "Tupãsy Ka'akupe, Paraguái py'aguapy ha teko porã rerekua, eñembo'e ore rehe.",
+      "guiaFonetica": "[Tupãsy Ka'akupe, Virgen de los Milagros de Caacupé, ruega por nosotros]",
+      "textoTraducido": "מרים הבתולה הקדושה של הנסים מקאקופה, פטרונית פרגוואי ואם רחומה! את שהגנת באורח פלא על עבדך בעת סכנה, פרשי כנפי חסדך על משפחותינו. היי מקלט לענווים והעניקי לנו שלום, בריאות וחסד מאת המשיח ישוע. אמן.",
       "ritualesAsociados": {
         "tipoContador": "terciario_guarani_con_canto_purahéi",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82100,19 +82091,18 @@
     {
       "id": "CAT_SLV_MONSENOR_ROMERO_AMERICA",
       "numero": 3754,
-      "titulo": "תפילה ל San Óscar Arnulfo Romero (Voz של los sin Voz)",
+      "titulo": "הקדוש אוסקר רומרו · קול חסרי הקול ומרטיר הצדק והשלום",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Justicia_Social_Paz_Y_Derechos_Humanos",
+      "categoriaIntencion": "justicia_paz",
       "estadosEmocionales": [
-        "perseguido_por_justicia",
-        "oprimido",
-        "valiente",
-        "pacificador"
+        "miedo_angustia",
+        "desesperacion",
+        "injusticia"
       ],
-      "idiomaLiturgicoOriginal": "Español cuscatleco",
-      "textoOriginal": "San Óscar Romero, pastor santo y mártir de Cristo que entregaste tu vida en el altar defendiendo la dignidad de los pobres y clamando por el cese de la violencia: enséñanos a no ser cómplices de la injusticia. Concédenos tu firmeza profética unida a tu profunda piedad eucarística, para construir una sociedad donde reinen la verdad, el perdón y la paz duradera. Amén.",
-      "guiaFonetica": "[San Os-car Ro-me-ro, pas-tor san-to y mar-tir de Cris-to]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancte Anschari Romero, martyr iustitiae et vox pauperum, ora pro nobis.",
+      "guiaFonetica": "[San Óscar Romero, voz de los sin voz, intercede por la paz]",
+      "textoTraducido": "אבינו הרחום, אשר הפכת את הקדוש אוסקר רומרו לרועה אמיץ, לקולם של חסרי הקול ולמרטיר לצד המזבח! הענק לנו לב פתוח למצוקת הזולת ואומץ להגן על האמת. הפסק כל אלימות ועשה אותנו לרודפי שלום ואחווה. בשם המשיח אדוננו. אמן.",
       "ritualesAsociados": {
         "tipoContador": "oracion_ante_la_cruz_de_romero",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82207,19 +82197,18 @@
     {
       "id": "CAT_PRI_PROVIDENCIA_PATRONA",
       "numero": 3759,
-      "titulo": "תפילה ל Nuestra Señora של la Proviשלncia (Patrona של Puerto Rico)",
+      "titulo": "גבירתנו של ההשגחה העליונה · פטרונית פוארטו ריקו",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Providencia_Divina_Y_Amparo_Boricua",
+      "categoriaIntencion": "providencia_proteccion",
       "estadosEmocionales": [
-        "confiado",
-        "boricua",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español puertorriqueño",
-      "textoOriginal": "¡Virgen de la Providencia, Madre de Dios y Patrona de Puerto Rico! En tus maternales manos ponemos el destino de nuestra hermosa isla del encanto, de nuestras familias y de nuestros hermanos en la diáspora. Que tu Divina Providencia nunca nos falte en el pan, en la salud, en la paz y en la fe. Defiéndenos de huracanes y tempestades, y líbranos de todo mal. Amén.",
-      "guiaFonetica": "[Vir-jen de la Pro-vi-den-cia, Ma-dre de Dios y Pa-tro-na de Puer-to Ri-co]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Español Puertorriqueño / Latín",
+      "textoOriginal": "Sancta Maria a Providentia, Patrona Portus Divitis, ora pro nobis et conserva nos in pace.",
+      "guiaFonetica": "[Virgen de la Providencia, Patrona de Puerto Rico, cuida a tus hijos]",
+      "textoTraducido": "מרים הבתולה הקדושה של ההשגחה האלוהית, פטרונית פוארטו ריקו! את החובקת בעדנה את ישוע הילד, שאי עינייך אל צורכי משפחותינו. אל תחסר השגחתך בסערות החיים, והעניקי לנו שלווה, שפע וישועה מאת האלוהים. אמן.",
       "ritualesAsociados": {
         "tipoContador": "novena_de_la_providencia",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94130,6 +94119,182 @@
       "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
       "textoTraducido": "הו הבתולה הקדושה מרים, אם היגונות ומלכת המרטירים! את אשר עמדת איתנה באמונה למרגלות הצלב כאשר חרב הנבואה פילחה את נפשך הרחומה: הביטי ברחמים על מכאובינו, אבלינו ומצוקותינו. בזכות שבעת יגונותייך הקדושים, השיגי עבורנו נחמה בעצב, רפואה בחולי ועוז לשאת את צלבנו היומיומי באהבה. הֱיִי מקלטנו בעת צרה ולווי אותנו במעבר לחיי עולם עם בנך האהוב ישוע המשיח. אמן.",
       "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_MEX_MIGUEL_PRO_PALOMAR",
+      "numero": 4282,
+      "titulo": "האב המבורך מיגל אגוסטין פרו · מסירות הרואית ויחי המשיח המלך!",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_espiritual",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
+      ],
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "¡Oh Señor Jesús, Rey de Reyes! Por la sangre y el testimonio del Beato Miguel Agustín Pro, haz que resuene en mi corazón su último grito de amor y victoria: ¡Viva Cristo Rey! Amén.",
+      "guiaFonetica": "[Viva Cristo Rey! / Oh Señor Jesús, te ofrezco mis tribulaciones unidas a tu Santa Cruz]",
+      "textoTraducido": "אל רחום וגיבור, אשר הענקת למבורך מיגל אגוסטין פרו את החסד לשרתך בשמחה בעת רדיפות ולחתום את נאמנותו במות קדושים הרואי! למדני לא לירא ממצוקות תבל זו ולמסור את חיי באומץ למען הבשורה. בכל מבחן וצרה, יהדהד ברוחי קולו הבלתי-מנוצח האחרון: יחי המשיח המלך! מי ייתן ותפילתו תביא שלום לביתי, איתנות באמונתי ואת החסד שאני מבקש בענווה. בשם המשיח אדוננו. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_catedral_eco"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_MEX_SAN_FELIPE_JESUS",
+      "numero": 4283,
+      "titulo": "הקדוש פיליפ מישו · המרטיר המקסיקני הראשון וניצחון הצלב",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "perseverancia_fe",
+      "estadosEmocionales": [
+        "debilidad",
+        "tentacion",
+        "duda_espiritual"
+      ],
+      "idiomaLiturgicoOriginal": "Español Novohispano / Latín",
+      "textoOriginal": "Sancte Philippe a Iesu, primus martyr Mexicanus, ora pro nobis et pro patria nostra.",
+      "guiaFonetica": "[Sancte Philippe a Iesu, martyr gloriose, intercede pro nobis]",
+      "textoTraducido": "הקדוש המהולל פיליפ מישו, המרטיר הראשון של מקסיקו ויבשת אמריקה, שחיבקת את הצלב הקדוש על גבעת נגסאקי באהבה יוקדת למשיח! אתה שמצאת באדון שלמות ועטרת נצח, הגן על משפחותינו ועל נעורינו בכל ניסיון. למדנו התמדה, טוהר כוונה ומסירות שלמה לאלוהים. הענק לנו בתפילתך אמונה איתנה ועזרה בכל צרכינו. בשם המשיח אדוננו. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_monasterio_lejano"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_SLV_VIRGEN_DE_LA_PAZ",
+      "numero": 4284,
+      "titulo": "גבירתנו מלכת השלום · פטרונית אל סלבדור ומלכת הפיוס",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "conflicto_familiar",
+        "desesperacion"
+      ],
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancta Maria, Regina Pacis, Patrona Salvadoriae, ora pro nobis et reconcilia corda nostra.",
+      "guiaFonetica": "[Regina Pacis, ora pro nobis / Virgen de la Paz, ruega por nosotros]",
+      "textoTraducido": "מרים הבתולה הקדושה, גבירתנו מלכת השלום ופטרוניתה הרחומה של אל סלבדור! את אשר בעיתות מצוקה ומלחמה בלמת את ההרס והשרית פיוס ואחווה על עמך, שאי עינייך הרחומות אלינו. הסירי כל שנאה, רפאי את פצעי משפחותינו והשכיני שלום בקרבנו. מלכת השלום, פרשי עלינו את סוכת חסדך והעניקי לנו לחיות בצדק, שלום וסליחה. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "coro_angelical_suave"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_COL_PEDRO_CLAVER_CARTAGENA",
+      "numero": 4285,
+      "titulo": "הקדוש פטרוס קלאבר · עבד העבדים בקרטחנה ושליח החסד",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "caridad_servicio",
+      "estadosEmocionales": [
+        "soledad",
+        "rechazo",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Colombiano / Latín",
+      "textoOriginal": "Petrus Claver, Aethiopum servus pro semper, ora pro nobis et doce nos caritatem Christi.",
+      "guiaFonetica": "[Petrus Claver, servus servorum, intercede pro nobis]",
+      "textoTraducido": "הקדוש המהולל פטרוס קלאבר, שליחם של הנדכאים ומשרתם הנאמן של החלשים בחופי קרטחנה! אתה שנדרת להיות 'עבד העבדים לעולם', השרה בלבנו את אהבתך וחמלתך. עזור לנו לראות את פני המשיח בסובלים ושחרר אותנו מכבלי האנוכיות. הענק לנו בתפילתך שלום, בריאות וחסד. בשם המשיح אדוננו. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "mar_caribe_suave"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_VEN_CRISTO_LA_GRITA",
+      "numero": 4286,
+      "titulo": "המשיח הקדוש מלה גריטה · פנים שלוות ומגן הרי האנדים",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "dolor_fisico"
+      ],
+      "idiomaLiturgicoOriginal": "Español Venezolano / Latín",
+      "textoOriginal": "Domine Iesu Christe de La Grita, Redemptor noster, protege nos a terraemotu et omni malo.",
+      "guiaFonetica": "[Santo Cristo de La Grita, milagroso Protector, sálvanos]",
+      "textoTraducido": "המשיח הקדוש והאהוב מלה גריטה, מגינם של הרי האנדים ומבצרנו בעת צרה ורעש אדמה! אנו מביטים ביראה בפניך השלוות שנוצרו בחסד עליון. הבט עלינו ברחמים ופרוש זרועותיך המבורכות על משפחותינו. שמור עלינו מסופות, מחלות וייאוש. הענק לנו רפואת הגוף והנפש ואת החסד שאנו מניחים לרגלי צלבך. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "viento_andino_campanadas"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_PAN_SANTA_MARIA_ANTIGUA",
+      "numero": 4287,
+      "titulo": "מרים הקדושה העתיקה (סנטה מריה לה אנטיגואה) · פטרונית פנמה",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_maternal",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Panameño / Latín",
+      "textoOriginal": "Sancta Maria La Antigua, Prima Sedis Americae Patrona, ora pro nobis et protege populum Panamensem.",
+      "guiaFonetica": "[Santa Maria La Antigua, Patrona de Panamá, ruega por nosotros]",
+      "textoTraducido": "מרים הבתולה הקדושה, סנטה מריה לה אנטיגואה, אם רחומה ופטרונית פנמה! את שליווית את שחר האמונה ביבשת אמריקה וחובקת בזרועותייך את ישוע הילד, הגני על משפחותינו. היי לנו למגדלור בסערות החיים, אחד את בתינו באהבה והעניקי לנו שלום, ברכה וחסד מאת האלוהים. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "ondas_marinas_campanas"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_PER_VIRGEN_PUERTA_OTUZCO",
+      "numero": 4288,
+      "titulo": "בתולת השער מאוטוסקו · מגן שמימי מפני מגפות וסכנות",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "enfermedad",
+        "peligro_enemigos"
+      ],
+      "idiomaLiturgicoOriginal": "Español Peruano / Quechua / Latín",
+      "textoOriginal": "Sancta Maria ad Portam, Regina Pacis et Tutela Septentrionis Peruviani, ora pro nobis.",
+      "guiaFonetica": "[Mamita de la Puerta, Reina de Otuzco, protégenos de todo mal]",
+      "textoTraducido": "הבתולה הרחומה של השער, אם אוטוסקו ופטרונית צפון פרו! את שניצבת בשערי העיר והגנת באורח פלא על בנייך מפני מגפות ואסונות, היי כיום השומרת השמימית של שערי ביתנו ונפשנו. חסמי את הדרך בפני המחלה והרוע, ופתחי למעננו את שערי הבריאות, הפרנסה ורחמי שמיים. בשם המשיح אדוננו. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "viento_andino_quena"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "CAT_BRA_BOM_JESUS_MATOSINHOS",
+      "numero": 4289,
+      "titulo": "האדון ישוע הטוב ממטוזיניוס · מקור רחמים וחסד אין קץ",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "misericordia",
+      "estadosEmocionales": [
+        "dolor_fisico",
+        "desesperacion",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Senhor Bom Jesus de Matosinhos, Redentor do mundo, compadecei-vos de nós e de nossas famílias.",
+      "guiaFonetica": "[Senhor Bom Jesus de Matosinhos, tende piedade de nós]",
+      "textoTraducido": "האדון ישוע הטוב ממטוזיניוס, גואלנו האהוב המרעיף את רחמיו האינסופיים על כל עולי הרגל! בזכות ייסוריך הקדושים ופצעיך הטהורים, קבל את תפילותינו, רפא את חוליי נפשנו וגופנו וברך את משפחותינו. היה לנו למבצר בעת מצוקה והענק לנו את החסד שאנו מבקשים באמונה שלמה. בשם המשיח אדוננו. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "sinos_barrocos_minas"
+      },
       "dir": "rtl"
     }
   ]

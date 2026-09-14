@@ -4,10 +4,10 @@
     "idioma": "sw",
     "nombreIdioma": "Kiswahili (Swahili)",
     "dir": "ltr",
-    "total_oraciones": 4251,
+    "total_oraciones": 4289,
     "estandar": "FeUniversal-Kiswahili-Sanifu-Sala-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4281
+    "totalOraciones": 4289
   },
   "oraciones": [
     {
@@ -82,18 +82,18 @@
     {
       "id": "SAN_CAYETANO_PROSPERIDAD",
       "numero": 4,
-      "titulo": "Mtakatifu Kayetano · Ufunguzi wa Barabara, Kazi na Utoaji Ulioheshimiwa",
+      "titulo": "Mtakatifu Kajetani · Baba wa Maandalizi ya Mungu, Mkate na Kazi",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "mafanikio_kazi",
+      "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
-        "necesidad_escasez",
-        "confusion_duda",
-        "desesperacion"
+        "desesperacion",
+        "escasez",
+        "miedo_angustia"
       ],
-      "idiomaLiturgicoOriginal": "Español Canónico",
-      "textoOriginal": "San Cayetano glorioso, padre de la divina providencia,\nintercede ante el Señor para que en mi hogar nunca falte la paz, la salud y el trabajo bendito. Amén.",
-      "guiaFonetica": "[San Ka-ye-tá-no glo-rió-so...]",
-      "textoTraducido": "Mtakatifu Cajetan, baba wa majaliwa ya Mungu, Uombee mbele za Bwana ili amani, afya na kazi yenye baraka isikose kamwe nyumbani mwangu. Amina.",
+      "idiomaLiturgicoOriginal": "Español / Italiano / Latín",
+      "textoOriginal": "Sancte Caietane Thienaei, Patrone Providentiae et Laboris, ora pro nobis et impetra nobis panem quotidianum.",
+      "guiaFonetica": "[San Cayetano, Padre de Providencia, alcánzanos pan y trabajo]",
+      "textoTraducido": "Ee Mtakatifu Kajetani mwenye utukufu, Baba wa Maandalizi ya Mungu na mtetezi wa wahitaji! Uliyemtumaini Mungu kwa dhati, ututazame kwa huruma. Tunaomba: nyumba zetu zisikose mkate wa kila siku, kazi ya heshima ya kulisha familia zetu na afya njema. Ondoa shida ya uhitaji na utujalie kutumaini daima wema wa Mungu. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 72,
@@ -237,19 +237,18 @@
     {
       "id": "VIRGEN_LUJAN_ARGENTINA",
       "numero": 11,
-      "titulo": "Mama Yetu wa Luján · Vazi la Mama wa Nchi na Nyumbani",
+      "titulo": "Bikira Maria wa Luján · Mlinzi wa Ajentina",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "ulinzi",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
         "miedo_angustia",
-        "soledad_vacio",
-        "tristeza_duelo",
-        "desesperacion"
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español Litúrgico & Latín",
-      "textoOriginal": "¡Virgen Santísima de Luján, Madre de Dios y Madre nuestra!\nHumildemente postrados a tus plantas, te consagramos nuestros hogares, nuestras alegrías y nuestras penas.\nGuarda a nuestra tierra, defiende a los desvalidos y alcánzanos de tu divino Hijo la paz y la concordia.\nBajo tu manto celeste y blanco ponemos nuestra esperanza. Amén.",
-      "guiaFonetica": "[Vír-jen San-tí-si-ma de Lu-ján, Má-dre de Diós y Má-dre nués-tra...]",
-      "textoTraducido": "Bikira Mtakatifu wa Lujan, Mama wa Mungu na Mama yetu! Kwa unyenyekevu tukisujudia mimea yako, tunaziweka wakfu nyumba zetu, furaha zetu na huzuni zetu kwako. Linda ardhi yetu, tetea wanyonge na upate amani na maelewano kutoka kwa Mwana wako wa Mungu. Chini ya vazi lako la bluu na nyeupe tunaweka tumaini letu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "Ee Bikira Maria Mtakatifu sana wa Luján, Mlinzi wa Ajentina! Uliyechagua kukaa kando ya Mto Luján kama alama ya upendo wako, sikiliza maombi ya watoto wako. Linda familia zetu, wafariji wagonjwa na udumishe amani. Mama wa Luján, utupatie afya na neema kutoka kwa Yesu. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -20700,7 +20699,7 @@
     {
       "id": "CAT_AR_VIRGEN_LUJAN",
       "numero": 944,
-      "titulo": "Mama Yetu wa Luján - Mlinzi wa Ajentina na Mlinzi wa Koni ya Kusini",
+      "titulo": "Bikira Maria wa Luján · Mlinzi wa Ajentina",
       "tradicion": "catolicismo",
       "categoriaIntencion": "amani_ya_ndani",
       "estadosEmocionales": [
@@ -20709,9 +20708,9 @@
         "proteccion"
       ],
       "idiomaLiturgicoOriginal": "Latín / Español / Portugués / Italiano",
-      "textoOriginal": "Virgen de Luján, Madre del pueblo y auxilio en las encrucijadas, bendice a tus hijos.",
-      "guiaFonetica": "Virgen de Lujan, Madre purisima...",
-      "textoTraducido": "Bikira wa Luján, Mama wa watu na usaidizi kwenye njia panda, wabariki watoto wako.",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "Ee Bikira Maria Mtakatifu sana wa Luján, Mlinzi wa Ajentina! Uliyechagua kukaa kando ya Mto Luján kama alama ya upendo wako, sikiliza maombi ya watoto wako. Linda familia zetu, wafariji wagonjwa na udumishe amani. Mama wa Luján, utupatie afya na neema kutoka kwa Yesu. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "rosario_50",
         "duracionVeladoraSugeridaHoras": 8,
@@ -59113,19 +59112,18 @@
     {
       "id": "CAT_ARG_CURA_BROCHERO",
       "numero": 2731,
-      "titulo": "Maombi kwa Padri Mtakatifu Brochero (Kuhani wa Gaucho",
+      "titulo": "Mtakatifu Padre Brochero · Mtume wa Milimani na Mchungaji Mwaminifu",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Nguvu_Magonjwa_Na_Huduma",
+      "categoriaIntencion": "fortaleza_caridad",
       "estadosEmocionales": [
-        "enfermo",
-        "cansado",
-        "servicial",
-        "confiado"
+        "cansancio",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español criollo",
-      "textoOriginal": "Señor, que hiciste de San José Gabriel del Rosario Brochero un pastor incansable a lomo de mula por las sierras, amigo de los pobres y consuelo de los enfermos hasta entregar su propia salud: concédenos su mismo celo por el prójimo, su valentía ante la adversidad y su alegría evangélica. Por su intercesión, sana a nuestros enfermos y danos un corazón gaucho, noble y generoso. Amén.",
-      "guiaFonetica": "[Se-ñor, que hi-cis-te de San Jo-se Ga-briel del Ro-sa-rio Bro-che-ro un pas-tor in-can-sa-ble a lo-mo de mu-la]",
-      "textoTraducido": "Bwana, ambaye alimfanya Mtakatifu Yosefu Gabriel ya Rosario Brochero kuwa mchungaji asiyechoka juu ya nyumbu kupitia milimani, rafiki wa maskini na mfariji wa wagonjwa hadi akaacha afya yake mwenyewe: atujalie bidii yake hiyo hiyo kwa jirani yake, ujasiri wake katika uso wa shida na furaha yake ya kiinjilisti. Kwa maombezi yake, ponya wagonjwa wetu na utupe moyo wa gaucho, adhimu na wa ukarimu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancte Iosephe Gabriel Brochero, Pastor animarum in montibus, ora pro nobis et adiuva nos.",
+      "guiaFonetica": "[Santo Cura Brochero, pastor gaucho con olor a oveja, ruega por nosotros]",
+      "textoTraducido": "Ee Mungu Mwenyezi, uliyemweka Mtakatifu José Gabriel Brochero kuwa padri mwenye mfano wa kuwahudumia maskini na wagonjwa! Tufundishe ukarimu na uthabiti. Kwa maombezi yake, utujalie imani imara, afya na neema tunayoomba. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_con_mate_o_silencio",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81825,19 +81823,18 @@
     {
       "id": "CAT_MEX_JOSE_SANCHEZ_RIO_JOSELITO",
       "numero": 3742,
-      "titulo": "Maombi kwa Mtakatifu Yosefu Sánchez ya Río (The Young Martyr Cristero",
+      "titulo": "Mtakatifu José Sánchez del Río · Uaminifu Usioshindwa kwa Kristo Mfalme",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Valentia_Juvenil_Y_Militancia_Mtakatifu",
+      "categoriaIntencion": "valentia_fidelidad",
       "estadosEmocionales": [
-        "joven",
-        "perseguido",
-        "valiente",
-        "inquebrantable"
+        "miedo_angustia",
+        "persecucion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Joselito, niño mártir de Sahuayo que con tus piececitos desollados caminaste hacia el camposanto sin doblegar tu fe diciendo: «¡Nunca ha sido tan fácil ganarse el cielo!»: alcánzanos tu misma valentía. Que la juventud de hoy no se venda a los placeres vanos ni al miedo, sino que confiese con gallardía a Cristo Rey y a la Virgen de Guadalupe. ¡Viva Cristo Rey! Amén.",
-      "guiaFonetica": "San Jo-se-li-to, ni-ño mar-tir de Sa-hua-yo... ¡Vi-va Cris-to Rey! A-mén.",
-      "textoTraducido": "Mtakatifu Joselito, mtoto shahidi wa Sahuayo ambaye kwa miguu yako midogo iliyochunwa ngozi alitembea kuelekea kaburini bila kuvunja imani yako akisema: \"Haijawahi kuwa rahisi sana kupata mbinguni!\": utujalie ujasiri wako huo huo. Vijana wa leo wasijiuze kwa anasa za ubatili au woga, bali wamkiri kwa moyo mkuu Kristo Mfalme na Bikira wa Guadalupe. Uishi Kristo Mfalme! Amina.",
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "Sancte Iosephe Sanchez del Rio, martyr Christi Regis, ora pro nobis. ¡Viva Cristo Rey y Santa María de Guadalupe!",
+      "guiaFonetica": "[¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Joselito, intercede por nosotros]",
+      "textoTraducido": "Ee Mtakatifu José Sánchez del Río, shahidi kijana na shahidi shujaa wa Kristo! Uliyetoa maisha yako ukiwa na umri wa miaka kumi na minne ukisema: 'Haijawahi kuwa rahisi hivi kupata mbingu! Kristo Mfalme Aishi! Bikira Maria wa Guadalupe Aishi!', tuombee tupate ujasiri wa imani. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "tres_padrenuestros_cristeros",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81871,19 +81868,18 @@
     {
       "id": "CAT_BRA_FREI_GALVAO_PILULAS",
       "numero": 3744,
-      "titulo": "Maombi ya Mtakatifu Frei Galvão (Vidonge vya Neema na Afya",
+      "titulo": "Mtakatifu Frei Galvão · Mtakatifu wa Kwanza wa Brazili na Mlinzi wa Uzazi",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Vigumu_vya_Kuzaa_Na_Kuponya_Magonjwa",
+      "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
-        "enfermo",
-        "parturienta",
-        "aflito",
-        "curado"
+        "enfermedad",
+        "miedo_angustia",
+        "maternidad"
       ],
-      "idiomaLiturgicoOriginal": "Portugués / Latín",
-      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. São Frei Antônio de Sant'Anna Galvão, homem de paz e caridade: vós que pelo poder da oração e da santa medalha socorrestes tantas mães em partos aflitivos e enfermos desesperados, intercedei a Deus por esta minha necessidade (pedir a graça). Restabelecei a minha saúde e fazei-me viver na graça divina. Amém.",
-      "guiaFonetica": "Post par-tum, Vir-go, in-vio-la-ta per-man-sis-ti... Saw Fray An-to-nio de San-tAn-na Gal-vaw... A-maym.",
-      "textoTraducido": "Baada ya kujifungua, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. Mtakatifu Antônio de Sant'Anna Galvão, mtu wa amani na upendo: wewe ambaye, kwa nguvu ya sala na medali takatifu, ulisaidia akina mama wengi katika uzazi wa shida na wagonjwa waliokata tamaa, unaniombea kwa Mungu kwa hitaji langu hili ( ombeni neema). Rejesha afya yangu na unifanye niishi katika neema ya Mungu. Amina.",
+      "idiomaLiturgicoOriginal": "Português / Latín",
+      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. Sancte Antonius de Sancta Anna Galvão, ora pro nobis.",
+      "guiaFonetica": "[São Frei Galvão, arauto da paz e da caridade, rogai por nós]",
+      "textoTraducido": "Ee Mungu mwenye huruma isiyo na mwisho, uliyemfanya Mtakatifu Antoni wa Mtakatifu Anna Galvão kuwa chombo cha faraja kwa wagonjwa na wazazi! Kwa maombezi ya Bikira Maria, sikiliza maombi yetu. Waponye wagonjwa, walinde akina mama wajawazito na utujalie msaada wa mbinguni. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "pilula_devocional_com_agua_benta",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81894,19 +81890,18 @@
     {
       "id": "CAT_BRA_IRMA_DULCE_POBRES",
       "numero": 3745,
-      "titulo": "Maombi kwa Santa Dulce dos Pobres (Malaika Mwema wa Bahia",
+      "titulo": "Mtakatifu Dulce wa Maskini · Malaika Mwema wa Bahia",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Hisani_Bila_Masharti_Na_Consolo",
+      "categoriaIntencion": "caridad_salud",
       "estadosEmocionales": [
-        "desamparado",
-        "carente_de_amor",
-        "generoso",
-        "consolado"
+        "enfermedad",
+        "desesperacion",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Portugués brasileiro",
-      "textoOriginal": "Senhor nosso Deus, que concedestes a Santa Dulce dos Pobres um amor infinito aos mais pequeninos, aos enfermos das ruas e aos abandonados: dai-nos o mesmo coração generoso para enxergar o Vosso rosto em cada irmão que sofre. Por sua intercessão, curai as nossas enfermidades, dai pão aos famintos e concedei-nos a graça de amar e servir com humildade e alegria. Amém.",
-      "guiaFonetica": "Se-nhor nos-so Dews, ke kon-se-des-tes a San-ta Dul-se doosh Po-bresh... A-maym.",
-      "textoTraducido": "Bwana Mungu wetu, ambaye alimpa Mtakatifu Dulce dos Pobres upendo usio na kikomo kwa watoto wadogo, wagonjwa mitaani na walioachwa: tupe moyo huo huo wa ukarimu kuona uso wako katika kila ndugu anayeteseka. Kwa maombezi yako, ponya magonjwa yetu, uwape wenye njaa mkate na utujalie neema ya kupenda na kutumikia kwa unyenyekevu na furaha. Amina.pt",
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Sancta Dulcis Pauperum, Angelus Bonus Salvadoriae, ora pro nobis et sana infirmos nostros.",
+      "guiaFonetica": "[Santa Dulce dos Pobres, Anjo Bom da Bahia, rogai por nós]",
+      "textoTraducido": "Ee Mungu wa upendo usio na mwisho, uliyewasha ndani ya moyo wa Mtakatifu Dulce huruma kubwa kwa maskini na wagonjwa! Mimina roho ya upendo ndani yetu. Kwa maombezi yake, waponye wagonjwa, wafariji wenye huzuni na utujalie neema tunayoomba. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "tres_atos_de_caridade_ou_oracao",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81940,19 +81935,18 @@
     {
       "id": "CAT_BOL_COPACABANA_TITICACA",
       "numero": 3747,
-      "titulo": "Dua kwa Bikira wa Copacabana (Malkia wa Bolivia",
+      "titulo": "Bikira Maria wa Copacabana · Malkia na Mlinzi wa Bolivia",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Ulinzi_Altiplano_Y_Unidad",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "peregrino",
-        "arrepentido",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español / Aymara / Quechua",
-      "textoOriginal": "¡Virgen de Copacabana, Candelaria bendita esculpida por la devoción de Tito Yupanqui en la ribera del lago sagrado! Madre de los pueblos andinos, bendice a Bolivia y a todos tus devotos. Calma las tempestades del lago y de la vida, da salud a los enfermos, bendice nuestros viajes por las cumbres y guíanos hacia la luz de tu Divino Hijo. Amén.",
-      "guiaFonetica": "[Vir-jen de Co-pa-ca-ba-na, Can-de-la-ria ben-di-ta]",
-      "textoTraducido": "Bikira wa Copacabana, aliyebarikiwa Canyaaria aliyechongwa kwa ibada ya Tito Yupanqui kwenye ufuo wa ziwa takatifu! Mama wa watu wa Andes, ibariki Bolivia na waja wako wote. Tuliza dhoruba za ziwa na uzima, uwape afya wagonjwa, bariki safari zetu katika vilele na utuongoze kuelekea nuru ya Mwana wako wa Kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Aimara / Quechua",
+      "textoOriginal": "Sancta Maria de Copacabana, Regina et Patrona Boliviae, ora pro nobis et protege populum tuum.",
+      "guiaFonetica": "[Virgen de Copacabana, Reina de Bolivia, bendícenos]",
+      "textoTraducido": "Ee Bikira Maria Mtakatifu sana, Mama wa Copacabana, Malkia na Mlinzi wa Bolivia! Kutoka Ziwa Titicaca, umemwaga vazi lako la baraka na miujiza juu ya mahujaji. Linda familia zetu na madhara yote, dumisha amani na utujalie imani thabiti na afya njema. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "challa_de_flores_o_cirio_candelaria",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81963,19 +81957,18 @@
     {
       "id": "CAT_BOL_URKUPINA_COCHABAMBA",
       "numero": 3748,
-      "titulo": "Maombi kwa Bikira wa Urkupiña (Mlinzi Mtakatifu wa Ushirikiano",
+      "titulo": "Bikira Maria wa Urkupiña · Mlinzi wa Umoja na Baraka ya Kazi",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Wingi_Kazi_Na_Afya",
+      "categoriaIntencion": "prosperidad_familia",
       "estadosEmocionales": [
-        "necesitado_de_sustento",
-        "trabajador",
-        "agradecido",
-        "ferviente"
+        "escasez",
+        "miedo_angustia",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español / Quechua",
-      "textoOriginal": "¡Mamita de Urkupiña, Virgen del cerro de Cota donde te apareciste a la pastorcita diciendo: «¡Urkupiña! ¡Ya está en el cerro!»! Vengo ante Ti con fe viva a pedir tu bendición para mi trabajo, mi hogar y mi salud. Así como picamos la piedra del cerro en señal de préstamo sagrado, prometo honrar tu bondad con generosidad hacia los pobres y fidelidad a Dios. Amén.",
-      "guiaFonetica": "[Ma-mi-ta de Ur-ku-pi-ña, Vir-jen del ce-rro de Co-ta]",
-      "textoTraducido": "Mama wa Urkupina, Bikira wa kilima cha Cota ambapo ulimtokea msichana mchungaji akisema: «Urkupina! \"Tayari yuko mlimani!\" Ninakuja mbele Zako nikiwa na imani hai ili kuomba baraka Zako kwa ajili ya kazi yangu, nyumba yangu na afya yangu. Kama vile tunavyopasua jiwe kutoka mlimani kama ishara ya mkopo mtakatifu, ninaahidi kuheshimu wema wako kwa ukarimu kwa maskini na uaminifu kwa Mungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Quechua",
+      "textoOriginal": "Sancta Maria de Urkupiña, Patrona Integrationis Nationalis, ora pro nobis et familias nostras benedic.",
+      "guiaFonetica": "[Virgen de Urkupiña, Madre de la Integración, bendícenos]",
+      "textoTraducido": "Ee Bikira Maria wa Urkupiña, Mama na Mlinzi wa Umoja! Sikiliza maombi ya watoto wako. Bariki kazi ya mikono yetu, zidisha chakula katika meza zetu na utujalie nyumba zenye amani na upendo. Ondoa shida na maradhi na utujalie neema yako. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "piedra_del_calvario_y_ofrenda",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81986,19 +81979,18 @@
     {
       "id": "CAT_URY_VIRGEN_TREINTA_Y_TRES",
       "numero": 3749,
-      "titulo": "Maombi kwa Bikira wa Thelathini na Watatu (Mtakatifu Mlinzi wa Uruguay",
+      "titulo": "Bikira Maria wa Thelathini na Tatu · Mlinzi wa Urugwai",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Republican_Amani_Na_Uhuru",
+      "categoriaIntencion": "libertad_patria",
       "estadosEmocionales": [
-        "patriota",
-        "deseoso_de_paz",
-        "firme",
-        "esperanzado"
+        "miedo_angustia",
+        "esperanza",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español uruguayo",
-      "textoOriginal": "Virgen de los Treinta y Tres, ante cuya humilde imagen los libertadores de la Patria Oriental juraron la independencia de nuestra tierra: mira con amor al pueblo uruguayo. Concédenos la verdadera libertad de los hijos de Dios, preserva la paz republicana, ilumina a nuestros gobernantes y bendice a cada familia de este suelo oriental. Amén.",
-      "guiaFonetica": "[Vir-jen de los Trein-ta y Tres, an-te cu-ya hu-mil-de i-ma-gen]",
-      "textoTraducido": "Bikira wa Thelathini na Tatu, ambaye kabla ya picha yake ya unyenyekevu wakombozi wa Nchi ya Mashariki waliapa uhuru wa nchi yetu: angalia kwa upendo watu wa Uruguay. Utujalie uhuru wa kweli wa watoto wa Mungu, uilinde amani ya jamhuri, waangazie watawala wetu na ubariki kila familia ya ardhi hii ya mashariki. Amina.",
+      "idiomaLiturgicoOriginal": "Español Uruguayo / Latín",
+      "textoOriginal": "Sancta Maria a Triginta et Tribus, Patrona Reipublicae Orientalis Uruquariae, ora pro nobis et liberta nos.",
+      "guiaFonetica": "[Virgen de los Treinta y Tres, Libertadora y Patrona, ruega por nosotros]",
+      "textoTraducido": "Ee Bikira Maria wa Thelathini na Tatu, Mlinzi wa Urugwai! Tunakukabidhi familia zetu na matumaini yetu. Tuweke huru na dhambi na mafarakano, na utupatie umoja, kazi njema na amani kutoka kwa Mungu. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_patronales",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82031,19 +82023,18 @@
     {
       "id": "CAT_PRY_CAACUPE_TUPASY",
       "numero": 3751,
-      "titulo": "Maombi kwa Bikira wa Caacupé (Súplica a la Virgen de Caacupé)gn",
+      "titulo": "Bikira Maria wa Miujiza wa Caacupé · Mlinzi wa Paragwai",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Ulinzi_wa_Mama_Na_Imanign",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "devoto",
-        "peregrino_guarani",
-        "agradecido",
-        "amparado"
+        "miedo_angustia",
+        "esperanza",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Guaraní / Español paraguayo",
-      "textoOriginal": "Tupãsy Ka'akupe, nde niko ore sy marangatuite. Ema'ẽmína ne membykuéra rehe roúva ne rendápe rojerure haḡua ndéve py'aguapy, tesãi ha tory ore rógapere. Virgen de Caacupé, Madre de todos los paraguayos: bendice a nuestra patria, cuida a los campesinos y humildes, y guíanos siempre hacia tu Hijo Jesús. Amén.",
-      "guiaFonetica": "[Tu-pan-sy Ka-a-ku-pe, nde ni-ko o-re sy ma-ran-ga-tu-i-te... E-ma-en-mi-na ne mem-by-ku-e-ra re-he]",
-      "textoTraducido": "Mama yetu wa Kupalizwa, wewe ni mama yetu mtakatifu. Tazama watoto wako wanaokuja kwako kukuuliza amani, afya na furaha katika nyumba yetu. Virgen de Caacupé, Mama wa Waparagwai wote: ibariki nchi yetu, watunze wakulima na wanyenyekevu, na utuongoze daima kwa Mwana wako Yesu. Amina.gn",
+      "idiomaLiturgicoOriginal": "Guaraní / Español Paraguayo / Latín",
+      "textoOriginal": "Tupãsy Ka'akupe, Paraguái py'aguapy ha teko porã rerekua, eñembo'e ore rehe.",
+      "guiaFonetica": "[Tupãsy Ka'akupe, Virgen de los Milagros de Caacupé, ruega por nosotros]",
+      "textoTraducido": "Ee Bikira Maria wa Miujiza wa Caacupé, Mama mpendwa wa Paragwai! Uliyemlinda mnyenyekevu wakati wa hatari, pokea familia zetu chini ya vazi lako takatifu. Kuwa kimbilio la wanyonge na utupatie amani, afya na neema kutoka kwa Mwanao Yesu. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "terciario_guarani_con_canto_purahéi",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82100,19 +82091,18 @@
     {
       "id": "CAT_SLV_MONSENOR_ROMERO_AMERICA",
       "numero": 3754,
-      "titulo": "Maombi kwa Mtakatifu Óscar Arnulfo Romero (Sauti ya Wasio na Sauti",
+      "titulo": "Mtakatifu Óscar Romero · Sauti ya Wasio na Sauti na Shahidi wa Amani",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Haki_Kijamii_Amani_Na_Haki_za_Binadamu",
+      "categoriaIntencion": "justicia_paz",
       "estadosEmocionales": [
-        "perseguido_por_justicia",
-        "oprimido",
-        "valiente",
-        "pacificador"
+        "miedo_angustia",
+        "desesperacion",
+        "injusticia"
       ],
-      "idiomaLiturgicoOriginal": "Español cuscatleco",
-      "textoOriginal": "San Óscar Romero, pastor santo y mártir de Cristo que entregaste tu vida en el altar defendiendo la dignidad de los pobres y clamando por el cese de la violencia: enséñanos a no ser cómplices de la injusticia. Concédenos tu firmeza profética unida a tu profunda piedad eucarística, para construir una sociedad donde reinen la verdad, el perdón y la paz duradera. Amén.",
-      "guiaFonetica": "[San Os-car Ro-me-ro, pas-tor san-to y mar-tir de Cris-to]",
-      "textoTraducido": "Mtakatifu Oscar Romero, mchungaji mtakatifu na shahidi wa Kristo ambaye alitoa maisha yako juu ya madhabahu akitetea utu wa maskini na wito wa kukomesha vurugu: tufundishe kutoshiriki katika udhalimu. Utujalie uthabiti wako wa kinabii pamoja na uchaji wako wa kina wa Ekaristi, ili kujenga jamii ambapo ukweli, msamaha na amani ya kudumu hutawala. Amina.",
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancte Anschari Romero, martyr iustitiae et vox pauperum, ora pro nobis.",
+      "guiaFonetica": "[San Óscar Romero, voz de los sin voz, intercede por la paz]",
+      "textoTraducido": "Ee Mungu Baba mwema, uliyemfanya Mtakatifu Óscar Romero kuwa mchungaji hodari, sauti ya wasio na sauti na shahidi madhabahuni! Utujalie mioyo yenye huruma kwa wanaoteseka na ujasiri wa kutetea ukweli. Komesha vurugu zote na utufanye wajenzi wa amani na upatanisho. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "oracion_ante_la_cruz_de_romero",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82207,19 +82197,18 @@
     {
       "id": "CAT_PRI_PROVIDENCIA_PATRONA",
       "numero": 3759,
-      "titulo": "Maombi kwa Mama yetu wa Providence (Patron Saint wa Puerto Rico",
+      "titulo": "Bikira Maria wa Maandalizi ya Mungu · Mlinzi wa Puerto Rico",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Providencia_Divina_Y_Amparo_Boricua",
+      "categoriaIntencion": "providencia_proteccion",
       "estadosEmocionales": [
-        "confiado",
-        "boricua",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español puertorriqueño",
-      "textoOriginal": "¡Virgen de la Providencia, Madre de Dios y Patrona de Puerto Rico! En tus maternales manos ponemos el destino de nuestra hermosa isla del encanto, de nuestras familias y de nuestros hermanos en la diáspora. Que tu Divina Providencia nunca nos falte en el pan, en la salud, en la paz y en la fe. Defiéndenos de huracanes y tempestades, y líbranos de todo mal. Amén.",
-      "guiaFonetica": "[Vir-jen de la Pro-vi-den-cia, Ma-dre de Dios y Pa-tro-na de Puer-to Ri-co]",
-      "textoTraducido": "Bikira wa Maongozi, Mama wa Mungu na Mlinzi wa Puerto Rico! Katika mikono yako mama tunaweka hatima ya kisiwa chetu kizuri cha haiba, cha familia zetu na cha ndugu zetu huko ughaibuni. Utoaji wako wa Kimungu usitupungukie katika mkate, afya, amani na imani. Utulinde dhidi ya vimbunga na dhoruba, na utuokoe kutoka kwa uovu wote. Amina.",
+      "idiomaLiturgicoOriginal": "Español Puertorriqueño / Latín",
+      "textoOriginal": "Sancta Maria a Providentia, Patrona Portus Divitis, ora pro nobis et conserva nos in pace.",
+      "guiaFonetica": "[Virgen de la Providencia, Patrona de Puerto Rico, cuida a tus hijos]",
+      "textoTraducido": "Ee Bikira Maria Mtakatifu sana, Mama wa Maandalizi ya Mungu na Mlinzi wa Puerto Rico! Unayemkumbatia Mtoto Yesu kwa upendo, tazama mahitaji ya familia zetu. Ulinzi wako wa kimama usitupungukie katika dhoruba za maisha, na utujalie amani, utulivu na wokovu wa milele. Kwa Kristo Bwana wetu. Amina.",
       "ritualesAsociados": {
         "tipoContador": "novena_de_la_providencia",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94130,6 +94119,182 @@
       "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
       "textoTraducido": "Ee Bikira Maria Mtakatifu, Mama wa Huzuni na Malkia wa Mashahidi! Wewe uliyesimama imara katika imani chini ya Msalaba upanga uliotabiriwa ulipochoma roho yako ya huruma: tazama kwa rehema huzuni, maombolezo na majaribu ya maisha yetu. Kwa Huzuni zako Saba takatifu, utupatie faraja katika huzuni, afya katika ugonjwa na nguvu ya kubeba msalaba wetu wa kila siku. Kuwa kimbilio letu wakati wa maumivu na uambatane nasi wakati wa kuingia kwenye uzima wa milele na Mwanao mpendwa Yesu Kristo. Amina.",
       "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_MIGUEL_PRO_PALOMAR",
+      "numero": 4282,
+      "titulo": "Mwenyeheri Padre Miguel Agustín Pro · Sadaka ya Ushujaa na Kristo Mfalme Aishi!",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_espiritual",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
+      ],
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "¡Oh Señor Jesús, Rey de Reyes! Por la sangre y el testimonio del Beato Miguel Agustín Pro, haz que resuene en mi corazón su último grito de amor y victoria: ¡Viva Cristo Rey! Amén.",
+      "guiaFonetica": "[Viva Cristo Rey! / Oh Señor Jesús, te ofrezco mis tribulaciones unidas a tu Santa Cruz]",
+      "textoTraducido": "Ee Mungu mwenye huruma na nguvu, uliyemjalia Mwenyeheri Miguel Agustín Pro neema ya kukutumikia kwa furaha katikati ya mateso na kuthibitisha uaminifu wake kwa ushuhuda mkuu wa kifodini! Nifundishe kutoogopa magumu ya ulimwengu huu na kutoa maisha yangu kwa ujasiri kwa ajili ya Injili. Katika kila jaribu, mwangwi wa kilio chake cha mwisho usioshindwa ukae rohoni mwangu: Kristo Mfalme Aishi! Maombezi yake yalete amani nyumbani mwangu, uthabiti wa imani na neema ninayoomba kwa unyenyekevu. Kwa Kristo Bwana wetu. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_catedral_eco"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_SAN_FELIPE_JESUS",
+      "numero": 4283,
+      "titulo": "Mtakatifu Filipo wa Yesu · Shahidi wa Kwanza wa Meksiko na Ushindi wa Msalaba",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "perseverancia_fe",
+      "estadosEmocionales": [
+        "debilidad",
+        "tentacion",
+        "duda_espiritual"
+      ],
+      "idiomaLiturgicoOriginal": "Español Novohispano / Latín",
+      "textoOriginal": "Sancte Philippe a Iesu, primus martyr Mexicanus, ora pro nobis et pro patria nostra.",
+      "guiaFonetica": "[Sancte Philippe a Iesu, martyr gloriose, intercede pro nobis]",
+      "textoTraducido": "Ee Mtakatifu Filipo wa Yesu mwenye utukufu, shahidi wa kwanza wa Meksiko na bara zima la Amerika uliyeikumbatia Msalaba Mtakatifu kule Nagasaki kwa upendo mkuu kwa Kristo! Uliyepata taji la milele ndani ya Bwana, linda familia na vijana wetu katika majaribu. Tufundishe uvumilivu na kujitolea kamilifu kwa Mungu. Kwa maombezi yako, utujalie imani thabiti na msaada katika mahitaji yetu. Kwa Kristo Bwana wetu. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_monasterio_lejano"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_SLV_VIRGEN_DE_LA_PAZ",
+      "numero": 4284,
+      "titulo": "Bikira Maria Malkia wa Amani · Msimamizi wa El Salvador na Malkia wa Upatanisho",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "conflicto_familiar",
+        "desesperacion"
+      ],
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancta Maria, Regina Pacis, Patrona Salvadoriae, ora pro nobis et reconcilia corda nostra.",
+      "guiaFonetica": "[Regina Pacis, ora pro nobis / Virgen de la Paz, ruega por nosotros]",
+      "textoTraducido": "Ee Bikira Maria Mtakatifu sana, Mama wa Amani na Mlinzi mpendwa wa El Salvador! Uliyesimamisha maangamizi wakati wa magumu na kumwaga amani juu ya watu wako, utugeuzie macho yako ya huruma. Ondoa chuki zote, ponya majeraha ya familia zetu na ulete umoja. Malkia wa Amani, tufunike chini ya vazi lako takatifu na utupatie neema ya kuishi kwa haki, upendo na msamaha. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "coro_angelical_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_COL_PEDRO_CLAVER_CARTAGENA",
+      "numero": 4285,
+      "titulo": "Mtakatifu Petro Klaveri · Mtumishi wa Watumwa na Mtume wa Upendo",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "caridad_servicio",
+      "estadosEmocionales": [
+        "soledad",
+        "rechazo",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Colombiano / Latín",
+      "textoOriginal": "Petrus Claver, Aethiopum servus pro semper, ora pro nobis et doce nos caritatem Christi.",
+      "guiaFonetica": "[Petrus Claver, servus servorum, intercede pro nobis]",
+      "textoTraducido": "Ee Mtakatifu Petro Klaveri mwenye utukufu, mtume wa walioteswa kule Cartagena! Uliyeweka nadhiri ya kuwa 'mtumishi wa watumwa milele', mimina upendo wako wa huruma mioyoni mwetu. Tusaidie kumwona Kristo ndani ya wanaoteseka na utuweke huru kutoka kwa ubinafsi. Kwa maombezi yako, utujalie amani, afya na neema tunayoomba. Kwa Kristo Bwana wetu. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "mar_caribe_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_VEN_CRISTO_LA_GRITA",
+      "numero": 4286,
+      "titulo": "Kristo Mtakatifu wa La Grita · Uso wa Amani na Ngao ya Milima ya Andes",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "dolor_fisico"
+      ],
+      "idiomaLiturgicoOriginal": "Español Venezolano / Latín",
+      "textoOriginal": "Domine Iesu Christe de La Grita, Redemptor noster, protege nos a terraemotu et omni malo.",
+      "guiaFonetica": "[Santo Cristo de La Grita, milagroso Protector, sálvanos]",
+      "textoTraducido": "Ee Kristo Mtakatifu wa La Grita, Mlinzi mpendwa wa milima ya Andes na kimbilio letu wakati wa tetemeko na dhiki! Tunatazama uso wako mtulivu kwa uchaji. Ututazame kwa huruma na unyooshe mikono yako yenye baraka juu ya familia zetu. Tulinde na majanga, dhoruba na maradhi. Utujalie uponyaji na neema tunayoweka chini ya Msalaba wako Mtakatifu. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "viento_andino_campanadas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PAN_SANTA_MARIA_ANTIGUA",
+      "numero": 4287,
+      "titulo": "Bikira Maria wa Kale (Santa María la Antigua) · Mlinzi wa Panama",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_maternal",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Panameño / Latín",
+      "textoOriginal": "Sancta Maria La Antigua, Prima Sedis Americae Patrona, ora pro nobis et protege populum Panamensem.",
+      "guiaFonetica": "[Santa Maria La Antigua, Patrona de Panamá, ruega por nosotros]",
+      "textoTraducido": "Ee Bikira Maria Mtakatifu sana, Santa María la Antigua, Mama mwenye upendo na Mlinzi wa Panama! Uliyefuatana na mwanzo wa imani katika bara la Amerika, linda familia zetu. Kuwa mnara wa nuru katika dhoruba za maisha, unganisha nyumba zetu katika upendo na utupatie amani na neema kutoka kwa Mungu. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "ondas_marinas_campanas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PER_VIRGEN_PUERTA_OTUZCO",
+      "numero": 4288,
+      "titulo": "Bikira Maria wa Mlango wa Otuzco · Ngao Dhidi ya Maradhi na Hatari",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "enfermedad",
+        "peligro_enemigos"
+      ],
+      "idiomaLiturgicoOriginal": "Español Peruano / Quechua / Latín",
+      "textoOriginal": "Sancta Maria ad Portam, Regina Pacis et Tutela Septentrionis Peruviani, ora pro nobis.",
+      "guiaFonetica": "[Mamita de la Puerta, Reina de Otuzco, protégenos de todo mal]",
+      "textoTraducido": "Ee Bikira Mpole wa Mlango, Mama wa Otuzco na Mlinzi wa Kaskazini mwa Peru! Uliyewalinda watoto wako kimiujiza dhidi ya majanga na maradhi, uwe mlinzi wa milango ya nyumba zetu na roho zetu leo. Funga njia ya uovu na magonjwa, na utufungulie milango ya afya, kazi njema na huruma ya Mungu. Kwa Kristo Bwana wetu. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "viento_andino_quena"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_BRA_BOM_JESUS_MATOSINHOS",
+      "numero": 4289,
+      "titulo": "Bwana Yesu Mwema wa Matosinhos · Chemchemi ya Huruma",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "misericordia",
+      "estadosEmocionales": [
+        "dolor_fisico",
+        "desesperacion",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Senhor Bom Jesus de Matosinhos, Redentor do mundo, compadecei-vos de nós e de nossas famílias.",
+      "guiaFonetica": "[Senhor Bom Jesus de Matosinhos, tende piedade de nós]",
+      "textoTraducido": "Ee Bwana Yesu Mwema wa Matosinhos, Mkombozi mpendwa anayemwaga huruma isiyo na mwisho juu ya wanaokuomba! Kwa mateso yako matakatifu na majeraha yako ya neema, pokea sala zetu, ponya magonjwa yetu na ubariki familia zetu. Kuwa kimbilio letu wakati wa dhiki na utujalie neema tunayoomba kwa imani. Kwa Kristo Bwana wetu. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "sinos_barrocos_minas"
+      },
       "dir": "ltr"
     }
   ]

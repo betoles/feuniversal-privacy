@@ -4,10 +4,10 @@
     "idioma": "hi",
     "nombreIdioma": "हिन्दी (Hindi)",
     "dir": "ltr",
-    "total_oraciones": 4251,
+    "total_oraciones": 4289,
     "estandar": "FeUniversal-Bhakti-Tatsama-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4281
+    "totalOraciones": 4289
   },
   "oraciones": [
     {
@@ -82,18 +82,18 @@
     {
       "id": "SAN_CAYETANO_PROSPERIDAD",
       "numero": 4,
-      "titulo": "संत कायेतान · मार्ग खोलने, आजीविका और ईश्वरीय प्रावधान के संरक्षक",
+      "titulo": "संत काजेतन · ईश्वरीय अनुग्रह के पिता, रोटी और आजीविका के संरक्षक",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "समृद्धि_और_कार्य",
+      "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
-        "necesidad_escasez",
-        "confusion_duda",
-        "desesperacion"
+        "desesperacion",
+        "escasez",
+        "miedo_angustia"
       ],
-      "idiomaLiturgicoOriginal": "Español Canónico",
-      "textoOriginal": "San Cayetano glorioso, padre de la divina providencia,\nintercede ante el Señor para que en mi hogar nunca falte la paz, la salud y el trabajo bendito. Amén.",
-      "guiaFonetica": "[San Ka-ye-tá-no glo-rió-so...]",
-      "textoTraducido": "हे महिमामय संत कायेतान, कार्य और ईश्वरीय प्रावधान के मध्यस्थ, व्यावसायिक आशीर्वाद के द्वार खोल और मेरे घर में ईमानदारी की आजीविका को बहुगुणित कर। आमीन।",
+      "idiomaLiturgicoOriginal": "Español / Italiano / Latín",
+      "textoOriginal": "Sancte Caietane Thienaei, Patrone Providentiae et Laboris, ora pro nobis et impetra nobis panem quotidianum.",
+      "guiaFonetica": "[San Cayetano, Padre de Providencia, alcánzanos pan y trabajo]",
+      "textoTraducido": "हे संत काजेतन, ईश्वरीय कृपा के पिता और जरूरतमंदों के सच्चे संरक्षक! आपने ईश्वर पर पूर्ण भरोसा रखा, हम पर दयादृष्टि कीजिए। हम प्रार्थना करते हैं कि हमारे घरों में कभी दैनिक रोटी, सम्मानजनक रोजगार और स्वास्थ्य की कमी न हो। तंगी और निराशा को दूर कीजिए और हमें प्रभु की कृपा पर अटूट विश्वास दीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 72,
@@ -237,19 +237,18 @@
     {
       "id": "VIRGEN_LUJAN_ARGENTINA",
       "numero": 11,
-      "titulo": "लुजैन की हमारी महिला · मातृभूमि और घर का मातृ आवरण",
+      "titulo": "लुहान की माता मरियम · अर्जेंटीना की संरक्षिका और ममतामयी माता",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "सुरक्षा_और_संरक्षण",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
         "miedo_angustia",
-        "soledad_vacio",
-        "tristeza_duelo",
-        "desesperacion"
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español Litúrgico & Latín",
-      "textoOriginal": "¡Virgen Santísima de Luján, Madre de Dios y Madre nuestra!\nHumildemente postrados a tus plantas, te consagramos nuestros hogares, nuestras alegrías y nuestras penas.\nGuarda a nuestra tierra, defiende a los desvalidos y alcánzanos de tu divino Hijo la paz y la concordia.\nBajo tu manto celeste y blanco ponemos nuestra esperanza. Amén.",
-      "guiaFonetica": "[Vír-jen San-tí-si-ma de Lu-ján, Má-dre de Diós y Má-dre nués-tra...]",
-      "textoTraducido": "लुजैन की पवित्र वर्जिन, भगवान की माँ और हमारी माँ! विनम्रतापूर्वक आपके पौधों को प्रणाम करते हुए, हम अपने घर, अपनी खुशियाँ और अपने दुःख आपको समर्पित करते हैं। हमारी भूमि की रक्षा करें, असहायों की रक्षा करें और अपने दिव्य पुत्र से शांति और सद्भाव प्राप्त करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "हे लुहान की परमपवित्र माता मरियम, अर्जेंटीना की प्रिय संरक्षिका! आपने अपने प्रेम के प्रतीक के रूप में लुहान नदी के तट पर रहना चुना, हमारी प्रार्थनाएं स्वीकार कीजिए। हमारे परिवारों की रक्षा कीजिए, रोगियों को सांत्वना दीजिए और शांति बनाए रखिए। हे लुहान की माता, हमें स्वास्थ्य और आशीष प्रदान कराइए। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -20700,7 +20699,7 @@
     {
       "id": "CAT_AR_VIRGEN_LUJAN",
       "numero": 944,
-      "titulo": "लुजान की कुँवारी मरियम · संरक्षण और राष्ट्रीय एकता की प्रार्थना",
+      "titulo": "लुहान की माता मरियम · अर्जेंटीना की संरक्षिका और ममतामयी माता",
       "tradicion": "catolicismo",
       "categoriaIntencion": "आंतरिक_शांति",
       "estadosEmocionales": [
@@ -20709,9 +20708,9 @@
         "proteccion"
       ],
       "idiomaLiturgicoOriginal": "Latín / Español / Portugués / Italiano",
-      "textoOriginal": "Virgen de Luján, Madre del pueblo y auxilio en las encrucijadas, bendice a tus hijos.",
-      "guiaFonetica": "Virgen de Lujan, Madre purisima...",
-      "textoTraducido": "हे लुजान की पवित्र माता! जो नदी के तट पर दीन-दुखियों के बीच रहने के लिए रुक गईं, हमारी समस्त प्रार्थनाओं को अपने पुत्र यीशु के सम्मुख रखें। हमारे राष्ट्र, परिवारों और युवाओं को बुराई से बचाएं और हमें एकता के सूत्र में बांधें। आमीन।",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "हे लुहान की परमपवित्र माता मरियम, अर्जेंटीना की प्रिय संरक्षिका! आपने अपने प्रेम के प्रतीक के रूप में लुहान नदी के तट पर रहना चुना, हमारी प्रार्थनाएं स्वीकार कीजिए। हमारे परिवारों की रक्षा कीजिए, रोगियों को सांत्वना दीजिए और शांति बनाए रखिए। हे लुहान की माता, हमें स्वास्थ्य और आशीष प्रदान कराइए। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "rosario_50",
         "duracionVeladoraSugeridaHoras": 8,
@@ -59113,19 +59112,18 @@
     {
       "id": "CAT_ARG_CURA_BROCHERO",
       "numero": 2731,
-      "titulo": "पवित्र पुजारी ब्रोचेरो (गौचो पुजारी) को प्रार्थना",
+      "titulo": "संत कुरा ब्रोचेरो · पहाड़ियों के प्रेरित और समर्पित चरवाहे",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "fortaleza_enfermedad_y_servicio",
+      "categoriaIntencion": "fortaleza_caridad",
       "estadosEmocionales": [
-        "enfermo",
-        "cansado",
-        "servicial",
-        "confiado"
+        "cansancio",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español criollo",
-      "textoOriginal": "Señor, que hiciste de San José Gabriel del Rosario Brochero un pastor incansable a lomo de mula por las sierras, amigo de los pobres y consuelo de los enfermos hasta entregar su propia salud: concédenos su mismo celo por el prójimo, su valentía ante la adversidad y su alegría evangélica. Por su intercesión, sana a nuestros enfermos y danos un corazón gaucho, noble y generoso. Amén.",
-      "guiaFonetica": "[Se-ñor, que hi-cis-te de San Jo-se Ga-briel del Ro-sa-rio Bro-che-ro un pas-tor in-can-sa-ble a lo-mo de mu-la]",
-      "textoTraducido": "पवित्र पुजारी ब्रोचेरो, पहाड़ों के चरवाहे और विनम्र लोगों के मित्र: हमारे परिश्रम में साथ दें, हमारे पथों को आशीर्वाद दें और हमें ईश्वर से स्वास्थ्य और शक्ति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancte Iosephe Gabriel Brochero, Pastor animarum in montibus, ora pro nobis et adiuva nos.",
+      "guiaFonetica": "[Santo Cura Brochero, pastor gaucho con olor a oveja, ruega por nosotros]",
+      "textoTraducido": "हे सर्वशक्तिमान ईश्वर, जिन्होंने संत जोस गेब्रियल ब्रोचेरो को गरीबों और रोगियों के अथक सेवक के रूप में चुना! हमें उदारता से जीने और निर्धनों में ख्रीस्त की सेवा करने की प्रेरणा दीजिए। उनकी मध्यस्थता से हमें दृढ़ विश्वास, स्वास्थ्य और कृपा प्रदान कीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_con_mate_o_silencio",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81825,19 +81823,18 @@
     {
       "id": "CAT_MEX_JOSE_SANCHEZ_RIO_JOSELITO",
       "numero": 3742,
-      "titulo": "सैन जोस सांचेज़ डेल रियो (युवा शहीद क्रिस्टरो) को प्रार्थना",
+      "titulo": "संत जोस सांचेज़ डेल रियो (जोसेलिटो) · ख्रीस्त राजा के प्रति अटूट निष्ठा",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "valentia_juvenil_y_militancia_santa",
+      "categoriaIntencion": "valentia_fidelidad",
       "estadosEmocionales": [
-        "joven",
-        "perseguido",
-        "valiente",
-        "inquebrantable"
+        "miedo_angustia",
+        "persecucion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Joselito, niño mártir de Sahuayo que con tus piececitos desollados caminaste hacia el camposanto sin doblegar tu fe diciendo: «¡Nunca ha sido tan fácil ganarse el cielo!»: alcánzanos tu misma valentía. Que la juventud de hoy no se venda a los placeres vanos ni al miedo, sino que confiese con gallardía a Cristo Rey y a la Virgen de Guadalupe. ¡Viva Cristo Rey! Amén.",
-      "guiaFonetica": "San Jo-se-li-to, ni-ño mar-tir de Sa-hua-yo... ¡Vi-va Cris-to Rey! A-mén.",
-      "textoTraducido": "सेंट जोसेलिटो, सहुआयो का शहीद बालक, जो आपके विश्वास को तोड़े बिना आपके चमड़ीदार छोटे पैरों के साथ कब्रिस्तान की ओर चला और कहा: \"स्वर्ग अर्जित करना इतना आसान कभी नहीं था!\": हमें भी अपना वही साहस प्रदान करें। हो सकता है कि आज के युवा व्यर्थ के सुखों या डर के आगे खुद को न बेचें, बल्कि बहादुरी से ईसा मसीह को राजा और ग्वाडालूप की वर्जिन के रूप में स्वीकार करें। मसीह राजा अमर रहें! आमीन।",
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "Sancte Iosephe Sanchez del Rio, martyr Christi Regis, ora pro nobis. ¡Viva Cristo Rey y Santa María de Guadalupe!",
+      "guiaFonetica": "[¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Joselito, intercede por nosotros]",
+      "textoTraducido": "हे महिमामय संत जोस सांचेज़ डेल रियो, बाल शहीद और ईश्वर के राज्य के वीर साक्षी! जिन्होंने मात्र चौदह वर्ष की आयु में ख्रीस्त के लिए प्राण दे दिए और अंतिम सांस में पुकारा: 'स्वर्ग पाना कभी इतना आसान नहीं था! ख्रीस्त राजा की जय! ग्वाडालूपे की माता की जय!', हमारे लिए प्रार्थना कीजिए और हमें विश्वास में दृढ़ता दीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "tres_padrenuestros_cristeros",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81871,19 +81868,18 @@
     {
       "id": "CAT_BRA_FREI_GALVAO_PILULAS",
       "numero": 3744,
-      "titulo": "साओ फ़्रेई गैल्वो की प्रार्थना (पिलुलास डी ग्राका ए साउदे",
+      "titulo": "संत फ्रे गाल्वाओ · ब्राजील के प्रथम संत, विश्वास और सुरक्षित प्रसव के रक्षक",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "parto_dificil_y_cura_enfermidades",
+      "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
-        "enfermo",
-        "parturienta",
-        "aflito",
-        "curado"
+        "enfermedad",
+        "miedo_angustia",
+        "maternidad"
       ],
-      "idiomaLiturgicoOriginal": "Portugués / Latín",
-      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. São Frei Antônio de Sant'Anna Galvão, homem de paz e caridade: vós que pelo poder da oração e da santa medalha socorrestes tantas mães em partos aflitivos e enfermos desesperados, intercedei a Deus por esta minha necessidade (pedir a graça). Restabelecei a minha saúde e fazei-me viver na graça divina. Amém.",
-      "guiaFonetica": "Post par-tum, Vir-go, in-vio-la-ta per-man-sis-ti... Saw Fray An-to-nio de San-tAn-na Gal-vaw... A-maym.",
-      "textoTraducido": "प्रसवोत्तर, कन्या, इनविओलाटा स्थायीता: देई जेनेट्रिक्स, इंटरसीड प्रो नोबिस। संत फ्रायर एंटोनियो डी संतअन्ना गैल्वो, शांति और दान के व्यक्ति: आप, जिन्होंने प्रार्थना की शक्ति और पवित्र पदक के माध्यम से, कष्टकारी प्रसव और हताश रोगियों में कई माताओं की मदद की, मेरी इस आवश्यकता के लिए भगवान से हस्तक्षेप करें (अनुग्रह मांगें)। मेरा स्वास्थ्य बहाल करें और मुझे ईश्वरीय कृपा में रहने दें। आमीन।",
+      "idiomaLiturgicoOriginal": "Português / Latín",
+      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. Sancte Antonius de Sancta Anna Galvão, ora pro nobis.",
+      "guiaFonetica": "[São Frei Galvão, arauto da paz e da caridade, rogai por nós]",
+      "textoTraducido": "हे अनंत दया के ईश्वर, जिन्होंने संत एंटोनी ऑफ सेंट ऐनी गाल्वाओ को रोगियों और माताओं के लिए चंगाई व शांति का साधन बनाया! परमपवित्र कुंवारी मरियम के पुण्यों के द्वारा हमारी प्रार्थना सुनिए। रोगियों को स्वास्थ्य दीजिए, गर्भवती माताओं की रक्षा कीजिए और हमें ईश्वरीय सहायता प्रदान कीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "pilula_devocional_com_agua_benta",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81894,19 +81890,18 @@
     {
       "id": "CAT_BRA_IRMA_DULCE_POBRES",
       "numero": 3745,
-      "titulo": "गरीबों के संत स्वीट को प्रार्थना (ओ अंजो बम दा बाहिया",
+      "titulo": "संत डल्से ऑफ द पुअर (इरमा डल्से) · बहिया की भले देवदूत और रोगियों की माता",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "caridade_incondicional_y_consolo",
+      "categoriaIntencion": "caridad_salud",
       "estadosEmocionales": [
-        "desamparado",
-        "carente_de_amor",
-        "generoso",
-        "consolado"
+        "enfermedad",
+        "desesperacion",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Portugués brasileiro",
-      "textoOriginal": "Senhor nosso Deus, que concedestes a Santa Dulce dos Pobres um amor infinito aos mais pequeninos, aos enfermos das ruas e aos abandonados: dai-nos o mesmo coração generoso para enxergar o Vosso rosto em cada irmão que sofre. Por sua intercessão, curai as nossas enfermidades, dai pão aos famintos e concedei-nos a graça de amar e servir com humildade e alegria. Amém.",
-      "guiaFonetica": "Se-nhor nos-so Dews, ke kon-se-des-tes a San-ta Dul-se doosh Po-bresh... A-maym.",
-      "textoTraducido": "भगवान हमारे भगवान, जिन्होंने संत डल्से डॉस पोबरेस को छोटों, सड़कों पर बीमारों और त्याग किए गए लोगों के लिए असीम प्यार दिया: हमें पीड़ित प्रत्येक भाई में अपना चेहरा देखने के लिए वही उदार हृदय दें। अपनी मध्यस्थता के माध्यम से, हमारी बीमारियों को ठीक करें, भूखों को रोटी दें और हमें विनम्रता और खुशी के साथ प्यार और सेवा करने की कृपा प्रदान करें। आमीन। -।",
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Sancta Dulcis Pauperum, Angelus Bonus Salvadoriae, ora pro nobis et sana infirmos nostros.",
+      "guiaFonetica": "[Santa Dulce dos Pobres, Anjo Bom da Bahia, rogai por nós]",
+      "textoTraducido": "हे अनंत प्रेम के ईश्वर, जिन्होंने संत डल्से के हृदय में गरीबों और बीमारों के प्रति अटूट करुणा जगाई! हमारे भीतर भी वही सेवाभाव भर दीजिए। उनकी मध्यस्थता से रोगियों को चंगाई, दुखियों को शांति और हमें कृपा प्रदान कीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "tres_atos_de_caridade_ou_oracao",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81940,19 +81935,18 @@
     {
       "id": "CAT_BOL_COPACABANA_TITICACA",
       "numero": 3747,
-      "titulo": "कोपाकबाना की वर्जिन (बोलीविया की रानी) के लिए प्रार्थना",
+      "titulo": "कोपाकाबाना की माता मरियम · बोलीविया की रानी और संरक्षिका",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_altiplano_y_unidad",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "peregrino",
-        "arrepentido",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español / Aymara / Quechua",
-      "textoOriginal": "¡Virgen de Copacabana, Candelaria bendita esculpida por la devoción de Tito Yupanqui en la ribera del lago sagrado! Madre de los pueblos andinos, bendice a Bolivia y a todos tus devotos. Calma las tempestades del lago y de la vida, da salud a los enfermos, bendice nuestros viajes por las cumbres y guíanos hacia la luz de tu Divino Hijo. Amén.",
-      "guiaFonetica": "[Vir-jen de Co-pa-ca-ba-na, Can-de-la-ria ben-di-ta]",
-      "textoTraducido": "कोपाकबाना की वर्जिन, पवित्र झील के तट पर टीटो युपांक्वी की भक्ति से निर्मित धन्य कैंडेलारिया! एंडियन लोगों की माँ, बोलीविया और अपने सभी भक्तों को आशीर्वाद दें। झील और जीवन के तूफ़ानों को शांत करें, बीमारों को स्वास्थ्य प्रदान करें, शिखरों के माध्यम से हमारी यात्रा को आशीर्वाद दें और हमें अपने दिव्य पुत्र के प्रकाश की ओर मार्गदर्शन करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Aimara / Quechua",
+      "textoOriginal": "Sancta Maria de Copacabana, Regina et Patrona Boliviae, ora pro nobis et protege populum tuum.",
+      "guiaFonetica": "[Virgen de Copacabana, Reina de Bolivia, bendícenos]",
+      "textoTraducido": "हे परमपवित्र कुंवारी मरियम, कोपाकाबाना की माता, बोलीविया की महारानी और संरक्षिका! टिटिकाका झील के पावन तटों से आप सदियों से अपने भक्तों पर आशीषों और चमत्कारों का आंचल फैलाती आई हैं। हमारे परिवारों की रक्षा कीजिए, शांति बनाए रखिए और हमें दृढ़ विश्वास तथा स्वास्थ्य प्रदान कीजिए। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "challa_de_flores_o_cirio_candelaria",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81963,19 +81957,18 @@
     {
       "id": "CAT_BOL_URKUPINA_COCHABAMBA",
       "numero": 3748,
-      "titulo": "उरकुपिना की वर्जिन से प्रार्थना (एकता के संरक्षक संत",
+      "titulo": "उरकुपिना की माता मरियम · एकता, परिवार और आजीविका की संरक्षिका",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "abundancia_trabajo_y_salud",
+      "categoriaIntencion": "prosperidad_familia",
       "estadosEmocionales": [
-        "necesitado_de_sustento",
-        "trabajador",
-        "agradecido",
-        "ferviente"
+        "escasez",
+        "miedo_angustia",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español / Quechua",
-      "textoOriginal": "¡Mamita de Urkupiña, Virgen del cerro de Cota donde te apareciste a la pastorcita diciendo: «¡Urkupiña! ¡Ya está en el cerro!»! Vengo ante Ti con fe viva a pedir tu bendición para mi trabajo, mi hogar y mi salud. Así como picamos la piedra del cerro en señal de préstamo sagrado, prometo honrar tu bondad con generosidad hacia los pobres y fidelidad a Dios. Amén.",
-      "guiaFonetica": "[Ma-mi-ta de Ur-ku-pi-ña, Vir-jen del ce-rro de Co-ta]",
-      "textoTraducido": "उरकुपिना की माँ, कोटा पहाड़ी की वर्जिन जहाँ आप चरवाहा लड़की को यह कहते हुए दिखाई दिए: «उरकुपिना! \"वह पहले से ही पहाड़ी पर है!\" मैं अपने काम, अपने घर और अपने स्वास्थ्य के लिए आपका आशीर्वाद मांगने के लिए जीवंत विश्वास के साथ आपके सामने आता हूं। जिस तरह हम पवित्र ऋण के संकेत के रूप में पहाड़ी से पत्थर तोड़ते हैं, मैं गरीबों के प्रति उदारता और भगवान के प्रति निष्ठा के साथ आपकी दयालुता का सम्मान करने का वादा करता हूं। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Quechua",
+      "textoOriginal": "Sancta Maria de Urkupiña, Patrona Integrationis Nationalis, ora pro nobis et familias nostras benedic.",
+      "guiaFonetica": "[Virgen de Urkupiña, Madre de la Integración, bendícenos]",
+      "textoTraducido": "हे उरकुपिना की परमपवित्र माता मरियम, एकता और प्रेम की प्रिय संरक्षिका! कोटा की पहाड़ी पर दर्शन देने वाली दयालु माता, हमारी प्रार्थना सुनिए। हमारे परिश्रम को आशीष दीजिए, हमारे परिवारों में प्रेम व शांति बनाए रखिए और सभी कठिनाइयों को दूर कीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "piedra_del_calvario_y_ofrenda",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81986,19 +81979,18 @@
     {
       "id": "CAT_URY_VIRGEN_TREINTA_Y_TRES",
       "numero": 3749,
-      "titulo": "तैंतीस की वर्जिन के लिए प्रार्थना (उरुग्वे के संरक्षक संत",
+      "titulo": "तैंतीस की माता मरियम (Treinta y Tres) · उरुग्वे की संरक्षिका",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "paz_republicana_y_libertad",
+      "categoriaIntencion": "libertad_patria",
       "estadosEmocionales": [
-        "patriota",
-        "deseoso_de_paz",
-        "firme",
-        "esperanzado"
+        "miedo_angustia",
+        "esperanza",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español uruguayo",
-      "textoOriginal": "Virgen de los Treinta y Tres, ante cuya humilde imagen los libertadores de la Patria Oriental juraron la independencia de nuestra tierra: mira con amor al pueblo uruguayo. Concédenos la verdadera libertad de los hijos de Dios, preserva la paz republicana, ilumina a nuestros gobernantes y bendice a cada familia de este suelo oriental. Amén.",
-      "guiaFonetica": "[Vir-jen de los Trein-ta y Tres, an-te cu-ya hu-mil-de i-ma-gen]",
-      "textoTraducido": "तैंतीसवें की वर्जिन, जिनकी विनम्र छवि के सामने पूर्वी मातृभूमि के मुक्तिदाताओं ने हमारी भूमि की स्वतंत्रता की शपथ ली: उरुग्वे के लोगों को प्यार से देखें। हमें ईश्वर के बच्चों की सच्ची स्वतंत्रता प्रदान करें, गणतंत्रीय शांति की रक्षा करें, हमारे शासकों को प्रबुद्ध करें और इस पूर्वी धरती के हर परिवार को आशीर्वाद दें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Uruguayo / Latín",
+      "textoOriginal": "Sancta Maria a Triginta et Tribus, Patrona Reipublicae Orientalis Uruquariae, ora pro nobis et liberta nos.",
+      "guiaFonetica": "[Virgen de los Treinta y Tres, Libertadora y Patrona, ruega por nosotros]",
+      "textoTraducido": "हे परमपवित्र कुंवारी मरियम, तैंतीस की माता, उरुग्वे की प्रिय संरक्षिका! हम अपने परिवारों और कार्यों को आपके हाथों में सौंपते हैं। हमें पाप और फूट से मुक्त कीजिए और हमें ईश्वर से एकता, आजीविका और शांति प्रदान कराइए। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_patronales",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82031,19 +82023,18 @@
     {
       "id": "CAT_PRY_CAACUPE_TUPASY",
       "numero": 3751,
-      "titulo": "काआकुपे की कुँवारी मरियम · पराग्वे की संरक्षिका से प्रार्थना",
+      "titulo": "काआकुपे के चमत्कारों की माता मरियम · पराग्वे की संरक्षिका",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "amparo_maternal_guarani_y_fe",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "devoto",
-        "peregrino_guarani",
-        "agradecido",
-        "amparado"
+        "miedo_angustia",
+        "esperanza",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Guaraní / Español paraguayo",
-      "textoOriginal": "Tupãsy Ka'akupe, nde niko ore sy marangatuite. Ema'ẽmína ne membykuéra rehe roúva ne rendápe rojerure haḡua ndéve py'aguapy, tesãi ha tory ore rógapere. Virgen de Caacupé, Madre de todos los paraguayos: bendice a nuestra patria, cuida a los campesinos y humildes, y guíanos siempre hacia tu Hijo Jesús. Amén.",
-      "guiaFonetica": "[Tu-pan-sy Ka-a-ku-pe, nde ni-ko o-re sy ma-ran-ga-tu-i-te... E-ma-en-mi-na ne mem-by-ku-e-ra re-he]",
-      "textoTraducido": "हमारी लेडी ऑफ द असेम्प्शन, आप हमारी पवित्र माँ हैं। अपने बच्चों को देखें जो आपके पास हमारे घर में शांति, स्वास्थ्य और खुशी मांगने आते हैं। विर्जेन डी कैकुपे, सभी पराग्वेवासियों की माँ: हमारे देश को आशीर्वाद दें, किसानों और दीनों का ख्याल रखें, और हमें हमेशा अपने बेटे यीशु की ओर मार्गदर्शन करें। आमीन। ।",
+      "idiomaLiturgicoOriginal": "Guaraní / Español Paraguayo / Latín",
+      "textoOriginal": "Tupãsy Ka'akupe, Paraguái py'aguapy ha teko porã rerekua, eñembo'e ore rehe.",
+      "guiaFonetica": "[Tupãsy Ka'akupe, Virgen de los Milagros de Caacupé, ruega por nosotros]",
+      "textoTraducido": "हे काआकुपे के चमत्कारों की परमपवित्र माता मरियम, पराग्वे की प्रिय संरक्षिका! आपने संकट के समय अपने भक्तों की रक्षा की, हमारे परिवारों को अपने पवित्र आंचल में शरण दीजिए। दीनों की शरण बनिए और हमें प्रभु यीशु से शांति, स्वास्थ्य और कृपा प्रदान कराइए। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "terciario_guarani_con_canto_purahéi",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82100,19 +82091,18 @@
     {
       "id": "CAT_SLV_MONSENOR_ROMERO_AMERICA",
       "numero": 3754,
-      "titulo": "संत ऑस्कर अर्नुल्फ़ो रोमेरो को प्रार्थना (आवाज़ रहित लोगों की आवाज़",
+      "titulo": "संत ऑस्कर रोमेरो · बेजुबानों की आवाज, सत्य और शांति के शहीद",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "justicia_social_paz_y_derechos_humanos",
+      "categoriaIntencion": "justicia_paz",
       "estadosEmocionales": [
-        "perseguido_por_justicia",
-        "oprimido",
-        "valiente",
-        "pacificador"
+        "miedo_angustia",
+        "desesperacion",
+        "injusticia"
       ],
-      "idiomaLiturgicoOriginal": "Español cuscatleco",
-      "textoOriginal": "San Óscar Romero, pastor santo y mártir de Cristo que entregaste tu vida en el altar defendiendo la dignidad de los pobres y clamando por el cese de la violencia: enséñanos a no ser cómplices de la injusticia. Concédenos tu firmeza profética unida a tu profunda piedad eucarística, para construir una sociedad donde reinen la verdad, el perdón y la paz duradera. Amén.",
-      "guiaFonetica": "[San Os-car Ro-me-ro, pas-tor san-to y mar-tir de Cris-to]",
-      "textoTraducido": "संत ऑस्कर रोमेरो, मसीह के पवित्र चरवाहे और शहीद, जिन्होंने गरीबों की गरिमा की रक्षा करते हुए और हिंसा को समाप्त करने का आह्वान करते हुए वेदी पर अपना जीवन दे दिया: हमें अन्याय में भागीदार न बनने की शिक्षा दें। एक ऐसे समाज का निर्माण करने के लिए, जहां सत्य, क्षमा और स्थायी शांति का शासन हो, हमें अपनी गहरी यूचरिस्टिक धर्मपरायणता के साथ-साथ अपनी भविष्यसूचक दृढ़ता प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancte Anschari Romero, martyr iustitiae et vox pauperum, ora pro nobis.",
+      "guiaFonetica": "[San Óscar Romero, voz de los sin voz, intercede por la paz]",
+      "textoTraducido": "हे परम कृपालु पिता ईश्वर, जिन्होंने संत ऑस्कर रोमेरो को एक साहसी चरवाहा, बेजुबानों की आवाज और वेदी पर शहीद बनाया! हमें दूसरों के दर्द को समझने वाला हृदय और सत्य की रक्षा करने का साहस दीजिए। हमारे घरों और समाजों से हिंसा को दूर कीजिए और हमें शांति के निर्माता बनाइए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "oracion_ante_la_cruz_de_romero",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82207,19 +82197,18 @@
     {
       "id": "CAT_PRI_PROVIDENCIA_PATRONA",
       "numero": 3759,
-      "titulo": "हमारी लेडी ऑफ प्रोविडेंस को प्रार्थना (प्यूर्टो रिको के संरक्षक संत",
+      "titulo": "ईश्वरीय कृपा की माता मरियम (Providencia) · प्यूर्टो रिको की संरक्षिका",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "providencia_divina_y_amparo_boricua",
+      "categoriaIntencion": "providencia_proteccion",
       "estadosEmocionales": [
-        "confiado",
-        "boricua",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español puertorriqueño",
-      "textoOriginal": "¡Virgen de la Providencia, Madre de Dios y Patrona de Puerto Rico! En tus maternales manos ponemos el destino de nuestra hermosa isla del encanto, de nuestras familias y de nuestros hermanos en la diáspora. Que tu Divina Providencia nunca nos falte en el pan, en la salud, en la paz y en la fe. Defiéndenos de huracanes y tempestades, y líbranos de todo mal. Amén.",
-      "guiaFonetica": "[Vir-jen de la Pro-vi-den-cia, Ma-dre de Dios y Pa-tro-na de Puer-to Ri-co]",
-      "textoTraducido": "प्रोविडेंस की कुँवारी, ईश्वर की माँ और प्यूर्टो रिको की संरक्षिका! हम अपने खूबसूरत द्वीप, अपने परिवारों और अपने प्रवासी भाइयों की नियति आपके मातृ हाथों में सौंपते हैं। आपकी दिव्य कृपा हमें रोटी, स्वास्थ्य, शांति और विश्वास में कभी निराश न करे। तूफानों और तूफानों से हमारी रक्षा करो, और हमें सभी बुराईयों से मुक्ति दिलाओ। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Puertorriqueño / Latín",
+      "textoOriginal": "Sancta Maria a Providentia, Patrona Portus Divitis, ora pro nobis et conserva nos in pace.",
+      "guiaFonetica": "[Virgen de la Providencia, Patrona de Puerto Rico, cuida a tus hijos]",
+      "textoTraducido": "हे परमपवित्र कुंवारी मरियम, ईश्वरीय अनुग्रह की माता, प्यूर्टो रिको की प्रिय संरक्षिका! आप जो बालक यीशु को ममता से गोद में संभालती हैं, हमारे परिवारों की जरूरतों पर दया कीजिए। जीवन के तूफानों में आपका सहारा कभी कम न हो और हमें शांति, समृद्धि तथा मोक्ष प्रदान कराइए। आमीन।",
       "ritualesAsociados": {
         "tipoContador": "novena_de_la_providencia",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94130,6 +94119,182 @@
       "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
       "textoTraducido": "हे परम पवित्र कुंवारी मरियम, दुखों की माता और शहीदों की रानी! जब भविष्यवाणी की गई तलवार ने आपकी दयालु आत्मा को छेद दिया, तब आप क्रूस के पास विश्वास में दृढ़ खड़ी रहीं: हमारे जीवन के दुखों, शोकों और संकटों पर दया से दृष्टि रखें। अपने सात पवित्र दुखों के माध्यम से, हमारे लिए उदासी में सांत्वना, बीमारी में चंगाई और अपने दैनिक क्रूस को उठाने की शक्ति प्राप्त करें। पीड़ा की घड़ी में हमारी शरण बनें और अपने प्रिय पुत्र यीशु मसीह के साथ अनंत जीवन में जाने के क्षण में हमारा साथ दें। आमीन।",
       "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_MIGUEL_PRO_PALOMAR",
+      "numero": 4282,
+      "titulo": "धन्य फादर मिगुएल अगस्टिन प्रो · वीरतापूर्ण आत्मसमर्पण और ख्रीस्त राजा की जय!",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_espiritual",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
+      ],
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "¡Oh Señor Jesús, Rey de Reyes! Por la sangre y el testimonio del Beato Miguel Agustín Pro, haz que resuene en mi corazón su último grito de amor y victoria: ¡Viva Cristo Rey! Amén.",
+      "guiaFonetica": "[Viva Cristo Rey! / Oh Señor Jesús, te ofrezco mis tribulaciones unidas a tu Santa Cruz]",
+      "textoTraducido": "हे दयालु और सर्वशक्तिमान ईश्वर, जिसने धन्य मिगुएल अगस्टिन प्रो को सताव के बीच भी आनंदपूर्वक तेरी सेवा करने और अपने विश्वास पर प्राण न्योछावर करने का अनुग्रह दिया! मुझे संसार की विपत्तियों से न डरने और सुसमाचार के लिए साहसपूर्वक जीवन समर्पित करने की प्रेरणा दे। हर परीक्षा में मेरे भीतर उनका अंतिम विजयी उद्घोष गूंजता रहे: ख्रीस्त राजा की जय! उनकी मध्यस्थता मेरे परिवार को शांति, विश्वास में दृढ़ता और वह कृपा प्रदान करे जो मैं आज मांगता हूँ। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_catedral_eco"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_SAN_FELIPE_JESUS",
+      "numero": 4283,
+      "titulo": "संत फिलिप ऑफ जीसस · मेक्सिको के प्रथम शहीद, युवावस्था और क्रूस की विजय",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "perseverancia_fe",
+      "estadosEmocionales": [
+        "debilidad",
+        "tentacion",
+        "duda_espiritual"
+      ],
+      "idiomaLiturgicoOriginal": "Español Novohispano / Latín",
+      "textoOriginal": "Sancte Philippe a Iesu, primus martyr Mexicanus, ora pro nobis et pro patria nostra.",
+      "guiaFonetica": "[Sancte Philippe a Iesu, martyr gloriose, intercede pro nobis]",
+      "textoTraducido": "हे महिमामय संत फिलिप ऑफ जीसस, मेक्सिको और अमेरिका के प्रथम शहीद, जिन्होंने नागासाकी की पहाड़ी पर ख्रीस्त के प्रति प्रज्वलित प्रेम के साथ क्रूस को गले लगाया! आपने प्रभु में अमर मुकुट पाया, हमारे परिवारों और युवाओं को सभी भटकावों से बचाइए। हमें विश्वास में दृढ़ता, मन की पवित्रता और ईश्वर के प्रति पूर्ण समर्पण सिखाइए। अपनी सामर्थी मध्यस्थता से हमें आशीष और सहायता प्रदान कीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_monasterio_lejano"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_SLV_VIRGEN_DE_LA_PAZ",
+      "numero": 4284,
+      "titulo": "शांति की महारानी माता मरियम · एल साल्वाडोर की संरक्षिका और सुलह की रानी",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "conflicto_familiar",
+        "desesperacion"
+      ],
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancta Maria, Regina Pacis, Patrona Salvadoriae, ora pro nobis et reconcilia corda nostra.",
+      "guiaFonetica": "[Regina Pacis, ora pro nobis / Virgen de la Paz, ruega por nosotros]",
+      "textoTraducido": "हे परमपवित्र कुंवारी मरियम, शांति की महारानी और एल साल्वाडोर की दयालु संरक्षिका! आपने संकट और विपत्ति के समय विनाश को रोककर अपनी प्रजा पर शांति की वर्षा की, अपनी दयादृष्टि हम पर बनाए रखिए। सभी नफरत और पारिवारिक कलहों को दूर कीजिए। शांति की रानी, हमें अपने कृपा के आंचल में शरण दीजिए और हमें न्याय, प्रेम तथा क्षमा के साथ जीने की कृपा प्रदान कीजिए। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "coro_angelical_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_COL_PEDRO_CLAVER_CARTAGENA",
+      "numero": 4285,
+      "titulo": "संत पीटर क्लेवर · कोलंबिया में दासों के सेवक और परोपकार के प्रेरित",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "caridad_servicio",
+      "estadosEmocionales": [
+        "soledad",
+        "rechazo",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Colombiano / Latín",
+      "textoOriginal": "Petrus Claver, Aethiopum servus pro semper, ora pro nobis et doce nos caritatem Christi.",
+      "guiaFonetica": "[Petrus Claver, servus servorum, intercede pro nobis]",
+      "textoTraducido": "हे महिमामय संत पीटर क्लेवर, शोषितों के मसीहा और कार्टाजेना के तटों पर असहायों के अथक सेवक! आपने सदा के लिए 'दासों का दास' बनने की प्रतिज्ञा ली, हमारे दिलों में भी वही दया भर दीजिए। हमें पीड़ितों में ख्रीस्त का चेहरा देखने और स्वार्थ के बंधनों से मुक्त होने में मदद कीजिए। अपनी मध्यस्थता से हमें शांति और कृपा प्रदान कीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "mar_caribe_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_VEN_CRISTO_LA_GRITA",
+      "numero": 4286,
+      "titulo": "ला ग्रिता के पवित्र ख्रीस्त · शांत मुखमंडल, एंडीज का चमत्कार और रक्षक ढाल",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "dolor_fisico"
+      ],
+      "idiomaLiturgicoOriginal": "Español Venezolano / Latín",
+      "textoOriginal": "Domine Iesu Christe de La Grita, Redemptor noster, protege nos a terraemotu et omni malo.",
+      "guiaFonetica": "[Santo Cristo de La Grita, milagroso Protector, sálvanos]",
+      "textoTraducido": "हे ला ग्रिता के परम कृपालु पवित्र ख्रीस्त, एंडीज के प्रिय रक्षक और विपत्ति के समय अटूट शरण! हम श्रद्धापूर्वक आपके शांत मुखमंडल को निहारते हैं। दयापूर्वक अपनी आशीष की बाहें हमारे परिवारों पर फैलाइए। हमें संकटों, तूफानों और बीमारियों से बचाइए। हमारे शरीर और आत्मा को चंगाई दीजिए और वह कृपा प्रदान कीजिए जो हम आपके क्रूस के चरणों में रखते हैं। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "viento_andino_campanadas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PAN_SANTA_MARIA_ANTIGUA",
+      "numero": 4287,
+      "titulo": "सांता मारिया ला एंटीगुआ · पनामा की संरक्षिका और ममतामयी माता",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_maternal",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Panameño / Latín",
+      "textoOriginal": "Sancta Maria La Antigua, Prima Sedis Americae Patrona, ora pro nobis et protege populum Panamensem.",
+      "guiaFonetica": "[Santa Maria La Antigua, Patrona de Panamá, ruega por nosotros]",
+      "textoTraducido": "हे परमपवित्र कुंवारी मरियम, सांता मारिया ला एंटीगुआ, पनामा की ममतामयी माता और संरक्षिका! आपने अमेरिकी महाद्वीप में विश्वास की सुबह को देखा और अपनी गोद में बालक यीशु को संभाला, हमारे परिवारों की रक्षा कीजिए। जीवन के तूफानों में हमारा प्रकाशस्तंभ बनिए और हमें शांति, सुरक्षा तथा ईश्वर का अनुग्रह प्रदान कीजिए। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "ondas_marinas_campanas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PER_VIRGEN_PUERTA_OTUZCO",
+      "numero": 4288,
+      "titulo": "ओतुज़्को के द्वार की माता मरियम · महामारियों और विपत्तियों से रक्षक ढाल",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "enfermedad",
+        "peligro_enemigos"
+      ],
+      "idiomaLiturgicoOriginal": "Español Peruano / Quechua / Latín",
+      "textoOriginal": "Sancta Maria ad Portam, Regina Pacis et Tutela Septentrionis Peruviani, ora pro nobis.",
+      "guiaFonetica": "[Mamita de la Puerta, Reina de Otuzco, protégenos de todo mal]",
+      "textoTraducido": "हे द्वार की परम दयालु माता मरियम, ओतुज़्को की प्रिय माता और उत्तरी पेरू की संरक्षिका! आपने नगर के द्वारों पर खड़े होकर अपनी संतानों को महामारियों और खतरों से बचाया, आज हमारे घर और आत्मा के द्वारों की रक्षक बनिए। बुराई और बीमारी के रास्ते बंद कीजिए और हमारे लिए स्वास्थ्य, आजीविका तथा ईश्वरीय दया के द्वार खोलिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "viento_andino_quena"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_BRA_BOM_JESUS_MATOSINHOS",
+      "numero": 4289,
+      "titulo": "मातोसिन्योस के भले प्रभु यीशु (Bom Jesus) · दया और चंगाई का असीम स्रोत",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "misericordia",
+      "estadosEmocionales": [
+        "dolor_fisico",
+        "desesperacion",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Senhor Bom Jesus de Matosinhos, Redentor do mundo, compadecei-vos de nós e de nossas famílias.",
+      "guiaFonetica": "[Senhor Bom Jesus de Matosinhos, tende piedade de nós]",
+      "textoTraducido": "हे मातोसिन्योस के भले प्रभु यीशु, हमारे प्रिय मुक्तिदाता जो सभी भक्तों पर अपनी असीम दया बरसाते हैं! अपने पवित्र दुखों और घावों के बल पर हमारी प्रार्थनाएं स्वीकार कीजिए, हमारे तन-मन के रोगों को चंगा कीजिए और हमारे परिवारों को आशीष दीजिए। विपत्ति के समय हमारी शरण बनिए और अपनी कृपा प्रदान कीजिए। हमारे प्रभु ख्रीस्त के द्वारा। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "sinos_barrocos_minas"
+      },
       "dir": "ltr"
     }
   ]

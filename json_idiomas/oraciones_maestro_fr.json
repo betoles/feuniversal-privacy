@@ -4,10 +4,10 @@
     "idioma": "fr",
     "nombreIdioma": "Français (French)",
     "dir": "ltr",
-    "total_oraciones": 4251,
+    "total_oraciones": 4289,
     "estandar": "FeUniversal-GrandSiecle-Liturgique-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4281
+    "totalOraciones": 4289
   },
   "oraciones": [
     {
@@ -82,18 +82,18 @@
     {
       "id": "SAN_CAYETANO_PROSPERIDAD",
       "numero": 4,
-      "titulo": "Saint Gaëtan · Ouverture des Chemins, Travail et Subsistance Honnête",
+      "titulo": "Saint Gaétan de Thiene · Père de la Divine Providence, Pain et Travail",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "prosperite_travail",
+      "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
-        "necesidad_escasez",
-        "confusion_doute",
-        "desespoir"
+        "desesperacion",
+        "escasez",
+        "miedo_angustia"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol Canónico",
-      "textoOriginal": "San Cayetano glorioso, padre de la divina providencia,\nintercede ante el Señor para que en mi hogar nunca falte la paz, la salud y el trabajo bendito. Amén.",
-      "guiaFonetica": "[San Ka-ye-tá-no glo-rió-so...]",
-      "textoTraducido": "Glorieux Saint Gaëtan, intercesseur du travail et de la provision, ouvre les portes de la bénédiction du travail et multiplie la subsistance honnête dans ma maison. Amen.",
+      "idiomaLiturgicoOriginal": "Español / Italiano / Latín",
+      "textoOriginal": "Sancte Caietane Thienaei, Patrone Providentiae et Laboris, ora pro nobis et impetra nobis panem quotidianum.",
+      "guiaFonetica": "[San Cayetano, Padre de Providencia, alcánzanos pan y trabajo]",
+      "textoTraducido": "Ô glorieux Saint Gaétan de Thiene, Père de la Divine Providence et défenseur des nécessiteux ! Toi qui as mis toute ta confiance dans le Seigneur, regarde-nous avec compassion. Fais que ne manquent jamais dans nos foyers le pain quotidien, un travail digne pour subvenir aux besoins de nos familles et la santé pour l'accomplir. Éloigne la détresse du besoin et accorde-nous de vivre dans la paix de Dieu. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "trente_trois",
         "duracionVeladoraSugeridaHoras": 72,
@@ -237,19 +237,18 @@
     {
       "id": "VIRGEN_LUJAN_ARGENTINA",
       "numero": 11,
-      "titulo": "Notre-Dame de Luján · Manteau Maternel de la Patrie et du Foyer",
+      "titulo": "Notre-Dame de Luján · Patronne de l'Argentine et Mère du Cône Sud",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "protection",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "peur_angoisse",
-        "soledad_vacio",
-        "tristesse_deuil",
-        "desespoir"
+        "miedo_angustia",
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol Litúrgico & Latin",
-      "textoOriginal": "¡Virgen Santísima de Luján, Madre de Dios y Madre nuestra!\nHumildemente postrados a tus plantas, te consagramos nuestros hogares, nuestras alegrías y nuestras penas.\nGuarda a nuestra tierra, defiende a los desvalidos y alcánzanos de tu divino Hijo la paz y la concordia.\nBajo tu manto celeste y blanco ponemos nuestra esperanza. Amén.",
-      "guiaFonetica": "[Vír-jen San-tí-si-ma de Lu-ján, Má-dre de Diós y Má-dre nués-tra...]",
-      "textoTraducido": "Sainte Vierge de Luján, Mère de Dieu et notre Mère ! Humblement prosternés devant vos plantes, nous vous consacrons nos maisons, nos joies et nos peines. Gardez notre terre, défendez les impuissants et obtenez la paix et l’harmonie de votre divin Fils. Amen.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "Ô Très Sainte Vierge Marie, Notre-Dame de Luján, Patronne de l'Argentine et Mère bienveillante du Cône Sud ! Toi qui as choisi de demeurer sur les rives du Luján, écoute les prières de tes enfants. Protège nos familles, réconforte les malades et préserve la paix. Mère de Luján, obtiens-nous de ton Fils Jésus la santé, la protection et la grâce demandée. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -20700,7 +20699,7 @@
     {
       "id": "CAT_AR_VIRGEN_LUJAN",
       "numero": 944,
-      "titulo": "Notre-Dame de Luján – Patronne de l’Argentine et Protectrice du Cône Sud",
+      "titulo": "Notre-Dame de Luján · Patronne de l'Argentine et Mère du Cône Sud",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paix_interieure",
       "estadosEmocionales": [
@@ -20709,9 +20708,9 @@
         "proteccion"
       ],
       "idiomaLiturgicoOriginal": "Latin / Espagnol / Portugais / Italien",
-      "textoOriginal": "Virgen de Luján, Madre del pueblo y auxilio en las encrucijadas, bendice a tus hijos.",
-      "guiaFonetica": "Virgen de Lujan, Madre purisima...",
-      "textoTraducido": "Sainte Mère de Luján ! Qui s'est arrêté au bord du fleuve pour rester parmi les humbles : accueillez nos supplications avec un amour maternel. Unissez les frères divisés, protégez le pain et le travail des familles dans le besoin, défendez le pays de toute discorde et conduisez-nous toujours à Jésus, le chemin, la vérité et la vie. Amen.",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "Ô Très Sainte Vierge Marie, Notre-Dame de Luján, Patronne de l'Argentine et Mère bienveillante du Cône Sud ! Toi qui as choisi de demeurer sur les rives du Luján, écoute les prières de tes enfants. Protège nos familles, réconforte les malades et préserve la paix. Mère de Luján, obtiens-nous de ton Fils Jésus la santé, la protection et la grâce demandée. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_50",
         "duracionVeladoraSugeridaHoras": 8,
@@ -59113,19 +59112,18 @@
     {
       "id": "CAT_ARG_CURA_BROCHERO",
       "numero": 2731,
-      "titulo": "Prière au Saint Prêtre Brochero (Le Prêtre Gaucho)",
+      "titulo": "Saint Curé Brochero · Le Saint Gaucho, Apôtre des Sierras et Pasteur Zélé",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Fortaleza_Enfermedad_Y_Servicio",
+      "categoriaIntencion": "fortaleza_caridad",
       "estadosEmocionales": [
-        "enfermo",
-        "cansado",
-        "servicial",
-        "confiado"
+        "cansancio",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol criollo",
-      "textoOriginal": "Señor, que hiciste de San José Gabriel del Rosario Brochero un pastor incansable a lomo de mula por las sierras, amigo de los pobres y consuelo de los enfermos hasta entregar su propia salud: concédenos su mismo celo por el prójimo, su valentía ante la adversidad y su alegría evangélica. Por su intercesión, sana a nuestros enfermos y danos un corazón gaucho, noble y generoso. Amén.",
-      "guiaFonetica": "[Se-ñor, que hi-cis-te de San Jo-se Ga-briel del Ro-sa-rio Bro-che-ro un pas-tor in-can-sa-ble a lo-mo de mu-la]",
-      "textoTraducido": "Saint Prêtre Brochero, berger des montagnes et ami des humbles : accompagne nos travaux, bénis nos chemins et donne-nous santé et force de la part de Dieu. Amen.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancte Iosephe Gabriel Brochero, Pastor animarum in montibus, ora pro nobis et adiuva nos.",
+      "guiaFonetica": "[Santo Cura Brochero, pastor gaucho con olor a oveja, ruega por nosotros]",
+      "textoTraducido": "Ô Dieu tout-puissant, qui as suscité Saint José Gabriel Brochero comme un pasteur infatigable au service des pauvres et des malades ! Apprends-nous la générosité et la persévérance. Par sa puissante intercession, accorde-nous la force dans la foi, la santé et la grâce que nous implorons avec confiance. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_con_mate_o_silencio",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81825,19 +81823,18 @@
     {
       "id": "CAT_MEX_JOSE_SANCHEZ_RIO_JOSELITO",
       "numero": 3742,
-      "titulo": "Prière à San José Sánchez du Río (Le Jeune Martyr Cristero)",
+      "titulo": "Saint José Sánchez del Río (Joselito) · Fidélité Invincible au Christ Roi",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Valentia_Juvenil_Y_Militancia_Santa",
+      "categoriaIntencion": "valentia_fidelidad",
       "estadosEmocionales": [
-        "joven",
-        "perseguido",
-        "valiente",
-        "inquebrantable"
+        "miedo_angustia",
+        "persecucion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol",
-      "textoOriginal": "San Joselito, niño mártir de Sahuayo que con tus piececitos desollados caminaste hacia el camposanto sin doblegar tu fe diciendo: «¡Nunca ha sido tan fácil ganarse el cielo!»: alcánzanos tu misma valentía. Que la juventud de hoy no se venda a los placeres vanos ni al miedo, sino que confiese con gallardía a Cristo Rey y a la Virgen de Guadalupe. ¡Viva Cristo Rey! Amén.",
-      "guiaFonetica": "San Jo-se-li-to, ni-ño mar-tir de Sa-hua-yo... ¡Vi-va Cris-to Rey! A-mén.",
-      "textoTraducido": "Saint José Sánchez del Río : intercède pour les jeunes du monde entier, afin qu'ils restent fermes dans la foi, la pureté et le courage évangélique. Amen.",
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "Sancte Iosephe Sanchez del Rio, martyr Christi Regis, ora pro nobis. ¡Viva Cristo Rey y Santa María de Guadalupe!",
+      "guiaFonetica": "[¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Joselito, intercede por nosotros]",
+      "textoTraducido": "Ô glorieux Saint José Sánchez del Río, jeune martyr et témoin intrépide du Royaume de Dieu ! Toi qui, à quatorze ans à peine, as offert ta vie pour le Christ en proclamant : 'Il n'a jamais été si facile de gagner le ciel ! Vive le Christ Roi ! Vive Notre-Dame de Guadalupe !', prie pour nous. Accorde-nous la force de défendre notre foi et la fidélité en toute épreuve. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "tres_padrenuestros_cristeros",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81871,19 +81868,18 @@
     {
       "id": "CAT_BRA_FREI_GALVAO_PILULAS",
       "numero": 3744,
-      "titulo": "Prière de São Frei Galvão (Pílulas de Graça et Saúde)",
+      "titulo": "Saint Frei Galvão · Premier Saint Brésilien, Pilules de Foi et Accouchement Paisible",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Parto_Dificil_Y_Cura_Enfermidades",
+      "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
-        "enfermo",
-        "parturienta",
-        "aflito",
-        "curado"
+        "enfermedad",
+        "miedo_angustia",
+        "maternidad"
       ],
-      "idiomaLiturgicoOriginal": "Portugais / Latin",
-      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. São Frei Antônio de Sant'Anna Galvão, homem de paz e caridade: vós que pelo poder da oração e da santa medalha socorrestes tantas mães em partos aflitivos e enfermos desesperados, intercedei a Deus por esta minha necessidade (pedir a graça). Restabelecei a minha saúde e fazei-me viver na graça divina. Amém.",
-      "guiaFonetica": "Post par-tum, Vir-go, in-vio-la-ta per-man-sis-ti... Saw Fray An-to-nio de San-tAn-na Gal-vaw... A-maym.",
-      "textoTraducido": "Saint Frei Galvão, médecin des corps et des âmes : intercède pour les mères en accouchement difficile et pour les malades, en répandant la paix, le soulagement et une prompte guérison. Amen.",
+      "idiomaLiturgicoOriginal": "Português / Latín",
+      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. Sancte Antonius de Sancta Anna Galvão, ora pro nobis.",
+      "guiaFonetica": "[São Frei Galvão, arauto da paz e da caridade, rogai por nós]",
+      "textoTraducido": "Ô Dieu d'infinie miséricorde, qui as fait de Saint Antoine de Sainte Anne Galvão un instrument admirable de réconfort pour les malades et les mères en couches ! Par les mérites de la Très Sainte Vierge Marie, exauce notre prière. Accorde la santé aux malades, protège les femmes enceintes et donne-nous par son intercession le secours céleste dont nous avons besoin. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "pilula_devocional_com_agua_benta",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81894,19 +81890,18 @@
     {
       "id": "CAT_BRA_IRMA_DULCE_POBRES",
       "numero": 3745,
-      "titulo": "Prière à Sainte Douce des Pauvres (O Anjo Bom da Bahia)",
+      "titulo": "Sainte Dulce des Pauvres (Irmã Dulce) · Le Bon Ange de Bahia",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Caridade_Incondicional_Y_Consolo",
+      "categoriaIntencion": "caridad_salud",
       "estadosEmocionales": [
-        "desamparado",
-        "carente_de_amor",
-        "generoso",
-        "consolado"
+        "enfermedad",
+        "desesperacion",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Portugais brasileiro",
-      "textoOriginal": "Senhor nosso Deus, que concedestes a Santa Dulce dos Pobres um amor infinito aos mais pequeninos, aos enfermos das ruas e aos abandonados: dai-nos o mesmo coração generoso para enxergar o Vosso rosto em cada irmão que sofre. Por sua intercessão, curai as nossas enfermidades, dai pão aos famintos e concedei-nos a graça de amar e servir com humildade e alegria. Amém.",
-      "guiaFonetica": "Se-nhor nos-so Dews, ke kon-se-des-tes a San-ta Dul-se doosh Po-bresh... A-maym.",
-      "textoTraducido": "Sainte Dulce des Pauvres, Bon Ange de Bahia : apprends-nous à aimer les malades et les abandonnés avec ta même tendresse, et accorde-nous de Dieu santé et consolation dans les épreuves. Amen.",
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Sancta Dulcis Pauperum, Angelus Bonus Salvadoriae, ora pro nobis et sana infirmos nostros.",
+      "guiaFonetica": "[Santa Dulce dos Pobres, Anjo Bom da Bahia, rogai por nós]",
+      "textoTraducido": "Ô Dieu d'amour infini, qui as embrasé le cœur de Sainte Dulce des Pauvres d'une charité sans borne envers les malades et les démunis ! Répands en nous son esprit d'amour fraternel. Accorde par son intercession la guérison aux malades, le réconfort aux affligés et la grâce que nous te confions. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "tres_atos_de_caridade_ou_oracao",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81940,19 +81935,18 @@
     {
       "id": "CAT_BOL_COPACABANA_TITICACA",
       "numero": 3747,
-      "titulo": "Supplication à la Vierge de Copacabana (Reine de Bolivie)",
+      "titulo": "Notre-Dame de Copacabana · Reine et Patronne de la Bolivie",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Altiplano_Y_Unidad",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "peregrino",
-        "arrepentido",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol / Aymara / Quechua",
-      "textoOriginal": "¡Virgen de Copacabana, Candelaria bendita esculpida por la devoción de Tito Yupanqui en la ribera del lago sagrado! Madre de los pueblos andinos, bendice a Bolivia y a todos tus devotos. Calma las tempestades del lago y de la vida, da salud a los enfermos, bendice nuestros viajes por las cumbres y guíanos hacia la luz de tu Divino Hijo. Amén.",
-      "guiaFonetica": "[Vir-jen de Co-pa-ca-ba-na, Can-de-la-ria ben-di-ta]",
-      "textoTraducido": "Vierge de Copacabana, Lumière du Titicaca et Mère de la Bolivie : protégez les voyageurs, bénissez nos maisons et régnez dans les cœurs de votre divine tendresse. Amen.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Aimara / Quechua",
+      "textoOriginal": "Sancta Maria de Copacabana, Regina et Patrona Boliviae, ora pro nobis et protege populum tuum.",
+      "guiaFonetica": "[Virgen de Copacabana, Reina de Bolivia, bendícenos]",
+      "textoTraducido": "Ô Très Sainte Vierge Marie, Notre-Dame de Copacabana, Reine et Patronne de la Bolivie ! Depuis les rives sacrées du lac Titicaca, tu répands ton manteau de bénédiction et de miracles sur tes enfants. Protège nos familles de tout mal, préserve la paix et obtiens-nous une foi inébranlable, la santé et la grâce demandée. Amen.",
       "ritualesAsociados": {
         "tipoContador": "challa_de_flores_o_cirio_candelaria",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81963,19 +81957,18 @@
     {
       "id": "CAT_BOL_URKUPINA_COCHABAMBA",
       "numero": 3748,
-      "titulo": "Prière à la Vierge d'Urkupiña (Sainte Patronne de l'Intégration)",
+      "titulo": "Notre-Dame d'Urkupiña · Patronne de l'Intégration, du Foyer et du Travail",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Abundancia_Trabajo_Y_Salud",
+      "categoriaIntencion": "prosperidad_familia",
       "estadosEmocionales": [
-        "necesitado_de_sustento",
-        "trabajador",
-        "agradecido",
-        "ferviente"
+        "escasez",
+        "miedo_angustia",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol / Quechua",
-      "textoOriginal": "¡Mamita de Urkupiña, Virgen del cerro de Cota donde te apareciste a la pastorcita diciendo: «¡Urkupiña! ¡Ya está en el cerro!»! Vengo ante Ti con fe viva a pedir tu bendición para mi trabajo, mi hogar y mi salud. Así como picamos la piedra del cerro en señal de préstamo sagrado, prometo honrar tu bondad con generosidad hacia los pobres y fidelidad a Dios. Amén.",
-      "guiaFonetica": "[Ma-mi-ta de Ur-ku-pi-ña, Vir-jen del ce-rro de Co-ta]",
-      "textoTraducido": "Mamita de Urkupiña, Vierge de l'Intégration : bénis notre travail honnête, multiplie nos moyens de subsistance et garde nos familles unies. Amen.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Quechua",
+      "textoOriginal": "Sancta Maria de Urkupiña, Patrona Integrationis Nationalis, ora pro nobis et familias nostras benedic.",
+      "guiaFonetica": "[Virgen de Urkupiña, Madre de la Integración, bendícenos]",
+      "textoTraducido": "Ô Très Sainte Vierge d'Urkupiña, douce Mère et Patronne de l'Intégration ! Toi qui es apparue sur la colline de Cota, écoute la prière de tes enfants. Bénis le fruit de notre travail, multiplie le pain sur nos tables et accorde-nous un foyer uni dans la foi et l'amour. Éloigne toute épreuve et obtiens-nous la bénédiction divine. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "piedra_del_calvario_y_ofrenda",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81986,19 +81979,18 @@
     {
       "id": "CAT_URY_VIRGEN_TREINTA_Y_TRES",
       "numero": 3749,
-      "titulo": "Prière à la Vierge des Trente-Trois (Sainte Patronne de l'Uruguay)",
+      "titulo": "Notre-Dame des Trente-Trois · Patronne de l'Uruguay et Mère de la Liberté",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Paz_Republicana_Y_Libertad",
+      "categoriaIntencion": "libertad_patria",
       "estadosEmocionales": [
-        "patriota",
-        "deseoso_de_paz",
-        "firme",
-        "esperanzado"
+        "miedo_angustia",
+        "esperanza",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol uruguayo",
-      "textoOriginal": "Virgen de los Treinta y Tres, ante cuya humilde imagen los libertadores de la Patria Oriental juraron la independencia de nuestra tierra: mira con amor al pueblo uruguayo. Concédenos la verdadera libertad de los hijos de Dios, preserva la paz republicana, ilumina a nuestros gobernantes y bendice a cada familia de este suelo oriental. Amén.",
-      "guiaFonetica": "[Vir-jen de los Trein-ta y Tres, an-te cu-ya hu-mil-de i-ma-gen]",
-      "textoTraducido": "Vierge des Trente-Trois, Mère et Patronne de l'Uruguay : prenez soin de notre pays, favorisez l'harmonie entre les frères et soyez la protection des foyers orientaux. Amen.",
+      "idiomaLiturgicoOriginal": "Español Uruguayo / Latín",
+      "textoOriginal": "Sancta Maria a Triginta et Tribus, Patrona Reipublicae Orientalis Uruquariae, ora pro nobis et liberta nos.",
+      "guiaFonetica": "[Virgen de los Treinta y Tres, Libertadora y Patrona, ruega por nosotros]",
+      "textoTraducido": "Ô Très Sainte Vierge Marie, Notre-Dame des Trente-Trois, Patronne et Protectrice de l'Uruguay ! Nous te confions nos foyers et nos projets. Libère-nous du péché et des divisions, et obtiens-nous de Dieu la concorde, le travail et la paix. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_patronales",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82031,19 +82023,18 @@
     {
       "id": "CAT_PRY_CAACUPE_TUPASY",
       "numero": 3751,
-      "titulo": "Ñembo'e Tupãsy Ka'akupépe (Supplication à la Vierge de Caacupé)",
+      "titulo": "Notre-Dame de Caacupé (Tupãsy Ka'akupe) · Patronne du Paraguay",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Amparo_Maternal_Guarani_Y_Fe",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "devoto",
-        "peregrino_guarani",
-        "agradecido",
-        "amparado"
+        "miedo_angustia",
+        "esperanza",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Guaraní / Espagnol paraguayo",
-      "textoOriginal": "Tupãsy Ka'akupe, nde niko ore sy marangatuite. Ema'ẽmína ne membykuéra rehe roúva ne rendápe rojerure haḡua ndéve py'aguapy, tesãi ha tory ore rógapere. Virgen de Caacupé, Madre de todos los paraguayos: bendice a nuestra patria, cuida a los campesinos y humildes, y guíanos siempre hacia tu Hijo Jesús. Amén.",
-      "guiaFonetica": "[Tu-pan-sy Ka-a-ku-pe, nde ni-ko o-re sy ma-ran-ga-tu-i-te... E-ma-en-mi-na ne mem-by-ku-e-ra re-he]",
-      "textoTraducido": "Vierge de Caacupé, Sainte Mère du Paraguay : regardez avec tendresse vos enfants qui viennent dans vos plantes. Accorde-nous la paix, la santé et la bénédiction dans nos foyers. Amen.",
+      "idiomaLiturgicoOriginal": "Guaraní / Español Paraguayo / Latín",
+      "textoOriginal": "Tupãsy Ka'akupe, Paraguái py'aguapy ha teko porã rerekua, eñembo'e ore rehe.",
+      "guiaFonetica": "[Tupãsy Ka'akupe, Virgen de los Milagros de Caacupé, ruega por nosotros]",
+      "textoTraducido": "Ô Très Sainte Vierge des Miracles de Caacupé, douce Tupãsy Ka'akupe et Patronne du Paraguay ! Toi qui as sauvé miraculeusement tes enfants en péril, abrite nos familles sous ton saint manteau. Sois le refuge des humbles et obtiens-nous de ton Fils Jésus la paix, la santé et la grâce demandée. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "terciario_guarani_con_canto_purahéi",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82100,19 +82091,18 @@
     {
       "id": "CAT_SLV_MONSENOR_ROMERO_AMERICA",
       "numero": 3754,
-      "titulo": "Prière à Saint Óscar Arnulfo Romero (Voix des sans voix)",
+      "titulo": "Saint Oscar Romero · Voix des Sans-Voix, Martyr de la Vérité et de la Paix",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Justicia_Social_Paz_Y_Derechos_Humanos",
+      "categoriaIntencion": "justicia_paz",
       "estadosEmocionales": [
-        "perseguido_por_justicia",
-        "oprimido",
-        "valiente",
-        "pacificador"
+        "miedo_angustia",
+        "desesperacion",
+        "injusticia"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol cuscatleco",
-      "textoOriginal": "San Óscar Romero, pastor santo y mártir de Cristo que entregaste tu vida en el altar defendiendo la dignidad de los pobres y clamando por el cese de la violencia: enséñanos a no ser cómplices de la injusticia. Concédenos tu firmeza profética unida a tu profunda piedad eucarística, para construir una sociedad donde reinen la verdad, el perdón y la paz duradera. Amén.",
-      "guiaFonetica": "[San Os-car Ro-me-ro, pas-tor san-to y mar-tir de Cris-to]",
-      "textoTraducido": "Saint Óscar Romero, voix des sans voix : intercède pour la paix dans nos villages, défend les plus vulnérables et nous insuffle le courage évangélique. Amen.",
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancte Anschari Romero, martyr iustitiae et vox pauperum, ora pro nobis.",
+      "guiaFonetica": "[San Óscar Romero, voz de los sin voz, intercede por la paz]",
+      "textoTraducido": "Ô Dieu Père très bon, qui as fait de Saint Oscar Romero un pasteur courageux, la voix des sans-voix et un martyr au pied de l'autel ! Donne-nous un cœur attentif aux souffrances d'autrui et le courage de défendre la vérité. Fais cesser la violence et accorde-nous d'être des artisans de paix et de réconciliation. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "oracion_ante_la_cruz_de_romero",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82207,19 +82197,18 @@
     {
       "id": "CAT_PRI_PROVIDENCIA_PATRONA",
       "numero": 3759,
-      "titulo": "Prière à Notre-Dame de la Providence (Sainte Patronne de Porto Rico)",
+      "titulo": "Notre-Dame de la Providence · Patronne de Porto Rico",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Providencia_Divina_Y_Amparo_Boricua",
+      "categoriaIntencion": "providencia_proteccion",
       "estadosEmocionales": [
-        "confiado",
-        "boricua",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Espagnol puertorriqueño",
-      "textoOriginal": "¡Virgen de la Providencia, Madre de Dios y Patrona de Puerto Rico! En tus maternales manos ponemos el destino de nuestra hermosa isla del encanto, de nuestras familias y de nuestros hermanos en la diáspora. Que tu Divina Providencia nunca nos falte en el pan, en la salud, en la paz y en la fe. Defiéndenos de huracanes y tempestades, y líbranos de todo mal. Amén.",
-      "guiaFonetica": "[Vir-jen de la Pro-vi-den-cia, Ma-dre de Dios y Pa-tro-na de Puer-to Ri-co]",
-      "textoTraducido": "Notre-Dame de la Providence : prenez soin de Porto Rico et de ses familles ; Que ta providence aimante ne nous abandonne jamais. Amen.",
+      "idiomaLiturgicoOriginal": "Español Puertorriqueño / Latín",
+      "textoOriginal": "Sancta Maria a Providentia, Patrona Portus Divitis, ora pro nobis et conserva nos in pace.",
+      "guiaFonetica": "[Virgen de la Providencia, Patrona de Puerto Rico, cuida a tus hijos]",
+      "textoTraducido": "Ô Très Sainte Vierge Marie, Notre-Dame de la Divine Providence, Patronne de Porto Rico ! Toi qui berces l'Enfant Jésus avec une infinie douceur, veille sur nos foyers. Que ta providence maternelle ne nous fasse jamais défaut dans les épreuves et obtiens-nous de Dieu la paix, la sérénité et la grâce du salut. Par le Christ notre Seigneur. Amen.",
       "ritualesAsociados": {
         "tipoContador": "novena_de_la_providencia",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94130,6 +94119,182 @@
       "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
       "textoTraducido": "Ô Très Sainte Vierge Marie, Mère des Douleurs et Reine des Martyrs ! Toi qui, au pied de la Croix, es restée debout dans la foi lorsque le glaive prophétisé transperça ton âme compatissante : regarde avec pitié les peines, les deuils et les tribulations de nos vies. Par tes Sept Saintes Douleurs, obtiens-nous la consolation dans la tristesse, la santé dans la maladie et la force d'embrasser notre croix quotidienne. Sois notre refuge dans la douleur et accompagne-nous à l'heure de notre passage vers la vie éternelle avec ton Fils bien-aimé Jésus-Christ. Amen.",
       "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_MIGUEL_PRO_PALOMAR",
+      "numero": 4282,
+      "titulo": "Bienheureux Père Miguel Agustín Pro · Offrande Héroïque et Vive le Christ Roi !",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_espiritual",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
+      ],
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "¡Oh Señor Jesús, Rey de Reyes! Por la sangre y el testimonio del Beato Miguel Agustín Pro, haz que resuene en mi corazón su último grito de amor y victoria: ¡Viva Cristo Rey! Amén.",
+      "guiaFonetica": "[Viva Cristo Rey! / Oh Señor Jesús, te ofrezco mis tribulaciones unidas a tu Santa Cruz]",
+      "textoTraducido": "Ô Dieu miséricordieux et tout-puissant, qui as accordé au Bienheureux Miguel Agustín Pro la grâce de Te servir avec joie au milieu de la persécution et de sceller sa fidélité par un martyre héroïque ! Apprends-moi à ne point craindre les épreuves de ce monde et à offrir ma vie avec vaillance pour l'Évangile. Qu'à chaque épreuve résonne en mon âme son ultime cri invaincu : Vive le Christ Roi ! Que son intercession apporte la paix à mon foyer, l'affermissement de ma foi et la grâce que je Te supplie d'accorder. Par le Christ notre Seigneur. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_catedral_eco"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_SAN_FELIPE_JESUS",
+      "numero": 4283,
+      "titulo": "Saint Philippe de Jésus · Premier Martyr Mexicain, Jeunesse et Victoire sur la Croix",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "perseverancia_fe",
+      "estadosEmocionales": [
+        "debilidad",
+        "tentacion",
+        "duda_espiritual"
+      ],
+      "idiomaLiturgicoOriginal": "Español Novohispano / Latín",
+      "textoOriginal": "Sancte Philippe a Iesu, primus martyr Mexicanus, ora pro nobis et pro patria nostra.",
+      "guiaFonetica": "[Sancte Philippe a Iesu, martyr gloriose, intercede pro nobis]",
+      "textoTraducido": "Ô glorieux Saint Philippe de Jésus, premier martyr du Mexique et des Amériques, qui as embrassé la Sainte Croix sur la colline de Nagasaki avec un amour brûlant pour le Christ ! Toi qui, après une jeunesse agitée, as trouvé dans le Seigneur la plénitude et la couronne immortelle, protège nos familles et la jeunesse dans leurs épreuves. Enseigne-nous la persévérance et la fidélité à Dieu. Obtiens-nous la grâce et le secours que nous sollicitons aujourd'hui. Par le Christ notre Seigneur. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_monasterio_lejano"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_SLV_VIRGEN_DE_LA_PAZ",
+      "numero": 4284,
+      "titulo": "Notre-Dame de la Paix · Patronne d'El Salvador et Reine de la Réconciliation",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "conflicto_familiar",
+        "desesperacion"
+      ],
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancta Maria, Regina Pacis, Patrona Salvadoriae, ora pro nobis et reconcilia corda nostra.",
+      "guiaFonetica": "[Regina Pacis, ora pro nobis / Virgen de la Paz, ruega por nosotros]",
+      "textoTraducido": "Ô Très Sainte Vierge Marie, Notre-Dame de la Paix, douce Reine et Patronne d'El Salvador ! Toi qui aux heures de détresse as arrêté la destruction pour répandre la concorde sur ton peuple, tourne vers nous tes yeux miséricordieux. Désarme les rancœurs, guéris les blessures de nos familles et apaise nos cœurs. Reine de la Paix, abrite-nous sous ton manteau béni et obtiens-nous de vivre dans la justice, la fraternité et le pardon. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "coro_angelical_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_COL_PEDRO_CLAVER_CARTAGENA",
+      "numero": 4285,
+      "titulo": "Saint Pierre Claver · Esclave des Esclaves à Carthagène et Apôtre de la Charité",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "caridad_servicio",
+      "estadosEmocionales": [
+        "soledad",
+        "rechazo",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Colombiano / Latín",
+      "textoOriginal": "Petrus Claver, Aethiopum servus pro semper, ora pro nobis et doce nos caritatem Christi.",
+      "guiaFonetica": "[Petrus Claver, servus servorum, intercede pro nobis]",
+      "textoTraducido": "Ô glorieux Saint Pierre Claver, apôtre des opprimés et serviteur infatigable des affligés à Carthagène ! Toi qui fis le vœu héroïque d'être 'l'esclave des esclaves pour toujours', répands dans nos âmes ta charité compatissante. Aide-nous à reconnaître le Christ chez les pauvres et brise les chaînes de notre égoïsme. Obtiens-nous par ton intercession la paix, la santé et la grâce que nous sollicitons. Par le Christ notre Seigneur. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "mar_caribe_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_VEN_CRISTO_LA_GRITA",
+      "numero": 4286,
+      "titulo": "Saint Christ de La Grita · Visage Serein, Miracle des Andes et Bouclier Protecteur",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "dolor_fisico"
+      ],
+      "idiomaLiturgicoOriginal": "Español Venezolano / Latín",
+      "textoOriginal": "Domine Iesu Christe de La Grita, Redemptor noster, protege nos a terraemotu et omni malo.",
+      "guiaFonetica": "[Santo Cristo de La Grita, milagroso Protector, sálvanos]",
+      "textoTraducido": "Ô très doux Saint Christ de La Grita, Protecteur bien-aimé des Andes et refuge inébranlable dans l'affliction ! Nous contemplons avec ferveur ton visage serein sculpté par des mains célestes. Regarde-nous avec miséricorde et étends tes bras bénis sur nos foyers. Préserve-nous des catastrophes, des tempêtes et des maux. Accorde-nous la guérison et la grâce que nous déposons au pied de ta Sainte Croix. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "viento_andino_campanadas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PAN_SANTA_MARIA_ANTIGUA",
+      "numero": 4287,
+      "titulo": "Sainte Marie l'Ancienne (Santa María la Antigua) · Patronne du Panama",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_maternal",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Panameño / Latín",
+      "textoOriginal": "Sancta Maria La Antigua, Prima Sedis Americae Patrona, ora pro nobis et protege populum Panamensem.",
+      "guiaFonetica": "[Santa Maria La Antigua, Patrona de Panamá, ruega por nosotros]",
+      "textoTraducido": "Ô Très Sainte Vierge Marie, sous le vocable de Santa María la Antigua, Mère aimante et Patronne du Panama ! Toi qui as accompagné les débuts de la foi dans les Amériques, veille sur nos familles et sur tous ceux qui t'invoquent. Sois notre phare au milieu des tempêtes, unifie nos cœurs dans l'amour et obtiens-nous de Dieu la paix, la protection et la grâce implorée. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "ondas_marinas_campanas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PER_VIRGEN_PUERTA_OTUZCO",
+      "numero": 4288,
+      "titulo": "Vierge de la Porte d'Otuzco · Gardienne Céleste contre les Épidémies et les Périls",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "enfermedad",
+        "peligro_enemigos"
+      ],
+      "idiomaLiturgicoOriginal": "Español Peruano / Quechua / Latín",
+      "textoOriginal": "Sancta Maria ad Portam, Regina Pacis et Tutela Septentrionis Peruviani, ora pro nobis.",
+      "guiaFonetica": "[Mamita de la Puerta, Reina de Otuzco, protégenos de todo mal]",
+      "textoTraducido": "Ô Très Clémente Vierge de la Porte, douce Mère d'Otuzco et Patronne du Nord du Pérou ! Toi qui, placée aux portes de la ville, as protégé tes enfants des invasions et des épidémies, sois aujourd'hui la gardienne des portes de notre foyer et de notre âme. Ferme l'accès au mal et à la maladie, et ouvre-nous les portes de la santé, du travail et de la miséricorde divine. Par le Christ notre Seigneur. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "viento_andino_quena"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_BRA_BOM_JESUS_MATOSINHOS",
+      "numero": 4289,
+      "titulo": "Seigneur Bon Jésus de Matosinhos · Source Inépuisable de Miséricorde",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "misericordia",
+      "estadosEmocionales": [
+        "dolor_fisico",
+        "desesperacion",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Senhor Bom Jesus de Matosinhos, Redentor do mundo, compadecei-vos de nós e de nossas famílias.",
+      "guiaFonetica": "[Senhor Bom Jesus de Matosinhos, tende piedade de nós]",
+      "textoTraducido": "Ô Seigneur Bon Jésus de Matosinhos, bien-aimé Rédempteur qui répands ton infinie pitié sur les pèlerins ! Par les mérites de ta sainte Passion et de tes plaies sacrées, accueille nos supplications, guéris nos blessures physiques et spirituelles, et bénis nos familles. Sois notre secours dans l'affliction et accorde-nous la grâce demandée avec foi. Par le Christ notre Seigneur. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "sinos_barrocos_minas"
+      },
       "dir": "ltr"
     }
   ]

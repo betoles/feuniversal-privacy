@@ -4,10 +4,10 @@
     "idioma": "id",
     "nombreIdioma": "Bahasa Indonesia",
     "dir": "ltr",
-    "total_oraciones": 4251,
+    "total_oraciones": 4289,
     "estandar": "FeUniversal-Bahasa-Rohani-Kemenag-LAI-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4281
+    "totalOraciones": 4289
   },
   "oraciones": [
     {
@@ -82,18 +82,18 @@
     {
       "id": "SAN_CAYETANO_PROSPERIDAD",
       "numero": 4,
-      "titulo": "Santo Kayetanus · Pembukaan Jalan, Pekerjaan dan Penyediaan Kehormatan",
+      "titulo": "Santo Kayetanus · Bapa Penyelenggaraan Ilahi, Pelindung Rezeki dan Pekerjaan",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "kemakmuran_pekerjaan",
+      "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
-        "necesidad_escasez",
-        "confusion_duda",
-        "desesperacion"
+        "desesperacion",
+        "escasez",
+        "miedo_angustia"
       ],
-      "idiomaLiturgicoOriginal": "Español Canónico",
-      "textoOriginal": "San Cayetano glorioso, padre de la divina providencia,\nintercede ante el Señor para que en mi hogar nunca falte la paz, la salud y el trabajo bendito. Amén.",
-      "guiaFonetica": "[San Ka-ye-tá-no glo-rió-so...]",
-      "textoTraducido": "Santo Cajetan yang Agung, bapak pemeliharaan ilahi, Bersyafaatlah di hadapan Tuhan agar kedamaian, kesehatan, dan pekerjaan yang diberkati tidak pernah kurang di rumah saya. Amin.",
+      "idiomaLiturgicoOriginal": "Español / Italiano / Latín",
+      "textoOriginal": "Sancte Caietane Thienaei, Patrone Providentiae et Laboris, ora pro nobis et impetra nobis panem quotidianum.",
+      "guiaFonetica": "[San Cayetano, Padre de Providencia, alcánzanos pan y trabajo]",
+      "textoTraducido": "Ya Santo Kayetanus yang mulia, Bapa Penyelenggaraan Ilahi dan pembela kaum papa! Engkau yang percaya penuh pada pemeliharaan Allah, pandanglah kami dengan belas kasih. Kami mohon: jangan biarkan rumah kami kekurangan makanan sehari-hari, pekerjaan yang halal dan bermartabat, serta kesehatan. Berilah kami rahmat untuk selalu berserah pada kebaikan Allah. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 72,
@@ -237,19 +237,18 @@
     {
       "id": "VIRGEN_LUJAN_ARGENTINA",
       "numero": 11,
-      "titulo": "Bunda Maria dari Luján · Mantel Keibuan Tanah Air dan Rumah Tangga",
+      "titulo": "Bunda Maria dari Luján · Pelindung Argentina dan Bunda Kerahiman",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "perlindungan",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
         "miedo_angustia",
-        "soledad_vacio",
-        "tristeza_duelo",
-        "desesperacion"
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español Litúrgico & Latín",
-      "textoOriginal": "¡Virgen Santísima de Luján, Madre de Dios y Madre nuestra!\nHumildemente postrados a tus plantas, te consagramos nuestros hogares, nuestras alegrías y nuestras penas.\nGuarda a nuestra tierra, defiende a los desvalidos y alcánzanos de tu divino Hijo la paz y la concordia.\nBajo tu manto celeste y blanco ponemos nuestra esperanza. Amén.",
-      "guiaFonetica": "[Vír-jen San-tí-si-ma de Lu-ján, Má-dre de Diós y Má-dre nués-tra...]",
-      "textoTraducido": "Perawan Suci Luján, Bunda Allah dan Bunda kita! Dengan rendah hati bersujud pada tanaman Anda, kami mempersembahkan rumah kami, suka dan duka kami kepada Anda. Jagalah tanah kami, bela mereka yang tak berdaya dan dapatkan kedamaian dan keharmoniSanto dari Putra ilahi Anda. Di bawah jubah biru dan putihmu kami menaruh harapan kami. Amin.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "Ya Santa Perawan Maria dari Luján, Pelindung Argentina yang manis! Engkau yang memilih tinggal di tepi Sungai Luján sebagai tanda kasih-Mu, dengarkanlah doa kami. Lindungilah keluarga kami, hiburlah yang sakit, dan peliharalah damai di tanah air kami. Bunda Luján, perolehkanlah kesehatan dan berkat bagi kami. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -20700,7 +20699,7 @@
     {
       "id": "CAT_AR_VIRGEN_LUJAN",
       "numero": 944,
-      "titulo": "Our Lady of Luján – Pelindung Argentina dan Pelindung Kerucut Selatan",
+      "titulo": "Bunda Maria dari Luján · Pelindung Argentina dan Bunda Kerahiman",
       "tradicion": "catolicismo",
       "categoriaIntencion": "kedamaian_batin",
       "estadosEmocionales": [
@@ -20709,9 +20708,9 @@
         "proteccion"
       ],
       "idiomaLiturgicoOriginal": "Latín / Español / Portugués / Italiano",
-      "textoOriginal": "Virgen de Luján, Madre del pueblo y auxilio en las encrucijadas, bendice a tus hijos.",
-      "guiaFonetica": "Virgen de Lujan, Madre purisima...",
-      "textoTraducido": "Perawan Luján, Bunda rakyat dan penolong di persimpangan jalan, berkati anak-anakmu.",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "Ya Santa Perawan Maria dari Luján, Pelindung Argentina yang manis! Engkau yang memilih tinggal di tepi Sungai Luján sebagai tanda kasih-Mu, dengarkanlah doa kami. Lindungilah keluarga kami, hiburlah yang sakit, dan peliharalah damai di tanah air kami. Bunda Luján, perolehkanlah kesehatan dan berkat bagi kami. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "rosario_50",
         "duracionVeladoraSugeridaHoras": 8,
@@ -59113,19 +59112,18 @@
     {
       "id": "CAT_ARG_CURA_BROCHERO",
       "numero": 2731,
-      "titulo": "Doa kepada Imam Suci Brochero (Pendeta Gaucho",
+      "titulo": "Santo Imam Brochero · Orang Kudus Gaucho dan Gembala yang Berdedikasi",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Kekuatan_Penyakit_Dan_Layanan",
+      "categoriaIntencion": "fortaleza_caridad",
       "estadosEmocionales": [
-        "enfermo",
-        "cansado",
-        "servicial",
-        "confiado"
+        "cansancio",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español criollo",
-      "textoOriginal": "Señor, que hiciste de San José Gabriel del Rosario Brochero un pastor incansable a lomo de mula por las sierras, amigo de los pobres y consuelo de los enfermos hasta entregar su propia salud: concédenos su mismo celo por el prójimo, su valentía ante la adversidad y su alegría evangélica. Por su intercesión, sana a nuestros enfermos y danos un corazón gaucho, noble y generoso. Amén.",
-      "guiaFonetica": "[Se-ñor, que hi-cis-te de San Jo-se Ga-briel del Ro-sa-rio Bro-che-ro un pas-tor in-can-sa-ble a lo-mo de mu-la]",
-      "textoTraducido": "Tuhan, yang menjadikan Santo Yusuf Gabriel dari Rosario Brochero seorang gembala yang tak kenal lelah melintasi pegunungan, sahabat orang miskin dan penghibur orang sakit sampai dia menyerahkan kesehatannya sendiri: berilah kami semangat yang sama untuk tetangganya, keberaniannya dalam menghadapi kesulitan dan kegembiraan injilinya. Melalui perantaraannya, sembuhkan penyakit kami dan berikan kami hati yang gaucho, mulia dan murah hati. Amin.",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancte Iosephe Gabriel Brochero, Pastor animarum in montibus, ora pro nobis et adiuva nos.",
+      "guiaFonetica": "[Santo Cura Brochero, pastor gaucho con olor a oveja, ruega por nosotros]",
+      "textoTraducido": "Ya Allah Yang Mahakuasa, Engkau yang membangkitkan Santo José Gabriel Brochero sebagai imam teladan yang melayani orang miskin dan sakit! Ajarilah kami kemurahan hati untuk melayani Kristus dalam diri sesama. Melalui perantaraannya, berilah kami keteguhan iman dan rahmat-Mu. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_con_mate_o_silencio",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81825,19 +81823,18 @@
     {
       "id": "CAT_MEX_JOSE_SANCHEZ_RIO_JOSELITO",
       "numero": 3742,
-      "titulo": "Doa untuk Santo Yusuf Sánchez del Río (Martir Muda Cristero",
+      "titulo": "Santo José Sánchez del Río (Joselito) · Kesetiaan Tak Tergoyahkan kepada Kristus Raja",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Valentia_Juvenil_Y_Militancia_Holy",
+      "categoriaIntencion": "valentia_fidelidad",
       "estadosEmocionales": [
-        "joven",
-        "perseguido",
-        "valiente",
-        "inquebrantable"
+        "miedo_angustia",
+        "persecucion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Joselito, niño mártir de Sahuayo que con tus piececitos desollados caminaste hacia el camposanto sin doblegar tu fe diciendo: «¡Nunca ha sido tan fácil ganarse el cielo!»: alcánzanos tu misma valentía. Que la juventud de hoy no se venda a los placeres vanos ni al miedo, sino que confiese con gallardía a Cristo Rey y a la Virgen de Guadalupe. ¡Viva Cristo Rey! Amén.",
-      "guiaFonetica": "San Jo-se-li-to, ni-ño mar-tir de Sa-hua-yo... ¡Vi-va Cris-to Rey! A-mén.",
-      "textoTraducido": "Santo Joselito, anak martir Sahuayo yang dengan kaki kecilmu yang berkulit berjalan menuju pemakaman tanpa merusak imanmu sambil berkata: \"Tidak pernah semudah ini untuk mendapatkan surga!\": berikan kami keberanianmu yang sama. Semoga generasi muda masa kini tidak menjual diri mereka pada kesenangan atau ketakutan yang sia-sia, namun dengan gagah berani mengakui Kristus Raja dan Perawan Guadalupe. Hidup Kristus Raja! Amin.",
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "Sancte Iosephe Sanchez del Rio, martyr Christi Regis, ora pro nobis. ¡Viva Cristo Rey y Santa María de Guadalupe!",
+      "guiaFonetica": "[¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Joselito, intercede por nosotros]",
+      "textoTraducido": "Ya Santo José Sánchez del Río yang mulia, martir belia dan saksi iman yang berani! Engkau yang pada usia empat belas tahun menyerahkan nyawamu demi Kristus sambil berseru: 'Belum pernah semudah ini meraih surga! Hiduplah Kristus Raja! Hiduplah Bunda Maria dari Guadalupe!', doakanlah kami agar teguh dalam iman. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "tres_padrenuestros_cristeros",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81871,19 +81868,18 @@
     {
       "id": "CAT_BRA_FREI_GALVAO_PILULAS",
       "numero": 3744,
-      "titulo": "Doa Santo Frei Galvão (Pil Rahmat dan Kesehatan",
+      "titulo": "Santo Frei Galvão · Orang Kudus Pertama Brasil dan Pelindung Kelahiran Selamat",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Penyakit_Kelahiran_Dan_Penyembuhan_Sulit",
+      "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
-        "enfermo",
-        "parturienta",
-        "aflito",
-        "curado"
+        "enfermedad",
+        "miedo_angustia",
+        "maternidad"
       ],
-      "idiomaLiturgicoOriginal": "Portugués / Latín",
-      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. São Frei Antônio de Sant'Anna Galvão, homem de paz e caridade: vós que pelo poder da oração e da santa medalha socorrestes tantas mães em partos aflitivos e enfermos desesperados, intercedei a Deus por esta minha necessidade (pedir a graça). Restabelecei a minha saúde e fazei-me viver na graça divina. Amém.",
-      "guiaFonetica": "Post par-tum, Vir-go, in-vio-la-ta per-man-sis-ti... Saw Fray An-to-nio de San-tAn-na Gal-vaw... A-maym.",
-      "textoTraducido": "Pasca melahirkan, Virgo, inviolata permansisti: Dei Genetrix, perantaraan pro nobis. Santo Friar Antônio de Sant'Anna Galvão, manusia damai dan amal: Anda yang, melalui kekuatan doa dan medali suci, membantu begitu banyak ibu dalam kesusahan melahirkan dan pasien yang putus asa, berdoa kepada Tuhan untuk kebutuhan saya ini (mohon rahmat). Pulihkan kesehatanku dan jadikan aku hidup dalam rahmat Ilahi. Amin.",
+      "idiomaLiturgicoOriginal": "Português / Latín",
+      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. Sancte Antonius de Sancta Anna Galvão, ora pro nobis.",
+      "guiaFonetica": "[São Frei Galvão, arauto da paz e da caridade, rogai por nós]",
+      "textoTraducido": "Ya Allah yang maharahim, Engkau yang menjadikan Santo Antônio de Sant'Ana Galvão sarana penghiburan bagi orang sakit dan para ibu yang melahirkan! Dengarkanlah doa kami demi jasa Santa Perawan Maria. Berilah kesembuhan bagi yang sakit, lindungilah para ibu yang melahirkan, dan anugerahkanlah pertolongan surgawi bagi kami. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "pilula_devocional_com_agua_benta",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81894,19 +81890,18 @@
     {
       "id": "CAT_BRA_IRMA_DULCE_POBRES",
       "numero": 3745,
-      "titulo": "Doa untuk Santa Dulce dos Pobres (Malaikat Baik Bahia",
+      "titulo": "Santa Dulce dari Kaum Miskin · Malaikat Baik dari Bahia dan Bunda Orang Sakit",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Amal_Tanpa Syarat_Dan_Consolo",
+      "categoriaIntencion": "caridad_salud",
       "estadosEmocionales": [
-        "desamparado",
-        "carente_de_amor",
-        "generoso",
-        "consolado"
+        "enfermedad",
+        "desesperacion",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Portugués brasileiro",
-      "textoOriginal": "Senhor nosso Deus, que concedestes a Santa Dulce dos Pobres um amor infinito aos mais pequeninos, aos enfermos das ruas e aos abandonados: dai-nos o mesmo coração generoso para enxergar o Vosso rosto em cada irmão que sofre. Por sua intercessão, curai as nossas enfermidades, dai pão aos famintos e concedei-nos a graça de amar e servir com humildade e alegria. Amém.",
-      "guiaFonetica": "Se-nhor nos-so Dews, ke kon-se-des-tes a San-ta Dul-se doosh Po-bresh... A-maym.",
-      "textoTraducido": "Ya Tuhan, Allah kami, yang memberikan kasih tak terhingga kepada Santo Dulce dos Pobres kepada anak-anak kecil, orang-orang sakit di jalanan dan orang-orang terlantar: berilah kami kemurahan hati yang sama untuk melihat wajah-Mu pada setiap saudara yang menderita. Melalui perantaraan Anda, sembuhkan penyakit kami, berikan roti kepada mereka yang lapar dan berikan kami rahmat untuk mencintai dan melayani dengan kerendahan hati dan sukacita. Amin.pt",
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Sancta Dulcis Pauperum, Angelus Bonus Salvadoriae, ora pro nobis et sana infirmos nostros.",
+      "guiaFonetica": "[Santa Dulce dos Pobres, Anjo Bom da Bahia, rogai por nós]",
+      "textoTraducido": "Ya Allah sumber kasih abadi, Engkau yang menyalakan belas kasih tak terhingga dalam hati Santa Dulce bagi orang sakit dan papa! Curahkanlah kasih persaudaraan ke dalam hati kami. Berilah kesembuhan bagi yang sakit dan anugerahkanlah rahmat yang kami mohon. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "tres_atos_de_caridade_ou_oracao",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81940,19 +81935,18 @@
     {
       "id": "CAT_BOL_COPACABANA_TITICACA",
       "numero": 3747,
-      "titulo": "Doa kepada Perawan Copacabana (Ratu Bolivia",
+      "titulo": "Bunda Maria dari Copacabana · Ratu dan Pelindung Bolivia",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Perlindungan_Altiplano_Y_Unidad",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "peregrino",
-        "arrepentido",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español / Aymara / Quechua",
-      "textoOriginal": "¡Virgen de Copacabana, Candelaria bendita esculpida por la devoción de Tito Yupanqui en la ribera del lago sagrado! Madre de los pueblos andinos, bendice a Bolivia y a todos tus devotos. Calma las tempestades del lago y de la vida, da salud a los enfermos, bendice nuestros viajes por las cumbres y guíanos hacia la luz de tu Divino Hijo. Amén.",
-      "guiaFonetica": "[Vir-jen de Co-pa-ca-ba-na, Can-de-la-ria ben-di-ta]",
-      "textoTraducido": "Perawan Copacabana, Candelaria yang diberkati yang dipahat oleh pengabdian Tito Yupanqui di tepi danau suci! Bunda bangsa Andes, berkati Bolivia dan semua umat Anda. Tenangkan badai danau dan kehidupan, berikan kesehatan kepada yang sakit, berkati perjalanan kami melewati puncak dan bimbing kami menuju cahaya Putra Ilahi Anda. Amin.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Aimara / Quechua",
+      "textoOriginal": "Sancta Maria de Copacabana, Regina et Patrona Boliviae, ora pro nobis et protege populum tuum.",
+      "guiaFonetica": "[Virgen de Copacabana, Reina de Bolivia, bendícenos]",
+      "textoTraducido": "Ya Santa Perawan Maria, Bunda Maria dari Copacabana, Ratu dan Pelindung Bolivia! Dari Danau Titicaca, Engkau mencurahkan berkat, penghiburan, dan mukjizat bagi umatmu. Lindungilah keluarga kami dari segala bahaya, peliharalah damai, dan berilah kami iman yang teguh serta kesehatan. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "challa_de_flores_o_cirio_candelaria",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81963,19 +81957,18 @@
     {
       "id": "CAT_BOL_URKUPINA_COCHABAMBA",
       "numero": 3748,
-      "titulo": "Doa kepada Perawan Urkupiña (Santo Pelindung Integrasi",
+      "titulo": "Bunda Maria dari Urkupiña · Pelindung Persatuan, Berkat Keluarga dan Pekerjaan",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Kelimpahan_Pekerjaan_Dan_Kesehatan",
+      "categoriaIntencion": "prosperidad_familia",
       "estadosEmocionales": [
-        "necesitado_de_sustento",
-        "trabajador",
-        "agradecido",
-        "ferviente"
+        "escasez",
+        "miedo_angustia",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español / Quechua",
-      "textoOriginal": "¡Mamita de Urkupiña, Virgen del cerro de Cota donde te apareciste a la pastorcita diciendo: «¡Urkupiña! ¡Ya está en el cerro!»! Vengo ante Ti con fe viva a pedir tu bendición para mi trabajo, mi hogar y mi salud. Así como picamos la piedra del cerro en señal de préstamo sagrado, prometo honrar tu bondad con generosidad hacia los pobres y fidelidad a Dios. Amén.",
-      "guiaFonetica": "[Ma-mi-ta de Ur-ku-pi-ña, Vir-jen del ce-rro de Co-ta]",
-      "textoTraducido": "Ibu dari Urkupiña, Perawan dari bukit Cota tempat kamu menampakkan diri kepada gadis gembala sambil berkata: «Urkupiña! \"Dia sudah berada di atas bukit!\" Aku datang ke hadapan-Mu dengan iman yang hidup untuk memohon berkat-Mu atas pekerjaanku, rumahku, dan kesehatanku. Sama seperti kami memecahkan batu dari bukit sebagai tanda pinjaman suci, saya berjanji untuk menghormati kebaikan Anda dengan kemurahan hati terhadap orang miskin dan kesetiaan kepada Tuhan. Amin.",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Quechua",
+      "textoOriginal": "Sancta Maria de Urkupiña, Patrona Integrationis Nationalis, ora pro nobis et familias nostras benedic.",
+      "guiaFonetica": "[Virgen de Urkupiña, Madre de la Integración, bendícenos]",
+      "textoTraducido": "Ya Santa Perawan Maria dari Urkupiña, Bunda dan Pelindung Persatuan yang manis! Dengarkanlah doa anak-anakmu. Berkatilah hasil kerja kami, limpahkanlah rezeki, dan berilah kami rumah tangga yang rukun dalam iman dan kasih. Jauhkanlah kesusahan dan anugerahkanlah berkat-Mu bagi kami. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "piedra_del_calvario_y_ofrenda",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81986,19 +81979,18 @@
     {
       "id": "CAT_URY_VIRGEN_TREINTA_Y_TRES",
       "numero": 3749,
-      "titulo": "Doa kepada Perawan Tiga Puluh Tiga (Santo Pelindung Uruguay",
+      "titulo": "Bunda Maria dari Tiga Puluh Tiga · Pelindung Uruguay dan Bunda Kemerdekaan",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Republik_Perdamaian_Dan_Kebebasan",
+      "categoriaIntencion": "libertad_patria",
       "estadosEmocionales": [
-        "patriota",
-        "deseoso_de_paz",
-        "firme",
-        "esperanzado"
+        "miedo_angustia",
+        "esperanza",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español uruguayo",
-      "textoOriginal": "Virgen de los Treinta y Tres, ante cuya humilde imagen los libertadores de la Patria Oriental juraron la independencia de nuestra tierra: mira con amor al pueblo uruguayo. Concédenos la verdadera libertad de los hijos de Dios, preserva la paz republicana, ilumina a nuestros gobernantes y bendice a cada familia de este suelo oriental. Amén.",
-      "guiaFonetica": "[Vir-jen de los Trein-ta y Tres, an-te cu-ya hu-mil-de i-ma-gen]",
-      "textoTraducido": "Perawan Tiga Puluh Tiga, yang dihadapannya para pembebas Tanah Air Timur bersumpah akan kemerdekaan tanah kami: pandanglah rakyat Uruguay dengan penuh kasih. Berilah kami kebebaSanto sejati sebagai anak-anak Tuhan, peliharalah perdamaian republik, terangi para penguasa kami dan berkati setiap keluarga di tanah timur ini. Amin.",
+      "idiomaLiturgicoOriginal": "Español Uruguayo / Latín",
+      "textoOriginal": "Sancta Maria a Triginta et Tribus, Patrona Reipublicae Orientalis Uruquariae, ora pro nobis et liberta nos.",
+      "guiaFonetica": "[Virgen de los Treinta y Tres, Libertadora y Patrona, ruega por nosotros]",
+      "textoTraducido": "Ya Santa Perawan Maria dari Tiga Puluh Tiga, Pelindung Uruguay! Kami mempercayakan keluarga dan masa depan kami ke dalam tangan-Mu. Bebaskanlah kami dari dosa dan perpecahan, dan perolehkanlah kerukunan, pekerjaan, serta damai bagi kami. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_patronales",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82031,19 +82023,18 @@
     {
       "id": "CAT_PRY_CAACUPE_TUPASY",
       "numero": 3751,
-      "titulo": "Doa kepada Perawan Caacupé (Súplica a la Virgen de Caacupé)gn",
+      "titulo": "Bunda Maria dari Ka'akupe · Pelindung Paraguay dan Bunda Mukjizat",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Perlindungan_Keibuan_Dan_Imangn",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "devoto",
-        "peregrino_guarani",
-        "agradecido",
-        "amparado"
+        "miedo_angustia",
+        "esperanza",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Guaraní / Español paraguayo",
-      "textoOriginal": "Tupãsy Ka'akupe, nde niko ore sy marangatuite. Ema'ẽmína ne membykuéra rehe roúva ne rendápe rojerure haḡua ndéve py'aguapy, tesãi ha tory ore rógapere. Virgen de Caacupé, Madre de todos los paraguayos: bendice a nuestra patria, cuida a los campesinos y humildes, y guíanos siempre hacia tu Hijo Jesús. Amén.",
-      "guiaFonetica": "[Tu-pan-sy Ka-a-ku-pe, nde ni-ko o-re sy ma-ran-ga-tu-i-te... E-ma-en-mi-na ne mem-by-ku-e-ra re-he]",
-      "textoTraducido": "Bunda Maria Diangkat ke Surga, Anda adalah ibu suci kami. Lihatlah anak-anak Anda yang datang kepada Anda untuk meminta kedamaian, kesehatan dan kebahagiaan di rumah kami. Virgen de Caacupé, Bunda seluruh rakyat Paraguay: berkati negara kami, jagalah para petani dan orang-orang yang rendah hati, dan bimbing kami selalu menuju Putra-Mu Yesus. Amin.gn",
+      "idiomaLiturgicoOriginal": "Guaraní / Español Paraguayo / Latín",
+      "textoOriginal": "Tupãsy Ka'akupe, Paraguái py'aguapy ha teko porã rerekua, eñembo'e ore rehe.",
+      "guiaFonetica": "[Tupãsy Ka'akupe, Virgen de los Milagros de Caacupé, ruega por nosotros]",
+      "textoTraducido": "Ya Santa Perawan Maria dari Ka'akupe, Bunda Paraguay yang manis! Engkau yang melindungi hamba-Mu di saat bahaya, naungilah keluarga kami di bawah mantol sucimu. Jadilah perlindungan bagi kaum papa dan perolehkanlah damai, kesehatan, serta berkat dari Yesus bagi kami. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "terciario_guarani_con_canto_purahéi",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82100,19 +82091,18 @@
     {
       "id": "CAT_SLV_MONSENOR_ROMERO_AMERICA",
       "numero": 3754,
-      "titulo": "Doa kepada Santo Óscar Arnulfo Romero (Suara yang Tak Bersuara",
+      "titulo": "Santo Óscar Romero · Suara bagi yang Tak Bersuara, Martir Kebenaran dan Damai",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Sosial_Keadilan_Perdamaian_Dan_Hak_Manusia",
+      "categoriaIntencion": "justicia_paz",
       "estadosEmocionales": [
-        "perseguido_por_justicia",
-        "oprimido",
-        "valiente",
-        "pacificador"
+        "miedo_angustia",
+        "desesperacion",
+        "injusticia"
       ],
-      "idiomaLiturgicoOriginal": "Español cuscatleco",
-      "textoOriginal": "San Óscar Romero, pastor santo y mártir de Cristo que entregaste tu vida en el altar defendiendo la dignidad de los pobres y clamando por el cese de la violencia: enséñanos a no ser cómplices de la injusticia. Concédenos tu firmeza profética unida a tu profunda piedad eucarística, para construir una sociedad donde reinen la verdad, el perdón y la paz duradera. Amén.",
-      "guiaFonetica": "[San Os-car Ro-me-ro, pas-tor san-to y mar-tir de Cris-to]",
-      "textoTraducido": "Santo Óscar Romero, gembala suci dan martir Kristus yang menyerahkan hidup Anda di altar membela martabat orang miskin dan menyerukan diakhirinya kekerasan: ajari kami untuk tidak terlibat dalam ketidakadilan. Berilah kami keteguhan kenabian Anda bersama dengan kesalehan Ekaristi Anda yang mendalam, untuk membangun masyarakat di mana kebenaran, pengampunan dan perdamaian abadi berkuasa. Amin.",
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancte Anschari Romero, martyr iustitiae et vox pauperum, ora pro nobis.",
+      "guiaFonetica": "[San Óscar Romero, voz de los sin voz, intercede por la paz]",
+      "textoTraducido": "Ya Allah Bapa yang mahabaik, Engkau yang menjadikan Santo Óscar Romero gembala yang berani, suara bagi mereka yang tak bersuara dan martir di altar suci! Berilah kami hati yang peduli pada sesama dan keberanian untuk membela kebenaran. Hentikanlah kekerasan dan jadikanlah kami pembawa damai dalam Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "oracion_ante_la_cruz_de_romero",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82207,19 +82197,18 @@
     {
       "id": "CAT_PRI_PROVIDENCIA_PATRONA",
       "numero": 3759,
-      "titulo": "Doa kepada Our Lady of Providence (Santo Pelindung Puerto Riko",
+      "titulo": "Bunda Maria Penyelenggaraan Ilahi · Pelindung Puerto Riko",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Providencia_Divina_Y_Amparo_Boricua",
+      "categoriaIntencion": "providencia_proteccion",
       "estadosEmocionales": [
-        "confiado",
-        "boricua",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español puertorriqueño",
-      "textoOriginal": "¡Virgen de la Providencia, Madre de Dios y Patrona de Puerto Rico! En tus maternales manos ponemos el destino de nuestra hermosa isla del encanto, de nuestras familias y de nuestros hermanos en la diáspora. Que tu Divina Providencia nunca nos falte en el pan, en la salud, en la paz y en la fe. Defiéndenos de huracanes y tempestades, y líbranos de todo mal. Amén.",
-      "guiaFonetica": "[Vir-jen de la Pro-vi-den-cia, Ma-dre de Dios y Pa-tro-na de Puer-to Ri-co]",
-      "textoTraducido": "Perawan Providence, Bunda Allah dan Pelindung Puerto Riko! Di tangan keibuan Anda, kami menempatkan nasib pulau indah kami yang penuh pesona, keluarga kami, dan saudara-saudara kami di diaspora. Semoga Penyelenggaraan Ilahi-Mu tidak pernah mengecewakan kami dalam hal roti, kesehatan, kedamaian, dan iman. Lindungi kami dari badai dan badai, dan bebaskan kami dari segala kejahatan. Amin.",
+      "idiomaLiturgicoOriginal": "Español Puertorriqueño / Latín",
+      "textoOriginal": "Sancta Maria a Providentia, Patrona Portus Divitis, ora pro nobis et conserva nos in pace.",
+      "guiaFonetica": "[Virgen de la Providencia, Patrona de Puerto Rico, cuida a tus hijos]",
+      "textoTraducido": "Ya Santa Perawan Maria, Bunda Penyelenggaraan Ilahi, Pelindung Puerto Riko! Engkau yang mendekap Kanak-kanak Yesus dengan penuh kelembutan, pandanglah kebutuhan keluarga kami. Jangan biarkan perlindungan-Mu menjauh di tengah badai hidup, dan anugerahkanlah ketenangan serta keselamatan bagi kami. Demi Kristus Tuhan kami. Amin.",
       "ritualesAsociados": {
         "tipoContador": "novena_de_la_providencia",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94130,6 +94119,182 @@
       "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
       "textoTraducido": "O Santa Perawan Maria, Bunda Berdukacita dan Ratu Para Martir! Engkau yang berdiri teguh dalam iman di kaki Salib ketika pedang nubuat menembus jiwamu yang penuh belas kasih: pandanglah dengan belas kasihan dukacita, perkabungan, dan pencobaan dalam hidup kami. Demi Tujuh Dukacita-Mu yang kudus, perolehkanlah bagi kami penghiburan dalam kesedihan, kesembuhan dalam kelemahan, dan kekuatan untuk memikul salib harian kami. Jadilah perlindungan kami di saat duka dan dampingilah kami pada saat peralihan menuju kehidupan abadi bersama Putra terkasih-Mu Yesus Kristus. Amin.",
       "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_MIGUEL_PRO_PALOMAR",
+      "numero": 4282,
+      "titulo": "Beato Pastor Miguel Agustín Pro · Penyerahan Diri yang Berani dan Hiduplah Kristus Raja!",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_espiritual",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
+      ],
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "¡Oh Señor Jesús, Rey de Reyes! Por la sangre y el testimonio del Beato Miguel Agustín Pro, haz que resuene en mi corazón su último grito de amor y victoria: ¡Viva Cristo Rey! Amén.",
+      "guiaFonetica": "[Viva Cristo Rey! / Oh Señor Jesús, te ofrezco mis tribulaciones unidas a tu Santa Cruz]",
+      "textoTraducido": "Ya Allah yang maharahim dan perkasa, Engkau yang menganugerahi Beato Miguel Agustín Pro rahmat untuk melayani-Mu dengan sukacita di tengah penindasan dan memeteraikan kesetiaannya dengan kemartiran yang heroik! Ajarlah aku untuk tidak takut akan kesulitan dunia ini dan mempersembahkan hidupku dengan berani bagi Injil. Di setiap pencobaan, biarlah seruan terakhirnya yang tak terkalahkan bergema dalam jiwaku: Hiduplah Kristus Raja! Semoga perantaraannya mendatangkan damai bagi rumah tanggaku dan meneguhkan imanku. Demi Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_catedral_eco"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_SAN_FELIPE_JESUS",
+      "numero": 4283,
+      "titulo": "Santo Felipe dari Yesus · Martir Pertama Meksiko dan Kemenangan Salib",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "perseverancia_fe",
+      "estadosEmocionales": [
+        "debilidad",
+        "tentacion",
+        "duda_espiritual"
+      ],
+      "idiomaLiturgicoOriginal": "Español Novohispano / Latín",
+      "textoOriginal": "Sancte Philippe a Iesu, primus martyr Mexicanus, ora pro nobis et pro patria nostra.",
+      "guiaFonetica": "[Sancte Philippe a Iesu, martyr gloriose, intercede pro nobis]",
+      "textoTraducido": "Ya Santo Felipe dari Yesus yang mulia, martir pertama Meksiko dan Benua Amerika yang memeluk Salib Suci di bukit Nagasaki dengan kasih menyala kepada Kristus! Engkau yang menemukan mahkota abadi di dalam Tuhan, lindungilah keluarga dan kaum muda kami dalam pencobaan. Ajarilah kami ketekunan dan kemurnian hati untuk berserah kepada Allah. Melalui perantaraanmu, anugerahkanlah iman yang teguh dan pertolongan bagi kami. Demi Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_monasterio_lejano"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_SLV_VIRGEN_DE_LA_PAZ",
+      "numero": 4284,
+      "titulo": "Bunda Maria Ratu Damai · Pelindung El Salvador dan Ratu Rekonsiliasi",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "conflicto_familiar",
+        "desesperacion"
+      ],
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancta Maria, Regina Pacis, Patrona Salvadoriae, ora pro nobis et reconcilia corda nostra.",
+      "guiaFonetica": "[Regina Pacis, ora pro nobis / Virgen de la Paz, ruega por nosotros]",
+      "textoTraducido": "Ya Santa Perawan Maria, Bunda Maria Ratu Damai, Pelindung El Salvador yang manis! Engkau yang di saat dukacita menghentikan kehancuran dan mencurahkan damai bagi umatmu, pandanglah kami dengan penuh belas kasih. Lenyapkanlah kebencian, sembuhkanlah luka keluarga kami, dan satukanlah hati kami. Ratu Damai, lindungilah kami di bawah naungan mantol sucimu dan perolehkanlah bagi kami rahmat pengampunan dan kedamaian. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "coro_angelical_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_COL_PEDRO_CLAVER_CARTAGENA",
+      "numero": 4285,
+      "titulo": "Santo Petrus Klaver · Hamba Para Budak dan Rasul Cinta Kasih",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "caridad_servicio",
+      "estadosEmocionales": [
+        "soledad",
+        "rechazo",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Colombiano / Latín",
+      "textoOriginal": "Petrus Claver, Aethiopum servus pro semper, ora pro nobis et doce nos caritatem Christi.",
+      "guiaFonetica": "[Petrus Claver, servus servorum, intercede pro nobis]",
+      "textoTraducido": "Ya Santo Petrus Klaver yang mulia, rasul bagi kaum tertindas di Cartagena! Engkau yang bersumpah untuk menjadi 'hamba bagi para budak selamanya', curahkanlah kasih belas kasihmu ke dalam hati kami. Tolonglah kami mengenali Kristus dalam diri sesama yang menderita dan bebaskan kami dari belenggu keegoisan. Perolehkanlah damai, kesehatan, dan rahmat bagi kami. Demi Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "mar_caribe_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_VEN_CRISTO_LA_GRITA",
+      "numero": 4286,
+      "titulo": "Kristus Kudus dari La Grita · Wajah Tenang, Mukjizat Andes dan Perisai Perlindungan",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "dolor_fisico"
+      ],
+      "idiomaLiturgicoOriginal": "Español Venezolano / Latín",
+      "textoOriginal": "Domine Iesu Christe de La Grita, Redemptor noster, protege nos a terraemotu et omni malo.",
+      "guiaFonetica": "[Santo Cristo de La Grita, milagroso Protector, sálvanos]",
+      "textoTraducido": "Ya Kristus Kudus dari La Grita yang termanis, Pelindung Andes dan benteng perlindungan di saat gempa dan duka! Kami memandang wajah-Mu yang tenang dengan penuh bakti. Pandanglah kami dengan belas kasih dan rentangkanlah tangan-Mu yang terberkati atas keluarga kami. Lindungilah kami dari bencana dan sakit penyakit. Berikanlah kesembuhan dan rahmat yang kami letakkan di kaki Salib Suci-Mu. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "viento_andino_campanadas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PAN_SANTA_MARIA_ANTIGUA",
+      "numero": 4287,
+      "titulo": "Santa Maria la Antigua · Pelindung Panama dan Bunda Pengharapan",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_maternal",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Panameño / Latín",
+      "textoOriginal": "Sancta Maria La Antigua, Prima Sedis Americae Patrona, ora pro nobis et protege populum Panamensem.",
+      "guiaFonetica": "[Santa Maria La Antigua, Patrona de Panamá, ruega por nosotros]",
+      "textoTraducido": "Ya Santa Perawan Maria, Santa Maria la Antigua, Bunda yang penuh kasih dan Pelindung Panama! Engkau yang menyertai fajar iman di Benua Amerika, lindungilah keluarga kami. Jadilah mercusuar di tengah badai kehidupan, satukanlah rumah tangga kami dalam kasih, dan perolehkanlah damai serta rahmat dari Allah bagi kami. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "ondas_marinas_campanas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PER_VIRGEN_PUERTA_OTUZCO",
+      "numero": 4288,
+      "titulo": "Bunda Maria dari Pintu Gerbang Otuzco · Perisai Pelindung dari Bahaya",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "enfermedad",
+        "peligro_enemigos"
+      ],
+      "idiomaLiturgicoOriginal": "Español Peruano / Quechua / Latín",
+      "textoOriginal": "Sancta Maria ad Portam, Regina Pacis et Tutela Septentrionis Peruviani, ora pro nobis.",
+      "guiaFonetica": "[Mamita de la Puerta, Reina de Otuzco, protégenos de todo mal]",
+      "textoTraducido": "Ya Santa Perawan Maria dari Pintu Gerbang, Bunda Otuzco yang manis dan Pelindung Peru Utara! Engkau yang secara ajaib melindungi anak-anakmu dari wabah dan marabahaya, jadilah penjaga pintu rumah dan jiwa kami hari ini. Tutuplah jalan bagi kejahatan dan bukalah bagi kami pintu kesehatan, rezeki yang halal, dan kerahiman Ilahi. Demi Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "viento_andino_quena"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_BRA_BOM_JESUS_MATOSINHOS",
+      "numero": 4289,
+      "titulo": "Tuhan Yesus yang Baik dari Matosinhos · Sumber Kerahiman Abadi",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "misericordia",
+      "estadosEmocionales": [
+        "dolor_fisico",
+        "desesperacion",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Senhor Bom Jesus de Matosinhos, Redentor do mundo, compadecei-vos de nós e de nossas famílias.",
+      "guiaFonetica": "[Senhor Bom Jesus de Matosinhos, tende piedade de nós]",
+      "textoTraducido": "Ya Tuhan Yesus yang Baik dari Matosinhos, Penebus yang penuh belas kasih kepada setiap orang yang berseru kepada-Mu! Demi sengsara suci dan luka-luka kudus-Mu, terimalah doa kami, sembuhkanlah sakit penyakit kami, dan berkatilah keluarga kami. Jadilah perlindungan kami di saat duka dan anugerahkanlah rahmat yang kami mohon dengan iman. Demi Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "sinos_barrocos_minas"
+      },
       "dir": "ltr"
     }
   ]

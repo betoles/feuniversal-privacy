@@ -4,10 +4,10 @@
     "idioma": "zh",
     "nombreIdioma": "中文 (Chinese)",
     "dir": "ltr",
-    "total_oraciones": 4251,
+    "total_oraciones": 4289,
     "estandar": "FeUniversal-Wenyan-Canonical-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4281
+    "totalOraciones": 4289
   },
   "oraciones": [
     {
@@ -82,18 +82,18 @@
     {
       "id": "SAN_CAYETANO_PROSPERIDAD",
       "numero": 4,
-      "titulo": "圣加耶当 · 开辟道路、事业亨通与天主眷顾",
+      "titulo": "圣加耶当 (San Cayetano) · 照料天主全备供给、面包与工作之主保",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "事业与丰足",
+      "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
-        "necesidad_escasez",
-        "confusion_duda",
-        "desesperacion"
+        "desesperacion",
+        "escasez",
+        "miedo_angustia"
       ],
-      "idiomaLiturgicoOriginal": "Español Canónico",
-      "textoOriginal": "San Cayetano glorioso, padre de la divina providencia,\nintercede ante el Señor para que en mi hogar nunca falte la paz, la salud y el trabajo bendito. Amén.",
-      "guiaFonetica": "[San Ka-ye-tá-no glo-rió-so...]",
-      "textoTraducido": "荣耀的圣加耶当，工作与天主眷顾的主保，求你开启职业恩赐之门，使我家中正直的生计日见丰足。阿们。",
+      "idiomaLiturgicoOriginal": "Español / Italiano / Latín",
+      "textoOriginal": "Sancte Caietane Thienaei, Patrone Providentiae et Laboris, ora pro nobis et impetra nobis panem quotidianum.",
+      "guiaFonetica": "[San Cayetano, Padre de Providencia, alcánzanos pan y trabajo]",
+      "textoTraducido": "光荣的圣加耶当，天主上智眷顾之父与困苦者的忠实主保！祢曾全心仰赖养活飞鸟、装点百合的基督，求祢怜悯垂顾我们。祈求祢使我们的家庭永不匮乏日用的食粮、尊严的生计工作以及胜任劳作的健康体魄。驱除匮乏的焦虑，使我们永远信赖天主的仁慈恩育。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 72,
@@ -237,19 +237,18 @@
     {
       "id": "VIRGEN_LUJAN_ARGENTINA",
       "numero": 11,
-      "titulo": "卢汉圣母·祖国和家园的母亲衣钵",
+      "titulo": "卢汉圣母 (Nuestra Señora de Luján) · 阿根廷主保与南锥体之母",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "保护与庇护",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
         "miedo_angustia",
-        "soledad_vacio",
-        "tristeza_duelo",
-        "desesperacion"
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español Litúrgico & Latín",
-      "textoOriginal": "¡Virgen Santísima de Luján, Madre de Dios y Madre nuestra!\nHumildemente postrados a tus plantas, te consagramos nuestros hogares, nuestras alegrías y nuestras penas.\nGuarda a nuestra tierra, defiende a los desvalidos y alcánzanos de tu divino Hijo la paz y la concordia.\nBajo tu manto celeste y blanco ponemos nuestra esperanza. Amén.",
-      "guiaFonetica": "[Vír-jen San-tí-si-ma de Lu-ján, Má-dre de Diós y Má-dre nués-tra...]",
-      "textoTraducido": "卢汉圣母，天主之母，我们的母亲！谦卑地向您的植物顶礼膜拜，我们将我们的家园、我们的欢乐和悲伤奉献给您。保卫我们的土地，保卫无助的人，并从您神圣的儿子那里获得和平与和谐。阿门。",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "至圣童贞玛利亚，卢汉圣母，阿根廷主保与慈爱的母亲！祢曾留在卢汉河畔作为永恒圣爱的明证，求祢温柔垂顾儿女的呼求。护佑我们的家庭，抚慰病患与受苦之人，保佑和平与合睦。卢汉圣母，请为我们向圣子耶稣求得健康、平安与所需的圣宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -20700,7 +20699,7 @@
     {
       "id": "CAT_AR_VIRGEN_LUJAN",
       "numero": 944,
-      "titulo": "卢汉圣母——阿根廷的守护神和南锥体的保护者",
+      "titulo": "卢汉圣母 (Nuestra Señora de Luján) · 阿根廷主保与南锥体之母",
       "tradicion": "catolicismo",
       "categoriaIntencion": "内心平安",
       "estadosEmocionales": [
@@ -20709,9 +20708,9 @@
         "proteccion"
       ],
       "idiomaLiturgicoOriginal": "Latín / Español / Portugués / Italiano",
-      "textoOriginal": "Virgen de Luján, Madre del pueblo y auxilio en las encrucijadas, bendice a tus hijos.",
-      "guiaFonetica": "Virgen de Lujan, Madre purisima...",
-      "textoTraducido": "卢汉圣母！谁在河边驻足停留在谦卑的人中间：以母爱迎接我们的恳求。团结分裂的兄弟，保护有需要的家庭的面包和工作，保卫国家免受一切不和，并始终引导我们走向耶稣、道路、真理和生命。阿门。",
+      "textoOriginal": "Sancta Maria de Lujan, Patrona Argentinae et Tutela Coni Australis, ora pro nobis.",
+      "guiaFonetica": "[Virgencita de Luján, Patrona de la Argentina, cuida a tu pueblo]",
+      "textoTraducido": "至圣童贞玛利亚，卢汉圣母，阿根廷主保与慈爱的母亲！祢曾留在卢汉河畔作为永恒圣爱的明证，求祢温柔垂顾儿女的呼求。护佑我们的家庭，抚慰病患与受苦之人，保佑和平与合睦。卢汉圣母，请为我们向圣子耶稣求得健康、平安与所需的圣宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "rosario_50",
         "duracionVeladoraSugeridaHoras": 8,
@@ -59113,19 +59112,18 @@
     {
       "id": "CAT_ARG_CURA_BROCHERO",
       "numero": 2731,
-      "titulo": "向神圣牧师布罗切罗（高乔牧师）祈祷",
+      "titulo": "圣布罗切罗神父 (Cura Brochero) · 高乔圣人、山峦使徒与良善牧者",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "fortaleza_enfermedad_y_servicio",
+      "categoriaIntencion": "fortaleza_caridad",
       "estadosEmocionales": [
-        "enfermo",
-        "cansado",
-        "servicial",
-        "confiado"
+        "cansancio",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español criollo",
-      "textoOriginal": "Señor, que hiciste de San José Gabriel del Rosario Brochero un pastor incansable a lomo de mula por las sierras, amigo de los pobres y consuelo de los enfermos hasta entregar su propia salud: concédenos su mismo celo por el prójimo, su valentía ante la adversidad y su alegría evangélica. Por su intercesión, sana a nuestros enfermos y danos un corazón gaucho, noble y generoso. Amén.",
-      "guiaFonetica": "[Se-ñor, que hi-cis-te de San Jo-se Ga-briel del Ro-sa-rio Bro-che-ro un pas-tor in-can-sa-ble a lo-mo de mu-la]",
-      "textoTraducido": "圣布罗切罗神父，高山的牧羊人和谦卑的人的朋友：陪伴我们的辛劳，祝福我们的道路，并从上帝那里赐予我们健康和力量。阿门。",
+      "idiomaLiturgicoOriginal": "Español Argentino / Latín",
+      "textoOriginal": "Sancte Iosephe Gabriel Brochero, Pastor animarum in montibus, ora pro nobis et adiuva nos.",
+      "guiaFonetica": "[Santo Cura Brochero, pastor gaucho con olor a oveja, ruega por nosotros]",
+      "textoTraducido": "全能的天主，祢曾召选圣何塞·加夫列尔·布罗切罗神父成为卓越的司铎，不知疲倦地投身于拯救灵魂、抚慰病患与穷苦之人！求祢教导我们慷慨奉献，在最微小的弟兄身上事奉基督。藉他有力的代祷，赐予我们坚强的信德、健康与所需的恩宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_con_mate_o_silencio",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81825,19 +81823,18 @@
     {
       "id": "CAT_MEX_JOSE_SANCHEZ_RIO_JOSELITO",
       "numero": 3742,
-      "titulo": "向圣何塞·桑切斯·德尔·里奥（年轻的基督烈士）祈祷",
+      "titulo": "圣若瑟·桑切斯·德尔·里奥 (Joselito) · 对基督君王坚贞不渝的忠诚",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "valentia_juvenil_y_militancia_santa",
+      "categoriaIntencion": "valentia_fidelidad",
       "estadosEmocionales": [
-        "joven",
-        "perseguido",
-        "valiente",
-        "inquebrantable"
+        "miedo_angustia",
+        "persecucion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Joselito, niño mártir de Sahuayo que con tus piececitos desollados caminaste hacia el camposanto sin doblegar tu fe diciendo: «¡Nunca ha sido tan fácil ganarse el cielo!»: alcánzanos tu misma valentía. Que la juventud de hoy no se venda a los placeres vanos ni al miedo, sino que confiese con gallardía a Cristo Rey y a la Virgen de Guadalupe. ¡Viva Cristo Rey! Amén.",
-      "guiaFonetica": "San Jo-se-li-to, ni-ño mar-tir de Sa-hua-yo... ¡Vi-va Cris-to Rey! A-mén.",
-      "textoTraducido": "圣若泽·桑切斯·德尔里奥：为全世界的年轻人代祷，使他们保持坚定的信仰、纯洁和福音派的勇气。阿门。",
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "Sancte Iosephe Sanchez del Rio, martyr Christi Regis, ora pro nobis. ¡Viva Cristo Rey y Santa María de Guadalupe!",
+      "guiaFonetica": "[¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Joselito, intercede por nosotros]",
+      "textoTraducido": "光荣的圣若瑟·桑切斯·德尔·里奥，少年殉道者与天国英勇的见证人！祢年仅十四岁便为基督与教会舍身致命，在最后时刻高呼：“赢得天堂从未如此容易！基督君王万岁！瓜达卢佩圣母万岁！”，求祢为我们祈祷，赐予我们在信德中勇往直前的力量。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "tres_padrenuestros_cristeros",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81871,19 +81868,18 @@
     {
       "id": "CAT_BRA_FREI_GALVAO_PILULAS",
       "numero": 3744,
-      "titulo": "圣弗雷加尔旺祈祷 (Pílulas de Graça e Saúde)",
+      "titulo": "圣加尔旺修士 (Frei Galvão) · 巴西首位圣人与母婴平安主保",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "parto_dificil_y_cura_enfermidades",
+      "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
-        "enfermo",
-        "parturienta",
-        "aflito",
-        "curado"
+        "enfermedad",
+        "miedo_angustia",
+        "maternidad"
       ],
-      "idiomaLiturgicoOriginal": "Portugués / Latín",
-      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. São Frei Antônio de Sant'Anna Galvão, homem de paz e caridade: vós que pelo poder da oração e da santa medalha socorrestes tantas mães em partos aflitivos e enfermos desesperados, intercedei a Deus por esta minha necessidade (pedir a graça). Restabelecei a minha saúde e fazei-me viver na graça divina. Amém.",
-      "guiaFonetica": "Post par-tum, Vir-go, in-vio-la-ta per-man-sis-ti... Saw Fray An-to-nio de San-tAn-na Gal-vaw... A-maym.",
-      "textoTraducido": "圣弗雷·加尔旺（Saint Frei Galvão），身体和灵魂的医生：为难产的母亲和病人代祷，传播和平、救济和迅速治愈。阿门。",
+      "idiomaLiturgicoOriginal": "Português / Latín",
+      "textoOriginal": "Post partum, Virgo, inviolata permansisti: Dei Genetrix, intercede pro nobis. Sancte Antonius de Sancta Anna Galvão, ora pro nobis.",
+      "guiaFonetica": "[São Frei Galvão, arauto da paz e da caridade, rogai por nós]",
+      "textoTraducido": "无限仁慈的天主，祢曾使圣安多尼·德·圣安娜·加尔旺成为病患与产妇获得安慰与治愈的奇妙器皿！藉着荣福童贞玛利亚的功劳，求祢垂听我们的祈祷。赐予病患身心健康，庇佑孕妇平安顺利分娩，并藉他的代祷赐予我们诸般恩宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "pilula_devocional_com_agua_benta",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81894,19 +81890,18 @@
     {
       "id": "CAT_BRA_IRMA_DULCE_POBRES",
       "numero": 3745,
-      "titulo": "向穷人圣甜祈祷 (O Anjo Bom da Bahia)",
+      "titulo": "贫苦之圣杜尔塞 (Irmã Dulce) · 巴伊亚的善天使与病患之母",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "caridade_incondicional_y_consolo",
+      "categoriaIntencion": "caridad_salud",
       "estadosEmocionales": [
-        "desamparado",
-        "carente_de_amor",
-        "generoso",
-        "consolado"
+        "enfermedad",
+        "desesperacion",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Portugués brasileiro",
-      "textoOriginal": "Senhor nosso Deus, que concedestes a Santa Dulce dos Pobres um amor infinito aos mais pequeninos, aos enfermos das ruas e aos abandonados: dai-nos o mesmo coração generoso para enxergar o Vosso rosto em cada irmão que sofre. Por sua intercessão, curai as nossas enfermidades, dai pão aos famintos e concedei-nos a graça de amar e servir com humildade e alegria. Amém.",
-      "guiaFonetica": "Se-nhor nos-so Dews, ke kon-se-des-tes a San-ta Dul-se doosh Po-bresh... A-maym.",
-      "textoTraducido": "穷人的圣杜尔塞，巴伊亚的好天使：教导我们以同样的温柔来爱病人和被遗弃的人，并在考验中从上帝那里得到健康和安慰。阿门。",
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Sancta Dulcis Pauperum, Angelus Bonus Salvadoriae, ora pro nobis et sana infirmos nostros.",
+      "guiaFonetica": "[Santa Dulce dos Pobres, Anjo Bom da Bahia, rogai por nós]",
+      "textoTraducido": "无限慈爱的天主，祢曾以对穷困病弱者不竭的仁爱之火点燃圣杜尔塞的心灵！求祢将她的博爱精神倾注在我们心中。藉她的代祷，赐予病患治愈，受苦者安慰，并赐予我们谦恭祈求的圣宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "tres_atos_de_caridade_ou_oracao",
         "duracionVeladoraSugeridaHoras": 12,
@@ -81940,19 +81935,18 @@
     {
       "id": "CAT_BOL_COPACABANA_TITICACA",
       "numero": 3747,
-      "titulo": "向科帕卡巴纳圣母（玻利维亚女王）祈求",
+      "titulo": "科帕卡巴纳圣母 (Virgen de Copacabana) · 玻利维亚之后与主保",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_altiplano_y_unidad",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "peregrino",
-        "arrepentido",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español / Aymara / Quechua",
-      "textoOriginal": "¡Virgen de Copacabana, Candelaria bendita esculpida por la devoción de Tito Yupanqui en la ribera del lago sagrado! Madre de los pueblos andinos, bendice a Bolivia y a todos tus devotos. Calma las tempestades del lago y de la vida, da salud a los enfermos, bendice nuestros viajes por las cumbres y guíanos hacia la luz de tu Divino Hijo. Amén.",
-      "guiaFonetica": "[Vir-jen de Co-pa-ca-ba-na, Can-de-la-ria ben-di-ta]",
-      "textoTraducido": "科帕卡巴纳圣母、的的喀喀之光和玻利维亚之母：保护旅行者，祝福我们的家园，并以神圣的温柔统治人心。阿门。",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Aimara / Quechua",
+      "textoOriginal": "Sancta Maria de Copacabana, Regina et Patrona Boliviae, ora pro nobis et protege populum tuum.",
+      "guiaFonetica": "[Virgen de Copacabana, Reina de Bolivia, bendícenos]",
+      "textoTraducido": "至圣童贞玛利亚，科帕卡巴纳圣母，玻利维亚之后与主保！几个世纪以来，祢从的的喀喀湖畔向朝圣者广施祝福、安慰与奇迹的庇护。求祢慈爱地垂顾我们，护佑家庭免受身心侵害，保佑和平，并向圣子耶稣为我们转求坚固的信德与康泰。阿们。",
       "ritualesAsociados": {
         "tipoContador": "challa_de_flores_o_cirio_candelaria",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81963,19 +81957,18 @@
     {
       "id": "CAT_BOL_URKUPINA_COCHABAMBA",
       "numero": 3748,
-      "titulo": "向乌尔库皮纳圣母（融合守护神）祈祷",
+      "titulo": "乌尔库皮尼亚圣母 (Virgen de Urkupiña) · 融合共融之主保、家庭与劳作之祝福",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "abundancia_trabajo_y_salud",
+      "categoriaIntencion": "prosperidad_familia",
       "estadosEmocionales": [
-        "necesitado_de_sustento",
-        "trabajador",
-        "agradecido",
-        "ferviente"
+        "escasez",
+        "miedo_angustia",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español / Quechua",
-      "textoOriginal": "¡Mamita de Urkupiña, Virgen del cerro de Cota donde te apareciste a la pastorcita diciendo: «¡Urkupiña! ¡Ya está en el cerro!»! Vengo ante Ti con fe viva a pedir tu bendición para mi trabajo, mi hogar y mi salud. Así como picamos la piedra del cerro en señal de préstamo sagrado, prometo honrar tu bondad con generosidad hacia los pobres y fidelidad a Dios. Amén.",
-      "guiaFonetica": "[Ma-mi-ta de Ur-ku-pi-ña, Vir-jen del ce-rro de Co-ta]",
-      "textoTraducido": "Mamita de Urkupiña，融合圣母：保佑我们的诚实工作，增加我们的生计并保持我们的家庭团结。阿门。",
+      "idiomaLiturgicoOriginal": "Español Boliviano / Quechua",
+      "textoOriginal": "Sancta Maria de Urkupiña, Patrona Integrationis Nationalis, ora pro nobis et familias nostras benedic.",
+      "guiaFonetica": "[Virgen de Urkupiña, Madre de la Integración, bendícenos]",
+      "textoTraducido": "至圣乌尔库皮尼亚圣母，慈爱的母亲与融合共融的主保！祢曾在科塔山丘上显现，求祢俯听儿女的祈祷。降福我们辛勤劳作的成果，丰裕家庭的食粮，使我们的家园在信德与爱德中常存和睦。远离匮乏与疾病，并赐予我们诸般圣宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "piedra_del_calvario_y_ofrenda",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81986,19 +81979,18 @@
     {
       "id": "CAT_URY_VIRGEN_TREINTA_Y_TRES",
       "numero": 3749,
-      "titulo": "向三十三圣母（乌拉圭守护神）祈祷",
+      "titulo": "三十三人圣母 (Virgen de los Treinta y Tres) · 乌拉圭主保与自由之母",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "paz_republicana_y_libertad",
+      "categoriaIntencion": "libertad_patria",
       "estadosEmocionales": [
-        "patriota",
-        "deseoso_de_paz",
-        "firme",
-        "esperanzado"
+        "miedo_angustia",
+        "esperanza",
+        "fe_debilitada"
       ],
-      "idiomaLiturgicoOriginal": "Español uruguayo",
-      "textoOriginal": "Virgen de los Treinta y Tres, ante cuya humilde imagen los libertadores de la Patria Oriental juraron la independencia de nuestra tierra: mira con amor al pueblo uruguayo. Concédenos la verdadera libertad de los hijos de Dios, preserva la paz republicana, ilumina a nuestros gobernantes y bendice a cada familia de este suelo oriental. Amén.",
-      "guiaFonetica": "[Vir-jen de los Trein-ta y Tres, an-te cu-ya hu-mil-de i-ma-gen]",
-      "textoTraducido": "三十三圣母，乌拉圭的母亲和守护神：照顾我们的国家，促进兄弟之间的和谐，并成为东方家园的保护者。阿门。",
+      "idiomaLiturgicoOriginal": "Español Uruguayo / Latín",
+      "textoOriginal": "Sancta Maria a Triginta et Tribus, Patrona Reipublicae Orientalis Uruquariae, ora pro nobis et liberta nos.",
+      "guiaFonetica": "[Virgen de los Treinta y Tres, Libertadora y Patrona, ruega por nosotros]",
+      "textoTraducido": "至圣童贞玛利亚，三十三人圣母，乌拉圭的守护者与主保！当年先贤曾在祢圣像前誓求自由与正义，今日我们将家园与前程托付于祢。求祢使我们摆脱罪恶与分裂的羁绊，赐予我们和睦、尊严的劳作与天主的丰沛恩宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "tres_aves_marias_patronales",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82031,19 +82023,18 @@
     {
       "id": "CAT_PRY_CAACUPE_TUPASY",
       "numero": 3751,
-      "titulo": "Ñembo'e Tupãsy Ka'akupépe（向卡库佩圣母祈求）",
+      "titulo": "卡阿库佩奇迹圣母 (Tupãsy Ka'akupe) · 巴拉圭主保与奇迹之母",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "amparo_maternal_guarani_y_fe",
+      "categoriaIntencion": "proteccion_maternal",
       "estadosEmocionales": [
-        "devoto",
-        "peregrino_guarani",
-        "agradecido",
-        "amparado"
+        "miedo_angustia",
+        "esperanza",
+        "tristeza_duelo"
       ],
-      "idiomaLiturgicoOriginal": "Guaraní / Español paraguayo",
-      "textoOriginal": "Tupãsy Ka'akupe, nde niko ore sy marangatuite. Ema'ẽmína ne membykuéra rehe roúva ne rendápe rojerure haḡua ndéve py'aguapy, tesãi ha tory ore rógapere. Virgen de Caacupé, Madre de todos los paraguayos: bendice a nuestra patria, cuida a los campesinos y humildes, y guíanos siempre hacia tu Hijo Jesús. Amén.",
-      "guiaFonetica": "[Tu-pan-sy Ka-a-ku-pe, nde ni-ko o-re sy ma-ran-ga-tu-i-te... E-ma-en-mi-na ne mem-by-ku-e-ra re-he]",
-      "textoTraducido": "巴拉圭圣母卡库佩圣母：温柔地看着来到你的植物旁的孩子们。赐予我们家中平安、健康和祝福。阿门。",
+      "idiomaLiturgicoOriginal": "Guaraní / Español Paraguayo / Latín",
+      "textoOriginal": "Tupãsy Ka'akupe, Paraguái py'aguapy ha teko porã rerekua, eñembo'e ore rehe.",
+      "guiaFonetica": "[Tupãsy Ka'akupe, Virgen de los Milagros de Caacupé, ruega por nosotros]",
+      "textoTraducido": "至圣卡阿库佩奇迹圣母，巴拉圭慈爱的母亲与主保！祢曾奇迹般拯救处于死难危险中的谦卑信友，求祢将我们的家庭庇护在祢的圣袍下。作卑微弱小者的避难所，并向圣子耶稣为我们转求平安、健康与所需的圣宠。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "terciario_guarani_con_canto_purahéi",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82100,19 +82091,18 @@
     {
       "id": "CAT_SLV_MONSENOR_ROMERO_AMERICA",
       "numero": 3754,
-      "titulo": "向圣奥斯卡·阿努尔福·罗梅罗祈祷（无声者之声）",
+      "titulo": "圣奥斯卡·罗梅罗 · 无声者的代言人、真理与和平的殉道者",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "justicia_social_paz_y_derechos_humanos",
+      "categoriaIntencion": "justicia_paz",
       "estadosEmocionales": [
-        "perseguido_por_justicia",
-        "oprimido",
-        "valiente",
-        "pacificador"
+        "miedo_angustia",
+        "desesperacion",
+        "injusticia"
       ],
-      "idiomaLiturgicoOriginal": "Español cuscatleco",
-      "textoOriginal": "San Óscar Romero, pastor santo y mártir de Cristo que entregaste tu vida en el altar defendiendo la dignidad de los pobres y clamando por el cese de la violencia: enséñanos a no ser cómplices de la injusticia. Concédenos tu firmeza profética unida a tu profunda piedad eucarística, para construir una sociedad donde reinen la verdad, el perdón y la paz duradera. Amén.",
-      "guiaFonetica": "[San Os-car Ro-me-ro, pas-tor san-to y mar-tir de Cris-to]",
-      "textoTraducido": "圣奥斯卡罗梅罗，无声者的声音：为我们城镇的和平代祷，保护弱势群体，并向我们灌输福音的勇气。阿门。",
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancte Anschari Romero, martyr iustitiae et vox pauperum, ora pro nobis.",
+      "guiaFonetica": "[San Óscar Romero, voz de los sin voz, intercede por la paz]",
+      "textoTraducido": "仁慈的天主圣父，祢使圣奥斯卡·罗梅罗成为勇敢的牧者、无声者的代言人以及祭台旁的殉道者！求祢赐予我们体恤近人疾苦的爱心与维护真理的勇气。消除家庭与社会中的一切暴力与不公，使我们成为和平与修和的建设者。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "oracion_ante_la_cruz_de_romero",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82207,19 +82197,18 @@
     {
       "id": "CAT_PRI_PROVIDENCIA_PATRONA",
       "numero": 3759,
-      "titulo": "向普罗维登斯圣母（波多黎各守护神）祈祷",
+      "titulo": "天主上智眷顾圣母 (Nuestra Señora de la Providencia) · 波多黎各主保",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "providencia_divina_y_amparo_boricua",
+      "categoriaIntencion": "providencia_proteccion",
       "estadosEmocionales": [
-        "confiado",
-        "boricua",
-        "en_paz",
-        "amparado"
+        "miedo_angustia",
+        "desesperacion",
+        "esperanza"
       ],
-      "idiomaLiturgicoOriginal": "Español puertorriqueño",
-      "textoOriginal": "¡Virgen de la Providencia, Madre de Dios y Patrona de Puerto Rico! En tus maternales manos ponemos el destino de nuestra hermosa isla del encanto, de nuestras familias y de nuestros hermanos en la diáspora. Que tu Divina Providencia nunca nos falte en el pan, en la salud, en la paz y en la fe. Defiéndenos de huracanes y tempestades, y líbranos de todo mal. Amén.",
-      "guiaFonetica": "[Vir-jen de la Pro-vi-den-cia, Ma-dre de Dios y Pa-tro-na de Puer-to Ri-co]",
-      "textoTraducido": "普罗维登斯圣母：照顾波多黎各及其家人；愿您慈爱的天意永远不会抛弃我们。阿门。",
+      "idiomaLiturgicoOriginal": "Español Puertorriqueño / Latín",
+      "textoOriginal": "Sancta Maria a Providentia, Patrona Portus Divitis, ora pro nobis et conserva nos in pace.",
+      "guiaFonetica": "[Virgen de la Providencia, Patrona de Puerto Rico, cuida a tus hijos]",
+      "textoTraducido": "至圣童贞玛利亚，上智眷顾之母，波多黎各慈爱的主保！祢怀抱着安睡的圣婴耶稣，满含温情，求祢眷顾我们家庭的切身需求。在风暴与未知中，愿祢母亲般的照料永不远离。降福我们的子孙，并向天主为我们转求安宁、富足与永恒的救恩。因我们的主基督。阿们。",
       "ritualesAsociados": {
         "tipoContador": "novena_de_la_providencia",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94130,6 +94119,182 @@
       "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
       "textoTraducido": "至圣童贞玛利亚，七苦之母与殉道者之后！当天主预言的利刃刺透祢慈悲的心灵之际，祢仍坚忍不拔地伫立在十字架旁：求祢以慈悲之目垂顾我们生活中的诸般痛苦、哀伤与磨难。藉着祢神圣的七苦，为我们向主求得忧伤中的安慰、疾病中的痊愈以及承当日常十字架的坚强毅力。在苦痛的时刻作我们的避难所，并在我们迈向与祢至爱圣子耶稣基督永生相聚的时刻陪伴我们。阿们。",
       "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_MIGUEL_PRO_PALOMAR",
+      "numero": 4282,
+      "titulo": "真福米格尔·普罗神父 · 英勇奉献与基督君王万岁！",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_espiritual",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "fe_debilitada"
+      ],
+      "idiomaLiturgicoOriginal": "Español Mexicano / Latín",
+      "textoOriginal": "¡Oh Señor Jesús, Rey de Reyes! Por la sangre y el testimonio del Beato Miguel Agustín Pro, haz que resuene en mi corazón su último grito de amor y victoria: ¡Viva Cristo Rey! Amén.",
+      "guiaFonetica": "[Viva Cristo Rey! / Oh Señor Jesús, te ofrezco mis tribulaciones unidas a tu Santa Cruz]",
+      "textoTraducido": "仁慈而全能的天主，祢曾赐予真福米格尔·普罗神父在教难中满怀喜乐事奉祢的恩典，并以英勇的殉道坚证其忠贞！求祢教导我毋惧世俗的风浪，为福音勇敢奉献生命。愿在一切试炼中，他那胜利的呼声回荡于我心：基督君王万岁！愿他的代祷为我的家庭带来平安，坚固我的信德，并赐予我今日谦卑恳求的圣宠。因我们的主基督。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_catedral_eco"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_MEX_SAN_FELIPE_JESUS",
+      "numero": 4283,
+      "titulo": "圣费利佩·德·赫苏斯 · 墨西哥首位殉道圣人与十字架的荣耀",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "perseverancia_fe",
+      "estadosEmocionales": [
+        "debilidad",
+        "tentacion",
+        "duda_espiritual"
+      ],
+      "idiomaLiturgicoOriginal": "Español Novohispano / Latín",
+      "textoOriginal": "Sancte Philippe a Iesu, primus martyr Mexicanus, ora pro nobis et pro patria nostra.",
+      "guiaFonetica": "[Sancte Philippe a Iesu, martyr gloriose, intercede pro nobis]",
+      "textoTraducido": "光荣的圣费利佩·德·赫苏斯，墨西哥与美洲的首位殉道者，曾以对基督炽热的爱在长崎山丘上拥抱神圣十字架！祢在不安的青年时期归向天主并赢得不朽的荣冠，求祢庇佑我们的家庭和青年抵御试探。教导我们坚毅恒忍与纯洁的心灵，以坚定的信德全然献身于主，赐予我们所需的护佑与恩典。因我们的主基督。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_monasterio_lejano"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_SLV_VIRGEN_DE_LA_PAZ",
+      "numero": 4284,
+      "titulo": "和平圣母 · 萨尔瓦多主保与修和之后",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "conflicto_familiar",
+        "desesperacion"
+      ],
+      "idiomaLiturgicoOriginal": "Español Salvadoreño / Latín",
+      "textoOriginal": "Sancta Maria, Regina Pacis, Patrona Salvadoriae, ora pro nobis et reconcilia corda nostra.",
+      "guiaFonetica": "[Regina Pacis, ora pro nobis / Virgen de la Paz, ruega por nosotros]",
+      "textoTraducido": "至圣童贞玛利亚，和平之后，萨尔瓦多慈爱的守护者！祢曾在战乱与苦难中平息毁灭的风暴，将和平甘霖倾注于子民心中，求祢垂顾我们。求祢化解仇恨，抚平家庭的创伤，消除一切纷争。和平之后，请将我们护佑在祢的圣袍之下，并向祢的神圣圣子为我们转求公义、团结合睦与宽恕的恩宠。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "coro_angelical_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_COL_PEDRO_CLAVER_CARTAGENA",
+      "numero": 4285,
+      "titulo": "圣伯多禄·克拉威 · 奴隶之奴仆与仁爱使徒",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "caridad_servicio",
+      "estadosEmocionales": [
+        "soledad",
+        "rechazo",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Colombiano / Latín",
+      "textoOriginal": "Petrus Claver, Aethiopum servus pro semper, ora pro nobis et doce nos caritatem Christi.",
+      "guiaFonetica": "[Petrus Claver, servus servorum, intercede pro nobis]",
+      "textoTraducido": "光荣的圣伯多禄·克拉威，受压迫者的宗徒与加塔赫纳苦难人群的无私仆人！祢曾立下英勇的誓愿，终生成为“奴隶的奴仆”，求祢将那份舍己慈爱倾注在我们心中。助我们在受苦者身上看见基督的圣容，摆脱自私与罪恶的桎梏，并藉祢的代祷赐予我们平安、健康与所需的圣宠。因我们的主基督。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "mar_caribe_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_VEN_CRISTO_LA_GRITA",
+      "numero": 4286,
+      "titulo": "拉格里塔至圣基督 · 安详圣容、安第斯山奇迹与护佑之盾",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "dolor_fisico"
+      ],
+      "idiomaLiturgicoOriginal": "Español Venezolano / Latín",
+      "textoOriginal": "Domine Iesu Christe de La Grita, Redemptor noster, protege nos a terraemotu et omni malo.",
+      "guiaFonetica": "[Santo Cristo de La Grita, milagroso Protector, sálvanos]",
+      "textoTraducido": "至甘饴的拉格里塔圣基督，安第斯山脉深受信赖的护佑者与危难中的坚固避难所！我们怀着虔敬瞻仰祢由天意雕琢的安详圣容。求祢怜悯垂顾，将充满祝福的双臂伸向我们的家庭。庇佑我们免受震灾、风暴与病痛的侵袭，赐予我们身心的治愈，以及我们在祢十字架下恳求的圣宠。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "viento_andino_campanadas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PAN_SANTA_MARIA_ANTIGUA",
+      "numero": 4287,
+      "titulo": "古老圣玛利亚 (Santa María la Antigua) · 巴拿马主保与希望之母",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_maternal",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Panameño / Latín",
+      "textoOriginal": "Sancta Maria La Antigua, Prima Sedis Americae Patrona, ora pro nobis et protege populum Panamensem.",
+      "guiaFonetica": "[Santa Maria La Antigua, Patrona de Panamá, ruega por nosotros]",
+      "textoTraducido": "至圣童贞玛利亚，古老圣玛利亚，巴拿马慈爱的母亲与主保！祢曾见证美洲信德的初晓，怀抱着圣婴耶稣与纯洁的玫瑰，求祢护佑我们的家庭。成为我们生命风浪中的明灯，以爱凝聚我们的家园，并为我们向天主求得平安、福乐与深切期盼的恩宠。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "ondas_marinas_campanas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_PER_VIRGEN_PUERTA_OTUZCO",
+      "numero": 4288,
+      "titulo": "奥图斯科城门圣母 (Virgen de la Puerta) · 抵御瘟疫与凶险的天上护盾",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "enfermedad",
+        "peligro_enemigos"
+      ],
+      "idiomaLiturgicoOriginal": "Español Peruano / Quechua / Latín",
+      "textoOriginal": "Sancta Maria ad Portam, Regina Pacis et Tutela Septentrionis Peruviani, ora pro nobis.",
+      "guiaFonetica": "[Mamita de la Puerta, Reina de Otuzco, protégenos de todo mal]",
+      "textoTraducido": "至仁慈的城门圣母，奥图斯科慈爱的圣母与秘鲁北部的守护者！祢曾立于城门前行奇迹护佑子民免遭灾祸与疫病，求祢今日成为我们家门与心灵的天上守门者。阻绝疾病与邪恶的侵袭，为我们广开健康、生计与天主仁慈的恩宠之门。因我们的主基督。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_50",
+        "duracionVeladoraSugeridaHoras": 48,
+        "paisajeSonoroRecomendado": "viento_andino_quena"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_BRA_BOM_JESUS_MATOSINHOS",
+      "numero": 4289,
+      "titulo": "马托西纽斯良善耶稣 (Bom Jesus de Matosinhos) · 慈悲与治愈的源泉",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "misericordia",
+      "estadosEmocionales": [
+        "dolor_fisico",
+        "desesperacion",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Português Brasileiro / Latín",
+      "textoOriginal": "Senhor Bom Jesus de Matosinhos, Redentor do mundo, compadecei-vos de nós e de nossas famílias.",
+      "guiaFonetica": "[Senhor Bom Jesus de Matosinhos, tende piedade de nós]",
+      "textoTraducido": "马托西纽斯至甘饴的良善耶稣，在朝圣之地将无限怜悯倾注于世人的救赎主！藉着祢苦难的圣功与神圣圣伤，求祢接纳我们的祈求，治愈我们身心的创伤与疾病，降福我们的家庭。在危难中作我们的避难所，并赐予我们怀着坚定信德所祈求的圣宠。因我们的主基督。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "decenario_10",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "sinos_barrocos_minas"
+      },
       "dir": "ltr"
     }
   ]
