@@ -1007,8 +1007,8 @@ export class StorageService {
     if (daysLeft > 0) return false; // Todavía está en su trial inicial
 
     const lastReminder = sub.lastPaywallReminderDate || 0;
-    const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
-    return (Date.now() - lastReminder) >= sevenDaysMs;
+    const fortyDaysMs = 40 * 24 * 60 * 60 * 1000; // Intervalo de recordatorio cada 40 días
+    return (Date.now() - lastReminder) >= fortyDaysMs;
   }
 
   static recordPaywallReminderShown() {
