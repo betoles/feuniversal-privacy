@@ -144,6 +144,11 @@ button, input, select, textarea, .crystal-card, .bottom-nav-item, .tradition-chi
   box-shadow: 0 0 10px rgba(251, 191, 36, 0.15);
 }
 
+.hud-membership-badge svg,
+.hud-membership-badge .icon-svg {
+  display: none !important;
+}
+
 .hud-membership-badge:hover {
   background: linear-gradient(135deg, rgba(251, 191, 36, 0.28), rgba(217, 119, 6, 0.45));
   box-shadow: 0 0 14px var(--accent-gold-glow);
