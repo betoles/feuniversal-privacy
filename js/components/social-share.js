@@ -82,7 +82,7 @@ export function getHeroMessagingPlatform(lang = 'es') {
       bg: 'rgba(7, 193, 96, 0.16)',
       border: 'rgba(7, 193, 96, 0.45)',
       glow: 'rgba(7, 193, 96, 0.35)',
-      actionKey: 'share_via_wechat'
+      actionKey: 'share_blessing_hero_wechat'
     };
   }
   if (l === 'ja') {
@@ -94,7 +94,7 @@ export function getHeroMessagingPlatform(lang = 'es') {
       bg: 'rgba(0, 185, 0, 0.16)',
       border: 'rgba(0, 185, 0, 0.45)',
       glow: 'rgba(0, 185, 0, 0.35)',
-      actionKey: 'share_via_line'
+      actionKey: 'share_blessing_hero_line'
     };
   }
   if (l === 'ru') {
@@ -106,7 +106,7 @@ export function getHeroMessagingPlatform(lang = 'es') {
       bg: 'rgba(0, 136, 204, 0.16)',
       border: 'rgba(0, 136, 204, 0.45)',
       glow: 'rgba(0, 136, 204, 0.35)',
-      actionKey: 'share_via_telegram'
+      actionKey: 'share_blessing_hero_telegram'
     };
   }
   // Predeterminado para América Latina, Norteamérica, Europa, Medio Oriente, India, África
@@ -118,7 +118,7 @@ export function getHeroMessagingPlatform(lang = 'es') {
     bg: 'rgba(37, 211, 102, 0.16)',
     border: 'rgba(37, 211, 102, 0.45)',
     glow: 'rgba(37, 211, 102, 0.35)',
-    actionKey: 'share_via_whatsapp'
+    actionKey: 'share_blessing_hero_whatsapp'
   };
 }
 

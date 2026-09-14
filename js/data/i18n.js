@@ -9934,11 +9934,14 @@ export function isRTL(lang) {
 }
 
 export function t(key, lang = 'es') {
+  if (!key) return '';
   const l = (lang || 'es').toLowerCase();
   const dict = UI_TRANSLATIONS[l] || UI_TRANSLATIONS['es'] || UI_TRANSLATIONS['en'] || {};
   if (dict[key] !== undefined) return dict[key];
   if (UI_TRANSLATIONS['es'] && UI_TRANSLATIONS['es'][key] !== undefined) return UI_TRANSLATIONS['es'][key];
   if (UI_TRANSLATIONS['en'] && UI_TRANSLATIONS['en'][key] !== undefined) return UI_TRANSLATIONS['en'][key];
-  return key;
+  
+  // NUNCA devolver una clave con guiones bajos a la interfaz de usuario:
+  return String(key).replace(/_/g, ' ');
 }
 

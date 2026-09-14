@@ -7,6 +7,8 @@
  */
 
 import { soundManager } from '../services/sound-service.js';
+import { PrayerCorpusService } from '../services/prayer-corpus-service.js';
+import { getTradition } from '../data/traditions.js';
 import { StorageService } from '../services/storage-service.js';
 import { renderIcon } from './icons.js';
 import { SocialShareComponent, getHeroMessagingPlatform, executePlatformShare } from './social-share.js';
@@ -25,7 +27,62 @@ export class MirrorReaderComponent {
     this.currentSound = 'silencio_profundo';
   }
 
-  open(prayer) {
+  formatTraditionName(tradKey, lang = 'es') {
+    if (!tradKey) return '';
+    try {
+      const trad = getTradition(tradKey.toLowerCase());
+      if (trad && trad.nombre) {
+        const name = trad.nombre[lang] || trad.nombre['es'] || trad.nombre['en'];
+        if (name) return name.toUpperCase();
+      }
+    } catch (e) {}
+    const i18nKey = `trad_${tradKey.toLowerCase()}`;
+    const translated = t(i18nKey, lang);
+    if (translated && translated !== i18nKey) return translated.toUpperCase();
+    return String(tradKey).replace(/_/g, ' ').toUpperCase();
+  }
+
+  formatLiturgicalRoot(rootStr, lang = 'es') {
+    if (!rootStr) return t('liturgical_root', lang) || 'Litúrgico';
+    const roots = String(rootStr).split('/').map(s => s.trim());
+    const ROOT_MAP = {
+      'sánscrito': { ru: 'Священный санскрит', en: 'Sacred Sanskrit', zh: '梵文', ja: 'サンスクリット語', es: 'Sánscrito Sagrado', ar: 'السنسكريتية المقدسة', he: 'סנסקריט קדושה' },
+      'sanscrito': { ru: 'Священный санскрит', en: 'Sacred Sanskrit', zh: '梵文', ja: 'サンスクリット語', es: 'Sánscrito Sagrado', ar: 'السنسكريتية المقدسة', he: 'סנסקריט קדושה' },
+      'pali': { ru: 'Пали', en: 'Pali', zh: '巴利文', ja: 'パーリ語', es: 'Pali', ar: 'البالية', he: 'פאלי' },
+      'páli': { ru: 'Пали', en: 'Pali', zh: '巴利文', ja: 'パーリ語', es: 'Pali', ar: 'البالية', he: 'פאלי' },
+      'tibetano': { ru: 'Тибетский', en: 'Tibetan', zh: '藏文', ja: 'チベット語', es: 'Tibetano', ar: 'التبتية', he: 'טיבטית' },
+      'hebreo': { ru: 'Древнееврейский', en: 'Biblical Hebrew', zh: '希伯来圣经语', ja: 'ヘブライ語', es: 'Hebreo Bíblico', ar: 'العبرية التوراتية', he: 'עברית מקראית' },
+      'arameo': { ru: 'Арамейский', en: 'Aramaic', zh: '亚兰文', ja: 'アラム語', es: 'Arameo', ar: 'الآرامية', he: 'ארמית' },
+      'árabe': { ru: 'Коранический арабский', en: 'Quranic Arabic', zh: '古兰经阿拉伯语', ja: 'クルアーン・アラビア語', es: 'Árabe Coránico', ar: 'العربية القرآنية', he: 'ערבית קוראנית' },
+      'arabe': { ru: 'Коранический арабский', en: 'Quranic Arabic', zh: '古兰经阿拉伯语', ja: 'クルアーン・アラビア語', es: 'Árabe Coránico', ar: 'العربية القرآنية', he: 'ערבית קוראנית' },
+      'latín': { ru: 'Церковная латынь', en: 'Ecclesiastical Latin', zh: '教会拉丁语', ja: '教会ラテン語', es: 'Latín Eclesiástico', ar: 'اللاتينية الكنسية', he: 'לטינית כנסייתית' },
+      'latin': { ru: 'Церковная латынь', en: 'Ecclesiastical Latin', zh: '教会拉丁语', ja: '教会ラテン語', es: 'Latín Eclesiástico', ar: 'اللاتينية الكنسية', he: 'לטינית כنسייתית' },
+      'griego': { ru: 'Древнегреческий (Койне)', en: 'Koine Greek', zh: '通用希腊语', ja: '古代ギリシャ語', es: 'Griego Koiné', ar: 'اليونانية القديمة', he: 'יוונית קוינה' },
+      'eslavo eclesiástico': { ru: 'Церковнославянский', en: 'Church Slavonic', zh: '教会斯拉夫语', ja: '教会スラヴ語', es: 'Eslavo Eclesiástico', ar: 'السلافية الكنسية', he: 'סלאבית כנסייתית' },
+      'ruso': { ru: 'Русский', en: 'Russian', zh: '俄语', ja: 'ロシア語', es: 'Ruso', ar: 'الروسية', he: 'רוסית' },
+      'chino': { ru: 'Классический китайский', en: 'Classical Chinese', zh: '文言文', ja: '漢文', es: 'Chino Clásico', ar: 'الصينية الكلاسيكية', he: 'סינית קלאסית' },
+      'japonés': { ru: 'Японский', en: 'Japanese', zh: '日语', ja: '日本語', es: 'Japonés', ar: 'اليابانية', he: 'יפנית' },
+      'japones': { ru: 'Японский', en: 'Japanese', zh: '日语', ja: '日本語', es: 'Japonés', ar: 'اليابانية', he: 'יפנית' },
+      'español': { ru: 'Испанский', en: 'Spanish', zh: '西班牙语', ja: 'スペイン語', es: 'Español', ar: 'الإسبانية', he: 'ספרדית' },
+      'espanol': { ru: 'Испанский', en: 'Spanish', zh: '西班牙语', ja: 'スペイン語', es: 'Español', ar: 'الإسبانية', he: 'ספרדית' },
+      'yoruba': { ru: 'Йоруба', en: 'Yoruba', zh: '约鲁巴语', ja: 'ヨルバ語', es: 'Yoruba', ar: 'اليوروبا', he: 'יורובה' },
+      'inglés': { ru: 'Английский', en: 'English', zh: '英语', ja: '英語', es: 'Inglés', ar: 'الإنجليزية', he: 'אנגלית' },
+      'ingles': { ru: 'Английский', en: 'English', zh: '英语', ja: '英語', es: 'Inglés', ar: 'الإنجليزية', he: 'אנגלית' }
+    };
+    
+    const localized = roots.map(r => {
+      const lower = r.toLowerCase().trim();
+      for (const [k, map] of Object.entries(ROOT_MAP)) {
+        if (lower.includes(k)) {
+          return map[lang] || map['en'] || map['es'] || r;
+        }
+      }
+      return r.replace(/_/g, ' ');
+    });
+    return localized.join(' / ');
+  }
+
+  async open(prayer) {
     const quota = StorageService.getDailyPrayerQuota();
     if (!quota.allowed) {
       this.membership.open('prayer_limit');
@@ -34,10 +91,24 @@ export class MirrorReaderComponent {
 
     StorageService.recordPrayerRead();
 
+    const prefs = StorageService.getPreferences();
+    const lang = prefs.idioma || 'es';
+
+    // 1. Carga asíncrona garantizada de la plegaria en el idioma activo
+    if (prayer && prayer.id) {
+      try {
+        const fullPrayer = await PrayerCorpusService.getPrayerById(prayer.id, lang);
+        if (fullPrayer) {
+          prayer = fullPrayer;
+        }
+      } catch (e) {
+        console.warn('[MirrorReader] Error cargando plegaria en idioma activo:', e);
+      }
+    }
+
     this.currentPrayer = prayer;
     window.activePrayerSession = prayer;
 
-    const prefs = StorageService.getPreferences();
     this.currentSound = prefs.sonidoAmbientePorDefecto || 'silencio_profundo';
 
     this.render();
@@ -187,6 +258,7 @@ export class MirrorReaderComponent {
         else if (key === 'novena_9' || key === 'novena') countLabel = `${t('nav_novenas', lang) || 'Novena'} (9)`;
         else if (key === 'veinticuatro') countLabel = '24';
         else countLabel = r.tipoContador.replace(/_/g, ' ');
+        countLabel = countLabel.replace(/\s*\(\d+\)\s*\(\d+\)/g, (m) => { const n = m.match(/\d+/); return n ? ` (${n[0]})` : ''; });
       }
 
       const candleLabel = r.duracionVeladoraSugeridaHoras ? `${r.duracionVeladoraSugeridaHoras}h` : '';
@@ -242,8 +314,8 @@ export class MirrorReaderComponent {
         <div style="margin-bottom: 14px; padding-${isLangRTL ? 'left' : 'right'}: 40px;">
           <h2 style="font-family: var(--font-sacred); font-size: 1.45rem; color: var(--text-primary); margin: 0 0 8px; line-height: 1.35;">${titleText}</h2>
           <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
-            <span class="hud-pill dot-gold" style="font-size: 0.75rem; font-weight: 700;">${prayer.idiomaLiturgicoOriginal || 'Litúrgico'}</span>
-            <span class="hud-pill dot-green" style="font-size: 0.75rem; font-weight: 700;">${(prayer.tradicion || '').toUpperCase().replace(/_/g, ' ')}</span>
+            <span class="hud-pill dot-gold" style="font-size: 0.75rem; font-weight: 700;">${this.formatLiturgicalRoot(prayer.idiomaLiturgicoOriginal, lang)}</span>
+            <span class="hud-pill dot-green" style="font-size: 0.75rem; font-weight: 700;">${this.formatTraditionName(prayer.tradicion, lang)}</span>
             ${isZen ? `<span class="hud-pill dot-cyan" style="font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;"><span>${renderIcon('intent_paz')}</span><span>${t('zen_mode_label', lang)}</span></span>` : ''}
           </div>
         </div>
@@ -305,7 +377,7 @@ export class MirrorReaderComponent {
           <div class="pane-sacred">
             <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 6px; margin-bottom: 14px;">
               <span style="font-size: 0.76rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em;">${t('root_label', lang) || 'Raíz Sagrada'}</span>
-              <span class="hud-pill dot-gold" style="font-size: 0.72rem;">${prayer.idiomaLiturgicoOriginal || 'Litúrgico'}</span>
+              <span class="hud-pill dot-gold" style="font-size: 0.72rem;">${this.formatLiturgicalRoot(prayer.idiomaLiturgicoOriginal, lang)}</span>
             </div>
             <div class="pane-content-original">${prayer.textoOriginal || ''}</div>
 
@@ -341,7 +413,7 @@ export class MirrorReaderComponent {
           <div class="blessing-actions-row">
             <button id="btn-blessing-hero-share" class="btn-crystal btn-blessing-hero" data-platform="${heroPlatform.key}" style="background: ${heroPlatform.bg}; border-color: ${heroPlatform.border}; color: ${heroPlatform.color}; box-shadow: 0 0 16px ${heroPlatform.glow};">
               <span class="blessing-btn-icon">${renderIcon(heroPlatform.icon)}</span>
-              <span class="blessing-btn-text">${t(heroPlatform.actionKey, lang) || `Enviar por ${heroPlatform.name}`}</span>
+              <span class="blessing-btn-text">${(t(heroPlatform.actionKey, lang) || t('share_blessing_hero_' + heroPlatform.key, lang) || `Enviar por ${heroPlatform.name}`).replace(/_/g, ' ')}</span>
             </button>
             <button id="btn-blessing-more-options" class="btn-crystal btn-blessing-more">
               <span class="blessing-btn-icon" style="color: var(--accent-gold);">${renderIcon('ui_camera')}</span>
