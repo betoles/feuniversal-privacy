@@ -97,9 +97,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;700;900&family=Frank+Ruhl+Libre:wght@500;700;900&family=JetBrains+Mono:wght@500;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Serif+JP:wght@400;600;700&family=Noto+Serif+SC:wght@500;700;900&family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Hojas de Estilo del Sistema Crystal Glassmorphism -->
-  <link rel="stylesheet" href="css/design-tokens.css?v=9.4.4">
-  <link rel="stylesheet" href="css/glassmorphism.css?v=9.4.4">
-  <link rel="stylesheet" href="css/app.css?v=9.4.4">
+  <link rel="stylesheet" href="css/design-tokens.css?v=9.4.5">
+  <link rel="stylesheet" href="css/glassmorphism.css?v=9.4.5">
+  <link rel="stylesheet" href="css/app.css?v=9.4.5">
 </head>
 <body class="app-viewport">
 
@@ -543,7 +543,7 @@
     if ('caches' in window) {
       caches.keys().then(keys => {
         keys.forEach(k => {
-          if (k.includes('feuniversal-core') && !k.endsWith('v9.4.4')) {
+          if (k.includes('feuniversal-core') && !k.endsWith('v9.4.5')) {
             console.log('[Cache Cleanup] Purgando caché obsoleta:', k);
             caches.delete(k);
           }
@@ -555,7 +555,7 @@
         regs.forEach(r => r.update());
       });
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=9.4.4').then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=9.4.5').then(reg => {
           reg.update();
         }).catch(err => {
           console.log('[PWA] Service Worker activo');
@@ -565,7 +565,7 @@
   </script>
 
   <!-- Script Principal con Cache-Busting -->
-  <script type="module" src="js/app.js?v=9.4.4"></script>
+  <script type="module" src="js/app.js?v=9.4.5"></script>
 
 </body>
 </html>

@@ -59,7 +59,7 @@ export class MembershipComponent {
       headlineIcon = 'ui_check';
       messageHtml = `<p style="font-size: 0.86rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 16px; line-height: 1.5;">${t('membership_active_msg', lang) || '¡Eres Miembro Sagrado Activo! Tienes acceso ilimitado a todas las bendiciones, música y funciones de FeUniversal.'}</p>`;
     } else if (this.context === 'prayer_limit') {
-      headline = 'Cuota Diaria de Oraciones';
+      headline = t('prayer_limit_headline', lang) || 'Cuota Diaria de Oraciones';
       headlineIcon = 'nav_scriptures';
       const quotaLimit = isNative ? '3' : '2';
       messageHtml = `
@@ -70,7 +70,7 @@ export class MembershipComponent {
         </div>
       `;
     } else if (this.context === 'candle_limit') {
-      headline = 'Altar Mayor de 12 Veladoras';
+      headline = t('candle_limit_headline', lang) || 'Altar Mayor de 12 Veladoras';
       headlineIcon = 'nav_altar';
       messageHtml = `
         <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 16px; max-width: 500px; text-align: start;">
@@ -117,7 +117,7 @@ export class MembershipComponent {
         ${messageHtml}
 
         <!-- PILARES DE VALOR CON ICONOS SVG PUROS -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-bottom: 16px; text-align: left;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-bottom: 16px; text-align: start;">
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: var(--accent-cyan); display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('ui_audio')}</span>
             <div style="min-width: 0;">
@@ -148,36 +148,36 @@ export class MembershipComponent {
           </div>
         </div>
 
-        <!-- CUADRO COMPARATIVO MODO LIBRE VS PRO (100% SVG Y RESPONSIVO) -->
-        <div style="background: rgba(0,0,0,0.35); border: 1px solid var(--glass-border); border-radius: var(--radius-md); padding: 12px 14px; margin-bottom: 18px; text-align: left;">
+        <!-- CUADRO COMPARATIVO MODO LIBRE VS PRO (100% SVG, I18N Y RESPONSIVO) -->
+        <div style="background: rgba(0,0,0,0.35); border: 1px solid var(--glass-border); border-radius: var(--radius-md); padding: 12px 14px; margin-bottom: 18px; text-align: start;">
           <div style="font-size: 0.72rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
-            <span style="width: 14px; height: 14px; display: inline-flex; color: var(--accent-gold);">${renderIcon('ui_sparkles')}</span>
+            <span class="icon-inline" style="width: 14px; height: 14px; color: var(--accent-gold);">${renderIcon('ui_sparkles')}</span>
             <span>${t('benefits_comparison_title', lang) || 'Comparativa de Beneficios'}</span>
           </div>
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 8px; font-size: 0.74rem;">
             <div style="background: var(--glass-surface-1); padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
-              <div style="color: var(--text-muted); font-weight: 700; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;">
-                <span style="width: 14px; height: 14px; display: inline-flex; color: var(--accent-cyan);">${renderIcon('ui_sun')}</span>
-                <span>Modo Gratuito</span>
+              <div style="color: var(--text-muted); font-weight: 700; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+                <span class="icon-inline" style="width: 14px; height: 14px; color: var(--accent-cyan);">${renderIcon('ui_sun')}</span>
+                <span>${t('benefits_free_title', lang) || 'Modo Gratuito'}</span>
               </div>
               <div style="color: var(--text-secondary); line-height: 1.45;">
-                • ${BillingService.isNativePlatform() ? '3 oraciones diarias' : '2 oraciones diarias'}<br>
-                • 1 veladora activa en altar<br>
-                • 3 sonidos de meditación<br>
-                • Brújula clásica astrolabio
+                ${t(isNative ? 'benefits_free_prayers_3' : 'benefits_free_prayers_2', lang) || (isNative ? '• 3 oraciones diarias' : '• 2 oraciones diarias')}<br>
+                ${t('benefits_free_candle', lang) || '• 1 veladora activa en altar'}<br>
+                ${t('benefits_free_sounds', lang) || '• 3 sonidos de meditación'}<br>
+                ${t('benefits_free_compass', lang) || '• Brújula clásica astrolabio'}
               </div>
             </div>
             <div style="background: rgba(234, 179, 8, 0.08); padding: 10px 12px; border-radius: var(--radius-sm); border: 1.5px solid rgba(234, 179, 8, 0.35);">
-              <div style="color: var(--accent-gold); font-weight: 800; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;">
-                <span style="width: 14px; height: 14px; display: inline-flex; color: var(--accent-gold);">${renderIcon('ui_sparkles')}</span>
-                <span>Santuario PRO</span>
+              <div style="color: var(--accent-gold); font-weight: 800; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+                <span class="icon-inline" style="width: 14px; height: 14px; color: var(--accent-gold);">${renderIcon('ui_sparkles')}</span>
+                <span>${t('benefits_pro_title', lang) || 'Santuario PRO'}</span>
               </div>
               <div style="color: var(--text-primary); font-weight: 600; line-height: 1.45;">
-                • <strong>Oraciones ilimitadas</strong><br>
-                • <strong>12 veladoras</strong> simultáneas<br>
-                • <strong>11 frecuencias</strong> completas<br>
-                • <strong>Brújula 3D</strong> Kaaba/Surya/Zen<br>
-                • <strong>Bóveda con IA</strong> ilimitada
+                ${t('benefits_pro_prayers', lang) || '• <strong>Oraciones ilimitadas</strong>'}<br>
+                ${t('benefits_pro_candles', lang) || '• <strong>12 veladoras</strong> simultáneas'}<br>
+                ${t('benefits_pro_frequencies', lang) || '• <strong>11 frecuencias</strong> completas'}<br>
+                ${t('benefits_pro_compass_3d', lang) || '• <strong>Brújula 3D</strong> Kaaba/Surya/Zen'}<br>
+                ${t('benefits_pro_vault_ai', lang) || '• <strong>Bóveda con IA</strong> ilimitada'}
               </div>
             </div>
           </div>
