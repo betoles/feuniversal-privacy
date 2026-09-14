@@ -769,7 +769,7 @@
     {
       "id": "CANTICO_MAGNIFICAT_MARIA",
       "numero": 35,
-      "titulo": "Das Magnificat (Lobgesang Mariens) · Meine Seele preist die Größe des Herrn",
+      "titulo": "El Magníficat · Cántico de la Virgen María (Lucas 1:46-55) · La Magnífica",
       "tradicion": "catolicismo",
       "categoriaIntencion": "dankbarkeit_lobpreis",
       "estadosEmocionales": [
@@ -778,9 +778,9 @@
         "paz_interior"
       ],
       "idiomaLiturgicoOriginal": "Latín Eclesiástico",
-      "textoOriginal": "Magnificat anima mea Dominum,\net exsultavit spiritus meus in Deo salvatore meo,\nquia respexit humilitatem ancillae suae.\nEcce enim ex hoc beatam me dicent omnes generationes,\nquia fecit mihi magna, qui potens est,\net sanctum nomen eius.\nEt misericordia eius in progenies et progenies\ntimentibus eum. Amen.",
-      "guiaFonetica": "[Mag-ní-fi-kat á-ni-ma mé-a Dó-mi-num, et ek-sul-tá-vit spí-ri-tus mé-us in Dé-o sal-va-tó-re mé-o...]",
-      "textoTraducido": "Meine Seele preist die Größe des Herrn und mein Geist jubelt über Gott, meinen Retter. Denn auf die Niedrigkeit seiner Magd hat er geschaut. Siehe, von nun an preisen mich selig alle Geschlechter. Denn der Mächtige hat Großes an mir getan und sein Name ist heilig. Er erbarmt sich von Geschlecht zu Geschlecht über alle, die ihn fürchten. Er vollbringt mit seinem Arm gewaltige Taten: Er zerstreut, die hochmütig sind in ihrem Herzen. Er stürzt die Mächtigen vom Thron und erhöht die Niedrigen. Die Hungernden beschenkt er mit seinen Gaben und lässt die Reichen leer ausgehen. Er nimmt sich seines Knechtes Israel an und denkt an sein Erbarmen, das er unsern Vätern verheißen hat, Abraham und seinen Nachkommen auf ewig. Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Amen.",
+      "textoOriginal": "Magnificat anima mea Dominum, et exsultavit spiritus meus in Deo salvatore meo, quia respexit humilitatem ancillae suae. Fecit mihi magna qui potens est, et sanctum nomen eius. Dispersit superbos mente cordis sui; deposuit potentes de sede et exaltavit humiles. Esurientes implevit bonis et divites dimisit inanes. Suscepit Israel puerum suum, recordatus misericordiae suae. Amen.",
+      "guiaFonetica": "[Mag-ní-fi-kat á-ni-ma mé-a Dó-mi-num, et ek-sul-tá-vit spí-ri-tus mé-us in Dé-o sal-va-tó-re mé-o... A-men.]",
+      "textoTraducido": "My soul proclaims the greatness of the Lord, my spirit rejoices in God my Savior, for He has looked with favor on His lowly servant. From this day all generations will call me blessed: the Almighty has done great things for me, and holy is His Name. He has mercy on those who fear Him in every generation. He has shown the strength of His arm, He has scattered the proud in their conceit. He has cast down the mighty from their thrones, and has lifted up the lowly. He has filled the hungry with good things, and the rich He has sent away empty. He has come to the help of His servant Israel for He has remembered His promise of mercy, the promise He made to our fathers, to Abraham and his children forever. Amen.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
@@ -17081,7 +17081,7 @@
     {
       "id": "JUSTO_JUEZ_ORACION_PROTECCION",
       "numero": 783,
-      "titulo": "Gebet zum Gerechten Richter · Göttlicher Schild des Schutzes gegen Feinde und Gefahren",
+      "titulo": "Oración del Justo Juez · Escudo Divino de Protección contra Enemigos y Peligros",
       "tradicion": "catolicismo",
       "categoriaIntencion": "schutz",
       "estadosEmocionales": [
@@ -17091,9 +17091,9 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Tradicional",
-      "textoOriginal": "Santísimo Justo Juez, Hijo de la Virgen María, que mi cuerpo no se pierda ni sea preso, ni mi sangre derramada, ni mis enemigos me vean ni me ofendan. Con el manto de la Santísima Trinidad sea envuelto mi cuerpo, con la leche de María Santísima sea rociado, con la corona de espinas de Jesús sea coronado.",
-      "guiaFonetica": "[San-tí-si-mo Jus-to Jwes, Í-jo de la Vír-jen Ma-rí-a...]",
-      "textoTraducido": "Allerheiligster, gerechter Richter, Sohn der Allerheiligsten Maria, möge er weder meinen hilflosen Körper noch mein vergossenes Blut sehen. Wohin ich auch gehe, mögen deine Hände mich führen und deine Kraft mich von Gefahren, Verrat, ungerechten Gefängnissen und bösem Willen befreien. Sie sollen Augen haben und mich nicht sehen, Hände und mich nicht berühren, Füße und mich nicht erreichen, Waffen und mich nicht verletzen. Bedecke mich mit dem heiligen Mantel deiner heiligen Gnade und befreie mich für immer und ewig von allem Bösen. Amen.",
+      "textoOriginal": "Santísimo Justo Juez, Hijo de María Santísima: que ojos tengan y no me vean, manos tengan y no me toquen, armas tengan y no me hieran. Cúbreme con el manto de la Santísima Trinidad. Amén.",
+      "guiaFonetica": "[San-tí-si-mo Jus-to Jwes, Í-jo de Ma-rí-a San-tí-si-ma... A-mén.]",
+      "textoTraducido": "Most Holy Righteous Judge, Son of the Virgin Mary, let not my body be forsaken nor my blood be shed. Wherever I walk, let Your hands guide me and Your power deliver me from dangers, betrayals, unjust prisons, and ill will. If they have eyes, let them not see me; if they have hands, let them not touch me; if they have feet, let them not reach me; if they have weapons, let them not harm me. Let their irons bend, their blades shatter, their firearms jam, their ropes snap, and their tongues falter when they seek to do me harm. May my body be wrapped in the mantle of the Most Holy Trinity and guided by Saint Joseph's staff. Peace be with me, by day and by night. Amen.",
       "ritualesAsociados": {
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 24,
@@ -17104,7 +17104,7 @@
     {
       "id": "SANTO_NINO_DE_ATOCHA",
       "numero": 784,
-      "titulo": "Heiliges Kind von Atocha · Hilfe für Gefangene, Wanderer und Hilflose",
+      "titulo": "Santo Niño de Atocha · Auxilio de los Prisioneros, Caminantes y Desamparados",
       "tradicion": "catolicismo",
       "categoriaIntencion": "schutz",
       "estadosEmocionales": [
@@ -17114,9 +17114,9 @@
         "esperanza"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "¡Oh pacientísimo Niño de Atocha, protector de los desamparados, consuelo de los afligidos y visitador de prisioneros! Con tu sombrero de peregrino y tu canasta bendita, socórreme en esta hora de aflicción.",
-      "guiaFonetica": "[O pa-syen-tí-si-mo Ní-nyo de A-tó-cha...]",
-      "textoTraducido": "Oh, sehr geduldiges und süßes Kind von Atocha! Souveräner Beschützer der Leidenden, Schutz der Gefangenen, Trost der Kranken und Führer der Wanderer: Ich komme zu deinen Pflanzen und flehe um deine unendliche Barmherzigkeit. Du, der du die Sandalen der Liebe trägst, um die Hilflosen zu besuchen und die Bedürftigen mit deinem heiligen Korb zu speisen, sieh auf meine Angst und hilf mir in dieser Not, die ich in deine gesegneten Hände lege. Verlass mich nicht, göttliches Kind, und gewähre mir die Gnade, um die ich dich mit aufrichtigem Glauben bitte. Amen.",
+      "textoOriginal": "¡Oh pacientísimo Niño de Atocha, protector de los desamparados! Con tu canasta de pan bendito y tu calabacita de agua, socórreme y guía mis pasos en paz. Amén.",
+      "guiaFonetica": "[O pa-syen-tí-si-mo y dūl-se Ní-nyo de A-tó-cha... A-mén.]",
+      "textoTraducido": "O most patient and sweet Child of Atocha! Sovereign protector of the afflicted, shield of prisoners, comfort of the sick, and guide of travelers: I come before You imploring Your infinite mercy. You who wear the sandals of love to visit the helpless and feed the needy with Your holy basket of bread and never-failing gourd of water: look upon my distress and aid me in my need. Unbind all chains of suffering, protect workers and travelers, and bless my home. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -17127,7 +17127,7 @@
     {
       "id": "VIRGEN_DE_JUQUILA_MILAGROSA",
       "numero": 785,
-      "titulo": "Unsere Liebe Frau von Juquila · Wundersame Mutter von Oaxaca und Hilfe in Not",
+      "titulo": "Nuestra Señora de Juquila · Madre Milagrosa de Oaxaca y Auxilio en la Necesidad",
       "tradicion": "catolicismo",
       "categoriaIntencion": "gesundheit_heilung",
       "estadosEmocionales": [
@@ -17137,9 +17137,9 @@
         "esperanza"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "¡Madre querida, Virgen de Juquila! Luz de los necesitados y consuelo en las pruebas, intercede ante tu divino Hijo para que me conceda la gracia que humildemente te pido.",
-      "guiaFonetica": "[Má-dre ke-rí-da, Vír-jen de Ju-kí-la...]",
-      "textoTraducido": "Liebe Mutter, Jungfrau von Juquila! Du bist Trost für die Bedrängten, Beschützer der Häuser und Schutz der Pilger, die zu deinem Heiligtum aufsteigen: Erhöre mein inbrünstiges Flehen. Öffnen Sie aufgrund der immensen Liebe, die Sie für Ihren göttlichen Sohn Jesus Christus haben, Ihre mütterlichen Arme und schütten Sie den Segen des Allmächtigen auf mein Leben, meine Familie und meine Arbeit aus. Vertreibe alle Krankheiten, beseitige den Mangel und gib mir das Wunder und den Frieden, den mein Herz so sehr braucht. Amen.",
+      "textoOriginal": "Madre querida, Virgen de Juquila, virgen morenita de la serranía oaxaqueña: Tú que saliste ilesa del fuego voraz, desata mis dificultades y bendice mi hogar. Amén.",
+      "guiaFonetica": "[Má-dre ke-rí-da, Vír-jen de Ju-kí-la, vir-jen mo-re-ní-ta de O-a-xá-ka... A-mén.]",
+      "textoTraducido": "Dear Mother, Virgin of Juquila, sweet protector of Oaxaca and comforter of the afflicted: at Your feet I lay my sorrows and my needs. You who emerged unharmed from the consuming fire to show God's love: look upon me with mercy. Untie the knots in my path, remove difficulties, bless the sustenance of my home, heal illnesses, and grant the grace I faithfully implore. Virgin of Juquila, cover us with Your holy mantle and forsake us not. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -17150,7 +17150,7 @@
     {
       "id": "VIRGEN_DEL_CARMEN_ESCAPULARIO",
       "numero": 786,
-      "titulo": "Unsere Liebe Frau von Carmen · Heiliger Mantel und Versprechen des Skapuliers",
+      "titulo": "Nuestra Señora del Carmen · Manto Santo y Promesa del Escapulario",
       "tradicion": "catolicismo",
       "categoriaIntencion": "schutz",
       "estadosEmocionales": [
@@ -17160,9 +17160,9 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Latín Eclesiástico",
-      "textoOriginal": "Flos Carmeli, Vitis florigera, splendor caeli, Virgo puerpera singularis.\nMater mitis, sed viri nescia, Carmelitis da privilegia, Stella Maris. Amen.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera, splendor caeli, Virgo puerpera singularis. Mater mitis, sed viri nescia, Carmelitis da privilegia, Stella Maris. Amen.",
       "guiaFonetica": "[Flos Kar-mé-li, Ví-tis flo-rí-je-ra, splén-dor ché-li, Vír-go pu-ér-pe-ra sin-gu-lá-ris... Stél-la Má-ris. A-men.]",
-      "textoTraducido": "Oh Jungfrau von Carmen, liebevollste Mutter und Königin von Carmel! Du, der du das Heilige Skapulier als Zeichen des mütterlichen Schutzes und als Pfand der ewigen Erlösung gegeben hast: Bedecke mich und alle meine Lieben mit deinem heiligen Mantel. Verteidige uns in den Gefahren von Seele und Körper, stehe uns in Stunden der Prüfung bei und führe uns sicher zum Hafen der himmlischen Herrlichkeit. Amen.",
+      "textoTraducido": "O Virgin of Mount Carmel, most loving Mother and Queen of Carmel! You who gave the Holy Scapular as a pledge of maternal protection and sign of salvation: cover my family and me with Your holy mantle. Defend us in body and soul, deliver us from harm, and lead us safely to eternal glory. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -17332,7 +17332,7 @@
     {
       "id": "SAN_MARTIN_CABALLERO_NEGOCIO",
       "numero": 794,
-      "titulo": "Heiliger Martin von Tours · Wohlstand, Geschäftssegen und Arbeit",
+      "titulo": "San Martín Caballero (San Martín de Tours) · Prosperidad, Apertura del Negocio y Trabajo",
       "tradicion": "catolicismo",
       "categoriaIntencion": "wohlstand_arbeit",
       "estadosEmocionales": [
@@ -17342,9 +17342,9 @@
         "gratitud_gozo"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "¡En el nombre de Dios Todopoderoso, San Martín Caballero, saca la sal de mi casa y de mi negocio y tráeme la buena fortuna y el trabajo honesto!",
-      "guiaFonetica": "[En el nóm-bre de Dyos To-do-po-de-ró-so, San Mar-tín Ka-ba-lyé-ro...]",
-      "textoTraducido": "Oh glorreicher Sankt-Martin-Ritter, gütiger Diener Gottes und Schutzpatron der Bedürftigen! So wie Sie Ihren Mantel von dem Bettler geteilt haben, in dem Sie das Antlitz Christi gesehen haben, helfen Sie auch meinem Zuhause, meinem Lebensunterhalt und meinem Geschäft. Halte Ruin, Knappheit, Neid und Pech fern; Öffnen Sie die Türen zu ehrlicher Arbeit, gewinnen Sie gute Kunden und sorgen Sie dafür, dass der Segen der göttlichen Vorsehung nie auf meinem Tisch fehlt. Amen.",
+      "textoOriginal": "¡En el nombre de Dios Todopoderoso, San Martín Caballero, saca la sal de mi casa y negocio, y tráeme la buena fortuna y el trabajo honesto! Amén.",
+      "guiaFonetica": "[En el nóm-bre de Dyos To-do-po-de-ró-so, San Mar-tín Ka-ba-lyé-ro... A-mén.]",
+      "textoTraducido": "In the name of Almighty God, Saint Martin Caballero, remove all misfortune and hardship from my home and business, and bring honest labor, good fortune, and noble clients! Just as you shared your cloak with the beggar in whom you recognized Christ, grant to my home daily bread, health, and heavenly blessings. Cut through all obstacles and envy with your blessed sword. Amen.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59006,7 +59006,7 @@
     {
       "id": "CAT_MEX_SAN_MARTIN_CABALLERO",
       "numero": 2726,
-      "titulo": "Gebet zum Heiligen Martin Ritter (Heiliger Martin von Tours)",
+      "titulo": "Oración Tradicional a San Martín Caballero (San Martín de Tours)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "trabajo_y_prosperidad_honrada",
       "estadosEmocionales": [
@@ -59016,9 +59016,9 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Español tradicional mexicano",
-      "textoOriginal": "En el nombre de Dios Todopoderoso, San Martín Caballero, saca la sal de mi casa y dame la suerte, el trabajo y la abundancia. Corta con tu espada bendita las malas intenciones, la envidia y los obstáculos en mis caminos. Así como partiste tu capa con el mendigo en quien reconociste a Cristo, reparte en mi hogar el pan de cada día, la salud y la bendición del Cielo. Amén.",
-      "guiaFonetica": "[En el nom-bre de Dios To-do-po-de-ro-so, San Mar-tin Ca-ba-lle-ro, sa-ca la sal de mi ca-sa y da-me la suer-te, el tra-ba-jo y la a-bun-dan-cia]",
-      "textoTraducido": "Heiliger Ritter Martin, Soldat Christi und Diener der Bedürftigen: Beschneide mit deinem gesegneten Schwert alle Knappheit und Schäden. Öffnen Sie Türen zu ehrlicher Arbeit und segnen Sie den Lebensunterhalt meiner Familie. Amen.",
+      "textoOriginal": "¡En el nombre de Dios Todopoderoso, San Martín Caballero, saca la sal de mi casa y negocio, y tráeme la buena fortuna y el trabajo honesto! Amén.",
+      "guiaFonetica": "[En el nóm-bre de Dyos To-do-po-de-ró-so, San Mar-tín Ka-ba-lyé-ro... A-mén.]",
+      "textoTraducido": "In the name of Almighty God, Saint Martin Caballero, remove all misfortune from my home and business, and bring honest labor and good fortune! Share with us daily bread, health, and heavenly blessings. Amen.",
       "ritualesAsociados": {
         "tipoContador": "ofrenda_de_trigo_y_agua",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81738,7 +81738,7 @@
     {
       "id": "CAT_MEX_SAN_JUAN_DE_LOS_LAGOS",
       "numero": 3737,
-      "titulo": "Bitte an Unsere Liebe Frau von San Juan der Lagos",
+      "titulo": "Nuestra Señora de San Juan de los Lagos · Oración Tradicional de Sanación",
       "tradicion": "catolicismo",
       "categoriaIntencion": "salud_y_causas_desesperadas",
       "estadosEmocionales": [
@@ -81748,9 +81748,9 @@
         "agradecido"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Virgen Santísima de San Juan de los Lagos, Madre de misericordia y consuelo de los afligidos! Tú que devolviste la vida a la niña trapecista en el primer milagro de tu ermita y desde entonces eres faro inagotable de sanación para millones de peregrinos: mírame con ojos de piedad. Sana mis dolencias, calma mis angustias, defiende a mi familia de todo mal y concédeme la gracia que con fe viva vengo a implorar a tus benditas plantas. Amén.",
-      "guiaFonetica": "[Vir-jen San-ti-si-ma de San Juan de los La-gos, Ma-dre de mi-se-ri-cor-dia]",
-      "textoTraducido": "Jungfrau von San Juan de los Lagos, zärtliche Mutter der Barmherzigkeit: Höre den Schrei derer von uns, die sich an Dich wenden, unsere Krankheiten heilen und unsere Häuser mit Frieden und Harmonie segnen. Amen.",
+      "textoOriginal": "¡Virgen Santísima de San Juan de los Lagos, Madre de misericordia! Sana mis dolencias, calma mis angustias y bendice a mi familia. Amén.",
+      "guiaFonetica": "[Vír-jen San-tí-si-ma de San Jwan de los Lá-gos, Má-dre de mi-se-ri-kór-dya... A-mén.]",
+      "textoTraducido": "Most Holy Virgin of San Juan de los Lagos, Mother of mercy and comfort of the afflicted! You who restored life in the first miracle of Your shrine and remain an unfailing beacon of healing: look upon me with mercy. Heal my bodily and spiritual ailments, protect my family, and grant the grace I faithfully implore. Amen.",
       "ritualesAsociados": {
         "tipoContador": "novena_de_san_juan_de_los_lagos",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81784,7 +81784,7 @@
     {
       "id": "CAT_MEX_JUQUILA_OAXACA",
       "numero": 3739,
-      "titulo": "Gebet zu Unserer Lieben Frau von Juquila (Oaxaca)",
+      "titulo": "Plegaria Tradicional a Nuestra Señora de Juquila (Oaxaca)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "peticiones_dificiles_y_amparo_indigena",
       "estadosEmocionales": [
@@ -81794,9 +81794,9 @@
         "devoto"
       ],
       "idiomaLiturgicoOriginal": "Español / Zapoteco / Chatino",
-      "textoOriginal": "Madre querida, Virgen de Juquila, virgen morenita de la serranía oaxaqueña: Tú que saliste ilesa del fuego voraz sin perder tu bendita belleza, escucha a tus hijos que caminan descalzos por la sierra para verte. Desata mis dificultades, bendice el sudor de mi trabajo, protege a los migrantes y campesinos, y alcánzame la paz y el sustento honrado de cada día. Amén.",
-      "guiaFonetica": "[Ma-dre que-ri-da, Vir-jen de Ju-qui-la, vir-jen mo-re-ni-ta de la se-rra-ni-a]",
-      "textoTraducido": "Jungfrau von Juquila, Mutter der Demütigen: Verachte meine Bitten in schwierigen Stunden nicht; Bedecke mich mit deinem Mantel und schenke uns Frieden, Gesundheit und menschenwürdige Arbeit. Amen.",
+      "textoOriginal": "Madre querida, Virgen de Juquila, virgen morenita de la serranía oaxaqueña: Tú que saliste ilesa del fuego voraz, desata mis dificultades y bendice mi hogar. Amén.",
+      "guiaFonetica": "[Má-dre ke-rí-da, Vír-jen de Ju-kí-la, vir-jen mo-re-ní-ta de O-a-xá-ka... A-mén.]",
+      "textoTraducido": "Dear Mother, Virgin of Juquila, sweet protector of Oaxaca and comforter of the afflicted: at Your feet I lay my sorrows and my needs. You who emerged unharmed from the consuming fire: look upon me with mercy. Untie the knots in my path, bless the sustenance of my home, and grant the grace I faithfully implore. Virgin of Juquila, cover us with Your holy mantle. Amen.",
       "ritualesAsociados": {
         "tipoContador": "ofrenda_de_copal_y_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -81807,7 +81807,7 @@
     {
       "id": "CAT_MEX_CHALMA_SENOR_PERDON",
       "numero": 3740,
-      "titulo": "Flehen an den Heiligen Herrn von Chalma",
+      "titulo": "Súplica Milagrosa al Santo Señor de Chalma (Cristo del Ahuehuete)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "purificacion_y_milagro_imposible",
       "estadosEmocionales": [
@@ -81817,9 +81817,9 @@
         "lleno_de_fe"
       ],
       "idiomaLiturgicoOriginal": "Español / Náhuatl",
-      "textoOriginal": "¡Santo Señor de Chalma, Cristo crucificado y aparecido en la cueva sagrada para vencer toda oscuridad y derramar misericordia! Con corona de flores y el corazón contrito vengo a tus plantas milagrosas. Báñame en las aguas de tu ahuehuete bendito, limpia mis culpas, sana mis enfermedades que la medicina no cura y haz florecer en mi alma el milagro de tu divino perdón. Amén.",
-      "guiaFonetica": "[San-to Se-ñor de Chal-ma, Cris-to cru-ci-fi-ca-do y a-pa-re-ci-do en la cue-va]",
-      "textoTraducido": "Herr von Chalma, Quelle der Wunder und der Vergebung: Erhöre mein Gebet, erneuere meinen Geist und leite meine Schritte mit deinem göttlichen Segen. Amen.",
+      "textoOriginal": "¡Santo Señor de Chalma, Cristo crucificado de la cueva sagrada! Limpia mis culpas, sana mis enfermedades y derrama tu divino perdón sobre mi vida. Amén.",
+      "guiaFonetica": "[Sán-to Se-ñór de Chál-ma, Krís-to kru-si-fi-ká-do de la kwé-va sa-grá-da... A-mén.]",
+      "textoTraducido": "Holy Lord of Chalma, miraculous crucified Christ appeared in the sacred cave to pour out mercy and forgiveness upon Your people! With a contrite heart and living faith I kneel before Your feet. Wash away my faults, heal the ailments beyond medicine, calm my distress, and grant me Your holy blessing. Amen.",
       "ritualesAsociados": {
         "tipoContador": "bano_de_ahuehuete_y_tres_padrenuestros",
         "duracionVeladoraSugeridaHoras": 24,
