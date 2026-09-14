@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "version": "3.0.0-sublime",
+    "version": "10.4.0",
     "idioma": "bn",
     "nombreIdioma": "বাংলা (Bengali)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Sadhu-Munajat-v3",
-    "certificacion": "100% Homologado y Verificado"
+    "certificacion": "100% Homologado y Verificado",
+    "totalOraciones": 4252
   },
   "oraciones": [
     {
@@ -93574,6 +93575,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 12,
         "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_EXPEDITO_FE_ARGENTINA_CAUSAS_URGENTES",
+      "numero": 4252,
+      "titulo": "সেন্ট এক্সপেডিটাস · জরুরি প্রার্থনার জন্য আর্জেন্টাইন ভক্তি",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "peligro_enemigos",
+        "necesidad_escasez"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Devoción Popular Argentina)",
+      "textoOriginal": "Mi San Expedito de las causas justas y urgentes, intercede por mí junto a Nuestro Señor Jesucristo, para que venga en mi socorro en esta hora de aflicción y desesperanza.\n\nMi San Expedito, tú que eres el Santo guerrero; tú que eres el Santo de los afligidos; tú que eres el Santo de los desesperados; tú que eres el Santo de las causas urgentes: protégeme, ayúdame, otorgándome fuerza, coraje y serenidad. ¡Atiende mi pedido! (Presenta aquí tu intención particular).\n\nMi San Expedito, ayúdame a superar estas horas difíciles, protégeme de todos los que puedan perjudicarme, protege a mi familia y atiende mi súplica con urgencia. Devuélveme la paz y la tranquilidad.\n\n¡Mi San Expedito! Estaré agradecido por el resto de mi vida y propagaré tu nombre a todos los que tienen fe.\n\nMuchas gracias. Amén.",
+      "guiaFonetica": "[Mi San Eks-pe-dí-to de las káu-sas yús-tas y ur-jén-tes, in-ter-sé-de por mí jun-to a Nués-tro Se-ñor Je-su-krís-to...]",
+      "textoTraducido": "ন্যায়সঙ্গত ও জরুরি প্রার্থনার সেন্ট এক্সপেডিটাস, আমাদের প্রভু যিশু খ্রিস্টের কাছে আমার জন্য সুপারিশ করুন, যেন এই সংকট ও হতাশার মুহূর্তে তিনি আমার সাহায্যে এগিয়ে আসেন।\n\nআমার সেন্ট এক্সপেডিটাস, আপনি যিনি পবিত্র যোদ্ধা; আপনি যিনি আর্তপীড়িতদের আশ্রয়; আপনি যিনি হতাশদের আশার আলো; আপনি যিনি জরুরি পরিস্থিতির সহায়ক: আমাকে রক্ষা করুন, সাহায্য করুন এবং আমাকে শক্তি, সাহস ও মনের প্রশান্তি দান করুন। আমার নিবেদন শুনুন! (এখানে আপনার বিশেষ প্রার্থনাটি ব্যক্ত করুন)।\n\nআমার সেন্ট এক্সপেডিটাস, এই কঠিন সময় অতিক্রম করতে আমাকে সাহায্য করুন, যারা আমার ক্ষতি করতে চায় তাদের থেকে রক্ষা করুন, আমার পরিবারকে নিরাপদ রাখুন এবং জরুরিভিত্তিতে আমার প্রার্থনার উত্তর দিন। আমার জীবনে শান্তি ও স্থিরতা ফিরিয়ে দিন।\n\nহে সেন্ট এক্সপেডিটাস! আমি আজীবন আপনার প্রতি কৃতজ্ঞ থাকব এবং বিশ্বাসীদের মাঝে আপনার নাম প্রচার করব।\n\nঅসংখ্য ধন্যবাদ। আমেন।",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_528hz"
       },
       "dir": "ltr"
     }

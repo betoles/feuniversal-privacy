@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "version": "3.0.0-sublime",
+    "version": "10.4.0",
     "idioma": "ja",
     "nombreIdioma": "日本語 (Japanese)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Keigo-Kyodoyaku-v3",
-    "certificacion": "100% Homologado y Verificado"
+    "certificacion": "100% Homologado y Verificado",
+    "totalOraciones": 4252
   },
   "oraciones": [
     {
@@ -93574,6 +93575,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 12,
         "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_EXPEDITO_FE_ARGENTINA_CAUSAS_URGENTES",
+      "numero": 4252,
+      "titulo": "聖エクスペディトゥス · 緊急かつ困難な願いのためのアルゼンチン伝統の祈り",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "peligro_enemigos",
+        "necesidad_escasez"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Devoción Popular Argentina)",
+      "textoOriginal": "Mi San Expedito de las causas justas y urgentes, intercede por mí junto a Nuestro Señor Jesucristo, para que venga en mi socorro en esta hora de aflicción y desesperanza.\n\nMi San Expedito, tú que eres el Santo guerrero; tú que eres el Santo de los afligidos; tú que eres el Santo de los desesperados; tú que eres el Santo de las causas urgentes: protégeme, ayúdame, otorgándome fuerza, coraje y serenidad. ¡Atiende mi pedido! (Presenta aquí tu intención particular).\n\nMi San Expedito, ayúdame a superar estas horas difíciles, protégeme de todos los que puedan perjudicarme, protege a mi familia y atiende mi súplica con urgencia. Devuélveme la paz y la tranquilidad.\n\n¡Mi San Expedito! Estaré agradecido por el resto de mi vida y propagaré tu nombre a todos los que tienen fe.\n\nMuchas gracias. Amén.",
+      "guiaFonetica": "[Mi San Eks-pe-dí-to de las káu-sas yús-tas y ur-jén-tes, in-ter-sé-de por mí jun-to a Nués-tro Se-ñor Je-su-krís-to...]",
+      "textoTraducido": "正義と緊急の願いの守護者である聖エクスペディトゥスよ、この苦難と絶望の時に主が私を助けに来てくださるよう、私たちの主イエス・キリストに私のために執り成してください。\n\n私の聖エクスペディトゥスよ、あなたは聖なる戦士であり、苦しむ者の友、絶望する者の希望、急を要する願いの救い手です。どうか私を守り、助け、力と勇気、そして心の平安をお与えください。私の願いをお聞き入れください！（ここで特別な願いを唱えます）。\n\n私の聖エクスペディトゥスよ、この困難な時を乗り越えられるよう助け、私を害しようとするすべてのものから守り、私の家族を守護し、私の願いに速やかにお応えください。私に再び平安と静けさをお戻しください。\n\n聖エクスペディトゥスよ！私は生涯感謝し、信仰を持つすべての人々にあなたの聖なる名を広めます。\n\n心より感謝いたします。アーメン。",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_528hz"
       },
       "dir": "ltr"
     }

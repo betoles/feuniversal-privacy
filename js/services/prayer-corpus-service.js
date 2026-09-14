@@ -80,7 +80,7 @@ export class PrayerCorpusService {
   /**
    * Carga el compendio de oraciones para el idioma especificado (o el activo)
    * @param {string} lang Código de idioma (es, en, fr, pt, it, de, ru, ar, he, hi, zh, la, ja, bn, id, ur, sw)
-   * @returns {Promise<Array>} Lista de 4,251 oraciones
+   * @returns {Promise<Array>} Lista de 4,252 oraciones
    */
   static async loadCorpus(lang = 'es') {
     const targetLang = (lang || 'es').toLowerCase();
@@ -89,7 +89,7 @@ export class PrayerCorpusService {
     // 1. Verificar caché en memoria RAM
     if (PrayerCorpusService.memoryCache.has(targetLang)) {
       const memCorpus = PrayerCorpusService.memoryCache.get(targetLang);
-      if (Array.isArray(memCorpus) && memCorpus.length >= 4251) {
+      if (Array.isArray(memCorpus) && memCorpus.length >= 4252) {
         PrayerCorpusService._touchLRU(targetLang);
         return memCorpus;
       }
@@ -107,7 +107,7 @@ export class PrayerCorpusService {
           req.onerror = () => resolve(null);
         });
 
-        if (cached && Array.isArray(cached) && cached.length >= 4251) {
+        if (cached && Array.isArray(cached) && cached.length >= 4252) {
           PrayerCorpusService._setInCache(targetLang, cached);
           return cached;
         }
@@ -117,7 +117,7 @@ export class PrayerCorpusService {
     }
 
     // 3. Cargar archivo JSON/GZ vía Fetch con descompresión transparente
-    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json?v=9.4.1`;
+    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json?v=10.4.0`;
     try {
       const data = await fetchAndDecompressJson(jsonPath);
       const oraciones = data.oraciones || [];

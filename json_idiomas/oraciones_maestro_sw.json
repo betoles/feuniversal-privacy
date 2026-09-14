@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "version": "3.0.0-sublime",
+    "version": "10.4.0",
     "idioma": "sw",
     "nombreIdioma": "Kiswahili (Swahili)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Kiswahili-Sanifu-Sala-v3",
-    "certificacion": "100% Homologado y Verificado"
+    "certificacion": "100% Homologado y Verificado",
+    "totalOraciones": 4252
   },
   "oraciones": [
     {
@@ -93574,6 +93575,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 12,
         "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_EXPEDITO_FE_ARGENTINA_CAUSAS_URGENTES",
+      "numero": 4252,
+      "titulo": "Mtakatifu Ekspedito · Ibada ya Argentina kwa Mahitaji ya Dharura",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "peligro_enemigos",
+        "necesidad_escasez"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Devoción Popular Argentina)",
+      "textoOriginal": "Mi San Expedito de las causas justas y urgentes, intercede por mí junto a Nuestro Señor Jesucristo, para que venga en mi socorro en esta hora de aflicción y desesperanza.\n\nMi San Expedito, tú que eres el Santo guerrero; tú que eres el Santo de los afligidos; tú que eres el Santo de los desesperados; tú que eres el Santo de las causas urgentes: protégeme, ayúdame, otorgándome fuerza, coraje y serenidad. ¡Atiende mi pedido! (Presenta aquí tu intención particular).\n\nMi San Expedito, ayúdame a superar estas horas difíciles, protégeme de todos los que puedan perjudicarme, protege a mi familia y atiende mi súplica con urgencia. Devuélveme la paz y la tranquilidad.\n\n¡Mi San Expedito! Estaré agradecido por el resto de mi vida y propagaré tu nombre a todos los que tienen fe.\n\nMuchas gracias. Amén.",
+      "guiaFonetica": "[Mi San Eks-pe-dí-to de las káu-sas yús-tas y ur-jén-tes, in-ter-sé-de por mí jun-to a Nués-tro Se-ñor Je-su-krís-to...]",
+      "textoTraducido": "Mtakatifu wangu Ekspedito wa mambo ya haki na ya dharura, uniombee mbele ya Bwana wetu Yesu Kristo, ili aje kunisaidia katika saa hii ya mateso na kukata tamaa.\n\nMtakatifu wangu Ekspedito, wewe uliye shujaa mtakatifu; wewe uliye faraja ya wenye huzuni; wewe uliye tumaini la waliokata tamaa; wewe uliye msaada wa mahitaji ya haraka: unilinde, unisaidie, ukinijalia nguvu, ujasiri na amani ya moyo. Sikiliza ombi langu! (Taja hapa haja yako maalum).\n\nMtakatifu wangu Ekspedito, nisaidie kushinda nyakati hizi ngumu, unilinde dhidi ya wote wanaoweza kunidhuru, ulinde familia yangu na ujibu maombi yangu kwa haraka. Nirudishie amani na utulivu.\n\nMtakatifu Ekspedito! Nitakushukuru kwa maisha yangu yote na nitaeneza jina lako kwa wote wenye imani.\n\nAsante sana. Amina.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_528hz"
       },
       "dir": "ltr"
     }

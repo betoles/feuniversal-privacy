@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "version": "3.0.0-sublime",
+    "version": "10.4.0",
     "idioma": "fr",
     "nombreIdioma": "Français (French)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-GrandSiecle-Liturgique-v3",
-    "certificacion": "100% Homologado y Verificado"
+    "certificacion": "100% Homologado y Verificado",
+    "totalOraciones": 4252
   },
   "oraciones": [
     {
@@ -93574,6 +93575,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 12,
         "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_EXPEDITO_FE_ARGENTINA_CAUSAS_URGENTES",
+      "numero": 4252,
+      "titulo": "Saint Expédit · Dévotion Argentine pour Causes Urgentes",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "peligro_enemigos",
+        "necesidad_escasez"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Devoción Popular Argentina)",
+      "textoOriginal": "Mi San Expedito de las causas justas y urgentes, intercede por mí junto a Nuestro Señor Jesucristo, para que venga en mi socorro en esta hora de aflicción y desesperanza.\n\nMi San Expedito, tú que eres el Santo guerrero; tú que eres el Santo de los afligidos; tú que eres el Santo de los desesperados; tú que eres el Santo de las causas urgentes: protégeme, ayúdame, otorgándome fuerza, coraje y serenidad. ¡Atiende mi pedido! (Presenta aquí tu intención particular).\n\nMi San Expedito, ayúdame a superar estas horas difíciles, protégeme de todos los que puedan perjudicarme, protege a mi familia y atiende mi súplica con urgencia. Devuélveme la paz y la tranquilidad.\n\n¡Mi San Expedito! Estaré agradecido por el resto de mi vida y propagaré tu nombre a todos los que tienen fe.\n\nMuchas gracias. Amén.",
+      "guiaFonetica": "[Mi San Eks-pe-dí-to de las káu-sas yús-tas y ur-jén-tes, in-ter-sé-de por mí jun-to a Nués-tro Se-ñor Je-su-krís-to...]",
+      "textoTraducido": "Mon Saint Expédit des causes justes et urgentes, intercède pour moi auprès de Notre-Seigneur Jésus-Christ, afin qu'Il vienne à mon secours en cette heure d'affliction et de désespoir.\n\nMon Saint Expédit, toi qui es le saint guerrier ; toi qui es le saint des affligés ; toi qui es le saint des désespérés ; toi qui es le saint des causes urgentes : protège-moi, aide-moi, en m'accordant force, courage et sérénité. Écoute ma demande ! (Présentez ici votre intention particulière).\n\nMon Saint Expédit, aide-moi à surmonter ces heures difficiles, protège-moi de tous ceux qui pourraient me nuire, protège ma famille et réponds en urgence à ma supplique. Rends-moi la paix et la tranquillité.\n\nMon Saint Expédit ! Je te serai reconnaissant pour le reste de ma vie et je propagerai ton nom auprès de tous ceux qui ont la foi.\n\nMerci de tout cœur. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_528hz"
       },
       "dir": "ltr"
     }

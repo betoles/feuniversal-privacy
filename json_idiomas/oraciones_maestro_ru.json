@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "version": "3.0.0-sublime",
+    "version": "10.4.0",
     "idioma": "ru",
     "nombreIdioma": "Русский (Russian)",
     "dir": "ltr",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Synodal-Orthodox-Liturgic-v3",
-    "certificacion": "100% Homologado y Verificado"
+    "certificacion": "100% Homologado y Verificado",
+    "totalOraciones": 4252
   },
   "oraciones": [
     {
@@ -93574,6 +93575,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 12,
         "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_EXPEDITO_FE_ARGENTINA_CAUSAS_URGENTES",
+      "numero": 4252,
+      "titulo": "Святой Экспедит · Аргентинская молитва в неотложных нуждах",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "peligro_enemigos",
+        "necesidad_escasez"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Devoción Popular Argentina)",
+      "textoOriginal": "Mi San Expedito de las causas justas y urgentes, intercede por mí junto a Nuestro Señor Jesucristo, para que venga en mi socorro en esta hora de aflicción y desesperanza.\n\nMi San Expedito, tú que eres el Santo guerrero; tú que eres el Santo de los afligidos; tú que eres el Santo de los desesperados; tú que eres el Santo de las causas urgentes: protégeme, ayúdame, otorgándome fuerza, coraje y serenidad. ¡Atiende mi pedido! (Presenta aquí tu intención particular).\n\nMi San Expedito, ayúdame a superar estas horas difíciles, protégeme de todos los que puedan perjudicarme, protege a mi familia y atiende mi súplica con urgencia. Devuélveme la paz y la tranquilidad.\n\n¡Mi San Expedito! Estaré agradecido por el resto de mi vida y propagaré tu nombre a todos los que tienen fe.\n\nMuchas gracias. Amén.",
+      "guiaFonetica": "[Mi San Eks-pe-dí-to de las káu-sas yús-tas y ur-jén-tes, in-ter-sé-de por mí jun-to a Nués-tro Se-ñor Je-su-krís-to...]",
+      "textoTraducido": "Святой Экспедит, покровитель правых и неотложных дел, заступись за меня перед Господом нашим Иисусом Христом, дабы пришел Он мне на помощь в этот час скорби и отчаяния.\n\nСвятой Экспедит, святой воин Христов; заступник страждущих; надежда отчаявшихся; скорый помощник в неотложных нуждах: защити меня, помоги мне, даруя силу, мужество и душевный покой. Услышь мою просьбу! (Здесь выскажите вашу просьбу).\n\nСвятой Экспедит, помоги мне преодолеть эти трудные часы, огради меня от всякого зла, защити мою семью и поспеши исполнить мое прошение. Возврати мне мир и душевное спокойствие.\n\nСвятой Экспедит! Я буду благодарен тебе всю оставшуюся жизнь и буду возвещать твое святое имя всем верующим.\n\nСердечно благодарю. Аминь.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_528hz"
       },
       "dir": "ltr"
     }

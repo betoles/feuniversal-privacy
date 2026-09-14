@@ -887,8 +887,8 @@ export class FeUniversalApp {
       }
     }
 
-    // 2. Gráfico Donut de Oraciones y Compendio Sagrado Universal (4,251 oraciones)
-    const totalUniversalCompendium = 4251;
+    // 2. Gráfico Donut de Oraciones y Compendio Sagrado Universal (4,252 oraciones)
+    const totalUniversalCompendium = 4252;
     const activeTraditionsCompendium = availablePrayers.length > 0 
       ? availablePrayers.length 
       : activeTraditions.reduce((sum, tid) => sum + (getTradition(tid)?.totalRezosDisponibles || 0), 0);

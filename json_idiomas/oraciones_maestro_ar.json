@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "version": "3.0.0-sublime",
+    "version": "10.4.0",
     "idioma": "ar",
     "nombreIdioma": "العربية (Arabic)",
     "dir": "rtl",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Balaghah-Ecumenical-v3",
-    "certificacion": "100% Homologado y Verificado"
+    "certificacion": "100% Homologado y Verificado",
+    "totalOraciones": 4252
   },
   "oraciones": [
     {
@@ -93574,6 +93575,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 12,
         "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_EXPEDITO_FE_ARGENTINA_CAUSAS_URGENTES",
+      "numero": 4252,
+      "titulo": "القديس إكسبيديت · صلاة التقوى الأرجنتينية للشدائد والأمور العاجلة",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "peligro_enemigos",
+        "necesidad_escasez"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Devoción Popular Argentina)",
+      "textoOriginal": "Mi San Expedito de las causas justas y urgentes, intercede por mí junto a Nuestro Señor Jesucristo, para que venga en mi socorro en esta hora de aflicción y desesperanza.\n\nMi San Expedito, tú que eres el Santo guerrero; tú que eres el Santo de los afligidos; tú que eres el Santo de los desesperados; tú que eres el Santo de las causas urgentes: protégeme, ayúdame, otorgándome fuerza, coraje y serenidad. ¡Atiende mi pedido! (Presenta aquí tu intención particular).\n\nMi San Expedito, ayúdame a superar estas horas difíciles, protégeme de todos los que puedan perjudicarme, protege a mi familia y atiende mi súplica con urgencia. Devuélveme la paz y la tranquilidad.\n\n¡Mi San Expedito! Estaré agradecido por el resto de mi vida y propagaré tu nombre a todos los que tienen fe.\n\nMuchas gracias. Amén.",
+      "guiaFonetica": "[Mi San Eks-pe-dí-to de las káu-sas yús-tas y ur-jén-tes, in-ter-sé-de por mí jun-to a Nués-tro Se-ñor Je-su-krís-to...]",
+      "textoTraducido": "يا قديسي إكسبيديت، يا شفيع القضايا العادلة والملحة، تشفع لي عند ربنا يسوع المسيح ليأتي لنجدتي في ساعة الضيق واليأس هذه.\n\nيا قديسي إكسبيديت، يا أيها القديس المحارب الشجاع؛ يا ملجأ المتألمين؛ يا عون اليائسين؛ يا نصير القضايا العاجلة: احمني وأعنّي، وامنحني القوة والشجاعة والسكينة. استجب لطلبي! (اذكر هنا حاجتك ونيتك الخاصة).\n\nيا قديسي إكسبيديت، ساعدني على اجتياز هذه الأوقات الصعبة، واحمني من كل من يضمر لي السوء، واحفظ عائلتي وأغثني على وجه السرعة. أعد إلى قلبي السلام والطمأنينة.\n\nيا قديسي إكسبيديت! سأظل ممتناً لك طوال حياتي وسأنشر اسمك المبارك لكل من يحمل الإيمان في قلبه.\n\nشكراً جزيلاً من كل قلبي. آمين.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_528hz"
       },
       "dir": "rtl"
     }

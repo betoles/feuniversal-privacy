@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "version": "3.0.0-sublime",
+    "version": "10.4.0",
     "idioma": "ur",
     "nombreIdioma": "اردو (Urdu)",
     "dir": "rtl",
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Nastaliq-Liturgico-v3",
-    "certificacion": "100% Homologado y Verificado"
+    "certificacion": "100% Homologado y Verificado",
+    "totalOraciones": 4252
   },
   "oraciones": [
     {
@@ -93574,6 +93575,29 @@
         "tipoContador": "treinta_y_tres",
         "duracionVeladoraSugeridaHoras": 12,
         "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_EXPEDITO_FE_ARGENTINA_CAUSAS_URGENTES",
+      "numero": 4252,
+      "titulo": "سینٹ ایکسپڈیٹس · فوری اور مشکل حاجات کے لیے ارجنٹائنی دعا",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "peligro_enemigos",
+        "necesidad_escasez"
+      ],
+      "idiomaLiturgicoOriginal": "Español (Devoción Popular Argentina)",
+      "textoOriginal": "Mi San Expedito de las causas justas y urgentes, intercede por mí junto a Nuestro Señor Jesucristo, para que venga en mi socorro en esta hora de aflicción y desesperanza.\n\nMi San Expedito, tú que eres el Santo guerrero; tú que eres el Santo de los afligidos; tú que eres el Santo de los desesperados; tú que eres el Santo de las causas urgentes: protégeme, ayúdame, otorgándome fuerza, coraje y serenidad. ¡Atiende mi pedido! (Presenta aquí tu intención particular).\n\nMi San Expedito, ayúdame a superar estas horas difíciles, protégeme de todos los que puedan perjudicarme, protege a mi familia y atiende mi súplica con urgencia. Devuélveme la paz y la tranquilidad.\n\n¡Mi San Expedito! Estaré agradecido por el resto de mi vida y propagaré tu nombre a todos los que tienen fe.\n\nMuchas gracias. Amén.",
+      "guiaFonetica": "[Mi San Eks-pe-dí-to de las káu-sas yús-tas y ur-jén-tes, in-ter-sé-de por mí jun-to a Nués-tro Se-ñor Je-su-krís-to...]",
+      "textoTraducido": "میرے سینٹ ایکسپڈیٹس، جو جائز اور فوری حاجات کے حامی ہیں، ہمارے خداوند یسوع مسیح کے حضور میرے لیے شفاعت فرمائیں تاکہ وہ اس دکھ اور مایوسی کی گھڑی میں میری مدد کو آئیں۔\n\nمیرے سینٹ ایکسپڈیٹس، آپ جو مقدس مجاہد ہیں؛ مصیبت زدوں کے غمخوار ہیں؛ مایوس لوگوں کی امید ہیں؛ فوری حاجات کے مددگار ہیں: میری حفاظت کریں، میری مدد کریں، اور مجھے طاقت، حوصلہ اور دلی سکون عطا کریں۔ میری فریاد سنیں! (یہاں اپنی دلی مراد پیش کریں)۔\n\nمیرے سینٹ ایکسپڈیٹس، ان مشکل گھڑیوں کو پار کرنے میں میری مدد کریں، ہر نقصان پہنچانے والے سے میری حفاظت کریں، میرے خاندان کی حفاظت کریں اور میری دعا کو فوراً قبول فرمائیں۔ مجھے دوبارہ امن اور اطمینان عطا کریں۔\n\nاے سینٹ ایکسپڈیٹس! میں زندگی بھر آپ کا شکر گزار رہوں گا اور ایمان رکھنے والے ہر شخص تک آپ کا نام پہنچاؤں گا۔\n\nتہہ دل سے شکریہ۔ آمین۔",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_528hz"
       },
       "dir": "rtl"
     }
