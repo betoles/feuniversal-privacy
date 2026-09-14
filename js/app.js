@@ -74,16 +74,29 @@ export class FeUniversalApp {
     this.normCache = new Map();
   }
 
-  init() {
+  async init() {
+    // 0. Pre-extracción inmediata de idioma desde la URL antes de cualquier renderizado
+    if (typeof window !== 'undefined') {
+      const urlParams = new URLSearchParams(window.location.search);
+      const langParam = urlParams.get('lang');
+      if (langParam && ['es', 'en', 'pt', 'it', 'fr', 'de', 'la', 'ar', 'ru', 'hi', 'bn', 'zh', 'ja', 'he', 'id', 'ur', 'sw'].includes(langParam.toLowerCase())) {
+        this.prefs.idioma = langParam.toLowerCase();
+        StorageService.savePreferences(this.prefs);
+      }
+    }
+
+    const activeLang = this.prefs.idioma || 'es';
     try { this.applyTheme(this.prefs.tema || 'dark'); } catch (e) { console.warn('Error applyTheme:', e); }
     try { this.applyContainerWidth(this.prefs.anchoVista || 'auto', false); } catch (e) { console.warn('Error applyContainerWidth:', e); }
     try { this.initStaticIcons(); } catch (e) { console.warn('Error initStaticIcons:', e); }
-    try { this.updateAllUITexts(this.prefs.idioma || 'es'); } catch (e) { console.warn('Error updateAllUITexts:', e); }
-    try { this.renderHeader(); } catch (e) { console.warn('Error renderHeader:', e); }
-    try { this.renderActiveTraditionsRibbon(); } catch (e) { console.warn('Error renderActiveTraditionsRibbon:', e); }
-    try { this.renderNavigation(); } catch (e) { console.warn('Error renderNavigation:', e); }
-    try { this.renderSegmentedControl(); } catch (e) { console.warn('Error renderSegmentedControl:', e); }
-    try { this.renderDashboard(); } catch (e) { console.warn('Error renderDashboard:', e); }
+
+    // Pipeline maestro de idioma y renderizado inicial integral
+    try {
+      await this.applyLanguage(activeLang, true);
+    } catch (e) {
+      console.warn('Error applyLanguage init:', e);
+    }
+
     try { this.attachGlobalEvents(); } catch (e) { console.warn('Error attachGlobalEvents:', e); }
     try { this.initAndroidBackButtonHandler(); } catch (e) { console.warn('Error initAndroidBackButtonHandler:', e); }
     try { this.checkPayPalBillingReturn(); } catch (e) { console.warn('Error checkPayPalBillingReturn:', e); }
@@ -102,21 +115,9 @@ export class FeUniversalApp {
   handleIncomingDeepLinks() {
     if (typeof window === 'undefined') return;
     const urlParams = new URLSearchParams(window.location.search);
-    
-    // 1. Detección y cambio dinámico de idioma si viene en el enlace (?lang=...)
-    const langParam = urlParams.get('lang');
-    if (langParam && ['es', 'en', 'pt', 'it', 'fr', 'de', 'la', 'ar', 'ru', 'hi', 'bn', 'zh', 'ja', 'he', 'id', 'ur', 'sw'].includes(langParam.toLowerCase())) {
-      const cleanLang = langParam.toLowerCase();
-      if (this.prefs.idioma !== cleanLang) {
-        this.prefs.idioma = cleanLang;
-        StorageService.savePreferences(this.prefs);
-        this.updateAllUITexts(cleanLang);
-      }
-    }
-
     const currentLang = this.prefs.idioma || 'es';
 
-    // 2. Detección de Oración Directa (?p=[ID_O_NUMERO])
+    // 1. Detección de Oración Directa (?p=[ID_O_NUMERO])
     const prayerId = urlParams.get('p') || urlParams.get('prayer');
     if (prayerId) {
       setTimeout(async () => {
@@ -137,7 +138,7 @@ export class FeUniversalApp {
       return;
     }
 
-    // 3. Detección de Pestañas y Escrituras (?tab=...)
+    // 2. Detección de Pestañas y Escrituras (?tab=...)
     const tabParam = urlParams.get('tab');
     if (tabParam) {
       setTimeout(() => {
@@ -300,6 +301,12 @@ export class FeUniversalApp {
       if (el) el.innerText = text;
     };
 
+    // Pastilla de Idioma en el Header (Bandera + Código ISO)
+    const flags = { es: '🇲🇽', en: '🇺🇸', fr: '🇫🇷', pt: '🇧🇷', it: '🇮🇹', de: '🇩🇪', ru: '🇷🇺', ar: '🇸🇦', he: '🇮🇱', hi: '🇮🇳', zh: '🇨🇳', la: '🏛️', ja: '🇯🇵', bn: '🇧🇩', id: '🇮🇩', ur: '🇵🇰', sw: '🌍' };
+    const flag = flags[safeLang] || '🌐';
+    const langLabel = document.getElementById('label-lang-active');
+    if (langLabel) langLabel.innerText = `${flag} ${safeLang.toUpperCase()}`;
+
     // Buscador
     const searchInput = document.getElementById('input-prayer-search');
     if (searchInput) searchInput.placeholder = t('search_placeholder', safeLang);
@@ -445,45 +452,46 @@ export class FeUniversalApp {
     }
   }
 
-  handlePreferencesUpdated(newPrefs, isLangStepOnly = false) {
-    this.prefs = StorageService.getPreferences();
-    this.updateAllUITexts(this.prefs.idioma);
-    this.renderHeader();
-    this.renderActiveTraditionsRibbon();
-    this.renderDashboard();
+  async applyLanguage(lang, reloadCorpus = true) {
+    const validLangs = ['es', 'en', 'pt', 'it', 'fr', 'de', 'la', 'ar', 'ru', 'hi', 'bn', 'zh', 'ja', 'he', 'id', 'ur', 'sw'];
+    const safeLang = validLangs.includes((lang || '').toLowerCase()) ? lang.toLowerCase() : 'es';
 
-    // Sincronizar de inmediato todas las vistas secundarias
-    if (this.altar && typeof this.altar.render === 'function') this.altar.render();
-    if (this.scripturesView) {
-      if (typeof this.scripturesView.syncWithUserTradition === 'function') {
-        this.scripturesView.syncWithUserTradition(true);
-      }
-      if (typeof this.scripturesView.render === 'function') {
-        this.scripturesView.render();
-      }
-    }
-    if (this.vault && typeof this.vault.render === 'function') this.vault.render();
-  }
-
-  async handleLanguageChanged(newLang) {
     this.prefs = StorageService.getPreferences();
-    this.prefs.idioma = newLang;
+    this.prefs.idioma = safeLang;
     StorageService.savePreferences(this.prefs);
 
-    // Precargar corpus para el nuevo idioma de forma asíncrona
-    try {
-      await PrayerCorpusService.loadCorpus(newLang);
-    } catch (e) {
-      console.warn('[App] Error precargando corpus para:', newLang, e);
+    document.documentElement.setAttribute('data-lang', safeLang);
+    if (typeof isRTL === 'function' && isRTL(safeLang)) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.removeAttribute('dir');
     }
 
-    // 1. Textos globales y encabezados
-    this.updateAllUITexts(newLang);
+    if (reloadCorpus) {
+      try {
+        await PrayerCorpusService.loadCorpus(safeLang);
+      } catch (e) {
+        console.warn('[App] Error cargando corpus para:', safeLang, e);
+      }
+    }
+
+    // 1. Textos globales y etiquetas DOM
+    this.updateAllUITexts(safeLang);
+
+    // 2. Cabecera (Bandera + ISO + Iconos + Textos)
     this.renderHeader();
+
+    // 3. Listón de Tradiciones
     this.renderActiveTraditionsRibbon();
 
-    // 2. Re-renderizar catálogo y componentes con el nuevo idioma
+    // 4. Barra de Navegación Inferior y Segmentada
+    this.renderNavigation();
+    this.renderSegmentedControl();
+
+    // 5. Dashboard, Chips Emocionales, Intenciones, Slider y Catálogo
     await this.renderDashboard();
+
+    // 6. Sincronizar todos los componentes y vistas secundarias
     if (this.altar && typeof this.altar.render === 'function') this.altar.render();
     if (this.beadCounter && typeof this.beadCounter.render === 'function') this.beadCounter.render();
     if (this.scripturesView && typeof this.scripturesView.render === 'function') this.scripturesView.render();
@@ -495,16 +503,24 @@ export class FeUniversalApp {
     if (this.membership && typeof this.membership.render === 'function') this.membership.render();
     if (this.privacyModal && typeof this.privacyModal.render === 'function') this.privacyModal.render();
 
-    // 3. Si el lector de oración está abierto, actualizarlo en vivo
+    // 7. Si el lector de oración está abierto, actualizarlo en vivo
     if (this.mirrorReader && this.mirrorReader.container && this.mirrorReader.container.style.display !== 'none' && this.mirrorReader.currentPrayer) {
-      const updatedPrayer = await PrayerCorpusService.getPrayerById(this.mirrorReader.currentPrayer.id, newLang);
+      const updatedPrayer = await PrayerCorpusService.getPrayerById(this.mirrorReader.currentPrayer.id, safeLang);
       if (updatedPrayer) {
         this.mirrorReader.currentPrayer = updatedPrayer;
       }
       this.mirrorReader.render();
     }
+  }
 
-    SacredDialog.toast(`✨ Idioma: ${newLang.toUpperCase()}`);
+  handlePreferencesUpdated(newPrefs, isLangStepOnly = false) {
+    this.prefs = StorageService.getPreferences();
+    this.applyLanguage(this.prefs.idioma, false);
+  }
+
+  async handleLanguageChanged(newLang) {
+    await this.applyLanguage(newLang, true);
+    SacredDialog.toast(`✨ ${newLang.toUpperCase()}`);
   }
 
   renderHeader() {

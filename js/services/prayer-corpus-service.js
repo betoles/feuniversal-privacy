@@ -165,7 +165,11 @@ export class PrayerCorpusService {
   static _buildIndex(lang, oraciones) {
     const idMap = new Map();
     oraciones.forEach(p => {
-      if (p.id) idMap.set(p.id, p);
+      if (p.id) {
+        idMap.set(p.id, p);
+        idMap.set(String(p.id).toLowerCase(), p);
+        idMap.set(String(p.id).toUpperCase(), p);
+      }
       if (p.numero) idMap.set(String(p.numero), p);
     });
     PrayerCorpusService.searchIndex.set(lang, idMap);
@@ -175,12 +179,34 @@ export class PrayerCorpusService {
    * Obtiene una oración por su ID o número en el idioma solicitado
    */
   static async getPrayerById(id, lang = 'es') {
+    if (!id) return null;
     const prayers = await PrayerCorpusService.loadCorpus(lang);
     const index = PrayerCorpusService.searchIndex.get(lang);
-    if (index && index.has(id)) {
-      return index.get(id);
+    if (index) {
+      if (index.has(id)) return index.get(id);
+      if (index.has(String(id).toLowerCase())) return index.get(String(id).toLowerCase());
+      if (index.has(String(id).toUpperCase())) return index.get(String(id).toUpperCase());
     }
-    return prayers.find(p => p.id === id || String(p.numero) === String(id)) || null;
+
+    const stripped = String(id).replace(/_(es|en|pt|fr|it|de|ru|ar|he|hi|zh|la|ja|bn|id|ur|sw)$/i, '');
+    if (index) {
+      if (index.has(stripped)) return index.get(stripped);
+      if (index.has(stripped.toLowerCase())) return index.get(stripped.toLowerCase());
+      if (index.has(stripped.toUpperCase())) return index.get(stripped.toUpperCase());
+    }
+
+    const cleanId = stripped.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const found = prayers.find(p => {
+      if (!p) return false;
+      if (p.id === id || String(p.numero) === String(id) || p.id === stripped) return true;
+      const pClean = String(p.id || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      return pClean === cleanId || (cleanId.length >= 5 && (pClean.includes(cleanId) || cleanId.includes(pClean)));
+    });
+
+    if (found) return found;
+
+    // Fallback con FALLBACK_PRAYERS si no se encontró en el corpus dinámico
+    return FALLBACK_PRAYERS.find(p => p.id === id || String(p.id).toLowerCase() === String(id).toLowerCase() || p.id === stripped) || null;
   }
 
   /**
