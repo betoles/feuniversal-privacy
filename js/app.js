@@ -347,7 +347,17 @@ export class FeUniversalApp {
     setTxt('label-focus-mode-title', t('zen_mode_label', safeLang));
     setTxt('label-focus-mode-desc', t('focus_mode_desc', safeLang));
     setTxt('label-zen-sound-header', t('zen_sound_label', safeLang));
-    setTxt('label-btn-preview-zen', t('test_sound', safeLang) || 'Probar');
+
+    const previewBtn = document.getElementById('btn-preview-zen-sound');
+    if (previewBtn) {
+      if (soundManager.isPlaying) {
+        previewBtn.innerHTML = `${renderIcon('ui_pause')}<span>${t('stop_sound', safeLang) || 'Detener'}</span>`;
+        previewBtn.classList.add('active-glow-cyan');
+      } else {
+        previewBtn.innerHTML = `${renderIcon('ui_play')}<span>${t('test_sound', safeLang) || 'Probar'}</span>`;
+        previewBtn.classList.remove('active-glow-cyan');
+      }
+    }
 
     // Actualizar Cápsula de Sonido Zen en la página principal (Silencio Profundo localizado)
     const currentSoundId = (this.prefs && this.prefs.sonidoAmbientePorDefecto) || 'silencio_profundo';
@@ -1445,14 +1455,26 @@ export class FeUniversalApp {
     const zenSoundHidden = document.getElementById('select-zen-ambient-sound');
     const zenPreviewBtn = document.getElementById('btn-preview-zen-sound');
 
+    const updatePreviewButtonState = (isPlaying) => {
+      if (!zenPreviewBtn) return;
+      const currentLang = this.prefs.idioma || 'es';
+      if (isPlaying) {
+        zenPreviewBtn.innerHTML = `${renderIcon('ui_pause')}<span>${t('stop_sound', currentLang) || 'Detener'}</span>`;
+        zenPreviewBtn.classList.add('active-glow-cyan');
+      } else {
+        zenPreviewBtn.innerHTML = `${renderIcon('ui_play')}<span>${t('test_sound', currentLang) || 'Probar'}</span>`;
+        zenPreviewBtn.classList.remove('active-glow-cyan');
+      }
+    };
+
     const updateZenSoundPillUI = (soundId) => {
       const currentLang = this.prefs.idioma || 'es';
       const def = SacredSoundPicker.getSoundDef(soundId, currentLang);
       const iconEl = document.getElementById('zen-sound-active-icon');
       const labelEl = document.getElementById('zen-sound-active-label');
       if (iconEl) {
-        iconEl.innerHTML = renderIcon(def.icon);
-        iconEl.style.color = def.color;
+        iconEl.innerHTML = renderIcon(def.icon || 'ui_volume_mute');
+        iconEl.style.color = def.color || 'var(--text-muted)';
       }
       if (labelEl) labelEl.innerText = def.name;
       if (zenSoundHidden) zenSoundHidden.value = def.id;
@@ -1465,6 +1487,7 @@ export class FeUniversalApp {
 
       const initialSound = this.prefs.sonidoAmbientePorDefecto || 'silencio_profundo';
       updateZenSoundPillUI(initialSound);
+      updatePreviewButtonState(soundManager.isPlaying);
 
       // Abrir selector táctil modal al tocar la cápsula
       if (zenSoundBtn) {
@@ -1479,10 +1502,7 @@ export class FeUniversalApp {
 
               if (selectedId === 'silencio_profundo') {
                 soundManager.stopAmbient();
-                if (zenPreviewBtn) {
-                  zenPreviewBtn.innerHTML = `${renderIcon('ui_play')}<span>Probar</span>`;
-                  zenPreviewBtn.classList.remove('active-glow-cyan');
-                }
+                updatePreviewButtonState(false);
               } else if (soundManager.isPlaying) {
                 soundManager.playAmbient(selectedId);
               }
@@ -1498,32 +1518,29 @@ export class FeUniversalApp {
         zenPanel.style.display = isChecked ? 'flex' : 'none';
         if (!isChecked) {
           soundManager.stopAmbient();
-          if (zenPreviewBtn) {
-            zenPreviewBtn.innerHTML = `${renderIcon('ui_play')}<span>Probar</span>`;
-            zenPreviewBtn.classList.remove('active-glow-cyan');
-          }
+          updatePreviewButtonState(false);
         }
       });
 
       if (zenPreviewBtn) {
         let isPreviewing = false;
-        zenPreviewBtn.innerHTML = `${renderIcon('ui_play')}<span>Probar</span>`;
+        updatePreviewButtonState(false);
         zenPreviewBtn.addEventListener('click', () => {
           const chosen = zenSoundHidden ? zenSoundHidden.value : 'silencio_profundo';
           if (!isPreviewing) {
             if (chosen === 'silencio_profundo') {
               soundManager.stopAmbient();
-              SacredDialog.toast('Silencio profundo activado');
+              const lang = this.prefs.idioma || 'es';
+              const muteMsg = (typeof SacredSoundPicker !== 'undefined' ? SacredSoundPicker.getSoundDef('silencio_profundo', lang).name : 'Silencio profundo');
+              SacredDialog.toast(`✨ ${muteMsg}`);
               return;
             }
             soundManager.playAmbient(chosen);
-            zenPreviewBtn.innerHTML = `${renderIcon('ui_pause')}<span>Detener</span>`;
-            zenPreviewBtn.classList.add('active-glow-cyan');
+            updatePreviewButtonState(true);
             isPreviewing = true;
           } else {
             soundManager.stopAmbient();
-            zenPreviewBtn.innerHTML = `${renderIcon('ui_play')}<span>Probar</span>`;
-            zenPreviewBtn.classList.remove('active-glow-cyan');
+            updatePreviewButtonState(false);
             isPreviewing = false;
           }
         });
