@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "Konsekrasi di hadapan Kristus Raja Cubilete",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Kedaulatan_Kristus_Dan_Kesetiaan",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "Tuhan Yesus Kristus, Raja sejarah yang berdaulat dan seluruh alam semesta! Dari puncak Cubilete, jantung geografis Meksiko, kami menyatakan royalti keadilan, cinta, dan perdamaian Anda. Berkuasa di hati kami, berkuasa di rumah kami, berkuasa di negara kami. Semoga kami tidak pernah menyangkal Nama Suci-Mu di tengah tekanan dunia. Hidup Kristus Raja! Hidup Santa Maria dari Guadalupe! Amin.",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "Ya Yesus Kristus, aku mengakui Engkau sebagai Raja Semesta Alam atas seluruh ciptaan! Segala sesuatu diciptakan untuk-Mu. Laksanakanlah hak kedaulatan-Mu atasku dan keluargaku. Aku memperbarui janji baptisku dan menolak dosa. Hati Kudus Yesus, kupersembahkan hidupku agar semua hati mengakui kerajaan-Mu yang kudus dan Kerajaan damai, keadilan, dan kasih-Mu teguh di bumi. Hiduplah Kristus Raja! Amin.",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "Kristus Raja Semesta Alam · Tindakan Penyerahan Khidmat Umat Manusia dan Keluarga",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "Ya Yesus Kristus, aku mengakui Engkau sebagai Raja Semesta Alam atas seluruh ciptaan! Segala sesuatu diciptakan untuk-Mu. Laksanakanlah hak kedaulatan-Mu atasku dan keluargaku. Aku memperbarui janji baptisku dan menolak dosa. Hati Kudus Yesus, kupersembahkan hidupku agar semua hati mengakui kerajaan-Mu yang kudus dan Kerajaan damai, keadilan, dan kasih-Mu teguh di bumi. Hiduplah Kristus Raja! Amin.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "Hati Kudus Yesus · Tindakan Penyerahan Diri, Silih, dan Doa Kepercayaan Penuh",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "Hati Kudus Yesus yang Maharahim dan Termanis, yang tak pernah gagal berbelas kasih kepada mereka yang berduka! Pandanglah aku dengan mata kerahiman-Mu dan terimalah penyerahan hidupku, rumah tanggaku, dan orang-orang yang kukasihi. Nyalakanlah api kasih ilahi-Mu di dalam jiwa kami dan sembuhkanlah luka-luka hati kami. Ke dalam tangan-Mu yang terluka kuserahkan segala kekhawatiran dan kesehatan keluargaku. Hati Kudus Yesus, kepada-Mu aku percaya dan berserah! Amin.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "Kristus Penebus · Doa Perlindungan, Kedamaian Universal, dan Dekapan Tangan Terbuka",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "Ya Kristus Penebus, Juru Selamat Ilahi dunia! Engkau yang dengan tangan terbuka dari ketinggian merangkul seluruh umat manusia dan menyambut setiap orang yang datang kepada-Mu dengan hati yang hancur dan haus akan kedamaian: pandanglah keluarga dan bangsa-bangsa kami. Berilah kami rahmat untuk hidup di bawah perlindungan-Mu; runtuhkan tembok kebencian dan perpecahan; sembuhkan yang sakit, hiburlah yang terlantar, dan berkatilah karya tangan kami. Semoga dekapan tangan-Mu selalu menjadi tempat perlindungan kami yang aman. Kristus Penebus, berkatilah seluruh dunia dengan damai-Mu yang kudus! Amin.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "ltr"
     }
   ]

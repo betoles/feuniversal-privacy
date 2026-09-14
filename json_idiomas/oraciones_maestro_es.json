@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "Consagración ante Cristo Rey del Cubilete",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Soberania_De_Cristo_Y_Fidelidad",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "Cristo Rey del Cubilete: reina en nuestros hogares y naciones. Concédenos valentía para defender la fe, la vida y la justicia hasta el último aliento. Amén.",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "¡Oh Cristo Jesús, te reconozco como Rey universal de la creación! Todo cuanto ha sido hecho fue creado para Ti. Ejerce sobre mí y sobre mi familia todos tus soberanos derechos. Renuevo mis promesas del Bautismo, renunciando al pecado, al egoísmo y a toda obra de oscuridad, y prometo vivir como buen cristiano. De manera especial me comprometo a hacer triunfar los derechos de Dios y de tu Santa Iglesia. ¡Divino Corazón de Jesús, te ofrezco mis humildes acciones para que todos los corazones reconozcan tu sagrada realeza y se establezca en el mundo entero el Reino de tu paz, tu justicia y tu amor! ¡Viva Cristo Rey en mi hogar, en mi patria y en el mundo entero! Amén.",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "Cristo Rey del Universo · Solemne Acto de Consagración del Género Humano y de los Hogares",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "¡Oh Cristo Jesús, te reconozco como Rey universal de la creación! Todo cuanto ha sido hecho fue creado para Ti. Ejerce sobre mí y sobre mi familia todos tus soberanos derechos. Renuevo mis promesas del Bautismo, renunciando al pecado, al egoísmo y a toda obra de oscuridad, y prometo vivir como buen cristiano. De manera especial me comprometo a hacer triunfar los derechos de Dios y de tu Santa Iglesia. ¡Divino Corazón de Jesús, te ofrezco mis humildes acciones para que todos los corazones reconozcan tu sagrada realeza y se establezca en el mundo entero el Reino de tu paz, tu justicia y tu amor! ¡Viva Cristo Rey en mi hogar, en mi patria y en el mundo entero! Amén.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "Sagrado Corazón de Jesús · Acto de Consagración, Desagravio y Súplica de Confianza",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "¡Oh Sacratísimo y Dulcísimo Corazón de Jesús, a quien es imposible no tener compasión de los afligidos y necesitados! Mírame con ojos de misericordia y acoge la humilde consagración de mi vida, mi hogar y mis seres queridos. Tú que dijiste a Santa Margarita María: «No temas, yo reinaré a pesar de mis enemigos», enciende en nuestras almas el fuego sagrado de tu amor divino y sana las heridas de nuestro corazón. En tus manos traspasadas pongo mis aflicciones, mis proyectos, mis temores y la salud de mi familia. Sé Tú nuestro refugio en las tribulaciones, nuestro consuelo en las penas y nuestra paz en la hora de la partida. ¡Sagrado Corazón de Jesús, en Ti confío, en Ti espero y en Ti descanso! Amén.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "Cristo Redentor · Plegaria de Acogida, Paz Universal y Protección con Brazos Abiertos",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "¡Oh Cristo Redentor, Divino Salvador del mundo! Tú que con tus brazos abiertos sobre la cumbre abrazas a la humanidad entera y acoges a todo aquel que acude a Ti con el corazón quebrantado y sediento de paz: contempla a nuestras familias y a nuestras naciones. Concédenos la gracia de vivir bajo tu amparo salvador; derriba los muros del odio, la violencia y la división; sana a los enfermos, consuela a los desamparados y bendice con abundancia el trabajo digno de nuestras manos. Que tus brazos extendidos sean siempre nuestro refugio seguro ante las tempestades de la vida y el faro de luz que nos guíe a la vida eterna. ¡Cristo Redentor, salva a tu pueblo y bendice al mundo entero con tu santa paz! Amén.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "ltr"
     }
   ]

@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "क्यूबिलेट के राजा मसीह के समक्ष अभिषेक",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "soberania_de_cristo_y_fidelidad",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "प्रभु यीशु मसीह, इतिहास और संपूर्ण ब्रह्मांड के संप्रभु राजा! मेक्सिको के भौगोलिक हृदय, क्यूबाइलेट के शीर्ष से, हम आपके न्याय, प्रेम और शांति की रॉयल्टी की घोषणा करते हैं। हमारे दिलों में राज करो, हमारे घरों में राज करो, हमारे देशों में राज करो। हम दुनिया के दबावों के सामने आपके पवित्र नाम को कभी अस्वीकार न करें। मसीह राजा अमर रहें! ग्वाडालूप की सेंट मैरी लंबे समय तक जीवित रहें! आमीन।",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "हे प्रभु यीशु मसीह, मैं आपको समस्त सृष्टि के सार्वभौमिक राजा के रूप में स्वीकार करता हूँ! जो कुछ भी रचा गया है, वह आपके लिए ही रचा गया है। मुझ पर और मेरे परिवार पर अपने प्रभुता संपन्न अधिकार स्थापित करें। हे यीशु के पावन हृदय, मैं अपना जीवन आपको समर्पित करता हूँ ताकि सभी हृदय आपके पावन राज्य को स्वीकार करें और पूरे संसार में आपकी शांति, न्याय और प्रेम का राज्य स्थापित हो। मसीह राजा की जय! आमीन।",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "सृष्टि के राजा मसीह · मानव जाति और परिवारों का पावन समर्पण",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "हे प्रभु यीशु मसीह, मैं आपको समस्त सृष्टि के सार्वभौमिक राजा के रूप में स्वीकार करता हूँ! जो कुछ भी रचा गया है, वह आपके लिए ही रचा गया है। मुझ पर और मेरे परिवार पर अपने प्रभुता संपन्न अधिकार स्थापित करें। हे यीशु के पावन हृदय, मैं अपना जीवन आपको समर्पित करता हूँ ताकि सभी हृदय आपके पावन राज्य को स्वीकार करें और पूरे संसार में आपकी शांति, न्याय और प्रेम का राज्य स्थापित हो। मसीह राजा की जय! आमीन।",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "यीशु का पावन हृदय · समर्पण, प्रायश्चित और भरोसे की पावन प्रार्थना",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "हे प्रभु यीशु के परम पावन और मधुरतम हृदय, जो दुखियों और जरूरतमंदों पर दया किए बिना नहीं रह सकता! दया की दृष्टि से मुझे देखें और मेरे जीवन, मेरे घर तथा मेरे प्रियजनों के इस समर्पण को स्वीकार करें। हमारी आत्माओं में अपने दिव्य प्रेम की पावन अग्नि प्रज्वलित करें और हमारे हृदयों के घावों को चंगा करें। मैं अपनी समस्त चिंताएं और अपने परिवार का स्वास्थ्य आपके हाथों में सौंपता हूँ। हे यीशु के पवित्र हृदय, मुझे आप पर भरोसा है! आमीन।",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "मुक्तिदाता मसीह · खुली बाहों से शरण, वैश्विक शांति और सुरक्षा की प्रार्थना",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "हे मुक्तिदाता मसीह, संसार के दिव्य उद्धारकर्ता! आप जो ऊँचाई पर खुली बाहों से समस्त मानवता को गले लगाते हैं और शांति के प्यासे हर व्यक्ति का स्वागत करते हैं: हमारे परिवारों और राष्ट्रों पर कृपा दृष्टि करें। हमें अपनी सुरक्षा की छत्रछाया में जीने का अनुग्रह प्रदान करें; नफरत और विभाजन की दीवारों को गिरा दें; बीमारों को चंगा करें, बेसहारों को सांत्वना दें और हमारे हाथों के परिश्रम को आशीष दें। आपकी खुली बाहें सदा हमारा सुरक्षित आश्रय बनी रहें। मुक्तिदाता मसीह, पूरे संसार को अपनी पावन शांति से आशीष दें! आमीन।",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "ltr"
     }
   ]

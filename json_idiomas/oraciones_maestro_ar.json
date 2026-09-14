@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "التكريس أمام المسيح ملك الكوبيليت",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "soberania_de_cristo_y_fidelidad",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "المسيح ملك الكأس: يملك في بيوتنا وأممنا. امنحنا الشجاعة للدفاع عن الإيمان والحياة والعدالة حتى النفس الأخير. آمين.",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "يا يسوع المسيح، أعترف بك ملكاً كونياً على كل الخليقة! كل ما صُنع قد خُلق لأجلك. بسط على حياتي وعائلتي كامل سلطانك الإلهي. أجدد مواعيد معموديتي رافضاً الخطيئة وكل أعمال الظلمة، وأعاهدك أن أحيا كابن مخلص للحق. يا قلب يسوع الأقدس، أقدم لك أفعالي لكي تعترف كل القلوب بملكك المقدس ويستقر في العالم ملكوت سلامك وعدلك ومحبتك. ليحيا المسيح الملك إلى الأبد! آمين.",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "rtl"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "المسيح ملك الكون · فعل التكريس المهيب للبشرية وللبيوت",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "يا يسوع المسيح، أعترف بك ملكاً كونياً على كل الخليقة! كل ما صُنع قد خُلق لأجلك. بسط على حياتي وعائلتي كامل سلطانك الإلهي. أجدد مواعيد معموديتي رافضاً الخطيئة وكل أعمال الظلمة، وأعاهدك أن أحيا كابن مخلص للحق. يا قلب يسوع الأقدس، أقدم لك أفعالي لكي تعترف كل القلوب بملكك المقدس ويستقر في العالم ملكوت سلامك وعدلك ومحبتك. ليحيا المسيح الملك إلى الأبد! آمين.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "rtl"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "قلب يسوع الأقدس · فعل التكريس والتعويض وطلب الثقة والرجاء",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "يا قلب يسوع الأقدس والأعذب، الذي يستحيل عليه ألا يتحنن على المتألمين والمحتاجين! انظر إليّ بعيني رحمتك واقبل تكريس حياتي وبيتي وجميع أحبائي بتواضع. أضرم في نفوسنا نار محبتك الإلهية واشفِ جراح قلوبنا. في يديك المطعونتين أضع كل أتعابي ومخاوفي وصحة عائلتي. يا قلب يسوع الأقدس، عليك توكلي، وفيك رجائي، وفي حماك أستريح! آمين.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "rtl"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "المسيح الفادي · صلاة الاحتضان والسلام الكوني والحماية بذراعين مفتوحتين",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "يا يسوع المسيح الفادي، مخلص العالم الإلهي! يا من تبسط ذراعيك من الأعالي لتحتضن البشرية جمعاء وتستقبل كل من يقبل إليك بقلب منكسر وعطش إلى السلام: انظر إلى عائلاتنا وشعوبنا. امنحنا نعمة العيش تحت حمايتك المخلصة؛ اهدم جدران البغض والعنف والانقسام؛ اشفِ المرضى، وعزِّ المنبوذين، وبارك عمل أيدينا. لتكن ذراعاك المفتوحتان ملجأنا الأمين في عواصف الحياة. أيها المسيح الفادي، بارك العالم أجمع بسلامك القدوس! آمين.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "rtl"
     }
   ]

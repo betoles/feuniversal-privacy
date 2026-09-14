@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "কিউবিলেটের রাজা খ্রিস্টের সামনে পবিত্রতা",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "সার্বভৌমত্ব_অফ_খ্রিস্ট_এন্ড_ফিডেলিটি",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "প্রভু যীশু খ্রীষ্ট, ইতিহাস এবং সমগ্র মহাবিশ্বের সার্বভৌম রাজা! মেক্সিকোর ভৌগলিক হৃদয় কিউবিলেটের শীর্ষ থেকে, আমরা আপনার ন্যায়বিচার, প্রেম এবং শান্তির রাজকীয়তা ঘোষণা করি। আমাদের হৃদয়ে রাজত্ব করুন, আমাদের ঘরে রাজত্ব করুন, আমাদের দেশে রাজত্ব করুন। বিশ্বের চাপের মুখে আমরা যেন কখনোই আপনার পবিত্র নামকে অস্বীকার না করি। খ্রিস্ট রাজা দীর্ঘজীবী হন! গুয়াদালুপের সেন্ট মেরি দীর্ঘজীবী হোক! আমীন।",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "হে প্রভু যীশু খ্রীষ্ট, আমি আপনাকে সমগ্র সৃষ্টির সর্বজনীন রাজা হিসেবে স্বীকার করি! যা কিছু সৃষ্টি হয়েছে তা আপনার জন্যই সৃষ্টি হয়েছে। আমার এবং আমার পরিবারের উপর আপনার সার্বভৌম অধিকার বিস্তার করুন। যীশুর পবিত্র হৃদয়, আমি আমার জীবন আপনার উদ্দেশ্যে উৎসর্গ করছি যাতে সমস্ত হৃদয় আপনার পবিত্র রাজত্ব স্বীকার করে এবং জগতে আপনার শান্তি, ন্যায় ও প্রেমের রাজ্য প্রতিষ্ঠিত হয়। খ্রীষ্ট রাজার জয় হোক! আমীন।",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "বিশ্বব্রহ্মাণ্ডের রাজা খ্রীষ্ট · সমগ্র মানবজাতি ও পরিবারের উৎসর্গ প্রার্থনা",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "হে প্রভু যীশু খ্রীষ্ট, আমি আপনাকে সমগ্র সৃষ্টির সর্বজনীন রাজা হিসেবে স্বীকার করি! যা কিছু সৃষ্টি হয়েছে তা আপনার জন্যই সৃষ্টি হয়েছে। আমার এবং আমার পরিবারের উপর আপনার সার্বভৌম অধিকার বিস্তার করুন। যীশুর পবিত্র হৃদয়, আমি আমার জীবন আপনার উদ্দেশ্যে উৎসর্গ করছি যাতে সমস্ত হৃদয় আপনার পবিত্র রাজত্ব স্বীকার করে এবং জগতে আপনার শান্তি, ন্যায় ও প্রেমের রাজ্য প্রতিষ্ঠিত হয়। খ্রীষ্ট রাজার জয় হোক! আমীন।",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "যীশুর পবিত্র হৃদয় · আত্মোৎসর্গ, ক্ষতিপূরণ ও গভীর বিশ্বাসের প্রার্থনা",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "হে প্রভু যীশুর পরম পবিত্র ও মধুরতম হৃদয়, যিনি দুঃখী ও অভাবগ্রস্তদের প্রতি সর্বদা করুণাময়! দয়ার দৃষ্টিতে আমার দিকে তাকান এবং আমার জীবন, আমার পরিবার ও প্রিয়জনদের উৎসর্গ গ্রহণ করুন। আমাদের অন্তরে আপনার ঐশ্বরিক প্রেমের পবিত্র আগুন প্রজ্জ্বলিত করুন এবং আমাদের মনের সমস্ত ক্ষত নিরাময় করুন। আপনার পবিত্র হাতে আমার সমস্ত কষ্ট ও পরিবারের স্বাস্থ্য সমর্পণ করছি। যীশুর পবিত্র হৃদয়, আপনার উপরই আমার পূর্ণ আস্থা! আমীন।",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "ত্রাণকর্তা খ্রীষ্ট · উন্মুক্ত বাহুতে আশ্রয়, বিশ্বশান্তি ও সুরক্ষার প্রার্থনা",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "হে ত্রাণকর্তা খ্রীষ্ট, জগতের দিব্য পরিত্রাতা! আপনি যিনি উচ্চ চূড়া থেকে উন্মুক্ত বাহুতে সমগ্র মানবজাতিকে আলিঙ্গন করেন এবং শান্তির জন্য ব্যাকুল প্রতিটি আত্মাকে আশ্রয় দেন: আমাদের পরিবার ও জাতির উপর কৃপাদৃষ্টি বর্ষণ করুন। আপনার সুরক্ষার ছায়ায় বাঁচার অনুগ্রহ দান করুন; ঘৃণা ও বিভেদের প্রাচীর ভেঙে দিন; অসুস্থদের নিরাময় করুন এবং আমাদের পরিশ্রমকে আশীর্বাদ করুন। আপনার প্রসারিত বাহু সর্বদা আমাদের নিরাপদ আশ্রয় হোক। ত্রাণকর্তা খ্রীষ্ট, সমগ্র বিশ্বকে আপনার পবিত্র শান্তিতে আশীর্বাদ করুন! আমীন।",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "ltr"
     }
   ]

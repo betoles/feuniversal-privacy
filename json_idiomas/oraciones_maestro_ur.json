@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "خداوند کے حضور مسیحی دعا و مناجات",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Soberania_De_Cristo_Y_Fidelidad",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "اے قادرِ مطلق اور رحیم خدا، خداوند یسوع مسیح کے مقدس نام میں ہم تیرے حضور حاضر ہوتے ہیں۔ ہمارے گناہ معاف فرما، دل کو سکون دے اور اپنی پاک روح سے ہماری رہنمائی فرما۔ آمین۔",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "اے خداوند یسوع مسیح، میں تجھے تمام کائنات کا عالمگیر بادشاہ تسلیم کرتا ہوں! جو کچھ بنایا گیا وہ تیرے لیے ہی تخلیق ہوا۔ مجھ پر اور میرے خاندان پر اپنا خودمختار اختیار قائم فرما۔ یسوع کے پاک دل، میں اپنی زندگی تیرے حضور پیش کرتا ہوں تاکہ تمام دل تیری بادشاہی کو تسلیم کریں اور دنیا میں تیرا امن، انصاف اور محبت قائم ہو۔ مسیح بادشاہ کی جے! آمین۔",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "rtl"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "کائنات کے بادشاہ مسیح · نوعِ انسانی اور خاندانوں کی باوقار تقدیس کی دعا",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "اے خداوند یسوع مسیح، میں تجھے تمام کائنات کا عالمگیر بادشاہ تسلیم کرتا ہوں! جو کچھ بنایا گیا وہ تیرے لیے ہی تخلیق ہوا۔ مجھ پر اور میرے خاندان پر اپنا خودمختار اختیار قائم فرما۔ یسوع کے پاک دل، میں اپنی زندگی تیرے حضور پیش کرتا ہوں تاکہ تمام دل تیری بادشاہی کو تسلیم کریں اور دنیا میں تیرا امن، انصاف اور محبت قائم ہو۔ مسیح بادشاہ کی جے! آمین۔",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "rtl"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "یسوع کا مقدس دل · خودسپردگی، تلافی اور کامل بھروسے کی دعا",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "اے یسوع کے پاک اور میٹھے دل، جو مصیبت زدوں پر رحم کیے بغیر نہیں رہ سکتا! مجھ پر اپنی رحمت کی نظر فرما اور میری زندگی اور میرے خاندان کی خودسپردگی قبول فرما۔ ہماری روحوں میں اپنی الٰہی محبت کی آگ بھڑکا اور ہمارے دلوں کے زخموں کو شفا بخش۔ میں اپنی تمام فکریں اور اپنے خاندان کی صحت تیرے ہاتھوں میں سونپتا ہوں۔ اے یسوع کے پاک دل، مجھے تجھ پر ہی بھروسا ہے! آمین۔",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "rtl"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "نجات دہندہ مسیح · کھلی باہوں سے پناہ، عالمگیر امن اور تحفظ کی دعا",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "اے نجات دہندہ مسیح، دنیا کے الٰہی منجی! تو جو بلندی سے کھلی باہوں کے ساتھ تمام انسانیت کو گلے لگاتا ہے اور امن کے پیاسے ہر شخص کو خوش آمدید کہتا ہے: ہمارے خاندانوں اور قوموں پر نگاہِ کرم فرما۔ ہمیں اپنی نجات بخش پناہ میں رہنے کا فضل عطا کر؛ نفرت اور تفریق کی دیواروں کو گرا دے؛ بیماروں کو شفا بخش اور ہمارے ہاتھوں کی محنت کو برکت دے۔ تیری پھیلی ہوئی بانہیں ہمیشہ ہماری محفوظ پناہ گاہ رہیں۔ نجات دہندہ مسیح، پوری دنیا کو اپنے پاک امن سے نواز! آمین۔",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "rtl"
     }
   ]

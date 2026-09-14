@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "Consecration before Christ the King of the Cubilete",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Soberania_De_Cristo_Y_Fidelidad",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Spanish mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "Christ King of the Beaker: reigns in our homes and nations. Grant us courage to defend faith, life and justice until our last breath. Amen.",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "O Jesus Christ, I acknowledge Thee as universal King of all creation! All that has been made was created for Thee. Exercise over me and my family all Thy sovereign rights. I renew my baptismal promises, renouncing sin and all works of darkness, and I resolve to live as a faithful Christian. In a special manner I pledge myself to make the rights of God and Thy Church triumph. Divine Heart of Jesus, I offer Thee my humble actions that all hearts may recognize Thy sacred kingship and that the Kingdom of Thy peace, justice, and love may be established throughout the world. Long live Christ the King! Amen.",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "Christ the King of the Universe · Solemn Act of Consecration of the Human Race and Families",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "O Jesus Christ, I acknowledge Thee as universal King of all creation! All that has been made was created for Thee. Exercise over me and my family all Thy sovereign rights. I renew my baptismal promises, renouncing sin and all works of darkness, and I resolve to live as a faithful Christian. In a special manner I pledge myself to make the rights of God and Thy Church triumph. Divine Heart of Jesus, I offer Thee my humble actions that all hearts may recognize Thy sacred kingship and that the Kingdom of Thy peace, justice, and love may be established throughout the world. Long live Christ the King! Amen.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "Sacred Heart of Jesus · Act of Consecration, Reparation, and Supplication of Trust",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "O Most Sacred and Sweetest Heart of Jesus, to Whom it is impossible not to have compassion on the afflicted and needy! Look upon me with eyes of mercy and receive the humble consecration of my life, my home, and my loved ones. Thou Who didst say to Saint Margaret Mary: 'Fear not, I shall reign despite My enemies,' enkindle in our souls the holy fire of Thy divine love and heal the wounds of our hearts. Into Thy pierced hands I place my trials, my labors, my fears, and my family's health. Be Thou our refuge in distress and our eternal peace. Sacred Heart of Jesus, in Thee I trust, in Thee I hope, and in Thee I rest! Amen.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "Christ the Redeemer · Prayer of Welcoming, Universal Peace, and Protection with Open Arms",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "O Christ the Redeemer, Divine Savior of the world! You Who with open arms atop the mount embrace all humanity and welcome everyone who comes to You with a contrite heart and longing for peace: look upon our families and our nations. Grant us the grace to live under Your saving protection; tear down the walls of hatred, violence, and division; heal the sick, comfort the forsaken, and bless the labor of our hands. May Your outstretched arms always be our secure refuge amidst the storms of life and the beacon of light guiding us to eternal life. Christ the Redeemer, bless the whole world with Your holy peace! Amen.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "ltr"
     }
   ]

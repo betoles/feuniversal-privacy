@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "Kuwekwa wakfu mbele ya Kristo Mfalme wa Kubilete",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Ukuu_Wa_Kristo_Na_Uaminifu",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Español mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "Bwana Yesu Kristo, Mfalme mkuu wa historia na ulimwengu wote mzima! Kutoka juu ya Cubilete, moyo wa kijiografia wa Meksiko, tunatangaza mrahaba wako wa haki, upendo na amani. Tawala mioyoni mwetu, tawala katika nyumba zetu, tawala katika nchi zetu. Tusiwahi kulikana Jina lako Takatifu katika uso wa shinikizo za ulimwengu. Uishi Kristo Mfalme! Uishi kwa muda mrefu Mtakatifu Maria wa Guadalupe! Amina.",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "Ee Yesu Kristo, ninakutambua kama Mfalme wa Ulimwengu wa viumbe vyote! Yote yaliyofanywa yaliumbwa kwa ajili yako. Tekeleza mamlaka yako makuu juu yangu na familia yangu. Ninahuisha ahadi zangu za Ubatizo nikikataa dhambi. Moyo Mtakatifu wa Yesu, ninakutolea maisha yangu ili mioyo yote itambue ufalme wako mtakatifu na amani, haki na upendo wako vitawale duniani kote. Aishi Kristo Mfalme! Amina.",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "Kristo Mfalme wa Ulimwengu · Tendo Tukufu la Kujiweka Wakfu kwa Wanadamu na Familia",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "Ee Yesu Kristo, ninakutambua kama Mfalme wa Ulimwengu wa viumbe vyote! Yote yaliyofanywa yaliumbwa kwa ajili yako. Tekeleza mamlaka yako makuu juu yangu na familia yangu. Ninahuisha ahadi zangu za Ubatizo nikikataa dhambi. Moyo Mtakatifu wa Yesu, ninakutolea maisha yangu ili mioyo yote itambue ufalme wako mtakatifu na amani, haki na upendo wako vitawale duniani kote. Aishi Kristo Mfalme! Amina.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "Moyo Mtakatifu wa Yesu · Tendo la Kujiweka Wakfu, Malipo ya Dhambi na Sala ya Tumaini",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "Ee Moyo Mtakatifu na Mpole Zaidi wa Yesu, usiyeweza kuacha kuwahurumia wenye shida na mateso! Nitazame kwa macho ya huruma na upokee wakfu wa maisha yangu, nyumba yangu na wapendwa wangu. Washa ndani ya roho zetu moto wa upendo wako wa kimungu na uponye majeraha ya mioyo yetu. Mikononi mwako ninaweka mahangaiko yangu yote na afya ya familia yangu. Moyo Mtakatifu wa Yesu, ninakutumaini wewe na kupumzika ndani yako! Amina.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "Kristo Mkombozi · Sala ya Mapokezi, Amani ya Ulimwengu na Ulinzi wa Mikono Iliyonyoshwa",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "Ee Kristo Mkombozi, Mwokozi wa Kimungu wa ulimwengu! Wewe unayenyosha mikono yako kutoka juu kukumbatia wanadamu wote na kumkaribisha kila anayekuja kwako kwa moyo uliopondeka na kiu ya amani: tazama familia na mataifa yetu. Utujalie neema ya kuishi chini ya ulinzi wako wa wokovu; vunja kuta za chuki na mafarakano; ponya wagonjwa, wafariji waliotupwa na ubariki kazi za mikono yetu. Mikono yako iliyonyoshwa iwe kimbilio letu salama daima. Kristo Mkombozi, ubariki ulimwengu wote kwa amani yako takatifu! Amina.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "ltr"
     }
   ]

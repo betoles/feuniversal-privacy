@@ -81830,7 +81830,7 @@
     {
       "id": "CAT_MEX_CUBILETE_CRISTO_REY",
       "numero": 3741,
-      "titulo": "Consécration devant le Christ Roi du Cubilete",
+      "titulo": "Solemne Consagración a Cristo Rey del Cubilete (Montaña Sagrada de México)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Soberania_De_Cristo_Y_Fidelidad",
       "estadosEmocionales": [
@@ -81840,9 +81840,9 @@
         "victorioso"
       ],
       "idiomaLiturgicoOriginal": "Espagnol mexicano",
-      "textoOriginal": "¡Señor Jesucristo, Rey soberano de la historia y del universo entero! Desde la cima del Cubilete, corazón geográfico de México, proclamamos tu realeza de justicia, amor y paz. Reina en nuestros corazones, reina en nuestros hogares, reina en nuestras patrias. Que jamás reneguemos de tu Santo Nombre ante las presiones del mundo. ¡Viva Cristo Rey! ¡Viva Santa María de Guadalupe! Amén.",
-      "guiaFonetica": "Se-ñor Je-su-cris-to, Rey so-be-ra-no de la his-to-ria... ¡Vi-va Cris-to Rey! ¡Vi-va San-ta Ma-ri-a de Gua-da-lu-pe! A-mén.",
-      "textoTraducido": "Christ Roi du Gobelet : règne dans nos foyers et nos nations. Donne-nous le courage de défendre la foi, la vie et la justice jusqu'à notre dernier souffle. Amen.",
+      "textoOriginal": "¡Viva Cristo Rey y Santa María de Guadalupe! Señor Jesucristo, Rey soberano: reina en nuestros hogares y en nuestra patria. Amén.",
+      "guiaFonetica": "[¡Vi-va Cris-to Rey y San-ta Ma-ri-a de Gua-da-lu-pe! Se-ñor Je-su-cris-to... A-mén.]",
+      "textoTraducido": "Ô Christ Jésus, je Vous reconnais comme Roi universel de toute la création ! Tout ce qui a été fait a été créé pour Vous. Exercez sur moi et sur ma famille tous Vos droits souverains. Je renouvelle mes promesses de Baptême, renonçant au péché et à toute œuvre des ténèbres, et je promets de vivre en bon chrétien. Divin Cœur de Jésus, je Vous offre mes humbles actions pour que tous les cœurs reconnaissent Votre sainte royauté et que s'établisse le Règne de Votre paix, justice et amour. Vive le Christ Roi ! Amen.",
       "ritualesAsociados": {
         "tipoContador": "tres_vivas_a_cristo_rey_y_credo",
         "duracionVeladoraSugeridaHoras": 33,
@@ -93622,6 +93622,75 @@
         "duracionVeladoraSugeridaHoras": 72,
         "paisajeSonoroRecomendado": "frecuencia_741hz"
       },
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REY_UNIVERSAL_CONSAGRACION",
+      "numero": 4254,
+      "titulo": "Le Christ Roi de l'Univers · Acte Solennel de Consécration du Genre Humain et des Foyers",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "esperanza",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "O Christe Iesu, Te universorum Regem agnosco. Omnia quae facta sunt, propter Te creata sunt. Exerce in me omnia iura tua. Tuus sum ego, et omnia mea tua sunt. O Rex gloriae, adveniat regnum tuum! Vivat Christus Rex! Amen.",
+      "guiaFonetica": "[O Khrís-te Yé-su, Te u-ni-ver-só-rum Ré-jem ag-nós-ko. Óm-ni-a kwe fák-ta sunt, próp-ter Te kre-á-ta sunt. Ví-vat Khrís-tus Rex! A-men.]",
+      "textoTraducido": "Ô Christ Jésus, je Vous reconnais comme Roi universel de toute la création ! Tout ce qui a été fait a été créé pour Vous. Exercez sur moi et sur ma famille tous Vos droits souverains. Je renouvelle mes promesses de Baptême, renonçant au péché et à toute œuvre des ténèbres, et je promets de vivre en bon chrétien. Divin Cœur de Jésus, je Vous offre mes humbles actions pour que tous les cœurs reconnaissent Votre sainte royauté et que s'établisse le Règne de Votre paix, justice et amour. Vive le Christ Roi ! Amen.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "SAGRADO_CORAZON_JESUS_CONFIANZA",
+      "numero": 4255,
+      "titulo": "Sacré-Cœur de Jésus · Acte de Consécration, de Réparation et Supplication de Confiance",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_salud",
+      "estadosEmocionales": [
+        "paz_mental",
+        "esperanza",
+        "amor_devocional"
+      ],
+      "idiomaLiturgicoOriginal": "latín",
+      "textoOriginal": "Cor Iesu sacratissimum et dulcissimum, miserere nobis. In Te confido, in Te spero, in Te me totum trado. Iesu, mitis et humilis corde, fac cor nostrum secundum Cor tuum. Amen.",
+      "guiaFonetica": "[Kor Yé-su sa-kra-tís-si-mum et dul-sís-si-mum, mi-se-ré-re nó-bis. In Te kon-fí-do, in Te spé-ro... Fák kor nós-trum se-kún-dum Kor tú-um. A-men.]",
+      "textoTraducido": "Ô Sacré et Très Doux Cœur de Jésus, à qui il est impossible de ne pas avoir compassion des affligés ! Regardez-moi avec des yeux de miséricorde et accueillez l'humble consécration de ma vie, de mon foyer et de ceux que j'aime. Vous qui avez dit à Sainte Marguerite-Marie : 'Ne crains rien, Je régnerai malgré Mes ennemis', allumez dans nos âmes le feu de Votre divin amour et guérissez les blessures de notre cœur. Je remets entre Vos mains transpercées mes peines, mes projets et la santé des miens. Sacré-Cœur de Jésus, j'ai confiance en Vous, j'espère en Vous et je me repose en Vous ! Amen.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "id": "CRISTO_REDENTOR_BRAZOS_ABIERTOS",
+      "numero": 4256,
+      "titulo": "Le Christ Rédempteur · Prière d'Accueil, de Paix Universelle et de Protection aux Bras Ouverts",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz_interior",
+      "estadosEmocionales": [
+        "esperanza",
+        "paz_mental",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "portugués",
+      "textoOriginal": "Ó Cristo Redentor, de braços abertos sobre o mundo: acolhei as nossas preces, abençoai as nossas famílias e trazei a paz duradoura aos nossos povos. Redemptor mundi, salva nos! Amém.",
+      "guiaFonetica": "[O Krís-to Re-den-tór, de brá-sos a-byér-tos só-bre o mún-do: a-ko-lyéi as nós-sas pré-ses... Re-démp-tor mún-di, sál-va nos! A-mém.]",
+      "textoTraducido": "Ô Christ Rédempteur, Divin Sauveur du monde ! Vous qui, les bras ouverts sur les hauteurs, embrassez l'humanité tout entière et accueillez quiconque vient à Vous le cœur brisé et assoiffé de paix : regardez nos familles et nos nations. Accordez-nous la grâce de vivre sous Votre protection salvatrice ; abattez les murs de la haine et de la division ; guérissez les malades, consolez les abandonnés et bénissez le labeur de nos mains. Que Vos bras étendus soient toujours notre refuge assuré. Christ Rédempteur, bénissez le monde entier de Votre sainte paix ! Amen.",
+      "ritualesAsociados": [
+        "Velas consagradas",
+        "Incienso de mirra",
+        "Agua bendita",
+        "Estampa sagrada"
+      ],
       "dir": "ltr"
     }
   ]
