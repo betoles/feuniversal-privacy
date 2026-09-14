@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Toscano-Liturgico-CEI-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "Sub Tuum Praesidium (Sotto la tua protezione ci rifugiamo)",
+      "titulo": "Sub Tuum Praesidium (Sotto la Tua Protezione Cerchiamo Rifugio) · Antichissima Preghiera Mariana",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "refugio_mariano_primitivo",
+      "categoriaIntencion": "Protezione Mariana e Rifugio",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "Ci rifugiamo sotto la tua protezione, Santa Madre di Dio; non disprezzare le suppliche che ti rivolgiamo nelle nostre necessità, ma liberaci piuttosto da ogni pericolo, o Vergine gloriosa e benedetta! Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "Sotto la tua protezione cerchiamo rifugio, Santa Madre di Dio; non disprezzare le suppliche di noi che siamo nella prova, ma liberaci sempre da ogni pericolo, o Vergine gloriosa e benedetta! Nostra Signora, nostra Mediatrice, nostra Avvocata: riconciliaci con tuo Figlio, raccomandaci a tuo Figlio, presentaci a tuo Figlio. Amen.",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "ltr"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "Preghiera di fedeltà giovanile (Morte prima del peccato)",
+      "titulo": "San Domenico Savio · Preghiera di Purezza, Gioia Giovanile e Fedeltà (La Morte ma non Peccati)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "pureza_juvenil",
+      "categoriaIntencion": "Purezza, Castità e Fortezza Giovanile",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "Attraverso la benedizione di questo canto sacro (Preghiera di fedeltà giovanile (Morte prima del peccato)), possano la pace, la serenità e la giustizia divina regnare nelle nostre vite e nelle nostre persone. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Per Cristo nostro Signore. Amen.",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "ltr"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "O glorioso e benedetto San Lazzaro, caro amico di Gesù e compassionevole protettore dei malati, dei piagati e dei bisognosi! Tu che hai conosciuto nella tua carne il dolore dell'afflizione e la gloria della risurrezione per la divina potenza di Cristo: degnati di ascoltare la mia umile supplica. Intercedi presso il Signore per la mia salute e per quella dei miei cari; allevia le infermità del corpo e dell'anima, risana le ferite del dolore e liberaci da contagi, miserie e abbandono. Donaci la forza di sopportare le prove con fede e la grazia di ottenere la salute e la pace di cui abbiamo tanto bisogno. Per Gesù Cristo nostro Signore. Amen.",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "Nostra Signora dei Dolori (Vergine dei Sette Dolori) · Conforto nell'Afflizione e Fortezza ai Piedi della Croce",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "Conforto nel Dolore, Lutto e Fortezza",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "O Santissima Vergine Maria, Madre dei Dolori e Regina dei Martiri! Tu che ai piedi della Croce sei rimasta salda nella fede quando la spada profetizzata trafisse la tua anima compassionevole: guarda con pietà le pene, i lutti e le tribolazioni delle nostre vite. Per i tuoi Sette Dolori sacri, ottienici il conforto nella tristezza, la salute nell'infermità e la forza di abbracciare la nostra croce quotidiana. Sii il nostro rifugio nell'ora della prova e accompagnaci nel passaggio alla vita eterna con il tuo amato Figlio Gesù Cristo. Amen.",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "ltr"
     }
   ]

@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Tefilot-Masoretic-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "Sub Tuum Praesidium (Bajo tu Amparo nos Acogemos)",
+      "titulo": "תחת חסותך אנו מוצאים מקלט (Sub Tuum Praesidium) · התפילה המריאנית העתיקה ביותר",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Refugio_Mariano_Primitivo",
+      "categoriaIntencion": "הגנת מרים ומקלט",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "תחת חסותך אנו מוצאים מקלט, אם האלוהים הקדושה; אל תבזי את תחנונינו במצוקותינו, אלא הצילנו תמיד מכל סכנה, הו בתולה מפוארת ומבורכת! גבירתנו, מליצתנו, מגינתנו: פייסי אותנו עם בנך, הפקידי אותנו בידי בנך, והציגי אותנו לפני בנך. אמן.",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "rtl"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "תחינה Juvenil של Fiשלlidad (La Muerte antes que Pecar)",
+      "titulo": "דומיניק סאביו הקדוש · תפילת טוהר, שמחת נעורים ונאמנות (מוטב מוות מחטא)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Pureza_Juvenil",
+      "categoriaIntencion": "טוהר לב, צניעות ועוז נעורים",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "דומיניק סאביו הקדוש, מופת נעורים של טוהר מלאכי, שמחה קדושה ומסירות לוהטת ללחם הקודש ולמרים עזרת הנוצרים! אתה אשר ביום קבלת לחם הקודש הראשון חרת על לבך את המוטו ההרואי: 'חבריי יהיו ישוע ומרים; מוטב מוות מחטא': השג עבורנו מהאדון לב טהור, צנוע ואמיץ לנוכח פיתויי העולם, ועזור לנו להתמיד בנאמנות בחסד האלוהי עד סוף ימינו. בשם ישוע המשיח אדוננו. אמן.",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "rtl"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "אלעזר הקדוש והמבורך, ידידו הקרוב של ישוע ומגן מלא חמלה לחולים, לפצועים ולנעזבים! אתה אשר חווית בבשרך את כאב הייסורים ואת תהילת התחייה בכוחו האלוהי של המשיח: שמע נא את תחינתי הצנועה. הפצר לפני האדון למען בריאותי ובריאות יקיריי; הקל על תחלואי הגוף והנפש, רפא את פצעי הסבל והצל אותנו ממגפות, מעוני ומנטישה. הענק לנו עוז לשאת את המבחנים באמונה וזכה אותנו ברפואה ובשלום שאנו כה זקוקים להם. בשם ישוע המשיח אדוננו. אמן.",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "rtl"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "גבירתנו של היגונות (שבעת יגונות מרים) · נחמה בעת מצוקה ועוז למרגלות הצלב",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "נחמה בכאב, אבל ועוז",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "הו הבתולה הקדושה מרים, אם היגונות ומלכת המרטירים! את אשר עמדת איתנה באמונה למרגלות הצלב כאשר חרב הנבואה פילחה את נפשך הרחומה: הביטי ברחמים על מכאובינו, אבלינו ומצוקותינו. בזכות שבעת יגונותייך הקדושים, השיגי עבורנו נחמה בעצב, רפואה בחולי ועוז לשאת את צלבנו היומיומי באהבה. הֱיִי מקלטנו בעת צרה ולווי אותנו במעבר לחיי עולם עם בנך האהוב ישוע המשיח. אמן.",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "rtl"
     }
   ]

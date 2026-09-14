@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Patristica-Vulgata-Romana-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "Sub Tuum Praesidium (Bajo tu Amparo nos Acogemos)",
+      "titulo": "Sub Tuum Praesidium · Antiquissima Oratio Mariana",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Refugio_Mariano_Primitivo",
+      "categoriaIntencion": "Protectio Mariana et Asylum",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "Bajo tu praesidium nos acogemos, sancta Mater de Deus; no desprecies las súplicas qui te dirigimos in nuestras necesidades, antes bien, libera nos de omne periculum, ¡oh Virgen gloriosa et bendita! Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "ltr"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "Preces Juvenil de Fidelidad (La Muerte antes que Pecar)",
+      "titulo": "Sanctus Dominicus Savio · Oratio pro Puritate, Gaudium et Fidelitate (Mors Potius Quam Peccatum)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Pureza_Juvenil",
+      "categoriaIntencion": "Puritas, Castitas et Iuvenilis Fortitudo",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "Que per la benedictio de este sagrado cántico (Plegaria Juvenil de Fidelidad (La Muerte antes qui Pecar)), reine la pax, la serenidad et la justicia divina in nuestras vidas et pueblos. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "O Sancte Dominice Savio, iuvenile angelicae puritatis, sancti gaudii ac fervidae devotionis in Iesum Sacramentatum et Mariam Auxiliatricem exemplar! Qui die primae communionis tuae heroicum votum scripsisti: 'Amici mei erunt Iesus et Maria; mors potius quam peccatum': impetra nobis a Domino cordis puritatem, castitatem et in tentationibus fortitudinem. Doce nos officia nostra sancto gaudio implere et in divina gratia fideles usque ad finem perseverare. Per Christum Dominum nostrum. Amen.",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "ltr"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "O gloriose et benedicte Sancte Lazare, intime Iesu amice et compatiens infirmorum, vulneratorum ac pauperum defensor! Qui in corpore tuo afflictionis dolorem et resurrectionis gloriam per divinam Christi potentiam expertus es: humiles preces meas exaudire digneris. Intercede apud Dominum pro salute mea et meorum; leva morbos corporis et animae, vulnera doloris sana et nos a peste, miseria et derelictione libera. Da nobis fortitudinem ad tribulationes in fide ferendas et gratiam sanitatis et pacis quam imploramus. Per Christum Dominum nostrum. Amen.",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "Nostra Domina Perdolens (Mater Dolorosa) · Solacium in Afflictione et Fortitudo Iuxta Crucem",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "Solacium in Dolore et Fortitudo",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "O Sanctissima Virgo Maria, Mater Dolorosa et Regina Martyrum! Quae iuxta Crucem stetisti in fide dum gladius prophetatus animam tuam transfixit: respice clementer dolores, luctus et tribulationes nostras. Per Septem Dolores tuos sanctos, impetra nobis solacium in tristitia, sanitatem in infirmitate et fortitudinem ad crucem nostram cotidianam ferendam. Esto refugium nostrum in hora doloris et nos in transitu ad vitam aeternam cum dilecto Filio tuo Iesu Christo comitare. Amen.",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "ltr"
     }
   ]

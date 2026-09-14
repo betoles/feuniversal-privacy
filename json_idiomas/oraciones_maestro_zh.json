@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Wenyan-Canonical-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "Sub Tuum Praesidium（在您的保护下我们避难）",
+      "titulo": "潜奔圣庇（Sub Tuum Praesidium） · 教会史上最古老圣母祈祷文",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "refugio_mariano_primitivo",
+      "categoriaIntencion": "圣母庇护与避难所",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "我们在您的保护下避难，圣母玛利亚；不要轻视我们在需要时向您提出的恳求，而是将我们从一切危险中解救出来，哦光荣而有福的童贞女！阿门。",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "天主圣母，我们投奔于祢的庇护之下；在我们急难之中，切莫轻视我们的祈求，但求祢常救我们于一切危险之中，光荣而受赞颂的童贞女！我们的主母、我们的中保、我们的辩护者：求使我们与祢的圣子和好，将我们引荐于祢的圣子，将我们呈献在祢的圣子面前。阿们。",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "ltr"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "青年忠诚祈祷（罪前死亡）",
+      "titulo": "圣多明我·沙维豪 · 纯洁、青年喜乐与坚贞祈祷（宁死不犯大罪）",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "pureza_juvenil",
+      "categoriaIntencion": "心灵纯洁、贞洁与青年力量",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "通过这首神圣歌曲（青年忠诚祈祷（罪前死亡））的祝福，愿和平、安宁和神圣的正义统治我们的生活和人民。阿门。",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "圣多明我·沙维豪，天使般纯洁、圣洁喜乐以及对圣体圣事与进教之佑圣母热切敬礼的青年楷模！你在初领圣体那天将英勇的誓言深铭于心：“耶稣和玛利亚是我的挚友；宁死也不犯罪”：求你为我们向主求得在世俗诱惑面前保持一颗纯洁、贞正与勇敢之心的恩宠。教导我们满怀圣洁的喜乐履行日用本分，并在天主的圣宠中坚守信德直到生命的终点。因我们的主耶稣基督。阿们。",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "ltr"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "光荣而受祝福的圣拉匝禄，耶稣挚爱的挚友，重病患者、受创伤者与孤苦无依者的仁慈护佑者！你曾亲身经历病苦的严酷折磨，并藉着基督的神圣大能得享复活的荣耀：求你垂听我谦卑的恳求。在主前为我及家人的健康转求；减轻身心灵的病痛，愈合苦难的创伤，免除一切疫病、穷困与被遗弃之苦。赐予我们以坚定信德承受试炼的力量，并恩赐我们迫切需要的全然痊愈与平安。因我们的主耶稣基督。阿们。",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "痛苦圣母（七苦圣母） · 苦难中的安慰与十字架下的坚毅祈祷",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "忧苦、丧亲慰藉与神圣力量",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "至圣童贞玛利亚，七苦之母与殉道者之后！当天主预言的利刃刺透祢慈悲的心灵之际，祢仍坚忍不拔地伫立在十字架旁：求祢以慈悲之目垂顾我们生活中的诸般痛苦、哀伤与磨难。藉着祢神圣的七苦，为我们向主求得忧伤中的安慰、疾病中的痊愈以及承当日常十字架的坚强毅力。在苦痛的时刻作我们的避难所，并在我们迈向与祢至爱圣子耶稣基督永生相聚的时刻陪伴我们。阿们。",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "ltr"
     }
   ]

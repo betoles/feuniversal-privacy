@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Synodal-Orthodox-Liturgic-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "Sub Tuum Praesidium (Под вашей защитой мы находим прибежище)",
+      "titulo": "Под Твою милость прибегаем (Sub Tuum Praesidium) · Древнейшая Богородичная молитва",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "refugio_mariano_primitivo",
+      "categoriaIntencion": "Покров Богородицы и убежище",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "Прибегаем под Твою защиту, Святая Богородица; не презри молений, которые мы обращаем к Тебе в нуждах наших, но лучше избави нас от всякой опасности, о славная и благословенная Дево! Аминь.",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "Под Твою милость прибегаем, Богородице Дево; молений наших не презри в скорбех, но от бед избави нас всегда, Едина Чистая и Благословенная! Владычице наша, Заступнице наша, Ходатаице наша: с Сыном Твоим примири нас, Сыну Твоему поручи нас, пред Сыном Твоим представь нас. Аминь.",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "ltr"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "Молодежная молитва о верности (Смерть до греха)",
+      "titulo": "Святой Доминик Савио · Молитва о чистоте, юношеской радости и верности (Лучше умереть, чем согрешить)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "pureza_juvenil",
+      "categoriaIntencion": "Чистота сердца, целомудрие и стойкость",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "Благодаря благословению этой священной песни (Молодежная молитва верности (Смерть перед грехом)), пусть мир, спокойствие и божественная справедливость воцарятся в нашей жизни и людях. Аминь.",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "О святой Доминик Савио, юный образец ангельской чистоты, святой радости и пламенной любви к Иисусу в Святых Дарах и Деве Марии Помощнице Христиан! Ты, в день Первого Причастия начертавший в сердце свой героический обет: 'Моими друзьями будут Иисус и Мария; лучше умереть, чем согрешить': испроси у Господа благодать хранить сердце чистым, целомудренным и мужественным пред искушениями мира. Научи нас исполнять свой долг со святой радостью и пребывать в благодати Божией до конца дней. Через Иисуса Христа, Господа нашего. Аминь.",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "ltr"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "О славный и благословенный святой Лазарь, возлюбленный друг Иисуса и милосердный заступник болящих, страждущих и обездоленных! Ты, познавший на себе муки болезни и славу воскресения божественной силой Христа: внемли смиренному молению моему. Заступись пред Господом о здравии моем и близких моих; облегчи недуги душевные и телесные, уврачуй язвы скорби и избави нас от моровых поветрий, нищеты и оставленности. Даруй нам стойкость переносить испытания с верою и сподоби обрести желанное здравие и мир. Через Иисуса Христа, Господа нашего. Аминь.",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "Пресвятая Дева Скорбящая (Семистрельная Богородица) · Утешение в скорбях и крепость у Креста",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "Утешение в скорби, трауре и стойкость",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "О Пресвятая Дева Мария, Матерь Скорбей и Царица Мучеников! У подножия Креста непоколебимо стоявшая в вере, когда прореченное оружие прошло сквозь сострадающую душу Твою: воззри с милосердием на скорби, утраты и испытания жизней наших. Ради Семи Твоих святых скорбей испроси нам утешение в печали, исцеление в немощах и крепость нести свой крест с любовью. Будь прибежищем нашим в час скорби и пребудь с нами в час перехода в жизнь вечную с возлюбленным Сыном Твоим Иисусом Христом. Аминь.",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "ltr"
     }
   ]

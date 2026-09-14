@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Bahasa-Rohani-Kemenag-LAI-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "Di Bawah Perlindungan Anda",
+      "titulo": "Sub Tuum Praesidium (Di Bawah Perlindunganmu Kami Berlindung) · Doa Maria Tertua",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Marian_Primitive_Perlindungan",
+      "categoriaIntencion": "Perlindungan Maria & Suaka",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "Kami berlindung di bawah perlindungan-Mu, Bunda Allah yang Kudus: jangan meremehkan permohonan kami pada saat dibutuhkan, tetapi selalu bebaskan kami dari segala bahaya, Perawan yang mulia dan terberkati. Amin.",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "Di bawah perlindunganmu kami berlindung, ya Bunda Allah yang Kudus; janganlah mengabaikan permohonan kami dalam kesesakan kami, tetapi bebaskanlah kami selalu dari segala mara bahaya, ya Perawan yang mulia dan terpuji! Ratu kami, Pengantara kami, Pembela kami: damaikanlah kami dengan Putra-Mu, serahkanlah kami kepada Putra-Mu, persembahkanlah kami ke hadapan Putra-Mu. Amin.",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "ltr"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "Doa Kesetiaan Remaja (Kematian sebelum Dosa",
+      "titulo": "Santo Dominikus Savio · Doa Kesucian, Sukacita Kaum Muda dan Kesetiaan (Lebih Baik Mati daripada Berdosa)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Kemurnian_Pemuda",
+      "categoriaIntencion": "Kesucian Hati, Kemurnian & Keberanian Kaum Muda",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "Ya Yesus, sahabatku adalah Yesus dan Maria; maut tapi bukan dosa... Amin.",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "O Santo Dominikus Savio, teladan kaum muda dalam kesucian malaikat, sukacita suci, dan devosi mendalam kepada Yesus dalam Sakramen Mahakudus serta Maria Penolong Umat Kristiani! Engkau yang pada hari Komuni Pertama menuliskan semboyan heroik dalam hatimu: 'Sahabat-sahabatku adalah Yesus dan Maria; lebih baik mati daripada berbuat dosa': mohonkanlah bagi kami dari Tuhan rahmat untuk menjaga hati yang bersih, murni, dan berani menghadapi godaan duniawi. Ajarilah kami menjalankan kewajiban dengan sukacita suci dan tetap setia dalam rahmat ilahi sampai akhir hayat kami. Demi Yesus Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "ltr"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "O Santo Lazarus yang mulia dan terberkati, sahabat akrab Yesus dan pelindung penuh belas kasih bagi orang-orang sakit, terluka, dan terlantar! Engkau yang mengalami sendiri derita kepedihan dan kemuliaan kebangkitan melalui kuasa ilahi Kristus: sudilah mendengarkan permohonan bersahajaku. Berdoalah di hadapan Tuhan bagi kesehatanku dan orang-orang yang kukasihi; ringankanlah penyakit raga dan jiwa, sembuhkanlah luka-luka derita, dan bebaskanlah kami dari wabah, kemiskinan, serta pengabaian. Berilah kami kekuatan untuk menanggung pencobaan dengan iman serta rahmat kesembuhan dan kedamaian. Demi Yesus Kristus Tuhan kami. Amin.",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "Bunda Maria Berdukacita (Tujuh Duka Maria) · Penghiburan dalam Penderitaan dan Kekuatan di Kaki Salib",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "Penghiburan dalam Dukacita & Kekuatan",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "O Santa Perawan Maria, Bunda Berdukacita dan Ratu Para Martir! Engkau yang berdiri teguh dalam iman di kaki Salib ketika pedang nubuat menembus jiwamu yang penuh belas kasih: pandanglah dengan belas kasihan dukacita, perkabungan, dan pencobaan dalam hidup kami. Demi Tujuh Dukacita-Mu yang kudus, perolehkanlah bagi kami penghiburan dalam kesedihan, kesembuhan dalam kelemahan, dan kekuatan untuk memikul salib harian kami. Jadilah perlindungan kami di saat duka dan dampingilah kami pada saat peralihan menuju kehidupan abadi bersama Putra terkasih-Mu Yesus Kristus. Amin.",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "ltr"
     }
   ]

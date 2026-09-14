@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Bhakti-Tatsama-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "सब तुम प्रेसीडियम (आपकी सुरक्षा में हम शरण लेते हैं",
+      "titulo": "सुब तुम प्रेसिडियम (हम आपकी शरण में आते हैं) · प्राचीनतम मरियम प्रार्थना",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "refugio_mariano_primitivo",
+      "categoriaIntencion": "मरियम का संरक्षण और आश्रय",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "हम आपके संरक्षण में शरण लेते हैं, भगवान की पवित्र मां: जरूरत के समय में हमारी प्रार्थनाओं का तिरस्कार न करें, बल्कि हमें हमेशा सभी खतरों से बचाएं, गौरवशाली और धन्य वर्जिन। आमीन। ।",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "हे ईश्वर की पवित्र माता, हम आपकी शरण में आते हैं; हमारी जरूरतों में हमारी प्रार्थनाओं को न ठुकराएं, बल्कि हर खतरे से हमें हमेशा बचाएं, हे महिमामयी और धन्य कुंवारी माता! हमारी महारानी, हमारी मध्यस्थ, हमारी अधिवक्ता: हमें अपने पुत्र से मिलाइए, हमें अपने पुत्र को सौंपिए, हमें अपने पुत्र के सामने प्रस्तुत कीजिए। आमीन।",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "ltr"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "निष्ठा की युवा प्रार्थना (पाप से पहले मृत्यु",
+      "titulo": "संत डोमिनिक सावियो · पवित्रता, युवा आनंद और निष्ठा की प्रार्थना (पाप से पहले मृत्यु)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "pureza_juvenil",
+      "categoriaIntencion": "हृदय की पवित्रता, संयम और युवा साहस",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "हे यीशु, मेरे मित्र यीशु और मरियम होंगे; मृत्यु लेकिन पाप नहीं।। । आमीन।",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "हे संत डोमिनिक सावियो, स्वर्गीय पवित्रता, पवित्र आनंद और यूकेरिस्ट में यीशु व सहायिका मरियम के प्रति उत्साही भक्ति के युवा आदर्श! आपने अपने पहले परमप्रसाद के दिन अपने दिल में अपना आदर्श वाक्य लिखा: 'यीशु और मरियम मेरे मित्र होंगे; पाप करने से पहले मृत्यु भली': प्रभु से हमारे लिए दुनिया के प्रलोभनों के सामने एक शुद्ध, पवित्र और साहसी दिल बनाए रखने की कृपा प्राप्त करें। हमें अपने कर्तव्यों को पवित्र आनंद के साथ पूरा करना और जीवन के अंत तक ईश्वर के अनुग्रह में वफादार बने रहना सिखाएं। हमारे प्रभु यीशु मसीह के द्वारा। आमीन।",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "ltr"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "हे महिमामयी और धन्य संत लाज़रस, यीशु के प्रिय मित्र और बीमारों, घायलों और निराश्रितों के दयालु संरक्षक! आपने अपने शरीर में पीड़ा की वेदना और मसीह की दिव्य शक्ति द्वारा पुनरुत्थान की महिमा का अनुभव किया: मेरी विनम्र प्रार्थना सुनें। मेरे और मेरे प्रियजनों के स्वास्थ्य के लिए प्रभु के सामने मध्यस्थता करें; शरीर और आत्मा की बीमारियों को दूर करें, दुखों के खुले घावों को भरें और हमें महामारी, विपत्ति और अकेलेपन से बचाएं। हमें विश्वास के साथ परीक्षाओं को सहने की शक्ति और स्वास्थ्य व शांति प्राप्त करने की कृपा दें। हमारे प्रभु यीशु मसीह के द्वारा। आमीन।",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "दुखों की हमारी माता (मरियम के सात दुःख) · संकट में सांत्वना और क्रूस के पास शक्ति",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "दुःख, शोक में सांत्वना और शक्ति",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "हे परम पवित्र कुंवारी मरियम, दुखों की माता और शहीदों की रानी! जब भविष्यवाणी की गई तलवार ने आपकी दयालु आत्मा को छेद दिया, तब आप क्रूस के पास विश्वास में दृढ़ खड़ी रहीं: हमारे जीवन के दुखों, शोकों और संकटों पर दया से दृष्टि रखें। अपने सात पवित्र दुखों के माध्यम से, हमारे लिए उदासी में सांत्वना, बीमारी में चंगाई और अपने दैनिक क्रूस को उठाने की शक्ति प्राप्त करें। पीड़ा की घड़ी में हमारी शरण बनें और अपने प्रिय पुत्र यीशु मसीह के साथ अनंत जीवन में जाने के क्षण में हमारा साथ दें। आमीन।",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "ltr"
     }
   ]

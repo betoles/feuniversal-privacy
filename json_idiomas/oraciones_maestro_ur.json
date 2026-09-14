@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Nastaliq-Liturgico-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4280
+    "totalOraciones": 4281
   },
   "oraciones": [
     {
@@ -71980,23 +71980,19 @@
     {
       "id": "CAT_LAT_SUB_TUUM_PRAESIDIUM",
       "numero": 3313,
-      "titulo": "آپ کے تحفظ کے تحت",
+      "titulo": "سب ٹوم پریسڈیم (ہم تیری پناہ میں آتے ہیں) · قدیم ترین مریمی دعا",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Refugio_Mariano_Primitivo",
+      "categoriaIntencion": "مریم کی حفاظت اور پناہ",
       "estadosEmocionales": [
         "perseguido",
         "desamparado",
         "hijo_en_los_brazos_de_la_madre"
       ],
       "idiomaLiturgicoOriginal": "Latín / Griego primitivo",
-      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix: nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen.",
-      "guiaFonetica": "[Sub tu-um pre-si-dium kon-fu-dji-mus, Sank-ta De-i Dje-ne-triks: nos-tras de-pre-ka-tsio-nes ne des-pi-chias in ne-ches-si-ta-ti-bus]",
-      "textoTraducido": "ہم آپ کی حفاظت میں پناہ لیتے ہیں، خدا کی مقدس ماں: ضرورت کے وقت ہماری دعاؤں کو حقیر نہ سمجھیں، بلکہ ہمیشہ ہمیں تمام خطرات سے بچائیں، شاندار اور بابرکت ورجن۔ آمین۔",
-      "ritualesAsociados": {
-        "tipoContador": "oracion_al_acostarse",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Canto gregoriano femenino solemne e incienso"
-      },
+      "textoOriginal": "Sub tuum praesidium confugimus, Sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Domina nostra, Mediatrix nostra, Advocata nostra: tuo Filio nos reconcilia, tuo Filio nos commenda, tuo Filio nos repraesenta. Amen.",
+      "guiaFonetica": "Sub tu-um prae-si-di-um con-fu-gi-mus, Sanc-ta De-i Ge-ne-trix... li-be-ra nos sem-per, Vir-go glo-rio-sa et be-ne-dic-ta... A-mén.",
+      "textoTraducido": "اے خدا کی مقدس ماں، ہم تیری حفاظت میں پناہ لیتے ہیں؛ ہماری ضروریات میں ہماری التجاؤں کو نہ ٹھکرا بلکہ ہر خطرے سے ہمیں ہمیشہ بچا، اے جلیل القدر اور مبارک کنواری! ہماری ملکہ، ہماری شفاعت کرنے والی، ہماری وکیل: ہمیں اپنے بیٹے کے ساتھ ملا دے، ہمیں اپنے بیٹے کے سپرد کر دے اور ہمیں اپنے بیٹے کے سامنے پیش فرما۔ آمین۔",
+      "ritualesAsociados": "Rezar como la más antigua plegaria mariana (siglo III) al concluir la jornada o al iniciar momentos de peligro y prueba espiritual.",
       "dir": "rtl"
     },
     {
@@ -80434,9 +80430,9 @@
     {
       "id": "CAT_ITA_DOMINGO_SAVIO_PUREZA",
       "numero": 3681,
-      "titulo": "خداوند کے حضور مسیحی دعا و مناجات",
+      "titulo": "مقدس ڈومینیک ساویو · پاکیزگی، جوانی کی خوشی اور وفاداری کی دعا (گناہ کے بجائے موت قبول ہے)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Pureza_Juvenil",
+      "categoriaIntencion": "دل کی پاکیزگی، عفت اور جوانی کی ہمت",
       "estadosEmocionales": [
         "devoto",
         "en_paz",
@@ -80444,14 +80440,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "O Gesù, i miei amici saranno Gesù e Maria; la morte ma non i peccati... Amén.",
-      "guiaFonetica": "[O Gesù, i miei amici saranno Gesù e Maria; la]",
-      "textoTraducido": "اے قادرِ مطلق اور رحیم خدا، خداوند یسوع مسیح کے مقدس نام میں ہم تیرے حضور حاضر ہوتے ہیں۔ ہمارے گناہ معاف فرما، دل کو سکون دے اور اپنی پاک روح سے ہماری رہنمائی فرما۔ آمین۔",
-      "ritualesAsociados": {
-        "tipoContador": "cuenta_devocional_o_respiracion",
-        "duracionVeladoraSugeridaHoras": 12,
-        "paisajeSonoroRecomendado": "Campanas catedralicias europeas, órgano y paisaje sonoro de las colinas de Europa"
-      },
+      "textoOriginal": "O San Domenico Savio, giovane modello di purezza angelica, santa gioia e ardente devozione a Gesù Sacramentato e a Maria Ausiliatrice! Tu che nel giorno della tua Prima Comunione scrivesti l'eroico proposito: 'I miei amici saranno Gesù e Maria; la morte ma non peccati': ottienici dal Signore un cuore puro, fortezza nelle tentazioni e la grazia di vivere sempre nella gioia della santa grazia. Guidaci sulla via della virtù e insegnaci a servire Dio con generosità fino alla fine. Amen.",
+      "guiaFonetica": "O San Do-mé-ni-co Sa-vio... I miei a-mi-ci sa-ran-no Ge-sù e Ma-ri-a; la mor-te ma non pec-ca-ti... A-mén.",
+      "textoTraducido": "اے مقدس ڈومینیک ساویو، فرشتوں جیسی پاکیزگی، مقدس خوشی اور پاک ساکرامنٹ میں یسوع اور مریم مددگار کے لیے والہانہ عقیدت کا نوجوان نمونہ! آپ نے اپنی پہلی پاک شراکت کے دن اپنے دل پر یہ بہادرانہ نعرہ لکھا: 'یسوع اور مریم میرے دوست ہوں گے؛ گناہ کرنے کے بجائے موت قبول ہے': دنیاوی آزمائشوں کے سامنے پاک، باحیا اور دلیر دل رکھنے کا فضل خداوند سے ہمارے لیے حاصل کریں۔ ہمیں اپنے فرائض پاک خوشی سے انجام دینا اور زندگی کے آخری دم تک الٰہی فضل میں وفادار رہنا سکھائیں۔ ہمارے خداوند یسوع مسیح کے وسیلے سے۔ آمین۔",
+      "ritualesAsociados": "Rezar con devoción juvenil encendiendo una vela blanca, pidiendo pureza de intenciones, victoria sobre las tentaciones y alegría cristiana en el estudio y la vida diaria.",
       "dir": "rtl"
     },
     {
@@ -94119,6 +94111,25 @@
       "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
       "textoTraducido": "اے جلیل القدر اور مبارک مقدس لعزر، یسوع کے پیارے دوست اور بیماروں، زخم خوردہ لوگوں اور بے سہاروں کے مہربان محافظ! آپ نے اپنے بدن میں تکلیف کے دکھ اور مسیح کی الٰہی قدرت سے جی اٹھنے کے جلال کا تجربہ کیا: میری عاجزانہ دعا سنیں۔ میری اور میرے پیاروں کی صحت کے لیے خداوند کے حضور شفاعت کریں؛ جسم اور روح کی بیماریوں کو دور کریں، دکھوں کے گھاؤ بھریں اور ہمیں وباؤں، مفلسی اور تنہائی سے بچائیں۔ ہمیں ایمان کے ساتھ آزمائشیں برداشت کرنے کی طاقت اور صحت و سلامتی کا فضل عطا کریں۔ ہمارے خداوند یسوع مسیح کے وسیلے سے۔ آمین۔",
       "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
+      "dir": "rtl"
+    },
+    {
+      "id": "VIRGEN_DE_LOS_DOLORES_SIETE_DOLORES",
+      "numero": 4281,
+      "titulo": "دکھوں کی مقدس کنواری مریم (مریم کے سات دکھ) · مصیبت میں تسلی اور صلیب کے پاس طاقت",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "غم، سوگ میں تسلی اور ہمت",
+      "estadosEmocionales": [
+        "consuelo",
+        "fortaleza",
+        "compasion",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "la",
+      "textoOriginal": "Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. ¡Oh Santísima Virgen María, Madre de los Dolores y Reina de los Mártires! Tú que al pie de la Cruz permaneciste de pie en la fe cuando la espada profetizada atravesó tu alma compasiva: mira con piedad filial las penas, duelos y tribulaciones de nuestras vidas. Por tus Siete Dolores sagrados, alcánzanos el consuelo en la tristeza, la salud en la enfermedad y la fortaleza para abrazar nuestra cruz diaria con amor redentor. Sé nuestro refugio en la hora del dolor y acompáñanos en el instante de nuestro tránsito hacia la vida eterna. Amén.",
+      "guiaFonetica": "Sanc-ta Ma-ter, is-tud a-gas, Cru-ci-fi-xi fi-ge pla-gas cor-di me-o va-li-de... O San-tí-si-ma Vir-gen Ma-rí-a, Ma-dre de los Do-lo-res... A-mén.",
+      "textoTraducido": "اے مقدس ترین کنواری مریم، دکھوں کی ماں اور شہیدوں کی ملکہ! جب پیشین گوئی کی تلوار نے آپ کی ہمدرد روح کو چھید دیا، تب آپ صلیب کے پاس ایمان میں ثابت قدم کھڑی رہیں: ہماری زندگی کے دکھوں، صدمات اور آزمائشوں پر رحم سے نگاہ ڈالیں۔ اپنے سات مقدس دکھوں کے وسیلے سے، ہمارے لیے اداسی میں تسلی، بیماری میں شفا اور اپنی روزمرہ کی صلیب اٹھانے کی طاقت حاصل کریں۔ مصیبت کی گھڑی میں ہماری پناہ بنیں اور اپنے پیارے بیٹے یسوع مسیح کے ساتھ ابدی زندگی میں داخل ہونے کے لمحے ہمارا ساتھ دیں۔ آمین۔",
+      "ritualesAsociados": "Rezar ante la imagen de la Virgen Dolorosa o el crucifijo, meditando los Siete Dolores de María y encendiendo un cirio morado o blanco en momentos de luto, angustia o enfermedad.",
       "dir": "rtl"
     }
   ]
