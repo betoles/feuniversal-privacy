@@ -347,6 +347,21 @@ export class FeUniversalApp {
     setTxt('label-focus-mode-title', t('zen_mode_label', safeLang));
     setTxt('label-focus-mode-desc', t('focus_mode_desc', safeLang));
     setTxt('label-zen-sound-header', t('zen_sound_label', safeLang));
+    setTxt('label-btn-preview-zen', t('test_sound', safeLang) || 'Probar');
+
+    // Actualizar Cápsula de Sonido Zen en la página principal (Silencio Profundo localizado)
+    const currentSoundId = (this.prefs && this.prefs.sonidoAmbientePorDefecto) || 'silencio_profundo';
+    const soundDef = SacredSoundPicker.getSoundDef(currentSoundId, safeLang);
+    const zenSoundIconEl = document.getElementById('zen-sound-active-icon');
+    const zenSoundLabelEl = document.getElementById('zen-sound-active-label');
+    if (zenSoundIconEl) {
+      zenSoundIconEl.innerHTML = renderIcon(soundDef.icon || 'ui_volume_mute');
+      zenSoundIconEl.style.color = soundDef.color || 'var(--text-muted)';
+    }
+    if (zenSoundLabelEl) {
+      zenSoundLabelEl.innerText = soundDef.name;
+    }
+
     // Atajos Rápidos 2x2
     setTxt('label-quick-shortcuts', t('shortcuts_header', safeLang));
     const btnProtTitle = document.querySelector('button[data-intent="proteccion"] .hud-pillar-title');
