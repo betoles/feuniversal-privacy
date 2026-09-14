@@ -981,14 +981,14 @@ export class FeUniversalApp {
 
     return `
       <div class="crystal-card prayer-item-card" data-prayer-id="${p.id}">
-        <!-- Fila Superior de Metadatos (Tradición e Idioma Raíz) -->
-        <div style="display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 8px; min-width: 0;">
-          <span class="hud-pill dot-gold" style="font-size: 0.72rem; max-width: calc(100% - 85px); display: inline-flex; align-items: center; gap: 5px; min-width: 0;">
-            <span style="color: ${tradColor}; display: flex; align-items: center; flex-shrink: 0;">${iconSvg}</span>
-            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${tradName}</span>
+        <!-- Fila Superior de Metadatos (Tradición e Idioma Raíz con Flex-Wrap) -->
+        <div class="prayer-card-meta-row" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; margin-bottom: 10px; width: 100%;">
+          <span class="hud-pill dot-gold" style="font-size: 0.73rem; display: inline-flex; align-items: center; gap: 6px; max-width: 100%; white-space: normal; line-height: 1.35; padding: 4px 10px;">
+            <span style="color: ${tradColor}; display: inline-flex; align-items: center; flex-shrink: 0;">${iconSvg}</span>
+            <span style="font-weight: 700;">${tradName}</span>
           </span>
-          <span class="hud-pill dot-cyan" style="font-size: 0.68rem; flex-shrink: 0; white-space: nowrap;">
-            ${p.idiomaLiturgicoOriginal || 'Litúrgico'}
+          <span class="hud-pill dot-cyan" style="font-size: 0.70rem; display: inline-flex; align-items: center; gap: 4px; max-width: 100%; white-space: normal; line-height: 1.35; padding: 4px 10px; margin-left: auto;">
+            <span>${p.idiomaLiturgicoOriginal || 'Litúrgico'}</span>
           </span>
         </div>
 
