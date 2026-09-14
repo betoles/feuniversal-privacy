@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Balaghah-Ecumenical-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4274
+    "totalOraciones": 4280
   },
   "oraciones": [
     {
@@ -59052,9 +59052,9 @@
     {
       "id": "CAT_COL_SENOR_MILAGROS_BUGA",
       "numero": 2728,
-      "titulo": "صلاة إلى رب معجزات بوجا (المعجزة)",
+      "titulo": "رب العجائب في بوغا (صاحب العجائب) · تضرع للشفاء والسلام وحماية العائلة",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "sanacion_y_milagros",
+      "categoriaIntencion": "الشفاء والسلام وحماية العائلة",
       "estadosEmocionales": [
         "enfermo",
         "afligido",
@@ -59062,22 +59062,18 @@
         "ferviente"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Señor de los Milagros de Buga, Cristo bondadoso que fuiste hallado en las aguas cristalinas por las manos de una humilde lavandera para convertirte en fuente inagotable de sanación y gracia: mírame con ojos de amor. Vengo ante tu cruz con mis dolores, enfermedades y esperanzas. Toca mi vida con tu mano llagada, sana mi cuerpo, limpia mi espíritu y derrama sobre mi hogar la paz y la concordia. Amén.",
-      "guiaFonetica": "[Se-ñor de los Mi-la-gros de Bu-ga, Cris-to bon-da-do-so que fuis-te ha-lla-do en las a-guas cris-ta-li-nas]",
-      "textoTraducido": "سيد معجزات بوغا،  معزي المنكوبين وطبيب المرضى: استمع إلى صلاتي،  واشفي جروحي،  وقوي إيماني في وسط أي تجربة. آمين.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_del_milagroso_de_buga",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de Buga y murmullo de agua de río bendito"
-      },
+      "textoOriginal": "¡Oh Amadísimo Señor de los Milagros de Buga, Cristo paciente y redentor que en las aguas del río Guadalajara manifestaste tu prodigio de amor a la humilde lavandera! Ante tu sagrada imagen nos postramos con fe viva y corazón contrito. Médico celestial de almas y cuerpos, mira nuestras dolencias, alivia las cargas que agobian nuestra vida y derrama sobre nosotros el bálsamo de tu divina misericordia. Aparta la violencia de nuestras tierras, bendice los hogares de Colombia y del mundo entero, y concédenos la gracia de perseverar en el amor hasta el fin. Señor de los Milagros de Buga, en Ti confío. Amén.",
+      "guiaFonetica": "O A-ma-dí-si-mo Se-ñor de los Mi-la-gros de Bu-ga... mé-di-co ce-les-tial de al-mas y cuer-pos... A-mén.",
+      "textoTraducido": "يا أحب رب العجائب في بوغا، المسيح الصبور والفادي الذي أظهرت معجزة محبتك للغسالة المتواضعة في مياه نهر غوادالاخارا! أمام صورتك المقدسة نجثو بإيمان حي وقلب منكسر. يا طبيب النفوس والأجساد السماوي، انظر إلى أسقامنا، وخفف الأثقال التي ترهق حياتنا، واسكب علينا بلسم رحمتك الإلهية. ابعد العنف عن بلادنا، وبارك بيوتنا وامنحنا نعمة الثبات في المحبة. يا رب العجائب في بوغا، عليك توكلت. آمين.",
+      "ritualesAsociados": "Rezar encendiendo una vela roja o blanca ante la imagen del Milagroso de Buga, pidiendo salud, sanación de enfermos desahuciados y solución de causas difíciles.",
       "dir": "rtl"
     },
     {
       "id": "CAT_COL_DIVINO_NINO_BOGOTA",
       "numero": 2729,
-      "titulo": "نداء الثقة للطفل الإلهي يسوع 20 يوليو",
+      "titulo": "الطفل يسوع الإلهي في بوغوتا (20 تموز) · تضرع الثقة والحماية العجائبية",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "auxilio_y_amparo_infantil_divino",
+      "categoriaIntencion": "حماية الأطفال والبركة العائلية",
       "estadosEmocionales": [
         "necesitado",
         "angustiado",
@@ -59085,14 +59081,10 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Divino Niño Jesús, dueño de mi corazón y mi vida: «Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado». Confiando en tu promesa, vengo a Ti con fe sincera. Tú que abres tus bracitos para abrazarnos y bendecirnos: alivia mis pesares, provee en mis necesidades temporales y espirituales, y no me sueltes de tu mano ni en la vida ni en la muerte. ¡Divino Niño Jesús, bendícenos! ¡Divino Niño Jesús, escúchanos! ¡Divino Niño Jesús, sálvanos! Amén.",
-      "guiaFonetica": "[Di-vi-no Ni-ño Je-sus, due-ño de mi co-ra-son y mi vi-da... To-do lo que quie-ras pe-dir, pi-de-lo por los me-ri-tos de mi in-fan-cia y na-da te se-ra ne-ga-do]",
-      "textoTraducido": "أيها الطفل الإلهي يسوع،  من أجل استحقاقات طفولتك المقدسة: استجب لصلاتي،  بارك عائلتي،  احمل السلام وسد احتياجاتنا. أنا أثق بك. آمين.",
-      "ritualesAsociados": {
-        "tipoContador": "siete_glorias_al_divino_nino",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas alegres, coros infantiles y repique del 20 de Julio"
-      },
+      "textoOriginal": "¡Oh Divino Niño Jesús del 20 de Julio de Bogotá, dulce consuelo de los afligidos y tesoro de amor infinito! Con profunda fe en tu promesa divina: 'Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado', acudo hoy a tus plantas suplicando tu amparo. Bendice mi hogar y a mi familia, protege a los niños del mundo entero, sana a los enfermos y provee trabajo digno y sustento a quienes carecen de pan. Que tu dulce sonrisa ilumine nuestras sombras y tus bracitos abiertos nos abracen en la hora de la prueba. Divino Niño Jesús, bendícenos y reina por siempre en nuestros corazones. Amén.",
+      "guiaFonetica": "O Di-vi-no Ni-ño Je-sús del vein-te de ju-lio... to-do lo que quie-ras pe-dir, pí-de-lo por los mé-ri-tos de mi in-fan-cia... A-mén.",
+      "textoTraducido": "يا طفل يسوع الإلهي في بوغوتا، يا عزاء المحزونين العذب وكنز المحبة اللامتناهية! بإيمان عميق بوعدك الإلهي: 'كل ما تريد أن تطلبه، اطلبه باستحقاقات طفولتي ولن يُرفض لك شيء'، أقبل اليوم عند قدميك ملتمسًا حمايتك. بارك بيتي وعائلتي، واحفظ أطفال العالم بأسره، واشفِ المرضى وارزق العمل الشريف والقوت للمحتاجين. لتنِر ابتسامتك العذبة ظلماتنا ولتحتضننا يداك المفتوحتان في ساعة المحنة. أيها الطفل الإلهي يسوع، باركنا واملِك إلى الأبد في قلوبنا. آمين.",
+      "ritualesAsociados": "Rezar con devoción los domingos o en la novena del Divino Niño, encendiendo una veladora rosada o blanca y prometiendo una obra de caridad con los niños pobres.",
       "dir": "rtl"
     },
     {
@@ -59190,9 +59182,9 @@
     {
       "id": "CAT_VEN_JOSE_GREGORIO_HERNANDEZ",
       "numero": 2734,
-      "titulo": "صلاة للطوباوي الدكتور خوسيه غريغوريو هيرنانديز (طبيب الفقراء)",
+      "titulo": "الطوباوي الدكتور خوسيه غريغوريو هرنانديز · طبيب الفقراء وشفاء المرضى والسلام",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "sanacion_medica_y_paz",
+      "categoriaIntencion": "الشفاء الطبي وصحة المرضى",
       "estadosEmocionales": [
         "enfermo",
         "operacion_medica",
@@ -59200,14 +59192,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Español venezolano",
-      "textoOriginal": "¡Oh Dios misericordioso, que concediste al Beato José Gregorio Hernández una inmensa ciencia médica unida a una profunda caridad para curar a los enfermos y servir a los necesitados! Te rogamos que, por su intercesión, derrames la salud sobre mi cuerpo y mi alma (mencionar al enfermo). Ilumina a los médicos que me atienden, guía sus manos y alivia todo sufrimiento. Amén.",
-      "guiaFonetica": "[O Dios mi-se-ri-kor-dio-so, que con-ce-dis-te al Be-a-to Jo-se Gre-go-rio Er-nan-des u-na in-men-sa sien-cia me-di-ca]",
-      "textoTraducido": "الطوباوي الدكتور خوسيه غريغوريو هيرنانديز،  الطبيب الصالح وخادم الله: رافق صحتي،  وأرشد قرارات الأطباء،  وتشفع لدى الآب من أجل شفاءي السريع والكامل. آمين.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_la_salud",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Música clásica suave y murmullo devoto en Isnotú"
-      },
+      "textoOriginal": "¡Oh Dios todopoderoso y misericordioso, que colmaste de ciencia, caridad heroica y santidad al Beato Dr. José Gregorio Hernández, Médico de los Pobres y Apóstol de la Paz! Tú que le concediste sanar a los enfermos con bondad entrañable y ver en cada paciente el rostro llagado de Cristo Redentor: escucha con piedad mi plegaria. Te pido por su intercesión la sanación de mis enfermedades y de quienes sufren en los hospitales y en sus hogares. Guía las manos de los médicos, conforta a los desahuciados y derrama tu paz sobre Venezuela y el mundo. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O Dios to-do-po-de-ro-so... que col-mas-te de cien-cia al Bea-to Dr. Jo-sé Gre-go-rio Her-nán-dez... A-mén.",
+      "textoTraducido": "يا إلهنا القدير والرحيم، يا من ملأت بحكمة الطب والمحبة البطولية والقداسة الطوباوي الدكتور خوسيه غريغوريو هرنانديز، طبيب الفقراء ورسول السلام! يا من منحته أن يشفي المرضى برأفة فائقة ويرى في كل مريض وجه المسيح الفادي: استجب برحمتك صلاتي. أسألك بشفاعته شفاء أمراضي وشفاء جميع المتألمين في المستشفيات والبيوت. سدد أيدي الأطباء، وعزِّ اليائسين واسكب سلامك على العالم. بيسوع المسيح ربنا. آمين.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca ante la imagen del Dr. José Gregorio Hernández, pidiendo por una operación quirúrgica, sanación física o diagnóstico médico favorable.",
       "dir": "rtl"
     },
     {
@@ -59235,9 +59223,9 @@
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
       "numero": 2736,
-      "titulo": "صلاة إلى عذراء المحبة في كوبري (كاشيتا)",
+      "titulo": "سيدة المحبة في إل كوبري (كاتشيتا) · شفيعة كوبا، الرجاء والعون في العواصف",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_emigrantes_y_dulce_auxilio",
+      "categoriaIntencion": "الحماية في العواصف والسلام العائلي",
       "estadosEmocionales": [
         "emigrante",
         "afligido",
@@ -59245,14 +59233,10 @@
         "hijo_devoto"
       ],
       "idiomaLiturgicoOriginal": "Español cubano",
-      "textoOriginal": "¡Virgen de la Caridad del Cobre, Madre amada de todos los cubanos y consuelo de los afligidos! Tú que fuiste encontrada en la Bahía de Nipe flotando sobre las aguas con el letrero: «Yo soy la Virgen de la Caridad». Calma las tempestades de mi vida, protege a quienes cruzan mares en busca de esperanza, derrama bendición sobre nuestros hogares y alcánzanos de tu Hijo la gracia de la libertad interior, la paz y el amor fraterno. Amén.",
-      "guiaFonetica": "[Vir-jen de la Ca-ri-dad del Co-bre, Ma-dre a-ma-da de to-dos los cu-ba-nos... Cal-ma las tem-pes-ta-des de mi vi-da]",
-      "textoTraducido": "عذراء كوبري الخيرية: لا تتخلوا عن أولادكم في بحر التجارب. امنحنا السلام والصحة والوحدة في الأسرة وأبق الأمل حيًا. آمين.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_girasoles_o_tres_aves_marias",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Olas de Nipe, campanas del Cobre y guitarra criolla"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Caridad del Cobre, amada 'Cachita', Celestial Patrona y Reina de Cuba! Tú que sobre las embravecidas aguas de la Bahía de Nipe apareciste milagrosamente a los tres Juanes con el lema: 'Yo soy la Virgen de la Caridad': mira con amor compasivo a todos tus hijos. Sé faro de luz en medio de las tempestades de la vida; no permitas que naufrague nuestra fe, cura a nuestros enfermos, une a las familias y bendice al pueblo cubano y al mundo entero con libertad, paz y pan digno. Virgen de la Caridad, cúbrenos con tu manto dorado y llévanos a Jesús. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Ca-ri-dad del Co-bre, a-ma-da Ca-chi-ta... Yo soy la Vir-gen de la Ca-ri-dad... A-mén.",
+      "textoTraducido": "يا قديسة مريم العذراء سيدة المحبة في إل كوبري، 'كاتشيتا' الحبيبة، شفيعة كوبا السماوية وملكتها! يا من ظهرتِ بأعجوبة فوق أمواج خليج نيبي للفتيان الثلاثة قائلة: 'أنا عذراء المحبة': انظري بحب ورأفة إلى جميع أبنائكِ. كوني منارة نور وسط عواصف الحياة؛ لا تدعي إيماننا يغرق، واشفي مرضانا، واجمعي شمل العائلات وباركي شعب كوبا والعالم بالحرية والسلام والخبز الكريم. يا عذراء المحبة، استرينا برداءكِ الذهبي وقودينا إلى يسوع. آمين.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela amarilla o blanca con girasoles frescos, pidiendo auxilio en dificultades extremas, protección familiar y caridad.",
       "dir": "rtl"
     },
     {
@@ -82212,9 +82196,9 @@
     {
       "id": "CAT_DOM_ALTAGRACIA_HIGUEY",
       "numero": 3758,
-      "titulo": "تضرع إلى سيدة ألتاجراسيا (هيغوي)",
+      "titulo": "سيدة ألتاغراسيا في هيغوي · حامية وأم الشعب الدومينيكاني",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_maternal_y_alta_gracia",
+      "categoriaIntencion": "الحماية الأمومية والسلام العائلي",
       "estadosEmocionales": [
         "devoto",
         "en_familia",
@@ -82222,14 +82206,10 @@
         "lleno_de_fe"
       ],
       "idiomaLiturgicoOriginal": "Español dominicano",
-      "textoOriginal": "¡Virgen de la Altagracia, Madre y Protectora amadísima del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús recién nacido sobre el pesebre: derrama la más alta gracia de Dios sobre nuestros hogares. Aleja las discordias, protege a nuestra juventud, bendice la tierra dominicana y mantén encendida en nuestras vidas la llama de la fe católica. Amén.",
-      "guiaFonetica": "[Vir-jen de la Al-ta-gra-cia, Ma-dre y Pro-tec-to-ra a-ma-di-si-ma]",
-      "textoTraducido": "عذراء ألتاجراسيا دي هيغوي: احمي عائلاتنا،  وامنحنا السلام والصحة والنعمة الإلهية في كل لحظة من حياتنا. آمين.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_aves_marias_con_medalla_de_la_altagracia",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Higüey y cántico devocional dominicano"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Altagracia, tierna y amorosa Madre y Protectora del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús dormido en el pesebre bajo la luz de la estrella celestial: acoge nuestras vidas y familias bajo tu maternal amparo. Enséñanos a guardar en el corazón la Palabra de Dios, concédenos la salud, el pan de cada día y el amor fraterno en nuestros hogares. Defiende a nuestra nación de toda calamidad y haz que brille en nuestros pueblos la verdadera paz y justicia de tu divino Hijo. Virgen de la Altagracia de Higüey, ruega por nosotros. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Al-ta-gra-cia... aco-ge nues-tras vi-das y fa-mi-lias ba-jo tu ma-ter-nal am-pa-ro... A-mén.",
+      "textoTraducido": "يا قديسة مريم العذراء سيدة ألتاغراسيا، الأم الحنونة والمحبة وحامية الشعب الدومينيكاني! يا من تتأملين بعذوبة فائقة الطفل يسوع نائمًا في المذود تحت نور النجم السماوي: اقبلي حياتنا وعائلاتنا تحت حمايتكِ الوالدية. علمينا أن نحفظ كلمة الله في قلوبنا، وامنحينا الصحة والخبز اليومي والمحبة الأخوية في بيوتنا. احمي بلادنا من كل نكبة واجعلي سلام ابنكِ الإلهي وعدله يشرقان في شعوبنا. يا عذراء ألتاغراسيا في هيغوي، صلي لأجلنا. آمين.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca o azul ante el cuadro de la Virgen de la Altagracia, pidiendo por la paz en el hogar, el bienestar de los hijos y la unión familiar.",
       "dir": "rtl"
     },
     {
@@ -94025,6 +94005,120 @@
       "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
       "textoTraducido": "مبارك أنت يا رب إلهنا، ملك الكون، الذي يطعم العالم كله بصلاحه ونعمته وإحسانه ورحمته. هو يعطي خبزًا لكل ذي جسد، لأن إلى الأبد رحمته. وبجوده العظيم لم يعوزنا ولا يعوزنا قوت أبد الدهر، من أجل اسمه العظيم؛ لأنه إله يطعم ويعول الجميع، ويحسن إلى الكل، ويهيئ القوت لجميع خلائقه التي خلقها. مبارك أنت يا رب، الذي يطعم الجميع. آمين.",
       "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
+      "dir": "rtl"
+    },
+    {
+      "id": "SENOR_DE_LOS_MILAGROS_LIMA_PERU",
+      "numero": 4275,
+      "titulo": "رب العجائب في ليما (المسيح الأسمر) · شفيع بيرو والحماية من الزلازل والشفاء",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "الحماية من الكوارث والشفاء",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "sanacion",
+        "proteccion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Señor de los Milagros, Cristo Moreno y amado Nazareno de Pachacamilla! Tú que permaneciste erguido e intacto en el humilde muro de adobe cuando la tierra tembló con furia: hoy nos postramos ante tu santa imagen revestidos con el hábito morado de la penitencia y el amor. Míranos con ojos de misericordia; aquieta los temblores de nuestra alma y los peligros que acechan a nuestras familias y a nuestra patria. Cura a nuestros enfermos, alivia a los agobiados por las deudas y el dolor, y danos un corazón puro para perdonar y amar. Señor de los Milagros, en Ti confiamos, por tu infinita cruz sálvanos y bendícenos. Amén.",
+      "guiaFonetica": "O Se-ñor de los Mi-la-gros, Cris-to Mo-re-no... a-quie-ta los tem-blo-res de nues-tra al-ma... A-mén.",
+      "textoTraducido": "يا رب العجائب، المسيح الأسمر والناصري الحبيب في باتشاكاميلا! يا من بقيت قائمًا وسالمًا على جدار الطين المتواضع حين تزلزلت الأرض بغضب: نجثو اليوم أمام صورتك المقدسة مرتدين الثوب البنفسجي للتوبة والمحبة. انظر إلينا بعين الرحمة؛ هدئ روع نفوسنا والأخطار التي تهدد عائلاتنا وأوطاننا. اشفِ مرضانا، وخفف عن المثقلين بالآلام، وامنحنا قلبًا نقيًا يغفر ويحب. يا رب العجائب، عليك توكلنا؛ بصليبك المقدس خلصنا وباركنا. آمين.",
+      "ritualesAsociados": "Rezar en procesión o en el hogar encendiendo un cirio morado o blanco, vistiendo el cordón o hábito morado en señal de fe y penitencia.",
+      "dir": "rtl"
+    },
+    {
+      "id": "SANTA_ROSA_DE_LIMA_PATRONA_AMERICA",
+      "numero": 4276,
+      "titulo": "القديسة روزا دي ليما · أول قديسة في الأمريكتين، شفيعة بيرو والفلبين",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "نقاوة القلب والمحبة وسلام العائلة",
+      "estadosEmocionales": [
+        "pureza",
+        "amor_divino",
+        "consuelo",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosa Santa Rosa de Lima, fragante rosa en el jardín de la Iglesia y primera flor de santidad de América! Tú que desde tu juventud te consagraste enteramente a Cristo, floreciendo en la penitencia, la oración constante y el servicio a los enfermos y desvalidos: enséñanos a amar a Dios sobre todas las cosas y a descubrir su rostro en los pobres. Alcánzanos la pureza de corazón, la fortaleza en el sufrimiento y la paz para nuestras familias. Sé la protectora celestial de nuestra patria y de todos los pueblos que te veneran, y condúcenos por senderos de caridad viva y santidad. Amén.",
+      "guiaFonetica": "Glo-rio-sa San-ta Ro-sa de Li-ma, fra-gan-te ro-sa en el jar-dín de la I-gle-sia... A-mén.",
+      "textoTraducido": "أيتها القديسة المجيدة روزا دي ليما، الوردة العطرة في بستان الكنيسة وأول زهرة قداسة في الأمريكتين! يا من كرستِ ذاتكِ للمسيح منذ صباكِ، وازدهرتِ في التوبة والصلاة الدائمة وخدمة المرضى والمحتاجين: علمينا أن نحب الله فوق كل شيء ونرى وجهه في الفقراء. التمسي لنا نقاوة القلب والقوة في الشدائد والسلام لعائلاتنا، وكوني الحامية السماوية لشعوبنا واهدينا في دروب المحبة الحية والقداسة. آمين.",
+      "ritualesAsociados": "Rezar con rosas frescas o escribir una petición depositándola con fe, pidiendo pureza de intenciones, consuelo en el dolor y vocación espiritual.",
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_MARTIN_DE_PORRES_HUMILDAD_CARIDAD",
+      "numero": 4277,
+      "titulo": "القديس مارتن دي بوريس · قديس التواضع والشفاء والمحبة الشاملة",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "التواضع والشفاء والمحبة",
+      "estadosEmocionales": [
+        "humildad",
+        "caridad",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh bondadoso San Martín de Porres, Fray Escoba, santo de la humildad sincera y de la caridad sin límites! Tú que con santa sencillez barriste los claustros y acogiste con ternura infinita a los enfermos, a los marginados e incluso a las criaturas más pequeñas de la creación: míranos con amor fraterno. Aleja de nuestro corazón el orgullo y el egoísmo; alcánzanos de Dios la salud del cuerpo y del alma, la armonía en nuestros hogares y el pan necesario en nuestra mesa. San Martín bendito, une a los pueblos en paz y enséñanos a servir a nuestros hermanos con alegría y devoción. Amén.",
+      "guiaFonetica": "O bon-da-do-so San Mar-tín de Po-rres, Fray Es-co-ba... a-le-ja de nues-tro co-ra-zón el or-gu-llo... A-mén.",
+      "textoTraducido": "أيها القديس الطيب مارتن دي بوريس، قديس التواضع الصادق والمحبة اللامحدودة! يا من كنست الأديرة ببساطة مقدسة واحتضنت بحنان فائق المرضى والمهمشين وحتى أصغر المخلوقات: انظر إلينا بمحبة أخوية. أبعد عن قلوبنا الكبرياء والأنانية، والتمس لنا من الله صحة الجسد والنفس، والوفاق في بيوتنا والخبز اليومي على موائدنا. طوباك يا قديس مارتن، وحد الشعوب في السلام وعلمنا أن نخدم إخوتنا بفرح وتفانٍ. آمين.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca y pidiendo por la salud de un enfermo, la reconciliación familiar y la provisión económica.",
+      "dir": "rtl"
+    },
+    {
+      "id": "VIRGEN_DEL_VALLE_VENEZUELA_MARINEROS",
+      "numero": 4278,
+      "titulo": "سيدة الوادي (فاليتا) · شفيعة شرق فنزويلا وحامية البحارة والصيادين",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "حماية البحارة وسلام العائلة",
+      "estadosEmocionales": [
+        "proteccion",
+        "paz",
+        "esperanza",
+        "devocion_mariana"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Dulcísima Virgen del Valle, tierna 'Vallita', Reina y Patrona del Oriente Venezolano y Madre amada de los marineros y pescadores! Tú que en la Isla de Margarita derramas bendiciones infinitas y calmas las tempestades del mar y de la vida: acoge bajo tu manto protector a nuestras familias y a nuestra nación venezolana. Guía a los navegantes y trabajadores, protege los hogares de todo peligro, sana a nuestros enfermos y concédenos la gracia de vivir en paz, reconciliación y santa abundancia. Virgen del Valle, faro de amor y consuelo, ruega por nosotros. Amén.",
+      "guiaFonetica": "O Dul-cí-si-ma Vir-gen del Va-lle, tier-na Va-lli-ta... cal-mas las tem-pes-ta-des del mar y de la vi-da... A-mén.",
+      "textoTraducido": "يا أعذب عذراء الوادي، 'فاليتا' الحبيبة، ملكة وشفيعة شرق فنزويلا وأم البحارة والصيادين المحبوبة! يا من تفيضين على جزيرة مارغريتا بركات لا تنتهي وتهدئين عواصف البحر والحياة: استري تحت كنفكِ الحامي عائلاتنا ووطننا. اهدي الملاحين والعمال، واحمي البيوت من كل خطر، واشفي مرضانا وامنحينا نعمة العيش في السلام والمصالحة والوفرة المباركة. يا عذراء الوادي، يا منارة المحبة والعزاء، صلي لأجلنا. آمين.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela blanca o azul pidiendo protección en el mar, en viajes acuáticos y bendición para la familia venezolana.",
+      "dir": "rtl"
+    },
+    {
+      "id": "VIRGEN_DE_COROMOTO_PATRONA_VENEZUELA",
+      "numero": 4279,
+      "titulo": "سيدة كوروموتو · شفيعة فنزويلا الوطنية، نور الإيمان والمصالحة",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "السلام الوطني والإيمان والمصالحة",
+      "estadosEmocionales": [
+        "fe_viva",
+        "esperanza",
+        "reconciliacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen María, Madre de Dios y Señora de Coromoto, Celeste Patrona de Venezuela! Tú que en las selvas de Guanare te manifestaste radiante de luz al cacique y a su pueblo, invitándolos a renacer por las aguas del santo Bautismo: mira con ternura maternal a todos tus hijos venezolanos dentro y fuera de nuestra tierra. Sana las heridas de nuestra patria, aleja la discordia y el sufrimiento, fortalece nuestra fe y abre caminos de libertad, justicia y prosperidad. Bella Señora de Coromoto, renueva la fe en toda la extensión de nuestra patria y del mundo entero. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen Ma-rí-a, Se-ño-ra de Co-ro-mo-to... re-nue-va la fe en nues-tra pa-tria... A-mén.",
+      "textoTraducido": "يا قديسة مريم العذراء، والدة الإله وسيدة كوروموتو، شفيعة فنزويلا السماوية! يا من تجليتِ بنور وهاج في غابات غواناري للزعيم وقومه داعية إياهم للولادة الجديدة بمياه المعمودية المقدسة: انظري بحنانكِ الوالدي إلى جميع أبنائكِ الفنزويليين في الوطن والمهجر. اشفِ جراح بلادنا، وأبعدي الشقاق والمعاناة، وثبتي إيماننا وافتحي سبل الحرية والعدالة والازدهار. يا سيدة كوروموتو الجميلة، جددي الإيمان في أرجاء وطننا والعالم بأسره. آمين.",
+      "ritualesAsociados": "Rezar con devoción mariana nacional encendiendo velas tricolores o blancas, pidiendo por la paz, la reconciliación y el bienestar de las familias venezolanas.",
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_LAZARO_BENDITO_SALUD_LEPROSOS",
+      "numero": 4280,
+      "titulo": "القديس لعازر المبارك · شفيع المرضى المصابين بأمراض خطيرة وشفاء الجراح وتخفيف الآلام",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "شفاء الأمراض الخطيرة والصحة",
+      "estadosEmocionales": [
+        "sanacion",
+        "esperanza",
+        "compasion",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh glorioso y bendito San Lázaro, amigo entrañable de Jesús y protector compasivo de los enfermos, los llagados y los desamparados! Tú que conociste en carne propia el dolor de la aflicción y la gloria de la resurrección por el poder divino de Cristo: dígnate escuchar mi humilde súplica. Intercede ante el Señor por mi salud y la de mis seres queridos; alivia las enfermedades del cuerpo y del alma, cicatriza las heridas abiertas del dolor y líbranos de contagios, miserias y abandono. Concédenos la fortaleza para sobrellevar las pruebas con fe y la gracia de alcanzar la salud y la paz que tanto necesitamos. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
+      "textoTraducido": "أيها القديس المجيد والمبارك لعازر، صديق يسوع الحميم والحامي الرحيم للمرضى والمجروحين والمتروكين! يا من اختبرت في جسدك ألم المحنة ومجد القيامة بقدرة المسيح الإلهية: أنصت إلى تضرعي المتواضع. تشفع أمام الرب من أجل صحتي وصحة أحبائي؛ خفف أمراض الجسد والنفس، واشفِ جراح الألم المفتوحة ونجنا من الأوبئة والبؤس والهجران. امنحنا القوة لتحمل التجارب بإيمان ونعمة نيل الشفاء والسلام الذي نحتاجه بشدة. بيسوع المسيح ربنا. آمين.",
+      "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
       "dir": "rtl"
     }
   ]

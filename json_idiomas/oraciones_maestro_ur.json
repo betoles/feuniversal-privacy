@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Nastaliq-Liturgico-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4274
+    "totalOraciones": 4280
   },
   "oraciones": [
     {
@@ -59052,9 +59052,9 @@
     {
       "id": "CAT_COL_SENOR_MILAGROS_BUGA",
       "numero": 2728,
-      "titulo": "بگا کے معجزات کے رب سے دعا (معجزہ",
+      "titulo": "بوگا کے معجزات کے خداوند · شفا، امن اور خاندانی تحفظ کی التجا",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Sanacion_Y_Milagros",
+      "categoriaIntencion": "شفا اور خاندانی حفاظت",
       "estadosEmocionales": [
         "enfermo",
         "afligido",
@@ -59062,22 +59062,18 @@
         "ferviente"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Señor de los Milagros de Buga, Cristo bondadoso que fuiste hallado en las aguas cristalinas por las manos de una humilde lavandera para convertirte en fuente inagotable de sanación y gracia: mírame con ojos de amor. Vengo ante tu cruz con mis dolores, enfermedades y esperanzas. Toca mi vida con tu mano llagada, sana mi cuerpo, limpia mi espíritu y derrama sobre mi hogar la paz y la concordia. Amén.",
-      "guiaFonetica": "[Se-ñor de los Mi-la-gros de Bu-ga, Cris-to bon-da-do-so que fuis-te ha-lla-do en las a-guas cris-ta-li-nas]",
-      "textoTraducido": "بوگا کے معجزات کے مالک، مہربان مسیح جو ایک عاجز دھوبی کے ہاتھوں سے کرسٹل پانیوں میں شفا اور فضل کا ایک لازوال ذریعہ بننے کے لیے پایا گیا تھا: میری طرف محبت کی نظروں سے دیکھو۔ میں اپنے درد، بیماریوں اور امیدوں کے ساتھ آپ کی صلیب کے سامنے آتا ہوں۔ اپنے زخمی ہاتھ سے میری زندگی کو چھو، میرے جسم کو شفا دے، میری روح کو پاک کردے اور میرے گھر میں امن اور ہم آہنگی پھیلاؤ۔ آمین۔",
-      "ritualesAsociados": {
-        "tipoContador": "novena_del_milagroso_de_buga",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de Buga y murmullo de agua de río bendito"
-      },
+      "textoOriginal": "¡Oh Amadísimo Señor de los Milagros de Buga, Cristo paciente y redentor que en las aguas del río Guadalajara manifestaste tu prodigio de amor a la humilde lavandera! Ante tu sagrada imagen nos postramos con fe viva y corazón contrito. Médico celestial de almas y cuerpos, mira nuestras dolencias, alivia las cargas que agobian nuestra vida y derrama sobre nosotros el bálsamo de tu divina misericordia. Aparta la violencia de nuestras tierras, bendice los hogares de Colombia y del mundo entero, y concédenos la gracia de perseverar en el amor hasta el fin. Señor de los Milagros de Buga, en Ti confío. Amén.",
+      "guiaFonetica": "O A-ma-dí-si-mo Se-ñor de los Mi-la-gros de Bu-ga... mé-di-co ce-les-tial de al-mas y cuer-pos... A-mén.",
+      "textoTraducido": "اے بوگا کے معجزات کے نہایت پیارے خداوند، صابر اور نجات دہندہ مسیح، جنہوں نے گوادالاخارا دریا کے پانی میں ایک عاجز دھوبن پر اپنی محبت کا معجزہ ظاہر فرمایا! آپ کی مقدس شبیہ کے سامنے ہم زندہ ایمان اور تائب دل کے ساتھ سر بسجود ہوتے ہیں۔ روحوں اور جسموں کے آسمانی طبیب، ہماری بیماریوں کو دیکھیں، ہماری زندگیوں کے بوجھ کو ہلکا کریں اور ہم پر اپنی الٰہی رحمت کا مرہم انڈیلیں۔ ہماری سرزمین سے تشدد کو دور کریں، گھرانوں کو برکت دیں اور ہمیں آخر تک محبت میں قائم رہنے کا فضل عطا کریں۔ اے بوگا کے معجزات کے خداوند، مجھے آپ پر بھروسا ہے۔ آمین۔",
+      "ritualesAsociados": "Rezar encendiendo una vela roja o blanca ante la imagen del Milagroso de Buga, pidiendo salud, sanación de enfermos desahuciados y solución de causas difíciles.",
       "dir": "rtl"
     },
     {
       "id": "CAT_COL_DIVINO_NINO_BOGOTA",
       "numero": 2729,
-      "titulo": "20 جولائی کے الہی بچے عیسیٰ کے لیے اعتماد کی درخواست",
+      "titulo": "بوگوٹا کے الٰہی بالک یسوع (20 جولائی) · بھروسے اور معجزاتی تحفظ کی دعا",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Auxilio_Y_Amparo_Infantil_Divino",
+      "categoriaIntencion": "بچوں کا تحفظ اور خاندانی برکت",
       "estadosEmocionales": [
         "necesitado",
         "angustiado",
@@ -59085,14 +59081,10 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Divino Niño Jesús, dueño de mi corazón y mi vida: «Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado». Confiando en tu promesa, vengo a Ti con fe sincera. Tú que abres tus bracitos para abrazarnos y bendecirnos: alivia mis pesares, provee en mis necesidades temporales y espirituales, y no me sueltes de tu mano ni en la vida ni en la muerte. ¡Divino Niño Jesús, bendícenos! ¡Divino Niño Jesús, escúchanos! ¡Divino Niño Jesús, sálvanos! Amén.",
-      "guiaFonetica": "[Di-vi-no Ni-ño Je-sus, due-ño de mi co-ra-son y mi vi-da... To-do lo que quie-ras pe-dir, pi-de-lo por los me-ri-tos de mi in-fan-cia y na-da te se-ra ne-ga-do]",
-      "textoTraducido": "الہی بچہ یسوع، میرے دل اور میری زندگی کا مالک: \"جو کچھ آپ پوچھنا چاہتے ہیں، میرے بچپن کی خوبیوں کے لئے پوچھیں اور آپ کو کچھ بھی انکار نہیں کیا جائے گا۔ \" آپ کے وعدے پر بھروسہ کرتے ہوئے، میں آپ کے پاس سچے ایمان کے ساتھ آیا ہوں۔ آپ جو ہمیں گلے لگانے کے لئے اپنے چھوٹے بازو کھولتے ہیں اور ہمیں برکت دیتے ہیں: میرے دکھوں کو دور کریں، میری دنیاوی اور روحانی ضروریات کو پورا کریں، اور مجھے نہ زندگی میں اور نہ موت میں آپ کے ہاتھ سے جانے دیں۔ الہی بچہ یسوع، ہمیں برکت دے! الہی بچہ یسوع، ہماری بات سنو! الہی بچہ یسوع، ہمیں بچاؤ! آمین۔",
-      "ritualesAsociados": {
-        "tipoContador": "siete_glorias_al_divino_nino",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas alegres, coros infantiles y repique del 20 de Julio"
-      },
+      "textoOriginal": "¡Oh Divino Niño Jesús del 20 de Julio de Bogotá, dulce consuelo de los afligidos y tesoro de amor infinito! Con profunda fe en tu promesa divina: 'Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado', acudo hoy a tus plantas suplicando tu amparo. Bendice mi hogar y a mi familia, protege a los niños del mundo entero, sana a los enfermos y provee trabajo digno y sustento a quienes carecen de pan. Que tu dulce sonrisa ilumine nuestras sombras y tus bracitos abiertos nos abracen en la hora de la prueba. Divino Niño Jesús, bendícenos y reina por siempre en nuestros corazones. Amén.",
+      "guiaFonetica": "O Di-vi-no Ni-ño Je-sús del vein-te de ju-lio... to-do lo que quie-ras pe-dir, pí-de-lo por los mé-ri-tos de mi in-fan-cia... A-mén.",
+      "textoTraducido": "اے بوگوٹا کے 20 جولائی کے الٰہی بالک یسوع، غمزدوں کی میٹھی تسلی اور لامحدود محبت کے خزانے! آپ کے اس الٰہی وعدے پر گہرے ایمان کے ساتھ: 'جو کچھ بھی تم مانگنا چاہو، میرے بچپن کے وسیلے سے مانگو اور تمہیں کچھ بھی انکار نہیں کیا جائے گا'، میں آج آپ کے قدموں میں آپ کی پناہ مانگنے آتا ہوں۔ میرے گھر اور خاندان کو برکت دیں، دنیا بھر کے بچوں کی حفاظت فرمائیں، بیماروں کو شفا دیں اور ضرورت مندوں کو روزگار اور خوراک عطا کریں۔ آپ کی پیاری مسکراہٹ ہمارے اندھیروں کو دور کرے اور آپ کے کھلے بازو آزمائش کی گھڑی میں ہمیں گلے لگائیں۔ الٰہی بالک یسوع، ہمیں برکت دیں اور ہمیشہ ہمارے دلوں پر راج کریں۔ آمین۔",
+      "ritualesAsociados": "Rezar con devoción los domingos o en la novena del Divino Niño, encendiendo una veladora rosada o blanca y prometiendo una obra de caridad con los niños pobres.",
       "dir": "rtl"
     },
     {
@@ -59190,9 +59182,9 @@
     {
       "id": "CAT_VEN_JOSE_GREGORIO_HERNANDEZ",
       "numero": 2734,
-      "titulo": "ڈاکٹر ہوزے گریگوریو ہرنینڈز (غریبوں کا ڈاکٹر) کے لیے دعا",
+      "titulo": "مبارک ڈاکٹر ہوزے گریگوریو ہرنانڈیز · غریبوں کے معالج، بیماریوں سے شفا اور امن",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Sanacion_Medica_Y_Paz",
+      "categoriaIntencion": "طبی شفا اور تندرستی",
       "estadosEmocionales": [
         "enfermo",
         "operacion_medica",
@@ -59200,14 +59192,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Español venezolano",
-      "textoOriginal": "¡Oh Dios misericordioso, que concediste al Beato José Gregorio Hernández una inmensa ciencia médica unida a una profunda caridad para curar a los enfermos y servir a los necesitados! Te rogamos que, por su intercesión, derrames la salud sobre mi cuerpo y mi alma (mencionar al enfermo). Ilumina a los médicos que me atienden, guía sus manos y alivia todo sufrimiento. Amén.",
-      "guiaFonetica": "[O Dios mi-se-ri-kor-dio-so, que con-ce-dis-te al Be-a-to Jo-se Gre-go-rio Er-nan-des u-na in-men-sa sien-cia me-di-ca]",
-      "textoTraducido": "اوہ مہربان خُدا، جس نے بیماروں کو شفا دینے اور ضرورت مندوں کی خدمت کرنے کے لیے گہرے صدقے کے ساتھ مل کر ایک بے پناہ طبی سائنس عطا کی! ہم آپ سے درخواست کرتے ہیں، آپ کی شفاعت کے ذریعے، میرے جسم اور روح پر صحت پھیلائیں (بیماروں کا ذکر کریں)۔ ان ڈاکٹروں کو روشن کریں جو میرا علاج کرتے ہیں، ان کے ہاتھ رہنمائی کرتے ہیں اور تمام دکھوں کو دور کرتے ہیں۔ آمین۔",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_la_salud",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Música clásica suave y murmullo devoto en Isnotú"
-      },
+      "textoOriginal": "¡Oh Dios todopoderoso y misericordioso, que colmaste de ciencia, caridad heroica y santidad al Beato Dr. José Gregorio Hernández, Médico de los Pobres y Apóstol de la Paz! Tú que le concediste sanar a los enfermos con bondad entrañable y ver en cada paciente el rostro llagado de Cristo Redentor: escucha con piedad mi plegaria. Te pido por su intercesión la sanación de mis enfermedades y de quienes sufren en los hospitales y en sus hogares. Guía las manos de los médicos, conforta a los desahuciados y derrama tu paz sobre Venezuela y el mundo. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O Dios to-do-po-de-ro-so... que col-mas-te de cien-cia al Bea-to Dr. Jo-sé Gre-go-rio Her-nán-dez... A-mén.",
+      "textoTraducido": "اے قادرِ مطلق اور رحیم خدا، جس نے غریبوں کے معالج اور امن کے رسول مبارک ڈاکٹر ہوزے گریگوریو ہرنانڈیز کو طبی حکمت، بے مثال سخاوت اور پاکیزگی سے نوازا! تو نے اسے دلی مہربانی سے بیماروں کو شفا دینے کا فضل بخشا: رحم کے ساتھ میری دعا سن۔ اس کی شفاعت کے وسیلے سے میں اپنی بیماریوں اور ہسپتالوں و گھروں میں مبتلا تمام لوگوں کی شفا کا طالب ہوں۔ ڈاکٹروں کے ہاتھوں کی رہنمائی فرما، مایوس لوگوں کو تسلی دے اور اپنا امن نازل فرما۔ ہمارے خداوند یسوع مسیح کے وسیلے سے۔ آمین۔",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca ante la imagen del Dr. José Gregorio Hernández, pidiendo por una operación quirúrgica, sanación física o diagnóstico médico favorable.",
       "dir": "rtl"
     },
     {
@@ -59235,9 +59223,9 @@
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
       "numero": 2736,
-      "titulo": "کوبرے کی خیراتی کنواری کے لیے دعا (کیچیٹا",
+      "titulo": "ایل کوبرے کی محبت کی مقدس کنواری مریم (کاچیتا) · کیوبا کی سرپرست، طوفان میں امید اور مدد",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Emigrantes_Y_Dulce_Auxilio",
+      "categoriaIntencion": "طوفانوں میں حفاظت اور خاندانی امید",
       "estadosEmocionales": [
         "emigrante",
         "afligido",
@@ -59245,14 +59233,10 @@
         "hijo_devoto"
       ],
       "idiomaLiturgicoOriginal": "Español cubano",
-      "textoOriginal": "¡Virgen de la Caridad del Cobre, Madre amada de todos los cubanos y consuelo de los afligidos! Tú que fuiste encontrada en la Bahía de Nipe flotando sobre las aguas con el letrero: «Yo soy la Virgen de la Caridad». Calma las tempestades de mi vida, protege a quienes cruzan mares en busca de esperanza, derrama bendición sobre nuestros hogares y alcánzanos de tu Hijo la gracia de la libertad interior, la paz y el amor fraterno. Amén.",
-      "guiaFonetica": "[Vir-jen de la Ca-ri-dad del Co-bre, Ma-dre a-ma-da de to-dos los cu-ba-nos... Cal-ma las tem-pes-ta-des de mi vi-da]",
-      "textoTraducido": "ورجن آف چیریٹی آف کوبرے، تمام کیوبن کی پیاری ماں اور مصیبت زدہوں کی تسلی! آپ جو نپ بے میں پانی پر تیرتے ہوئے اس نشان کے ساتھ پائے گئے تھے: \"میں خیراتی کی کنواری ہوں۔\" میری زندگی کے طوفانوں کو پرسکون کرو، امید کی تلاش میں سمندر پار کرنے والوں کی حفاظت کرو، ہمارے گھروں پر برکت ڈالو اور اپنے بیٹے کے فضل سے اندرونی آزادی، امن اور بھائی چارے کی محبت تک پہنچو۔ آمین۔",
-      "ritualesAsociados": {
-        "tipoContador": "tres_girasoles_o_tres_aves_marias",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Olas de Nipe, campanas del Cobre y guitarra criolla"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Caridad del Cobre, amada 'Cachita', Celestial Patrona y Reina de Cuba! Tú que sobre las embravecidas aguas de la Bahía de Nipe apareciste milagrosamente a los tres Juanes con el lema: 'Yo soy la Virgen de la Caridad': mira con amor compasivo a todos tus hijos. Sé faro de luz en medio de las tempestades de la vida; no permitas que naufrague nuestra fe, cura a nuestros enfermos, une a las familias y bendice al pueblo cubano y al mundo entero con libertad, paz y pan digno. Virgen de la Caridad, cúbrenos con tu manto dorado y llévanos a Jesús. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Ca-ri-dad del Co-bre, a-ma-da Ca-chi-ta... Yo soy la Vir-gen de la Ca-ri-dad... A-mén.",
+      "textoTraducido": "اے ایل کوبرے کی محبت کی مقدس ترین کنواری مریم، پیاری 'کاچیتا'، کیوبا کی آسمانی سرپرست اور ملکہ! آپ جو نیپے کی کھاڑی کے پرشور پانیوں پر تین نوجوانوں پر معجزاتی طور پر ظاہر ہوئیں: اپنے تمام بچوں پر رحم و کرم کی محبت سے نگاہ ڈالیں۔ زندگی کے طوفانوں کے درمیان نور کا مینار بنیں؛ ہمارے ایمان کو ڈوبنے نہ دیں، ہمارے بیماروں کو شفا دیں، خاندانوں کو جوڑیں اور کیوبا کے عوام اور پوری دنیا کو آزادی، امن اور روزی کی برکت دیں۔ محبت کی کنواری مریم، ہمیں اپنی سنہری چادر میں ڈھانپیں اور یسوع کی طرف لے جائیں۔ آمین۔",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela amarilla o blanca con girasoles frescos, pidiendo auxilio en dificultades extremas, protección familiar y caridad.",
       "dir": "rtl"
     },
     {
@@ -82212,9 +82196,9 @@
     {
       "id": "CAT_DOM_ALTAGRACIA_HIGUEY",
       "numero": 3758,
-      "titulo": "خداوند کے حضور مسیحی دعا و مناجات",
+      "titulo": "الٹاگراسیا کی مقدس کنواری مریم (ہیگوئے) · ڈومینیکن عوام کی سرپرست اور ماں",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Maternal_Y_Alta_Gracia",
+      "categoriaIntencion": "مادری حفاظت اور خاندani امن",
       "estadosEmocionales": [
         "devoto",
         "en_familia",
@@ -82222,14 +82206,10 @@
         "lleno_de_fe"
       ],
       "idiomaLiturgicoOriginal": "Español dominicano",
-      "textoOriginal": "¡Virgen de la Altagracia, Madre y Protectora amadísima del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús recién nacido sobre el pesebre: derrama la más alta gracia de Dios sobre nuestros hogares. Aleja las discordias, protege a nuestra juventud, bendice la tierra dominicana y mantén encendida en nuestras vidas la llama de la fe católica. Amén.",
-      "guiaFonetica": "[Vir-jen de la Al-ta-gra-cia, Ma-dre y Pro-tec-to-ra a-ma-di-si-ma]",
-      "textoTraducido": "اے قادرِ مطلق اور رحیم خدا، خداوند یسوع مسیح کے مقدس نام میں ہم تیرے حضور حاضر ہوتے ہیں۔ ہمارے گناہ معاف فرما، دل کو سکون دے اور اپنی پاک روح سے ہماری رہنمائی فرما۔ آمین۔",
-      "ritualesAsociados": {
-        "tipoContador": "tres_aves_marias_con_medalla_de_la_altagracia",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Higüey y cántico devocional dominicano"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Altagracia, tierna y amorosa Madre y Protectora del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús dormido en el pesebre bajo la luz de la estrella celestial: acoge nuestras vidas y familias bajo tu maternal amparo. Enséñanos a guardar en el corazón la Palabra de Dios, concédenos la salud, el pan de cada día y el amor fraterno en nuestros hogares. Defiende a nuestra nación de toda calamidad y haz que brille en nuestros pueblos la verdadera paz y justicia de tu divino Hijo. Virgen de la Altagracia de Higüey, ruega por nosotros. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Al-ta-gra-cia... aco-ge nues-tras vi-das y fa-mi-lias ba-jo tu ma-ter-nal am-pa-ro... A-mén.",
+      "textoTraducido": "اے الٹاگراسیا کی مقدس ترین کنواری مریم، ڈومینیکن عوام کی شفیق اور پیار کرنے والی ماں اور محافظ! آپ جو آسمانی ستارے کے نور تلے چرنی میں سوئے ہوئے بالک یسوع کو بے پناہ مٹھاس کے ساتھ دیکھتی ہیں: ہماری زندگیوں اور خاندانوں کو اپنی مادری پناہ میں قبول فرمائیں۔ ہمیں اپنے دلوں میں خدا کے کلام کو محفوظ رکھنا سکھائیں، ہمیں صحت، روزمرہ کی روٹی اور گھروں میں باہمی محبت عطا کریں۔ ہمارے وطن کو ہر آفت سے بچائیں اور اپنے الٰہی بیٹے کے سچے امن اور انصاف کو چمکائیں۔ الٹاگراسیا کی کنواری مریم، ہمارے لیے دعا کریں۔ آمین۔",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca o azul ante el cuadro de la Virgen de la Altagracia, pidiendo por la paz en el hogar, el bienestar de los hijos y la unión familiar.",
       "dir": "rtl"
     },
     {
@@ -94025,6 +94005,120 @@
       "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
       "textoTraducido": "اے خداوند ہمارے خدا، کائنات کے بادشاہ، تو مبارک ہے جو اپنی بھلائی، فضل، رحمت اور شفقت سے پوری دنیا کو رزق دیتا ہے۔ وہ تمام جانداروں کو روٹی دیتا ہے کیونکہ اس کی رحمت ابدی ہے۔ اپنی بے پناہ سخاوت کی بدولت ہمیں کبھی روزی کی کمی نہیں ہوئی اور نہ کبھی ہوگی، اس کے عظیم نام کی خاطر؛ کیونکہ وہ ایسا خدا ہے جو سب کو کھلاتا اور پالتا ہے، سب کے ساتھ بھلائی کرتا ہے اور اپنی بنائی ہوئی تمام مخلوقات کے لیے خوراک کا انتظام فرماتا ہے۔ اے خداوند، تو مبارک ہے جو سب کو روزی دیتا ہے۔ آمین۔",
       "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
+      "dir": "rtl"
+    },
+    {
+      "id": "SENOR_DE_LOS_MILAGROS_LIMA_PERU",
+      "numero": 4275,
+      "titulo": "لیما کے معجزات کے خداوند (سیاہ مسیح) · پیرو کے سرپرست، زلزلوں سے حفاظت اور شفا",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "آفات سے حفاظت اور شفا",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "sanacion",
+        "proteccion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Señor de los Milagros, Cristo Moreno y amado Nazareno de Pachacamilla! Tú que permaneciste erguido e intacto en el humilde muro de adobe cuando la tierra tembló con furia: hoy nos postramos ante tu santa imagen revestidos con el hábito morado de la penitencia y el amor. Míranos con ojos de misericordia; aquieta los temblores de nuestra alma y los peligros que acechan a nuestras familias y a nuestra patria. Cura a nuestros enfermos, alivia a los agobiados por las deudas y el dolor, y danos un corazón puro para perdonar y amar. Señor de los Milagros, en Ti confiamos, por tu infinita cruz sálvanos y bendícenos. Amén.",
+      "guiaFonetica": "O Se-ñor de los Mi-la-gros, Cris-to Mo-re-no... a-quie-ta los tem-blo-res de nues-tra al-ma... A-mén.",
+      "textoTraducido": "اے معجزات کے خداوند، سانولے مسیح اور پچاکامیلا کے پیارے ناصری! جب زمین شدید غصے سے لرز اٹھی تھی، تب آپ مٹی کی کچی دیوار پر سلامت اور قائم رہے: آج ہم توبہ اور محبت کے جامنی لباس میں آپ کی مقدس شبیہ کے سامنے جھکتے ہیں۔ ہم پر رحم کی نگاہ ڈالیں؛ ہماری روح کے لرزے کو اور ہمارے خاندانوں اور وطن پر منڈلانے والے خطرات کو پرسکون کریں۔ ہمارے بیماروں کو شفا دیں، دکھ میں دبے لوگوں کو تسلی بخشیں اور ہمیں معاف کرنے اور محبت کرنے کے لیے پاک دل عطا کریں۔ اے معجزات کے خداوند، ہمیں آپ پر بھروسا ہے؛ اپنی مقدس صلیب کے وسیلے سے ہمیں بچائیں اور برکت دیں۔ آمین۔",
+      "ritualesAsociados": "Rezar en procesión o en el hogar encendiendo un cirio morado o blanco, vistiendo el cordón o hábito morado en señal de fe y penitencia.",
+      "dir": "rtl"
+    },
+    {
+      "id": "SANTA_ROSA_DE_LIMA_PATRONA_AMERICA",
+      "numero": 4276,
+      "titulo": "لیما کی مقدسہ روز · براعظم امریکہ کی پہلی مقدسہ، پیرو اور فلپائن کی سرپرست",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "دل کی پاکیزگی، سخاوت اور خاندانی امن",
+      "estadosEmocionales": [
+        "pureza",
+        "amor_divino",
+        "consuelo",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosa Santa Rosa de Lima, fragante rosa en el jardín de la Iglesia y primera flor de santidad de América! Tú que desde tu juventud te consagraste enteramente a Cristo, floreciendo en la penitencia, la oración constante y el servicio a los enfermos y desvalidos: enséñanos a amar a Dios sobre todas las cosas y a descubrir su rostro en los pobres. Alcánzanos la pureza de corazón, la fortaleza en el sufrimiento y la paz para nuestras familias. Sé la protectora celestial de nuestra patria y de todos los pueblos que te veneran, y condúcenos por senderos de caridad viva y santidad. Amén.",
+      "guiaFonetica": "Glo-rio-sa San-ta Ro-sa de Li-ma, fra-gan-te ro-sa en el jar-dín de la I-gle-sia... A-mén.",
+      "textoTraducido": "اے لیما کی جلیل القدر مقدسہ روز، کلیسیا کے باغ کا خوشبودار گلاب اور امریکہ کی پاکیزگی کا پہلا پھول! آپ نے اپنی جوانی سے ہی خود کو مکمل طور پر مسیح کے لیے وقف کر دیا، توبہ، مسلسل دعا اور بیماروں و غریبوں کی خدمت میں شاداب رہیں: ہمیں سب سے بڑھ کر خدا سے محبت کرنا اور ضرورت مندوں میں اس کا چہرہ دیکھنا سکھائیں۔ ہمارے لیے دل کی پاکیزگی، دکھوں میں ہمت اور ہمارے خاندانوں کے لیے امن حاصل کریں۔ ہماری قوموں کی آسمانی نگہبان بنیں اور ہمیں محبت اور پاکیزگی کی راہ پر چلائیں۔ آمین۔",
+      "ritualesAsociados": "Rezar con rosas frescas o escribir una petición depositándola con fe, pidiendo pureza de intenciones, consuelo en el dolor y vocación espiritual.",
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_MARTIN_DE_PORRES_HUMILDAD_CARIDAD",
+      "numero": 4277,
+      "titulo": "مقدس مارٹن ڈی پورس · عاجزی، شفا اور عالمگیر سخاوت کے ولی",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "عاجزی، شفا اور بے لوث محبت",
+      "estadosEmocionales": [
+        "humildad",
+        "caridad",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh bondadoso San Martín de Porres, Fray Escoba, santo de la humildad sincera y de la caridad sin límites! Tú que con santa sencillez barriste los claustros y acogiste con ternura infinita a los enfermos, a los marginados e incluso a las criaturas más pequeñas de la creación: míranos con amor fraterno. Aleja de nuestro corazón el orgullo y el egoísmo; alcánzanos de Dios la salud del cuerpo y del alma, la armonía en nuestros hogares y el pan necesario en nuestra mesa. San Martín bendito, une a los pueblos en paz y enséñanos a servir a nuestros hermanos con alegría y devoción. Amén.",
+      "guiaFonetica": "O bon-da-do-so San Mar-tín de Po-rres, Fray Es-co-ba... a-le-ja de nues-tro co-ra-zón el or-gu-llo... A-mén.",
+      "textoTraducido": "اے رحمدل مقدس مارٹن ڈی پورس، سچی عاجزی اور لامحدود محبت کے پیکر! آپ نے پاک سادگی کے ساتھ خانقاہ کے دالانوں میں جھاڑو دی اور بیماروں، بے سہاروں اور دنیا کی ادنیٰ ترین مخلوقات کو بھی بے پناہ شفقت سے گلے لگایا: ہم پر برادرانہ محبت سے نگاہ ڈالیں۔ ہمارے دلوں سے غرور اور خود غرضی کو دور کریں؛ خدا سے ہمارے جسم اور روح کی تندرستی، ہمارے گھروں میں اتفاق اور ہمارے دسترخوان پر ضروری رزق کی دعا فرمائیں۔ مبارک مقدس مارٹن، قوموں کو امن میں متحد کریں اور ہمیں خوشی سے اپنے بھائیوں کی خدمت کرنا سکھائیں۔ آمین۔",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca y pidiendo por la salud de un enfermo, la reconciliación familiar y la provisión económica.",
+      "dir": "rtl"
+    },
+    {
+      "id": "VIRGEN_DEL_VALLE_VENEZUELA_MARINEROS",
+      "numero": 4278,
+      "titulo": "وادی کی مقدس کنواری مریم (والیتا) · مشرقی وینزویلا کی سرپرست، ملاحوں اور ماہی گیروں کی محافظ",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "ملاحوں کی حفاظت اور خاندانی امن",
+      "estadosEmocionales": [
+        "proteccion",
+        "paz",
+        "esperanza",
+        "devocion_mariana"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Dulcísima Virgen del Valle, tierna 'Vallita', Reina y Patrona del Oriente Venezolano y Madre amada de los marineros y pescadores! Tú que en la Isla de Margarita derramas bendiciones infinitas y calmas las tempestades del mar y de la vida: acoge bajo tu manto protector a nuestras familias y a nuestra nación venezolana. Guía a los navegantes y trabajadores, protege los hogares de todo peligro, sana a nuestros enfermos y concédenos la gracia de vivir en paz, reconciliación y santa abundancia. Virgen del Valle, faro de amor y consuelo, ruega por nosotros. Amén.",
+      "guiaFonetica": "O Dul-cí-si-ma Vir-gen del Va-lle, tier-na Va-lli-ta... cal-mas las tem-pes-ta-des del mar y de la vi-da... A-mén.",
+      "textoTraducido": "اے وادی کی نہایت شیریں کنواری مریم، پیاری 'والیتا'، مشرقی وینزویلا کی ملکہ اور سرپرست اور ملاحوں و ماہی گیروں کی پیاری ماں! آپ جو مارگریٹا جزیرے پر بے شمار برکتیں انڈیلتی ہیں اور سمندر اور زندگی کے طوفانوں کو تھامتی ہیں: ہمارے خاندانوں اور ہمارے وطن کو اپنی حفاظتی چادر کے نیچے پناہ دیں۔ جہاز رانوں اور محنت کشوں کی رہنمائی فرمائیں، گھروں کو ہر خطرے سے بچائیں، بیماروں کو شفا دیں اور ہمیں امن، صلح اور برکت میں جینے کا فضل عطا کریں۔ اے وادی کی کنواری مریم، محبت اور تسلی کا مینار، ہمارے لیے دعا کریں۔ آمین۔",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela blanca o azul pidiendo protección en el mar, en viajes acuáticos y bendición para la familia venezolana.",
+      "dir": "rtl"
+    },
+    {
+      "id": "VIRGEN_DE_COROMOTO_PATRONA_VENEZUELA",
+      "numero": 4279,
+      "titulo": "کوروموٹو کی مقدس کنواری مریم · وینزویلا کی قومی سرپرست، ایمان کا نور اور صلح",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "قومی امن، ایمان اور صلح",
+      "estadosEmocionales": [
+        "fe_viva",
+        "esperanza",
+        "reconciliacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen María, Madre de Dios y Señora de Coromoto, Celeste Patrona de Venezuela! Tú que en las selvas de Guanare te manifestaste radiante de luz al cacique y a su pueblo, invitándolos a renacer por las aguas del santo Bautismo: mira con ternura maternal a todos tus hijos venezolanos dentro y fuera de nuestra tierra. Sana las heridas de nuestra patria, aleja la discordia y el sufrimiento, fortalece nuestra fe y abre caminos de libertad, justicia y prosperidad. Bella Señora de Coromoto, renueva la fe en toda la extensión de nuestra patria y del mundo entero. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen Ma-rí-a, Se-ño-ra de Co-ro-mo-to... re-nue-va la fe en nues-tra pa-tria... A-mén.",
+      "textoTraducido": "اے مقدس ترین کنواری مریم، خدا کی ماں اور کوروموٹو کی خاتون، وینزویلا کی آسمانی سرپرست! آپ جو گوانارے کے جنگلات میں قبیلے کے سردار اور اس کے لوگوں پر نورانی تجلی کے ساتھ ظاہر ہوئیں: وطن اور بیرونِ وطن اپنے تمام وینزویلا کے بچوں پر مادری شفقت سے نگاہ ڈالیں۔ ہمارے وطن کے زخموں کو بھریں، تفرقے اور مصائب کو دور کریں، ہمارے ایمان کو مضبوط بنائیں اور آزادی، انصاف اور خوشحالی کی راہیں کھولیں۔ کوروموٹو کی خوبصورت خاتون، ہمارے پورے ملک اور دنیا میں ایمان کو نیا بنا دیں۔ آمین۔",
+      "ritualesAsociados": "Rezar con devoción mariana nacional encendiendo velas tricolores o blancas, pidiendo por la paz, la reconciliación y el bienestar de las familias venezolanas.",
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_LAZARO_BENDITO_SALUD_LEPROSOS",
+      "numero": 4280,
+      "titulo": "مبارک مقدس لعزر · شدید بیماروں کے سرپرست، زخموں کی شفا اور مصیبت میں تسلی",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "شدید بیماریوں سے شفا اور تندرستی",
+      "estadosEmocionales": [
+        "sanacion",
+        "esperanza",
+        "compasion",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh glorioso y bendito San Lázaro, amigo entrañable de Jesús y protector compasivo de los enfermos, los llagados y los desamparados! Tú que conociste en carne propia el dolor de la aflicción y la gloria de la resurrección por el poder divino de Cristo: dígnate escuchar mi humilde súplica. Intercede ante el Señor por mi salud y la de mis seres queridos; alivia las enfermedades del cuerpo y del alma, cicatriza las heridas abiertas del dolor y líbranos de contagios, miserias y abandono. Concédenos la fortaleza para sobrellevar las pruebas con fe y la gracia de alcanzar la salud y la paz que tanto necesitamos. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
+      "textoTraducido": "اے جلیل القدر اور مبارک مقدس لعزر، یسوع کے پیارے دوست اور بیماروں، زخم خوردہ لوگوں اور بے سہاروں کے مہربان محافظ! آپ نے اپنے بدن میں تکلیف کے دکھ اور مسیح کی الٰہی قدرت سے جی اٹھنے کے جلال کا تجربہ کیا: میری عاجزانہ دعا سنیں۔ میری اور میرے پیاروں کی صحت کے لیے خداوند کے حضور شفاعت کریں؛ جسم اور روح کی بیماریوں کو دور کریں، دکھوں کے گھاؤ بھریں اور ہمیں وباؤں، مفلسی اور تنہائی سے بچائیں۔ ہمیں ایمان کے ساتھ آزمائشیں برداشت کرنے کی طاقت اور صحت و سلامتی کا فضل عطا کریں۔ ہمارے خداوند یسوع مسیح کے وسیلے سے۔ آمین۔",
+      "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
       "dir": "rtl"
     }
   ]

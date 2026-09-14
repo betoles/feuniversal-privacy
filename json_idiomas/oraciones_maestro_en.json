@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-KJV-Liturgical-Majestic-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4274
+    "totalOraciones": 4280
   },
   "oraciones": [
     {
@@ -59052,9 +59052,9 @@
     {
       "id": "CAT_COL_SENOR_MILAGROS_BUGA",
       "numero": 2728,
-      "titulo": "Prayer to the Lord of the Miracles of Buga (The Miraculous)",
+      "titulo": "Lord of Miracles of Buga (The Miraculous) · Prayer for Healing, Peace and Family Protection",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Sanacion_Y_Milagros",
+      "categoriaIntencion": "Healing & Family Protection",
       "estadosEmocionales": [
         "enfermo",
         "afligido",
@@ -59062,22 +59062,18 @@
         "ferviente"
       ],
       "idiomaLiturgicoOriginal": "Spanish",
-      "textoOriginal": "Señor de los Milagros de Buga, Cristo bondadoso que fuiste hallado en las aguas cristalinas por las manos de una humilde lavandera para convertirte en fuente inagotable de sanación y gracia: mírame con ojos de amor. Vengo ante tu cruz con mis dolores, enfermedades y esperanzas. Toca mi vida con tu mano llagada, sana mi cuerpo, limpia mi espíritu y derrama sobre mi hogar la paz y la concordia. Amén.",
-      "guiaFonetica": "[Se-ñor de los Mi-la-gros de Bu-ga, Cris-to bon-da-do-so que fuis-te ha-lla-do en las a-guas cris-ta-li-nas]",
-      "textoTraducido": "Lord of the Miracles of Buga, comforter of the afflicted and doctor of the sick: hear my prayer, heal my wounds and strengthen my faith in the midst of any trial. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_del_milagroso_de_buga",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de Buga y murmullo de agua de río bendito"
-      },
+      "textoOriginal": "¡Oh Amadísimo Señor de los Milagros de Buga, Cristo paciente y redentor que en las aguas del río Guadalajara manifestaste tu prodigio de amor a la humilde lavandera! Ante tu sagrada imagen nos postramos con fe viva y corazón contrito. Médico celestial de almas y cuerpos, mira nuestras dolencias, alivia las cargas que agobian nuestra vida y derrama sobre nosotros el bálsamo de tu divina misericordia. Aparta la violencia de nuestras tierras, bendice los hogares de Colombia y del mundo entero, y concédenos la gracia de perseverar en el amor hasta el fin. Señor de los Milagros de Buga, en Ti confío. Amén.",
+      "guiaFonetica": "O A-ma-dí-si-mo Se-ñor de los Mi-la-gros de Bu-ga... mé-di-co ce-les-tial de al-mas y cuer-pos... A-mén.",
+      "textoTraducido": "O Most Beloved Lord of Miracles of Buga, patient and redeeming Christ who in the waters of the Guadalajara River revealed Your wonder of love to the humble washerwoman! Before Your sacred image we kneel with living faith and a contrite heart. Heavenly Physician of souls and bodies, behold our infirmities, relieve the burdens that weigh upon our lives, and pour out upon us the balm of Your divine mercy. Banish violence from our lands, bless the homes of Colombia and the whole world, and grant us the grace to persevere in love unto the end. Lord of Miracles of Buga, in You I trust. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela roja o blanca ante la imagen del Milagroso de Buga, pidiendo salud, sanación de enfermos desahuciados y solución de causas difíciles.",
       "dir": "ltr"
     },
     {
       "id": "CAT_COL_DIVINO_NINO_BOGOTA",
       "numero": 2729,
-      "titulo": "Plea of ​​Confidence to the Divine Child Jesus of July 20",
+      "titulo": "Divine Child Jesus of Bogotá (July 20) · Supplication of Trust and Miraculous Protection",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Auxilio_Y_Amparo_Infantil_Divino",
+      "categoriaIntencion": "Trust, Child Protection & Family",
       "estadosEmocionales": [
         "necesitado",
         "angustiado",
@@ -59085,14 +59081,10 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Spanish",
-      "textoOriginal": "Divino Niño Jesús, dueño de mi corazón y mi vida: «Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado». Confiando en tu promesa, vengo a Ti con fe sincera. Tú que abres tus bracitos para abrazarnos y bendecirnos: alivia mis pesares, provee en mis necesidades temporales y espirituales, y no me sueltes de tu mano ni en la vida ni en la muerte. ¡Divino Niño Jesús, bendícenos! ¡Divino Niño Jesús, escúchanos! ¡Divino Niño Jesús, sálvanos! Amén.",
-      "guiaFonetica": "[Di-vi-no Ni-ño Je-sus, due-ño de mi co-ra-son y mi vi-da... To-do lo que quie-ras pe-dir, pi-de-lo por los me-ri-tos de mi in-fan-cia y na-da te se-ra ne-ga-do]",
-      "textoTraducido": "Divine Child Jesus, for the merits of your holy childhood: answer my prayer, bless my family, bring peace and provide for our needs. I trust in You. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "siete_glorias_al_divino_nino",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas alegres, coros infantiles y repique del 20 de Julio"
-      },
+      "textoOriginal": "¡Oh Divino Niño Jesús del 20 de Julio de Bogotá, dulce consuelo de los afligidos y tesoro de amor infinito! Con profunda fe en tu promesa divina: 'Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado', acudo hoy a tus plantas suplicando tu amparo. Bendice mi hogar y a mi familia, protege a los niños del mundo entero, sana a los enfermos y provee trabajo digno y sustento a quienes carecen de pan. Que tu dulce sonrisa ilumine nuestras sombras y tus bracitos abiertos nos abracen en la hora de la prueba. Divino Niño Jesús, bendícenos y reina por siempre en nuestros corazones. Amén.",
+      "guiaFonetica": "O Di-vi-no Ni-ño Je-sús del vein-te de ju-lio... to-do lo que quie-ras pe-dir, pí-de-lo por los mé-ri-tos de mi in-fan-cia... A-mén.",
+      "textoTraducido": "O Divine Child Jesus of July 20 of Bogotá, sweet comfort of the afflicted and treasure of infinite love! With deep faith in Your divine promise: 'Whatever you wish to ask, ask through the merits of My infancy and nothing will be denied you', I come today before Your feet pleading for Your shelter. Bless my home and my family, protect children throughout the world, heal the sick, and provide dignified work and sustenance to those who lack bread. May Your sweet smile brighten our shadows and Your open arms embrace us in the hour of trial. Divine Child Jesus, bless us and reign forever in our hearts. Amen.",
+      "ritualesAsociados": "Rezar con devoción los domingos o en la novena del Divino Niño, encendiendo una veladora rosada o blanca y prometiendo una obra de caridad con los niños pobres.",
       "dir": "ltr"
     },
     {
@@ -59190,9 +59182,9 @@
     {
       "id": "CAT_VEN_JOSE_GREGORIO_HERNANDEZ",
       "numero": 2734,
-      "titulo": "Prayer to Blessed Dr. José Gregorio Hernández (The Doctor of the Poor)",
+      "titulo": "Blessed Dr. José Gregorio Hernández · Physician of the Poor, Healing of the Sick and Peace",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Sanacion_Medica_Y_Paz",
+      "categoriaIntencion": "Medical Healing & Relief of the Sick",
       "estadosEmocionales": [
         "enfermo",
         "operacion_medica",
@@ -59200,14 +59192,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Spanish venezolano",
-      "textoOriginal": "¡Oh Dios misericordioso, que concediste al Beato José Gregorio Hernández una inmensa ciencia médica unida a una profunda caridad para curar a los enfermos y servir a los necesitados! Te rogamos que, por su intercesión, derrames la salud sobre mi cuerpo y mi alma (mencionar al enfermo). Ilumina a los médicos que me atienden, guía sus manos y alivia todo sufrimiento. Amén.",
-      "guiaFonetica": "[O Dios mi-se-ri-kor-dio-so, que con-ce-dis-te al Be-a-to Jo-se Gre-go-rio Er-nan-des u-na in-men-sa sien-cia me-di-ca]",
-      "textoTraducido": "Blessed Dr. José Gregorio Hernández, good doctor and servant of God: accompany my health, guide the doctors' decisions and intercede with the Father for my prompt and complete healing. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_la_salud",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Música clásica suave y murmullo devoto en Isnotú"
-      },
+      "textoOriginal": "¡Oh Dios todopoderoso y misericordioso, que colmaste de ciencia, caridad heroica y santidad al Beato Dr. José Gregorio Hernández, Médico de los Pobres y Apóstol de la Paz! Tú que le concediste sanar a los enfermos con bondad entrañable y ver en cada paciente el rostro llagado de Cristo Redentor: escucha con piedad mi plegaria. Te pido por su intercesión la sanación de mis enfermedades y de quienes sufren en los hospitales y en sus hogares. Guía las manos de los médicos, conforta a los desahuciados y derrama tu paz sobre Venezuela y el mundo. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O Dios to-do-po-de-ro-so... que col-mas-te de cien-cia al Bea-to Dr. Jo-sé Gre-go-rio Her-nán-dez... A-mén.",
+      "textoTraducido": "O Almighty and merciful God, who filled with medical wisdom, heroic charity, and holiness Blessed Dr. José Gregorio Hernández, Physician of the Poor and Apostle of Peace! You who granted him the grace to heal the sick with tender kindness and to see in every patient the wounded face of Christ the Redeemer: hear with mercy my prayer. Through his intercession, I implore healing for my ailments and for all who suffer in hospitals and at home. Guide the hands of physicians, comfort the despairing, and pour out Your peace upon Venezuela and the world. Through Jesus Christ our Lord. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca ante la imagen del Dr. José Gregorio Hernández, pidiendo por una operación quirúrgica, sanación física o diagnóstico médico favorable.",
       "dir": "ltr"
     },
     {
@@ -59235,9 +59223,9 @@
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
       "numero": 2736,
-      "titulo": "Prayer to the Virgin of Charity of Cobre (Cachita)",
+      "titulo": "Our Lady of Charity of El Cobre (Cachita) · Patroness of Cuba, Hope and Aid in the Storm",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Emigrantes_Y_Dulce_Auxilio",
+      "categoriaIntencion": "Protection in Storms & Family Hope",
       "estadosEmocionales": [
         "emigrante",
         "afligido",
@@ -59245,14 +59233,10 @@
         "hijo_devoto"
       ],
       "idiomaLiturgicoOriginal": "Spanish cubano",
-      "textoOriginal": "¡Virgen de la Caridad del Cobre, Madre amada de todos los cubanos y consuelo de los afligidos! Tú que fuiste encontrada en la Bahía de Nipe flotando sobre las aguas con el letrero: «Yo soy la Virgen de la Caridad». Calma las tempestades de mi vida, protege a quienes cruzan mares en busca de esperanza, derrama bendición sobre nuestros hogares y alcánzanos de tu Hijo la gracia de la libertad interior, la paz y el amor fraterno. Amén.",
-      "guiaFonetica": "[Vir-jen de la Ca-ri-dad del Co-bre, Ma-dre a-ma-da de to-dos los cu-ba-nos... Cal-ma las tem-pes-ta-des de mi vi-da]",
-      "textoTraducido": "Virgin of Charity of Cobre: ​​do not abandon your children in the sea of ​​trials. Bring us peace, health, unity in the family and keep hope alive. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_girasoles_o_tres_aves_marias",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Olas de Nipe, campanas del Cobre y guitarra criolla"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Caridad del Cobre, amada 'Cachita', Celestial Patrona y Reina de Cuba! Tú que sobre las embravecidas aguas de la Bahía de Nipe apareciste milagrosamente a los tres Juanes con el lema: 'Yo soy la Virgen de la Caridad': mira con amor compasivo a todos tus hijos. Sé faro de luz en medio de las tempestades de la vida; no permitas que naufrague nuestra fe, cura a nuestros enfermos, une a las familias y bendice al pueblo cubano y al mundo entero con libertad, paz y pan digno. Virgen de la Caridad, cúbrenos con tu manto dorado y llévanos a Jesús. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Ca-ri-dad del Co-bre, a-ma-da Ca-chi-ta... Yo soy la Vir-gen de la Ca-ri-dad... A-mén.",
+      "textoTraducido": "O Most Holy Virgin of Charity of El Cobre, beloved 'Cachita', Heavenly Patroness and Queen of Cuba! You who upon the stormy waters of Nipe Bay appeared miraculously to the three young men bearing the inscription: 'I am the Virgin of Charity': look with compassionate love upon all your children. Be a beacon of light amidst the tempests of life; let not our faith be shipwrecked, heal our sick, unite our families, and bless the Cuban people and the whole world with freedom, peace, and daily sustenance. Virgin of Charity, cover us with your golden mantle and lead us to Jesus. Amen.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela amarilla o blanca con girasoles frescos, pidiendo auxilio en dificultades extremas, protección familiar y caridad.",
       "dir": "ltr"
     },
     {
@@ -82212,9 +82196,9 @@
     {
       "id": "CAT_DOM_ALTAGRACIA_HIGUEY",
       "numero": 3758,
-      "titulo": "Supplication to Our Lady of Altagracia (Higüey)",
+      "titulo": "Our Lady of Altagracia (Higüey) · Protector and Loving Mother of the Dominican People",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Maternal_Y_Alta_Gracia",
+      "categoriaIntencion": "Maternal Protection & Family Peace",
       "estadosEmocionales": [
         "devoto",
         "en_familia",
@@ -82222,14 +82206,10 @@
         "lleno_de_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish dominicano",
-      "textoOriginal": "¡Virgen de la Altagracia, Madre y Protectora amadísima del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús recién nacido sobre el pesebre: derrama la más alta gracia de Dios sobre nuestros hogares. Aleja las discordias, protege a nuestra juventud, bendice la tierra dominicana y mantén encendida en nuestras vidas la llama de la fe católica. Amén.",
-      "guiaFonetica": "[Vir-jen de la Al-ta-gra-cia, Ma-dre y Pro-tec-to-ra a-ma-di-si-ma]",
-      "textoTraducido": "Virgin of Altagracia de Higüey: protect our families, give us peace, health and divine grace in every moment of life. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_aves_marias_con_medalla_de_la_altagracia",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Higüey y cántico devocional dominicano"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Altagracia, tierna y amorosa Madre y Protectora del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús dormido en el pesebre bajo la luz de la estrella celestial: acoge nuestras vidas y familias bajo tu maternal amparo. Enséñanos a guardar en el corazón la Palabra de Dios, concédenos la salud, el pan de cada día y el amor fraterno en nuestros hogares. Defiende a nuestra nación de toda calamidad y haz que brille en nuestros pueblos la verdadera paz y justicia de tu divino Hijo. Virgen de la Altagracia de Higüey, ruega por nosotros. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Al-ta-gra-cia... aco-ge nues-tras vi-das y fa-mi-lias ba-jo tu ma-ter-nal am-pa-ro... A-mén.",
+      "textoTraducido": "O Most Holy Virgin of Altagracia, tender and loving Mother and Protector of the Dominican people! You who gaze with infinite sweetness upon the Infant Jesus asleep in the manger beneath the celestial star: take our lives and families beneath your maternal mantle. Teach us to treasure the Word of God in our hearts, grant us health, our daily bread, and fraternal love in our homes. Defend our nation from all calamity and cause the true peace and justice of Your Divine Son to shine upon our peoples. Virgin of Altagracia of Higüey, pray for us. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca o azul ante el cuadro de la Virgen de la Altagracia, pidiendo por la paz en el hogar, el bienestar de los hijos y la unión familiar.",
       "dir": "ltr"
     },
     {
@@ -94025,6 +94005,120 @@
       "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
       "textoTraducido": "Blessed are You, Lord our God, King of the Universe, who in Your goodness feeds the entire world with grace, kindness, and compassion. He gives food to all flesh, for His mercy endures forever. Through His abundant goodness we have never lacked, and may we never lack sustenance forever and ever, for the sake of His great Name; for He is God who nourishes and sustains all, does good to all, and prepares food for all the creatures He has created. Blessed are You, Lord, who sustains all. Amen.",
       "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
+      "dir": "ltr"
+    },
+    {
+      "id": "SENOR_DE_LOS_MILAGROS_LIMA_PERU",
+      "numero": 4275,
+      "titulo": "Lord of Miracles of Lima (Black Christ) · Patron of Peru, Earthquake Shield and Healing",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Earthquake Shield & Healing",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "sanacion",
+        "proteccion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Señor de los Milagros, Cristo Moreno y amado Nazareno de Pachacamilla! Tú que permaneciste erguido e intacto en el humilde muro de adobe cuando la tierra tembló con furia: hoy nos postramos ante tu santa imagen revestidos con el hábito morado de la penitencia y el amor. Míranos con ojos de misericordia; aquieta los temblores de nuestra alma y los peligros que acechan a nuestras familias y a nuestra patria. Cura a nuestros enfermos, alivia a los agobiados por las deudas y el dolor, y danos un corazón puro para perdonar y amar. Señor de los Milagros, en Ti confiamos, por tu infinita cruz sálvanos y bendícenos. Amén.",
+      "guiaFonetica": "O Se-ñor de los Mi-la-gros, Cris-to Mo-re-no... a-quie-ta los tem-blo-res de nues-tra al-ma... A-mén.",
+      "textoTraducido": "O Lord of Miracles, beloved Dark Christ and Nazarene of Pachacamilla! You who remained standing and unharmed upon the humble adobe wall when the earth shook with fury: today we kneel before Your holy image clothed in the purple mantle of penitence and love. Look upon us with eyes of mercy; calm the quakings of our souls and the perils that threaten our families and our nation. Heal our sick, relieve those weighed down by burdens and sorrow, and grant us a pure heart to forgive and to love. Lord of Miracles, in You we trust; by Your holy cross, save us and bless us. Amen.",
+      "ritualesAsociados": "Rezar en procesión o en el hogar encendiendo un cirio morado o blanco, vistiendo el cordón o hábito morado en señal de fe y penitencia.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SANTA_ROSA_DE_LIMA_PATRONA_AMERICA",
+      "numero": 4276,
+      "titulo": "Saint Rose of Lima · First Saint of the Americas, Patroness of Peru and the Philippines",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Purity, Charity & Family Peace",
+      "estadosEmocionales": [
+        "pureza",
+        "amor_divino",
+        "consuelo",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosa Santa Rosa de Lima, fragante rosa en el jardín de la Iglesia y primera flor de santidad de América! Tú que desde tu juventud te consagraste enteramente a Cristo, floreciendo en la penitencia, la oración constante y el servicio a los enfermos y desvalidos: enséñanos a amar a Dios sobre todas las cosas y a descubrir su rostro en los pobres. Alcánzanos la pureza de corazón, la fortaleza en el sufrimiento y la paz para nuestras familias. Sé la protectora celestial de nuestra patria y de todos los pueblos que te veneran, y condúcenos por senderos de caridad viva y santidad. Amén.",
+      "guiaFonetica": "Glo-rio-sa San-ta Ro-sa de Li-ma, fra-gan-te ro-sa en el jar-dín de la I-gle-sia... A-mén.",
+      "textoTraducido": "Glorious Saint Rose of Lima, fragrant rose in the garden of the Church and first flower of sanctity in the Americas! You who from your youth consecrated yourself entirely to Christ, blossoming in penance, ceaseless prayer, and loving service to the sick and destitute: teach us to love God above all things and to recognize His face in the poor. Obtain for us purity of heart, fortitude in suffering, and peace for our families. Be the heavenly protector of our nations, and guide us along the paths of living charity and holiness. Amen.",
+      "ritualesAsociados": "Rezar con rosas frescas o escribir una petición depositándola con fe, pidiendo pureza de intenciones, consuelo en el dolor y vocación espiritual.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_MARTIN_DE_PORRES_HUMILDAD_CARIDAD",
+      "numero": 4277,
+      "titulo": "Saint Martin de Porres · Saint of Humility, Healing and Universal Charity",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Humility, Healing & Universal Charity",
+      "estadosEmocionales": [
+        "humildad",
+        "caridad",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh bondadoso San Martín de Porres, Fray Escoba, santo de la humildad sincera y de la caridad sin límites! Tú que con santa sencillez barriste los claustros y acogiste con ternura infinita a los enfermos, a los marginados e incluso a las criaturas más pequeñas de la creación: míranos con amor fraterno. Aleja de nuestro corazón el orgullo y el egoísmo; alcánzanos de Dios la salud del cuerpo y del alma, la armonía en nuestros hogares y el pan necesario en nuestra mesa. San Martín bendito, une a los pueblos en paz y enséñanos a servir a nuestros hermanos con alegría y devoción. Amén.",
+      "guiaFonetica": "O bon-da-do-so San Mar-tín de Po-rres, Fray Es-co-ba... a-le-ja de nues-tro co-ra-zón el or-gu-llo... A-mén.",
+      "textoTraducido": "O gentle Saint Martin de Porres, humble friar and servant of boundless charity! You who with holy simplicity swept the monastery floors and embraced with infinite tenderness the sick, the marginalized, and even the humblest creatures of creation: look upon us with brotherly love. Remove all pride and selfishness from our hearts; obtain for us from God health of body and soul, harmony in our homes, and daily bread upon our tables. Blessed Saint Martin, unite all peoples in peace and teach us to serve our brothers and sisters with joy and devotion. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca y pidiendo por la salud de un enfermo, la reconciliación familiar y la provisión económica.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DEL_VALLE_VENEZUELA_MARINEROS",
+      "numero": 4278,
+      "titulo": "Our Lady of the Valley (Vallita) · Patroness of Eastern Venezuela, Shield of Sailors and Fishermen",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Sailors' Protection & Family Peace",
+      "estadosEmocionales": [
+        "proteccion",
+        "paz",
+        "esperanza",
+        "devocion_mariana"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Dulcísima Virgen del Valle, tierna 'Vallita', Reina y Patrona del Oriente Venezolano y Madre amada de los marineros y pescadores! Tú que en la Isla de Margarita derramas bendiciones infinitas y calmas las tempestades del mar y de la vida: acoge bajo tu manto protector a nuestras familias y a nuestra nación venezolana. Guía a los navegantes y trabajadores, protege los hogares de todo peligro, sana a nuestros enfermos y concédenos la gracia de vivir en paz, reconciliación y santa abundancia. Virgen del Valle, faro de amor y consuelo, ruega por nosotros. Amén.",
+      "guiaFonetica": "O Dul-cí-si-ma Vir-gen del Va-lle, tier-na Va-lli-ta... cal-mas las tem-pes-ta-des del mar y de la vi-da... A-mén.",
+      "textoTraducido": "O Sweetest Virgin of the Valley, beloved 'Vallita', Queen and Patroness of Eastern Venezuela and dear Mother of sailors and fishermen! You who on Margarita Island pour out endless blessings and calm the storms of the sea and of life: shelter beneath your protective mantle our families and our nation. Guide seafarers and workers, protect our homes from all peril, heal our sick, and grant us the grace to live in peace, reconciliation, and holy abundance. Virgin of the Valley, beacon of love and consolation, pray for us. Amen.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela blanca o azul pidiendo protección en el mar, en viajes acuáticos y bendición para la familia venezolana.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_COROMOTO_PATRONA_VENEZUELA",
+      "numero": 4279,
+      "titulo": "Our Lady of Coromoto · National Patroness of Venezuela, Light of Faith and Reconciliation",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "National Peace, Faith & Reconciliation",
+      "estadosEmocionales": [
+        "fe_viva",
+        "esperanza",
+        "reconciliacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen María, Madre de Dios y Señora de Coromoto, Celeste Patrona de Venezuela! Tú que en las selvas de Guanare te manifestaste radiante de luz al cacique y a su pueblo, invitándolos a renacer por las aguas del santo Bautismo: mira con ternura maternal a todos tus hijos venezolanos dentro y fuera de nuestra tierra. Sana las heridas de nuestra patria, aleja la discordia y el sufrimiento, fortalece nuestra fe y abre caminos de libertad, justicia y prosperidad. Bella Señora de Coromoto, renueva la fe en toda la extensión de nuestra patria y del mundo entero. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen Ma-rí-a, Se-ño-ra de Co-ro-mo-to... re-nue-va la fe en nues-tra pa-tria... A-mén.",
+      "textoTraducido": "O Most Holy Virgin Mary, Mother of God and Lady of Coromoto, Heavenly Patroness of Venezuela! You who in the forests of Guanare appeared radiant with light to the indigenous chief and his people, inviting them to be reborn through the waters of Holy Baptism: look with maternal tenderness upon all your Venezuelan children, both at home and abroad. Heal the wounds of our homeland, dispel discord and suffering, strengthen our faith, and open pathways to freedom, justice, and prosperity. Beautiful Lady of Coromoto, renew the faith across our entire nation and the whole world. Amen.",
+      "ritualesAsociados": "Rezar con devoción mariana nacional encendiendo velas tricolores o blancas, pidiendo por la paz, la reconciliación y el bienestar de las familias venezolanas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_LAZARO_BENDITO_SALUD_LEPROSOS",
+      "numero": 4280,
+      "titulo": "Blessed Saint Lazarus · Patron of the Severely Ill, Healing of Wounds and Relief in Suffering",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Healing of Severe Illness & Health",
+      "estadosEmocionales": [
+        "sanacion",
+        "esperanza",
+        "compasion",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh glorioso y bendito San Lázaro, amigo entrañable de Jesús y protector compasivo de los enfermos, los llagados y los desamparados! Tú que conociste en carne propia el dolor de la aflicción y la gloria de la resurrección por el poder divino de Cristo: dígnate escuchar mi humilde súplica. Intercede ante el Señor por mi salud y la de mis seres queridos; alivia las enfermedades del cuerpo y del alma, cicatriza las heridas abiertas del dolor y líbranos de contagios, miserias y abandono. Concédenos la fortaleza para sobrellevar las pruebas con fe y la gracia de alcanzar la salud y la paz que tanto necesitamos. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
+      "textoTraducido": "O glorious and blessed Saint Lazarus, beloved friend of Jesus and compassionate protector of the sick, the wounded, and the destitute! You who experienced in your own flesh the agony of affliction and the glory of resurrection through the divine power of Christ: deign to hear my humble plea. Intercede before the Lord for my health and that of my loved ones; relieve the illnesses of body and soul, heal the open wounds of suffering, and deliver us from contagion, misery, and abandonment. Grant us the strength to endure trials with faith and the grace to attain the healing and peace we so deeply need. Through Jesus Christ our Lord. Amen.",
+      "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
       "dir": "ltr"
     }
   ]

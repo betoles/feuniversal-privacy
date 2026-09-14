@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Lutheran-Kanonisch-Majestaetisch-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4274
+    "totalOraciones": 4280
   },
   "oraciones": [
     {
@@ -59052,9 +59052,9 @@
     {
       "id": "CAT_COL_SENOR_MILAGROS_BUGA",
       "numero": 2728,
-      "titulo": "Gebet zum Herrn der Wunder von Buga (Das Wunderbare)",
+      "titulo": "Herr der Wunder von Buga (Der Wundertätige) · Gebet um Heilung, Frieden und Familienschutz",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "sanacion_y_milagros",
+      "categoriaIntencion": "Heilung und Familienschutz",
       "estadosEmocionales": [
         "enfermo",
         "afligido",
@@ -59062,22 +59062,18 @@
         "ferviente"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Señor de los Milagros de Buga, Cristo bondadoso que fuiste hallado en las aguas cristalinas por las manos de una humilde lavandera para convertirte en fuente inagotable de sanación y gracia: mírame con ojos de amor. Vengo ante tu cruz con mis dolores, enfermedades y esperanzas. Toca mi vida con tu mano llagada, sana mi cuerpo, limpia mi espíritu y derrama sobre mi hogar la paz y la concordia. Amén.",
-      "guiaFonetica": "[Se-ñor de los Mi-la-gros de Bu-ga, Cris-to bon-da-do-so que fuis-te ha-lla-do en las a-guas cris-ta-li-nas]",
-      "textoTraducido": "Herr der Wunder von Buga, Tröster der Leidenden und Arzt der Kranken: Erhöre mein Gebet, heile meine Wunden und stärke meinen Glauben inmitten jeder Prüfung. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_del_milagroso_de_buga",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de Buga y murmullo de agua de río bendito"
-      },
+      "textoOriginal": "¡Oh Amadísimo Señor de los Milagros de Buga, Cristo paciente y redentor que en las aguas del río Guadalajara manifestaste tu prodigio de amor a la humilde lavandera! Ante tu sagrada imagen nos postramos con fe viva y corazón contrito. Médico celestial de almas y cuerpos, mira nuestras dolencias, alivia las cargas que agobian nuestra vida y derrama sobre nosotros el bálsamo de tu divina misericordia. Aparta la violencia de nuestras tierras, bendice los hogares de Colombia y del mundo entero, y concédenos la gracia de perseverar en el amor hasta el fin. Señor de los Milagros de Buga, en Ti confío. Amén.",
+      "guiaFonetica": "O A-ma-dí-si-mo Se-ñor de los Mi-la-gros de Bu-ga... mé-di-co ce-les-tial de al-mas y cuer-pos... A-mén.",
+      "textoTraducido": "O geliebtester Herr der Wunder von Buga, geduldiger und erlösender Christus, der du in den Wassern des Flusses Guadalajara dein Liebeswunder der demütigen Wäscherin offenbartest! Vor Deinem heiligen Bildnis beugen wir uns in lebendigem Glauben und reuigem Herzen. Himmlischer Arzt der Seelen und Leiber, blicke auf unsere Gebrechen, lindere die Lasten unseres Lebens und gieße den Balsam Deiner göttlichen Barmherzigkeit über uns aus. Wende die Gewalt von unserem Lande ab, segne die Familien und schenke uns die Gnade der Ausdauer in der Liebe. Herr der Wunder von Buga, auf Dich vertraue ich. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela roja o blanca ante la imagen del Milagroso de Buga, pidiendo salud, sanación de enfermos desahuciados y solución de causas difíciles.",
       "dir": "ltr"
     },
     {
       "id": "CAT_COL_DIVINO_NINO_BOGOTA",
       "numero": 2729,
-      "titulo": "Vertrauensbekenntnis an das Göttliche Jesuskind vom 20. Juli",
+      "titulo": "Göttliches Jesuskind von Bogotá (20. Juli) · Flehen um Vertrauen und Wundertätigen Schutz",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "auxilio_y_amparo_infantil_divino",
+      "categoriaIntencion": "Schutz der Kinder und Familie",
       "estadosEmocionales": [
         "necesitado",
         "angustiado",
@@ -59085,14 +59081,10 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Divino Niño Jesús, dueño de mi corazón y mi vida: «Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado». Confiando en tu promesa, vengo a Ti con fe sincera. Tú que abres tus bracitos para abrazarnos y bendecirnos: alivia mis pesares, provee en mis necesidades temporales y espirituales, y no me sueltes de tu mano ni en la vida ni en la muerte. ¡Divino Niño Jesús, bendícenos! ¡Divino Niño Jesús, escúchanos! ¡Divino Niño Jesús, sálvanos! Amén.",
-      "guiaFonetica": "[Di-vi-no Ni-ño Je-sus, due-ño de mi co-ra-son y mi vi-da... To-do lo que quie-ras pe-dir, pi-de-lo por los me-ri-tos de mi in-fan-cia y na-da te se-ra ne-ga-do]",
-      "textoTraducido": "Göttliches Kind Jesus, für die Verdienste deiner heiligen Kindheit: Erhöre mein Gebet, segne meine Familie, bringe Frieden und sorge für unsere Bedürfnisse. Ich vertraue auf Dich. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "siete_glorias_al_divino_nino",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas alegres, coros infantiles y repique del 20 de Julio"
-      },
+      "textoOriginal": "¡Oh Divino Niño Jesús del 20 de Julio de Bogotá, dulce consuelo de los afligidos y tesoro de amor infinito! Con profunda fe en tu promesa divina: 'Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado', acudo hoy a tus plantas suplicando tu amparo. Bendice mi hogar y a mi familia, protege a los niños del mundo entero, sana a los enfermos y provee trabajo digno y sustento a quienes carecen de pan. Que tu dulce sonrisa ilumine nuestras sombras y tus bracitos abiertos nos abracen en la hora de la prueba. Divino Niño Jesús, bendícenos y reina por siempre en nuestros corazones. Amén.",
+      "guiaFonetica": "O Di-vi-no Ni-ño Je-sús del vein-te de ju-lio... to-do lo que quie-ras pe-dir, pí-de-lo por los mé-ri-tos de mi in-fan-cia... A-mén.",
+      "textoTraducido": "O göttliches Jesuskind vom 20. Juli in Bogotá, süßer Trost der Betrübten und Schatz unendlicher Liebe! Mit tiefem Glauben an Dein göttliches Versprechen: 'Alles, was du erbitten willst, erbitte durch die Verdienste Meiner Kindheit, und nichts wird dir verweigert werden', trete ich heute vor Deine Füße und erflehe Deinen Schutz. Segne mein Heim und meine Familie, beschütze die Kinder der ganzen Welt, heile die Kranken und schenke würdige Arbeit und Nahrung denen, die darben. Möge Dein süßes Lächeln unsere Schatten erhellen und Deine offenen Ärmchen uns in der Stunde der Prüfung umarmen. Göttliches Jesuskind, segne uns und herrsche ewig in unseren Herzen. Amen.",
+      "ritualesAsociados": "Rezar con devoción los domingos o en la novena del Divino Niño, encendiendo una veladora rosada o blanca y prometiendo una obra de caridad con los niños pobres.",
       "dir": "ltr"
     },
     {
@@ -59190,9 +59182,9 @@
     {
       "id": "CAT_VEN_JOSE_GREGORIO_HERNANDEZ",
       "numero": 2734,
-      "titulo": "Gebet an den seligen Dr. José Gregorio Hernández (Der Arzt der Armen)",
+      "titulo": "Seliger Dr. José Gregorio Hernández · Arzt der Armen, Heilung der Kranken und Friede",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "sanacion_medica_y_paz",
+      "categoriaIntencion": "Medizinische Heilung und Krankenpflege",
       "estadosEmocionales": [
         "enfermo",
         "operacion_medica",
@@ -59200,14 +59192,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Español venezolano",
-      "textoOriginal": "¡Oh Dios misericordioso, que concediste al Beato José Gregorio Hernández una inmensa ciencia médica unida a una profunda caridad para curar a los enfermos y servir a los necesitados! Te rogamos que, por su intercesión, derrames la salud sobre mi cuerpo y mi alma (mencionar al enfermo). Ilumina a los médicos que me atienden, guía sus manos y alivia todo sufrimiento. Amén.",
-      "guiaFonetica": "[O Dios mi-se-ri-kor-dio-so, que con-ce-dis-te al Be-a-to Jo-se Gre-go-rio Er-nan-des u-na in-men-sa sien-cia me-di-ca]",
-      "textoTraducido": "Seliger Dr. José Gregorio Hernández, guter Arzt und Diener Gottes: Begleiten Sie meine Gesundheit, leiten Sie die Entscheidungen der Ärzte und treten Sie beim Vater für meine schnelle und vollständige Heilung ein. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_la_salud",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Música clásica suave y murmullo devoto en Isnotú"
-      },
+      "textoOriginal": "¡Oh Dios todopoderoso y misericordioso, que colmaste de ciencia, caridad heroica y santidad al Beato Dr. José Gregorio Hernández, Médico de los Pobres y Apóstol de la Paz! Tú que le concediste sanar a los enfermos con bondad entrañable y ver en cada paciente el rostro llagado de Cristo Redentor: escucha con piedad mi plegaria. Te pido por su intercesión la sanación de mis enfermedades y de quienes sufren en los hospitales y en sus hogares. Guía las manos de los médicos, conforta a los desahuciados y derrama tu paz sobre Venezuela y el mundo. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O Dios to-do-po-de-ro-so... que col-mas-te de cien-cia al Bea-to Dr. Jo-sé Gre-go-rio Her-nán-dez... A-mén.",
+      "textoTraducido": "O allmächtiger und barmherziger Gott, der du den seligen Dr. José Gregorio Hernández, den Arzt der Armen und Apostel des Friedens, mit Weisheit, heroischer Nächstenliebe und Heiligkeit erfüllt hast! Du, der du ihm schenktest, die Kranken mit herzlicher Güte zu heilen und in jedem Patienten das Antlitz Christi zu erkennen: erhöre mein Gebet. Durch seine Fürsprache erbitte ich Heilung von meinen Leiden und für alle, die in Krankenhäusern und zu Hause leiden. Leite die Hände der Ärzte, tröste die Hoffnungslosen und schenke Deinen Frieden. Durch Jesus Christus, unseren Herrn. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca ante la imagen del Dr. José Gregorio Hernández, pidiendo por una operación quirúrgica, sanación física o diagnóstico médico favorable.",
       "dir": "ltr"
     },
     {
@@ -59235,9 +59223,9 @@
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
       "numero": 2736,
-      "titulo": "Gebet an die Jungfrau der Barmherzigkeit von Cobre (Cachita)",
+      "titulo": "Unsere Liebe Frau der Barmherzigkeit von El Cobre (Cachita) · Patronin von Kuba, Hoffnung im Sturm",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_emigrantes_y_dulce_auxilio",
+      "categoriaIntencion": "Schutz im Sturm und Familienhoffnung",
       "estadosEmocionales": [
         "emigrante",
         "afligido",
@@ -59245,14 +59233,10 @@
         "hijo_devoto"
       ],
       "idiomaLiturgicoOriginal": "Español cubano",
-      "textoOriginal": "¡Virgen de la Caridad del Cobre, Madre amada de todos los cubanos y consuelo de los afligidos! Tú que fuiste encontrada en la Bahía de Nipe flotando sobre las aguas con el letrero: «Yo soy la Virgen de la Caridad». Calma las tempestades de mi vida, protege a quienes cruzan mares en busca de esperanza, derrama bendición sobre nuestros hogares y alcánzanos de tu Hijo la gracia de la libertad interior, la paz y el amor fraterno. Amén.",
-      "guiaFonetica": "[Vir-jen de la Ca-ri-dad del Co-bre, Ma-dre a-ma-da de to-dos los cu-ba-nos... Cal-ma las tem-pes-ta-des de mi vi-da]",
-      "textoTraducido": "Jungfrau der Barmherzigkeit von Cobre: ​​Lassen Sie Ihre Kinder nicht im Meer der Prüfungen zurück. Bringen Sie uns Frieden, Gesundheit, Einheit in der Familie und halten Sie die Hoffnung am Leben. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_girasoles_o_tres_aves_marias",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Olas de Nipe, campanas del Cobre y guitarra criolla"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Caridad del Cobre, amada 'Cachita', Celestial Patrona y Reina de Cuba! Tú que sobre las embravecidas aguas de la Bahía de Nipe apareciste milagrosamente a los tres Juanes con el lema: 'Yo soy la Virgen de la Caridad': mira con amor compasivo a todos tus hijos. Sé faro de luz en medio de las tempestades de la vida; no permitas que naufrague nuestra fe, cura a nuestros enfermos, une a las familias y bendice al pueblo cubano y al mundo entero con libertad, paz y pan digno. Virgen de la Caridad, cúbrenos con tu manto dorado y llévanos a Jesús. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Ca-ri-dad del Co-bre, a-ma-da Ca-chi-ta... Yo soy la Vir-gen de la Ca-ri-dad... A-mén.",
+      "textoTraducido": "O heiligste Jungfrau der Barmherzigkeit von El Cobre, geliebte 'Cachita', himmlische Patronin und Königin von Kuba! Du, die du auf den stürmischen Gewässern der Bucht von Nipe den drei Knaben mit der Inschrift: 'Ich bin die Jungfrau der Barmherzigkeit' wundertätig erschienst: blicke mit erbarmender Liebe auf alle deine Kinder. Sei ein Leuchtturm des Lichts inmitten der Stürme des Lebens; lass unseren Glauben nicht scheitern, heile unsere Kranken, vereine die Familien und segne das kubanische Volk und die ganze Welt mit Freiheit, Frieden und würdigem Brot. Jungfrau der Barmherzigkeit, decke uns mit deinem goldenen Mantel zu und führe uns zu Jesus. Amen.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela amarilla o blanca con girasoles frescos, pidiendo auxilio en dificultades extremas, protección familiar y caridad.",
       "dir": "ltr"
     },
     {
@@ -82212,9 +82196,9 @@
     {
       "id": "CAT_DOM_ALTAGRACIA_HIGUEY",
       "numero": 3758,
-      "titulo": "Flehen an Unsere Liebe Frau von Altagracia (Higüey)",
+      "titulo": "Unsere Liebe Frau von Altagracia (Higüey) · Beschützerin und Mutter des Dominikanischen Volkes",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_maternal_y_alta_gracia",
+      "categoriaIntencion": "Mütterlicher Schutz und Familienfrieden",
       "estadosEmocionales": [
         "devoto",
         "en_familia",
@@ -82222,14 +82206,10 @@
         "lleno_de_fe"
       ],
       "idiomaLiturgicoOriginal": "Español dominicano",
-      "textoOriginal": "¡Virgen de la Altagracia, Madre y Protectora amadísima del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús recién nacido sobre el pesebre: derrama la más alta gracia de Dios sobre nuestros hogares. Aleja las discordias, protege a nuestra juventud, bendice la tierra dominicana y mantén encendida en nuestras vidas la llama de la fe católica. Amén.",
-      "guiaFonetica": "[Vir-jen de la Al-ta-gra-cia, Ma-dre y Pro-tec-to-ra a-ma-di-si-ma]",
-      "textoTraducido": "Jungfrau von Altagracia de Higüey: Beschütze unsere Familien, schenke uns Frieden, Gesundheit und göttliche Gnade in jedem Moment unseres Lebens. Amen.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_aves_marias_con_medalla_de_la_altagracia",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Higüey y cántico devocional dominicano"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Altagracia, tierna y amorosa Madre y Protectora del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús dormido en el pesebre bajo la luz de la estrella celestial: acoge nuestras vidas y familias bajo tu maternal amparo. Enséñanos a guardar en el corazón la Palabra de Dios, concédenos la salud, el pan de cada día y el amor fraterno en nuestros hogares. Defiende a nuestra nación de toda calamidad y haz que brille en nuestros pueblos la verdadera paz y justicia de tu divino Hijo. Virgen de la Altagracia de Higüey, ruega por nosotros. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Al-ta-gra-cia... aco-ge nues-tras vi-das y fa-mi-lias ba-jo tu ma-ter-nal am-pa-ro... A-mén.",
+      "textoTraducido": "O heiligste Jungfrau von Altagracia, zärtliche und liebende Mutter und Beschützerin des dominikanischen Volkes! Du, die du mit unendlicher Sanftmut das in der Krippe schlafende Jesuskind unter dem Licht des himmlischen Sterns betrachtest: nimm unser Leben und unsere Familien unter deinen mütterlichen Schutz. Lehre uns, das Wort Gottes im Herzen zu bewahren, schenke uns Gesundheit, das tägliche Brot und brüderliche Liebe in unseren Heimen. Bewahre unser Volk vor allem Unheil und lass den wahren Frieden und die Gerechtigkeit deines göttlichen Sohnes leuchten. Jungfrau von Altagracia von Higüey, bitte für uns. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca o azul ante el cuadro de la Virgen de la Altagracia, pidiendo por la paz en el hogar, el bienestar de los hijos y la unión familiar.",
       "dir": "ltr"
     },
     {
@@ -94025,6 +94005,120 @@
       "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
       "textoTraducido": "Gepriesen seist Du, Herr, unser Gott, König der Welt, der Du die ganze Welt in Deiner Güte mit Gnade, Huld und Erbarmen ernährst. Er gibt Brot allem Fleisch, denn ewig währt Seine Gnade. Durch Seine große Güte hat es uns nie an Nahrung gefehlt und wird es uns nie fehlen in alle Ewigkeit, um Seines großen Namens willen; denn Er ist der Gott, der alle ernährt und versorgt, allen Gutes tut und Nahrung bereitet für alle Seine Geschöpfe, die Er erschaffen hat. Gepriesen seist Du, Herr, der Du alle ernährst. Amen.",
       "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
+      "dir": "ltr"
+    },
+    {
+      "id": "SENOR_DE_LOS_MILAGROS_LIMA_PERU",
+      "numero": 4275,
+      "titulo": "Herr der Wunder von Lima (Schwarzer Christus) · Patron von Peru, Schutz vor Erdbeben und Heilung",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Schutz vor Katastrophen und Heilung",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "sanacion",
+        "proteccion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Señor de los Milagros, Cristo Moreno y amado Nazareno de Pachacamilla! Tú que permaneciste erguido e intacto en el humilde muro de adobe cuando la tierra tembló con furia: hoy nos postramos ante tu santa imagen revestidos con el hábito morado de la penitencia y el amor. Míranos con ojos de misericordia; aquieta los temblores de nuestra alma y los peligros que acechan a nuestras familias y a nuestra patria. Cura a nuestros enfermos, alivia a los agobiados por las deudas y el dolor, y danos un corazón puro para perdonar y amar. Señor de los Milagros, en Ti confiamos, por tu infinita cruz sálvanos y bendícenos. Amén.",
+      "guiaFonetica": "O Se-ñor de los Mi-la-gros, Cris-to Mo-re-no... a-quie-ta los tem-blo-res de nues-tra al-ma... A-mén.",
+      "textoTraducido": "O Herr der Wunder, dunkler Christus und geliebter Nazarener von Pachacamilla! Du, der du auf der einfachen Lehmwand aufrecht und unversehrt bliebst, als die Erde voller Zorn bebte: heute beugen wir uns vor Deinem heiligen Bildnis, gekleidet im violetten Gewand der Buße und der Liebe. Blicke mit den Augen der Barmherzigkeit auf uns; stille das Beben unserer Seelen und die Gefahren, die unsere Familien und unsere Heimat bedrohen. Heile unsere Kranken, tröste die von Schmerz Beladenen und schenke uns ein reines Herz zum Vergeben und Lieben. Herr der Wunder, auf Dich vertrauen wir; durch Dein heiliges Kreuz rette und segne uns. Amen.",
+      "ritualesAsociados": "Rezar en procesión o en el hogar encendiendo un cirio morado o blanco, vistiendo el cordón o hábito morado en señal de fe y penitencia.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SANTA_ROSA_DE_LIMA_PATRONA_AMERICA",
+      "numero": 4276,
+      "titulo": "Heilige Rosa von Lima · Erste Heilige Amerikas, Patronin von Peru und den Philippinen",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Reinheit, Nächstenliebe und Familienfrieden",
+      "estadosEmocionales": [
+        "pureza",
+        "amor_divino",
+        "consuelo",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosa Santa Rosa de Lima, fragante rosa en el jardín de la Iglesia y primera flor de santidad de América! Tú que desde tu juventud te consagraste enteramente a Cristo, floreciendo en la penitencia, la oración constante y el servicio a los enfermos y desvalidos: enséñanos a amar a Dios sobre todas las cosas y a descubrir su rostro en los pobres. Alcánzanos la pureza de corazón, la fortaleza en el sufrimiento y la paz para nuestras familias. Sé la protectora celestial de nuestra patria y de todos los pueblos que te veneran, y condúcenos por senderos de caridad viva y santidad. Amén.",
+      "guiaFonetica": "Glo-rio-sa San-ta Ro-sa de Li-ma, fra-gan-te ro-sa en el jar-dín de la I-gle-sia... A-mén.",
+      "textoTraducido": "Glorreiche heilige Rosa von Lima, duftende Rose im Garten der Kirche und erste Blüte der Heiligkeit Amerikas! Du, die du dich von Jugend an ganz Christus geweiht hast und in Buße, unaufhörlichem Gebet und der Pflege der Kranken und Armen erblühtest: lehre uns, Gott über alles zu lieben und Sein Antlitz in den Notleidenden zu erkennen. Erflehe uns Reinheit des Herzens, Standhaftigkeit im Leiden und Frieden für unsere Familien. Sei die himmlische Beschützerin unserer Völker und führe uns auf Wegen lebendiger Liebe und Heiligkeit. Amen.",
+      "ritualesAsociados": "Rezar con rosas frescas o escribir una petición depositándola con fe, pidiendo pureza de intenciones, consuelo en el dolor y vocación espiritual.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_MARTIN_DE_PORRES_HUMILDAD_CARIDAD",
+      "numero": 4277,
+      "titulo": "Heiliger Martin von Porres · Heiliger der Demut, der Heilung und der Universellen Nächstenliebe",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Demut, Heilung und Nächstenliebe",
+      "estadosEmocionales": [
+        "humildad",
+        "caridad",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh bondadoso San Martín de Porres, Fray Escoba, santo de la humildad sincera y de la caridad sin límites! Tú que con santa sencillez barriste los claustros y acogiste con ternura infinita a los enfermos, a los marginados e incluso a las criaturas más pequeñas de la creación: míranos con amor fraterno. Aleja de nuestro corazón el orgullo y el egoísmo; alcánzanos de Dios la salud del cuerpo y del alma, la armonía en nuestros hogares y el pan necesario en nuestra mesa. San Martín bendito, une a los pueblos en paz y enséñanos a servir a nuestros hermanos con alegría y devoción. Amén.",
+      "guiaFonetica": "O bon-da-do-so San Mar-tín de Po-rres, Fray Es-co-ba... a-le-ja de nues-tro co-ra-zón el or-gu-llo... A-mén.",
+      "textoTraducido": "O gütiger heiliger Martin von Porres, Heiliger aufrichtiger Demut und grenzenloser Nächstenliebe! Du, der du mit heiliger Einfachheit die Klöster kehrtest und mit unendlicher Zärtlichkeit die Kranken, die Ausgestoßenen und selbst die kleinsten Geschöpfe aufnahmst: blicke mit brüderlicher Liebe auf uns. Entferne Hochmut und Egoismus aus unseren Herzen; erflehe uns von Gott Gesundheit an Leib und Seele, Harmonie in unseren Heimen und das tägliche Brot auf unserem Tisch. Seliger heiliger Martin, verbinde die Völker im Frieden und lehre uns, unseren Mitmenschen mit Freude und Hingabe zu dienen. Amen.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca y pidiendo por la salud de un enfermo, la reconciliación familiar y la provisión económica.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DEL_VALLE_VENEZUELA_MARINEROS",
+      "numero": 4278,
+      "titulo": "Unsere Liebe Frau vom Tal (Vallita) · Patronin von Ost-Venezuela, Schutz der Seeleute und Fischer",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Schutz der Seeleute und Familienfrieden",
+      "estadosEmocionales": [
+        "proteccion",
+        "paz",
+        "esperanza",
+        "devocion_mariana"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Dulcísima Virgen del Valle, tierna 'Vallita', Reina y Patrona del Oriente Venezolano y Madre amada de los marineros y pescadores! Tú que en la Isla de Margarita derramas bendiciones infinitas y calmas las tempestades del mar y de la vida: acoge bajo tu manto protector a nuestras familias y a nuestra nación venezolana. Guía a los navegantes y trabajadores, protege los hogares de todo peligro, sana a nuestros enfermos y concédenos la gracia de vivir en paz, reconciliación y santa abundancia. Virgen del Valle, faro de amor y consuelo, ruega por nosotros. Amén.",
+      "guiaFonetica": "O Dul-cí-si-ma Vir-gen del Va-lle, tier-na Va-lli-ta... cal-mas las tem-pes-ta-des del mar y de la vi-da... A-mén.",
+      "textoTraducido": "O süßeste Jungfrau vom Tal, zärtliche 'Vallita', Königin und Patronin des venezolanischen Ostens und geliebte Mutter der Seeleute und Fischer! Du, die du auf der Insel Margarita unendlichen Segen spendest und die Stürme des Meeres und des Lebens beruhigst: nimm unter deinen schützenden Mantel unsere Familien und unser Volk auf. Leite die Seefahrer und Arbeiter, beschütze die Häuser vor jeder Gefahr, heile unsere Kranken und schenke uns die Gnade, in Frieden, Versöhnung und heiligem Wohlstand zu leben. Jungfrau vom Tal, Leuchtturm der Liebe und des Trostes, bitte für uns. Amen.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela blanca o azul pidiendo protección en el mar, en viajes acuáticos y bendición para la familia venezolana.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_COROMOTO_PATRONA_VENEZUELA",
+      "numero": 4279,
+      "titulo": "Unsere Liebe Frau von Coromoto · Nationalpatronin von Venezuela, Licht des Glaubens und Versöhnung",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Nationaler Friede, Glaube und Versöhnung",
+      "estadosEmocionales": [
+        "fe_viva",
+        "esperanza",
+        "reconciliacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen María, Madre de Dios y Señora de Coromoto, Celeste Patrona de Venezuela! Tú que en las selvas de Guanare te manifestaste radiante de luz al cacique y a su pueblo, invitándolos a renacer por las aguas del santo Bautismo: mira con ternura maternal a todos tus hijos venezolanos dentro y fuera de nuestra tierra. Sana las heridas de nuestra patria, aleja la discordia y el sufrimiento, fortalece nuestra fe y abre caminos de libertad, justicia y prosperidad. Bella Señora de Coromoto, renueva la fe en toda la extensión de nuestra patria y del mundo entero. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen Ma-rí-a, Se-ño-ra de Co-ro-mo-to... re-nue-va la fe en nues-tra pa-tria... A-mén.",
+      "textoTraducido": "O heiligste Jungfrau Maria, Mutter Gottes und Herrin von Coromoto, himmlische Patronin von Venezuela! Du, die du in den Wäldern von Guanare strahlend im Licht dem Häuptling und seinem Volk erschienst und sie einludst, durch das Wasser der heiligen Taufe neu geboren zu werden: blicke mit mütterlicher Zärtlichkeit auf alle deine venezolanischen Kinder in der Heimat und in der Fremde. Heile die Wunden unseres Vaterlandes, wende Zwietracht und Leid ab, stärke unseren Glauben und öffne Wege zu Freiheit, Gerechtigkeit und Wohlstand. Schöne Herrin von Coromoto, erneuere den Glauben in unserem Volk und auf der ganzen Welt. Amen.",
+      "ritualesAsociados": "Rezar con devoción mariana nacional encendiendo velas tricolores o blancas, pidiendo por la paz, la reconciliación y el bienestar de las familias venezolanas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_LAZARO_BENDITO_SALUD_LEPROSOS",
+      "numero": 4280,
+      "titulo": "Heiliger Lazarus · Patron der Schwerkranken, Heilung der Wunden und Linderung des Leidens",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Heilung schwerer Krankheiten und Gesundheit",
+      "estadosEmocionales": [
+        "sanacion",
+        "esperanza",
+        "compasion",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh glorioso y bendito San Lázaro, amigo entrañable de Jesús y protector compasivo de los enfermos, los llagados y los desamparados! Tú que conociste en carne propia el dolor de la aflicción y la gloria de la resurrección por el poder divino de Cristo: dígnate escuchar mi humilde súplica. Intercede ante el Señor por mi salud y la de mis seres queridos; alivia las enfermedades del cuerpo y del alma, cicatriza las heridas abiertas del dolor y líbranos de contagios, miserias y abandono. Concédenos la fortaleza para sobrellevar las pruebas con fe y la gracia de alcanzar la salud y la paz que tanto necesitamos. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
+      "textoTraducido": "O glorreicher und gesegneter heiliger Lazarus, inniger Freund Jesu und mitleidiger Beschützer der Kranken, Verwundeten und Hilflosen! Du, der du am eigenen Leib den Schmerz der Pein und die Herrlichkeit der Auferstehung durch die göttliche Macht Christi erfahren hast: erhöre mein demütiges Flehen. Tritt beim Herrn für meine Gesundheit und die meiner Lieben ein; lindere die Krankheiten an Leib und Seele, heile die offenen Wunden des Leidens und bewahre uns vor Ansteckung, Elend und Verlassenheit. Schenke uns die Kraft, Prüfungen im Glauben zu ertragen, und die Gnade der Genesung und des Friedens. Durch Jesus Christus, unseren Herrn. Amen.",
+      "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
       "dir": "ltr"
     }
   ]

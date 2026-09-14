@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Bahasa-Rohani-Kemenag-LAI-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4274
+    "totalOraciones": 4280
   },
   "oraciones": [
     {
@@ -59052,9 +59052,9 @@
     {
       "id": "CAT_COL_SENOR_MILAGROS_BUGA",
       "numero": 2728,
-      "titulo": "Doa Kepada Penguasa Keajaiban Buga (Yang Ajaib",
+      "titulo": "Tuhan Mukjizat dari Buga · Doa Kesembuhan, Damai dan Perlindungan Keluarga",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Penyembuhan_Dan_Keajaiban",
+      "categoriaIntencion": "Kesembuhan & Perlindungan Keluarga",
       "estadosEmocionales": [
         "enfermo",
         "afligido",
@@ -59062,22 +59062,18 @@
         "ferviente"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Señor de los Milagros de Buga, Cristo bondadoso que fuiste hallado en las aguas cristalinas por las manos de una humilde lavandera para convertirte en fuente inagotable de sanación y gracia: mírame con ojos de amor. Vengo ante tu cruz con mis dolores, enfermedades y esperanzas. Toca mi vida con tu mano llagada, sana mi cuerpo, limpia mi espíritu y derrama sobre mi hogar la paz y la concordia. Amén.",
-      "guiaFonetica": "[Se-ñor de los Mi-la-gros de Bu-ga, Cris-to bon-da-do-so que fuis-te ha-lla-do en las a-guas cris-ta-li-nas]",
-      "textoTraducido": "Penguasa Keajaiban Buga, Kristus yang baik hati yang ditemukan di air kristal oleh tangan seorang tukang cuci yang rendah hati menjadi sumber kesembuhan dan rahmat yang tiada habisnya: lihatlah aku dengan mata cinta. Aku datang ke hadapan salib-Mu dengan rasa sakit, penyakit, dan harapanku. Sentuh hidupku dengan tanganmu yang terluka, sembuhkan tubuhku, bersihkan jiwaku dan sebarkan kedamaian dan keharmoniSanto di rumahku. Amin.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_del_milagroso_de_buga",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de Buga y murmullo de agua de río bendito"
-      },
+      "textoOriginal": "¡Oh Amadísimo Señor de los Milagros de Buga, Cristo paciente y redentor que en las aguas del río Guadalajara manifestaste tu prodigio de amor a la humilde lavandera! Ante tu sagrada imagen nos postramos con fe viva y corazón contrito. Médico celestial de almas y cuerpos, mira nuestras dolencias, alivia las cargas que agobian nuestra vida y derrama sobre nosotros el bálsamo de tu divina misericordia. Aparta la violencia de nuestras tierras, bendice los hogares de Colombia y del mundo entero, y concédenos la gracia de perseverar en el amor hasta el fin. Señor de los Milagros de Buga, en Ti confío. Amén.",
+      "guiaFonetica": "O A-ma-dí-si-mo Se-ñor de los Mi-la-gros de Bu-ga... mé-di-co ce-les-tial de al-mas y cuer-pos... A-mén.",
+      "textoTraducido": "O Tuhan Segala Mukjizat dari Buga yang Amat Terkasih, Kristus yang sabar dan menebus, yang di perairan Sungai Guadalajara menyatakan mukjizat kasih-Mu kepada seorang wanita pencuci pakaian yang bersahaja! Di hadapan gambar kudus-Mu kami bersujud dengan iman yang hidup dan hati yang sesal. Tabib surgawi bagi jiwa dan raga, pandanglah kelemahan kami, ringankanlah beban yang menindih hidup kami, dan curahkanlah minyak belas kasih ilahi-Mu atas kami. Jauhkanlah kekerasan dari tanah air kami, berkatilah keluarga-keluarga, dan berilah kami rahmat ketekunan dalam kasih. Tuhan Mukjizat dari Buga, kepada-Mu aku percaya. Amin.",
+      "ritualesAsociados": "Rezar encendiendo una vela roja o blanca ante la imagen del Milagroso de Buga, pidiendo salud, sanación de enfermos desahuciados y solución de causas difíciles.",
       "dir": "ltr"
     },
     {
       "id": "CAT_COL_DIVINO_NINO_BOGOTA",
       "numero": 2729,
-      "titulo": "Permohonan Percaya Diri kepada Anak Ilahi Yesus tanggal 20 Juli",
+      "titulo": "Kanak-kanak Yesus yang Ilahi dari Bogotá (20 Juli) · Doa Pasrah dan Perlindungan Ajaib",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Auxilio_Y_Amparo_Infantil_Divino",
+      "categoriaIntencion": "Perlindungan Anak & Kepercayaan Keluarga",
       "estadosEmocionales": [
         "necesitado",
         "angustiado",
@@ -59085,14 +59081,10 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Divino Niño Jesús, dueño de mi corazón y mi vida: «Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado». Confiando en tu promesa, vengo a Ti con fe sincera. Tú que abres tus bracitos para abrazarnos y bendecirnos: alivia mis pesares, provee en mis necesidades temporales y espirituales, y no me sueltes de tu mano ni en la vida ni en la muerte. ¡Divino Niño Jesús, bendícenos! ¡Divino Niño Jesús, escúchanos! ¡Divino Niño Jesús, sálvanos! Amén.",
-      "guiaFonetica": "[Di-vi-no Ni-ño Je-sus, due-ño de mi co-ra-son y mi vi-da... To-do lo que quie-ras pe-dir, pi-de-lo por los me-ri-tos de mi in-fan-cia y na-da te se-ra ne-ga-do]",
-      "textoTraducido": "Anak Ilahi Yesus, pemilik hatiku dan hidupku: \"Semua yang ingin kau minta, mintalah kebaikan masa kecilku dan tidak ada yang akan ditolak olehmu.\" Percaya pada janji-Mu, aku datang kepada-Mu dengan iman yang tulus. Engkau yang membuka tangan kecilmu untuk memeluk kami dan memberkati kami: meringankan kesedihanku, memenuhi kebutuhan duniawi dan spiritualku, dan jangan biarkan aku lepas dari tanganmu baik dalam hidup maupun dalam kematian. Anak Ilahi Yesus, berkatilah kami! Anak Ilahi Yesus, dengarkan kami! Anak Ilahi Yesus, selamatkan kami! Amin.",
-      "ritualesAsociados": {
-        "tipoContador": "siete_glorias_al_divino_nino",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas alegres, coros infantiles y repique del 20 de Julio"
-      },
+      "textoOriginal": "¡Oh Divino Niño Jesús del 20 de Julio de Bogotá, dulce consuelo de los afligidos y tesoro de amor infinito! Con profunda fe en tu promesa divina: 'Todo lo que quieras pedir, pídelo por los méritos de mi infancia y nada te será negado', acudo hoy a tus plantas suplicando tu amparo. Bendice mi hogar y a mi familia, protege a los niños del mundo entero, sana a los enfermos y provee trabajo digno y sustento a quienes carecen de pan. Que tu dulce sonrisa ilumine nuestras sombras y tus bracitos abiertos nos abracen en la hora de la prueba. Divino Niño Jesús, bendícenos y reina por siempre en nuestros corazones. Amén.",
+      "guiaFonetica": "O Di-vi-no Ni-ño Je-sús del vein-te de ju-lio... to-do lo que quie-ras pe-dir, pí-de-lo por los mé-ri-tos de mi in-fan-cia... A-mén.",
+      "textoTraducido": "O Kanak-kanak Yesus yang Ilahi dari 20 Juli Bogotá, penghiburan manis bagi yang berduka dan harta kasih tak terbatas! Dengan iman mendalam pada janji ilahi-Mu: 'Apa pun yang ingin kamu minta, mintalah demi jasa masa kanak-kanak-Ku dan tidak ada yang akan ditolak kepadamu', aku datang bersujud di hadapan-Mu memohon perlindungan-Mu. Berkatilah rumah dan keluargaku, lindungilah anak-anak di seluruh dunia, sembuhkanlah yang sakit, dan sediakanlah pekerjaan layak serta makanan bagi yang berkekurangan. Semoga senyum manis-Mu menerangi kegelapan kami dan tangan-Mu yang terbuka memeluk kami di saat pencobaan. Kanak-kanak Yesus yang Ilahi, berkatilah kami dan rajailah hati kami selamanya. Amin.",
+      "ritualesAsociados": "Rezar con devoción los domingos o en la novena del Divino Niño, encendiendo una veladora rosada o blanca y prometiendo una obra de caridad con los niños pobres.",
       "dir": "ltr"
     },
     {
@@ -59190,9 +59182,9 @@
     {
       "id": "CAT_VEN_JOSE_GREGORIO_HERNANDEZ",
       "numero": 2734,
-      "titulo": "Doa untuk Beato Dr. José Gregorio Hernández (Dokter Kaum Miskin",
+      "titulo": "Beato Dr. José Gregorio Hernández · Dokter Kaum Miskin, Kesembuhan dan Perdamaian",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Penyembuhan_Kedokteran_Dan_Kedamaian",
+      "categoriaIntencion": "Kesembuhan Medis & Orang Sakit",
       "estadosEmocionales": [
         "enfermo",
         "operacion_medica",
@@ -59200,14 +59192,10 @@
         "esperanzado"
       ],
       "idiomaLiturgicoOriginal": "Español venezolano",
-      "textoOriginal": "¡Oh Dios misericordioso, que concediste al Beato José Gregorio Hernández una inmensa ciencia médica unida a una profunda caridad para curar a los enfermos y servir a los necesitados! Te rogamos que, por su intercesión, derrames la salud sobre mi cuerpo y mi alma (mencionar al enfermo). Ilumina a los médicos que me atienden, guía sus manos y alivia todo sufrimiento. Amén.",
-      "guiaFonetica": "[O Dios mi-se-ri-kor-dio-so, que con-ce-dis-te al Be-a-to Jo-se Gre-go-rio Er-nan-des u-na in-men-sa sien-cia me-di-ca]",
-      "textoTraducido": "Ya Tuhan yang penuh belas kasihan, yang menganugerahkan kepada Beato José Gregorio Hernández ilmu kedokteran yang luar biasa yang dipadukan dengan kasih yang mendalam untuk menyembuhkan orang sakit dan melayani yang membutuhkan! Kami mohon, melalui syafaat Anda, untuk menyebarkan kesehatan ke seluruh tubuh dan jiwa saya (sebutkan yang sakit). Berikan pencerahan kepada para dokter yang merawat saya, bimbing tangan mereka dan meringankan segala penderitaan. Amin.",
-      "ritualesAsociados": {
-        "tipoContador": "novena_de_la_salud",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Música clásica suave y murmullo devoto en Isnotú"
-      },
+      "textoOriginal": "¡Oh Dios todopoderoso y misericordioso, que colmaste de ciencia, caridad heroica y santidad al Beato Dr. José Gregorio Hernández, Médico de los Pobres y Apóstol de la Paz! Tú que le concediste sanar a los enfermos con bondad entrañable y ver en cada paciente el rostro llagado de Cristo Redentor: escucha con piedad mi plegaria. Te pido por su intercesión la sanación de mis enfermedades y de quienes sufren en los hospitales y en sus hogares. Guía las manos de los médicos, conforta a los desahuciados y derrama tu paz sobre Venezuela y el mundo. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O Dios to-do-po-de-ro-so... que col-mas-te de cien-cia al Bea-to Dr. Jo-sé Gre-go-rio Her-nán-dez... A-mén.",
+      "textoTraducido": "O Allah Yang Mahakuasa dan Maharahim, yang melimpahi Beato Dr. José Gregorio Hernández, Dokter Kaum Miskin dan Rasul Perdamaian, dengan hikmat medis, amal heroik, dan kesucian! Engkau yang menganugerahkannya rahmat untuk menyembuhkan orang sakit dengan kebaikan hati yang tulus: dengarkanlah doaku dengan belas kasihan. Melalui perantaraannya, aku memohon kesembuhan atas penyakitku dan bagi semua orang yang menderita di rumah sakit dan di rumah. Bimbinglah tangan para dokter, hiburlah mereka yang putus asa, dan curahkanlah damai-Mu. Demi Yesus Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca ante la imagen del Dr. José Gregorio Hernández, pidiendo por una operación quirúrgica, sanación física o diagnóstico médico favorable.",
       "dir": "ltr"
     },
     {
@@ -59235,9 +59223,9 @@
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
       "numero": 2736,
-      "titulo": "Doa kepada Perawan Amal Cobre (Cachita",
+      "titulo": "Bunda Maria dari Cinta Kasih El Cobre (Cachita) · Pelindung Kuba, Harapan di Tengah Badai",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Perlindungan_Emigran_Y_Dulce_Auxilio",
+      "categoriaIntencion": "Perlindungan Badai & Harapan Keluarga",
       "estadosEmocionales": [
         "emigrante",
         "afligido",
@@ -59245,14 +59233,10 @@
         "hijo_devoto"
       ],
       "idiomaLiturgicoOriginal": "Español cubano",
-      "textoOriginal": "¡Virgen de la Caridad del Cobre, Madre amada de todos los cubanos y consuelo de los afligidos! Tú que fuiste encontrada en la Bahía de Nipe flotando sobre las aguas con el letrero: «Yo soy la Virgen de la Caridad». Calma las tempestades de mi vida, protege a quienes cruzan mares en busca de esperanza, derrama bendición sobre nuestros hogares y alcánzanos de tu Hijo la gracia de la libertad interior, la paz y el amor fraterno. Amén.",
-      "guiaFonetica": "[Vir-jen de la Ca-ri-dad del Co-bre, Ma-dre a-ma-da de to-dos los cu-ba-nos... Cal-ma las tem-pes-ta-des de mi vi-da]",
-      "textoTraducido": "Perawan Cinta Kasih Cobre, Bunda terkasih bagi seluruh rakyat Kuba dan penghiburan bagi mereka yang menderita! Anda yang ditemukan di Teluk Nipe mengambang di perairan dengan tanda: \"Akulah Perawan Amal.\" Tenangkan badai dalam hidupku, lindungi mereka yang menyeberangi lautan untuk mencari harapan, curahkan berkah ke rumah kami dan sampaikan kepada kami dari Putra-Mu rahmat kebebaSanto batin, kedamaian dan cinta persaudaraan. Amin.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_girasoles_o_tres_aves_marias",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Olas de Nipe, campanas del Cobre y guitarra criolla"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Caridad del Cobre, amada 'Cachita', Celestial Patrona y Reina de Cuba! Tú que sobre las embravecidas aguas de la Bahía de Nipe apareciste milagrosamente a los tres Juanes con el lema: 'Yo soy la Virgen de la Caridad': mira con amor compasivo a todos tus hijos. Sé faro de luz en medio de las tempestades de la vida; no permitas que naufrague nuestra fe, cura a nuestros enfermos, une a las familias y bendice al pueblo cubano y al mundo entero con libertad, paz y pan digno. Virgen de la Caridad, cúbrenos con tu manto dorado y llévanos a Jesús. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Ca-ri-dad del Co-bre, a-ma-da Ca-chi-ta... Yo soy la Vir-gen de la Ca-ri-dad... A-mén.",
+      "textoTraducido": "O Santa Perawan Cinta Kasih dari El Cobre, 'Cachita' yang tercinta, Pelindung Surgawi dan Ratu Kuba! Engkau yang di atas gelombang Teluk Nipe yang bergolak menampakkan diri secara ajaib kepada tiga pemuda dengan pesan: 'Akulah Perawan Cinta Kasih': pandanglah semua anak-anakmu dengan kasih penuh belas kasihan. Jadilah mercusuar terang di tengah badai kehidupan; jangan biarkan iman kami karam, sembuhkanlah yang sakit, satukanlah keluarga, dan berkatilah rakyat Kuba serta seluruh dunia dengan kebebasan, damai, dan rezeki yang layak. Bunda Cinta Kasih, naungilah kami dengan jubah emasmu dan hantarlah kami kepada Yesus. Amin.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela amarilla o blanca con girasoles frescos, pidiendo auxilio en dificultades extremas, protección familiar y caridad.",
       "dir": "ltr"
     },
     {
@@ -82212,9 +82196,9 @@
     {
       "id": "CAT_DOM_ALTAGRACIA_HIGUEY",
       "numero": 3758,
-      "titulo": "Permohonan kepada Bunda Maria dari Altagracia (Higüey",
+      "titulo": "Bunda Maria dari Altagracia (Higüey) · Pelindung dan Ibu Umat Dominika",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Perlindungan_Ibu_Dan_Rahmat_Tinggi",
+      "categoriaIntencion": "Perlindungan Keibuan & Damai Keluarga",
       "estadosEmocionales": [
         "devoto",
         "en_familia",
@@ -82222,14 +82206,10 @@
         "lleno_de_fe"
       ],
       "idiomaLiturgicoOriginal": "Español dominicano",
-      "textoOriginal": "¡Virgen de la Altagracia, Madre y Protectora amadísima del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús recién nacido sobre el pesebre: derrama la más alta gracia de Dios sobre nuestros hogares. Aleja las discordias, protege a nuestra juventud, bendice la tierra dominicana y mantén encendida en nuestras vidas la llama de la fe católica. Amén.",
-      "guiaFonetica": "[Vir-jen de la Al-ta-gra-cia, Ma-dre y Pro-tec-to-ra a-ma-di-si-ma]",
-      "textoTraducido": "Perawan Altagracia, Ibu terkasih dan Pelindung rakyat Dominika! Anda yang merenungkan dengan manisnya tak terhingga Bayi Yesus yang baru lahir di palungan: curahkan rahmat tertinggi Tuhan di rumah kami. Singkirkan perselisihan, lindungi generasi muda kita, berkati tanah Dominika dan jagalah api iman Katolik tetap menyala dalam hidup kita. Amin.",
-      "ritualesAsociados": {
-        "tipoContador": "tres_aves_marias_con_medalla_de_la_altagracia",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de la Basílica de Higüey y cántico devocional dominicano"
-      },
+      "textoOriginal": "¡Oh Santísima Virgen de la Altagracia, tierna y amorosa Madre y Protectora del pueblo dominicano! Tú que contemplas con infinita dulzura al Niño Jesús dormido en el pesebre bajo la luz de la estrella celestial: acoge nuestras vidas y familias bajo tu maternal amparo. Enséñanos a guardar en el corazón la Palabra de Dios, concédenos la salud, el pan de cada día y el amor fraterno en nuestros hogares. Defiende a nuestra nación de toda calamidad y haz que brille en nuestros pueblos la verdadera paz y justicia de tu divino Hijo. Virgen de la Altagracia de Higüey, ruega por nosotros. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen de la Al-ta-gra-cia... aco-ge nues-tras vi-das y fa-mi-lias ba-jo tu ma-ter-nal am-pa-ro... A-mén.",
+      "textoTraducido": "O Santa Perawan Maria dari Altagracia, Ibu dan Pelindung yang lembut dan penuh kasih bagi rakyat Dominika! Engkau yang memandang dengan kemanisan tak terhingga kepada Kanak-kanak Yesus yang tertidur di palungan di bawah cahaya bintang surgawi: terimalah hidup dan keluarga kami di bawah naungan keibuan-Mu. Ajarilah kami menyimpan Sabda Allah dalam hati kami, berilah kami kesehatan, rezeki harian, dan kasih persaudaraan di rumah kami. Lindungilah bangsa kami dari segala malapetaka dan pancarkanlah damai serta keadilan sejati Putra Ilahi-Mu. Bunda Maria dari Altagracia, doakanlah kami. Amin.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca o azul ante el cuadro de la Virgen de la Altagracia, pidiendo por la paz en el hogar, el bienestar de los hijos y la unión familiar.",
       "dir": "ltr"
     },
     {
@@ -94025,6 +94005,120 @@
       "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
       "textoTraducido": "Terpujilah Engkau, TUHAN Allah kami, Raja Semesta Alam, yang dalam kebaikan-Mu memberi makan seluruh dunia dengan kasih karunia, kemurahan, dan belas kasihan. Dia memberi makan kepada segala makhluk, sebab untuk selama-lamanya kasih setia-Nya. Karena kebaikan-Nya yang melimpah, kita tidak pernah berkekurangan, dan semoga kita tidak pernah kekurangan makanan untuk selama-lamanya, demi Nama-Nya yang agung; sebab Dialah Allah yang memelihara dan menopang semua orang, berbuat baik kepada semua orang, dan menyediakan makanan bagi segala ciptaan yang diciptakan-Nya. Terpujilah Engkau, TUHAN, yang memelihara semuanya. Amin.",
       "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
+      "dir": "ltr"
+    },
+    {
+      "id": "SENOR_DE_LOS_MILAGROS_LIMA_PERU",
+      "numero": 4275,
+      "titulo": "Tuhan Mukjizat dari Lima (Kristus Hitam) · Pelindung Peru, Perisai Gempa Bumi dan Kesembuhan",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Perlindungan Bencana & Kesembuhan",
+      "estadosEmocionales": [
+        "fe_inquebrantable",
+        "sanacion",
+        "proteccion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Señor de los Milagros, Cristo Moreno y amado Nazareno de Pachacamilla! Tú que permaneciste erguido e intacto en el humilde muro de adobe cuando la tierra tembló con furia: hoy nos postramos ante tu santa imagen revestidos con el hábito morado de la penitencia y el amor. Míranos con ojos de misericordia; aquieta los temblores de nuestra alma y los peligros que acechan a nuestras familias y a nuestra patria. Cura a nuestros enfermos, alivia a los agobiados por las deudas y el dolor, y danos un corazón puro para perdonar y amar. Señor de los Milagros, en Ti confiamos, por tu infinita cruz sálvanos y bendícenos. Amén.",
+      "guiaFonetica": "O Se-ñor de los Mi-la-gros, Cris-to Mo-re-no... a-quie-ta los tem-blo-res de nues-tra al-ma... A-mén.",
+      "textoTraducido": "O Tuhan Segala Mukjizat, Kristus Berkulit Gelap dan Orang Nazaret dari Pachacamilla yang terkasih! Engkau yang tetap berdiri tegak dan tak tersentuh di atas dinding tanah liat yang sederhana ketika bumi berguncang dahsyat: hari ini kami bersujud di hadapan gambar kudus-Mu mengenakan jubah ungu tobat dan kasih. Pandanglah kami dengan mata belas kasih; tenangkanlah kegentaran jiwa kami dan marabahaya yang mengancam keluarga serta tanah air kami. Sembuhkanlah yang sakit, hiburlah mereka yang berbeban berat, dan berilah kami hati yang murni untuk mengampuni dan mengasihi. Tuhan Mukjizat, kepada-Mu kami percaya; demi salib suci-Mu, selamatkanlah dan berkatilah kami. Amin.",
+      "ritualesAsociados": "Rezar en procesión o en el hogar encendiendo un cirio morado o blanco, vistiendo el cordón o hábito morado en señal de fe y penitencia.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SANTA_ROSA_DE_LIMA_PATRONA_AMERICA",
+      "numero": 4276,
+      "titulo": "Santa Rosa dari Lima · Santa Pertama Benua Amerika, Pelindung Peru dan Filipina",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Kemurnian Hati, Amal Kasih & Damai Keluarga",
+      "estadosEmocionales": [
+        "pureza",
+        "amor_divino",
+        "consuelo",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Gloriosa Santa Rosa de Lima, fragante rosa en el jardín de la Iglesia y primera flor de santidad de América! Tú que desde tu juventud te consagraste enteramente a Cristo, floreciendo en la penitencia, la oración constante y el servicio a los enfermos y desvalidos: enséñanos a amar a Dios sobre todas las cosas y a descubrir su rostro en los pobres. Alcánzanos la pureza de corazón, la fortaleza en el sufrimiento y la paz para nuestras familias. Sé la protectora celestial de nuestra patria y de todos los pueblos que te veneran, y condúcenos por senderos de caridad viva y santidad. Amén.",
+      "guiaFonetica": "Glo-rio-sa San-ta Ro-sa de Li-ma, fra-gan-te ro-sa en el jar-dín de la I-gle-sia... A-mén.",
+      "textoTraducido": "Santa Rosa dari Lima yang mulia, bunga mawar harum di taman Gereja dan bunga kesucian pertama di Benua Amerika! Engkau yang sejak masa muda mempersembahkan dirimu seutuhnya bagi Kristus, berkembang dalam tobat, doa tanpa henti, dan pelayanan penuh kasih kepada orang sakit dan kaum miskin: ajarilah kami mengasihi Allah di atas segala sesuatu dan menemukan wajah-Nya pada sesama yang menderita. Mohonkanlah bagi kami kemurnian hati, ketabahan dalam penderitaan, dan damai bagi keluarga kami. Jadilah pelindung surgawi bagi bangsa kami dan bimbinglah kami di jalan kasih dan kekudusan. Amin.",
+      "ritualesAsociados": "Rezar con rosas frescas o escribir una petición depositándola con fe, pidiendo pureza de intenciones, consuelo en el dolor y vocación espiritual.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_MARTIN_DE_PORRES_HUMILDAD_CARIDAD",
+      "numero": 4277,
+      "titulo": "Santo Martinus de Porres · Santo Kerendahan Hati, Kesembuhan dan Cinta Kasih Sejati",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Kerendahan Hati, Kesembuhan & Cinta Kasih",
+      "estadosEmocionales": [
+        "humildad",
+        "caridad",
+        "sanacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh bondadoso San Martín de Porres, Fray Escoba, santo de la humildad sincera y de la caridad sin límites! Tú que con santa sencillez barriste los claustros y acogiste con ternura infinita a los enfermos, a los marginados e incluso a las criaturas más pequeñas de la creación: míranos con amor fraterno. Aleja de nuestro corazón el orgullo y el egoísmo; alcánzanos de Dios la salud del cuerpo y del alma, la armonía en nuestros hogares y el pan necesario en nuestra mesa. San Martín bendito, une a los pueblos en paz y enséñanos a servir a nuestros hermanos con alegría y devoción. Amén.",
+      "guiaFonetica": "O bon-da-do-so San Mar-tín de Po-rres, Fray Es-co-ba... a-le-ja de nues-tro co-ra-zón el or-gu-llo... A-mén.",
+      "textoTraducido": "O Santo Martinus de Porres yang murah hati, santo kerendahan hati yang tulus dan amal kasih tanpa batas! Engkau yang dengan kesederhanaan suci menyapu biara dan merangkul dengan kelembutan tak terhingga mereka yang sakit, terpinggirkan, bahkan makhluk ciptaan terkecil: pandanglah kami dengan kasih persaudaraan. Jauhkanlah kesombongan dan keegoisan dari hati kami; mohonkanlah kesehatan jiwa dan raga, keharmonisan dalam keluarga, serta rezeki yang cukup bagi kami dari Allah. Santo Martinus yang terberkati, satukanlah bangsa-bangsa dalam damai dan ajarilah kami melayani sesama dengan sukacita dan ketulusan. Amin.",
+      "ritualesAsociados": "Rezar encendiendo una vela blanca y pidiendo por la salud de un enfermo, la reconciliación familiar y la provisión económica.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DEL_VALLE_VENEZUELA_MARINEROS",
+      "numero": 4278,
+      "titulo": "Bunda Maria dari Lembah (Vallita) · Pelindung Venezuela Timur, Perisai Pelaut dan Nelayan",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Perlindungan Pelaut & Damai Keluarga",
+      "estadosEmocionales": [
+        "proteccion",
+        "paz",
+        "esperanza",
+        "devocion_mariana"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Dulcísima Virgen del Valle, tierna 'Vallita', Reina y Patrona del Oriente Venezolano y Madre amada de los marineros y pescadores! Tú que en la Isla de Margarita derramas bendiciones infinitas y calmas las tempestades del mar y de la vida: acoge bajo tu manto protector a nuestras familias y a nuestra nación venezolana. Guía a los navegantes y trabajadores, protege los hogares de todo peligro, sana a nuestros enfermos y concédenos la gracia de vivir en paz, reconciliación y santa abundancia. Virgen del Valle, faro de amor y consuelo, ruega por nosotros. Amén.",
+      "guiaFonetica": "O Dul-cí-si-ma Vir-gen del Va-lle, tier-na Va-lli-ta... cal-mas las tem-pes-ta-des del mar y de la vi-da... A-mén.",
+      "textoTraducido": "O Perawan dari Lembah yang Paling Manis, 'Vallita' yang terkasih, Ratu dan Pelindung Venezuela Timur serta Bunda tercinta bagi para pelaut dan nelayan! Engkau yang di Pulau Margarita mencurahkan berkat tanpa batas dan menenangkan badai lautan dan kehidupan: lindungilah keluarga kami dan bangsa kami di bawah naungan mantel-Mu. Bimbinglah para pelaut dan pekerja, lindungilah rumah kami dari segala marabahaya, sembuhkanlah yang sakit, dan anugerahkanlah kami rahmat untuk hidup dalam damai, rekonsiliasi, dan kelimpahan suci. Bunda Maria dari Lembah, mercusuar kasih dan penghiburan, doakanlah kami. Amin.",
+      "ritualesAsociados": "Rezar con devoción encendiendo una vela blanca o azul pidiendo protección en el mar, en viajes acuáticos y bendición para la familia venezolana.",
+      "dir": "ltr"
+    },
+    {
+      "id": "VIRGEN_DE_COROMOTO_PATRONA_VENEZUELA",
+      "numero": 4279,
+      "titulo": "Bunda Maria dari Coromoto · Pelindung Nasional Venezuela, Terang Iman dan Rekonsiliasi",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Damai Nasional, Iman & Rekonsiliasi",
+      "estadosEmocionales": [
+        "fe_viva",
+        "esperanza",
+        "reconciliacion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh Santísima Virgen María, Madre de Dios y Señora de Coromoto, Celeste Patrona de Venezuela! Tú que en las selvas de Guanare te manifestaste radiante de luz al cacique y a su pueblo, invitándolos a renacer por las aguas del santo Bautismo: mira con ternura maternal a todos tus hijos venezolanos dentro y fuera de nuestra tierra. Sana las heridas de nuestra patria, aleja la discordia y el sufrimiento, fortalece nuestra fe y abre caminos de libertad, justicia y prosperidad. Bella Señora de Coromoto, renueva la fe en toda la extensión de nuestra patria y del mundo entero. Amén.",
+      "guiaFonetica": "O San-tí-si-ma Vir-gen Ma-rí-a, Se-ño-ra de Co-ro-mo-to... re-nue-va la fe en nues-tra pa-tria... A-mén.",
+      "textoTraducido": "O Santa Perawan Maria, Bunda Allah dan Ratu Coromoto, Pelindung Surgawi Venezuela! Engkau yang di hutan Guanare menampakkan diri bercahaya gemilang kepada kepala suku dan rakyatnya: pandanglah dengan kelembutan keibuan semua anak-anak Venezuela di tanah air maupun di perantauan. Sembuhkanlah luka-luka bangsa kami, jauhkanlah perselisihan dan penderitaan, teguhkanlah iman kami, serta bukakanlah jalan menuju kebebasan, keadilan, dan kemakmuran. Bunda Coromoto yang jelita, perbaruilah iman di seluruh negeri kami dan di seluruh dunia. Amin.",
+      "ritualesAsociados": "Rezar con devoción mariana nacional encendiendo velas tricolores o blancas, pidiendo por la paz, la reconciliación y el bienestar de las familias venezolanas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_LAZARO_BENDITO_SALUD_LEPROSOS",
+      "numero": 4280,
+      "titulo": "Santo Lazarus yang Terberkati · Pelindung Penderita Sakit Parah, Penyembuhan Luka dan Kelegaan",
+      "tradicion": "cristianismo",
+      "categoriaIntencion": "Kesembuhan Penyakit Parah & Kesehatan",
+      "estadosEmocionales": [
+        "sanacion",
+        "esperanza",
+        "compasion",
+        "fe_viva"
+      ],
+      "idiomaLiturgicoOriginal": "es",
+      "textoOriginal": "¡Oh glorioso y bendito San Lázaro, amigo entrañable de Jesús y protector compasivo de los enfermos, los llagados y los desamparados! Tú que conociste en carne propia el dolor de la aflicción y la gloria de la resurrección por el poder divino de Cristo: dígnate escuchar mi humilde súplica. Intercede ante el Señor por mi salud y la de mis seres queridos; alivia las enfermedades del cuerpo y del alma, cicatriza las heridas abiertas del dolor y líbranos de contagios, miserias y abandono. Concédenos la fortaleza para sobrellevar las pruebas con fe y la gracia de alcanzar la salud y la paz que tanto necesitamos. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "O glo-rio-so y ben-di-to San Lá-za-ro, a-mi-go en-tra-ña-ble de Je-sús... in-ter-ce-de por mi sa-lud... A-mén.",
+      "textoTraducido": "O Santo Lazarus yang mulia dan terberkati, sahabat akrab Yesus dan pelindung penuh belas kasih bagi orang-orang sakit, terluka, dan terlantar! Engkau yang mengalami sendiri derita kepedihan dan kemuliaan kebangkitan melalui kuasa ilahi Kristus: sudilah mendengarkan permohonan bersahajaku. Berdoalah di hadapan Tuhan bagi kesehatanku dan orang-orang yang kukasihi; ringankanlah penyakit raga dan jiwa, sembuhkanlah luka-luka derita, dan bebaskanlah kami dari wabah, kemiskinan, serta pengabaian. Berilah kami kekuatan untuk menanggung pencobaan dengan iman serta rahmat kesembuhan dan kedamaian. Demi Yesus Kristus Tuhan kami. Amin.",
+      "ritualesAsociados": "Rezar con fervor encendiendo una vela morada o amarilla, pidiendo sanación en enfermedades graves o crónicas y protección para los necesitados.",
       "dir": "ltr"
     }
   ]
