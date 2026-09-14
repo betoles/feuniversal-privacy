@@ -4,7 +4,7 @@
     "idioma": "ru",
     "nombreIdioma": "Русский (Russian)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Synodal-Orthodox-Liturgic-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "Святой Иуда Фаддей · Торжественное посвящение ума, сердца и жизни",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Svyatoy Iuda Faddéy, Apóstol Khristov i slávnyy Múchenik...]",
+      "textoTraducido": "Святой Иуда Фаддей, Апостол Христов и преславный Мученик, с благоговением и особой любовью желаю чтить тебя. Принимаю тебя как своего покровителя и защитника. Вверяю тебе душу и тело мое, все мои духовные и земные дела, а также благополучие моей семьи.\n\nПосвящаю тебе мой разум, дабы во всем он следовал свету веры; мое сердце, дабы хранил ты его чистым и исполненным любви к Иисусу и Пресвятой Деве Марии; мою волю, дабы она, подобно твоей, всегда пребывала в совершенном согласии с волей Божией.\n\nУсердно молю тебя: помоги мне побеждать дурные наклонности и искушения, удаляясь от всякого повода ко греху. Испроси мне благодать никогда не оскорблять Бога, верно исполнять обязанности моего звания и стяжать добродетели, необходимые для спасения души.\n\nМолись обо мне, святой мой Покровитель и скорый Помощник, дабы, вдохновляясь твоим примером и укрепляясь твоим предстательством, я сподобился провести жизнь свято, мирно отойти ко Господу и достичь Небесного Царства, где Бога любят и благодарят во веки веков. Аминь.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "Святой Иуда Фаддей · Заступник в безнадежных делах и Небесное обетование",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Pre-sláv-nyy A-pós-tol Gós-po-da ná-she-go I-i-sú-sa Khris-tá...]",
+      "textoTraducido": "Преславный Апостол Господа нашего Иисуса Христа, именуемый верными утешительным именем ЗАСТУПНИКА В ДЕЛАХ БЕЗНАДЕЖНЫХ, яви мне твое могущественное предстательство, облегчив тягчайшую нужду, в которой я нахожусь.\n\nРади близкого родства твоего с Господом нашим Иисусом Христом, ради лишений и трудов, которые ты претерпел за Него, ради славной мученической кончины, которую ты с радостью принял из любви к Нему, и ради обетования, данного Спасителем святой Бригитте, утешать всех прибегающих к твоему святому заступничеству: испроси мне у Бога всякого милосердия и Пречистой Матери Его благодать, о которой с безграничным упованием молю тебя, твердо веруя, что ты умолишь о ней, если сие послужит к славе Божией и ко спасению души моей. Да будет так.\n\nСлавный Апостол святой Иуда Фаддей, молись о нас. (Повторить трижды)\n\nВо имя Отца, и Сына, и Святого Духа. Аминь.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "Святой Иуда Фаддей · Ежемесячное посещение и молитва (28 числа каждого месяца)",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Pochtím ná-she-go Po-kro-ví-te-lya, Svyat-ó-go I-ú-du Fad-dé-ya, is-kren-ney Is-po-ved-yu...]",
+      "textoTraducido": "Почтим нашего Заступника, святого Иуду Фаддея, искренней исповедью и благоговейным Святым Причастием, дабы стать угоднее Богу и скорее получить через святого Апостола просимую благодать.\n\nМилосердный покровитель мой, святой Иуда Фаддей, приявший от Спасителя благодать апостольского призвания, дабы следовать за Ним в совершенствовании добродетелей и проповеди Евангелия; ты, чье слово и пример трогали сердца, творивший чудеса силой свыше и отдавший жизнь за веру: прими мою сердечную благодарность за сии великие дары и милостиво прими сие молитвенное посещение, которое совершаю в благодарение за полученные милости и ради испрошения новой помощи твоим заступничеством.\n\nИспроси мне горячую любовь к Божественному Учителю, дабы укрепляла она меня в добродетели, утешала в скорбях и поддерживала упование в часы испытаний. Не допусти, дабы сомнение в Божьем Промысле отдалило меня от любви и служения Господу. Подай мне твою защиту, святой Иуда, и исходатайствуй все необходимое для моего временного и вечного спасения. Аминь.\n\n(Прочитайте трижды «Слава Отцу и Сыну и Святому Духу» в честь Пресвятой Троицы и с верою изложите свое прошение).",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "Святой Иуда Фаддей · Помощь в трудных обстоятельствах и защита семьи",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[O sláv-nyy A-pós-tol Svyat-óy I-ú-da Fad-déy, vér-nyy rab i drug I-i-sú-sa...]",
+      "textoTraducido": "О преславный Апостол святой Иуда Фаддей, верный слуга и друг Иисуса! Имя предателя было причиною того, что многие забыли тебя, но Святая Церковь чтит и призывает тебя во всем мире как покровителя в делах трудных и безнадежных.\n\nМолись обо мне, дабы сподобился я небесного утешения и помощи во всех моих нуждах, скорбях и страданиях, особенно в этой нужде (назовите ваше прошение), и дабы мог я славить Бога вместе с тобою и всеми избранными во веки веков.\n\nОбещаю тебе, блаженный Апостол, всегда помнить об этом великом благодеянии, непрестанно чтить тебя как моего особого и всесильного заступника и всеми силами распространять благоговейное почитание твоего имени. Аминь.\n\nКраткое молитвенное воззвание: Славный Апостол святой Иуда Фаддей, ради любви к Иисусу и Марии, услышь мою молитву, защити мою семью и всех, кто с верою и упованием призывает святое имя твое.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "Святой Иуда Фаддей · Молитва о достойной работе, благополучии и достатке семьи",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Svyat-óy I-ú-da Fad-déy, ho-dá-tay vo vsiá-koy trúd-noy bed-é...]",
+      "textoTraducido": "Святой Иуда Фаддей, скорый помощник и предстатель во всяком трудном деле: испроси мне достойную работу, на которой я мог бы всецело реализовать свои силы и где семья моя ни в чем не терпела бы нужды. Помоги мне сохранить ее с миром и честью, несмотря на любые неблагоприятные обстоятельства.\n\nДаруй мне преуспевать в труде, совершенствуя способности и пребывая в добром здравии, бодрости и душевной чистоте. И помоги мне каждый день быть полезным и милосердным к ближним моим.\n\nСоединяю сие прошение с молитвами Святого Семейства из Назарета, коему ты являешься благочестивым сродником, и обещаю распространять почитание твоего святого имени в знак искренней признательности за твои благодеяния. Аминь.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "Святой Иуда Фаддей · Утешение и скорая помощь одиноким и скорбящим",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Svyat-óy A-pós-tol I-ú-da, vér-nyy slu-gá i drug I-i-sú-sa...]",
+      "textoTraducido": "Святой Апостол Иуда Фаддей, верный слуга и друг Иисуса! Святая Церковь вселенски чтит и призывает тебя как покровителя в трудных и безнадежных обстоятельствах. Помолись обо мне, ибо пребываю я в одиночестве, скорби и беззащитности.\n\nУсердно молю тебя: воспользуйся особым даром, данным тебе свыше, подавать скорую и явную помощь там, где почти угасла всякая земная надежда. Приди мне на помощь в этой великой беде, дабы обрел я утешение, мир и небесную отраду во всех скорбях моих, особенно в сем прошении... (здесь сокровенно изложите нужду), и дабы сподобился я вместе с тобою и всеми святыми прославлять Бога во веки веков.\n\nБлагодарю тебя, славный святой Иуда, и обещаю никогда не забывать этой милости, всегда чтить тебя как моего великого заступника и с сердечной признательностью содействовать распространению почитания святого имени твоего. Аминь.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

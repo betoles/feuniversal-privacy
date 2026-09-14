@@ -4,7 +4,7 @@
     "idioma": "ar",
     "nombreIdioma": "العربية (Arabic)",
     "dir": "rtl",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Balaghah-Ecumenical-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "القديس يهوذا تداوس الرسول · تكريس مهيب للعقل والقلب والحياة",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Al-Qiddīs Yahūdhā Taddāwus, Rasūl al-Masīḥ wa-sh-Shahīd al-Majīd...]",
+      "textoTraducido": "يا أيها القديس يهوذا تداوس، رسول المسيح والشهيد المجيد، أرغب في إكرامك بإكرام وتقوى خاصة. أتخذك لي شفيعاً وحامياً. أستودعك نفسي وجسدي، وجميع مصالحي الروحية والزمنية، ومصالح عائلتي وأحبائي.\n\nأكرس لك عقلي لكي يسلك في كل شيء بنور الإيمان الحي؛ وأكرس لك قلبي لكي تحفظه نقياً وممتلئاً بحب يسوع ومريم؛ وإرادتي لكي تظل، مثل إرادتك، متحدة دوماً بمشيئة الله القدوسة.\n\nأتوسل إليك أن تعينني على التغلب على ميولي الرديئة وتجاربي، متجنباً كل مناسبات الخطيئة. استمد لي نعمة ألا أهين الله بعد أبداً، وأن أتمم بأمانة جميع واجبات حالتي الحياتية وأمارس الفضائل اللازمة للخلاص.\n\nتشفع من أجلي يا شفيعي القديس وعوني، حتى إذا ما اقتديت بمثالك الصالح واعتضدت بشفاعتك المقتدرة، أستطيع أن أحيا حياة مقدسة، وأنال ميتة صالحة ومباركة، وأبلغ مجد السماء الأبدي حيث يُحب الله ويُشكر إلى أبد الآبدين. آمين.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "القديس يهوذا تداوس الرسول · شفيع الحالات المستعصية والميؤوس منها والوعد السماوي",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Yā Rasūlan Majīdan li-Rabbinā Yasū' al-Masīḥ...]",
+      "textoTraducido": "يا رسول ربنا يسوع المسيح المجيد جداً، يا من يهتف لك المؤمنون باللقب العذب: شَفِيعُ القَضَايَا المَيْؤُوسِ مِنْهَا وَالمُسْتَعْصِيَة، اجعلني أشعر بقوة شفاعتك القديرة وخفف عني هذه الشدة البالغة التي أجد نفسي فيها.\n\nبحق القرابة الوثيقة التي جعلتك نسيباً لربنا يسوع المسيح، وبحق الحرمان والمشقات التي كابدتها من أجله، وبحق الاستشهاد البطولي الذي تقبلته بفرح حباً باسمه القدوس، وبحق الوعد الذي بذله المخلص الإلهي للقديسة بريجيت بأن يعزي المؤمنين الذين يلجأون إلى شفاعتك المقتدرة: استمد لي من إله المراحم ومن أمه القديسة النعمة التي أطلبها منك بثقة لا حدود لها، يا أبي الحنون، وأنا على يقين من أنك ستنالها لي ما دامت تؤول لمجد الله ولخير نفسي وخلاصها. آمين.\n\nأيها الرسول المجيد القديس يهوذا تداوس، تشفع لأجلنا. (تُكرر 3 مرات)\n\nباسم الآب والابن والروح القدس، الإله الواحد. آمين.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "القديس يهوذا تداوس الرسول · زيارة ودعاء يوم 28 من كل شهر",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Li-nukarrim hāmiyānā al-Qiddīs Yahūdhā Taddāwus bi-i'tirāfin ṣāliḥ...]",
+      "textoTraducido": "لنكرم شفيعنا وحامينا، القديس يهوذا تداوس، باعتراف نقي ومناولة تقية مقدسة؛ فبذلك نصير أكثر مرضاة لله وننال من الرسول القديس النعمة التي نلتمسها بسهولة وبركة.\n\nيا حاميي الرحيم، القديس يهوذا تداوس، الذي نلت من الفادي نعمة الدعوة الرسولية لتتبعه عن قرب في ممارسة الفضائل وإعلان إنجيله؛ يا من امتلكت موهبة تحريك القلوب بتعاليمك ومثالك الصالح، وقوة صنع العجائب، وبذلت حياتك دفاعاً وشهادة للإيمان الحق: تقبل شكري وتهنئتي على هذه الامتيازات العظيمة، واقبل برضى هذه الزيارة التي أقوم بها شكراً على النعم الممنوحة وطلباً لنعم جديدة بشفاعتك القدوسة.\n\nاستمد لي حباً عظيماً وثابتاً للمعلم الإلهي، يشددني في مسيرة الفضيلة، ويعزيني في شدائدي، ويسند رجائي حين تمحصني المحن. لا تسمح أبداً لقلة الثقة بالعناية الإلهية أن تبعدني عن محبة الله وخدمته. امنحني حمايتك، يا قديس يهوذا، واستمد لي ما أحتاجه وأطلبه لخيري الزمني والأبدي. آمين.\n\n(يُتلى المجد للآب 3 مرات إكراماً للثالوث الأقدس، ثم تُرفع النية والدعاء بانسحاق قلب).",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "القديس يهوذا تداوس الرسول · غوث في القضايا الصعبة وحماية العائلة",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[Yā Rasūlan Majīdan al-Qiddīs Yahūdhā Taddāwus, Khādiman Amīnan wa-Ṣadīqan li-Yasū'...]",
+      "textoTraducido": "يا رسول المسيح المجيد، القديس يهوذا تداوس، الخادم الأمين والصديق الحبيب ليسوع! إن اسم الخائن كان سبباً في أن ينساك كثيرون، لكن الكنيسة المقدسة تكرمك وتستغيث بك في العالم أجمع بصفتك شفيع القضايا الصعبة والأمور الميؤوس منها.\n\nتشفع من أجلي لكي أنال تعزيات السماء وعونها في جميع شدائدي ومحني وآلامي، وبخاصة في هذه الحاجة الملحة (تُذكر هنا النية)، ولكي أستطيع أن أبارك الله بصحبتك ومع سائر المختارين إلى أبد الآبدين.\n\nإني أعدك، أيها الرسول المغبوط، بأن أذكر دوماً هذا الفضل العظيم؛ ولن أكف أبداً عن إكرامك كشَفيعي الخاص والمقتدر، وبأن أبذل كل ما في وسعي لنشر تكريمك وإعلان بركتك. آمين.\n\nصلاة سريعة (ابتهال): أيها الرسول المجيد، القديس يهوذا تداوس، حباً بيسوع ومريم، استمع صلاتي واحمِ عائلتي وجميع الذين يستغيثون بك بحرارة وتقوى.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "القديس يهوذا تداوس الرسول · دعاء لطلب عمل كريم ورزق وبركة للأسرة",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Yā Qiddīsa Yahūdhā Taddāwus, yā mushaffa'an fī kulli amrin 'asīr...]",
+      "textoTraducido": "يا قديس يهوذا تداوس، يا شفيعاً ومغيثاً في كل مشكلة مستعصية: استمد لي عملاً شريفاً وكريماً أحقق فيه إنسانيتي وكرامتي، وأوفر به لعائلتي كل ما تحتاجه في شتى مجالات الحياة. وامنحني النعمة لأحافظ عليه بثبات وسلام رغم كل الظروف المعاكسة.\n\nوفقني لأتقدم فيه باستمرار مرتقياً في كفاءتي ومتمتعاً بالصحة والعافية والقوة والنزاهة. واجعلني يوماً بعد يوم نافعاً ومحباً وخادماً لكل من هم حولي.\n\nإني أضم تضرعي هذا إلى شفاعة العائلة المقدسة في الناصرة، التي أنت نسيبها المبجل، وأعد بنشر تكريمك عربوناً لشكر قلبي الخالص على إحساناتك وفيض نعمك. آمين.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "القديس يهوذا تداوس الرسول · عزاء وغوث عاجل لمن هم في عزلة ووحدة",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Yā Qiddīsa Yahūdhā al-Rasūl, Khādiman Amīnan wa-Ṣadīqan li-Yasū'...]",
+      "textoTraducido": "أيها الرسول القديس يهوذا، الخادم الأمين والصديق الحبيب ليسوع! إن الكنيسة المقدسة تكرمك وتستغيث بك في أقطار الأرض كافة بصفتك شفيع الحالات الصعبة والميؤوس منها. تشفع من أجلي، فإني وحيد، حزين وبلا معين أرضي.\n\nأتوسل إليك أن تستخدم ذلك الامتياز الفريد الممنوح لك، في إغاثة المحتاجين عاجلاً وعياناً حيث كاد كل رجاء بشري أن ينقطع. هلمّ إلى معونتي في هذه الحاجة الماسة، لكي أنال التعزية والسلام والغوث السماوي في جميع محني وشدائدي، لا سيما في هذا الأمر الخاص... (تُذكر هنا السؤلة بقلب خاشع)، ولكي أسبح الله بصحبتك ومع جميع القديسين إلى الأبد.\n\nإني أشكرك، أيها القديس المجيد يهوذا، وأعد بألا أنسى هذا الإحسان العظيم، وأن أكرمك دوماً كشَفيعي القوي والمحب، وأن أبذل كل جهدي بامتنان لإنماء تكريمك المبارك في العالم. آمين.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "rtl"
     }

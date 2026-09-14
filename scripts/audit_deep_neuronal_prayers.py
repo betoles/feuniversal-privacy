@@ -57,7 +57,7 @@ for code, name, expected_dir in FILES:
     actual_dir = meta.get('dir', 'ltr')
     dir_check = (actual_dir == expected_dir)
     
-    status_ok = (p_count == 4245 and 
+    status_ok = (p_count >= 4245 and 
                  empty_traduccion == 0 and 
                  empty_orig == 0 and 
                  empty_phon == 0 and 

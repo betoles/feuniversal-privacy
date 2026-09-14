@@ -4,7 +4,7 @@
     "idioma": "id",
     "nombreIdioma": "Bahasa Indonesia",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Bahasa-Rohani-Kemenag-LAI-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "Santo Yudas Tadeus · Penyerahan Khidmat Pikiran, Hati dan Kehidupan",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[San-to Yu-das Ta-de-us, Ra-sul Kris-tus dan Mar-tir yang mu-lia...]",
+      "textoTraducido": "Santo Yudas, Rasul Kristus dan Martir yang mulia, aku berhasrat menghormatimu dengan devosi yang istimewa. Aku menyambutmu sebagai pelindung dan pembelaku. Kupercayakan jiwa dan ragaku, segala kepentingan rohani dan duniaku, serta kepentingan seluruh keluargaku ke dalam perlindunganmu.\n\nKukuduskan pikiranku kepadamu agar dalam segala hal berjalan dalam terang iman; hatiku agar kau jaga tetap murni dan penuh kasih kepada Yesus dan Maria; kehendakku agar, seperti kehendakmu, senantiasa bersatu seutuhnya dengan kehendak Allah yang kudus.\n\nAku memohon pertolonganmu agar mampu menguasai kecenderungan buruk dan godaan, serta menjauhi segala kesempatan berbuat dosa. Perolehkanlah bagiku rahmat untuk tidak pernah lagi menyakiti hati Allah, setia menjalankan segala kewajiban hidupku, dan mengamalkan kebajikan-kebajikan yang perlu bagi keselamatanku.\n\nDoakanlah aku, Pelindungku yang kudus dan penolongku yang setia, agar dengan terilhami oleh teladanmu dan dibantu oleh perantaraanmu, aku dapat menjalani hidup yang suci, memperoleh kematian yang berbahagia, dan meraih kemuliaan Surga yang abadi di mana Allah dikasihi dan dimuliakan selama-lamanya. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "Santo Yudas Tadeus · Pembela Perkara Mustahil dan Janji Surgawi",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Ra-sul Tu-han ki-ta Ye-sus Kris-tus yang pa-ling mu-lia...]",
+      "textoTraducido": "Rasul yang amat mulia dari Tuhan kita Yesus Kristus, yang diserukan oleh kaum beriman dengan gelar yang manis: PEMBELA PERKARA YANG MUSTAHIL DAN PUTUS ASA, buatlah aku merasakan kuasa perantaraanmu yang agung dengan meringankan kesulitan dan kesesakan berat yang kini kuhadapi.\n\nDemi hubungan kekerabatan yang erat yang menjadikanmu sepupu Tuhan kita Yesus Kristus, demi penderitaan dan keletihan yang kautanggung demi Dia, demi kemartiran heroik yang kaurangkul dengan sukacita demi kasih-Nya, dan demi janji yang diberikan oleh Juru Selamat Ilahi kepada Santa Brigita untuk menghibur kaum beriman yang memohon pertolongan perantaraanmu yang penuh kuasa: perolehkanlah bagiku dari Allah segala kerahiman dan dari Bunda-Nya yang Tersuci rahmat yang kupohonkan kepadamu dengan kepercayaan tanpa batas, ya pelindungku yang penuh kebaikan, dengan kepastian teguh bahwa engkau akan mengabulkannya bagiku sepanjang itu berkenan bagi kemuliaan Allah dan keselamatan jiwaku. Amin.\n\nRasul yang mulia Santo Yudas Tadeus, doakanlah kami. (Ulangi 3 kali)\n\nDalam nama Bapa dan Putra dan Roh Kudus. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "Santo Yudas Tadeus · Ziarah dan Doa Bulanan (Tanggal 28 Setiap Bulan)",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Ma-ri-lah ki-ta meng-hor-ma-ti Pe-lin-dung ki-ta, San-to Yu-das Ta-de-us...]",
+      "textoTraducido": "Marilah kita menghormati Pelindung kita, Santo Yudas Tadeus, dengan Pengakuan Dosa yang tulus dan Komuni Kudus yang bernyala-nyala, agar kita semakin berkenan kepada Allah dan memperoleh rahmat yang kita pohonkan melalui Rasul Kudus ini dengan lebih mudah.\n\nPelindungku yang penuh kemurahan hati, Santo Yudas Tadeus, yang menerima dari Sang Juru Selamat rahmat panggilan kerasulan untuk mengikuti-Nya dari dekat dalam pengamalan kebajikan dan pewartaan Injil; yang dianugerahi karunia untuk menggerakkan hati manusia melalui ajaran dan teladanmu, kuasa untuk mengerjakan mukjizat, serta mempersembahkan hidupmu demi membela dan bersaksi bagi Iman: terimalah pujian dan rasa syukurku atas segala hak istimewa yang agung ini, dan sudilah menerima kunjungan doa yang kubawakan ini sebagai ucapan terima kasih atas kemurahan yang telah kuterima serta untuk memohonkan rahmat-rahmat baru melalui perantaraan kudusmu.\n\nPerolehkanlah bagiku kasih yang mendalam kepada Sang Guru Ilahi, yang menguatkanku dalam jalan kebajikan, menghiburku dalam kesesakan, dan menopang harapanku saat kemalangan mengujiku. Jangan pernah biarkan kurangnya kepercayaan pada Penyelenggaraan Ilahi menjauhkanku dari kasih dan pengabdian kepada Allah. Berikanlah perlindunganmu kepadaku, ya Santo Yudas, dan perolehkanlah bagiku apa yang kubutuhkan demi kebaikan jasmani dan abadiku. Amin.\n\n(Doakan tiga kali Kemuliaan kepada Bapa untuk menghormati Tritunggal Mahakudus, lalu sampaikan permohonan pribadi).",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "Santo Yudas Tadeus · Pertolongan Perkara Sukar dan Perlindungan Keluarga",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[O Ra-sul yang mu-lia San-to Yu-das Ta-de-us, hamba yang se-tia dan sa-ha-bat Ye-sus...]",
+      "textoTraducido": "O Rasul yang mulia Santo Yudas Tadeus, hamba yang setia dan sahabat Yesus! Nama sang pengkhianat telah menyebabkan engkau dilupakan oleh banyak orang, namun Gereja yang Kudus menghormatimu dan menyerukan namamu di seluruh dunia sebagai pelindung perkara-perkara yang sukar dan tanpa harapan.\n\nDoakanlah aku agar aku beroleh penghiburan dan pertolongan dari surga dalam segala kebutuhan, pencobaan, dan penderitaanku, khususnya dalam kesulitan ini (sebutkan permohonanmu di sini), dan agar aku dapat memuji Allah bersamamu dan bersama semua orang pilihan sepanjang segala masa.\n\nAku berjanji kepadamu, ya Rasul yang terberkati, untuk senantiasa mengingat kemurahan besar ini; aku tidak akan pernah berhenti menghormatimu sebagai pelindungku yang istimewa dan penuh kuasa, serta berusaha sekuat dayaku untuk menyebarluaskan devosi kepadamu. Amin.\n\nDoa Singkat (Aspirasi): Rasul yang mulia Santo Yudas Tadeus, demi kasih kepada Yesus dan Maria, dengarkanlah doaku, lindungilah keluargaku, dan naungilah semua orang yang berseru kepadamu dengan penuh iman.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "Santo Yudas Tadeus · Doa Memohon Pekerjaan Layak, Kemajuan dan Nafkah Keluarga",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[San-to Yu-das Ta-de-us, pe-ran-ta-ra da-lam se-ti-ap ma-sa-lah su-kar...]",
+      "textoTraducido": "Santo Yudas Tadeus, pengantara dalam setiap masalah yang sukar: perolehkanlah bagiku pekerjaan yang layak di mana aku dapat mengembangkan diriku seutuhnya sebagai manusia dan di mana keluargaku tidak kekurangan apa pun yang diperlukan dalam segala segi kehidupan. Buatlah aku mampu mempertahankannya dengan damai dan martabat terlepas dari situasi dan persoalan yang merintangi.\n\nSemoga aku maju dalam pekerjaan tersebut, senantiasa meningkatkan keahlianku dan menikmati kesehatan, kekuatan, serta ketulusan hati. Dan semoga dari hari ke hari aku berusaha menjadi berguna dan penuh kasih bagi sesama di sekitarku.\n\nKusatukan permohonan sederhanaku ini dengan perantaraan Keluarga Kudus dari Nazaret, yang kepadamu terikat hubungan sanak saudara yang kudus, dan aku berjanji untuk menyebarkan devosimu sebagai ungkapan rasa syukurku yang tulus atas segala kemurahanmu. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "Santo Yudas Tadeus · Penghiburan dan Pertolongan bagi Mereka yang Sendiri dan Putus Asa",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[San-to Ra-sul Yu-das, ham-ba yang se-tia dan sa-ha-bat Ye-sus...]",
+      "textoTraducido": "Santo Rasul Yudas, hamba yang setia dan sahabat Yesus! Gereja yang Kudus menghormati dan menyerukan namamu di seluruh dunia sebagai pelindung perkara-perkara yang sukar dan tanpa harapan. Doakanlah aku, karena aku sedang mengalami kesepian, kedukaan, dan ketiadaan pertolongan manusiawi.\n\nAku memohon kepadamu agar mempergunakan hak istimewa yang dianugerahkan kepadamu, yaitu menolong dengan segera dan nyata manakala hampir segala harapan manusiawi telah sirna. Datanglah menolongku dalam kebutuhan yang mendesak ini, agar aku menerima penghiburan, damai sejahtera, dan bantuan surga dalam segala penderitaan dan dukacitaku, khususnya dalam permohonan ini... (sebutkan permohonan batinmu di sini), dan agar aku dapat memuliakan Allah bersamamu dan bersama semua orang kudus untuk selama-lamanya.\n\nAku berterima kasih kepadamu, ya Santo Yudas yang mulia, dan aku berjanji untuk tidak pernah melupakan kebaikan besar ini, senantiasa menghormatimu sebagai pelindungku yang perkasa, dan dengan penuh rasa syukur berikhtiar memajukan devosimu di dunia. Amin.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

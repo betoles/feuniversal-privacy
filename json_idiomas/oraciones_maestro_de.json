@@ -4,7 +4,7 @@
     "idioma": "de",
     "nombreIdioma": "Deutsch (German)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Lutheran-Kanonisch-Majestaetisch-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "Hl. Judas Thaddäus · Feierliche Weihe des Geistes, des Herzens und des Lebens",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Zankt Yú-das Tad-dä-us, A-pós-tel Krís-ti unt glor-rye-her Mär-tü-rer...]",
+      "textoTraducido": "Heiliger Judas Thaddäus, Apostel Christi und ruhmreicher Märtyrer, ich möchte dich mit besonderer Hingabe ehren. Ich erwähle dich zu meinem Fürsprecher und Beschützer. Deiner Fürsorge empfehle ich meine Seele und meinen Leib, alle meine geistigen und zeitlichen Anliegen sowie die meiner Familie.\n\nIch weihe dir meinen Geist, damit er in allem im Lichte des Glaubens wandle; mein Herz, damit du es rein und voll Liebe zu Jesus und Maria bewahrst; meinen Willen, damit er, gleich dem deinen, stets mit dem heiligen Willen Gottes vereint sei.\n\nIch flehe dich an, hilf mir, alle bösen Neigungen und Versuchungen zu beherrschen und jede Gelegenheit zur Sünde zu meiden. Erbitte mir die Gnade, Gott niemals mehr zu beleidigen, die Pflichten meines Standes treu zu erfüllen und die zur Erlösung notwendigen Tugenden zu üben.\n\nBitte für mich, mein heiliger Schutzpatron und meine Zuflucht, damit ich, ermutigt durch dein Beispiel und gestützt durch deine Fürsprache, ein heiliges Leben führe, eines seligen Todes sterbe und die ewige Herrlichkeit des Himmels erlange, wo Gott ewig geliebt und gepriesen wird. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "Hl. Judas Thaddäus · Fürsprecher in aussichtslosen Fällen und Himmlische Verheißung",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Ruhm-vol-ler A-pós-tel un-se-res Herrn Yé-su Krís-ti...]",
+      "textoTraducido": "Ruhmreichster Apostel unseres Herrn Jesus Christus, von den Gläubigen mit dem trostreichen Titel FÜRSPRECHER IN AUSSICHTSLOSEN FÄLLEN angerufen: lass mich deine mächtige Fürbitte erfahren und lindere die übergroße Not, in der ich mich befinde.\n\nDurch das enge Band der Verwandtschaft, das dich zum Vetter unseres Herrn Jesus Christus machte, durch die Entbehrungen und Mühen, die du um Seinetwillen ertragen hast, durch das heroische Martyrium, das du aus Liebe zu Ihm freudig auf dich nahmst, und durch die Verheißung, die der göttliche Heiland der heiligen Birgitta gab, jene Gläubigen zu trösten, die deine Fürbitte anrufen: erbitte mir vom Gott aller Erbarmung und von Seiner heiligsten Mutter die Gnade, um die ich dich mit grenzenlosem Vertrauen anflehe, voll Zuversicht, dass du sie mir erlangen wirst, sofern sie zur Ehre Gottes und zum Heil meiner Seele gereicht. Amen.\n\nGlorreicher Apostel, heiliger Judas Thaddäus, bitte für uns. (Dreimal wiederholen)\n\nIm Namen des Vaters und des Sohnes und des Heiligen Geistes. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "Hl. Judas Thaddäus · Monatliche Andacht und Besuch (am 28. jedes Monats)",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Lass uns un-se-ren Be-schüt-zer, den hei-li-gen Yú-das Tad-dä-us, mit ei-ner gu-ten Beich-te eh-ren...]",
+      "textoTraducido": "Ehren wir unseren Schutzpatron, den heiligen Judas Thaddäus, durch eine aufrichtige Beichte und eine andächtige Kommunion, um Gott wohlgefälliger zu werden und durch den heiligen Apostel die ersehnte Gnade leichter zu erlangen.\n\nMein gütiger Beschützer, heiliger Judas Thaddäus, der du vom Heiland die hohe Gnade der apostolischen Berufung empfangen hast, um Ihm in der Übung der Tugenden eng nachzufolgen und Sein Evangelium zu verkünden; der du die Herzen durch deine Lehre und dein Beispiel bewegtest, Wunder wirktest und dein Leben für die Verteidigung und das Zeugnis des Glaubens hingabst: nimm meinen tiefen Dank für diese erhabenen Vorrechte entgegen und nimm diesen Besuch wohlwollend an, den ich dir aus Dankbarkeit für empfangene Wohltaten und zur Erlangung neuer Gnaden durch deine Fürsprache erweise.\n\nErwirke mir eine tiefe Liebe zum göttlichen Meister, die mich in der Tugend stärkt, mich in meinen Leiden tröstet und meine Hoffnung aufrechterhält, wenn Prüfungen mich heimsuchen. Lass niemals zu, dass mangelndes Vertrauen in die göttliche Vorsehung mich von der Liebe und dem Dienst Gottes trennt. Schenke mir deinen Schutz, heiliger Judas, und erbitte mir, was ich für mein zeitliches und ewiges Wohl erflehe. Amen.\n\n(Bete drei Ehre sei dem Vater zu Ehren der Heiligsten Dreifaltigkeit und trage deine persönliche Bitte vor).",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "Hl. Judas Thaddäus · Beistand in schweren Anliegen und Schutz der Familie",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[O ruhm-rei-cher A-pós-tel hei-li-ger Yú-das Tad-dä-us, treu-er Die-ner und Freund Yé-su...]",
+      "textoTraducido": "O ruhmreicher Apostel, heiliger Judas Thaddäus, treuer Diener und Freund Jesu! Der Name des Verräters war die Ursache, dass du von vielen vergessen wurdest, doch die Heilige Kirche ehrt und ruft dich allüberall als Patron der schweren und verzweifelten Anliegen an.\n\nBitte für mich, auf dass ich den Trost und den Beistand des Himmels in all meinen Nöten, Bedrängnissen und Leiden empfange, besonders in dieser Not (hier die Bitte nennen), und damit ich Gott in deiner Gemeinschaft und mit allen Erwählten in Ewigkeit preisen möge.\n\nIch verspreche dir, o seliger Apostel, dieser großen Wohltat stets eingedenk zu sein; niemals will ich aufhören, dich als meinen besonderen und mächtigen Fürsprecher zu ehren und alles in meinen Kräften Stehende zu tun, um deine Andacht zu verbreiten. Amen.\n\nStoßgebet: Glorreicher Apostel, heiliger Judas Thaddäus, um der Liebe zu Jesus und Maria willen, erhöre mein Gebet und beschütze meine Familie und alle, die dich voll Vertrauen anrufen.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "Hl. Judas Thaddäus · Gebet um würdige Arbeit, Gedeihen und Unterhalt der Familie",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Hei-li-ger Yú-das Tad-dä-us, Für-bit-ter in al-len schwe-ren Nö-ten...]",
+      "textoTraducido": "Heiliger Judas Thaddäus, mächtiger Fürsprecher in allen schwierigen Lebenslagen: erbitte mir eine würdige Arbeit, in der ich mich als Mensch voll entfalten kann und in der es meiner Familie an nichts Notwendigem zum Leben fehlt. Schenke mir die Gnade, sie trotz aller Widrigkeiten und Hindernisse standhaft zu bewahren.\n\nLass mich darin wachsen und meine Fähigkeiten stetig verbessern, gesegnet mit Gesundheit, Tatkraft und Lauterkeit des Herzens. Und hilf mir, Tag für Tag meinen Mitmenschen nützlich und hilfsbereit zur Seite zu stehen.\n\nIch verbinde mein Gebet mit der Fürsprache der Heiligen Familie von Nazareth, deren verehrter Verwandter du bist, und verspreche, deine Andacht als Zeichen tiefer Dankbarkeit für deine Wohltaten zu verbreiten. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "Hl. Judas Thaddäus · Trost und schnelle Hilfe für die Einsamen und Verlassenen",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Hei-li-ger A-pós-tel Yú-das, treu-er Die-ner und Freund Yé-su...]",
+      "textoTraducido": "Heiliger Apostel Judas Thaddäus, treuer Diener und Freund Jesu! Die Heilige Kirche ehrt und ruft dich auf dem ganzen Erdkreis als Patron der schweren und verzweifelten Fälle an. Bitte für mich, denn ich fühle mich einsam, verlassen und ohne irdische Hilfe.\n\nIch flehe dich an: mache Gebrauch von dem besonderen Vorrecht, das dir verliehen wurde, schnell und sichtbar beizustehen, wo alle menschliche Hoffnung fast ganz verloren ist. Eile mir zu Hilfe in dieser großen Not, damit ich Trost, Frieden und himmlischen Beistand in all meinen Leiden und Bedrängnissen empfange, besonders in diesem Anliegen... (hier die persönliche Bitte im Stillen nennen), und damit ich Gott mit dir und allen Heiligen in Ewigkeit lobsinge.\n\nIch danke dir, ruhmreicher heiliger Judas, und verspreche, diese große Gnade nie zu vergessen, dich stets als meinen mächtigen Schutzpatron zu ehren und voller Dankbarkeit alles zu tun, um deine Andacht zu fördern. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

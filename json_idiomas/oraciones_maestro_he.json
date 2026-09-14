@@ -4,7 +4,7 @@
     "idioma": "he",
     "nombreIdioma": "עִבְרִית (Hebrew)",
     "dir": "rtl",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Tefilot-Masoretic-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "יהודה תדי השליח · הקדשה חגיגית של התודעה, הלב והחיים",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Yehuda Taddi ha-Shali'ach, Sheli'ach ha-Mashi'ach ve-ha-Kadosh ha-Mehulal...]",
+      "textoTraducido": "יהודה תדי הקדוש, שליח המשיח ועֵד מְהֻלָּל, ברצוני לכבדך בדבקות ובאהבה עמוקה. הריני מקבל אותך כפטרוני ומגני. בידיך אני מפקיד את נפשי וגופי, את כל ענייניי הרוחניים והחומריים ואת שלום משפחתי.\n\nהנני מקדיש לך את תודעתי, למען תתהלך בכל באור האמונה; את לבי, למען תשמרנו טהור ומלא באהבת ישוע ומרים; ואת רצוני, למען יהיה תמיד, כמו רצונך, מאוחד בשלמות עם רצון האלוהים הקדוש.\n\nמתחנן אני אליך כי תסייע בידי לגבור על כל יצר רע ועל כל פיתוי, ולהתרחק מכל מכשול וחטא. השג נא עבורי את החסד שלא להמרות עוד את פי האלוהים לעולם, למלא בנאמנות את כל חובות חיי ולשקוד על המידות הטובות הנחוצות לישועת נפשי.\n\nהתפלל בעדי, מגיני הקדוש ועוזרי, למען אזכה, בהשראת דוגמתך ובזכות מליצתך, לחיות חיי קדושה, לזכות למיתה ברוכה, ולהגיע לתפארת השמיים הנצחית שבה מהללים ומודים לאלוהים לעדי עד. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "יהודה תדי השליח · מליץ יושר במצבים נואשים וההבטחה השמיימית",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Sheli'ach Mehulal shel Adoneinu Yeshua ha-Mashi'ach...]",
+      "textoTraducido": "שליח מהולל של אדוננו ישוע המשיח, הנקרא בפי המאמינים בתואר המתוק: מֵלִיץ יֹשֶׁר בְּמַצָּבִים נוֹאָשִׁים וְקָשִׁים, תן לי לחוש בעוצמת מליצתך הכבירה והקל מעליי את המצוקה הכבדה שבה אני נתון.\n\nבזכות קרבת המשפחה ההדוקה שקשרה אותך כבן משפחה לאדוננו ישוע המשיח, בזכות התלאות והעמל שסבלת למענו, בזכות מות הקדושים ההרואי שקיבלת באהבה ובשמחה לכבודו, ובזכות ההבטחה שהעניק המושיע האלוהי לבריגיטה הקדושה לנחם את כל הפונים לעזרתך: השג נא עבורי מאלוהי הרחמים ומאמו הקדושה את החסד שאני מבקש ממך בביטחון בלתי נדלה, בהיותי סמוך ובטוח שתשיגו בעבורי כל עוד הדבר תואם את כבוד האלוהים וישועת נפשי. אמן.\n\nשליח מהולל, יהודה תדי הקדוש, התפלל בעדנו. (יש לחזור 3 פעמים)\n\nבשם האב, הבן ורוח הקודש. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "יהודה תדי השליח · ביקור ותפילה חודשית (ביום ה-28 לכל חודש)",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Nekhabed et Petroneinu, Yehuda Taddi ha-Kadosh, be-viduy ken u-vi-tfilah...]",
+      "textoTraducido": "נכבד נא את מגיננו, יהודה תדי הקדוש, בווידוי לב כן ובקבלת קודש אדוקה, למען נהיה רצויים יותר לפני האלוהים ונזכה לקבל בנקל באמצעות השליח הקדוש את החסד שאנו מבקשים.\n\nמגיני החנון, יהודה תדי הקדוש, אשר קיבלת מן המושיע את חסד השליחות ללכת בעקבותיו בהליכות קודש ובבישור הבשורה; אשר זכית לגעת בלבבות בתורתך ובדוגמתך האישית, לחולל ניסים ומסרת את נפשך על הגנת האמונה ועדותה: קבל נא את תודתי על הזכויות הנשגבות הללו, וקבל ברצון את הביקור הזה שאני עורך בהודיה על טובות העבר ולמען השגת חסדים חדשים באמצעות מליצתך.\n\nהשג נא עבורי אהבה עמוקה למורה האלוהי, אשר תחזק אותי בנתיב המידות הטובות, תנחם אותי במצוקותיי ותקיים את תקוותי בעתות משבר ומבחן. אל תניח לחוסר ביטחון בהשגחה האלוהית להרחיקני לעולם מאהבת האלוהים ומעבודתו. הענק לי את חסותך, יהודה הקדוש, והשג עבורי את כל הנחוץ לי לטובתי הארצית והנצחית. אמן.\n\n(יש לקרוא שלוש פעמים 'תהילה לאב' לכבוד השילוש הקדוש ולאחר מכן להביע את הבקשה שבלב).",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "יהודה תדי השליח · עזרה בעניינים קשים והגנה על המשפחה",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[O Sheli'ach Mehulal Yehuda Taddi, Eved Ne'eman ve-Chaver shel Yeshua...]",
+      "textoTraducido": "הו שליח מהולל, יהודה תדי הקדוש, עבד נאמן ורֵעַ אהוב לישוע! שמו של הבוגד גרם לרבים לשכוח את זכרך, אך הכנסייה הקדושה מכבדת אותך וקוראת בשמך בעולם כולו כפטרון העניינים הקשים וחסרי התקווה.\n\nהתפלל נא בעדי, למען אזכה לנחמת השמיים ולעזרתם בכל מצוקותיי, תלאותיי וסבלותיי, ובפרט בצורך מיוחד זה (כאן יביע את משאלתו), ולמען אוכל לברך את האלוהים בחברתך ועם כל חסידיו לעולמי עולמים.\n\nמבטיח אני לך, שליח ברוך, לזכור תמיד חסד גדול זה; לעולם לא אחדל מלכבדך כמגני המיוחד והאדיר, ולעשות ככל שביכולתי להפיץ את מסירות הכבוד לשמך הקדוש. אמן.\n\nתחינה מהירה: שליח מהולל, יהודה תדי הקדוש, למען אהבת ישוע ומרים, שמע את תפילתי והגן על משפחתי ועל כל הקוראים בשמך בדבקות.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "יהודה תדי השליח · תפילה לפרנסה טובה, עבודה מכובדת וקיום המשפחה",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Yehuda Taddi ha-Kadosh, meilitz yosher be-khol inyan kasheh...]",
+      "textoTraducido": "יהודה תדי הקדוש, מליץ יושר יעיל בכל מצוקה ועניין קשה: השג נא עבורי עבודה מכובדת שבה אוכל לממש את כבודי ואת כוחותיי כאדם, ושבה לא יחסר למשפחתי דבר מכל צורכי החיים. תן לי את החסד לשמור עליה באיתנות חרף כל קושי ונסיבות קשות.\n\nברך את התקדמותי במלאכתי, למען אשתפר תמיד בכישוריי ואיהנה מבריאות טובה, חוסן ויושר לבב. ועזור לי יום יום להיות מועיל, נדיב וטוב לכל הסובבים אותי.\n\nהנני מאחד תפילה זו עם המשפחה הקדושה מנצרת, שאתה בן משפחתה המכובד, ומבטיח להפיץ את כבוד שמך לאות תודה כנה על חסדיך. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "יהודה תדי השליח · נחמה ועזרה דחופה לבודדים ולנעזבים",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Sheli'ach Kadosh Yehuda, Eved Ne'eman ve-Chaver shel Yeshua...]",
+      "textoTraducido": "שליח קדוש יהודה תדי, עבד נאמן ורֵעַ אהוב של ישוע! הכנסייה הקדושה מכבדת אותך וקוראת בשמך בכל קצווי תבל כפטרון העניינים הקשים וחסרי התקווה. התפלל נא בעדי, כי ערירי, כאוב וחסר אונים אנוכי.\n\nמתחנן אני אליך כי תשתמש בזכות המיוחדת שהוענקה לך, להושיט עזרה מהירה וגלויה במקום שבו כמעט ואבדה כל תקווה אנושית. בוא נא לעזרתי במצוקה גדולה זו, למען אזכה בנחמה, שלום ועזרת מרום בכל ייסוריי ותלאותיי, ובפרט בצורך זה... *(כאן יביע את הבקשה שבלב)*, ולמען אוכל להלל את האלוהים עמך ועם כל החסידים לעד.\n\nמודה אני לך, יהודה הקדוש המפואר, ומבטיח לעולם לא לשכוח חסד זה, לכבדך תמיד כמגני האדיר, ולפעול מתוך הכרת תודה עמוקה להפצת כבוד שמך בעולם. אמן.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "rtl"
     }

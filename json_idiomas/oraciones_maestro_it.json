@@ -4,7 +4,7 @@
     "idioma": "it",
     "nombreIdioma": "Italiano (Italian)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Toscano-Liturgico-CEI-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "San Giuda Taddeo · Solenne Atto di Consacrazione della Mente, del Cuore e della Vita",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[San Dyú-da, A-pós-to-lo di Krís-to e glo-ryó-zo Már-ti-re, de-si-dé-ro on-or-ár-ti kon spe-chá-le de-vo-tsyó-ne...]",
+      "textoTraducido": "San Giuda, Apostolo di Cristo e glorioso Martire, desidero onorarti con speciale devozione. Ti accolgo come mio patrono e protettore. Affido alle tue cure la mia anima e il mio corpo, tutti i miei interessi spirituali e temporali, nonché quelli della mia famiglia.\n\nTi consacro la mia mente, affinché in ogni cosa proceda alla luce della fede; il mio cuore, affinché tu lo custodisca puro e colmo di amore per Gesù e Maria; la mia volontà, affinché, come la tua, sia sempre perfettamente unita alla volontà di Dio.\n\nTi supplico di aiutarmi a dominare le mie cattive inclinazioni e le tentazioni, fuggendo ogni occasione di peccato. Ottienimi la grazia di non offendere mai più Dio, di compiere fedelmente tutti i doveri del mio stato e di praticare le virtù necessarie alla salvezza.\n\nPrega per me, o Santo Patrono e mio soccorso, affinché, guidato dal tuo esempio e sostenuto dalla tua intercessione, io possa condurre una vita santa, ottenere una morte beata e giungere alla gloria del Cielo, dove si ama e si ringrazia Dio in eterno. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "San Giuda Taddeo · Avvocato dei Casi Disperati e la Promessa Celeste",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[A-pós-to-lo glo-ryo-sís-si-mo di Nòs-tro Si-nyó-re Dje-zù Kris-to, ak-kla-má-to dai fe-dé-li kon il dól-che tí-to-lo di Av-vo-cá-to dei Ca-si Dis-pe-rá-ti...]",
+      "textoTraducido": "Apostolo gloriosissimo di Nostro Signore Gesù Cristo, acclamato dai fedeli con il dolce titolo di AVVOCATO DEI CASI DISPERATI, fammi sperimentare la tua potente intercessione, recando sollievo alla gravissima necessità in cui mi trovo.\n\nPer la stretta parentela che ti unisce come cugino a Nostro Signore Gesù Cristo, per le privazioni e le fatiche che per Lui hai sopportato, per l'eroico martirio che hai abbracciato con gioia per Suo amore, per la promessa che il divin Salvatore fece a Santa Brigida di consolare i fedeli che fossero ricorsi alla tua potente intercessione: ottienimi dal Dio di ogni misericordia e dalla sua Santissima Madre la grazia che con illimitata fiducia ti chiedo, o mio amato patrono, sicuro che la otterrai purché giovi alla gloria di Dio e alla salvezza dell'anima mia. Così sia.\n\nGlorioso Apostolo San Giuda Taddeo, prega per noi. (Ripetere 3 volte)\n\nNel nome del Padre, del Figlio e dello Spirito Santo. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "San Giuda Taddeo · Visita e Preghiera Devozionale del 28 di Ogni Mese",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[On-or-yá-mo il nòs-tro Pro-tet-tó-re, San Dyú-da Tad-dè-o, kon ú-na sin-ché-ra Kon-fes-syó-ne e fer-vo-ró-za Ko-mu-nyó-ne...]",
+      "textoTraducido": "Onoriamo il nostro Protettore, San Giuda Taddeo, con una sincera Confessione e una fervorosa Comunione, affinché possiamo renderci più graditi a Dio e ottenere più facilmente dal Santo Apostolo la grazia che domandiamo.\n\nMio amorevole Protettore, San Giuda Taddeo, che ricevesti dal Salvatore la grazia della vocazione apostolica per seguirLo più da vicino nell'esercizio delle virtù e predicare il suo Vangelo; che avesti il dono di commuovere i cuori con il tuo esempio e le tue parole, il potere di compiere miracoli e che donasti la tua vita in difesa e testimonianza della Fede: accogli il mio plauso per questi sublimi privilegi, e gradisci questa visita che ti rivolgo in ringraziamento per i favori già ricevuti e per impetrare nuove grazie per tua intercessione.\n\nOttienimi un ardente amore verso il Divino Maestro, che mi sostenga nella pratica della virtù, mi consoli nelle afflizioni e ravvivi la mia speranza nelle prove della vita. Non permettere mai che la sfiducia nella Divina Provvidenza mi allontani dall'amore e dal servizio di Dio. Donami la tua protezione, San Giuda, e ottienimi quanto chiedo per il mio bene temporale ed eterno. Amen.\n\n(Recitare tre Gloria al Padre in onore della Santissima Trinità e fare la propria richiesta con fede).",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "San Giuda Taddeo · Aiuto nelle Cause Difficili e Protezione della Famiglia",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[O glo-ryó-zo A-pós-to-lo San Dyú-da Tad-dè-o, sér-vo fe-dé-le e a-mí-ko di Dje-zù...]",
+      "textoTraducido": "O glorioso Apostolo San Giuda Taddeo, servo fedele e amico di Gesù! Il nome del traditore è stato motivo di oblio per molti, ma la Santa Chiesa ti onora e ti invoca universalmente come patrono delle cause difficili e disperate.\n\nPrega per me affinché io riceva il conforto e l'aiuto del Cielo in tutte le mie necessità, tribolazioni e sofferenze, in particolare (esprimere la grazia desiderata), e possa lodare Dio con te e con tutti gli eletti per tutta l'eternità.\n\nTi prometto, o beato Apostolo, di ricordarmi sempre di questo grande favore; non cesserò mai di onorarti come mio speciale e potente protettore e di fare quanto è nelle mie possibilità per diffondere la tua devozione. Così sia.\n\nGiaculatoria: Glorioso Apostolo San Giuda Taddeo, per amore di Gesù e di Maria, ascolta la mia preghiera e proteggi la mia famiglia e tutti coloro che con fervore ti invocano.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "San Giuda Taddeo · Supplica per un Lavoro Dignitoso, Stabilità e Sostentamento",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[San Dyú-da Tad-dè-o, po-tèn-te in-ter-ches-só-re in ón-yi kò-za dif-fí-chi-le, ot-tyé-ni-mi un la-vó-ro di-nyi-tó-zo...]",
+      "textoTraducido": "San Giuda Taddeo, potente intercessore in ogni causa difficile: ottienimi un lavoro dignitoso in cui io possa realizzarmi plenamente e nel quale alla mia famiglia non manchi mai il necessario in ogni dimensione della vita. Fa' che io possa conservarlo saldamente, superando con grazia le contrarietà.\n\nDonami di progredire nella mia professione, crescendo sempre nelle capacità e godendo di buona salute, fortezza e onestà. E fa' che ogni giorno io possa rendermi utile e benevolo verso quanti mi circondano.\n\nUnisco la mia supplica all'intercessione della Sacra Famiglia di Nazareth, di cui sei amato parente, e prometto di diffondere la tua devozione in segno di perenne riconoscenza per le tue grazie. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "San Giuda Taddeo · Conforto e Pronto Aiuto per Chi è Solo e Sconfortato",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Sán-to A-pós-to-lo San Dyú-da, fe-dé-le sér-vo e a-mí-ko di Dje-zù, la Sán-ta Kyé-za ti ó-no-ra e ti in-vó-ka...]",
+      "textoTraducido": "Santo Apostolo San Giuda, fedele servo e amico di Gesù! La Santa Chiesa ti onora e ti invoca universalmente come patrono dei casi difficili e disperati. Prega per me, poiché mi trovo nella solitudine, nel dolore e senza conforto umano.\n\nTi imploro di fare uso del privilegio speciale che ti è stato concesso, di soccorrere prontamente e visibilmente là dove ogni speranza sembra ormai perduta. Vieni in mio aiuto in questa grande prova, affinché io riceva la consolazione, la pace e il soccorso del Cielo in tutte le mie sofferenze, particolarmente... (esprimere l'intenzione segreta), e possa lodare Dio con te e con tutti gli eletti per sempre.\n\nTi rendo grazie, glorioso San Giuda, e prometto di non dimenticare mai questa grazia, di onorarti sempre come mio speciale protettore e di promuovere con gratitudine la tua devozione. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

@@ -4,7 +4,7 @@
     "idioma": "zh",
     "nombreIdioma": "中文 (Chinese)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Wenyan-Canonical-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "圣达德宗徒 · 心灵、理智与生命的庄严奉献祷词",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Shèng Dádé Zōngtú, Jīdū de Shǐtú yǔ Guāngróng de Xùndàozhě...]",
+      "textoTraducido": "圣达德，基督的宗徒与光荣的殉道者，我愿以特殊的敬礼奉敬您。我尊您为我的主保与保护者。我将我的灵魂、肉身、所有灵性与现世的利益，以及我的家庭，全心托付于您的庇佑之下。\n\n我将我的理智奉献于您，使我的一切行事皆在信仰的真光中前进；将我的心灵奉献于您，求您保守它纯洁并充满对耶稣与玛利亚的热爱；将我的意志奉献于您，使它如同您的意志一样，常与天主的圣意完全契合。\n\n我恳求您协助我克胜一切不良倾向与诱惑，远离一切犯罪的机缘。求您为我转求天主，赐我永不再冒犯天主的大恩，忠实履行我生活本分的一切职责，并修践得救所必需的圣德。\n\n我的圣德主保与有力的护佑者，请为我祈祷，使我在您的榜样激励与转求协助下，度过圣善的生活，获得平安善终，并达至天国永恒的光荣，在彼处永远敬爱与感谢天主。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "圣达德宗徒 · 绝望案件之主保与天赐应许祷词",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Wǒmen de Zhǔ Yēsū Jīdū zuì guāngróng de Zōngtú...]",
+      "textoTraducido": "我们主耶稣基督最光荣的宗徒，信友们以温和的尊衔称赞您为『绝望与急难事件的主保』：求您让我深切感受到您大能的转祷，缓解我如今所陷入的极度困顿与急迫需求。\n\n因着您与我们主耶稣基督的至亲骨肉关系，因着您为祂所受的艰难匮乏与辛劳，因着您出于爱祂而欣然接受的英勇殉道，并因着神圣救主向圣彼济特所赐予的应许——必将安慰一切投奔您大能转求的信友：求您从万全仁慈的天主及祂至圣的母亲那里，为我求得我以无限信赖向您祈求的恩典；至仁慈的保护者，我深信只要有益于天主的光荣与我灵魂的得救，您必会为我求得。但愿如此。\n\n光荣的圣达德宗徒，请为我们祈祷。(重复念三次)\n\n因父、及子、及圣神之名。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "圣达德宗徒 · 每月二十八日朝圣敬礼与祈愿文",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Ràng wǒmen yǐ shànghǎo de Gàojiě yǔ rèqiè de Shèngtǐ...]",
+      "textoTraducido": "让我们以诚恳的告解和热切的圣体圣事来尊崇我们的主保圣达德宗徒。如此我们将更中悦于天主，并能更容易通过这位圣宗徒获得我们所恳求的恩典。\n\n我仁慈的主保圣达德，您从救主那里领受了宗徒圣召的崇高恩典，在修德与传扬福音中紧紧追随祂；您拥有以教导和榜样感动人心的神恩，具有施行奇迹的大能，并为了捍卫和见证信仰而献出了生命：请接受我因这些崇高特恩向您献上的由衷赞颂，并欣然悦纳我为感谢过去蒙受的恩惠，及藉您的转祷祈求新恩典而向您所作的这次朝圣祈祷。\n\n求您为我求得对神圣导师深厚恒久的爱，使我在修德的道路上受到鼓舞，在苦难中获得安慰，并在逆境与试炼锤炼我时坚定我的希望。切莫容许对天主上智安排的缺乏信赖使我偏离对天主的爱与事奉。圣达德，请赐我您的庇护，并为我求得我今生与永生益处所需要的一切恩典。阿们。\n\n(为恭敬至圣圣三念三次《天主经》或《圣三光荣经》，随后虔诚献上心中的祈愿)",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "圣达德宗徒 · 艰难急难之助佑与家庭护佑祷词",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[O Shèng Dádé Zōngtú, Yēsū de Zhōngshí Púrén yǔ Péngyǒu...]",
+      "textoTraducido": "啊！光荣的宗徒圣达德，耶稣忠实的仆人与朋友！叛徒的名字曾使您被许多人遗忘，但圣教会却在普世尊崇并呼求您为『艰难与绝望案件的主保』。\n\n请为我祈祷，使我在我一切的困苦、磨难与痛苦中，获得来自上天的安慰与救助，特别是在这件急难中 (在此说明所求意向)，并使我能在您的圣善陪伴下，与所有获选者一同永生永世赞美天主。\n\n我向您许诺，真福宗徒，我将永远铭记这一极大的恩惠；我必永不止息地尊崇您为我特殊而强有力的主保，并竭尽所能传扬对您的圣善敬礼。但愿如此。\n\n短祷（呼求文）：光荣的圣达德宗徒，为了对耶稣和玛利亚的爱，求您俯听我的祈祷，护佑我的家庭，并庇护所有热切呼求您圣名的人。",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "圣达德宗徒 · 求赐体面工作、事业发展与家庭生计祷词",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Shèng Dádé Zōngtú, Yīqiè jiānnán wèntí de Yǒulì Zhuǎnqiúzhě...]",
+      "textoTraducido": "圣达德宗徒，一切艰难困境中的有力中保：求您为我求得一份体面的工作，使我在其中作为人能够充分实现自己的价值，使我的家庭在生活的各个方面都不致匮乏必需品。求您赐我恩宠，使我在面对不利的环境与困难时，仍能以坚定和平安守住这份工作。\n\n求您使我在工作中不断进步，常能提高自己的能力，并享有健康的身体、充沛的精力和正直的品格。使我日复一日，乐于对我周围的所有人有所裨益与奉献。\n\n我将我微小的祈求，与您所敬爱的亲属——纳匝肋圣家的转祷联合在一起，并许诺传扬对您的圣善敬礼，以表达我对您恩惠的由衷感激。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "圣达德宗徒 · 赐予孤独、痛苦与绝望者之安慰与急难救助祷词",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Shèng Zōngtú Dádé, Yēsū de Zhōngshí Púrén yǔ Shèngyǒu...]",
+      "textoTraducido": "圣宗徒达德，耶稣忠实的仆人与圣友！圣教会普遍尊崇并呼求您为艰难与绝望处境的主保。请为我祈祷，因我如今正身处孤独、痛苦与无助之中。\n\n我恳求您施行赐予您的特殊特权——在人类几乎失去一切希望之时，迅速且显明地施以援手。求您在这巨大的困厄中速来协助我，使我在所有的痛苦与磨难中，获得来自天上的安慰、平安与救助，特别是在这件隐秘的祈求中…… (在此静心默陈心愿)，并使我能与您和诸位圣人一同永远赞美天主。\n\n光荣的圣达德，我由衷感谢您，并许诺永不忘记这浩大恩典，永远尊崇您为我特殊的大能主保，并满怀感激地竭力在世上推广对您的虔诚敬礼。阿们。",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

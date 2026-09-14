@@ -483,13 +483,19 @@ export class FeUniversalApp {
       if (!t) return '';
       return `
         <div class="tradition-chip" data-trad-id="${t.id}" title="${t.nombre[lang] || t.nombre.es}" style="cursor: pointer;">
-          <span style="display: flex; align-items: center; color: ${t.colorAcento};">${renderIcon(t.iconKey)}</span>
-          <span>${t.nombre[lang] || t.nombre.es}</span>
+          <span class="tradition-chip-icon" style="display: flex; align-items: center; color: ${t.colorAcento};">${renderIcon(t.iconKey)}</span>
+          <span class="tradition-chip-label">${t.nombre[lang] || t.nombre.es}</span>
         </div>
       `;
     }).join('') + `
-      <div class="tradition-chip" id="btn-ribbon-add" style="border-style: dashed; color: var(--text-muted); cursor: pointer;">
-        <span>+ ${t('ribbon_adjust', lang) || 'Ajustar'}</span>
+      <div class="tradition-chip tradition-chip-add" id="btn-ribbon-add" title="${t('ribbon_adjust', lang) || 'Ajustar'}" style="border-style: dashed; color: var(--text-muted); cursor: pointer;">
+        <span class="tradition-chip-icon" style="display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; min-width: 14px;">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </span>
+        <span class="tradition-chip-label">${(t('ribbon_adjust', lang) || 'Ajustar').replace(/^\+\s*/, '')}</span>
       </div>
     `;
 

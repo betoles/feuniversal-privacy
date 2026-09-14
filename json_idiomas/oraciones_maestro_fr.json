@@ -4,7 +4,7 @@
     "idioma": "fr",
     "nombreIdioma": "Français (French)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-GrandSiecle-Liturgique-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "Saint Jude Thaddée · Acte Solennel de Consécration de l'Esprit, du Cœur et de la Vie",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[San Zhyd, Ah-pô-tr dy Kryst e glo-ryø Mar-teer, zhe de-zeer vooz on-o-ray ah-vek yn de-vo-syõ tool par-ty-ky-lyer...]",
+      "textoTraducido": "Saint Jude, Apôtre du Christ et glorieux Martyr, je désire vous honorer avec une dévotion toute particulière. Je vous accueille comme mon patron et mon protecteur. Je vous confie mon âme et mon corps, tous mes intérêts spirituels et temporels, ainsi que ceux de ma famille.\n\nJe vous consacre mon esprit, afin qu'il marche en toutes choses à la lumière de la foi ; mon cœur, pour que vous le gardiez pur et rempli d'amour pour Jésus et Marie ; ma volonté, pour que, semblable à la vôtre, elle demeure toujours unie à la volonté de Dieu.\n\nJe vous supplie de m'aider à surmonter mes mauvais penchants et mes tentations, en évitant toute occasion de péché. Obtenez-moi la grâce de ne jamais offenser Dieu, d'accomplir fidèlement tous les devoirs de mon état et de pratiquer les vertus nécessaires à mon salut.\n\nPriez pour moi, ô saint Patron et mon secours, afin que, guidé par votre exemple et soutenu par votre intercession, je puisse mener une vie sainte, avoir une mort paisible et parvenir à la gloire du Ciel où Dieu est aimé et glorifié pour l'éternité. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "Saint Jude Thaddée · Avocat des Causes Désespérées et la Promesse Céleste",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Trɛ glor-yø Ah-pô-tr də Nô-trə Say-nyœr Zhay-zy Kryst, a-kla-may par lay fee-dɛl su lə du teetr d'Ah-voh-ka day Kôz Day-zes-pay-ray...]",
+      "textoTraducido": "Très glorieux Apôtre de Notre-Seigneur Jésus-Christ, acclamé par les fidèles sous le doux titre d'AVOCAT DES CAUSES DÉSESPÉRÉES, faites-moi ressentir votre puissante intercession en soulageant la très grave nécessité dans laquelle je me trouve.\n\nPar la proche parenté qui vous unissait comme cousin à Notre-Seigneur Jésus-Christ, par les privations et les fatigues que vous avez endurées pour Lui, par le martyre héroïque que vous avez embrassé avec joie par amour pour Son Nom, par la promesse que le divin Sauveur fit à Sainte Brigitte de consoler les fidèles qui auraient recours à votre puissante médiation : obtenez-moi du Dieu de toute miséricorde et de sa Très Sainte Mère la grâce que je vous demande avec une confiance sans bornes, assuré que vous me l'obtiendrez pourvu qu'elle serve la gloire de Dieu et le salut de mon âme. Ainsi soit-il.\n\nGlorieux Apôtre Saint Jude Thaddée, priez pour nous. (Répéter 3 fois)\n\nAu nom du Père, et du Fils, et du Saint-Esprit. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "Saint Jude Thaddée · Visite et Prière de Dévotion du 28 de Chaque Mois",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[On-o-rõ no-trə Pro-tek-tœr, San Zhyd Ta-day, par yn bon Kon-fes-syõ e yn fer-vãt Ko-my-nyõ...]",
+      "textoTraducido": "Honorons notre Protecteur, Saint Jude Thaddée, par une bonne Confession et une fervente Communion, afin de nous rendre plus agréables à Dieu et d'obtenir plus facilement du Saint Apôtre la grâce que nous sollicitons.\n\nMon bienveillant Protecteur, Saint Jude Thaddée, qui avez reçu du Sauveur la grâce de la vocation apostolique pour Le suivre de plus près dans l'exercice des vertus et prêcher son Évangile ; vous qui avez eu le don de toucher les cœurs par votre enseignement et vos exemples, le pouvoir d'opérer des miracles, et qui avez versé votre sang en défense et témoignage de la Foi : recevez mes louanges pour ces insignes privilèges, et accueillez avec bonté cette visite que je vous rends en action de grâce pour les bienfaits obtenus et pour implorer de nouveaux secours par votre sainte médiation.\n\nObtenez-moi un grand amour pour le Divin Maître, qui m'encourage dans la pratique de la vertu, me console dans mes peines et soutienne mon espérance au milieu des épreuves. Ne permettez jamais que le manque de confiance en la Divine Providence m'éloigne de l'amour et du service de Dieu. Accordez-moi votre protection, Saint Jude, et obtenez-moi ce dont j'ai besoin pour mon bien temporel et éternel. Amen.\n\n(Réciter trois Gloire au Père en l'honneur de la Très Sainte Trinité et formuler sa prière).",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "Saint Jude Thaddée · Secours dans les Causes Difficiles et Protection de la Famille",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[O glor-yø Ah-pô-trə San Zhyd Ta-day, fee-dɛl ser-vee-tœr e ah-mee də Zhay-zy...]",
+      "textoTraducido": "Ô glorieux Apôtre Saint Jude Thaddée, fidèle serviteur et ami de Jésus ! Le nom du traître a fait que vous avez été oublié de beaucoup, mais la Sainte Église vous honore et vous invoque partout comme le patron des causes difficiles et désespérées.\n\nPriez pour moi, afin que je reçoive les consolations et le secours du Ciel dans toutes mes nécessités, tribulations et souffrances, en particulier (nommer ici l'intention), et que je puisse bénir Dieu en votre compagnie et avec tous les élus pour l'éternité.\n\nJe vous promets, bienheureux Apôtre, de me souvenir toujours de cette insigne faveur, de ne jamais cesser de vous honorer comme mon puissant protecteur et de faire tout ce qui est en mon pouvoir pour propager votre dévotion. Ainsi soit-il.\n\nJaculatoire : Glorieux Apôtre Saint Jude Thaddée, par amour pour Jésus et Marie, écoutez ma prière, protégez ma famille et tous ceux qui vous invoquent avec ferveur.",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "Saint Jude Thaddée · Prière pour un Travail Digne, Prospérité et Soutien Familial",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[San Zhyd Ta-day, pwee-sã in-ter-ses-sœr dã toot lay dee-fee-kyl-tay, ob-tə-nay-mwa œn trah-vy deen...]",
+      "textoTraducido": "Saint Jude Thaddée, puissant intercesseur dans toutes les difficultés : obtenez-moi un travail digne dans lequel je puisse m'épanouir pleinement et où rien ne manque aux besoins de ma famille. Accordez-moi de le conserver avec fidélité malgré les vicissitudes et les obstacles.\n\nFaites que j'y progresse sans cesse, améliorant mes compétences et jouissant d'une bonne santé, de force et de droiture. Et que, jour après jour, je veille à me rendre utile et charitable envers mon prochain.\n\nJ'unis ma prière à celle de la Sainte Famille de Nazareth, dont vous êtes un saint parent, et je promets de propager votre sainte dévotion en témoignage de ma profonde reconnaissance. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "Saint Jude Thaddée · Réconfort et Secours Immédiat pour les Personnes Seules et Délaissées",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[San Ah-pô-trə Zhyd, fee-dɛl ser-vee-tœr e ah-mee də Zhay-zy, la Sent Ay-gleez vooz on-or e vooz in-vok...]",
+      "textoTraducido": "Saint Apôtre Jude, fidèle serviteur et ami de Jésus ! La Sainte Église vous honore et vous invoque dans le monde entier comme le patron des causes difficiles et désespérées. Priez pour moi qui suis dans la solitude, la peine et le désarroi.\n\nJe vous supplie de faire usage du privilège unique qui vous a été accordé, de secourir promptement et visiblement là où presque tout espoir humain s'est évanoui. Venez à mon aide dans cette grande détresse, afin que je reçoive la consolation, la paix et le secours du Ciel dans toutes mes souffrances, particulièrement... (formuler ici l'intention), et que je puisse louer Dieu avec vous et tous les saints pour l'éternité.\n\nJe vous remercie, glorieux Saint Jude, et je promets de ne jamais oublier cette faveur insigne, de vous honorer toujours comme mon protecteur privilégié et d'encourager avec ferveur la dévotion envers votre nom. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

@@ -249,7 +249,8 @@
   transform: translateY(-1px);
 }
 
-.tradition-chip span:first-child {
+.tradition-chip .tradition-chip-icon,
+.tradition-chip > span:first-child:not(:last-child) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -261,6 +262,38 @@
   max-height: 18px;
   flex-shrink: 0;
   overflow: hidden;
+}
+
+.tradition-chip .tradition-chip-label,
+.tradition-chip > span:last-child {
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.tradition-chip.tradition-chip-add,
+#btn-ribbon-add {
+  border-style: dashed !important;
+  color: var(--text-muted) !important;
+  cursor: pointer !important;
+  width: auto !important;
+  min-width: max-content !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+  padding: 6px 14px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.tradition-chip.tradition-chip-add .tradition-chip-label,
+#btn-ribbon-add .tradition-chip-label,
+#btn-ribbon-add > span:last-child {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+  white-space: nowrap !important;
 }
 
 .tradition-chip img,

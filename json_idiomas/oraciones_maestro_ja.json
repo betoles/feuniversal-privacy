@@ -4,7 +4,7 @@
     "idioma": "ja",
     "nombreIdioma": "日本語 (Japanese)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Keigo-Kyodoyaku-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "使徒聖タダイ · 理性と心と全生涯の厳かな奉献の祈り",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Shi-to Sei Ta-da-i, Ki-ri-su-to no Shi-to so-shi-te Ei-kō a-ru Jun-kyō-sha yo...]",
+      "textoTraducido": "キリストの使徒にして栄光ある殉教者、聖タダイよ、私は特別な崇敬をもってあなたをお敬いいたします。あなたを私の保護者、守護聖人として心からお迎えいたします。私の魂と体、すべての霊的および現世の関心事、そして我が家族のすべてをあなたの御手に委ねます。\n\n私の理性をあなたに奉献し、すべての歩みが信仰の光に照らされますように。私の心をあなたに奉献し、清らかに保たれ、イエスとマリアへの愛で満たされますように。私の意志をあなたに奉献し、あなたのように常に神の聖なる御旨と完全に一つに結ばれますように。\n\n私の悪しき傾きや誘惑を克服し、罪の機会を避けることができるよう、どうぞお助けください。二度と神に背くことなく、身分の義務を忠実に果たし、救いに必要な諸徳を実践する恵みを、神よりお取り次ぎください。\n\n私の聖なる保護者、力強い助け手よ、私のために祈ってください。あなたの模範に励まされ、お取り次ぎに支えられて、私が聖なる生涯を送り、恵み豊かな臨終を迎え、神が永遠に愛され感謝される天の栄光に達することができますように。アーメン。",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "使徒聖タダイ · 絶望的状況における保護者と天の約束の祈り",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Wa-re-ra no Shu I-e-su Ki-ri-su-to no mo-tto-mo Ei-kō a-ru Shi-to yo...]",
+      "textoTraducido": "私たちの主イエス・キリストの栄光に満ちた使徒にして、信徒たちから『絶望的な状況の弁護者』という甘美な称号をもって称えられる聖タダイよ、私が今置かれている極めて重大な困窮を和らげ、あなたの力強いお取り次ぎを深く感じさせてください。\n\nあなたが私たちの主イエス・キリストの従兄弟であられるという親密な血縁の絆により、主のために忍ばれた欠乏と労苦により、主への愛のために喜んで受け入れられた英雄的な殉教により、そして神聖な救い主が聖ビルジッタになさった約束——あなたの大能の執り成しに拠り頼む信徒を慰めるという約束により：憐れみ深き神とその聖なる御母より、私が無限の信頼をもってあなたにお願いする恵みをお取り次ぎください。それが神の栄光と私の魂の救いにかなう限り、必ず得させてくださると確信しております。アーメン。\n\n栄光ある使徒、聖タダイ、私たちのために祈ってください。(3回繰り返す)\n\n父と子と聖霊の御名によりて。アーメン。",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "使徒聖タダイ · 毎月28日の信心訪問と祈願の祈り",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Yo-ki Ko-kai to a-tsu-ki Sei-tai Hei-ryō ni yo-tte...]",
+      "textoTraducido": "私たちの保護者である聖タダイを、真摯な告解と熱心な聖体拝領をもってお敬いいたしましょう。そうすることで、私たちは神により喜ばれる者となり、この聖なる使徒を通じて願う恵みをより速やかに受けることができるのです。\n\n私の慈悲深き保護者、聖タダイよ、あなたは徳の実践と福音宣教において救い主に親しく従う使徒的召命の尊い恵みを受けられました。あなたの教えと模範によって人々の心を動かす賜物を持ち、奇跡を行う力を授かり、信仰の防衛と証しのために命を捧げられました。これら偉大なる特権に対する私の心からの感謝をお受け取りいただき、過去にいただいた恵みへの感謝と、あなたの聖なるお取り次ぎを通じて新たな恵みを得るために捧げるこの祈りの訪問を、どうぞ喜んでお受け入れください。\n\n私に神聖なる主への深い愛を取り次ぎ、徳の道において私を強め、苦難の中で慰めを与え、逆境が私を試みるときにも希望を支えてくださいますように。神の摂理への信頼の欠如が、神への愛と奉仕から私を引き離すことの決してないようにしてください。聖タダイよ、私をご保護くださり、私の現世と永遠の救いのために必要なものを神よりお与えください。アーメン。\n\n(至聖なる三位一体をたたえて「栄光は父と子と聖霊に」を3回唱え、心からの願いを捧げます)",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "使徒聖タダイ · 困難な問題における助けと家族の保護の祈り",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[Ah Ei-kō a-ru Shi-to Sei Ta-da-i, I-e-su no chuu-jitsu na Shi-mobe so-shi-te To-mo yo...]",
+      "textoTraducido": "ああ、栄光ある使徒聖タダイ、イエスの忠実なしもべにして友よ！ 裏切り者の名前のせいで、あなたは長きにわたり多くの人々から忘れられていましたが、聖なる教会はあなたを困難で絶望的な案件の守護聖人として全世界で称え、呼び求めています。\n\n私のすべての困窮、試練、苦しみにおいて、私が天からの慰めと助けを受けることができるよう、特にこの切実な願いにおいて (ここで願いを述べる)、私のために祈ってください。そして私があなたの聖なる交わりの中で、選ばれたすべての人々とともに永遠に神を賛美することができますように。\n\n祝福された使徒よ、私はこの大いなる恵みを決して忘れないことを約束します。あなたを私の特別で力強い守護者として崇敬し続け、あなたへの信心を広めるために全力を尽くすことを誓います。アーメン。\n\n射祷：栄光ある使徒聖タダイ、イエスとマリアへの愛のために、私の祈りを聞き入れ、私の家族を守り、熱心にあなたを呼び求めるすべての人々をご保護ください。",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "使徒聖タダイ · 尊厳ある職、生活の向上と家庭の生計を求める祈り",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Sei Ta-da-i, su-be-te no kon-nan na mon-dai no chuu-kai-sha yo...]",
+      "textoTraducido": "聖タダイ、すべての困難な問題における力強い執り成し手よ、私が人間としての尊厳を十分に発揮でき、家族が生のあらゆる面において必要なものに事欠くことのないような、ふさわしい仕事を得させてください。逆境や困難な状況に直面しても、それを誠実に保ち続けることができるようお恵みください。\n\nその仕事において私が進歩し、常に能力を高め、健康と活力と心の誠実さに恵まれますように。そして日ごとに、私の周りにいるすべての人々に対して有益で慈悲深くあることができますように。\n\nあなたの敬愛するご親族であられるナザレの聖家族の執り成しに私の祈りを合わせ、いただいた恵みへの深い感謝のしるしとして、あなたへの信心を広めることを約束いたします。アーメン。",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "使徒聖タダイ · 孤独と苦難と絶望にある者のための慰めと迅速な助けの祈り",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Sei-to Shi-to Ta-da-i, I-e-su no chuu-jitsu na Shi-mobe so-shi-te To-mo yo...]",
+      "textoTraducido": "聖なる使徒タダイ、イエスの忠実なしもべにして愛する友よ！ 聖なる教会はあなたを、困難で絶望的な状況の保護者として全世界で称え、呼び求めています。孤独と悲しみの中にあり、助けを必要としている私のために祈ってください。\n\n人間のあらゆる希望がほとんど失われたときに、迅速かつ目に見える形で助けをもたらすという、あなたに与えられた特別な特権を用いてくださるよう切に願います。この大きな必要において私の助けに急ぎ来たり、私のすべての試練と苦難において、天からの慰めと平和と助けを受けることができますように。特にこの願いにおいて…… (ここで心の中で願いを述べる)。そして私があなたやすべての聖人たちとともに永遠に神を賛美することができますように。\n\n栄光ある聖タダイよ、あなたに感謝を捧げます。この大いなる恵みを決して忘れることなく、常にあなたを私の力強い保護者として敬い、感謝をもってあなたの信心を世に広めるために全力を尽くすことを約束いたします。アーメン。",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

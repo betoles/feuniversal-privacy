@@ -4,7 +4,7 @@
     "idioma": "hi",
     "nombreIdioma": "हिन्दी (Hindi)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Bhakti-Tatsama-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "संत यहूदा थद्देउस प्रेरित · मन, हृदय और जीवन का पावन समर्पण",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Hey Krīst ke Prērit aur Prataapi Shaheed, Sant Yahūda Thaddeus...]",
+      "textoTraducido": "हे ख्रीस्त के प्रेरित और प्रतापी शहीद, संत यहूदा थद्देउस! मैं विशेष भक्ति के साथ आपका आदर करना चाहता हूँ। मैं आपको अपने संरक्षक और मध्यस्थ के रूप में स्वीकार करता हूँ। मैं अपनी आत्मा और शरीर, अपनी सभी आध्यात्मिक व सांसारिक भलाइयों तथा अपने परिवार को आपके सुपुर्द करता हूँ।\n\nमैं अपनी बुद्धि को आपको समर्पित करता हूँ, ताकि वह हर बात में विश्वास के प्रकाश में चले; अपने हृदय को समर्पित करता हूँ, ताकि आप इसे शुद्ध रखें और ईसा व मरियम के प्रेम से परिपूर्ण रखें; तथा अपनी इच्छा को समर्पित करता हूँ, ताकि वह आपकी तरह सदा ईश्वर की पवित्र इच्छा से संयुक्त रहे।\n\nमैं आपसे प्रार्थना करता हूँ कि मेरी बुरी प्रवृत्तियों और प्रलोभनों पर विजय पाने में मेरी सहायता करें, और पाप के हर अवसर से मुझे दूर रखें। मुझे यह कृपा दिलाइए कि मैं कभी ईश्वर को नाराज़ न करूँ, अपने जीवन की सभी ज़िम्मेदारियों को निष्ठापूर्वक निभाऊँ और मुक्ति के लिए आवश्यक गुणों का अभ्यास करूँ।\n\nहे मेरे पवित्र संरक्षक और मददगार, मेरे लिए प्रार्थना कीजिए, ताकि आपके उदाहरण से प्रेरित होकर और आपकी मध्यस्थता से सहायता पाकर मैं एक पवित्र जीवन जी सकूँ, धन्य मृत्यु प्राप्त करूँ और स्वर्ग के अनन्त महिमा तक पहुँच सकूँ, जहाँ ईश्वर को सदा सर्वदा प्रेम और धन्यवाद दिया जाता है। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "संत यहूदा थद्देउस प्रेरित · घोर निराशाजनक परिस्थितियों के मध्यस्थ व स्वर्गीय प्रतिज्ञा",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Hamare Prabhu Yesu Khrist ke ati mahimanvit Prērit...]",
+      "textoTraducido": "हमारे प्रभु ईसा मसीह के अति महिमान्वित प्रेरित, जिन्हें विश्वासियों द्वारा 'निराशाजनक परिस्थितियों के मध्यस्थ' की मधुर उपाधि से पुकारा जाता है: मुझे अपनी शक्तिशाली मध्यस्थता का अनुभव कराइए और उस गंभीर संकट व विपत्ति को दूर कीजिए जिसमें मैं पड़ा हूँ।\n\nउस घनिष्ठ संबंध के कारण जिससे आप हमारे प्रभु ईसा मसीह के निकट संबंधी बने, उन कष्टों और कठिनाइयों के कारण जो आपने उनके लिए सहीं, उस वीरतापूर्ण शहादत के कारण जिसे आपने उनके प्रेम के लिए सहर्ष स्वीकार किया, और उस प्रतिज्ञा के कारण जो दिव्य मुक्तिदाता ने संत ब्रिजिट से की थी कि वे उन सभी विश्वासियों को सांत्वना देंगे जो आपकी शक्तिशाली सहायता मांगेंगे: दया के सागर ईश्वर और उनकी परमपवित्र माता से मुझे वह कृपा दिलाइए जिसे मैं असीम विश्वास के साथ आपसे मांगता हूँ, यह भरोसा रखते हुए कि यदि यह ईश्वर की महिमा और मेरी आत्मा की भलाई के अनुकूल है तो आप इसे मुझे अवश्य दिलाएँगे। आमीन।\n\nमहिमान्वित प्रेरित संत यहूदा थद्देउस, हमारे लिए प्रार्थना कीजिए। (3 बार दोहराएं)\n\nपिता, और पुत्र, और पवित्र आत्मा के नाम पर। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "संत यहूदा थद्देउस प्रेरित · माह की 28 तारीख का पावन दर्शन व विशेष प्रार्थना",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Aao ham ek achhī Paap-Sweekarokti aur bhakti-purna Perm-Prasad dwara...]",
+      "textoTraducido": "आइए हम एक अच्छे पाप-स्वीकार और भक्तिपूर्ण परमप्रसाद के द्वारा अपने संरक्षक, संत यहूदा थद्देउस का आदर करें। ऐसा करके हम ईश्वर को अधिक प्रसन्न करेंगे और पवित्र प्रेरित के माध्यम से अपनी मांगी हुई कृपा को अधिक सरलता से प्राप्त करेंगे।\n\nहे मेरे दयालु संरक्षक, संत यहूदा थद्देउस, जिन्होंने सद्गुणों के अभ्यास और सुसमाचार के प्रचार में उद्धारकर्ता के निकट चलने के लिए प्रेरितिक बुलाहट की महान कृपा प्राप्त की; जिन्हें अपनी शिक्षाओं और उदाहरणों से हृदयों को छूने का वरदान मिला, चमत्कार करने की शक्ति मिली, और जिन्होंने विश्वास की रक्षा व गवाही में अपना जीवन बलिदान कर दिया: इन महान विशेषाधिकारों के लिए मेरा धन्यवाद स्वीकार कीजिए, और इस दर्शन व प्रार्थना को सहर्ष अपनाइए जो मैं प्राप्त उपकारों के आभार में तथा आपकी पावन मध्यस्थता से नए अनुग्रह पाने के लिए अर्पित करता हूँ।\n\nमुझे दिव्य गुरु के प्रति गहरा और अटूट प्रेम दिलाइए, जो मुझे सद्गुणों के मार्ग पर प्रोत्साहित करे, मेरे दुखों में मुझे सांत्वना दे और विपत्तियों के समय मेरी आशा को दृढ़ रखे। ईश्वरीय देखरेख पर अविश्वास को कभी भी मुझे ईश्वर के प्रेम और सेवा से दूर न करने दीजिए। हे संत यहूदा, मुझे अपना संरक्षण प्रदान कीजिए और मेरे सांसारिक व अनन्त कल्याण के लिए आवश्यक सब कुछ दिलाइए। आमीन।\n\n(परमपवित्र त्रित्व के आदर में तीन बार 'पिता और पुत्र और पवित्र आत्मा की महिमा हो' पढ़ें और अपनी व्यक्तिगत विनती प्रस्तुत करें)",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "संत यहूदा थद्देउस प्रेरित · कठिन समस्याओं में सहायता व परिवार की रक्षा",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[Hey Prabhataapi Prērit Sant Yahūda Thaddeus, Yesu ke vishwas-yogya sevak aur mitra...]",
+      "textoTraducido": "हे महिमान्वित प्रेरित संत यहूदा थद्देउस, ईसा के वफ़ादार सेवक और प्रिय मित्र! विश्वासघाती के नाम के कारण बहुत से लोग आपको भूल गए थे, परन्तु कलीसिया सार्वभौमिक रूप से आपको कठिन और निराशाजनक मामलों के संरक्षक के रूप में सम्मान देती है और आपकी दुहाई देती है।\n\nमेरे लिए प्रार्थना कीजिए ताकि मैं अपनी सभी ज़रूरतों, क्लेशों और दुखों में स्वर्ग की सांत्वना और सहायता प्राप्त करूँ, विशेष रूप से इस संकट में (यहाँ अपनी विनती रखें), और ताकि मैं आपकी संगति में और सभी संतों के साथ अनन्त काल तक ईश्वर की स्तुति कर सकूँ।\n\nहे धन्य प्रेरित, मैं आपसे प्रतिज्ञा करता हूँ कि इस महान उपकार को सदा याद रखूँगा; आपको अपने विशेष और शक्तिशाली संरक्षक के रूप में कभी भी आदर देना नहीं छोड़ूँगा और आपकी भक्ति का प्रचार करने के लिए हर संभव प्रयास करूँगा। आमीन।\n\nसंक्षिप्त प्रार्थना: हे महिमान्वित प्रेरित संत यहूदा थद्देउस, ईसा और मरियम के प्रेम के खातिर, मेरी प्रार्थना सुनिए, मेरे परिवार की रक्षा कीजिए और उन सभी को अपनी शरण में रखिए जो श्रद्धापूर्वक आपका नाम लेते हैं।",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "संत यहूदा थद्देउस प्रेरित · सम्मानजनक कार्य, उन्नति और परिवार के भरण-पोषण हेतु प्रार्थना",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Sant Yahūda Thaddeus, har kathin samasya ke prabhavi madhyasth...]",
+      "textoTraducido": "संत यहूदा थद्देउस, हर कठिन समस्या के शक्तिशाली मध्यस्थ: मेरे लिए एक ऐसा सम्मानजनक कार्य प्राप्त कराइए जिसमें मैं एक मनुष्य के रूप में पूरी तरह उन्नति कर सकूँ और जिससे मेरे परिवार को जीवन के किसी भी क्षेत्र में आवश्यक वस्तुओं की कमी न रहे। प्रतिकूल परिस्थितियों और कठिनाइयों के बावजूद मुझे इसे निष्ठा से बनाए रखने की शक्ति दीजिए।\n\nकृपा कीजिए कि मैं इसमें निरंतर प्रगति करूँ, अपनी क्षमताओं में सुधार करूँ और अच्छे स्वास्थ्य, शक्ति व सच्चाई का आनंद लूँ। और दिन-प्रतिदिन अपने आस-पास के सभी लोगों के लिए उपयोगी और मददगार बनने का प्रयास करूँ।\n\nमैं अपनी इस विनम्र प्रार्थना को नासरत के पवित्र परिवार की मध्यस्थता से जोड़ता हूँ, जिसके आप आदरणीय संबंधी हैं, और आपके उपकारों के प्रति अपनी कृतज्ञता प्रकट करने के लिए आपकी भक्ति का प्रसार करने की प्रतिज्ञा करता हूँ। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "संत यहूदा थद्देउस प्रेरित · एकाकी, दुखी और असहाय जनों के लिए सांत्वना व शीघ्र सहायता",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Hey Pavitra Prērit Sant Yahūda, Yesu ke vishwasu sevak aur mitra...]",
+      "textoTraducido": "हे पवित्र प्रेरित संत यहूदा, ईसा के निष्ठावान सेवक और प्रिय मित्र! पवित्र कलीसिया सार्वभौमिक रूप से आपको कठिन और निराशाजनक परिस्थितियों के संरक्षक के रूप में सम्मान देती है। मेरे लिए प्रार्थना कीजिए, क्योंकि मैं अकेला, दुखी और सांसारिक सहायता के बिना हूँ।\n\nमैं आपसे प्रार्थना करता हूँ कि आपको दिए गए उस विशेष विशेषाधिकार का उपयोग करें, जिससे जब मानवीय आशा लगभग समाप्त हो जाती है तब आप शीघ्र और प्रत्यक्ष सहायता पहुँचाते हैं। इस विकट आवश्यकता में मेरी सहायता के लिए आइए, ताकि मैं अपनी सभी विपत्तियों और दुखों में स्वर्ग से सांत्वना, शांति और सहायता प्राप्त कर सकूँ, विशेष रूप से इस विनती में... (यहाँ अपनी व्यक्तिगत प्रार्थना मन में रखें), और ताकि मैं आपके साथ और सभी संतों के साथ सदा ईश्वर की स्तुति कर सकूँ।\n\nहे महिमामय संत यहूदा, मैं आपको धन्यवाद देता हूँ, और वचन देता हूँ कि इस महान कृपा को कभी नहीं भूलूँगा, आपको सदा अपना शक्तिशाली संरक्षक मानूँगा और कृतज्ञतापूर्वक आपकी भक्ति को बढ़ावा देने का हर संभव प्रयास करूँगा। आमीन।",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

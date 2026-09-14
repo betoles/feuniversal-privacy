@@ -4,7 +4,7 @@
     "idioma": "bn",
     "nombreIdioma": "বাংলা (Bengali)",
     "dir": "ltr",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Sadhu-Munajat-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "সাধু যূদা তদ্দেয় প্রেরিত · মন, হৃদয় ও জীবনের পরম আত্মোৎসর্গ",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[He Khrīster Prērit o Gourabmoy Shohīd, Shādhu Jūdā Toddey...]",
+      "textoTraducido": "হে খ্রীষ্টের প্রেরিত ও গৌরবময় শহীদ সাধু যূদা তদ্দেয়, আমি বিশেষ ভক্তি সহকারে আপনার সম্মান করতে চাই। আমি আপনাকে আমার অভিভাবক ও রক্ষক হিসেবে গ্রহণ করি। আমার আত্মা ও দেহ, আমার সমস্ত আধ্যাত্মিক ও পার্থিব বিষয় এবং আমার পরিবারের সকলকে আপনার করুণার হাতে সমর্পণ করি।\n\nআমি আমার মনকে আপনাকে উৎসর্গ করি, যেন তা সর্ববিষয়ে বিশ্বাসের আলোয় পথ চলে; আমার হৃদয়কে উৎসর্গ করি, যেন আপনি তা পবিত্র রাখেন এবং যীশু ও মারীয়ার প্রেমে পরিপূর্ণ রাখেন; এবং আমার ইচ্ছাকে উৎসর্গ করি, যেন তা আপনারই মতো সর্বদা ঈশ্বরের পবিত্র ইচ্ছার সাথে যুক্ত থাকে।\n\nআমি আপনার কাছে বিনীত प्रार्थना জানাই, আমার কুপ্রবৃত্তি ও প্রলোভন জয় করতে আমাকে সাহায্য করুন এবং পাপের সমস্ত সুযোগ থেকে আমাকে দূরে রাখুন। আমাকে এই অনুগ্রহ পাইয়ে দিন যেন আমি কখনো ঈশ্বরের অবাধ্য না হই, আমার জীবনের সমস্ত দায়িত্ব বিশ্বস্ততার সাথে পালন করি এবং পরিত্রাণের জন্য প্রয়োজনীয় পুণ্য অভ্যাস করি।\n\nহে আমার পবিত্র অভিভাবক ও সহায়ক, আমার জন্য प्रार्थना করুন, যেন আপনার দৃষ্টান্তে উৎসাহিত হয়ে এবং আপনার মধ্যস্থতার সাহায্যে আমি এক পবিত্র জীবনযাপন করতে পারি, শান্তিময় মৃত্যুর অধিকারী হতে পারি এবং অনন্ত স্বর্গের গৌরব লাভ করতে পারি, যেখানে ঈশ্বরকে চিরকাল ভালোবাসা ও ধন্যবাদ জ্ঞাপন করা হয়। আমেন।",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "সাধু যূদা তদ্দেয় প্রেরিত · চরম সংকট ও নিরাশাজনক পরিস্থিতির সহায়ক ও স্বর্গীয় প্রতিশ্রুতি",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Amader Probhu Jishu Khrīster oti mohimanwit Prērit...]",
+      "textoTraducido": "আমাদের প্রভু যীশু খ্রীষ্টের পরম মহিমান্বিত প্রেরিত, যাঁকে বিশ্বাসীগণ 'নিরাশাজনক পরিস্থিতির রক্ষক' নামে ভক্তিভরে আহ্বান করে: আমাকে আপনার শক্তিশালী মধ্যস্থতা অনুভব করতে দিন এবং আমি যে গভীর সংকটের মধ্যে রয়েছি তা দূর করুন।\n\nআমাদের প্রভু যীশু খ্রীষ্টের সাথে আপনার ঘনিষ্ঠ আত্মীয়তার সম্পর্কের কারণে, তাঁর জন্য আপনি যে সমস্ত দুঃখ-কষ্ট ও পরিশ্রম সহ্য করেছিলেন তার কারণে, তাঁর প্রেমের জন্য আপনি সানন্দে যে বীরত্বপূর্ণ আত্মবলিদান স্বীকার করেছিলেন তার কারণে, এবং পুণ্যবতী ব্রিজিটের কাছে পরিত্রাতা যে প্রতিশ্রুতি দিয়েছিলেন যে তিনি আপনার শক্তিশালী মধ্যস্থতাকারীদের সান্ত্বনা দেবেন—সেই প্রতিশ্রুতির খাতিরে: পরম দয়ালু ঈশ্বর ও তাঁর পরমপবিত্র মাতার নিকট থেকে আমাকে সেই অনুগ্রহ পাইয়ে দিন যা আমি অসীম বিশ্বাসের সাথে আপনার কাছে প্রার্থনা করছি। আমি নিশ্চিত যে, যদি তা ঈশ্বরের গৌরব এবং আমার আত্মার কল্যাণের উপযোগী হয়, তবে আপনি তা আমাকে অবশ্যই পাইয়ে দেবেন। আমেন।\n\nগৌরবময় প্রেরিত সাধু যূদা তদ্দেয়, আমাদের জন্য প্রার্থনা করুন। (৩ বার বলুন)\n\nপিতা, পুত্র ও পবিত্র আত্মার নামে। আমেন।",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "সাধু যূদা তদ্দেয় প্রেরিত · প্রতি মাসের ২৮ তারিখের বিশেষ ভক্তিপূর্ণ নিবেদন",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Ashun amra uttom paap-shwikar ebong bhokti-purno porom-proshad grohoner maddhome...]",
+      "textoTraducido": "আসুন আমরা উত্তম পাপস্বীকার এবং ভক্তিপূর্ণ পরমপ্রসাদ গ্রহণের মাধ্যমে আমাদের অভিভাবক সাধু যূদা তদ্দেয়কে সম্মান জানাই। এর ফলে আমরা ঈশ্বরের আরও প্রিয়পাত্র হব এবং এই পবিত্র প্রেরিতের মাধ্যমে আমাদের প্রার্থিত অনুগ্রহ সহজে লাভ করব।\n\nআমার দয়ালু রক্ষক সাধু যূদা তদ্দেয়, যিনি পুণ্যের অনুশীলনে এবং সুসমাচার প্রচারে পরিত্রাতার নিকটবর্তী হওয়ার জন্য প্রেরিতীয় আহ্বানের মহান অনুগ্রহ লাভ করেছিলেন; যিনি নিজের শিক্ষা ও দৃষ্টান্তের মাধ্যমে মানুষের হৃদয় স্পর্শ করার বরদান পেয়েছিলেন, অলৌকিক কাজ করার ক্ষমতা পেয়েছিলেন এবং বিশ্বাসের সাক্ষ্য দিতে গিয়ে নিজের জীবন দান করেছিলেন: এই মহান অধিকারসমূহের জন্য আমার আন্তরিক ধন্যবাদ গ্রহণ করুন, এবং পূর্বে প্রাপ্ত উপকারের কৃতজ্ঞতা প্রকাশে ও আপনার মধ্যস্থতায় নতুন অনুগ্রহ লাভের আশায় আমি যে ভক্তিপূর্ণ নিবেদন করছি তা সানন্দে গ্রহণ করুন।\n\nদিব্য গুরুর প্রতি আমাকে এক গভীর প্রেম পাইয়ে দিন, যা পুণ্যের পথে আমাকে উৎসাহ দেবে, আমার কষ্টে সান্ত্বনা জোগাবে এবং দুঃখের দিনে আমার আশাকে রক্ষা করবে। ঈশ্বরের যত্নের প্রতি অবিশ্বাসের কারণে যেন আমি কখনোই তাঁর ভালোবাসা ও সেবা থেকে দূরে সরে না যাই। হে সাধু যূদা, আমাকে আপনার সুরক্ষা দান করুন এবং আমার ইহকাল ও পরকালের মঙ্গলের জন্য যা কিছু প্রয়োজন তা আমাকে পাইয়ে দিন। আমেন।\n\n(পরমপবিত্র ত্রিত্বের সম্মানে তিনবার 'পিতা, পুত্র ও পবিত্র আত্মার মহিমা হোক' পাঠ করুন এবং ভক্তিভরে মনের আবেদন নিবেদন করুন)",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "সাধু যূদা তদ্দেয় প্রেরিত · দুঃসাধ্য সমস্যায় সহায়তা ও পারিবারিক সুরক্ষা",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[He mohimanwit Prērit Shādhu Jūdā Toddey, Jīshur bishwastho daas o bondhu...]",
+      "textoTraducido": "হে মহিমান্বিত প্রেরিত সাধু যূদা তদ্দেয়, যীশুর বিশ্বস্ত দাস ও প্রিয় বন্ধু! বিশ্বাসঘাতকের নামের কারণে অনেকে আপনাকে ভুলে গিয়েছিল, কিন্তু পবিত্র মণ্ডলী বিশ্বজুড়ে আপনাকে কঠিন ও নিরাশাজনক সমস্যার অভিভাবক হিসেবে সম্মান করে ও আপনার সাহায্য প্রার্থনা করে।\n\nআমার জন্য প্রার্থনা করুন, যেন আমি আমার সমস্ত অভাব, ক্লেশ ও কষ্টে স্বর্গের সান্ত্বনা ও সাহায্য লাভ করতে পারি, বিশেষ করে এই সংকটকালে (এখানে আপনার আবেদন ব্যক্ত করুন), এবং যেন আমি আপনার পবিত্র সান্নিধ্যে ও সমস্ত ধার্মিকদের সাথে অনন্তকাল ঈশ্বরের প্রশংসা করতে পারি।\n\nহে ধন্য প্রেরিত, আমি আপনার কাছে প্রতিজ্ঞা করছি যে এই মহান অনুগ্রহের কথা সর্বদা স্মরণ রাখব; আপনাকে আমার বিশেষ ও শক্তিশালী অভিভাবক হিসেবে সম্মান করতে কখনো বিরত হব না এবং আপনার প্রতি ভক্তি প্রচারের জন্য যথাসাধ্য চেষ্টা করব। আমেন।\n\nসংক্ষিপ্ত নিবেদন: গৌরবময় প্রেরিত সাধু যূদা তদ্দেয়, যীশু ও মারীয়ার প্রেমের খাতিরে, আমার প্রার্থনা শুনুন, আমার পরিবারকে রক্ষা করুন এবং যারা ভক্তিভরে আপনার নাম স্মরণ করে তাদের সকলকে আপনার আশ্রয়ে রাখুন।",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "সাধু যূদা তদ্দেয় প্রেরিত · সম্মানজনক কাজ, জীবিকা ও পারিবারিক সচ্ছলতার प्रार्थना",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Shādhu Jūdā Toddey, shokol kothin shomoshshar shoktishali moddhosthokari...]",
+      "textoTraducido": "সাধু যূদা তদ্দেয়, সমস্ত কঠিন সমস্যার শক্তিশালী মধ্যস্থতাকারী: আমার জন্য এমন একটি মর্যাদাপূর্ণ কাজের ব্যবস্থা করে দিন যাতে আমি মানুষ হিসেবে নিজের বিকাশ ঘটাতে পারি এবং জীবনের কোনো ক্ষেত্রে যেন আমার পরিবারের প্রয়োজনীয় কোনো কিছুর অভাব না হয়। প্রতিকূল পরিস্থিতি ও বাধা সত্ত্বেও যেন আমি তা বিশ্বস্ততার সাথে ধরে রাখতে পারি।\n\nআশীর্বাদ করুন যেন আমি এতে উন্নতি করতে পারি, নিজের যোগ্যতাকে বৃদ্ধি করতে পারি এবং সুস্বাস্থ্য, শক্তি ও সততা বজায় রাখতে পারি। এবং প্রতিদিন যেন আমার চারপাশের মানুষদের উপকারে আসতে পারি।\n\nআমি আমার এই বিনীত নিবেদনকে নাসরতের পবিত্র পরিবারের মধ্যস্থতার সাথে যুক্ত করছি, যাঁর সাথে আপনি আত্মীয়তার সূত্রে আবদ্ধ, এবং আপনার উপকারের প্রতি গভীর কৃতজ্ঞতাস্বরূপ আপনার ভক্তি প্রচারের প্রতিজ্ঞা করছি। আমেন।",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "সাধু যূদা তদ্দেয় প্রেরিত · নিঃসঙ্গ, ব্যথিত ও অসহায় মানুষদের জন্য সান্ত্বনা ও আশু সহায়তার প্রার্থনা",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[He Pobitro Prērit Shādhu Jūdā, Jīshur bishwastho daas o bondhu...]",
+      "textoTraducido": "হে পবিত্র প্রেরিত সাধু যূদা, যীশুর বিশ্বস্ত দাস ও প্রিয় সখা! পবিত্র মণ্ডলী আপনাকে কঠিন ও হতাশাজনক পরিস্থিতির অভিভাবক হিসেবে বিশ্বজুড়ে স্মরণ করে। আমার জন্য प्रार्थना করুন, কারণ আমি নিঃসঙ্গ, ব্যথিত এবং পার্থিব সাহায্যহীন।\n\nআমি আপনার কাছে মিনতি করছি, আপনাকে প্রদত্ত সেই বিশেষ অধিকারটি ব্যবহার করুন, যার মাধ্যমে সমস্ত মানবিক আশা প্রায় নিঃশেষ হয়ে গেলেও আপনি দ্রুত ও প্রত্যক্ষ সাহায্য পৌঁছে দেন। এই মহা সংকটে আমার সাহায্যে এগিয়ে আসুন, যেন আমি আমার সমস্ত দুঃখ-কষ্টের মাঝে স্বর্গের সান্ত্বনা, শান্তি ও সাহায্য লাভ করতে পারি, বিশেষ করে এই একান্ত প্রার্থনায়... (এখানে আপনার গোপন বাসনা ব্যক্ত করুন), এবং যেন আমি আপনার সাথে ও সমস্ত সাধুদের সাথে চিরকাল ঈশ্বরের মহিমা কীর্তন করতে পারি।\n\nহে গৌরবময় সাধু যূদা, আমি আপনাকে ধন্যবাদ জানাই, এবং প্রতিশ্রুতি দিচ্ছি যে এই মহান অনুগ্রহ কখনোই ভুলব না, আপনাকে সর্বদা আমার শক্তিশালী অভিভাবক হিসেবে শ্রদ্ধা করব এবং কৃতজ্ঞচিত্তে আপনার ভক্তি ছড়িয়ে দিতে যথাসাধ্য চেষ্টা করব। আমেন।",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "ltr"
     }

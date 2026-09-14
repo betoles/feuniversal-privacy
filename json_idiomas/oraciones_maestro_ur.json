@@ -4,7 +4,7 @@
     "idioma": "ur",
     "nombreIdioma": "اردو (Urdu)",
     "dir": "rtl",
-    "total_oraciones": 4245,
+    "total_oraciones": 4251,
     "estandar": "FeUniversal-Nastaliq-Liturgico-v3",
     "certificacion": "100% Homologado y Verificado"
   },
@@ -93436,6 +93436,144 @@
         "tipoContador": "sin_contador",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Canto litúrgico solemne en el Tempio Maggiore a orillas del río Tíber"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CONSAGRACION",
+      "numero": 4246,
+      "titulo": "مقدس یہوداہ تدی رسول · عقل، دل اور زندگی کی پُروقار نذر و سپردگی",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "fortaleza_fe",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "confusion_duda",
+        "gratitud_gozo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas, Apóstol de Cristo y Mártir glorioso, deseo honrarte con especial devoción. Te acojo como mi patrón y protector. Te encomiendo mi alma y mi cuerpo, todos mis intereses espirituales y temporales y asimismo los de mi familia.\n\nTe consagro mi mente para que en todo proceda a la luz de la fe; mi corazón para que lo guardes puro y lleno de amor a Jesús y María; mi voluntad para que, como la tuya, esté siempre unida a la voluntad de Dios.\n\nTe suplico me ayudes a dominar mis malas inclinaciones y tentaciones evitando todas las ocasiones de pecado. Obténme la gracia de no ofender a Dios jamás, de cumplir fielmente con todas las obligaciones de mi estado de vida y practicar las virtudes necesarias para salvarme.\n\nRuega por mí, Santo Patrón y auxilio mío, para que, inspirado con tu ejemplo y asistido por tu intercesión, pueda llevar una vida santa, tener una muerte dichosa y alcanzar la gloria del Cielo donde se ama y da gracias a Dios eternamente. Amén.",
+      "guiaFonetica": "[Muqaddas Yahūdah Taddī, Rasūl-e-Masīḥ aur Azīm-o-Jalīl Shaheed...]",
+      "textoTraducido": "مقدس یہوداہ تدی، مسیح کے جلیل القدر رسول اور عظیم شہید، میں دلی عقیدت اور خاص محبت کے ساتھ آپ کا احترام کرنا چاہتا ہوں۔ میں آپ کو اپنا سرپرست اور مددگار تسلیم کرتا ہوں۔ میں اپنی روح و جسم، اپنے تمام روحانی و دنیاوی معاملات اور اپنے پورے خاندان کی حفاظت کو آپ کے سپرد کرتا ہوں۔\n\nمیں اپنی عقل آپ کی نذر کرتا ہوں تاکہ وہ ہر معاملے میں ایمان کی روشنی میں گامزن رہے؛ اپنا دل آپ کے سپرد کرتا ہوں تاکہ آپ اسے پاک صاف اور یسوع و مریم کی محبت سے معمور رکھیں؛ اور اپنی مرضی آپ کے حوالے کرتا ہوں تاکہ وہ آپ کی طرح ہمیشہ خدا کی پاک مرضی کے ساتھ کامل طور پر متحد رہے۔\n\nمیں عاجزی کے ساتھ التجا کرتا ہوں کہ میری بری خواہشات اور آزمائشوں پر قابو پانے میں میری مدد فرمائیں اور گناہ کے ہر موقع سے مجھے محفوظ رکھیں۔ میرے لیے یہ فضل حاصل کیجیے کہ میں کبھی خدا کی نافرمانی نہ کروں، اپنی زندگی کی تمام ذمہ داریاں دیانتداری سے نبھاؤں اور نجات کے لیے ضروری نیکیوں پر عمل پیرا رہوں۔\n\nاے میرے پاک سرپرست اور غمخوار مددگار، میرے لیے شفاعت فرمائیے تاکہ آپ کے نمونے سے تحریک پا کر اور آپ کی شفاعت کی بدولت میں ایک پاکیزہ زندگی گزاروں، مبارک موت پاؤں اور آسمان کی اس ابدی بادشاہی تک پہنچ سکوں جہاں خدا کی حمد و شکرگزاری ہمیشہ ہمیشہ کی جاتی ہے۔ آمین۔",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_ABOGADO_DESESPERADOS",
+      "numero": 4247,
+      "titulo": "مقدس یہوداہ تدی رسول · ناامید و لاچار مقدمات کے وکیل اور آسمانی وعدہ",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "peligro_enemigos",
+        "miedo_angustia",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Apóstol gloriosísimo de Nuestro Señor Jesucristo, aclamado por los fieles con el dulce título de ABOGADO DE LOS CASOS DESESPERADOS, hazme sentir tu poderosa intercesión aliviando la gravísima necesidad en que me encuentro.\n\nPor el estrecho parentesco que te hace primo hermano de Nuestro Señor Jesucristo, por la privaciones y fatigas que por El sufriste, por el heroico martirio que aceptaste gustoso por su amor, por la promesa que el divino Salvador hizo a Santa Brígida de consolar a los fieles que acudiesen a tu poderosa intercesión, obtenme del Dios de las misericordias y de su Madre Santísima la gracia que con ilimitada confianza te pido a Ti, Padre mío bondadosímo, seguro que me la obtendrás siempre que convenga a la gloria de Dios y bien de mi alma. Así sea.\n\nGlorioso Apóstol San Judas Tadeo, ruega por nosotros. (Repetir 3 veces)\n\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "guiaFonetica": "[Hamare Khudawand Yasu' Masīh ke azeem-ut-tarīn Rasool...]",
+      "textoTraducido": "ہمارے خداوند یسوع مسیح کے عظیم ترین رسول، جنہیں اہلِ ایمان 'ناامید و لاچار مقدمات کے وکیل' کے پرکشش لقب سے پکارتے ہیں: مجھے اپنی قوی شفاعت کا فیض عطا کیجیے اور اس شدید مصیبت و تکلیف کو دور فرمائیے جس میں میں گھرا ہوا ہوں۔\n\nاس قریبی قرابت داری کے واسطے جس نے آپ کو ہمارے خداوند یسوع مسیح کا چچازاد بھائی بنایا، ان سختیوں اور مشقتوں کے واسطے جو آپ نے ان کی خاطر جھیلیں، اس بہادرانہ شہادت کے واسطے جو آپ نے ان کی محبت میں بخوشی قبول کی، اور اس وعدے کے واسطے جو الٰہی نجات دہندہ نے مقدسہ برجٹ سے فرمایا تھا کہ وہ ان تمام مومنین کو تسلی بخشیں گے جو آپ کے طاقتور وسیلے کے پاس آئیں گے: تمام رحمتوں کے خدا اور ان کی پاک ترین والدہ سے مجھے وہ خاص فضل عطا کروائیے جس کی التجا میں لامحدود بھروسے کے ساتھ آپ سے کرتا ہوں، اس پختہ یقین کے ساتھ کہ آپ اسے ضرور حاصل کریں گے اگر یہ خدا کے جلال اور میری روح کی نجات کے موافق ہو۔ آمین۔\n\nجلیل القدر رسول مقدس یہوداہ تدی، ہمارے لیے دعا کیجیے۔ (3 بار دہرائیں)\n\nباپ، بیٹے اور روح القدس کے نام پر۔ آمین۔",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_VISITA_DIA_28",
+      "numero": 4248,
+      "titulo": "مقدس یہوداہ تدی رسول · ہر ماہ کی 28 تاریخ کی زیارتی دعا و استدعا",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "gratitud_alabanza",
+      "estadosEmocionales": [
+        "gratitud_gozo",
+        "cansancio_agotamiento",
+        "soledad_vacio",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Honremos a nuestro Protector, San Judas Tadeo, con una buena Confesión y una Comunión fervorosa. Así nos haremos más agradables a Dios y obtendremos del Santo Apóstol más fácilmente la gracia que pedimos.\n\nBondadoso Protector mío, San Judas Tadeo, que recibiste del Salvador la gracia de la vocación al apostolado para seguirle más de cerca en la práctica de las virtudes y predicar su Evangelio, que tuviste el don de conmover los corazones con tus ejemplos y tus enseñanzas, el poder de obrar milagros, y que diste tu vida en defensa y testimonio de la Fe, recibe mis parabienes por estos grandes privilegios, y acepta gustoso esta visita que te hago en agradecimiento de favores obtenidos y para obtener nuevas gracias por tu mediación. Alcánzame un grande amor al Divino Maestro, que me aliente en la práctica de la virtud, me consuele en mis tribulaciones y sostenga mi esperanza cuando el infortunio y la desgracia me acrisolen. No permitas jamás que la falta de confianza en la Providencia divina me aparte del amor y servicio de Dios. Dame tu protección, S. Judas, y alcánzame lo que necesito y pido para mi bien temporal y eterno. Amén.\n\nRezar tres Glorias en honor de la Santísima Trinidad y hacer luego la petición de la gracia que se desea obtener.",
+      "guiaFonetica": "[Aaiye ham sachhi Toba aur josh-o-jazbe se bhari Pak Qurbani ke zariye...]",
+      "textoTraducido": "آئیے ہم سچے اقرارِ گناہ اور عقیدت مند پاک شراکت کے ذریعے اپنے سرپرست مقدس یہوداہ تدی کا احترام کریں، تاکہ ہم خدا کے مزید مقرب بنیں اور اس پاک رسول کے وسیلے سے اپنی التجائیں آسانی سے حاصل کر سکیں۔\n\nاے میرے مہربان سرپرست، مقدس یہوداہ تدی، جنہوں نے نجات دہندہ سے رسولی بلاہٹ کا عظیم فضل پایا تاکہ نیکیوں کی مشق اور انجیل کی منادی میں ان کے نقشِ قدم پر چلیں؛ جنہیں اپنی تعلیمات اور عملی نمونے سے دلوں کو چھو لینے کا انعام ملا، معجزات دکھانے کی قدرت عطا ہوئی اور جنہوں نے ایمان کے دفاع اور گواہی میں اپنی جان قربان کی: ان عظیم اعزازات پر میرا دلی شکریہ قبول فرمائیے، اور اس زیارتی دعا کو بخوشی اپنائیے جو میں پچھلی عنایات کے شکرانے میں اور آپ کے وسیلے سے نئی برکات پانے کی امید میں پیش کرتا ہوں۔\n\nمجھے خدائی استاد کے لیے گہری اور پائیدار محبت عطا کروائیے، جو مجھے نیکی کی راہ پر ثابت قدم رکھے، میری مصیبتوں میں مجھے تسلی دے اور آزمائشوں میں میری امید کو سہارا بخشے۔ خدائی نگہبانی پر بے اعتمادی کو کبھی بھی مجھے خدا کی محبت اور خدمت سے دور نہ کرنے دیجیے۔ مجھے اپنی پناہ عطا فرمائیے، اے مقدس یہوداہ، اور میری دنیاوی اور ابدی فلاح کے لیے ضروری تمام نعمتیں حاصل کیجیے۔ آمین۔\n\n*(تثلیثِ اقدس کے احترام میں 3 بار 'باپ، بیٹے اور روح القدس کی تمجید ہو' پڑھیں اور پھر اپنی دلی التجا پیش کریں)*",
+      "ritualesAsociados": {
+        "tipoContador": "tres_veces",
+        "duracionVeladoraSugeridaHoras": 28,
+        "paisajeSonoroRecomendado": "organo_catedral"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_CAUSAS_DIFICILES",
+      "numero": 4249,
+      "titulo": "مقدس یہوداہ تدی رسول · مشکل معاملات میں مدد اور خاندان کی حفاظت",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "desesperacion",
+        "miedo_angustia",
+        "conflicto_familiar",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "Oh glorioso Apóstol San Judas Tadeo, siervo fiel y amigo de Jesús, el nombre del traidor ha sido causa de que fueses olvidado de muchos, pero la Iglesia te honra y te invoca como patrón de las causas difíciles y desesperadas. Ruega por mí para que reciba yo los consuelos y el socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente (hágase la petición), y para que pueda yo bendecir a Dios en tu compañía y con los demás elegidos por toda la eternidad.\n\nYo te prometo, Apóstol bienaventurado, acordarme siempre de este gran favor; jamás dejaré de honrarte como a mi especial y poderoso protector y de hacer todo lo posible para propagar tu devoción. Así sea.\n\nJaculatoria. Glorioso Apóstol, San Judas Tadeo, por amor a Jesús y a María, escucha mi oración y protege a mi familia, y a cuantos con fervor te invocan.",
+      "guiaFonetica": "[Ay Jaleel-ul-Qadar Rasool Muqaddas Yahūdah Taddī, Yasu' ke wafadar khadim aur dost...]",
+      "textoTraducido": "اے جلیل القدر رسول مقدس یہوداہ تدی، یسوع کے باوفا خادم اور پیارے دوست! غدار کے نام نے بہت سے لوگوں کو آپ کو بھلا دینے کا سبب بنایا، لیکن پاک کلیسیا پوری دنیا میں آپ کو مشکل اور مایوس کن حالات کے سرپرست کے طور پر عزت دیتی ہے اور آپ سے فریاد کرتی ہے۔\n\nمیرے لیے دعا کیجیے تاکہ میں اپنی تمام تر ضرورتوں، مصیبتوں اور تکالیف میں آسمانی تسلی اور مدد حاصل کر سکوں، خاص طور پر اس خاص مشکل میں (یہاں اپنی دعا بیان کیجیے)، اور تاکہ میں آپ کی رفاقت میں اور تمام برگزیدوں کے ساتھ ابد تک خدا کی حمد و ستائش کر سکوں۔\n\nاے بابرکت رسول، میں آپ سے وعدہ کرتا ہوں کہ اس عظیم احسان کو ہمیشہ یاد رکھوں گا؛ آپ کو اپنے خاص اور طاقتور سرپرست کے طور پر عزت دینا کبھی نہیں چھوڑوں گا اور آپ کی عقیدت کو فروغ دینے کی ہر ممکن کوشش کروں گا۔ آمین۔\n\nمختصر مناجات: اے جلیل القدر رسول مقدس یہوداہ تدی، یسوع اور مریم کی محبت کے واسطے، میری فریاد سنیں، میرے خاندان کی حفاظت فرمائیں اور ان سب پر سایہ کریں جو سچے دل سے آپ کا نام پکارتے ہیں۔",
+      "ritualesAsociados": {
+        "tipoContador": "rosario_10",
+        "duracionVeladoraSugeridaHoras": 9,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_PEDIR_TRABAJO",
+      "numero": 4250,
+      "titulo": "مقدس یہوداہ تدی رسول · باعزت روزگار، ترقی اور گھریلو کفالت کی دعا",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "prosperidad_trabajo",
+      "estadosEmocionales": [
+        "necesidad_escasez",
+        "desesperacion",
+        "confusion_duda",
+        "cansancio_agotamiento"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "San Judas Tadeo, intercesor de todo problema difícil consígueme un trabajo en que me realice como humano y que a mi familia no le falte lo necesario en ningún aspecto de la vida, que lo conserve a pesar de las circunstancias y problemas adversos. Que en el progrese mejorando siempre mi calidad y gozando de salud y fuerza. Y que día a día trate de ser útil a cuantos me rodean. Asocio tu intercesión a la Sagrada Familia, de la cual eres pariente y prometo difundir tu devoción como expresión de mi gratitud a tus favores. Amén.",
+      "guiaFonetica": "[Muqaddas Yahūdah Taddī, har mushkil mas'alay ke kaamyab madhyasth...]",
+      "textoTraducido": "مقدس یہوداہ تدی، ہر مشکل اور پیچیدہ مسئلے کے بااثر سفارشی: میرے لیے ایک ایسا باعزت روزگار حاصل کروائیے جس میں میں ایک انسان کے طور پر اپنی صلاحیتوں کو نکھار سکوں اور جس سے میرے خاندان کو زندگی کے کسی بھی پہلو میں کسی بنیادی ضرورت کی کمی نہ رہے۔ مجھے یہ فضل عطا فرمائیے کہ میں نامساعد حالات اور مشکلات کے باوجود اسے ثابت قدمی اور سکون کے ساتھ سنبھالے رکھوں۔\n\nدعا کیجیے کہ میں اس میں مسلسل ترقی کروں، اپنی مہارتوں میں اضافہ کروں اور اچھی صحت، قوت اور دلی سچائی سے بہرہ مند رہوں۔ اور روز بروز اپنے اردگرد کے تمام لوگوں کے لیے فائدہ مند، مددگار اور ہمدرد بننے کی کوشش کروں۔\n\nمیں اپنی اس عاجزانہ دعا کو ناصرت کے مقدس خاندان کی شفاعت سے جوڑتا ہوں، جس کے آپ محترم رشتہ دار ہیں، اور آپ کے احسانات کے دلی شکرانے کے طور پر آپ کی عقیدت کو پھیلانے کا پختہ عہد کرتا ہوں۔ آمین۔",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "solfeggio_528"
+      },
+      "dir": "rtl"
+    },
+    {
+      "id": "SAN_JUDAS_TADEO_QUIENES_ESTAN_SOLOS",
+      "numero": 4251,
+      "titulo": "مقدس یہوداہ تدی رسول · تنہا، مایوس اور بے یار و مددگار افراد کے لیے تسلی اور فوری مدد",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "paz_interior",
+      "estadosEmocionales": [
+        "soledad_vacio",
+        "tristeza_duelo",
+        "desesperacion",
+        "miedo_angustia"
+      ],
+      "idiomaLiturgicoOriginal": "Español Litúrgico / Latín Eclesiástico",
+      "textoOriginal": "¡Santo Apóstol San Judas, fiel siervo y amigo de Jesús!, la Iglesia te honra e invoca universalmente, como el patrón de los casos difíciles y desesperados. Ruega por mí, estoy solo y sin ayuda.\n\nTe imploro hagas uso del privilegio especial que se te ha concedido, de socorrer pronto y visiblemente cuando casi se ha perdido toda esperanza. Ven en mi ayuda en esta gran necesidad, para que pueda recibir consuelo y socorro del cielo en todas mis necesidades, tribulaciones y sufrimientos, particularmente... (haga aquí su petición), y para que pueda alabar a Dios contigo y con todos los elegidos por siempre.\n\nTe doy las gracias glorioso San Judas, y prometo nunca olvidarme de este gran favor, honrarte siempre como mi patrono especial y poderoso y, con agradecimiento hacer todo lo que pueda para fomentar tu devoción. Amén.",
+      "guiaFonetica": "[Pak Rasool Muqaddas Yahūdah, Yasu' ke wafadar khadim aur pyare dost...]",
+      "textoTraducido": "پاک رسول مقدس یہوداہ، یسوع کے وفادار خادم اور پیارے دوست! مقدس کلیسیا دنیا بھر میں آپ کو مشکل اور مایوس کن حالات کے سرپرست کے طور پر عزت دیتی ہے اور آپ کا نام لیتی ہے۔ میرے لیے شفاعت کیجیے، کیونکہ میں تنہائی، غم اور دنیاوی مدد سے محروم ہوں۔\n\nمیں آپ سے التجا کرتا ہوں کہ آپ کو عطا کردہ اس خاص شرف کو کام میں لائیے، جس کے تحت آپ اس وقت فوری اور نمایاں مدد پہنچاتے ہیں جب انسانی امید تقریباً دم توڑ چکی ہو۔ اس اشد ضرورت میں میری مدد کے لیے تشریف لائیے، تاکہ میں اپنی تمام تر پریشانیوں اور غموں میں آسمانی تسلی، سکون اور نصرت پا سکوں، خاص طور پر اس پوشیدہ التجا میں... *(یہاں دل میں اپنی التجا کا ذکر کیجیے)*، اور تاکہ میں آپ کے ساتھ اور تمام مقدسین کے ساتھ ہمیشہ کے لیے خدا کی حمد و ثنا کر سکوں۔\n\nمیں آپ کا دلی شکر ادا کرتا ہوں، اے جلیل القدر مقدس یہوداہ، اور وعدہ کرتا ہوں کہ اس عظیم مہربانی کو کبھی نہیں بھولوں گا، ہمیشہ آپ کو اپنا طاقتور سرپرست مانوں گا اور شکرگزاری کے ساتھ دنیا میں آپ کی عقیدت کو فروغ دینے کی پوری کوشش کروں گا۔ آمین۔",
+      "ritualesAsociados": {
+        "tipoContador": "treinta_y_tres",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "solfeggio_528"
       },
       "dir": "rtl"
     }
