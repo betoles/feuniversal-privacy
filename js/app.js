@@ -11,6 +11,8 @@ import { StorageService } from './services/storage-service.js?v=9.3.0';
 import { soundManager } from './services/sound-service.js?v=9.3.0';
 import { renderIcon, renderLangBadge } from './components/icons.js?v=9.3.0';
 import { t, isRTL } from './data/i18n.js?v=9.3.0';
+import { STOPWORDS_BY_LANG, matchesTraditionInclusive, getSharedTraditions, getEcumenicalBadgeText } from './data/cross-traditions.js?v=10.4.0';
+import { prayerMatchesEmotionCanonical } from './data/emotion-taxonomy.js?v=10.4.0';
 
 import { OnboardingComponent } from './components/onboarding.js?v=9.3.0';
 import { MirrorReaderComponent } from './components/mirror-reader.js?v=9.3.0';
@@ -1012,24 +1014,92 @@ export class FeUniversalApp {
   }
 
   getFilteredPrayers(availablePrayers, lang) {
+    const currentLang = lang || this.prefs.idioma || 'es';
+
+    // Si hay búsqueda activa, ejecutar motor ecuménico sobre TODO el compendio universal
+    const hasSearch = this.searchQuery && this.searchQuery.trim().length > 0;
+    if (hasSearch) {
+      const globalCorpus = PrayerCorpusService.memoryCache.get(currentLang) || PRAYERS_DB;
+      const fullSourceList = (Array.isArray(globalCorpus) && globalCorpus.length > 0) ? globalCorpus : availablePrayers;
+
+      const l = currentLang.toLowerCase();
+      const stopwords = STOPWORDS_BY_LANG[l] || STOPWORDS_BY_LANG.es;
+
+      const rawQuery = this.normalizeStr(this.searchQuery.trim());
+      const allTokens = rawQuery.split(/[\s,.;:!?¿¡\-_'"/\\()]+/).filter(Boolean);
+      const meaningfulTokens = allTokens.filter(t => !stopwords.has(t));
+      const queryTokens = meaningfulTokens.length > 0 ? meaningfulTokens : allTokens;
+
+      const scoredResults = [];
+
+      for (const p of fullSourceList) {
+        const titleLang = typeof p.titulo === 'string' ? this.normalizeStr(p.titulo) : this.normalizeStr(p.titulo?.[currentLang] || p.titulo?.es || '');
+        const titleOrig = this.normalizeStr(p.titulo?.lat || p.titulo?.he || p.titulo?.sa || p.titulo?.yo || p.titulo?.ar || p.titulo?.el || '');
+        const textOrig = this.normalizeStr(p.textoOriginal || '');
+        const tradText = this.normalizeStr(p.textoTraducido || p.traducciones?.[currentLang] || p.traducciones?.es || p.textoEspanol || '');
+        const tradInfo = getTradition(p.tradicion);
+        const tradName = this.normalizeStr(tradInfo ? (tradInfo.nombre?.[currentLang] || tradInfo.nombre?.es || '') : '');
+        const intentKey = this.normalizeStr(p.categoriaIntencion || '');
+        const pId = this.normalizeStr(p.id || '');
+        const sharedTrads = this.normalizeStr(getSharedTraditions(p).join(' '));
+
+        let score = 0;
+        let matchedTokensCount = 0;
+
+        for (const token of queryTokens) {
+          let tokenMatched = false;
+          if (titleLang.includes(token) || titleOrig.includes(token)) {
+            score += 100;
+            tokenMatched = true;
+            if (titleLang.startsWith(token) || titleLang.includes(` ${token}`)) score += 30;
+          }
+          if (pId.includes(token)) {
+            score += 60;
+            tokenMatched = true;
+          }
+          if (tradText.includes(token)) {
+            score += 35;
+            tokenMatched = true;
+          }
+          if (sharedTrads.includes(token) || tradName.includes(token)) {
+            score += 25;
+            tokenMatched = true;
+          }
+          if (textOrig.includes(token)) {
+            score += 20;
+            tokenMatched = true;
+          }
+          if (intentKey.includes(token)) {
+            score += 15;
+            tokenMatched = true;
+          }
+          if (tokenMatched) matchedTokensCount++;
+        }
+
+        if (matchedTokensCount === queryTokens.length || (queryTokens.length > 2 && matchedTokensCount >= queryTokens.length - 1)) {
+          // Bonus de afinidad si coincide con los filtros activos
+          if (this.currentFilterTradition && matchesTraditionInclusive(p, this.currentFilterTradition)) score += 15;
+          if (this.currentFilterEmotion && prayerMatchesEmotionCanonical(p, this.currentFilterEmotion)) score += 15;
+          if (this.currentFilterIntention && getCanonicalIntention(p.categoriaIntencion, p.id) === this.currentFilterIntention) score += 15;
+
+          scoredResults.push({ prayer: p, score });
+        }
+      }
+
+      scoredResults.sort((a, b) => b.score - a.score);
+      return scoredResults.map(r => r.prayer);
+    }
+
     let filtered = availablePrayers;
 
-    // Filtro por Estado Emocional (Fluido, tolerante a alias canónicos)
+    // Filtro por Estado Emocional (Mapeo neuronal de 180+ etiquetas a las 12 canónicas)
     if (this.currentFilterEmotion) {
       const emoData = EMOTIONAL_STATES[this.currentFilterEmotion];
       const targetIntent = emoData?.intencionPrincipal;
       const emoKey = this.currentFilterEmotion;
       filtered = filtered.filter(p => {
-        if (Array.isArray(p.estadosEmocionales)) {
-          if (p.estadosEmocionales.includes(emoKey)) return true;
-          if (emoKey === 'angustia_miedo' && (p.estadosEmocionales.includes('miedo_angustia') || p.estadosEmocionales.includes('desesperacion'))) return true;
-          if (emoKey === 'tristeza_duelo' && (p.estadosEmocionales.includes('duelo_tristeza') || p.estadosEmocionales.includes('soledad_vacio'))) return true;
-          if (emoKey === 'enfermedad_dolor' && (p.estadosEmocionales.includes('dolor_enfermedad') || p.estadosEmocionales.includes('cansancio_agotamiento'))) return true;
-          if (emoKey === 'gratitud_gozo' && (p.estadosEmocionales.includes('gratitud') || p.estadosEmocionales.includes('gozo'))) return true;
-        }
-        if (targetIntent && getCanonicalIntention(p.categoriaIntencion, p.id) === targetIntent) {
-          return true;
-        }
+        if (prayerMatchesEmotionCanonical(p, emoKey)) return true;
+        if (targetIntent && getCanonicalIntention(p.categoriaIntencion, p.id) === targetIntent) return true;
         return false;
       });
     }
@@ -1039,47 +1109,9 @@ export class FeUniversalApp {
       filtered = filtered.filter(p => getCanonicalIntention(p.categoriaIntencion, p.id) === this.currentFilterIntention);
     }
 
-    // Filtro por Tradición específica
+    // Filtro por Tradición específica (Inclusivo para tradiciones compartidas e interfe)
     if (this.currentFilterTradition) {
-      filtered = filtered.filter(p => p.tradicion === this.currentFilterTradition);
-    }
-
-    // Filtro por Búsqueda de Texto Instantánea (Normalizada sin acentos, multi-palabra / tokenizada)
-    const hasSearch = this.searchQuery && this.searchQuery.trim().length > 0;
-    if (hasSearch) {
-      const rawQuery = this.normalizeStr(this.searchQuery.trim());
-      const queryTokens = rawQuery.split(/\s+/).filter(t => t.length > 0);
-
-      const matchesTokens = (p) => {
-        const titleLang = typeof p.titulo === 'string' ? this.normalizeStr(p.titulo) : this.normalizeStr(p.titulo?.[lang] || p.titulo?.es || '');
-        const titleOrig = this.normalizeStr(p.titulo?.lat || p.titulo?.he || p.titulo?.sa || p.titulo?.yo || p.titulo?.ar || p.titulo?.el || '');
-        const textOrig = this.normalizeStr(p.textoOriginal || '');
-        const tradText = this.normalizeStr(p.textoTraducido || p.traducciones?.[lang] || p.traducciones?.es || p.textoEspanol || '');
-        const tradInfo = getTradition(p.tradicion);
-        const tradName = this.normalizeStr(tradInfo ? (tradInfo.nombre?.[lang] || tradInfo.nombre?.es || '') : '');
-        const intentKey = this.normalizeStr(p.categoriaIntencion || '');
-        const pId = this.normalizeStr(p.id || '');
-
-        const composite = `${titleLang} ${titleOrig} ${textOrig} ${tradText} ${tradName} ${intentKey} ${pId}`;
-        return queryTokens.every(token => composite.includes(token));
-      };
-
-      let searchResults = filtered.filter(matchesTokens);
-
-      // Si no hay resultados con el filtro de emoción/intención activo, buscar en todas las oraciones disponibles
-      if (searchResults.length === 0 && (this.currentFilterEmotion || this.currentFilterIntention || this.currentFilterTradition)) {
-        searchResults = availablePrayers.filter(matchesTokens);
-      }
-
-      // Si aún no hay resultados (ej. la tradición está oculta en los ajustes del usuario), buscar en todo el catálogo global
-      if (searchResults.length === 0) {
-        const globalCorpus = PrayerCorpusService.memoryCache.get(lang) || PRAYERS_DB;
-        if (Array.isArray(globalCorpus)) {
-          searchResults = globalCorpus.filter(matchesTokens);
-        }
-      }
-
-      filtered = searchResults;
+      filtered = filtered.filter(p => matchesTraditionInclusive(p, this.currentFilterTradition));
     }
 
     return filtered;
@@ -1109,11 +1141,12 @@ export class FeUniversalApp {
     const tradName = (tData && tData.nombre && (tData.nombre[currentLang] || tData.nombre.es)) || '';
     const tradColor = tData ? tData.colorAcento : '#d4af37';
     const iconSvg = tData ? renderIcon(tData.iconKey) : '';
+    const ecumenicalBadge = getEcumenicalBadgeText(p, currentLang);
 
     return `
       <div class="crystal-card prayer-item-card" data-prayer-id="${p.id}">
         <!-- Fila Superior de Metadatos (Tradición e Idioma Raíz con Flex-Wrap) -->
-        <div class="prayer-card-meta-row" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; margin-bottom: 10px; width: 100%;">
+        <div class="prayer-card-meta-row" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; margin-bottom: 8px; width: 100%;">
           <span class="hud-pill dot-gold" style="font-size: 0.73rem; display: inline-flex; align-items: center; gap: 6px; max-width: 100%; white-space: normal; line-height: 1.35; padding: 4px 10px;">
             <span style="color: ${tradColor}; display: inline-flex; align-items: center; flex-shrink: 0;">${iconSvg}</span>
             <span style="font-weight: 700;">${tradName}</span>
@@ -1122,6 +1155,13 @@ export class FeUniversalApp {
             <span>${p.idiomaLiturgicoOriginal || 'Litúrgico'}</span>
           </span>
         </div>
+
+        ${ecumenicalBadge ? `
+          <!-- Insignia de Patrimonio Ecuménico Compartido -->
+          <div style="font-size: 0.69rem; color: #38bdf8; font-weight: 700; line-height: 1.35; margin-bottom: 8px; display: flex; align-items: center; gap: 4px; background: rgba(56, 189, 248, 0.08); padding: 4px 10px; border-radius: var(--radius-sm); border: 1px solid rgba(56, 189, 248, 0.22); word-break: break-word;">
+            <span>${ecumenicalBadge}</span>
+          </div>
+        ` : ''}
 
         <!-- Título de la Oración -->
         <div style="font-weight: 800; font-size: 0.98rem; color: var(--text-primary); line-height: 1.3; margin-bottom: 8px; word-break: break-word;">

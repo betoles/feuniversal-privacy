@@ -9,6 +9,8 @@
 import { PRAYERS_DB as FALLBACK_PRAYERS } from '../data/prayers-db.js';
 import { fetchAndDecompressJson } from '../utils/stream-decompressor.js';
 import { getCanonicalIntention } from '../data/intentions.js';
+import { STOPWORDS_BY_LANG, matchesTraditionInclusive, getSharedTraditions } from '../data/cross-traditions.js';
+import { prayerMatchesEmotionCanonical } from '../data/emotion-taxonomy.js';
 
 export class PrayerCorpusService {
   static memoryCache = new Map();
@@ -210,63 +212,100 @@ export class PrayerCorpusService {
   }
 
   /**
-   * Obtiene todas las oraciones filtradas por tradiciones activas
+   * Obtiene todas las oraciones filtradas por tradiciones activas (considerando patrimonio compartido)
    */
   static async getAvailablePrayers(lang = 'es', activeTraditions = []) {
     const prayers = await PrayerCorpusService.loadCorpus(lang);
     if (!activeTraditions || activeTraditions.length === 0) {
       return prayers;
     }
-    return prayers.filter(p => activeTraditions.includes(p.tradicion));
+    return prayers.filter(p => activeTraditions.some(t => matchesTraditionInclusive(p, t)));
   }
 
   /**
-   * Búsqueda inteligente por texto libre en el catálogo del idioma activo
+   * Búsqueda ecuménica inteligente por texto libre en el catálogo global
    */
   static async searchPrayers(query, lang = 'es', activeTraditions = []) {
     const prayers = await PrayerCorpusService.loadCorpus(lang);
     if (!query || !query.trim()) {
       return (!activeTraditions || activeTraditions.length === 0)
         ? prayers
-        : prayers.filter(p => activeTraditions.includes(p.tradicion));
+        : prayers.filter(p => activeTraditions.some(t => matchesTraditionInclusive(p, t)));
     }
 
-    const q = query.trim().toLowerCase();
-    const tokens = q.split(/\s+/).filter(t => t.length > 0);
+    const l = (lang || 'es').toLowerCase();
+    const stopwords = STOPWORDS_BY_LANG[l] || STOPWORDS_BY_LANG.es;
 
-    const matches = (p) => {
-      const t = (typeof p.titulo === 'string' ? p.titulo : (p.titulo?.[lang] || p.titulo?.es || '')).toLowerCase();
-      const txt = (p.textoTraducido || (p.traducciones && (p.traducciones[lang] || p.traducciones.es)) || p.textoEspanol || '').toLowerCase();
-      const orig = (p.textoOriginal || '').toLowerCase();
-      const cat = (p.categoriaIntencion || '').toLowerCase();
-      const trad = (p.tradicion || '').toLowerCase();
-      const pId = (p.id || '').toLowerCase();
-      const composite = `${t} ${txt} ${orig} ${cat} ${trad} ${pId}`;
+    const normalize = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 
-      return tokens.every(tok => composite.includes(tok));
-    };
+    const rawQuery = normalize(query);
+    const allTokens = rawQuery.split(/[\s,.;:!?¿¡\-_'"/\\()]+/).filter(Boolean);
+    const meaningfulTokens = allTokens.filter(t => !stopwords.has(t));
+    const searchTokens = meaningfulTokens.length > 0 ? meaningfulTokens : allTokens;
 
-    let results = prayers.filter(matches);
-    if (activeTraditions && activeTraditions.length > 0) {
-      const traditionFiltered = results.filter(p => activeTraditions.includes(p.tradicion));
-      if (traditionFiltered.length > 0) {
-        return traditionFiltered;
+    const scoredResults = [];
+
+    for (const p of prayers) {
+      const title = normalize(typeof p.titulo === 'string' ? p.titulo : (p.titulo?.[l] || p.titulo?.es || ''));
+      const text = normalize(p.textoTraducido || (p.traducciones && (p.traducciones[l] || p.traducciones.es)) || p.textoOriginal || '');
+      const origText = normalize(p.textoOriginal || '');
+      const cat = normalize(p.categoriaIntencion || '');
+      const pId = normalize(p.id || '');
+      const sharedTrads = getSharedTraditions(p).join(' ');
+
+      let score = 0;
+      let matchedTokensCount = 0;
+
+      for (const token of searchTokens) {
+        let tokenMatched = false;
+        if (title.includes(token)) {
+          score += 100;
+          tokenMatched = true;
+          if (title.startsWith(token) || title.includes(` ${token}`)) score += 30;
+        }
+        if (pId.includes(token)) {
+          score += 60;
+          tokenMatched = true;
+        }
+        if (text.includes(token)) {
+          score += 35;
+          tokenMatched = true;
+        }
+        if (origText.includes(token)) {
+          score += 20;
+          tokenMatched = true;
+        }
+        if (cat.includes(token)) {
+          score += 15;
+          tokenMatched = true;
+        }
+        if (sharedTrads.includes(token)) {
+          score += 25;
+          tokenMatched = true;
+        }
+        if (tokenMatched) matchedTokensCount++;
+      }
+
+      if (matchedTokensCount === searchTokens.length || (searchTokens.length > 2 && matchedTokensCount >= searchTokens.length - 1)) {
+        if (activeTraditions && activeTraditions.length > 0 && activeTraditions.some(t => matchesTraditionInclusive(p, t))) {
+          score += 15;
+        }
+        scoredResults.push({ prayer: p, score });
       }
     }
-    return results;
+
+    scoredResults.sort((a, b) => b.score - a.score);
+    return scoredResults.map(r => r.prayer);
   }
 
   /**
-   * Filtra oraciones por estado emocional (¿Cómo te sientes hoy?)
+   * Filtra oraciones por estado emocional con mapeo neuronal de 180+ etiquetas
    */
   static async getPrayersByEmotion(emotionKey, lang = 'es', activeTraditions = []) {
     const prayers = await PrayerCorpusService.getAvailablePrayers(lang, activeTraditions);
     if (!emotionKey) return prayers;
 
-    return prayers.filter(p => {
-      const emos = p.estadosEmocionales || [];
-      return emos.includes(emotionKey);
-    });
+    return prayers.filter(p => prayerMatchesEmotionCanonical(p, emotionKey));
   }
 
   /**

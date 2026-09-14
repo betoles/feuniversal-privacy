@@ -16,6 +16,7 @@ import { TranslationReportModalComponent } from './translation-report-modal.js';
 import { MembershipComponent } from './membership.js';
 import { SacredSoundPicker } from './sacred-sound-picker.js';
 import { t, isRTL } from '../data/i18n.js';
+import { getEcumenicalBadgeText } from '../data/cross-traditions.js';
 
 export class MirrorReaderComponent {
   constructor() {
@@ -363,6 +364,11 @@ export class MirrorReaderComponent {
             <span class="hud-pill dot-green" style="font-size: 0.75rem; font-weight: 700;">${this.formatTraditionName(prayer.tradicion, lang)}</span>
             ${isZen ? `<span class="hud-pill dot-cyan" style="font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;"><span>${renderIcon('intent_paz')}</span><span>${t('zen_mode_label', lang)}</span></span>` : ''}
           </div>
+          ${getEcumenicalBadgeText(prayer, lang) ? `
+            <div style="margin-top: 8px; font-size: 0.76rem; color: #38bdf8; font-weight: 700; line-height: 1.35; background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); padding: 5px 12px; border-radius: var(--radius-full); display: inline-flex; align-items: center; gap: 6px;">
+              <span>${getEcumenicalBadgeText(prayer, lang)}</span>
+            </div>
+          ` : ''}
         </div>
 
         <!-- Ritual Sugerido Glassmorphic de Ancho Completo -->
