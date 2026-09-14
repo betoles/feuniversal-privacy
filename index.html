@@ -97,9 +97,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@600;700;900&family=Frank+Ruhl+Libre:wght@500;700;900&family=JetBrains+Mono:wght@500;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Serif+JP:wght@400;600;700&family=Noto+Serif+SC:wght@500;700;900&family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Hojas de Estilo del Sistema Crystal Glassmorphism -->
-  <link rel="stylesheet" href="css/design-tokens.css?v=9.6.0">
-  <link rel="stylesheet" href="css/glassmorphism.css?v=9.6.0">
-  <link rel="stylesheet" href="css/app.css?v=9.6.0">
+  <link rel="stylesheet" href="css/design-tokens.css?v=10.0.0">
+  <link rel="stylesheet" href="css/glassmorphism.css?v=10.0.0">
+  <link rel="stylesheet" href="css/app.css?v=10.0.0">
 </head>
 <body class="app-viewport">
 
@@ -451,19 +451,39 @@
 
         <!-- BANNER DEVOCIONAL: ACOGIDA, FRATERNIDAD Y SUGERENCIA DE ORACIONES -->
         <div class="crystal-card community-devotional-card" id="devotional-community-banner">
-          <img src="ico.png?v=5.0" alt="FeUniversal" class="community-banner-official-logo" width="48" height="48" style="width: 48px; height: 48px; min-width: 48px; min-height: 48px; max-width: 48px; max-height: 48px; object-fit: cover; border-radius: 50%; display: block; margin: 0 auto 14px auto;" />
+          <div class="community-banner-header">
+            <div class="community-banner-logo-wrapper">
+              <img src="app-icon.png?v=6.0" alt="FeUniversal" class="community-banner-official-logo" width="52" height="52" />
+            </div>
+            <div class="community-banner-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="community-badge-icon">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+              <span id="label-community-tag">FeUniversal · Fraternidad Global</span>
+            </div>
+          </div>
+
           <h3 id="label-community-banner-title" class="community-banner-title">
             Tu Fe es Sagrada para Nosotros
           </h3>
+
           <p id="label-community-banner-text" class="community-banner-text">
             Estimado creyente: apoyamos y respetamos profundamente tu fe. Si deseas que tu oración favorita sea incluida en FeUniversal, contáctanos y en menos de 72 horas tendrás respuesta.
           </p>
-          <div class="community-banner-actions">
-            <a href="mailto:feuniversal_faith_and_prayers@outlook.com?subject=Sugerencia%20de%20Oraci%C3%B3n%20-%20FeUniversal" id="link-community-email" class="community-email-chip" title="Enviar correo oficial">
-              <span class="community-email-text">feuniversal_faith_and_prayers@outlook.com</span>
-            </a>
-            <button type="button" id="btn-copy-community-email" class="community-copy-btn" title="Copiar correo">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="community-action-icon">
+
+          <div class="community-banner-capsule">
+            <div class="community-email-display">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="community-mail-icon">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              <a href="mailto:feuniversal_faith_and_prayers@outlook.com?subject=Sugerencia%20de%20Oraci%C3%B3n%20-%20FeUniversal" id="link-community-email" class="community-email-address" title="Enviar correo oficial">
+                feuniversal_faith_and_prayers@outlook.com
+              </a>
+            </div>
+
+            <button type="button" id="btn-copy-community-email" class="community-copy-action-btn" title="Copiar correo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="community-copy-icon">
                 <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
                 <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
               </svg>
