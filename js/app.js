@@ -987,7 +987,7 @@ export class FeUniversalApp {
             <span style="color: ${tradColor}; display: inline-flex; align-items: center; flex-shrink: 0;">${iconSvg}</span>
             <span style="font-weight: 700;">${tradName}</span>
           </span>
-          <span class="hud-pill dot-cyan" style="font-size: 0.70rem; display: inline-flex; align-items: center; gap: 4px; max-width: 100%; white-space: normal; line-height: 1.35; padding: 4px 10px; margin-left: auto;">
+          <span class="hud-pill dot-cyan" style="font-size: 0.70rem; display: inline-flex; align-items: center; gap: 4px; max-width: 100%; white-space: normal; line-height: 1.35; padding: 4px 10px; margin-inline-start: auto;">
             <span>${p.idiomaLiturgicoOriginal || 'Litúrgico'}</span>
           </span>
         </div>
