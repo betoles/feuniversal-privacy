@@ -82,6 +82,50 @@ export class MirrorReaderComponent {
     return localized.join(' / ');
   }
 
+  formatCandleDuration(hours, lang = 'es') {
+    if (!hours) return '';
+    const h = Number(hours) || hours;
+    const l = (lang || 'es').toLowerCase();
+    
+    switch (l) {
+      case 'zh':
+        return `${h}小时`;
+      case 'ja':
+        return `${h}時間`;
+      case 'ru':
+        return `${h} ч.`;
+      case 'ar':
+        return `${h} ساعة`;
+      case 'he':
+        return `${h} שעות`;
+      case 'hi':
+        return `${h} घंटे`;
+      case 'bn':
+        return `${h} ঘণ্টা`;
+      case 'ko':
+        return `${h}시간`;
+      case 'de':
+        return `${h} Std.`;
+      case 'fr':
+        return `${h} h`;
+      case 'it':
+        return `${h} ore`;
+      case 'pt':
+      case 'es':
+      case 'en':
+      case 'la':
+        return `${h}h`;
+      case 'id':
+        return `${h} jam`;
+      case 'ur':
+        return `${h} گھنٹے`;
+      case 'sw':
+        return `Masaa ${h}`;
+      default:
+        return `${h}h`;
+    }
+  }
+
   async open(prayer) {
     const quota = StorageService.getDailyPrayerQuota();
     if (!quota.allowed) {
@@ -262,7 +306,7 @@ export class MirrorReaderComponent {
         countLabel = countLabel.replace(/\s*\(\d+\)\s*\(\d+\)/g, (m) => { const n = m.match(/\d+/); return n ? ` (${n[0]})` : ''; });
       }
 
-      const candleLabel = r.duracionVeladoraSugeridaHoras ? `${r.duracionVeladoraSugeridaHoras}h` : '';
+      const candleLabel = this.formatCandleDuration(r.duracionVeladoraSugeridaHoras, lang);
 
       let soundLabel = '';
       if (r.paisajeSonoroRecomendado) {
