@@ -2380,16 +2380,22 @@ button {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 8px !important;
-  padding: 8px 16px !important;
+  padding: 8px 18px !important;
   border-radius: var(--radius-full, 9999px) !important;
-  font-size: 0.8rem !important;
+  font-size: clamp(0.74rem, 3.4vw, 0.82rem) !important;
   font-weight: 700 !important;
   text-decoration: none !important;
   transition: all 0.25s ease !important;
   box-sizing: border-box !important;
   max-width: 100% !important;
+  white-space: nowrap !important;
   cursor: pointer !important;
+}
+
+.community-email-text {
+  white-space: nowrap !important;
+  letter-spacing: -0.01em !important;
+  display: inline-block !important;
 }
 
 :root:not([data-theme="light"]) .community-email-chip,
