@@ -595,12 +595,18 @@
     if ('caches' in window) {
       caches.keys().then(keys => {
         keys.forEach(k => {
-          if (k.includes('feuniversal-core') && !k.endsWith('v9.6.0')) {
+          if (!k.includes('v10.6.0')) {
             console.log('[Cache Cleanup] Purgando caché obsoleta:', k);
             caches.delete(k);
           }
         });
       });
+    }
+    if ('indexedDB' in window) {
+      try {
+        window.indexedDB.deleteDatabase('feuniversal_prayers_corpus_db_v2');
+        window.indexedDB.deleteDatabase('feuniversal_prayers_corpus_db_v1');
+      } catch (e) {}
     }
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.getRegistrations().then(regs => {

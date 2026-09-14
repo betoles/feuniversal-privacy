@@ -769,7 +769,7 @@ export class FeUniversalApp {
       }
     }
     const rawList = (Array.isArray(corpus) && corpus.length > 0) ? corpus : PRAYERS_DB;
-    const availablePrayers = rawList.filter(p => activeTraditions.includes(p.tradicion) || p.tradicion === 'universal');
+    const availablePrayers = rawList.filter(p => activeTraditions.some(t => matchesTraditionInclusive(p, t)));
 
     // 0. Actualizar Textos UI según el idioma
     const searchInput = document.getElementById('input-prayer-search');

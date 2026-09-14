@@ -13,7 +13,7 @@
  * 5. 100% Funcional sin conexión (Modo Avión perpetuo) con fallbacks estructurados.
  */
 
-const CACHE_VERSION = 'v9.7.0';
+const CACHE_VERSION = 'v10.6.0';
 const CORE_CACHE = `feuniversal-core-${CACHE_VERSION}`;
 const PRAYERS_CACHE = `feuniversal-prayers-${CACHE_VERSION}`;
 const SCRIPTURES_CACHE = `feuniversal-scriptures-${CACHE_VERSION}`;
@@ -171,19 +171,18 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // C. ORACIONES MAESTRAS (/json_idiomas/): Cache-First con Lazy On-Demand en PRAYERS_CACHE
+  // C. ORACIONES MAESTRAS (/json_idiomas/): Network-First con fallback a PRAYERS_CACHE
   if (url.pathname.includes('/json_idiomas/')) {
     event.respondWith(
-      caches.match(req, { ignoreSearch: true }).then((cached) => {
-        if (cached) return cached;
-        return fetch(req).then((networkRes) => {
-          if (networkRes && networkRes.status === 200) {
-            const copy = networkRes.clone();
-            caches.open(PRAYERS_CACHE).then((cache) => cache.put(req, copy));
-          }
-          return networkRes;
-        }).catch(() => {
-          // Fallback offline al compendio maestro en español
+      fetch(req).then((networkRes) => {
+        if (networkRes && networkRes.status === 200) {
+          const copy = networkRes.clone();
+          caches.open(PRAYERS_CACHE).then((cache) => cache.put(req, copy));
+        }
+        return networkRes;
+      }).catch(() => {
+        return caches.match(req, { ignoreSearch: true }).then((cached) => {
+          if (cached) return cached;
           return caches.match('./json_idiomas/oraciones_maestro_es.json');
         });
       })

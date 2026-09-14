@@ -65,7 +65,7 @@ export class PrayerCorpusService {
           resolve(null);
           return;
         }
-        const req = window.indexedDB.open('feuniversal_prayers_corpus_db_v2', 1);
+        const req = window.indexedDB.open('feuniversal_prayers_corpus_db_v10_6', 1);
         req.onupgradeneeded = (e) => {
           const db = e.target.result;
           if (!db.objectStoreNames.contains('language_corpuses')) {
@@ -91,7 +91,7 @@ export class PrayerCorpusService {
     // 1. Verificar caché en memoria RAM
     if (PrayerCorpusService.memoryCache.has(targetLang)) {
       const memCorpus = PrayerCorpusService.memoryCache.get(targetLang);
-      if (Array.isArray(memCorpus) && memCorpus.length >= 4253) {
+      if (Array.isArray(memCorpus) && memCorpus.length >= 4253 && memCorpus.some(p => p.id === 'DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION')) {
         PrayerCorpusService._touchLRU(targetLang);
         return memCorpus;
       }
@@ -109,7 +109,7 @@ export class PrayerCorpusService {
           req.onerror = () => resolve(null);
         });
 
-        if (cached && Array.isArray(cached) && cached.length >= 4253) {
+        if (cached && Array.isArray(cached) && cached.length >= 4253 && cached.some(p => p.id === 'DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION')) {
           PrayerCorpusService._setInCache(targetLang, cached);
           return cached;
         }
