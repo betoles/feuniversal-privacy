@@ -75,14 +75,20 @@ export class FeUniversalApp {
   }
 
   async init() {
-    // 0. Pre-extracción inmediata de idioma desde la URL antes de cualquier renderizado
+    // 0. Pre-extracción inmediata de idioma y parámetros desde la URL antes de cualquier renderizado
+    let urlParams = null;
+    let incomingPrayerId = null;
+    let incomingTab = null;
+
     if (typeof window !== 'undefined') {
-      const urlParams = new URLSearchParams(window.location.search);
+      urlParams = new URLSearchParams(window.location.search);
       const langParam = urlParams.get('lang');
       if (langParam && ['es', 'en', 'pt', 'it', 'fr', 'de', 'la', 'ar', 'ru', 'hi', 'bn', 'zh', 'ja', 'he', 'id', 'ur', 'sw'].includes(langParam.toLowerCase())) {
         this.prefs.idioma = langParam.toLowerCase();
         StorageService.savePreferences(this.prefs);
       }
+      incomingPrayerId = urlParams.get('p') || urlParams.get('prayer');
+      incomingTab = urlParams.get('tab');
     }
 
     const activeLang = this.prefs.idioma || 'es';
@@ -100,14 +106,30 @@ export class FeUniversalApp {
     try { this.attachGlobalEvents(); } catch (e) { console.warn('Error attachGlobalEvents:', e); }
     try { this.initAndroidBackButtonHandler(); } catch (e) { console.warn('Error initAndroidBackButtonHandler:', e); }
     try { this.checkPayPalBillingReturn(); } catch (e) { console.warn('Error checkPayPalBillingReturn:', e); }
-    try { this.handleIncomingDeepLinks(); } catch (e) { console.warn('Error handleIncomingDeepLinks:', e); }
 
-    const urlParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
-    const hasIncomingPrayer = urlParams && (urlParams.get('p') || urlParams.get('prayer'));
+    // 1. Manejo prioritario e instantáneo de Oración Directa (?p=[ID])
+    if (incomingPrayerId) {
+      try {
+        const prayer = await PrayerCorpusService.getPrayerById(incomingPrayerId, activeLang);
+        if (prayer) {
+          this.mirrorReader.open(prayer);
+        } else {
+          const fallback = await PrayerCorpusService.getPrayerById(incomingPrayerId, 'es');
+          if (fallback) {
+            this.mirrorReader.open(fallback);
+          }
+        }
+      } catch (e) {
+        console.warn('[DeepLink] Error cargando oración directa:', e);
+      }
+    } else if (incomingTab) {
+      try { this.handleIncomingDeepLinks(); } catch (e) { console.warn('Error handleIncomingDeepLinks:', e); }
+    }
 
-    if (!this.prefs.onboardingCompletado && !hasIncomingPrayer) {
+    // 2. Control de Onboarding: Si viene un enlace directo a una oración, suprimir onboarding
+    if (!this.prefs.onboardingCompletado && !incomingPrayerId) {
       setTimeout(() => this.onboarding.open(1), 500);
-    } else if (StorageService.shouldShowWeeklyPaywallReminder()) {
+    } else if (StorageService.shouldShowWeeklyPaywallReminder() && !incomingPrayerId) {
       setTimeout(() => this.membership.open(true), 1200);
     }
   }
@@ -115,30 +137,8 @@ export class FeUniversalApp {
   handleIncomingDeepLinks() {
     if (typeof window === 'undefined') return;
     const urlParams = new URLSearchParams(window.location.search);
-    const currentLang = this.prefs.idioma || 'es';
 
-    // 1. Detección de Oración Directa (?p=[ID_O_NUMERO])
-    const prayerId = urlParams.get('p') || urlParams.get('prayer');
-    if (prayerId) {
-      setTimeout(async () => {
-        try {
-          const prayer = await PrayerCorpusService.getPrayerById(prayerId, currentLang);
-          if (prayer) {
-            this.mirrorReader.open(prayer);
-          } else {
-            const fallback = await PrayerCorpusService.getPrayerById(prayerId, 'es');
-            if (fallback) {
-              this.mirrorReader.open(fallback);
-            }
-          }
-        } catch (e) {
-          console.warn('[DeepLink] Error cargando oración:', e);
-        }
-      }, 450);
-      return;
-    }
-
-    // 2. Detección de Pestañas y Escrituras (?tab=...)
+    // Detección de Pestañas y Escrituras (?tab=...)
     const tabParam = urlParams.get('tab');
     if (tabParam) {
       setTimeout(() => {
@@ -162,7 +162,7 @@ export class FeUniversalApp {
             }, 300);
           }
         }
-      }, 400);
+      }, 300);
     }
   }
 

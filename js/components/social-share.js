@@ -61,14 +61,110 @@ export function getShareItemTradition(item, lang) {
 
 export function getShareDeepLink(item, lang = 'es') {
   const base = CANONICAL_WEB_URL;
-  if (!item) return `${base}?lang=${encodeURIComponent(lang)}`;
+  const l = (lang || 'es').toLowerCase();
+  if (!item) return `${base}?lang=${encodeURIComponent(l)}`;
   if (item.id) {
-    return `${base}?p=${encodeURIComponent(item.id)}&lang=${encodeURIComponent(lang)}`;
+    return `${base}?p=${encodeURIComponent(item.id)}&lang=${encodeURIComponent(l)}`;
   }
   if (item.libroKey) {
-    return `${base}?tab=scriptures&book=${encodeURIComponent(item.libroKey)}&cap=${encodeURIComponent(item.capitulo || 1)}&lang=${encodeURIComponent(lang)}`;
+    return `${base}?tab=scriptures&book=${encodeURIComponent(item.libroKey)}&cap=${encodeURIComponent(item.capitulo || 1)}&lang=${encodeURIComponent(l)}`;
   }
-  return `${base}?lang=${encodeURIComponent(lang)}`;
+  return `${base}?lang=${encodeURIComponent(l)}`;
+}
+
+export function getScriptSpecificFont(lang, weight = 'normal', size = 28, isSerif = false) {
+  const l = (lang || 'es').toLowerCase();
+  if (['ar', 'ur'].includes(l)) {
+    return `${weight} ${size}px 'Scheherazade New', 'Amiri', serif`;
+  }
+  if (l === 'he') {
+    return `${weight} ${size}px 'Frank Ruhl Libre', serif`;
+  }
+  if (l === 'hi') {
+    return `${weight} ${size}px 'Noto Sans Devanagari', sans-serif`;
+  }
+  if (l === 'bn') {
+    return `${weight} ${size}px 'Noto Sans Bengali', sans-serif`;
+  }
+  if (l === 'zh') {
+    return `${weight} ${size}px 'Noto Serif SC', 'Songti SC', 'Source Han Serif SC', serif`;
+  }
+  if (l === 'ja') {
+    return `${weight} ${size}px 'Noto Serif JP', 'Yu Mincho', serif`;
+  }
+  if (isSerif) {
+    return `${weight} ${size}px 'Cinzel', Georgia, serif`;
+  }
+  return `${weight} ${size}px 'Plus Jakarta Sans', sans-serif`;
+}
+
+export function breakTextIntoLines(ctx, text, maxWidth, fontSize, lang = 'es') {
+  if (!text) return [];
+  const l = (lang || 'es').toLowerCase();
+  const isCJK = ['zh', 'ja'].includes(l);
+
+  const paragraphs = String(text)
+    .replace(/^\d+\.\s*/gm, '')
+    .split('\n')
+    .map(p => p.trim())
+    .filter(Boolean);
+
+  const allLines = [];
+
+  for (const para of paragraphs) {
+    if (isCJK) {
+      let currentLine = '';
+      for (const char of para) {
+        const testLine = currentLine + char;
+        if (ctx.measureText(testLine).width > maxWidth && currentLine.length > 0) {
+          allLines.push(currentLine);
+          currentLine = char;
+        } else {
+          currentLine = testLine;
+        }
+      }
+      if (currentLine) allLines.push(currentLine);
+    } else {
+      const words = para.split(/\s+/);
+      let currentLine = '';
+      for (let i = 0; i < words.length; i++) {
+        const word = words[i];
+        const testLine = currentLine ? `${currentLine} ${word}` : word;
+        if (ctx.measureText(testLine).width > maxWidth && currentLine) {
+          allLines.push(currentLine);
+          currentLine = word;
+        } else {
+          currentLine = testLine;
+        }
+      }
+      if (currentLine) allLines.push(currentLine);
+    }
+  }
+
+  return allLines;
+}
+
+export function calculateOptimalTypography(ctx, fullText, lang, maxWidth, availableHeight) {
+  for (let fontSize = 36; fontSize >= 18; fontSize -= 2) {
+    const lineHeight = Math.round(fontSize * 1.48);
+    ctx.font = getScriptSpecificFont(lang, 'normal', fontSize, false);
+    const lines = breakTextIntoLines(ctx, fullText, maxWidth, fontSize, lang);
+    const totalHeight = lines.length * lineHeight;
+    if (totalHeight <= availableHeight || fontSize === 18) {
+      return {
+        fontSize,
+        lineHeight,
+        lines,
+        totalHeight
+      };
+    }
+  }
+  return {
+    fontSize: 18,
+    lineHeight: 26,
+    lines: breakTextIntoLines(ctx, fullText, maxWidth, 18, lang),
+    totalHeight: availableHeight
+  };
 }
 
 export function getHeroMessagingPlatform(lang = 'es') {
@@ -463,6 +559,7 @@ export class SocialShareComponent {
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
     const deepLink = getShareDeepLink(prayer, lang);
+    const deepLinkDisplay = deepLink.replace(/^https?:\/\//, '');
 
     const canvas = document.createElement('canvas');
     canvas.width = 1080;
@@ -479,7 +576,7 @@ export class SocialShareComponent {
     ctx.fillRect(0, 0, 1080, 1920);
 
     // 2. Halo de resplandor áureo central
-    const radialHalo = ctx.createRadialGradient(540, 700, 50, 540, 700, 600);
+    const radialHalo = ctx.createRadialGradient(540, 750, 50, 540, 750, 650);
     radialHalo.addColorStop(0, 'rgba(234, 179, 8, 0.28)');
     radialHalo.addColorStop(0.5, 'rgba(99, 102, 241, 0.16)');
     radialHalo.addColorStop(1, 'rgba(0, 0, 0, 0)');
@@ -499,123 +596,156 @@ export class SocialShareComponent {
     ctx.fillStyle = '#f59e0b';
     ctx.font = 'bold 36px "Cinzel", Georgia, serif';
     ctx.textAlign = 'center';
-    ctx.fillText('FEUNIVERSAL · FAITH & PRAYERS', 540, 175);
+    ctx.fillText('FEUNIVERSAL · FAITH & PRAYERS', 540, 160);
 
     const sanctuarySubtitle = (t('share_sanctuary_tagline', lang) || 'Santuario Espiritual Universal').toUpperCase();
     ctx.fillStyle = 'rgba(255, 255, 255, 0.75)';
-    ctx.font = '22px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText(sanctuarySubtitle, 540, 218);
+    ctx.font = getScriptSpecificFont(lang, 'normal', 22, false);
+    ctx.fillText(sanctuarySubtitle, 540, 202);
 
     // 5. Destello central decorativo
     ctx.fillStyle = '#fbbf24';
-    ctx.font = 'bold 44px "Cinzel", Georgia, serif';
-    ctx.fillText('✦ ✦ ✦', 540, 310);
+    ctx.font = 'bold 38px "Cinzel", Georgia, serif';
+    ctx.fillText('✦ ✦ ✦', 540, 260);
 
     // 6. Tradición Pill Adaptativo
     const tradName = getShareItemTradition(prayer, lang);
-    ctx.font = 'bold 22px "Plus Jakarta Sans", sans-serif';
+    ctx.font = getScriptSpecificFont(lang, 'bold', 22, false);
     const textMeasure = ctx.measureText(tradName);
-    const pillWidth = Math.min(840, Math.max(340, textMeasure.width + 50));
+    const pillWidth = Math.min(840, Math.max(320, textMeasure.width + 48));
     const pillX = 540 - pillWidth / 2;
     
     ctx.fillStyle = 'rgba(234, 179, 8, 0.20)';
-    ctx.fillRect(pillX, 365, pillWidth, 50);
+    ctx.fillRect(pillX, 295, pillWidth, 46);
     ctx.strokeStyle = 'rgba(234, 179, 8, 0.55)';
     ctx.lineWidth = 1.5;
-    ctx.strokeRect(pillX, 365, pillWidth, 50);
+    ctx.strokeRect(pillX, 295, pillWidth, 46);
     ctx.fillStyle = '#fef08a';
-    ctx.fillText(tradName, 540, 398);
+    ctx.fillText(tradName, 540, 326);
 
-    // 7. Título de la Oración o Escritura (Multilínea)
+    // 7. Título de la Oración o Escritura (Multilínea Dinámico)
     const titleText = getShareItemTitle(prayer, lang);
     ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 40px "Cinzel", Georgia, serif';
-    this.wrapText(ctx, titleText, 540, 485, 840, 48, 680);
+    ctx.font = getScriptSpecificFont(lang, 'bold', 34, true);
+    const titleLines = breakTextIntoLines(ctx, titleText, 860, 34, lang);
+    const titleLineHeight = 44;
+    let titleY = 388;
+    for (const tl of titleLines) {
+      ctx.fillText(tl, 540, titleY);
+      titleY += titleLineHeight;
+    }
+    const titleEndY = titleY - titleLineHeight + 16;
 
-    // 8. Texto Sagrado de la Plegaria / Versículo
-    const rawPrayerText = getShareItemText(prayer, lang, this.customText);
-    const cleanPrayerText = rawPrayerText.replace(/^\d+\.\s*/gm, '').replace(/\n+/g, ' ').trim();
-    const snippet = cleanPrayerText.substring(0, 320) + (cleanPrayerText.length > 320 ? '...' : '');
+    // 8. Pie de Foto / Elementos Inferiores (Cálculo adaptativo de abajo hacia arriba)
+    const petitionLegend = t('share_card_petition_legend', lang) || '« Si deseas que tu oración favorita se incluya, escríbenos tu petición y haremos lo posible por integrarla a FeUniversal. Que así sea... »';
+    ctx.font = getScriptSpecificFont(lang, 'italic', 20, false);
+    const legendLines = breakTextIntoLines(ctx, petitionLegend, 840, 20, lang);
+    const legendLineHeight = 28;
+    const totalLegendHeight = legendLines.length * legendLineHeight;
+    
+    const legendStartY = 1825 - totalLegendHeight;
+    const emailY = legendStartY - 28;
+    const medallionY = emailY - 62;
+    const iconRadius = 34;
+    const deepLinkY = medallionY - 58;
+    const ctaY = deepLinkY - 36;
+    const topOfFooter = ctaY - 26;
 
-    ctx.fillStyle = 'rgba(248, 250, 252, 0.95)';
-    ctx.font = '30px "Plus Jakarta Sans", sans-serif';
-    this.wrapText(ctx, '« ' + snippet + ' »', 540, 760, 840, 44, 1260);
-
-    // 9. Pie de Foto / Invitación
+    // 8.1 Dibujar CTA
     ctx.fillStyle = '#f59e0b';
-    ctx.font = 'bold 24px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText(t('share_story_card_cta_prefix', lang) || 'Reza la devoción completa y enciende tu veladora en:', 540, 1345);
+    ctx.font = getScriptSpecificFont(lang, 'bold', 22, false);
+    ctx.fillText(t('share_story_card_cta_prefix', lang) || 'Reza la devoción completa y enciende tu veladora en:', 540, ctaY);
 
+    // 8.2 Dibujar Deep Link URL Canónico y Localizado
     ctx.fillStyle = '#38bdf8';
-    ctx.font = 'bold 28px "JetBrains Mono", monospace';
-    ctx.fillText('betoles.github.io/feuniversal-privacy', 540, 1390);
+    ctx.font = 'bold 21px "JetBrains Mono", "Plus Jakarta Sans", monospace';
+    ctx.fillText(deepLinkDisplay, 540, deepLinkY);
 
-    // 9.1 MEDALLÓN OFICIAL FEUNIVERSAL EN EL PIE DE LA TARJETA
+    // 8.3 Dibujar Medallón Oficial FeUniversal
     const iconX = 540;
-    const iconY = 1475;
-    const iconRadius = 38;
-
-    // Halo de resplandor áureo del logo
-    const iconGlow = ctx.createRadialGradient(iconX, iconY, 10, iconX, iconY, 70);
+    const iconGlow = ctx.createRadialGradient(iconX, medallionY, 8, iconX, medallionY, 60);
     iconGlow.addColorStop(0, 'rgba(234, 179, 8, 0.45)');
     iconGlow.addColorStop(0.5, 'rgba(99, 102, 241, 0.25)');
     iconGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
     ctx.fillStyle = iconGlow;
     ctx.beginPath();
-    ctx.arc(iconX, iconY, 70, 0, Math.PI * 2);
+    ctx.arc(iconX, medallionY, 60, 0, Math.PI * 2);
     ctx.fill();
 
-    // Medallón con Logo Oficial de FeUniversal
     if (this.logoImg && this.logoImg.complete && this.logoImg.naturalWidth > 0) {
       ctx.save();
       ctx.beginPath();
-      ctx.arc(iconX, iconY, iconRadius, 0, Math.PI * 2);
+      ctx.arc(iconX, medallionY, iconRadius, 0, Math.PI * 2);
       ctx.closePath();
       ctx.clip();
-      ctx.drawImage(this.logoImg, iconX - iconRadius, iconY - iconRadius, iconRadius * 2, iconRadius * 2);
+      ctx.drawImage(this.logoImg, iconX - iconRadius, medallionY - iconRadius, iconRadius * 2, iconRadius * 2);
       ctx.restore();
     } else {
       ctx.fillStyle = 'rgba(15, 23, 42, 0.92)';
       ctx.beginPath();
-      ctx.arc(iconX, iconY, iconRadius, 0, Math.PI * 2);
+      ctx.arc(iconX, medallionY, iconRadius, 0, Math.PI * 2);
       ctx.fill();
 
       ctx.fillStyle = '#fbbf24';
-      ctx.font = 'bold 40px "Cinzel", Georgia, serif';
+      ctx.font = 'bold 36px "Cinzel", Georgia, serif';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      ctx.fillText('✦', iconX, iconY);
+      ctx.fillText('✦', iconX, medallionY);
       ctx.textBaseline = 'alphabetic';
     }
 
     // Marco exterior dorado y bisel de cristal
     ctx.strokeStyle = '#f59e0b';
-    ctx.lineWidth = 3.5;
+    ctx.lineWidth = 3;
     ctx.beginPath();
-    ctx.arc(iconX, iconY, iconRadius, 0, Math.PI * 2);
+    ctx.arc(iconX, medallionY, iconRadius, 0, Math.PI * 2);
     ctx.stroke();
 
     ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
     ctx.lineWidth = 1.5;
     ctx.beginPath();
-    ctx.arc(iconX, iconY, iconRadius + 4, 0, Math.PI * 2);
+    ctx.arc(iconX, medallionY, iconRadius + 4, 0, Math.PI * 2);
     ctx.stroke();
 
-    // 9.2 CORREO DE OUTLOOK Y LEYENDA DE PETICIÓN
+    // 8.4 Dibujar Correo Oficial
     ctx.fillStyle = '#fde047';
-    ctx.font = 'bold 22px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText('feuniversal_faith_and_prayers@outlook.com', 540, 1565);
+    ctx.font = 'bold 20px "Plus Jakarta Sans", sans-serif';
+    ctx.fillText('feuniversal_faith_and_prayers@outlook.com', 540, emailY);
 
-    const petitionLegend = t('share_card_petition_legend', lang) || '« Si deseas que tu oración favorita se incluya, escríbenos tu petición y haremos lo posible por integrarla a FeUniversal. Que así sea... »';
-    
+    // 8.5 Dibujar Leyenda de Petición
     ctx.fillStyle = 'rgba(241, 245, 249, 0.95)';
-    ctx.font = 'italic 23px "Plus Jakarta Sans", sans-serif';
-    this.wrapText(ctx, petitionLegend, 540, 1615, 840, 32, 1820);
+    ctx.font = getScriptSpecificFont(lang, 'italic', 20, false);
+    let curLegendY = legendStartY;
+    for (const legLine of legendLines) {
+      ctx.fillText(legLine, 540, curLegendY);
+      curLegendY += legendLineHeight;
+    }
+
+    // 9. Texto Sagrado de la Plegaria Completa (Motor Tipográfico Dinámico - 100% Íntegro)
+    const rawPrayerText = getShareItemText(prayer, lang, this.customText);
+    const cleanPrayerText = rawPrayerText.replace(/^\d+\.\s*/gm, '').trim();
+
+    const prayerStartY = titleEndY + 30;
+    const availableHeight = topOfFooter - prayerStartY - 20;
+
+    const typo = calculateOptimalTypography(ctx, cleanPrayerText, lang, 860, availableHeight);
+
+    ctx.fillStyle = 'rgba(248, 250, 252, 0.96)';
+    ctx.font = getScriptSpecificFont(lang, 'normal', typo.fontSize, false);
+
+    const totalTextH = typo.lines.length * typo.lineHeight;
+    const offsetVertical = Math.max(0, (availableHeight - totalTextH) / 2);
+    let drawTextY = prayerStartY + offsetVertical + typo.fontSize;
+
+    for (const pline of typo.lines) {
+      ctx.fillText(pline, 540, drawTextY);
+      drawTextY += typo.lineHeight;
+    }
 
     // 10. Descargar de forma instantánea
     try {
       const link = document.createElement('a');
-      link.download = `FeUniversal_${prayer.id || 'oracion'}.png`;
+      link.download = `FeUniversal_${prayer.id || 'oracion'}_${lang}.png`;
       link.href = canvas.toDataURL('image/png');
       document.body.appendChild(link);
       link.click();
