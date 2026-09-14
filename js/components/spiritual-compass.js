@@ -577,15 +577,16 @@ export class SpiritualCompassComponent {
           ${renderIcon("ui_close")}
         </button>
 
-        <!-- Header con Espaciado Seguro (Cero Colisiones) -->
-        <div style="text-align: center; margin-bottom: 14px; width: 100%; padding-right: 48px; padding-left: 6px; box-sizing: border-box;">
-          <div style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 0.84rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;">
-            <span style="width: 18px; height: 18px; display: inline-flex;">${renderIcon("ui_compass")}</span>
+        <!-- Header con Espaciado Seguro (Cero Colisiones y RTL Seguro) -->
+        <div style="text-align: center; margin-bottom: 14px; width: 100%; padding: 0 40px; box-sizing: border-box;">
+          <div style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-size: 0.84rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px;">
+            <span class="icon-inline" style="width: 18px; height: 18px;">${renderIcon("ui_compass")}</span>
             <span>${t("compass_title", lang) || "Brújula Espiritual"}</span>
           </div>
           <div style="font-size: 0.74rem; font-weight: 600; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; line-height: 1.4;">
-            <span style="display: inline-flex; align-items: center; gap: 4px; color: var(--text-primary); font-weight: 700;">
-              <span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold);">${renderIcon("ui_globe")}</span> ${sunTimes.cityName}
+            <span style="display: inline-flex; align-items: center; gap: 5px; color: var(--text-primary); font-weight: 700;">
+              <span class="icon-inline" style="width: 14px; height: 14px; color: var(--accent-gold);">${renderIcon("ui_globe")}</span>
+              <span>${sunTimes.cityName}</span>
             </span>
             <span style="color: var(--text-muted); opacity: 0.6;">·</span>
             <span style="display: inline-flex; align-items: center; gap: 4px;">

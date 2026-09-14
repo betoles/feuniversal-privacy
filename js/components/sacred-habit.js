@@ -85,7 +85,7 @@ export class SacredHabitComponent {
             ${title}
           </h2>
           <div style="font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 6px; flex-wrap: wrap; line-height: 1.35;">
-            <span style="color: var(--text-primary); font-weight: 700; display: inline-flex; align-items: center; gap: 4px;"><span style="display: inline-flex; color: var(--accent-rose);">${renderIcon('ui_globe')}</span> ${sunTimes.cityName}</span>
+            <span style="color: var(--text-primary); font-weight: 700; display: inline-flex; align-items: center; gap: 5px;"><span class="icon-inline" style="width: 14px; height: 14px; color: var(--accent-rose);">${renderIcon('ui_globe')}</span> <span>${sunTimes.cityName}</span></span>
             <span style="color: var(--text-muted); opacity: 0.6;">·</span>
             <span style="display: inline-flex; align-items: center; gap: 4px;"><span style="display: inline-flex; color: ${isMorning ? 'var(--accent-gold)' : 'var(--accent-indigo)'};">${renderIcon(isMorning ? 'ui_sunrise_sunset' : 'ui_moon')}</span> ${isMorning ? `${t('compass_dawn', lang) || 'Alba'}: <strong style="color: var(--text-primary); font-weight: 800;">${sunTimes.sunrise}</strong>` : `${t('compass_dusk', lang) || 'Ocaso'}: <strong style="color: var(--text-primary); font-weight: 800;">${sunTimes.sunset}</strong>`}</span>
           </div>

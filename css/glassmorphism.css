@@ -54,6 +54,23 @@
   transition: transform var(--transition-fast), filter var(--transition-fast);
 }
 
+.icon-inline {
+  width: 14px;
+  height: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.icon-inline .icon-svg,
+.icon-inline svg {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
 .icon-brand {
   width: 26px;
   height: 26px;
