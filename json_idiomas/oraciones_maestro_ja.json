@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Keigo-Kyodoyaku-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4266
+    "totalOraciones": 4274
   },
   "oraciones": [
     {
@@ -93873,6 +93873,158 @@
       "guiaFonetica": "Glo-rio-sí-si-mo San Ra-món No-na-to... co-lo-ca tu sa-gra-do can-da-do so-bre las bo-cas que in-ten-tan per-ju-di-car-me... A-mén.",
       "textoTraducido": "いと栄えある聖レイモンド・ノンナトゥス、キリストの証聖者にして苦しむ者の拠り所よ！信仰を守り福音を宣べ伝えるために、鉄の錠前で唇を閉ざされる苦難に耐えた聖人よ：私の命、名誉、家族、家庭をあなたの保護に委ねます。嘘、嫉妬、中傷、偽証をもって私を害そうとする者たちの口にあなたの聖なる錠前をかけ給え。悪意ある噂の火を消し去り、神の真理と平和を勝利させ給え。また、すべての妊婦を守り、出産の時に慈愛をもって寄り添い、母子ともに安全で幸福な安産を授け給え。私たちの主イエス・キリストによって。アーメン。",
       "ritualesAsociados": "Rezar sosteniendo una medalla o estampa de San Ramón Nonato o cerrando simbólicamente un pequeño candado ante una vela blanca, pidiendo protección contra murmuraciones y bendición para embarazos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_SHEMA_YISRAEL_COMPLETO",
+      "numero": 4267,
+      "titulo": "シェマー・イスラエル（聴け、イスラエルよ） · 神の唯一性の至高の宣言と愛の掟（申命記 6:4-9）",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "至高の信仰と神の唯一性",
+      "estadosEmocionales": [
+        "fe_absoluta",
+        "devocion",
+        "paz_interior",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "שְׁמַע יִשְׂרָאֵל, יְהוָה אֱלֹהֵינוּ, יְהוָה אֶחָד: בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד: וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ: וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם, בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ: וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ, וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ: וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ:",
+      "guiaFonetica": "She-má Yis-ra-él, A-do-nái E-lo-héi-nu, A-do-nái E-jád. Ba-rúj shem ke-vód mal-ju-tó le-o-lám va-éd. Ve-a-háv-ta et A-do-nái E-lo-hé-ja be-jól le-vav-já u-ve-jól naf-she-já u-ve-jól me-o-dé-ja... A-mén.",
+      "textoTraducido": "聞け、イスラエルよ。我らの神、主は唯一の主である。主の栄光の王国の御名は永遠にほめたたえられよ。あなたは心を尽くし、魂を尽くし、力を尽くしてあなたの神、主を愛さなければならない。今日わたしがあなたに命じるこれらの言葉を心に留めよ。これをあなたの子どもたちに教え込み、家に座っているときも、道を歩くときも、寝るときも、起きるときもこれを語らなければならない。これをしるしとしてあなたの手に結びつけ、目の間の飾りとし、あなたの家の門柱と門に書き記さなければならない。",
+      "ritualesAsociados": "Rezar al despertar y antes de dormir, cubriéndose los ojos con la mano derecha al proclamar el primer verso para una concentración pura en la unidad divina.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_KADDISH_YATOM_DUELO",
+      "numero": 4268,
+      "titulo": "服喪者のカディッシュ（カディッシュ・ヤトム） · 神の聖名の賛美と永遠の慰め",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "追悼、慰めと永遠の平和",
+      "estadosEmocionales": [
+        "consuelo",
+        "esperanza",
+        "paz_eterna",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא: בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ, וְיַמְלִיךְ מַלְכוּתֵהּ, בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב, וְאִמְרוּ אָמֵן: יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא: יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא, לְעֵלָּא מִן כָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן: עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:",
+      "guiaFonetica": "Yit-ga-dál ve-yit-ka-dásh shmeh ra-bá... Be-al-má di ve-rá jir-u-téh... Ye-hé shmeh ra-bá me-va-ráj le-a-lám ul-al-méi al-ma-yá... O-sé sha-lóm bim-ro-máv, hu ya-a-sé sha-lóm a-léi-nu ve-ál kol Yis-ra-él, ve-im-rú A-mén.",
+      "textoTraducido": "御旨に従って創造されたこの世界において、主の大いなる御名が高められ、聖とされますように。主があなたがたの生きている日々に、イスラエルの全家の生存のうちに、速やかにその王国を打ち立てられますように。皆で言いましょう：アーメン。主の大いなる御名が今も、永遠の世までもほめたたえられますように。聖なる方の御名は、世界で語られるすべての祝福、賛歌、賛美、慰めをはるかに越えて、祝福され、称賛され、栄光を受け、高くあがめられますように。皆で言いましょう：アーメン。高き天において平和をつくられる主が、私たちとイスラエルのすべての上に平和をもたらしてくださいますように。皆で言いましょう：アーメン。",
+      "ritualesAsociados": "Recitado tradicional en memoria de los seres queridos fallecidos, de pie, inclinando el cuerpo hacia adelante en reverencia y dando tres pasos atrás al concluir la invocación por la paz.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_MODEH_ANI_DESPERTAR",
+      "numero": 4269,
+      "titulo": "モデ・アニ · 命と魂の回復に対する朝一番の感謝の祈り",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "目覚めの感謝と魂の刷新",
+      "estadosEmocionales": [
+        "gratitud",
+        "fe_viva",
+        "alegria",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "מוֹדֶה אֲנִי לְפָנֶיךָ מֶלֶךְ חַי וְקַיָּם, שֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּחֶמְלָה, רַבָּה אֱמוּנָתֶךָ:",
+      "guiaFonetica": "Mo-déh a-ní le-fa-né-ja, Mé-lej jai ve-ka-yám, she-he-je-zár-ta bi nish-ma-tí be-jem-lá, ra-báh e-mu-na-té-ja.",
+      "textoTraducido": "生ける永遠の王よ、あなたが慈しみをもって我が魂を返してくださったことを感謝いたします。あなたの真実はまことに大いなるものです。",
+      "ritualesAsociados": "Se recita de inmediato al abrir los ojos por la mañana al despertar, antes de levantarse de la cama, en señal de gratitud instantánea por el don del alma renovada.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_KOHANIM_CANONICA",
+      "numero": 4270,
+      "titulo": "ビルカット・コハニーム · ヘブライ正統の祭司の祝福（民数記 6:24-26）",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "祭司の祝福と至高の平和",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_divina",
+        "bendicion",
+        "gracia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָ: יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:",
+      "guiaFonetica": "Ye-va-re-je-já A-do-nái ve-yish-me-ré-ja. Ya-ér A-do-nái pa-náv e-léi-ja vi-ju-né-ka. Yis-sá A-do-nái pa-náv e-léi-ja ve-ya-sém le-já sha-lóm.",
+      "textoTraducido": "主があなたを祝福し、あなたを守られますように。主が御顔の光をあなたの上に輝かせ、あなたに恵みを与えられますように。主が御顔をあなたに向け、あなたに平安を授けられますように。",
+      "ritualesAsociados": "Bendición sacerdotal tradicional de padres a hijos en la víspera de Shabat y en las oraciones festivas de la sinagoga con las manos extendidas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_HASHKIVEINU_PROTECCION_NOCHE",
+      "numero": 4271,
+      "titulo": "ハシュキヴェイヌ · 神の平和の天幕のもとでの夜の保護と憩いの祈り",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "夜の保護と平安",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_nocturna",
+        "serenidad",
+        "confianza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "הַשְׁכִּיבֵנוּ יְהוָה אֱלֹהֵינוּ לְשָׁלוֹם, וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים, וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ, וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ, וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ, וְהָגֵן בַּעֲדֵנוּ, וְהָסֵר מֵעָלֵינוּ אוֹיֵב, דֶּבֶר, וְחֶרֶב, וְרָעָב, וְיָגוֹן, וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ, וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ, כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה: וּשְׁמוֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם:",
+      "guiaFonetica": "Hash-ki-véi-nu A-do-nái E-lo-héi-nu le-sha-lóm, ve-ha-a-mi-dé-nu mal-kéi-nu le-ja-yím, uf-rós a-léi-nu su-kát she-lo-mé-ja... ki El shom-ré-nu u-mat-zi-lé-nu á-ta... A-mén.",
+      "textoTraducido": "私たちの神、主よ、私たちを安らかに横たわらせ、私たちの王よ、命へと起き上がらせてください。あなたの平和の天幕を私たちの上に広げ、良き御計らいをもってお導きになり、御名のために私たちをお救いください。私たちの盾となり、敵、疫病、剣、飢饉、悲嘆を遠ざけ給え。私たちの前後から障害を取り除き、あなたの御翼の陰に私たちを隠してください。主は私たちを守り救われる神、慈悲深く憐れみ深き王であられるからです。今より永遠に至るまで、命と平和のために私たちの出船と入船をお守りください。",
+      "ritualesAsociados": "Rezar en el servicio nocturno de Maariv o antes de dormir para invocar la tienda de paz divina y protección contra pesadillas, temores y peligros nocturnos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_AVINU_MALKEINU_MISERICORDIA",
+      "numero": 4272,
+      "titulo": "アヴィヌ・マルケイヌ（我らの父、我らの王よ） · 罪の赦し、癒やし、慈悲の嘆願の祈り",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "赦し、慈悲と全き癒やし",
+      "estadosEmocionales": [
+        "arrepentimiento",
+        "humildad",
+        "esperanza",
+        "misericordia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אָבִינוּ מַלְכֵּנוּ, חָטָאנוּ לְפָנֶיךָ: אָבִינוּ מַלְכֵּנוּ, אֵין לָנוּ מֶלֶךְ אֶלָּא אָתָּה: אָבִינוּ מַלְכֵּנוּ, עֲשֵׂה עִמָּנוּ לְמַעַן שְׁמֶךָ: אָבִינוּ מַלְכֵּנוּ, חַדֵּשׁ עָלֵינוּ שָׁנָה טוֹבָה: אָבִינוּ מַלְכֵּנוּ, בַּטֵּל מֵעָלֵינוּ כָּל גְּזֵרוֹת קָשׁוֹת: אָבִינוּ מַלְכֵּנוּ, סְלַח וּמְחַל לְכָל עֲוֹנוֹתֵינוּ: אָבִינוּ מַלְכֵּנוּ, שְׁלַח רְפוּאָה שְׁלֵמָה לְחוֹלֵי עַמֶּךָ: אָבִינוּ מַלְכֵּנוּ, כָּתְבֵנוּ בְּסֵפֶר חַיִּים טוֹבִים: אָבִינוּ מַלְכֵּנוּ, חָנֵּנוּ וַעֲנֵנוּ כִּי אֵין בָּנוּ מַעֲשִׂים, עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ:",
+      "guiaFonetica": "A-ví-nu Mal-kéi-nu, ja-tá-nu le-fa-né-ja... A-ví-nu Mal-kéi-nu, ja-né-nu va-a-né-nu ki ein bá-nu ma-a-sím, a-séh i-má-nu tze-da-ká va-jé-sed ve-ho-shi-é-nu.",
+      "textoTraducido": "我らの父、我らの王よ、私たちは御前に罪を犯しました。我らの父、我らの王よ、私たちの王は主のほかにありません。我らの父、我らの王よ、御名のために私たちをお恵みください。我らの父、我らの王よ、良き年を新たに授けてください。我らの父、我らの王よ、私たちに対するすべての過酷な宣告を取り消してください。我らの父、我らの王よ、すべての過ちをお赦しください。我らの父、我らの王よ、病める人々に完全な癒やしを遣わしてください。我らの父、我らの王よ、良き命の書に私たちをお書き留めください。我らの父、我らの王よ、私たちには誇るべき功績がありませんが、憐れみをもって応え、慈愛と恵みをもって私たちをお救いください。",
+      "ritualesAsociados": "Plegaria solemne de súplica durante los Diez Días de Arrepentimiento (entre Rosh Hashaná y Yom Kipur) y en días de ayuno y clamor comunitario.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_ESHET_JAYIL_MUJER_VIRTUOSA",
+      "numero": 4273,
+      "titulo": "エシェット・ハイル（有能な妻の賛歌） · 安息日の知恵、強さ、家庭の祝福の詩（格言 31:10-31）",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "女性の祝福と家庭の調和",
+      "estadosEmocionales": [
+        "gratitud",
+        "amor_familiar",
+        "honor",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אֵשֶׁת חַיִל מִי יִמְצָא, וְרָחֹק מִפְּנִינִים מִכְרָהּ: בָּטַח בָּהּ לֵב בַּעְלָהּ, וְשָׁלָל לֹא יֶחְסָר: גְּמָלַתְהוּ טוֹב וְלֹא רָע, כֹּל יְמֵי חַיֶּיהָ: כַּפָּהּ פָּרְשָׂה לֶעָנִי, וְיָדֶיהָ שִׁלְּחָה לָאֶבְיוֹן: עֹז וְהָדָר לְבוּשָׁהּ, וַתִּשְׂחַק לְיוֹם אַחֲרוֹן: פִּיהָ פָּתְחָה בְחָכְמָה, וְתוֹרַת חֶסֶד עַל לְשׁוֹנָהּ: צופִיָּה הֲלִיכוֹת בֵּיתָהּ, וְלֶחֶם עַצְלוּת לֹא תֹאכֵל: קָמוּ בָנֶיהָ וַיְאַשְּׁרוּהָ, בַּעְלָהּ וַיְהַלְלָהּ: רַבּוֹת בָּנוֹת עָשׂוּ חָיִל, וְאַתְּ עָלִית עַל כֻּלָּנָה: שֶׁקֶר הַחֵן וְהֶבֶל הַיֹּפִי, אִשָּׁה יִרְאַת יְהוָה הִיא תִתְהַלָּל: תְּנוּ לָהּ מִפְּרִי יָדֶיהָ, וִיהַלְלוּהָ בַשְּׁעָרִים מַעֲשֶׂיהָ:",
+      "guiaFonetica": "É-shet já-yil mi yim-tzá, ve-ra-jók mip-ni-ním mij-ráh... Ká-mu va-né-ha vay-ash-rú-ha, ba-láh vay-hal-láh... She-kér ha-jén ve-hé-vel ha-yó-fi, i-shá yir-át A-do-nái hi tit-ha-lál... A-mén.",
+      "textoTraducido": "有能な妻を誰が見出すことができようか。彼女の値打ちは真珠をはるかに凌ぐ。夫の心は彼女を信頼し、利益に事欠くことがない。彼女は生涯にわたり夫に善をもたらし、悪をもたらさない。貧しい者に手を差し伸べ、困窮する者に手を伸ばす。力と威厳は彼女の衣であり、来るべき日を微笑みをもって見つめる。口を開けば知恵を語り、その舌には優しい教えがある。彼女は家族の様子を見守り、怠惰のパンを食べない。その子らは立ち上がって彼女を祝福し、夫もまた彼女を称賛する：「徳の高い女性は数多くいるが、あなたはそれらすべてに勝っている」。愛嬌は偽り、美しさは虚しい。しかし主を恐れる女性は称賛される。その手の実りを彼女に与えよ。その行いが城門で彼女を称えるようにせよ。",
+      "ritualesAsociados": "Canto solemne entonado por el esposo y la familia en honor a la mujer, madre y esposa en la mesa del Shabat el viernes por la noche antes de la bendición del vino y el pan.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_HAMAZON_ACCION_GRACIAS",
+      "numero": 4274,
+      "titulo": "ビルカット・ハマゾン · 食後の感謝と養いの祝福の祈り（申命記 8:10）",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "日々の食物と養いへの感謝",
+      "estadosEmocionales": [
+        "gratitud",
+        "satisfaccion",
+        "paz",
+        "provision"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַזָּן אֶת הָעוֹלָם כֻּלּוֹ בְּטוּבוֹ, בְּחֵן בְּחֶסֶד וּבְרַחֲמִים: הוּא נוֹתֵן לֶחֶם לְכָל בָּשָׂר, כִּי לְעוֹלָם חַסְדּוֹ: וּבְטוּבוֹ הַגָּדוֹל תָּמִיד לֹא חָסַר לָנוּ, וְאַל יֶחְסַר לָנוּ מָזוֹן לְעוֹלָם וָעֶד, בַּעֲבוּר שְׁמוֹ הַגָּדוֹל, כִּי הוּא אֵל זָן וּמְפַרְנֵס לַכֹּל, וּמֵטִיב לַכֹּל, וּמֵכִין מָזוֹן לְכָל בְּרִיּוֹתָיו אֲשֶׁר בָּרָא: בָּרוּךְ אַתָּה יְהוָה, הַזָּן אֶת הַכֹּל: אָמֵן:",
+      "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
+      "textoTraducido": "私たちの神、宇宙の王なる主よ、あなたはほめたたえられよ。主は御恵みと慈愛、憐れみをもって全世界を養われます。主はすべての肉なる者にパンを与えられます。その慈しみはとこしえに絶えることがないからです。その大いなる御恵みにより、私たちは決して糧に事欠くことがなく、大いなる御名のために永遠に糧が尽きることもありません。主は万民を養い支え、すべてに善を行い、創造されたすべての被造物のために食物を備えられる神だからです。万物を養われる主よ、あなたはほめたたえられよ。アーメン。",
+      "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
       "dir": "ltr"
     }
   ]

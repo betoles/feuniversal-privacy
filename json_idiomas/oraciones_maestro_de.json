@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Lutheran-Kanonisch-Majestaetisch-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4266
+    "totalOraciones": 4274
   },
   "oraciones": [
     {
@@ -93873,6 +93873,158 @@
       "guiaFonetica": "Glo-rio-sí-si-mo San Ra-món No-na-to... co-lo-ca tu sa-gra-do can-da-do so-bre las bo-cas que in-ten-tan per-ju-di-car-me... A-mén.",
       "textoTraducido": "Glorreichster heiliger Raimund Nonnatus, erhabener Bekenner Christi und Zuflucht der Betrübten! Du, der du zur Verteidigung des Glaubens und zur Verkündigung des Evangeliums die Pein erlittest, deine Lippen mit einem eisernen Vorhängeschloss verschlossen zu sehen: unter deinen Schutz stelle ich mein Leben, meine Ehre, meine Familie und mein Heim. Lege dein heiliges Schloss auf die Münder derer, die mir mit Lügen, Neid, Verleumdung oder falschem Zeugnis schaden wollen; lösche das Feuer böser Nachrede und lass die göttliche Wahrheit und den Frieden siegen. Beschütze ebenso alle schwangeren Frauen, stehe ihnen in der Stunde der Geburt bei und schenke eine glückliche Niederkunft ohne Gefahr für Mutter und Neugeborenes. Durch Jesus Christus, unseren Herrn. Amen.",
       "ritualesAsociados": "Rezar sosteniendo una medalla o estampa de San Ramón Nonato o cerrando simbólicamente un pequeño candado ante una vela blanca, pidiendo protección contra murmuraciones y bendición para embarazos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_SHEMA_YISRAEL_COMPLETO",
+      "numero": 4267,
+      "titulo": "Schma Israel · Höchste Verkündigung der Göttlichen Einheit und Liebesgebot (Deuteronomium 6:4-9)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Höchster Glaube und Göttliche Einheit",
+      "estadosEmocionales": [
+        "fe_absoluta",
+        "devocion",
+        "paz_interior",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "שְׁמַע יִשְׂרָאֵל, יְהוָה אֱלֹהֵינוּ, יְהוָה אֶחָד: בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד: וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ: וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם, בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ: וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ, וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ: וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ:",
+      "guiaFonetica": "She-má Yis-ra-él, A-do-nái E-lo-héi-nu, A-do-nái E-jád. Ba-rúj shem ke-vód mal-ju-tó le-o-lám va-éd. Ve-a-háv-ta et A-do-nái E-lo-hé-ja be-jól le-vav-já u-ve-jól naf-she-já u-ve-jól me-o-dé-ja... A-mén.",
+      "textoTraducido": "Höre, Israel: der Herr, unser Gott, der Herr ist Einer. Gepriesen sei der Name der Herrlichkeit Seines Reiches für immer und ewig. Und du sollst den Herrn, deinen Gott, lieben mit deinem ganzen Herzen, mit deiner ganzen Seele und mit deiner ganzen Kraft. Und diese Worte, die ich dir heute gebiete, sollen auf deinem Herzen sein; und du sollst sie deinen Kindern einschärfen und davon reden, wenn du in deinem Haus sitzt und wenn du auf dem Weg gehst, wenn du dich niederlegst und wenn du aufstehst. Und du sollst sie als Zeichen auf deine Hand binden, und sie sollen als Stirnbänder zwischen deinen Augen sein; und du sollst sie an die Pfosten deines Hauses und an deine Tore schreiben.",
+      "ritualesAsociados": "Rezar al despertar y antes de dormir, cubriéndose los ojos con la mano derecha al proclamar el primer verso para una concentración pura en la unidad divina.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_KADDISH_YATOM_DUELO",
+      "numero": 4268,
+      "titulo": "Kaddisch der Trauernden (Kaddisch Jatom) · Heiligung des Göttlichen Namens und Ewiger Trost",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Trauer, Trost und Ewiger Friede",
+      "estadosEmocionales": [
+        "consuelo",
+        "esperanza",
+        "paz_eterna",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא: בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ, וְיַמְלִיךְ מַלְכוּתֵהּ, בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב, וְאִמְרוּ אָמֵן: יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא: יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא, לְעֵלָּא מִן כָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן: עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:",
+      "guiaFonetica": "Yit-ga-dál ve-yit-ka-dásh shmeh ra-bá... Be-al-má di ve-rá jir-u-téh... Ye-hé shmeh ra-bá me-va-ráj le-a-lám ul-al-méi al-ma-yá... O-sé sha-lóm bim-ro-máv, hu ya-a-sé sha-lóm a-léi-nu ve-ál kol Yis-ra-él, ve-im-rú A-mén.",
+      "textoTraducido": "Erhoben und geheiligt werde Sein großer Name in der Welt, die Er nach Seinem Willen erschaffen hat. Er lasse Sein Reich erstehen in eurem Leben und in euren Tagen und im Leben des ganzen Hauses Israel, schnell und in naher Zeit; und sprecht: Amen. Sein großer Name sei gepriesen in Ewigkeit und von Ewigkeit zu Ewigkeit. Gepriesen, gerühmt, verherrlicht, erhöht, erhoben, geehrt, überhöht und gelobt sei der Name des Heiligen, gelobt sei Er, hoch über allen Segnungen, Liedern, Lobpreisungen und Tröstungen, die in der Welt gesprochen werden; und sprecht: Amen. Der Frieden stiftet in Seinen Himmelshöhen, Er stifte Frieden über uns und über ganz Israel; und sprecht: Amen.",
+      "ritualesAsociados": "Recitado tradicional en memoria de los seres queridos fallecidos, de pie, inclinando el cuerpo hacia adelante en reverencia y dando tres pasos atrás al concluir la invocación por la paz.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_MODEH_ANI_DESPERTAR",
+      "numero": 4269,
+      "titulo": "Modeh Ani · Erstes Morgengebet des Dankes für das Leben und die Erneuerung der Seele",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Morgendlicher Dank und Erneuerung",
+      "estadosEmocionales": [
+        "gratitud",
+        "fe_viva",
+        "alegria",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "מוֹדֶה אֲנִי לְפָנֶיךָ מֶלֶךְ חַי וְקַיָּם, שֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּחֶמְלָה, רַבָּה אֱמוּנָתֶךָ:",
+      "guiaFonetica": "Mo-déh a-ní le-fa-né-ja, Mé-lej jai ve-ka-yám, she-he-je-zár-ta bi nish-ma-tí be-jem-lá, ra-báh e-mu-na-té-ja.",
+      "textoTraducido": "Ich danke Dir, lebendiger und ewiger König, dass Du mir meine Seele in Erbarmen zurückgegeben hast; groß ist Deine Treue.",
+      "ritualesAsociados": "Se recita de inmediato al abrir los ojos por la mañana al despertar, antes de levantarse de la cama, en señal de gratitud instantánea por el don del alma renovada.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_KOHANIM_CANONICA",
+      "numero": 4270,
+      "titulo": "Birkat Kohanim · Kanonischer Hebräischer Priestersegen (Numeri 6:24-26)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Priestersegen und Höchster Friede",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_divina",
+        "bendicion",
+        "gracia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָ: יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:",
+      "guiaFonetica": "Ye-va-re-je-já A-do-nái ve-yish-me-ré-ja. Ya-ér A-do-nái pa-náv e-léi-ja vi-ju-né-ka. Yis-sá A-do-nái pa-náv e-léi-ja ve-ya-sém le-já sha-lóm.",
+      "textoTraducido": "Der Herr segne dich und behüte dich. Der Herr lasse Sein Angesicht über dir leuchten und sei dir gnädig. Der Herr erhebe Sein Angesicht auf dich und gebe dir Frieden.",
+      "ritualesAsociados": "Bendición sacerdotal tradicional de padres a hijos en la víspera de Shabat y en las oraciones festivas de la sinagoga con las manos extendidas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_HASHKIVEINU_PROTECCION_NOCHE",
+      "numero": 4271,
+      "titulo": "Haschkivenu · Abendliches Schutzgebet unter dem Zelt des Göttlichen Friedens",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Nächtlicher Schutz und Friede",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_nocturna",
+        "serenidad",
+        "confianza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "הַשְׁכִּיבֵנוּ יְהוָה אֱלֹהֵינוּ לְשָׁלוֹם, וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים, וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ, וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ, וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ, וְהָגֵן בַּעֲדֵנוּ, וְהָסֵר מֵעָלֵינוּ אוֹיֵב, דֶּבֶר, וְחֶרֶב, וְרָעָב, וְיָגוֹן, וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ, וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ, כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה: וּשְׁמוֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם:",
+      "guiaFonetica": "Hash-ki-véi-nu A-do-nái E-lo-héi-nu le-sha-lóm, ve-ha-a-mi-dé-nu mal-kéi-nu le-ja-yím, uf-rós a-léi-nu su-kát she-lo-mé-ja... ki El shom-ré-nu u-mat-zi-lé-nu á-ta... A-mén.",
+      "textoTraducido": "Lass uns, Herr, unser Gott, in Frieden niederlegen und richte uns auf, unser König, zum Leben. Breite über uns das Zelt Deines Friedens aus, leite uns mit Deinem guten Rat und hilf uns um Deines Namens willen. Sei unser Schild und wende von uns ab jeden Feind, die Pest, das Schwert, den Hunger und den Kummer; wehre dem Widersacher vor uns und hinter uns und birg uns im Schatten Deiner Flügel, denn Du bist der Gott, der uns behütet und rettet, ein gnädiger und barmherziger König. Bewahre unser Ausgehen und unser Eingehen zum Leben und zum Frieden von nun an bis in Ewigkeit.",
+      "ritualesAsociados": "Rezar en el servicio nocturno de Maariv o antes de dormir para invocar la tienda de paz divina y protección contra pesadillas, temores y peligros nocturnos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_AVINU_MALKEINU_MISERICORDIA",
+      "numero": 4272,
+      "titulo": "Avinu Malkeinu · Unser Vater, Unser König, Flehen um Vergebung, Heilung und Gnade",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Vergebung, Barmherzigkeit und Heilung",
+      "estadosEmocionales": [
+        "arrepentimiento",
+        "humildad",
+        "esperanza",
+        "misericordia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אָבִינוּ מַלְכֵּנוּ, חָטָאנוּ לְפָנֶיךָ: אָבִינוּ מַלְכֵּנוּ, אֵין לָנוּ מֶלֶךְ אֶלָּא אָתָּה: אָבִינוּ מַלְכֵּנוּ, עֲשֵׂה עִמָּנוּ לְמַעַן שְׁמֶךָ: אָבִינוּ מַלְכֵּנוּ, חַדֵּשׁ עָלֵינוּ שָׁנָה טוֹבָה: אָבִינוּ מַלְכֵּנוּ, בַּטֵּל מֵעָלֵינוּ כָּל גְּזֵרוֹת קָשׁוֹת: אָבִינוּ מַלְכֵּנוּ, סְלַח וּמְחַל לְכָל עֲוֹנוֹתֵינוּ: אָבִינוּ מַלְכֵּנוּ, שְׁלַח רְפוּאָה שְׁלֵמָה לְחוֹלֵי עַמֶּךָ: אָבִינוּ מַלְכֵּנוּ, כָּתְבֵנוּ בְּסֵפֶר חַיִּים טוֹבִים: אָבִינוּ מַלְכֵּנוּ, חָנֵּנוּ וַעֲנֵנוּ כִּי אֵין בָּנוּ מַעֲשִׂים, עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ:",
+      "guiaFonetica": "A-ví-nu Mal-kéi-nu, ja-tá-nu le-fa-né-ja... A-ví-nu Mal-kéi-nu, ja-né-nu va-a-né-nu ki ein bá-nu ma-a-sím, a-séh i-má-nu tze-da-ká va-jé-sed ve-ho-shi-é-nu.",
+      "textoTraducido": "Unser Vater, unser König, wir haben vor Dir gesündigt. Unser Vater, unser König, wir haben keinen König außer Dir. Unser Vater, unser König, handle an uns um Deines Namens willen. Unser Vater, unser König, erneuere über uns ein gutes Jahr. Unser Vater, unser König, hebe alle harten Erlasse gegen uns auf. Unser Vater, unser König, verzeihe und vergib all unsere Missetaten. Unser Vater, unser König, sende vollständige Heilung den Kranken Deines Volkes. Unser Vater, unser König, schreibe uns ein in das Buch des guten Lebens. Unser Vater, unser König, sei uns gnädig und erhöre uns, denn wir haben keine eigenen Verdienste; erweise uns Güte und Barmherzigkeit und rette uns.",
+      "ritualesAsociados": "Plegaria solemne de súplica durante los Diez Días de Arrepentimiento (entre Rosh Hashaná y Yom Kipur) y en días de ayuno y clamor comunitario.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_ESHET_JAYIL_MUJER_VIRTUOSA",
+      "numero": 4273,
+      "titulo": "Eschet Chajil (Die Tugendhafte Frau) · Schabbat-Hymne auf Weisheit, Stärke und Haussegen (Sprüche 31:10-31)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Segen der Frau und Familienharmonie",
+      "estadosEmocionales": [
+        "gratitud",
+        "amor_familiar",
+        "honor",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אֵשֶׁת חַיִל מִי יִמְצָא, וְרָחֹק מִפְּנִינִים מִכְרָהּ: בָּטַח בָּהּ לֵב בַּעְלָהּ, וְשָׁלָל לֹא יֶחְסָר: גְּמָלַתְהוּ טוֹב וְלֹא רָע, כֹּל יְמֵי חַיֶּיהָ: כַּפָּהּ פָּרְשָׂה לֶעָנִי, וְיָדֶיהָ שִׁלְּחָה לָאֶבְיוֹן: עֹז וְהָדָר לְבוּשָׁהּ, וַתִּשְׂחַק לְיוֹם אַחֲרוֹן: פִּיהָ פָּתְחָה בְחָכְמָה, וְתוֹרַת חֶסֶד עַל לְשׁוֹנָהּ: צופִיָּה הֲלִיכוֹת בֵּיתָהּ, וְלֶחֶם עַצְלוּת לֹא תֹאכֵל: קָמוּ בָנֶיהָ וַיְאַשְּׁרוּהָ, בַּעְלָהּ וַיְהַלְלָהּ: רַבּוֹת בָּנוֹת עָשׂוּ חָיִל, וְאַתְּ עָלִית עַל כֻּלָּנָה: שֶׁקֶר הַחֵן וְהֶבֶל הַיֹּפִי, אִשָּׁה יִרְאַת יְהוָה הִיא תִתְהַלָּל: תְּנוּ לָהּ מִפְּרִי יָדֶיהָ, וִיהַלְלוּהָ בַשְּׁעָרִים מַעֲשֶׂיהָ:",
+      "guiaFonetica": "É-shet já-yil mi yim-tzá, ve-ra-jók mip-ni-ním mij-ráh... Ká-mu va-né-ha vay-ash-rú-ha, ba-láh vay-hal-láh... She-kér ha-jén ve-hé-vel ha-yó-fi, i-shá yir-át A-do-nái hi tit-ha-lál... A-mén.",
+      "textoTraducido": "Eine tugendhafte Frau, wer findet sie? Ihr Wert übertrifft Perlen bei weitem. Das Herz ihres Mannes vertraut auf sie, und an Gewinn wird es ihm nicht fehlen. Sie tut ihm Gutes und nichts Böses alle Tage ihres Lebens. Sie öffnet ihre Hand dem Armen und streckt ihre Hände dem Bedürftigen entgegen. Kraft und Würde sind ihr Gewand, und sie lacht des künftigen Tages. Sie öffnet ihren Mund mit Weisheit, und freundliche Weisung ist auf ihrer Zunge. Sie überwacht die Vorgänge in ihrem Haus und isst nicht das Brot der Trägheit. Ihre Söhne stehen auf und preisen sie glücklich; ihr Mann steht auf und rühmt sie: 'Viele Töchter haben Tüchtiges getan, du aber übertriffst sie alle!' Trügerisch ist Anmut und nichtig die Schönheit; eine Frau, die den Herrn fürchtet, sie wird gepriesen werden. Gebt ihr von den Früchten ihrer Hände, und in den Toren mögen ihre Werke sie rühmen.",
+      "ritualesAsociados": "Canto solemne entonado por el esposo y la familia en honor a la mujer, madre y esposa en la mesa del Shabat el viernes por la noche antes de la bendición del vino y el pan.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_HAMAZON_ACCION_GRACIAS",
+      "numero": 4274,
+      "titulo": "Birkat HaMason · Tischgebet und Danksagung nach den Mahlzeiten (Deuteronomium 8:10)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Dank für Nahrung und Lebensunterhalt",
+      "estadosEmocionales": [
+        "gratitud",
+        "satisfaccion",
+        "paz",
+        "provision"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַזָּן אֶת הָעוֹלָם כֻּלּוֹ בְּטוּבוֹ, בְּחֵן בְּחֶסֶד וּבְרַחֲמִים: הוּא נוֹתֵן לֶחֶם לְכָל בָּשָׂר, כִּי לְעוֹלָם חַסְדּוֹ: וּבְטוּבוֹ הַגָּדוֹל תָּמִיד לֹא חָסַר לָנוּ, וְאַל יֶחְסַר לָנוּ מָזוֹן לְעוֹלָם וָעֶד, בַּעֲבוּר שְׁמוֹ הַגָּדוֹל, כִּי הוּא אֵל זָן וּמְפַרְנֵס לַכֹּל, וּמֵטִיב לַכֹּל, וּמֵכִין מָזוֹן לְכָל בְּרִיּוֹתָיו אֲשֶׁר בָּרָא: בָּרוּךְ אַתָּה יְהוָה, הַזָּן אֶת הַכֹּל: אָמֵן:",
+      "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
+      "textoTraducido": "Gepriesen seist Du, Herr, unser Gott, König der Welt, der Du die ganze Welt in Deiner Güte mit Gnade, Huld und Erbarmen ernährst. Er gibt Brot allem Fleisch, denn ewig währt Seine Gnade. Durch Seine große Güte hat es uns nie an Nahrung gefehlt und wird es uns nie fehlen in alle Ewigkeit, um Seines großen Namens willen; denn Er ist der Gott, der alle ernährt und versorgt, allen Gutes tut und Nahrung bereitet für alle Seine Geschöpfe, die Er erschaffen hat. Gepriesen seist Du, Herr, der Du alle ernährst. Amen.",
+      "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
       "dir": "ltr"
     }
   ]

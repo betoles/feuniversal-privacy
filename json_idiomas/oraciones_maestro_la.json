@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-Patristica-Vulgata-Romana-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4266
+    "totalOraciones": 4274
   },
   "oraciones": [
     {
@@ -93873,6 +93873,158 @@
       "guiaFonetica": "Glo-rio-sí-si-mo San Ra-món No-na-to... co-lo-ca tu sa-gra-do can-da-do so-bre las bo-cas que in-ten-tan per-ju-di-car-me... A-mén.",
       "textoTraducido": "Gloriosissime Sancte Raymunde Nonnate, insignis Christi confessor et afflictorum praesidium! Qui pro defensione fidei et praedicatione Evangelii cruciatum labiorum sera ferrea clausorum sustinuisti: sub tutelam tuam vitam, honorem, familiam et domum meam committo. Pone sacram seram tuam super ora eorum qui mendaciis, invidia, calumniis vel falsis testimoniis mihi nocere conantur; extingue ignem detractionis et fac ut divina veritas et pax vincant. Pariter omnes gravidas mulieres custodi, in hora partus benignitate tua adesto ac felicem partum sine periculo matri et infanti concede. Per Christum Dominum nostrum. Amen.",
       "ritualesAsociados": "Rezar sosteniendo una medalla o estampa de San Ramón Nonato o cerrando simbólicamente un pequeño candado ante una vela blanca, pidiendo protección contra murmuraciones y bendición para embarazos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_SHEMA_YISRAEL_COMPLETO",
+      "numero": 4267,
+      "titulo": "Audi Israel · Suprema Declaratio Divinae Unitatis et Mandatum Caritatis (Deuteronomium 6:4-9)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Fides Suprema et Unitas Divina",
+      "estadosEmocionales": [
+        "fe_absoluta",
+        "devocion",
+        "paz_interior",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "שְׁמַע יִשְׂרָאֵל, יְהוָה אֱלֹהֵינוּ, יְהוָה אֶחָד: בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד: וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ: וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם, בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ: וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ, וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ: וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ:",
+      "guiaFonetica": "She-má Yis-ra-él, A-do-nái E-lo-héi-nu, A-do-nái E-jád. Ba-rúj shem ke-vód mal-ju-tó le-o-lám va-éd. Ve-a-háv-ta et A-do-nái E-lo-hé-ja be-jól le-vav-já u-ve-jól naf-she-já u-ve-jól me-o-dé-ja... A-mén.",
+      "textoTraducido": "Audi, Israel: Dominus Deus noster, Dominus unus est. Benedictum sit nomen gloriae regni eius in saecula saeculorum. Diliges Dominum Deum tuum ex toto corde tuo, et ex tota anima tua, et ex tota fortitudine tua. Eruntque verba haec, quae ego praecipio tibi hodie, in corde tuo; et narrabis ea filiis tuis, et meditaberis in eis sedens in domo tua, et ambulans in itinere, dormiens atque consurgens. Et ligabis ea quasi signum in manu tua, eruntque et movebuntur inter oculos tuos; scribesque ea in postibus domus tuae, et in ianuis tuis.",
+      "ritualesAsociados": "Rezar al despertar y antes de dormir, cubriéndose los ojos con la mano derecha al proclamar el primer verso para una concentración pura en la unidad divina.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_KADDISH_YATOM_DUELO",
+      "numero": 4268,
+      "titulo": "Kaddish Lugentium (Kaddish Yatom) · Sanctificatio Nominis Divini et Solacium Aeternum",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Luctus, Solacium et Pax Aeterna",
+      "estadosEmocionales": [
+        "consuelo",
+        "esperanza",
+        "paz_eterna",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא: בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ, וְיַמְלִיךְ מַלְכוּתֵהּ, בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב, וְאִמְרוּ אָמֵן: יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא: יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא, לְעֵלָּא מִן כָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן: עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:",
+      "guiaFonetica": "Yit-ga-dál ve-yit-ka-dásh shmeh ra-bá... Be-al-má di ve-rá jir-u-téh... Ye-hé shmeh ra-bá me-va-ráj le-a-lám ul-al-méi al-ma-yá... O-sé sha-lóm bim-ro-máv, hu ya-a-sé sha-lóm a-léi-nu ve-ál kol Yis-ra-él, ve-im-rú A-mén.",
+      "textoTraducido": "Magnificetur et sanctificetur Nomen eius magnum in saeculo quod creavit secundum voluntatem suam. Regnum suum constituat in vita vestra et in diebus vestris, et in vita totius domus Israel, cito et in tempore propinquo; et dicite: Amen. Sit Nomen eius magnum benedictum in aeternum et in saecula saeculorum. Benedicatur, laudetur, glorificetur, exaltetur, extollatur, honoretur, elevetur et celebretur Nomen Sancti, benedictus sit, super omnes benedictiones, hymnos, laudes et consolationes quae dicuntur in mundo; et dicite: Amen. Qui facit pacem in excelsis suis, Ipse faciat pacem super nos et super universum Israel; et dicite: Amen.",
+      "ritualesAsociados": "Recitado tradicional en memoria de los seres queridos fallecidos, de pie, inclinando el cuerpo hacia adelante en reverencia y dando tres pasos atrás al concluir la invocación por la paz.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_MODEH_ANI_DESPERTAR",
+      "numero": 4269,
+      "titulo": "Modeh Ani · Prima Oratio Matutina Gratiarum Actionis pro Vita et Animae Renovatione",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Gratiarum Actio Matutina",
+      "estadosEmocionales": [
+        "gratitud",
+        "fe_viva",
+        "alegria",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "מוֹדֶה אֲנִי לְפָנֶיךָ מֶלֶךְ חַי וְקַיָּם, שֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּחֶמְלָה, רַבָּה אֱמוּנָתֶךָ:",
+      "guiaFonetica": "Mo-déh a-ní le-fa-né-ja, Mé-lej jai ve-ka-yám, she-he-je-zár-ta bi nish-ma-tí be-jem-lá, ra-báh e-mu-na-té-ja.",
+      "textoTraducido": "Gratias ago coram Te, Rex vivens et aeterne, quia reddidisti in me animam meam cum misericordia; magna est fidelitas tua.",
+      "ritualesAsociados": "Se recita de inmediato al abrir los ojos por la mañana al despertar, antes de levantarse de la cama, en señal de gratitud instantánea por el don del alma renovada.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_KOHANIM_CANONICA",
+      "numero": 4270,
+      "titulo": "Birkat Kohanim · Benedictio Sacerdotalis Hebraica Canonica (Numeri 6:24-26)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Benedictio Sacerdotalis et Pax",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_divina",
+        "bendicion",
+        "gracia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָ: יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:",
+      "guiaFonetica": "Ye-va-re-je-já A-do-nái ve-yish-me-ré-ja. Ya-ér A-do-nái pa-náv e-léi-ja vi-ju-né-ka. Yis-sá A-do-nái pa-náv e-léi-ja ve-ya-sém le-já sha-lóm.",
+      "textoTraducido": "Benedicat tibi Dominus, et custodiat te. Illuminet Dominus faciem suam super te, et misereatur tui. Convertat Dominus vultum suum ad te, et det tibi pacem.",
+      "ritualesAsociados": "Bendición sacerdotal tradicional de padres a hijos en la víspera de Shabat y en las oraciones festivas de la sinagoga con las manos extendidas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_HASHKIVEINU_PROTECCION_NOCHE",
+      "numero": 4271,
+      "titulo": "Hashkiveinu · Oratio Nocturna Protectionis sub Tabernaculo Pacis Divinae",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Protectio Nocturna et Pax",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_nocturna",
+        "serenidad",
+        "confianza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "הַשְׁכִּיבֵנוּ יְהוָה אֱלֹהֵינוּ לְשָׁלוֹם, וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים, וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ, וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ, וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ, וְהָגֵן בַּעֲדֵנוּ, וְהָסֵר מֵעָלֵינוּ אוֹיֵב, דֶּבֶר, וְחֶרֶב, וְרָעָב, וְיָגוֹן, וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ, וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ, כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה: וּשְׁמוֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם:",
+      "guiaFonetica": "Hash-ki-véi-nu A-do-nái E-lo-héi-nu le-sha-lóm, ve-ha-a-mi-dé-nu mal-kéi-nu le-ja-yím, uf-rós a-léi-nu su-kát she-lo-mé-ja... ki El shom-ré-nu u-mat-zi-lé-nu á-ta... A-mén.",
+      "textoTraducido": "Fac nos dormire in pace, Domine Deus noster, et resuscita nos, Rex noster, ad vitam. Extende super nos tabernaculum pacis tuae, dirige nos bono consilio tuo et salva nos propter Nomen tuum. Esto clipeus noster et averte a nobis inimicum, pestem, gladium, famem et maerorem; remove adversarium a facie nostra et a tergo nostro, et sub umbra alarum tuarum protege nos, quia Deus custos et liberator noster es, Rex clemens et misericors. Custodi exitum nostrum et introitum nostrum in vitam et in pacem, ex hoc nunc et usque in saeculum.",
+      "ritualesAsociados": "Rezar en el servicio nocturno de Maariv o antes de dormir para invocar la tienda de paz divina y protección contra pesadillas, temores y peligros nocturnos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_AVINU_MALKEINU_MISERICORDIA",
+      "numero": 4272,
+      "titulo": "Avinu Malkeinu · Pater Noster, Rex Noster, Supplicatio pro Venia, Sanitate et Misericordia",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Venia, Misericordia et Sanitas",
+      "estadosEmocionales": [
+        "arrepentimiento",
+        "humildad",
+        "esperanza",
+        "misericordia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אָבִינוּ מַלְכֵּנוּ, חָטָאנוּ לְפָנֶיךָ: אָבִינוּ מַלְכֵּנוּ, אֵין לָנוּ מֶלֶךְ אֶלָּא אָתָּה: אָבִינוּ מַלְכֵּנוּ, עֲשֵׂה עִמָּנוּ לְמַעַן שְׁמֶךָ: אָבִינוּ מַלְכֵּנוּ, חַדֵּשׁ עָלֵינוּ שָׁנָה טוֹבָה: אָבִינוּ מַלְכֵּנוּ, בַּטֵּל מֵעָלֵינוּ כָּל גְּזֵרוֹת קָשׁוֹת: אָבִינוּ מַלְכֵּנוּ, סְלַח וּמְחַל לְכָל עֲוֹנוֹתֵינוּ: אָבִינוּ מַלְכֵּנוּ, שְׁלַח רְפוּאָה שְׁלֵמָה לְחוֹלֵי עַמֶּךָ: אָבִינוּ מַלְכֵּנוּ, כָּתְבֵנוּ בְּסֵפֶר חַיִּים טוֹבִים: אָבִינוּ מַלְכֵּנוּ, חָנֵּנוּ וַעֲנֵנוּ כִּי אֵין בָּנוּ מַעֲשִׂים, עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ:",
+      "guiaFonetica": "A-ví-nu Mal-kéi-nu, ja-tá-nu le-fa-né-ja... A-ví-nu Mal-kéi-nu, ja-né-nu va-a-né-nu ki ein bá-nu ma-a-sím, a-séh i-má-nu tze-da-ká va-jé-sed ve-ho-shi-é-nu.",
+      "textoTraducido": "Pater noster, Rex noster, peccavimus coram Te. Pater noster, Rex noster, non est nobis alius Rex nisi Tu. Pater noster, Rex noster, fac nobiscum propter Nomen tuum. Pater noster, Rex noster, innova super nos annum bonum. Pater noster, Rex noster, dele omnia decreta dura adversus nos. Pater noster, Rex noster, dimitte omnes iniquitates nostras. Pater noster, Rex noster, mitte plenam sanitatem infirmis populi tui. Pater noster, Rex noster, inscribe nos in libro vitae bonae. Pater noster, Rex noster, miserere nostri et exaudi nos, quia non habemus opera meritoria; fac nobiscum iustitiam et misericordiam, et salva nos.",
+      "ritualesAsociados": "Plegaria solemne de súplica durante los Diez Días de Arrepentimiento (entre Rosh Hashaná y Yom Kipur) y en días de ayuno y clamor comunitario.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_ESHET_JAYIL_MUJER_VIRTUOSA",
+      "numero": 4273,
+      "titulo": "Mulierem Fortem (Eshet Chayil) · Hymnus Sabbati Sapientiae, Fortitudinis et Domus (Proverbia 31:10-31)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Benedictio Mulieris et Familiae",
+      "estadosEmocionales": [
+        "gratitud",
+        "amor_familiar",
+        "honor",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אֵשֶׁת חַיִל מִי יִמְצָא, וְרָחֹק מִפְּנִינִים מִכְרָהּ: בָּטַח בָּהּ לֵב בַּעְלָהּ, וְשָׁלָל לֹא יֶחְסָר: גְּמָלַתְהוּ טוֹב וְלֹא רָע, כֹּל יְמֵי חַיֶּיהָ: כַּפָּהּ פָּרְשָׂה לֶעָנִי, וְיָדֶיהָ שִׁלְּחָה לָאֶבְיוֹן: עֹז וְהָדָר לְבוּשָׁהּ, וַתִּשְׂחַק לְיוֹם אַחֲרוֹן: פִּיהָ פָּתְחָה בְחָכְמָה, וְתוֹרַת חֶסֶד עַל לְשׁוֹנָהּ: צופִיָּה הֲלִיכוֹת בֵּיתָהּ, וְלֶחֶם עַצְלוּת לֹא תֹאכֵל: קָמוּ בָנֶיהָ וַיְאַשְּׁרוּהָ, בַּעְלָהּ וַיְהַלְלָהּ: רַבּוֹת בָּנוֹת עָשׂוּ חָיִל, וְאַתְּ עָלִית עַל כֻּלָּנָה: שֶׁקֶר הַחֵן וְהֶבֶל הַיֹּפִי, אִשָּׁה יִרְאַת יְהוָה הִיא תִתְהַלָּל: תְּנוּ לָהּ מִפְּרִי יָדֶיהָ, וִיהַלְלוּהָ בַשְּׁעָרִים מַעֲשֶׂיהָ:",
+      "guiaFonetica": "É-shet já-yil mi yim-tzá, ve-ra-jók mip-ni-ním mij-ráh... Ká-mu va-né-ha vay-ash-rú-ha, ba-láh vay-hal-láh... She-kér ha-jén ve-hé-vel ha-yó-fi, i-shá yir-át A-do-nái hi tit-ha-lál... A-mén.",
+      "textoTraducido": "Mulierem fortem quis inveniet? Procul et de ultimis finibus pretium eius. Confidit in ea cor viri sui, et spoliis non indigebit. Reddet ei bonum, et non malum, omnibus diebus vitae suae. Manum suam aperuit inopi, et palmas suas extendit ad pauperem. Fortitudo et decor indumentum eius, et ridebit in die novissimo. Os suum aperuit sapientiae, et lex clementiae in lingua eius. Consideravit semitas domus suae, et panem otiosa non comedit. Surrexerunt filii eius, et beatissimam praedicaverunt; vir eius, et laudavit eam: 'Multae filiae congregaverunt divitias, tu supergressa es universas.' Fallax gratia, et vana est pulchritudo; mulier timens Dominum, ipsa laudabitur. Date ei de fructu manuum suarum, et laudent eam in portis opera eius.",
+      "ritualesAsociados": "Canto solemne entonado por el esposo y la familia en honor a la mujer, madre y esposa en la mesa del Shabat el viernes por la noche antes de la bendición del vino y el pan.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_HAMAZON_ACCION_GRACIAS",
+      "numero": 4274,
+      "titulo": "Birkat HaMazon · Gratiarum Actio post Cibum et Benedictio Mensae (Deuteronomium 8:10)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Gratiarum Actio pro Cibis",
+      "estadosEmocionales": [
+        "gratitud",
+        "satisfaccion",
+        "paz",
+        "provision"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַזָּן אֶת הָעוֹלָם כֻּלּוֹ בְּטוּבוֹ, בְּחֵן בְּחֶסֶד וּבְרַחֲמִים: הוּא נוֹתֵן לֶחֶם לְכָל בָּשָׂר, כִּי לְעוֹלָם חַסְדּוֹ: וּבְטוּבוֹ הַגָּדוֹל תָּמִיד לֹא חָסַר לָנוּ, וְאַל יֶחְסַר לָנוּ מָזוֹן לְעוֹלָם וָעֶד, בַּעֲבוּר שְׁמוֹ הַגָּדוֹל, כִּי הוּא אֵל זָן וּמְפַרְנֵס לַכֹּל, וּמֵטִיב לַכֹּל, וּמֵכִין מָזוֹן לְכָל בְּרִיּוֹתָיו אֲשֶׁר בָּרָא: בָּרוּךְ אַתָּה יְהוָה, הַזָּן אֶת הַכֹּל: אָמֵן:",
+      "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
+      "textoTraducido": "Benedictus es Tu, Domine Deus noster, Rex Universi, qui pascis universum mundum bonitate tua, gratia, misericordia et pietate. Qui dat escam omni carni, quoniam in aeternum misericordia eius. Per magnam bonitatem suam numquam nobis defuit neque deerit alimentum in saecula saeculorum, propter Nomen suum magnum; quia Ipse est Deus qui pascit et sustentat omnes, benefacit omnibus et parat cibum universis creaturis quas creavit. Benedictus es Tu, Domine, qui pascis omnes. Amen.",
+      "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
       "dir": "ltr"
     }
   ]

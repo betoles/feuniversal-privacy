@@ -7,7 +7,7 @@
     "total_oraciones": 4251,
     "estandar": "FeUniversal-SigloDeOro-Liturgico-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4266
+    "totalOraciones": 4274
   },
   "oraciones": [
     {
@@ -93873,6 +93873,158 @@
       "guiaFonetica": "Glo-rio-sí-si-mo San Ra-món No-na-to... co-lo-ca tu sa-gra-do can-da-do so-bre las bo-cas que in-ten-tan per-ju-di-car-me... A-mén.",
       "textoTraducido": "¡Gloriosísimo San Ramón Nonato, insigne confesor de Cristo y amparo de los afligidos! Tú que por defender la fe y anunciar el Evangelio sufriste el tormento de ver tus labios sellados con un candado de hierro: pongo bajo tu protección mi vida, mi honra, mi familia y mi hogar. Coloca tu sagrado candado sobre las bocas que intentan perjudicarme con mentiras, envidias, calumnias o falsos testimonios; apaga el fuego de la murmuración y haz que triunfe la divina verdad y la paz. Asimismo, protege a todas las mujeres embarazadas, asiste con tu bondad la hora del alumbramiento y concede partos felices, sin peligro para la madre ni para el recién nacido. Por Jesucristo Nuestro Señor. Amén.",
       "ritualesAsociados": "Rezar sosteniendo una medalla o estampa de San Ramón Nonato o cerrando simbólicamente un pequeño candado ante una vela blanca, pidiendo protección contra murmuraciones y bendición para embarazos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_SHEMA_YISRAEL_COMPLETO",
+      "numero": 4267,
+      "titulo": "Shemá Israel · Declaración Suprema de la Unidad Divina y Mandamiento de Amor (Deuteronomio 6:4-9)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Fe Suprema y Unidad Divina",
+      "estadosEmocionales": [
+        "fe_absoluta",
+        "devocion",
+        "paz_interior",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "שְׁמַע יִשְׂרָאֵל, יְהוָה אֱלֹהֵינוּ, יְהוָה אֶחָד: בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד: וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ: וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם, בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ: וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ, וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ: וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ:",
+      "guiaFonetica": "She-má Yis-ra-él, A-do-nái E-lo-héi-nu, A-do-nái E-jád. Ba-rúj shem ke-vód mal-ju-tó le-o-lám va-éd. Ve-a-háv-ta et A-do-nái E-lo-hé-ja be-jól le-vav-já u-ve-jól naf-she-já u-ve-jól me-o-dé-ja... A-mén.",
+      "textoTraducido": "Escucha, Israel: el Señor es nuestro Dios, el Señor es Uno. Bendito sea el nombre de la gloria de su reino por siempre jamás. Y amarás al Señor tu Dios con todo tu corazón, con toda tu alma y con todas tus fuerzas. Y estas palabras que yo te mando hoy estarán sobre tu corazón; y las repetirás a tus hijos, y hablarás de ellas estando en tu casa, y andando por el camino, y al acostarte, y al levantarte. Y las atarás como una señal en tu mano, y estarán por frontales entre tus ojos; y las escribirás en los postes de tu casa y en tus puertas.",
+      "ritualesAsociados": "Rezar al despertar y antes de dormir, cubriéndose los ojos con la mano derecha al proclamar el primer verso para una concentración pura en la unidad divina.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_KADDISH_YATOM_DUELO",
+      "numero": 4268,
+      "titulo": "Kaddish Yatom (Kaddish de Duelo) · Santificación del Nombre Divino y Consuelo Eterno",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Duelo, Consuelo y Paz Eterna",
+      "estadosEmocionales": [
+        "consuelo",
+        "esperanza",
+        "paz_eterna",
+        "reverencia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא: בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ, וְיַמְלִיךְ מַלְכוּתֵהּ, בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב, וְאִמְרוּ אָמֵן: יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא: יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא, לְעֵלָּא מִן כָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן: עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:",
+      "guiaFonetica": "Yit-ga-dál ve-yit-ka-dásh shmeh ra-bá... Be-al-má di ve-rá jir-u-téh... Ye-hé shmeh ra-bá me-va-ráj le-a-lám ul-al-méi al-ma-yá... O-sé sha-lóm bim-ro-máv, hu ya-a-sé sha-lóm a-léi-nu ve-ál kol Yis-ra-él, ve-im-rú A-mén.",
+      "textoTraducido": "Glorificado y santificado sea su gran Nombre en el mundo que Él creó según su voluntad. Que Él establezca su reino durante vuestra vida y en vuestros días, y durante la vida de toda la casa de Israel, prontamente y en tiempo cercano; y decid: Amén. Que su gran Nombre sea bendecido por siempre y para toda la eternidad. Bendito, alabado, glorificado, ensalzado, exaltado, honrado, elevado y loado sea el Nombre del Santo, bendito sea, por encima de todas las bendiciones, cánticos, alabanzas y consuelos que se pronuncian en el mundo; y decid: Amén. Que Aquel que hace la paz en sus alturas celestiales haga la paz sobre nosotros y sobre todo Israel; y decid: Amén.",
+      "ritualesAsociados": "Recitado tradicional en memoria de los seres queridos fallecidos, de pie, inclinando el cuerpo hacia adelante en reverencia y dando tres pasos atrás al concluir la invocación por la paz.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_MODEH_ANI_DESPERTAR",
+      "numero": 4269,
+      "titulo": "Modeh Aní · Primera Plegaria Matutina de Gratitud por la Vida y la Renovación del Alma",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Gratitud al Despertar y Renovación",
+      "estadosEmocionales": [
+        "gratitud",
+        "fe_viva",
+        "alegria",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "מוֹדֶה אֲנִי לְפָנֶיךָ מֶלֶךְ חַי וְקַיָּם, שֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּחֶמְלָה, רַבָּה אֱמוּנָתֶךָ:",
+      "guiaFonetica": "Mo-déh a-ní le-fa-né-ja, Mé-lej jai ve-ka-yám, she-he-je-zár-ta bi nish-ma-tí be-jem-lá, ra-báh e-mu-na-té-ja.",
+      "textoTraducido": "Doy gracias ante Ti, Rey viviente y eterno, porque me has devuelto mi alma con compasión; inmensa es tu fidelidad.",
+      "ritualesAsociados": "Se recita de inmediato al abrir los ojos por la mañana al despertar, antes de levantarse de la cama, en señal de gratitud instantánea por el don del alma renovada.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_KOHANIM_CANONICA",
+      "numero": 4270,
+      "titulo": "Birkat Kohanim · Bendición Sacerdotal Canónica Hebrea (Números 6:24-26)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Bendición Sacerdotal y Paz Suprema",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_divina",
+        "bendicion",
+        "gracia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָ: יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:",
+      "guiaFonetica": "Ye-va-re-je-já A-do-nái ve-yish-me-ré-ja. Ya-ér A-do-nái pa-náv e-léi-ja vi-ju-né-ka. Yis-sá A-do-nái pa-náv e-léi-ja ve-ya-sém le-já sha-lóm.",
+      "textoTraducido": "El Señor te bendiga y te guarde. El Señor haga resplandecer su rostro sobre ti y tenga de ti misericordia. El Señor alce su rostro sobre ti y ponga en ti paz.",
+      "ritualesAsociados": "Bendición sacerdotal tradicional de padres a hijos en la víspera de Shabat y en las oraciones festivas de la sinagoga con las manos extendidas.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_HASHKIVEINU_PROTECCION_NOCHE",
+      "numero": 4271,
+      "titulo": "Hashkiveinu · Plegaria Nocturna de Protección y Amparo bajo la Tienda de Paz Divina",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Protección Nocturna y Paz",
+      "estadosEmocionales": [
+        "paz",
+        "proteccion_nocturna",
+        "serenidad",
+        "confianza"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "הַשְׁכִּיבֵנוּ יְהוָה אֱלֹהֵינוּ לְשָׁלוֹם, וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים, וּפְרוֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ, וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ, וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ, וְהָגֵן בַּעֲדֵנוּ, וְהָסֵר מֵעָלֵינוּ אוֹיֵב, דֶּבֶר, וְחֶרֶב, וְרָעָב, וְיָגוֹן, וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ, וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ, כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה: וּשְׁמוֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם:",
+      "guiaFonetica": "Hash-ki-véi-nu A-do-nái E-lo-héi-nu le-sha-lóm, ve-ha-a-mi-dé-nu mal-kéi-nu le-ja-yím, uf-rós a-léi-nu su-kát she-lo-mé-ja... ki El shom-ré-nu u-mat-zi-lé-nu á-ta... A-mén.",
+      "textoTraducido": "Haznos acostar, Señor Dios nuestro, en paz; y levántanos, Rey nuestro, para una vida buena. Extiende sobre nosotros la tienda de tu paz, guíanos con tu buen consejo y sálvanos por amor de tu Nombre. Sé nuestro escudo y aparta de nosotros al enemigo, la peste, la espada, el hambre y la aflicción; aparta al adversario de delante y de detrás de nosotros, y escóndenos a la sombra de tus alas, porque Tú eres Dios nuestro guardián y libertador, un Rey clemente y misericordioso. Guarda nuestra salida y nuestra entrada para la vida y para la paz, desde ahora y para siempre.",
+      "ritualesAsociados": "Rezar en el servicio nocturno de Maariv o antes de dormir para invocar la tienda de paz divina y protección contra pesadillas, temores y peligros nocturnos.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_AVINU_MALKEINU_MISERICORDIA",
+      "numero": 4272,
+      "titulo": "Avinu Malkeinu · Padre Nuestro, Rey Nuestro, Súplica de Perdón, Salud y Misericordia",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Perdón, Misericordia y Salud",
+      "estadosEmocionales": [
+        "arrepentimiento",
+        "humildad",
+        "esperanza",
+        "misericordia"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אָבִינוּ מַלְכֵּנוּ, חָטָאנוּ לְפָנֶיךָ: אָבִינוּ מַלְכֵּנוּ, אֵין לָנוּ מֶלֶךְ אֶלָּא אָתָּה: אָבִינוּ מַלְכֵּנוּ, עֲשֵׂה עִמָּנוּ לְמַעַן שְׁמֶךָ: אָבִינוּ מַלְכֵּנוּ, חַדֵּשׁ עָלֵינוּ שָׁנָה טוֹבָה: אָבִינוּ מַלְכֵּנוּ, בַּטֵּל מֵעָלֵינוּ כָּל גְּזֵרוֹת קָשׁוֹת: אָבִינוּ מַלְכֵּנוּ, סְלַח וּמְחַל לְכָל עֲוֹנוֹתֵינוּ: אָבִינוּ מַלְכֵּנוּ, שְׁלַח רְפוּאָה שְׁלֵמָה לְחוֹלֵי עַמֶּךָ: אָבִינוּ מַלְכֵּנוּ, כָּתְבֵנוּ בְּסֵפֶר חַיִּים טוֹבִים: אָבִינוּ מַלְכֵּנוּ, חָנֵּנוּ וַעֲנֵנוּ כִּי אֵין בָּנוּ מַעֲשִׂים, עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ:",
+      "guiaFonetica": "A-ví-nu Mal-kéi-nu, ja-tá-nu le-fa-né-ja... A-ví-nu Mal-kéi-nu, ja-né-nu va-a-né-nu ki ein bá-nu ma-a-sím, a-séh i-má-nu tze-da-ká va-jé-sed ve-ho-shi-é-nu.",
+      "textoTraducido": "Padre nuestro, Rey nuestro, hemos pecado delante de Ti. Padre nuestro, Rey nuestro, no tenemos otro Rey sino Tú. Padre nuestro, Rey nuestro, actúa con nosotros por amor de tu Nombre. Padre nuestro, Rey nuestro, renueva para nosotros un año bueno. Padre nuestro, Rey nuestro, anula todo decreto adverso contra nosotros. Padre nuestro, Rey nuestro, perdona y disculpa todas nuestras iniquidades. Padre nuestro, Rey nuestro, envía una pronta y completa curación a los enfermos de tu pueblo. Padre nuestro, Rey nuestro, inscríbenos en el libro de la vida buena. Padre nuestro, Rey nuestro, ten piedad de nosotros y respóndenos, aunque no tengamos méritos propios; trátanos con caridad y benevolencia, y sálvanos.",
+      "ritualesAsociados": "Plegaria solemne de súplica durante los Diez Días de Arrepentimiento (entre Rosh Hashaná y Yom Kipur) y en días de ayuno y clamor comunitario.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_ESHET_JAYIL_MUJER_VIRTUOSA",
+      "numero": 4273,
+      "titulo": "Eshet Jáyil (Mujer Virtuosa) · Himno de Shabat a la Sabiduría, Fortaleza y Bendición del Hogar (Proverbios 31:10-31)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Bendición de la Mujer y Armonía Familiar",
+      "estadosEmocionales": [
+        "gratitud",
+        "amor_familiar",
+        "honor",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "אֵשֶׁת חַיִל מִי יִמְצָא, וְרָחֹק מִפְּנִינִים מִכְרָהּ: בָּטַח בָּהּ לֵב בַּעְלָהּ, וְשָׁלָל לֹא יֶחְסָר: גְּמָלַתְהוּ טוֹב וְלֹא רָע, כֹּל יְמֵי חַיֶּיהָ: כַּפָּהּ פָּרְשָׂה לֶעָנִי, וְיָדֶיהָ שִׁלְּחָה לָאֶבְיוֹן: עֹז וְהָדָר לְבוּשָׁהּ, וַתִּשְׂחַק לְיוֹם אַחֲרוֹן: פִּיהָ פָּתְחָה בְחָכְמָה, וְתוֹרַת חֶסֶד עַל לְשׁוֹנָהּ: צופִיָּה הֲלִיכוֹת בֵּיתָהּ, וְלֶחֶם עַצְלוּת לֹא תֹאכֵל: קָמוּ בָנֶיהָ וַיְאַשְּׁרוּהָ, בַּעְלָהּ וַיְהַלְלָהּ: רַבּוֹת בָּנוֹת עָשׂוּ חָיִל, וְאַתְּ עָלִית עַל כֻּלָּנָה: שֶׁקֶר הַחֵן וְהֶבֶל הַיֹּפִי, אִשָּׁה יִרְאַת יְהוָה הִיא תִתְהַלָּל: תְּנוּ לָהּ מִפְּרִי יָדֶיהָ, וִיהַלְלוּהָ בַשְּׁעָרִים מַעֲשֶׂיהָ:",
+      "guiaFonetica": "É-shet já-yil mi yim-tzá, ve-ra-jók mip-ni-ním mij-ráh... Ká-mu va-né-ha vay-ash-rú-ha, ba-láh vay-hal-láh... She-kér ha-jén ve-hé-vel ha-yó-fi, i-shá yir-át A-do-nái hi tit-ha-lál... A-mén.",
+      "textoTraducido": "Mujer virtuosa, ¿quién la hallará? Porque su valor sobrepasa largamente al de las piedras preciosas. El corazón de su marido confía en ella, y no carecerá de ganancias. Le da ella bien y no mal todos los días de su vida. Alarga su mano al pobre, y extiende sus manos al necesitado. Fuerza y honor son sus vestiduras, y se ríe de lo por venir. Abre su boca con sabiduría, y la ley de la clemencia está en su lengua. Considera los caminos de su casa, y no come el pan de balde. Se levantan sus hijos y la llaman bienaventurada; y su marido también la alaba: 'Muchas mujeres hicieron el bien, mas tú sobrepasas a todas'. Engañosa es la gracia y vana la hermosura; la mujer que teme al Señor, esa será alabada. Dadle del fruto de sus manos, y alábenla en las puertas sus hechos.",
+      "ritualesAsociados": "Canto solemne entonado por el esposo y la familia en honor a la mujer, madre y esposa en la mesa del Shabat el viernes por la noche antes de la bendición del vino y el pan.",
+      "dir": "ltr"
+    },
+    {
+      "id": "HEB_LIT_BIRKAT_HAMAZON_ACCION_GRACIAS",
+      "numero": 4274,
+      "titulo": "Birkat HaMazon · Bendición y Acción de Gracias tras los Alimentos (Deuteronomio 8:10)",
+      "tradicion": "hebreo_salmos",
+      "categoriaIntencion": "Gratitud por los Alimentos y Sustento",
+      "estadosEmocionales": [
+        "gratitud",
+        "satisfaccion",
+        "paz",
+        "provision"
+      ],
+      "idiomaLiturgicoOriginal": "he",
+      "textoOriginal": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַזָּן אֶת הָעוֹלָם כֻּלּוֹ בְּטוּבוֹ, בְּחֵן בְּחֶסֶד וּבְרַחֲמִים: הוּא נוֹתֵן לֶחֶם לְכָל בָּשָׂר, כִּי לְעוֹלָם חַסְדּוֹ: וּבְטוּבוֹ הַגָּדוֹל תָּמִיד לֹא חָסַר לָנוּ, וְאַל יֶחְסַר לָנוּ מָזוֹן לְעוֹלָם וָעֶד, בַּעֲבוּר שְׁמוֹ הַגָּדוֹל, כִּי הוּא אֵל זָן וּמְפַרְנֵס לַכֹּל, וּמֵטִיב לַכֹּל, וּמֵכִין מָזוֹן לְכָל בְּרִיּוֹתָיו אֲשֶׁר בָּרָא: בָּרוּךְ אַתָּה יְהוָה, הַזָּן אֶת הַכֹּל: אָמֵן:",
+      "guiaFonetica": "Ba-rúj a-tá A-do-nái, E-lo-héi-nu Mé-lej ha-o-lám, ha-zán et ha-o-lám ku-ló be-tu-vó, be-jén be-jé-sed uv-ra-ja-mím... Ba-rúj a-tá A-do-nái, ha-zán et ha-kól. A-mén.",
+      "textoTraducido": "Bendito eres Tú, Señor nuestro Dios, Rey del Universo, que alimentas al mundo entero con tu bondad, con gracia, con benevolencia y con compasión. Él da pan a toda carne, porque para siempre es su misericordia. Por su inmensa bondad nunca nos ha faltado ni nos faltará el sustento jamás, por amor de su gran Nombre; porque Él es Dios que alimenta y sustenta a todos, hace el bien a todos y prepara alimento para todas las criaturas que ha creado. Bendito eres Tú, Señor, que alimentas a todos. Amén.",
+      "ritualesAsociados": "Plegaria de bendición y gratitud recitada obligatoriamente tras haber comido pan y quedar satisfecho (cumpliendo Deuteronomio 8:10: 'Y comerás, y te saciarás, y bendecirás al Señor tu Dios').",
       "dir": "ltr"
     }
   ]
