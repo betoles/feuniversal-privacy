@@ -4,10 +4,10 @@
     "idioma": "en",
     "nombreIdioma": "English",
     "dir": "ltr",
-    "total_oraciones": 4289,
+    "total_oraciones": 4293,
     "estandar": "FeUniversal-KJV-Liturgical-Majestic-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4289
+    "totalOraciones": 4293
   },
   "oraciones": [
     {
@@ -3343,8 +3343,8 @@
         "despair"
       ],
       "idiomaLiturgicoOriginal": "Arabic Clásico (عربي فصيح - Uthmani)",
-      "textoOriginal": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ\nمِن שַׁרِّ مَا خَلَقَ\nوَمِن שַׁרِّ غَاسِقٍ إِذَا وَقَبَ\nوَمِن שַׁרِّ النَّفَّاثَاتِ فِي الْعُقَدِ\nوَمِن שַׁרِّ حَاسِدٍ إِذَا حَسَدَ",
-      "guiaFonetica": "Qul a‘ūdhu bi-Rabbi l-falaq | Min sharri mā khalaq | Wa-min sharri ghāsiqin idhā waqab...",
+      "textoOriginal": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ\nمِن شَرِّ مَا خَلَقَ\nوَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ\nوَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ\nوَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "guiaFonetica": "[Bismillāhi r-Raḥmāni r-Raḥīm | Qul a'ūdhu bi-Rabbi l-falaq | Min sharri mā khalaq | Wa min sharri ghāsiqin idhā waqab | Wa min sharri n-naffāthāti fī l-'uqad | Wa min sharri ḥāsidin idhā ḥasad]",
       "textoTraducido": "1. Say: \"I take refuge in the Lord of the dawn,\n2. from the evil of what he has created,\n3. from the evil of the darkness of the night when it spreads,\n4. of the evil of those who practice spells and curses,\n5. and of the evil of the envious when he envies.",
       "ritualesAsociados": {
         "tipoContador": "tasbih_33",
@@ -3365,8 +3365,8 @@
         "despair"
       ],
       "idiomaLiturgicoOriginal": "Arabic Clásico (عربي فصيح - Uthmani)",
-      "textoOriginal": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ\nمَلِكِ النَّاسِ\nإِلَٰهِ النَّاسِ\nمِن שַׁרِّ الْوَسْوَاسِ الْخَنَّاسِ\nالَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ\nمِنَ الْجِنَّةِ وَالنَّاسِ",
-      "guiaFonetica": "Qul a‘ūdhu bi-Rabbi n-nās | Maliki n-nās | Ilāhi n-nās | Min sharri l-waswāsi l-khannās...",
+      "textoOriginal": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ\nمَلِكِ النَّاسِ\nإِلَٰهِ النَّاسِ\nمِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ\nالَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ\nمِنَ الْجِنَّةِ وَالنَّاسِ",
+      "guiaFonetica": "[Bismillāhi r-Raḥmāni r-Raḥīm | Qul a'ūdhu bi-Rabbi n-nās | Maliki n-nās | Ilāhi n-nās | Min sharri l-waswāsi l-khannās | Alladhī yuwaswisu fī ṣudūri n-nās | Mina l-jinnati wa n-nās]",
       "textoTraducido": "1. Say: \"I take refuge in the Lord of men,\n2. Sovereign of men,\n3. God of men,\n4. from the evil of the whisperer who stalks and flees,\n5. who whispers doubts in people's hearts,\n6. whether from the jinn or from among men.»",
       "ritualesAsociados": {
         "tipoContador": "tasbih_33",
@@ -15099,8 +15099,8 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "SubhanAllahi wa bihamdihi. Glorificado sea Al-lah y suya es la alabanza.",
-      "guiaFonetica": "SubhanAllahi wa bihamdihi. Glorificado sea Al-lah y suya es la alabanza.",
+      "textoOriginal": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ ، سُبْحَانَ اللَّهِ الْعَظِيمِ",
+      "guiaFonetica": "[Subḥānallāhi wa biḥamdihi, Subḥānallāhil-'Aẓīm]",
       "textoTraducido": "SubhanAllahi wa bihamdihi. Glorified be Allah and His is the praise.",
       "ritualesAsociados": {
         "tipoContador": "novena_9",
@@ -15121,8 +15121,8 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "Alhamdulillahi Rabbil-Alamin. Alabado sea Al-lah, Señor del Universo.",
-      "guiaFonetica": "Alhamdulillahi Rabbil-Alamin. Alabado sea Al-lah, Señor del Universo.",
+      "textoOriginal": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ، حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ",
+      "guiaFonetica": "[Al-ḥamdu lillāhi Rabbi l-'ālamīn, ḥamdan kathīran ṭayyiban mubārakan fīh]",
       "textoTraducido": "Alhamdulillahi Rabbil-Alamin. Praise be to Allah, Lord of the Universe.",
       "ritualesAsociados": {
         "tipoContador": "novena_9",
@@ -15143,8 +15143,8 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "La ilaha illallah wahdahu la sharika lah. A Él pertenece el reino y la alabanza.",
-      "guiaFonetica": "La ilaha illallah wahdahu la sharika lah. A Él pertenece el reino y la alabanza.",
+      "textoOriginal": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "guiaFonetica": "[Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamdu wa Huwa 'alā kulli shay'in Qadīr]",
       "textoTraducido": "La ilaha illallah wahdahu la sharika lah. To Him belong the kingdom and praise.",
       "ritualesAsociados": {
         "tipoContador": "novena_9",
@@ -15165,8 +15165,8 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "Allahu Akbar Kabira. Dios es el Más Grande y en Él deposito mi confianza.",
-      "guiaFonetica": "Allahu Akbar Kabira. Dios es el Más Grande y en Él deposito mi confianza.",
+      "textoOriginal": "اللَّهُ أَكْبَرُ كَبِيرًا ، وَالْحَمْدُ لِلَّهِ كَثِيرًا ، وَسُبْحَانَ اللَّهِ بُكْرَةً وَأَصِيلًا",
+      "guiaFonetica": "[Allāhu Akbaru kabīrā, wal-ḥamdu lillāhi kathīrā, wa subḥānallāhi bukratan wa aṣīlā]",
       "textoTraducido": "Allahu Akbar Kabira. God is the Greatest and I place my trust in Him.",
       "ritualesAsociados": {
         "tipoContador": "novena_9",
@@ -15187,8 +15187,8 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "Allahu la ilaha illa Huwal-Hayyul-Qayyum... Su Trono abarca los cielos y la tierra.",
-      "guiaFonetica": "Allahu la ilaha illa Huwal-Hayyul-Qayyum... Su Trono abarca los cielos y la tierra.",
+      "textoOriginal": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "guiaFonetica": "[Allāhu lā ilāha illā Huwa l-Ḥayyu l-Qayyūm, lā ta'khudhuhū sinatun wa lā nawm...]",
       "textoTraducido": "Allahu la ilaha illa Huwal-Hayyul-Qayyum... His Throne encompasses the heavens and the earth.",
       "ritualesAsociados": {
         "tipoContador": "novena_9",
@@ -15209,8 +15209,8 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "Astaghfirullahal-Azim wa Atubu Ilayh. Pido perdón a Al-lah y a Él me vuelvo.",
-      "guiaFonetica": "Astaghfirullahal-Azim wa Atubu Ilayh. Pido perdón a Al-lah y a Él me vuelvo.",
+      "textoOriginal": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْحَيَّ الْقَيُّومَ وَأَتُوبُ إِلَيْهِ",
+      "guiaFonetica": "[Astaghfirullāhal-'Aẓīm alladhī lā ilāha illā Huwal-Ḥayyul-Qayyūmu wa atūbu ilayh]",
       "textoTraducido": "Astaghfirullahal-Azim wa Atubu Ilayh. I ask forgiveness from Allah and to Him I return.",
       "ritualesAsociados": {
         "tipoContador": "novena_9",
@@ -15231,8 +15231,8 @@
         "fortaleza_fe"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "Allahumma Salli Ala Muhammad. Que la paz y misericordia de Dios llenen el mundo. Amén.",
-      "guiaFonetica": "Allahumma Salli Ala Muhammad. Que la paz y misericordia de Dios llenen el mundo. Amén.",
+      "textoOriginal": "اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ ، اللَّهُمَّ بَارِكْ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "guiaFonetica": "[Allāhumma ṣalli 'alā Muḥammadin wa 'alā āli Muḥammad...]",
       "textoTraducido": "Allahumma Salli Ala Muhammad. May the peace and mercy of God fill the world. Amen.",
       "ritualesAsociados": {
         "tipoContador": "novena_9",
@@ -17891,8 +17891,8 @@
         "paz_interior"
       ],
       "idiomaLiturgicoOriginal": "Arabic Clásico (عربي فصيح)",
-      "textoOriginal": "اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ ، وَعَافِنِي فِيمَنْ عَافَيْتَ ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ ، وَقِنِي شَرَّ مَا قَضَيْتَ ، فَإِنَّكَ تَقْضِي وَلَا يُقْضَى عَلَيْكَ ، إِنَّهُ لَا يَذِلُّ مَنْ وَالَيْتَ ، وَلَا يَعِזُّ مَنْ عَادَيْتَ ، تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ",
-      "guiaFonetica": "[Allāhumma ihdinī fī-man hadayt, wa ‘āfinī fī-man ‘āfayt, wa tawallanī fī-man tawallayt, wa bārik lī fī-mā a‘ṭayt, wa qinī sharra mā qaḍayt... tabārakta Rabbanā wa ta‘ālayt.]",
+      "textoOriginal": "اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ ، وَعَافِنِي فِيمَنْ عَافَيْتَ ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ ، وَقِنِي شَرَّ مَا قَضَيْتَ ، فَإِنَّكَ تَقْضِي وَلَا يُقْضَى عَلَيْكَ ، إِنَّهُ لَا يَذِلُّ مَنْ وَالَيْتَ ، وَلَا يَعِزُّ مَنْ عَادَيْتَ ، تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ",
+      "guiaFonetica": "[Allāhumma-hdinī fīman hadayt, wa 'āfinī fīman 'āfayt, wa tawallanī fīman tawallayt, wa bārik lī fīmā a'ṭayt, wa qinī sharra mā qaḍayt...]",
       "textoTraducido": "Oh God! Guide me among those whom You have guided, grant me health and well-being among those whom You have healed, take me under Your custody and protection among those whom You have protected, bless for me all that You have granted me and preserve me from the evil that You have decreed. Certainly You decree and no one decrees about You. He whom You support will not be humiliated nor will he who opposes You be exalted. Blessed and Exalted are you, our Lord! Amen.",
       "ritualesAsociados": {
         "tipoContador": "tasbih_33",
@@ -94294,6 +94294,94 @@
         "tipoContador": "decenario_10",
         "duracionVeladoraSugeridaHoras": 33,
         "paisajeSonoroRecomendado": "sinos_barrocos_minas"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "ISL_HAD_DUA_MANANA_BISMILLAH",
+      "numero": 4290,
+      "titulo": "Supreme Morning Protection Dua (Bismillahil-ladhi) · Shield Against All Harm",
+      "tradicion": "islam",
+      "categoriaIntencion": "proteccion",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "peligro_enemigos",
+        "desesperacion"
+      ],
+      "idiomaLiturgicoOriginal": "Árabe Clásico (عربي فصيح)",
+      "textoOriginal": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "guiaFonetica": "[Bismillāhilladhī lā yaḍurru ma'as-mihi shay'un fil-arḍi wa lā fis-samā'i wa Huwas-Samī'ul-'Alīm]",
+      "textoTraducido": "In the name of Allah, with Whose name nothing on earth or in the heavens can cause harm, and He is the All-Hearing, the All-Knowing. O Allah! In You I seek refuge as this day begins from every sudden misfortune, from hidden and open affliction, and from all harm to my body, faith, and family. Your power is supreme and Your shelter unshakable. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "tasbih_33",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "viento_desierto_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "ISL_HAD_DUA_NOCHE_AUDHU",
+      "numero": 4291,
+      "titulo": "Supreme Night Protection Dua (A'udhu bi Kalimatillah) · Peace and Night Refuge",
+      "tradicion": "islam",
+      "categoriaIntencion": "proteccion_noche",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "insomnio",
+        "peligro_enemigos"
+      ],
+      "idiomaLiturgicoOriginal": "Árabe Clásico (عربي فصيح)",
+      "textoOriginal": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "guiaFonetica": "[A'ūdhu bi kalimātillāhit-tāmmāti min sharri mā khalaq]",
+      "textoTraducido": "I seek refuge in the perfect words of Allah from the evil of what He has created. O Allah! As night descends, I place my soul, home, and rest under Your invincible protection. Dispel the shadows of anxiety, danger, and every harm lurking in darkness. Grant my loved ones peaceful sleep and an awakening filled with Your grace. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "tasbih_33",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "noche_silenciosa_desierto"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "ISL_HAD_DUA_AL_KARB_BUKHARI",
+      "numero": 4292,
+      "titulo": "Dua al-Karb (Prophetic Prayer in Great Distress) · Relief from Severe Anguish",
+      "tradicion": "islam",
+      "categoriaIntencion": "alivio_angustia",
+      "estadosEmocionales": [
+        "miedo_angustia",
+        "desesperacion",
+        "tristeza_duelo"
+      ],
+      "idiomaLiturgicoOriginal": "Árabe Clásico (عربي فصيح)",
+      "textoOriginal": "لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَرَبُّ الْأَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيمِ",
+      "guiaFonetica": "[Lā ilāha illallāhul-'Aẓīmul-Ḥalīm, Lā ilāha illallāhu Rabbul-'Arshil-'Aẓīm, Lā ilāha illallāhu Rabbus-samāwāti wa Rabbul-arḍi wa Rabbul-'Arshil-Karīm]",
+      "textoTraducido": "There is no deity except Allah, the Magnificent, the Clement. There is no deity except Allah, Lord of the Mighty Throne. There is no deity except Allah, Lord of the heavens, Lord of the earth, and Lord of the Noble Throne. O Allah! In my deepest anguish I turn to You; dispel the grief from my heart, grant me a way out of every affliction, and pour Your tranquility into my soul. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "tasbih_33",
+        "duracionVeladoraSugeridaHoras": 33,
+        "paisajeSonoroRecomendado": "viento_desierto_suave"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "ISL_HAD_DUA_LA_HAWLA_TESORO",
+      "numero": 4293,
+      "titulo": "La Hawla wa la Quwwata illa Billah · Treasure of Paradise and Absolute Strength",
+      "tradicion": "islam",
+      "categoriaIntencion": "fortaleza_espiritual",
+      "estadosEmocionales": [
+        "debilidad",
+        "desesperacion",
+        "fe_debilitada"
+      ],
+      "idiomaLiturgicoOriginal": "Árabe Clásico (عربي فصيح)",
+      "textoOriginal": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+      "guiaFonetica": "[Lā ḥawla wa lā quwwata illā billāhil-'Aliyyil-'Aẓīm]",
+      "textoTraducido": "There is no power and no strength except with Allah, the Most High, the Supreme. In You I acknowledge my weakness, and in Your infinite might I find refuge. May this holy prayer break every chain, remove every obstacle, and renew my soul with steadfast patience and unshakable faith. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "tasbih_33",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "frecuencia_paz_meditativa"
       },
       "dir": "ltr"
     }
