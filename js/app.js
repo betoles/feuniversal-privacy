@@ -1046,17 +1046,37 @@ export class FeUniversalApp {
         let score = 0;
         let matchedTokensCount = 0;
 
+        // 1. Bonus por Coincidencia de Frase Completa Exacta
+        if (titleLang.includes(rawQuery) || titleOrig.includes(rawQuery)) {
+          score += 250;
+        } else if (pId.includes(rawQuery.replace(/\s+/g, '_'))) {
+          score += 200;
+        } else if (tradText.includes(rawQuery)) {
+          score += 100;
+        }
+
+        // 2. Coincidencia por Tokens individuales y palabra completa
         for (const token of queryTokens) {
           let tokenMatched = false;
-          if (titleLang.includes(token) || titleOrig.includes(token)) {
+          const isWordMatchTitle = new RegExp(`(^|[\\s,.:;\\-_(/'"])${token}([\\s,.:;\\-_)/'"]|$)`).test(titleLang);
+          const isWordMatchId = new RegExp(`(^|_)${token}(_|$)`).test(pId);
+
+          if (isWordMatchTitle) {
+            score += 140;
+            tokenMatched = true;
+          } else if (titleLang.includes(token) || titleOrig.includes(token)) {
+            score += 80;
+            tokenMatched = true;
+          }
+
+          if (isWordMatchId) {
             score += 100;
             tokenMatched = true;
-            if (titleLang.startsWith(token) || titleLang.includes(` ${token}`)) score += 30;
-          }
-          if (pId.includes(token)) {
-            score += 60;
+          } else if (pId.includes(token)) {
+            score += 50;
             tokenMatched = true;
           }
+
           if (tradText.includes(token)) {
             score += 35;
             tokenMatched = true;
