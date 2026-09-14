@@ -826,9 +826,7 @@ export class StorageService {
       const data = _safeGetItem(STORAGE_KEYS.PREFERENCES);
       if (data) {
         const parsed = JSON.parse(data);
-        const soundPref = (parsed.sonidoAmbientePorDefecto === 'solfeggio_528' || !parsed.sonidoAmbientePorDefecto)
-          ? 'silencio_profundo'
-          : parsed.sonidoAmbientePorDefecto;
+        const soundPref = parsed.sonidoAmbientePorDefecto || 'silencio_profundo';
         return {
           ...defaults,
           ...parsed,

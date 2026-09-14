@@ -109,7 +109,8 @@ export class MirrorReaderComponent {
     this.currentPrayer = prayer;
     window.activePrayerSession = prayer;
 
-    this.currentSound = prefs.sonidoAmbientePorDefecto || 'silencio_profundo';
+    // Sonido predeterminado siempre en silencio profundo para los 17 idiomas
+    this.currentSound = 'silencio_profundo';
 
     this.render();
     if (this.container) {
