@@ -2257,3 +2257,143 @@ button {
   align-items: center !important;
   justify-content: center !important;
 }
+
+/* ==========================================================================
+   BANNER DEVOCIONAL DE FRATERNIDAD & COMUNIDAD UNIVERSAL
+   ========================================================================== */
+.community-devotional-card {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  padding: 22px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.05), rgba(99, 102, 241, 0.08));
+  border: 1px solid rgba(251, 191, 36, 0.22);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.community-devotional-card::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 80px;
+  background: radial-gradient(ellipse, rgba(251, 191, 36, 0.2), transparent 70%);
+  pointer-events: none;
+}
+
+.community-banner-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.community-banner-halo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.18) 0%, rgba(99, 102, 241, 0.08) 70%, transparent 100%);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  box-shadow: 0 0 16px rgba(251, 191, 36, 0.25);
+  color: var(--accent-gold);
+  margin-bottom: 2px;
+}
+
+.community-banner-svg {
+  width: 22px;
+  height: 22px;
+}
+
+.community-banner-title {
+  margin: 0;
+  font-size: 0.96rem;
+  font-weight: 800;
+  color: var(--accent-gold);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.community-banner-text {
+  margin: 0 auto;
+  max-width: 540px;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.community-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.community-email-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  background: var(--glass-surface-2);
+  border: 1px solid var(--glass-border-highlight);
+  color: var(--text-primary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  max-width: 100%;
+  word-break: break-all;
+}
+
+.community-email-chip:hover,
+.community-email-chip:focus {
+  background: var(--glass-surface-3);
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+  box-shadow: 0 0 14px var(--accent-gold-glow);
+  transform: translateY(-1px);
+}
+
+.community-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.2), rgba(245, 158, 11, 0.15));
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  color: var(--accent-gold);
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.community-copy-btn:hover {
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.35), rgba(245, 158, 11, 0.25));
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 14px var(--accent-gold-glow);
+  transform: translateY(-1px);
+}
+
+.community-copy-btn:active {
+  transform: scale(0.96);
+}

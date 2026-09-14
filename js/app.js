@@ -296,6 +296,11 @@ export class FeUniversalApp {
     setTxt('label-compendium-title', t('active_prayers_compendium', safeLang));
     setTxt('label-donut-available', t('available_label', safeLang));
     setTxt('label-intentions-title', t('intentions_balance', safeLang));
+
+    // Banner Devocional de la Comunidad
+    setTxt('label-community-banner-title', t('community_banner_title', safeLang) || 'Tu Fe es Sagrada para Nosotros');
+    setTxt('label-community-banner-text', t('community_banner_text', safeLang) || 'Estimado creyente: apoyamos y respetamos profundamente tu fe. Si deseas que tu oración favorita sea incluida en FeUniversal, contáctanos y en menos de 72 horas tendrás respuesta.');
+    setTxt('label-copy-email-btn', t('community_banner_copy', safeLang) || 'Copiar Correo');
   }
 
   initStaticIcons() {
@@ -1405,6 +1410,40 @@ export class FeUniversalApp {
           }
         });
       }
+    }
+
+    // Botón de Copiado Rápido de Correo Oficial de la Comunidad
+    const btnCopyEmail = document.getElementById('btn-copy-community-email');
+    if (btnCopyEmail) {
+      btnCopyEmail.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const email = 'feuniversal_faith_and_prayers@outlook.com';
+        try {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(email);
+          } else {
+            const tempInput = document.createElement('input');
+            tempInput.value = email;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+          }
+          const copyLabel = document.getElementById('label-copy-email-btn');
+          const currentLang = this.prefs.idioma || 'es';
+          const originalText = t('community_banner_copy', currentLang) || 'Copiar Correo';
+          if (copyLabel) copyLabel.innerText = t('community_banner_copied', currentLang) || '¡Correo Copiado!';
+          btnCopyEmail.style.borderColor = 'var(--accent-gold)';
+          btnCopyEmail.style.background = 'rgba(251, 191, 36, 0.3)';
+          setTimeout(() => {
+            if (copyLabel) copyLabel.innerText = originalText;
+            btnCopyEmail.style.borderColor = '';
+            btnCopyEmail.style.background = '';
+          }, 2500);
+        } catch (err) {
+          console.warn('Error copying community email:', err);
+        }
+      });
     }
 
     // Manejo de cambio de visibilidad de pestaña (evita congelamiento de Web Audio y fugas de TTS)

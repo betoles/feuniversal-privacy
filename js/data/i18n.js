@@ -1,5 +1,9 @@
 export const UI_TRANSLATIONS = {
   "es": {
+    "community_banner_title": "Tu Fe es Sagrada para Nosotros",
+    "community_banner_text": "Estimado creyente: apoyamos y respetamos profundamente tu fe. Si deseas que tu oración favorita sea incluida en FeUniversal, contáctanos y en menos de 72 horas tendrás respuesta.",
+    "community_banner_copy": "Copiar Correo",
+    "community_banner_copied": "¡Correo Copiado!",
     "header_width_adjust": "Ajustar ancho de pantalla",
     "layout_width_auto": "Automático (Adaptativo)",
     "layout_width_compact": "Compacto / Móvil (680px)",
@@ -570,6 +574,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ ¡Sensores Calibrados! Precisión Óptima"
   },
   "en": {
+    "community_banner_title": "Your Faith is Sacred to Us",
+    "community_banner_text": "Dear believer: we deeply support and respect your faith. If you wish your favorite prayer to be included in FeUniversal, contact us and you will receive a response in under 72 hours.",
+    "community_banner_copy": "Copy Email",
+    "community_banner_copied": "Email Copied!",
     "header_width_adjust": "Adjust screen width",
     "layout_width_auto": "Automatic (Adaptive)",
     "layout_width_compact": "Compact / Mobile (680px)",
@@ -1140,6 +1148,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Sensors Calibrated! Optimal Precision"
   },
   "fr": {
+    "community_banner_title": "Votre Foi est Sacrée pour Nous",
+    "community_banner_text": "Cher croyant : nous soutenons et respectons profondément votre foi. Si vous souhaitez que votre prière favorite soit incluse dans FeUniversal, contactez-nous et vous recevrez une réponse en moins de 72 heures.",
+    "community_banner_copy": "Copier l'e-mail",
+    "community_banner_copied": "E-mail Copié !",
     "header_width_adjust": "Ajuster la largeur d'écran",
     "layout_width_auto": "Automatique (Adaptatif)",
     "layout_width_compact": "Compact / Mobile (680px)",
@@ -1710,6 +1722,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Capteurs Calibrés ! Précision Optimale"
   },
   "pt": {
+    "community_banner_title": "Sua Fé é Sagrada para Nós",
+    "community_banner_text": "Estimado crente: apoiamos e respeitamos profundamente sua fé. Se você deseja que sua oração favorita seja incluída no FeUniversal, entre em contato e em menos de 72 horas você terá uma resposta.",
+    "community_banner_copy": "Copiar E-mail",
+    "community_banner_copied": "E-mail Copiado!",
     "header_width_adjust": "Ajustar largura da tela",
     "layout_width_auto": "Automático (Adaptativo)",
     "layout_width_compact": "Compacto / Móvel (680px)",
@@ -2280,6 +2296,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Sensores Calibrados! Precisão Ideal"
   },
   "it": {
+    "community_banner_title": "La Tua Fede è Sacra per Noi",
+    "community_banner_text": "Caro credente: sosteniamo e rispettiamo profondamente la tua fede. Se desideri che la tua preghiera preferita sia inclusa in FeUniversal, contattaci e riceverai una risposta in meno di 72 ore.",
+    "community_banner_copy": "Copia Email",
+    "community_banner_copied": "Email Copiata!",
     "header_width_adjust": "Regola larghezza schermo",
     "layout_width_auto": "Automatico (Adattivo)",
     "layout_width_compact": "Compatto / Mobile (680px)",
@@ -2850,6 +2870,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Sensori Calibrati! Precisione Ottimale"
   },
   "de": {
+    "community_banner_title": "Dein Glaube ist uns Heilig",
+    "community_banner_text": "Lieber Gläubiger: Wir unterstützen und respektieren Deinen Glauben zutiefst. Wenn Du möchtest, dass Dein Lieblingsgebet in FeUniversal aufgenommen wird, kontaktiere uns – Du erhältst in weniger als 72 Stunden eine Antwort.",
+    "community_banner_copy": "E-Mail kopieren",
+    "community_banner_copied": "E-Mail kopiert!",
     "header_width_adjust": "Bildschirmbreite anpassen",
     "layout_width_auto": "Automatisch (Adaptiv)",
     "layout_width_compact": "Kompakt / Mobil (680px)",
@@ -3420,6 +3444,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Sensoren Kalibriert! Optimale Präzision"
   },
   "ru": {
+    "community_banner_title": "Ваша вера священна для нас",
+    "community_banner_text": "Дорогой верующий: мы глубоко поддерживаем и уважаем вашу веру. Если вы хотите, чтобы ваша любимая молитва была включена в FeUniversal, свяжитесь с нами, и вы получите ответ менее чем за 72 часа.",
+    "community_banner_copy": "Скопировать e-mail",
+    "community_banner_copied": "E-mail скопирован!",
     "header_width_adjust": "Настроить ширину экрана",
     "layout_width_auto": "Автоматический (Адаптивный)",
     "layout_width_compact": "Компактный / Мобильный (680px)",
@@ -3990,6 +4018,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Датчики Калиброваны! Оптимальная Точность"
   },
   "ar": {
+    "community_banner_title": "إيمانك مقدس بالنسبة لنا",
+    "community_banner_text": "عزيزي المؤمن: نحن ندعم ونحترم إيمانك بعمق. إذا كنت ترغب في تضمين صلاتك أو دعائك المفضل في FeUniversal، تواصل معنا وسنرد عليك في أقل من 72 ساعة.",
+    "community_banner_copy": "نسخ البريد",
+    "community_banner_copied": "تم النسخ!",
     "header_width_adjust": "ضبط عرض الشاشة",
     "layout_width_auto": "تلقائي (متكيف)",
     "layout_width_compact": "مدمج / هاتف (680 بكسل)",
@@ -4560,6 +4592,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ تمت معايرة المستشعرات! دقة مثالية"
   },
   "he": {
+    "community_banner_title": "אמונתך קדושה עבורנו",
+    "community_banner_text": "מאמין יקר: אנו מכבדים ותומכים באמונתך מעומק הלב. אם ברצונך שתפילתך האהובה תיכלל ב-FeUniversal, צור עמנו קשר ותקבל מענה תוך פחות מ-72 שעות.",
+    "community_banner_copy": "העתק דוא\"ל",
+    "community_banner_copied": "הדוא\"ל הועתק!",
     "header_width_adjust": "התאם את רוחב המסך",
     "layout_width_auto": "אוטומטי (מותאם)",
     "layout_width_compact": "קומפקטי / נייד (680 פיקסלים)",
@@ -5130,6 +5166,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ החיישנים כוילו! דיוק אופטימלי"
   },
   "hi": {
+    "community_banner_title": "आपकी आस्था हमारे लिए पवित्र है",
+    "community_banner_text": "प्रिय श्रद्धालु: हम आपकी आस्था का गहराई से सम्मान और समर्थन करते हैं। यदि आप चाहते हैं कि आपकी पसंदीदा प्रार्थना FeUniversal में शामिल हो, तो हमसे संपर्क करें, आपको 72 घंटों के भीतर उत्तर मिलेगा।",
+    "community_banner_copy": "ईमेल कॉपी करें",
+    "community_banner_copied": "ईमेल कॉपी हो गया!",
     "header_width_adjust": "स्क्रीन की चौड़ाई समायोजित करें",
     "layout_width_auto": "स्वचालित (अनुकूली)",
     "layout_width_compact": "कॉम्पैक्ट / मोबाइल (680px)",
@@ -5700,6 +5740,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ सेंसर कैलिब्रेटेड! इष्टतम सटीकता"
   },
   "zh": {
+    "community_banner_title": "您的信仰对我们无比神圣",
+    "community_banner_text": "亲爱的信徒：我们深深敬重并支持您的信仰。若您希望将您喜爱的经文或祷文收录至 FeUniversal，请随时与我们联系，我们将在72小时内为您答复。",
+    "community_banner_copy": "复制邮箱",
+    "community_banner_copied": "邮箱已复制！",
     "header_width_adjust": "调整屏幕宽度",
     "layout_width_auto": "自动（自适应）",
     "layout_width_compact": "紧凑 / 手机模式 (680px)",
@@ -6270,6 +6314,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ 传感器校准完成！达到最佳精度"
   },
   "la": {
+    "community_banner_title": "Fides Tua Nobis Sacra Est",
+    "community_banner_text": "Care fidelis: fidem tuam toto corde fovemus et veneramur. Si vis orationem tuam dilectam in FeUniversal inseri, nobis scribe; intra septuaginta duas horas responsum habebis.",
+    "community_banner_copy": "Epistulam describere",
+    "community_banner_copied": "Descriptum!",
     "header_width_adjust": "Latitudinem screen accommodare",
     "layout_width_auto": "Automatica (Adaptiva)",
     "layout_width_compact": "Compactus / Mobilis (680px)",
@@ -6840,6 +6888,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Sensores Calibrati! Praecisio Optima"
   },
   "ja": {
+    "community_banner_title": "あなたの信仰は私たちにとって神聖なものです",
+    "community_banner_text": "信徒の皆様へ：私たちは皆様の信仰を深く尊重し、大切にしています。お気に入りの祈りをFeUniversalに収録したい場合は、ぜひお問い合わせください。72時間以内にご返答いたします。",
+    "community_banner_copy": "メールをコピー",
+    "community_banner_copied": "コピー完了！",
     "header_width_adjust": "画面幅を調整",
     "layout_width_auto": "自動（レスポンシブ）",
     "layout_width_compact": "コンパクト / モバイル (680px)",
@@ -7410,6 +7462,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ センサー校正完了！最適な精度"
   },
   "bn": {
+    "community_banner_title": "আপনার বিশ্বাস আমাদের কাছে পবিত্র",
+    "community_banner_text": "প্রিয় বিশ্বাসী: আমরা আপনার বিশ্বাসকে গভীরভাবে শ্রদ্ধা ও সমর্থন করি। আপনি যদি আপনার প্রিয় প্রার্থনাটি FeUniversal-এ অন্তর্ভুক্ত করতে চান, তবে আমাদের সাথে যোগাযোগ করুন, ৭২ ঘণ্টার মধ্যে উত্তর পাবেন।",
+    "community_banner_copy": "ইমেল কপি করুন",
+    "community_banner_copied": "ইমেল কপি হয়েছে!",
     "header_width_adjust": "পর্দার প্রস্থ সামঞ্জস্য করুন",
     "layout_width_auto": "স্বয়ংক্রিয় (অভিযোজিত)",
     "layout_width_compact": "কমপ্যাক্ট / মোবাইল (680px)",
@@ -7980,6 +8036,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ সেন্সর ক্যালিব্রেট করা হয়েছে! সর্বোত্তম নির্ভুলতা"
   },
   "id": {
+    "community_banner_title": "Iman Anda Suci Bagi Kami",
+    "community_banner_text": "Sahabat beriman: kami sangat mendukung dan menghormati keyakinan Anda. Jika Anda ingin doa favorit Anda disertakan dalam FeUniversal, hubungi kami dan Anda akan menerima jawaban dalam waktu kurang de 72 jam.",
+    "community_banner_copy": "Salin Email",
+    "community_banner_copied": "Email Tersalin!",
     "header_width_adjust": "Sesuaikan lebar layar",
     "layout_width_auto": "Otomatis (Adaptif)",
     "layout_width_compact": "Kompak / Seluler (680px)",
@@ -8550,6 +8610,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ Sensor Dikalibrasi! Presisi Optimal"
   },
   "ur": {
+    "community_banner_title": "آپ کا ایمان ہمارے لیے مقدس ہے",
+    "community_banner_text": "محترم مومن: ہم آپ کے عقیدے اور ایمان کا دل سے احترام اور تائید کرتے ہیں۔ اگر آپ اپنی پسندیدہ دعا FeUniversal میں شامل کروانا چاہتے ہیں تو ہم سے رابطہ کریں، 72 گھنٹوں کے اندر جواب دیا جائے گا۔",
+    "community_banner_copy": "ای میل کاپی کریں",
+    "community_banner_copied": "ای میل کاپی ہو گیا!",
     "header_width_adjust": "اسکرین کی چوڑائی ایڈجسٹ کریں",
     "layout_width_auto": "خودکار (مطابقت پذیر)",
     "layout_width_compact": "مختصر / موبائل (680px)",
@@ -9120,6 +9184,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "✨ سینسر کیلیبریٹ ہو گئے! بہترین درستگی"
   },
   "sw": {
+    "community_banner_title": "Imani Yako Ni Takatifu Kwetu",
+    "community_banner_text": "Ndugu mwamini: tunaheshimu na kuunga mkono imani yako kwa dhati. Ikiwa ungependa sala yako unayoipenda ijumuishwe kwenye FeUniversal, wasiliana nasi na utapata jibu ndani ya saa 72.",
+    "community_banner_copy": "Nakili Barua Pepe",
+    "community_banner_copied": "Barua Pepe Imenakiliwa!",
     "header_width_adjust": "Rekebisha upana wa skrini",
     "layout_width_auto": "Kiotomatiki (Inayobadilika)",
     "layout_width_compact": "Kompakti / Simu (680px)",
