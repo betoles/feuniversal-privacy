@@ -1047,7 +1047,8 @@ export class StorageService {
           simbolo: '✝',
           colorLuz: '#f59e0b',
           fechaEncendido: Date.now() - (1000 * 60 * 30),
-          duracionHoras: 24
+          duracionHoras: 24,
+          isDefault: true
         }
       ]
     };
@@ -1128,7 +1129,8 @@ export class StorageService {
         titulo: 'Petición por la salud y la paz de mi familia',
         contenido: 'Plegaria elevada con fe para la pronta recuperación y bendición en el hogar.',
         fecha: Date.now() - 86400000 * 2,
-        cumplido: false
+        cumplido: false,
+        isDefault: true
       },
       {
         id: 'vault_init_2',
@@ -1136,7 +1138,8 @@ export class StorageService {
         titulo: 'Agradecimiento por puerta laboral abierta',
         contenido: 'Doy gracias infinitas por la provisión y el trabajo concedido.',
         fecha: Date.now() - 86400000 * 5,
-        cumplido: true
+        cumplido: true,
+        isDefault: true
       }
     ];
   }

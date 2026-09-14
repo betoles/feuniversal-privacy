@@ -70,7 +70,11 @@ export class AltarComponent {
     const candlesHTML = activeCandles.length > 0 ? activeCandles.map(v => {
       const colorObj = getCandleColor(v.colorId || v.color, lang);
       const hoursAgo = Math.floor((Date.now() - (v.fechaEncendido || v.timestamp || Date.now())) / (1000 * 60 * 60));
-      const tradIconKey = getTradition(v.tradicion)?.icono || 'trad_catolicismo';
+      const tradObj = getTradition(v.tradicion);
+      const tradIconKey = tradObj?.icono || tradObj?.iconKey || 'trad_catolicismo';
+      const tradName = tradObj && tradObj.nombre ? (tradObj.nombre[lang] || tradObj.nombre.es || tradObj.nombre.en || v.tradicion) : (v.tradicion || '');
+      const isDefaultCandle = v.id === 'candle_init_1' || v.isDefault || /por la paz del mundo/i.test(v.peticion || '') || /salud de mi familia/i.test(v.peticion || '');
+      const peticionText = isDefaultCandle ? (t('sample_candle_petition', lang) || v.peticion) : v.peticion;
 
       return `
         <div class="crystal-card candle-card ${colorObj.claseCss || ('candle-color-' + colorObj.id)}" 
@@ -88,10 +92,10 @@ export class AltarComponent {
             <span style="font-size: 0.84rem; font-weight: 800; color: ${colorObj.hex}; letter-spacing: 0.01em;">${colorObj.name}</span>
             <span class="hud-pill dot-cyan" style="font-size: 0.7rem; font-weight: 700;">${hoursAgo}h / ${v.duracionHoras || 24}h</span>
           </div>
-          <div class="candle-peticion">«${v.id === 'candle_init_1' ? (t('sample_candle_petition', lang) || v.peticion) : v.peticion}»</div>
+          <div class="candle-peticion">«${peticionText}»</div>
           <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--glass-border);">
-            <span style="font-size: 0.76rem; color: var(--text-muted); font-weight: 600;">${(getTradition(v.tradicion).nombre[lang] || getTradition(v.tradicion).nombre.es)}</span>
-            <button class="btn-crystal btn-delete-candle" data-id="${v.id}" style="padding: 5px 10px; font-size: 0.76rem; border-radius: var(--radius-full); color: var(--text-muted); display: inline-flex; align-items: center; gap: 4px;" title="Apagar veladora">
+            <span style="font-size: 0.76rem; color: var(--text-muted); font-weight: 600;">${tradName}</span>
+            <button class="btn-crystal btn-delete-candle" data-id="${v.id}" style="padding: 5px 10px; font-size: 0.76rem; border-radius: var(--radius-full); color: var(--text-muted); display: inline-flex; align-items: center; gap: 4px;" title="${t('altar_extinguish_candle', lang) || 'Apagar veladora'}">
               ${renderIcon('ui_close')}
             </button>
           </div>

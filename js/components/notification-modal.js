@@ -183,7 +183,7 @@ export class NotificationModalComponent {
         NotificationService.saveSchedule(sched);
         const prefs = StorageService.getPreferences();
         const lang = prefs.idioma || 'es';
-        SacredDialog.toast(t('notification_toast_saved', lang) || '✨ Horarios devocionales guardados con éxito.');
+        SacredDialog.toast(t('notification_toast_saved', lang) || 'Horarios devocionales guardados con éxito.');
         this.close();
       });
     }

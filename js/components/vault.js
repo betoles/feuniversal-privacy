@@ -120,14 +120,22 @@ export class VaultComponent {
            ${t('vault_empty_msg', lang)}
          </div>`
       : items.map(item => {
-          const itemTitle = (item.id === 'vault_init_1' || item.id === 'entry_1')
+          const isSample1 = item.id === 'vault_init_1' || item.id === 'entry_1' || item.isDefault === true ||
+            (item.titulo && /salud\s*familiar|petición\s*por\s*la\s*salud|deseo\s*pedir\s*por\s*la\s*salud|petition\s*for\s*health|bitte\s*um\s*gesundheit|家族の健康|家人的健康|семье/i.test(item.titulo)) ||
+            (item.contenido && /deseo\s*pedir\s*por\s*la\s*salud|pronta\s*recuperación|swift\s*recovery|schnelle\s*genesung/i.test(item.contenido));
+
+          const isSample2 = item.id === 'vault_init_2' || item.id === 'entry_2' ||
+            (item.titulo && /puerta\s*laboral|agradecimiento\s*por\s*puerta|gratitude\s*for\s*an\s*open|dankbarkeit\s*für\s*eine\s*offene|工作机会|仕事の機会/i.test(item.titulo)) ||
+            (item.contenido && /trabajo\s*concedido|infinite\s*thanks\s*for\s*divine\s*provision|unendlicher\s*dank/i.test(item.contenido));
+
+          const itemTitle = isSample1
             ? (t('sample_vault_title_1', lang) || item.titulo)
-            : ((item.id === 'vault_init_2' || item.id === 'entry_2')
+            : (isSample2
               ? (t('sample_vault_title_2', lang) || item.titulo)
               : item.titulo);
-          const itemDesc = (item.id === 'vault_init_1' || item.id === 'entry_1')
+          const itemDesc = isSample1
             ? (t('sample_vault_desc_1', lang) || item.contenido)
-            : ((item.id === 'vault_init_2' || item.id === 'entry_2')
+            : (isSample2
               ? (t('sample_vault_desc_2', lang) || item.contenido)
               : item.contenido);
           const statusBadge = item.cumplido ? (t('vault_status_fulfilled', lang) || 'OK') : (t('vault_status_active', lang) || 'Active');
@@ -205,8 +213,9 @@ export class VaultComponent {
 
           <!-- Enlace a Política de Privacidad (Data Safety) -->
           <div style="margin-top: 24px; text-align: center;">
-            <button type="button" class="btn-open-privacy-link" style="background: none; border: none; color: var(--accent-cyan); cursor: pointer; text-decoration: underline; font-size: 0.76rem; padding: 8px 12px;">
-              ${t('privacy_policy_btn', lang) || '🔒 Política de Privacidad & Seguridad de Datos (100% Local)'}
+            <button type="button" class="btn-open-privacy-link" style="background: none; border: none; color: var(--accent-cyan); cursor: pointer; text-decoration: underline; font-size: 0.76rem; padding: 8px 12px; display: inline-flex; align-items: center; justify-content: center; gap: 6px;">
+              <span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); flex-shrink: 0;">${renderIcon('ui_lock')}</span>
+              <span>${t('privacy_policy_btn', lang) || 'Política de Privacidad & Seguridad de Datos (100% Local)'}</span>
             </button>
           </div>
         </div>
@@ -307,8 +316,9 @@ export class VaultComponent {
               </div>
 
               <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--glass-border); flex-wrap: wrap;">
-                <button id="btn-report-ai-prayer" class="btn-crystal" style="font-size: 0.76rem; padding: 7px 12px; color: var(--text-muted); display: inline-flex; align-items: center; gap: 4px;" title="${t('report_content', lang) || 'Reportar'}">
-                  <span>🚩 ${t('report_content', lang) || 'Reportar'}</span>
+                <button id="btn-report-ai-prayer" class="btn-crystal" style="font-size: 0.76rem; padding: 7px 12px; color: var(--text-muted); display: inline-flex; align-items: center; gap: 6px;" title="${t('report_content', lang) || 'Reportar'}">
+                  <span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); flex-shrink: 0;">${renderIcon('ui_flag')}</span>
+                  <span>${t('report_content', lang) || 'Reportar'}</span>
                 </button>
                 <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                   <button id="btn-copy-generated-prayer" class="btn-crystal" style="font-size: 0.82rem; padding: 8px 14px; display: inline-flex; align-items: center; gap: 6px; min-height: 40px;">
@@ -325,8 +335,9 @@ export class VaultComponent {
 
             <!-- Enlace a Política de Privacidad (Data Safety) -->
             <div style="margin-top: 24px; text-align: center;">
-              <button type="button" id="btn-open-privacy-vault" style="background: none; border: none; color: var(--accent-cyan); cursor: pointer; text-decoration: underline; font-size: 0.76rem; padding: 8px 12px;">
-                ${t('privacy_policy_btn', lang) || '🔒 Política de Privacidad & Seguridad de Datos (100% Local)'}
+              <button type="button" id="btn-open-privacy-vault" style="background: none; border: none; color: var(--accent-cyan); cursor: pointer; text-decoration: underline; font-size: 0.76rem; padding: 8px 12px; display: inline-flex; align-items: center; justify-content: center; gap: 6px;">
+                <span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); flex-shrink: 0;">${renderIcon('ui_lock')}</span>
+                <span>${t('privacy_policy_btn', lang) || 'Política de Privacidad & Seguridad de Datos (100% Local)'}</span>
               </button>
             </div>
 
@@ -846,9 +857,9 @@ export class VaultComponent {
 
         if (!title || !content) {
           SacredDialog.alert({
-            title: t('vault_alert_required_title', lang) || t('vault_alert_fields_req_title', lang),
-            message: t('vault_alert_required_msg', lang) || t('vault_alert_fields_req_msg', lang),
-            icon: '🔒',
+            title: t('vault_alert_required_title', lang) || t('vault_alert_fields_req_title', lang) || 'Campos Requeridos',
+            message: t('vault_alert_required_msg', lang) || t('vault_alert_fields_req_msg', lang) || 'Por favor completa el título y el motivo de tu petición.',
+            icon: 'nav_vault',
             buttonText: t('understood_label', lang) || t('dialog_accept', lang) || 'Entendido',
             type: 'warning'
           });
@@ -1030,9 +1041,9 @@ export class VaultComponent {
         const prefs = StorageService.getPreferences();
         const lang = prefs.idioma || 'es';
         SacredDialog.alert({
-          title: t('vault_alert_report_title', lang) || '🚩 Reportar Contenido Litúrgico',
+          title: t('vault_alert_report_title', lang) || 'Reportar Contenido Litúrgico',
           message: t('vault_alert_report_msg', lang) || 'Agradecemos tu reporte. Nuestro equipo de moderación litúrgica revisa periódicamente las sugerencias y patrones de respuesta para mantener la pureza y reverencia de las oraciones.',
-          icon: '🚩',
+          icon: 'ui_flag',
           buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'Aceptar',
           type: 'gold'
         });

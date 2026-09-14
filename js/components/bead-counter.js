@@ -25,7 +25,7 @@ export class BeadCounterComponent {
     const lang = prefs.idioma || 'es';
     let activePrayer = window.activePrayerSession;
 
-    // Sincronización asíncrona garantizada con el idioma activo
+    // Sincronización asíncrona garantizada con el corpus en el idioma activo
     if (activePrayer && activePrayer.id) {
       try {
         const fresh = await PrayerCorpusService.getPrayerById(activePrayer.id, lang);
@@ -52,11 +52,12 @@ export class BeadCounterComponent {
       }
     }
 
-    const tradIconKey = activePrayer ? (`trad_${activePrayer.tradicion}`) : 'nav_beads';
+    const tradIconKey = activePrayer ? (getTradition(activePrayer.tradicion)?.icono || `trad_${activePrayer.tradicion}`) : 'nav_beads';
     const tradObj = activePrayer ? getTradition(activePrayer.tradicion) : null;
     const tradLabel = tradObj && tradObj.nombre ? (tradObj.nombre[lang] || tradObj.nombre.es || tradObj.nombre.en || activePrayer.tradicion).toUpperCase() : ((activePrayer?.tradicion || '').toUpperCase().replace(/_/g, ' '));
 
-    const prayerTitle = activePrayer ? (typeof activePrayer.titulo === 'string' ? activePrayer.titulo : ((activePrayer.titulo && (activePrayer.titulo[lang] || activePrayer.titulo.es || activePrayer.titulo.en)) || 'Oración')) : '';
+    const defaultPrayerLabel = t('prayer_label', lang) || 'Oración';
+    const prayerTitle = activePrayer ? (typeof activePrayer.titulo === 'string' ? activePrayer.titulo : ((activePrayer.titulo && (activePrayer.titulo[lang] || activePrayer.titulo.es || activePrayer.titulo.en)) || defaultPrayerLabel)) : '';
     const prayerTradText = activePrayer ? (activePrayer.textoTraducido || (activePrayer.traducciones && (activePrayer.traducciones[lang] || activePrayer.traducciones.es || activePrayer.traducciones.en)) || activePrayer.textoEspanol || activePrayer.textoOriginal || '') : '';
 
     const sessionBarHTML = activePrayer ? `
@@ -69,7 +70,7 @@ export class BeadCounterComponent {
           </div>
           <span class="session-trad">${tradLabel}</span>
         </div>
-        <button id="btn-bead-return-prayer" class="btn-return-reader" title="${t('return_to_reader_tooltip', lang) || 'Regresar al Lector de Oración'}" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;">
+        <button id="btn-bead-return-prayer" class="btn-return-reader" title="${t('return_to_reader_tooltip', lang) || t('open_mirror', lang)}" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;">
           <span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); flex-shrink: 0;">${renderIcon('nav_scriptures')}</span>
           <span>${t('open_mirror', lang)}</span>
         </button>
@@ -163,8 +164,8 @@ export class BeadCounterComponent {
           const lapsEl = document.getElementById('bead-display-laps');
           if (lapsEl) lapsEl.innerText = this.lapsCompleted;
           SacredDialog.alert({
-            title: t('bead_consecrated_title', lang),
-            message: t('bead_consecrated_msg', lang),
+            title: t('bead_consecrated_title', lang) || '¡Ciclo Devocional Consagrado!',
+            message: t('bead_consecrated_msg', lang) || '',
             icon: 'nav_beads',
             buttonText: t('dialog_accept', lang) || t('accept_label', lang) || 'OK',
             type: 'gold'
@@ -193,7 +194,7 @@ export class BeadCounterComponent {
           soundManager.playBeadClick();
         } catch (err) { /* ignore */ }
 
-        const resetMsg = t('bead_toast_reset', lang) || t('bead_reset_toast', lang) || '✨ Contador y ciclos reiniciados a cero';
+        const resetMsg = t('bead_toast_reset', lang) || 'Contador y ciclos reiniciados a cero';
         SacredDialog.toast(resetMsg);
       });
     }

@@ -301,11 +301,11 @@ export class SpiritualCompassComponent {
       const lang = prefs.idioma || "es";
 
       if (isAligned) {
-        targetDiff.innerHTML = `<span style="color: var(--accent-gold); font-weight: 800; text-shadow: 0 0 10px rgba(251,191,36,0.6); display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 14px; height: 14px; display: inline-flex;">${renderIcon("ui_sparkles")}</span> ¡Alineación Sagrada Perfecta! (${this.targetHeading}°)</span>`;
+        targetDiff.innerHTML = `<span style="color: var(--accent-gold); font-weight: 800; text-shadow: 0 0 10px rgba(251,191,36,0.6); display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 14px; height: 14px; display: inline-flex;">${renderIcon("ui_sparkles")}</span> ${t('compass_perfect_alignment', lang) || '¡Alineación Sagrada Perfecta!'} (${this.targetHeading}°)</span>`;
       } else if (diff > 0) {
-        targetDiff.innerHTML = `<span style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 13px; height: 13px; display: inline-flex; color: var(--accent-gold);">${renderIcon("ui_chevron_right")}</span> <strong style="color: var(--accent-gold);">Gira a la derecha ${Math.round(diff)}°</strong> · Objetivo: ${this.targetHeading}°</span>`;
+        targetDiff.innerHTML = `<span style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 13px; height: 13px; display: inline-flex; color: var(--accent-gold);">${renderIcon("ui_chevron_right")}</span> <strong style="color: var(--accent-gold);">${t('compass_turn_right', lang) || 'Gira a la derecha'} ${Math.round(diff)}°</strong> · ${t('compass_target', lang) || 'Objetivo'}: ${this.targetHeading}°</span>`;
       } else {
-        targetDiff.innerHTML = `<span style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 13px; height: 13px; display: inline-flex; color: var(--accent-cyan);">${renderIcon("ui_chevron_left")}</span> <strong style="color: var(--accent-cyan);">Gira a la izquierda ${Math.round(Math.abs(diff))}°</strong> · Objetivo: ${this.targetHeading}°</span>`;
+        targetDiff.innerHTML = `<span style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 13px; height: 13px; display: inline-flex; color: var(--accent-cyan);">${renderIcon("ui_chevron_left")}</span> <strong style="color: var(--accent-cyan);">${t('compass_turn_left', lang) || 'Gira a la izquierda'} ${Math.round(Math.abs(diff))}°</strong> · ${t('compass_target', lang) || 'Objetivo'}: ${this.targetHeading}°</span>`;
       }
     }
 
@@ -573,7 +573,7 @@ export class SpiritualCompassComponent {
       <div class="crystal-card" style="width: 100%; max-width: 440px; margin: auto 0; padding: 20px 16px; border-radius: var(--radius-lg); background: var(--glass-surface-2); border: 1.5px solid var(--glass-border); position: relative; box-shadow: 0 24px 60px rgba(0,0,0,0.6); display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
         
         <!-- Botón Cerrar Ergonómico -->
-        <button id="btn-close-compass" class="btn-modal-close" title="Cerrar">
+        <button id="btn-close-compass" class="btn-modal-close" title="${t('dialog_cancel', lang) || 'Cerrar'}">
           ${renderIcon("ui_close")}
         </button>
 
@@ -769,7 +769,7 @@ export class SpiritualCompassComponent {
         }
 
         if (label) {
-          const calMsg = t('compass_calibrated_msg', lang) || '✨ ¡Calibrado!';
+          const calMsg = t('compass_calibrated_msg', lang) || '¡Calibrado!';
           label.innerHTML = `<strong style="color: var(--accent-gold);">${calMsg}</strong>`;
         }
 

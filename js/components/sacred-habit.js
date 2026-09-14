@@ -214,7 +214,7 @@ export class SacredHabitComponent {
     if (completeBtn) {
       completeBtn.onclick = () => {
         StorageService.recordSpiritualScoreAction("habit_completed", 15);
-        SacredDialog.toast(t('habit_toast_success', lang) || "✨ ¡Ritual Consagrado con Éxito! +15 Puntos de Fortaleza Espiritual.");
+        SacredDialog.toast(t('habit_toast_success', lang) || "¡Ritual Consagrado con Éxito! +15 Puntos de Fortaleza Espiritual.");
         this.close();
       };
     }
@@ -223,7 +223,7 @@ export class SacredHabitComponent {
     if (sponsorBtn) {
       sponsorBtn.onclick = () => {
         SacredDialog.alert({
-          title: t('offering_alert_title', lang) || '🕊️ Micro-Ofrenda Litúrgica ($0.49 USD)',
+          title: t('offering_alert_title', lang) || 'Micro-Ofrenda Litúrgica ($0.49 USD)',
           message: t('offering_alert_msg', lang) || '¡Muchas gracias por tu generosidad! Tu ofrenda apadrina la traducción de nuevas oraciones y preserva el santuario universal.',
           buttonText: t('offering_alert_btn', lang) || t('dialog_accept', lang) || 'Aceptar',
           type: 'gold'

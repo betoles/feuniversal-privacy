@@ -382,7 +382,7 @@ export class NovenaModalComponent {
             type: 'gold'
           });
         } else {
-          SacredDialog.toast(`✨ ${t('novena_day_prefix', lang) || 'Día'} ${activeDayNumber} (+15 pts)`);
+          SacredDialog.toast(`${t('novena_day_prefix', lang) || 'Día'} ${activeDayNumber} (+15 pts)`);
         }
         this.selectedDay = Math.min(novena.totalDias, activeDayNumber + 1);
         this.render();
