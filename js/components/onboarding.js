@@ -168,6 +168,34 @@ export class OnboardingComponent {
         </div>
 
         <div class="onboarding-scroll-list" style="overflow-y: auto; padding-right: 4px; flex: 1; margin-bottom: 12px; overscroll-behavior: contain;">
+          <!-- Selector de Ancho de Pantalla (iPad / Desktop) -->
+          <div style="margin-bottom: 12px; padding: 10px 12px; background: var(--glass-surface-1); border-radius: var(--radius-md); border: 1px solid var(--glass-border);">
+            <div style="font-size: 0.76rem; font-weight: 800; color: var(--text-primary); margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between;">
+              <span style="display: flex; align-items: center; gap: 6px;">
+                <span style="color: var(--accent-gold); display: inline-flex; width: 15px; height: 15px;">${renderIcon('ui_layout_width')}</span>
+                <span>${t('header_width_adjust', lang) || 'Ancho de Pantalla (iPad / Escritorio)'}</span>
+              </span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px;">
+              <button type="button" class="btn-crystal layout-width-chip ${prefs.anchoVista === 'auto' || !prefs.anchoVista ? 'active-width-pill' : ''}" data-width-mode="auto" style="padding: 7px 8px; font-size: 0.72rem; text-align: center; border-radius: var(--radius-sm); border: 1.5px solid var(--glass-border); cursor: pointer;">
+                ${t('layout_width_auto', lang) || '⚡ Automático'}
+              </button>
+              <button type="button" class="btn-crystal layout-width-chip ${prefs.anchoVista === 'wide' ? 'active-width-pill' : ''}" data-width-mode="wide" style="padding: 7px 8px; font-size: 0.72rem; text-align: center; border-radius: var(--radius-sm); border: 1.5px solid var(--glass-border); cursor: pointer;">
+                ${t('layout_width_wide', lang) || '🖥️ Panorámico'}
+              </button>
+              <button type="button" class="btn-crystal layout-width-chip ${prefs.anchoVista === 'tablet' ? 'active-width-pill' : ''}" data-width-mode="tablet" style="padding: 7px 8px; font-size: 0.72rem; text-align: center; border-radius: var(--radius-sm); border: 1.5px solid var(--glass-border); cursor: pointer;">
+                ${t('layout_width_tablet', lang) || '📟 Tableta / iPad'}
+              </button>
+              <button type="button" class="btn-crystal layout-width-chip ${prefs.anchoVista === 'compact' ? 'active-width-pill' : ''}" data-width-mode="compact" style="padding: 7px 8px; font-size: 0.72rem; text-align: center; border-radius: var(--radius-sm); border: 1.5px solid var(--glass-border); cursor: pointer;">
+                ${t('layout_width_compact', lang) || '📱 Compacto'}
+              </button>
+            </div>
+          </div>
+
+          <div style="font-size: 0.74rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; padding-left: 2px;">
+            ${t('header_traditions', lang) || 'Tradiciones Sagradas'}
+          </div>
+
           ${traditionsHTML}
         </div>
 
@@ -237,6 +265,21 @@ export class OnboardingComponent {
         this.render();
       });
     }
+
+    const widthChips = this.container.querySelectorAll('.layout-width-chip');
+    widthChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        const mode = chip.getAttribute('data-width-mode');
+        if (!mode) return;
+        widthChips.forEach(c => c.classList.remove('active-width-pill'));
+        chip.classList.add('active-width-pill');
+
+        const prefs = StorageService.getPreferences();
+        prefs.anchoVista = mode;
+        StorageService.savePreferences(prefs);
+        document.documentElement.setAttribute('data-container-width', mode);
+      });
+    });
 
     const saveBtn = document.getElementById('btn-save-onboarding');
     if (saveBtn) {

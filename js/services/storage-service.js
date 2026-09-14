@@ -818,6 +818,7 @@ export class StorageService {
       modoZen: true,
       volumenSonido: 0.5,
       hapticaActivada: true,
+      anchoVista: 'auto', // 'auto' | 'compact' | 'tablet' | 'wide'
       onboardingCompletado: false
     };
 

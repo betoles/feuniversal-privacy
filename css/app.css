@@ -17,6 +17,7 @@
   box-sizing: border-box;
   min-height: 100vh;
   min-height: -webkit-fill-available;
+  transition: max-width 0.35s cubic-bezier(0.4, 0, 0.2, 1), padding 0.35s ease;
 }
 
 /* Touch responsiveness para iOS Safari y Android */
@@ -2075,10 +2076,11 @@ button {
 
 /* 4. Adaptabilidad Responsiva para iPad, Tablets y Monitores Desktop */
 @media (min-width: 768px) {
-  .app-container {
-    max-width: 680px;
-    padding-left: 20px;
-    padding-right: 20px;
+  :root:not([data-container-width="compact"]):not([data-container-width="wide"]) .app-container,
+  [data-container-width="auto"] .app-container {
+    max-width: 980px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin: 0 auto;
   }
 
@@ -2086,12 +2088,137 @@ button {
     border-radius: var(--radius-lg);
     box-shadow: var(--glass-shadow-sm);
   }
+
+  :root:not([data-container-width="compact"]) .hud-quick-pillars-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+
+  :root:not([data-container-width="compact"]) .prayers-grid-catalog,
+  :root:not([data-container-width="compact"]) .prayers-catalog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  :root:not([data-container-width="compact"]) .intentions-matrix-grid,
+  :root:not([data-container-width="compact"]) .intentions-compact-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
 }
 
-@media (min-width: 1200px) {
-  .app-container {
-    max-width: 720px;
+@media (min-width: 1100px) {
+  :root:not([data-container-width="compact"]):not([data-container-width="tablet"]) .app-container,
+  [data-container-width="auto"] .app-container,
+  [data-container-width="wide"] .app-container {
+    max-width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
+
+  :root:not([data-container-width="compact"]):not([data-container-width="tablet"]) .prayers-grid-catalog,
+  :root:not([data-container-width="compact"]):not([data-container-width="tablet"]) .prayers-catalog-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  :root:not([data-container-width="compact"]):not([data-container-width="tablet"]) .intentions-matrix-grid,
+  :root:not([data-container-width="compact"]):not([data-container-width="tablet"]) .intentions-compact-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Modos Forzados Explícitos por Preferencia del Usuario */
+[data-container-width="compact"] .app-container {
+  max-width: 680px !important;
+}
+
+[data-container-width="compact"] .prayers-grid-catalog,
+[data-container-width="compact"] .prayers-catalog-grid {
+  grid-template-columns: 1fr !important;
+}
+
+[data-container-width="compact"] .hud-quick-pillars-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+[data-container-width="tablet"] .app-container {
+  max-width: 980px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+[data-container-width="tablet"] .prayers-grid-catalog,
+[data-container-width="tablet"] .prayers-catalog-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+[data-container-width="tablet"] .hud-quick-pillars-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+[data-container-width="wide"] .app-container {
+  max-width: 1280px !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
+
+[data-container-width="wide"] .prayers-grid-catalog,
+[data-container-width="wide"] .prayers-catalog-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+[data-container-width="wide"] .hud-quick-pillars-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+[data-container-width="wide"] .intentions-matrix-grid,
+[data-container-width="wide"] .intentions-compact-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+/* Rejillas generales fluidas */
+.prayers-grid-catalog,
+.prayers-catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.intentions-matrix-grid,
+.intentions-compact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Floating Dock Centrado */
+.hud-bottom-bar {
+  max-width: 560px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: calc(100% - 24px) !important;
+  box-sizing: border-box !important;
+}
+
+.layout-width-chip {
+  transition: all 0.2s ease;
+  background: var(--glass-surface-1);
+  color: var(--text-secondary);
+}
+
+.layout-width-chip:hover {
+  background: var(--glass-surface-2);
+  color: var(--text-primary);
+  border-color: var(--glass-border-highlight);
+}
+
+.layout-width-chip.active-width-pill {
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.25), rgba(99, 102, 241, 0.35)) !important;
+  border-color: var(--accent-gold) !important;
+  color: var(--accent-gold) !important;
+  font-weight: 800 !important;
+  box-shadow: 0 0 12px var(--accent-gold-glow);
 }
 
 /* ==========================================================================

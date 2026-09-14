@@ -252,6 +252,12 @@ export const SVG_ICONS = {
     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
   </svg>`,
 
+  ui_layout_width: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="4" width="20" height="16" rx="2"/>
+    <path d="M9 4v16"/>
+    <path d="M15 4v16"/>
+  </svg>`,
+
   ui_audio: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
     <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>

@@ -76,6 +76,7 @@ export class FeUniversalApp {
 
   init() {
     try { this.applyTheme(this.prefs.tema || 'dark'); } catch (e) { console.warn('Error applyTheme:', e); }
+    try { this.applyContainerWidth(this.prefs.anchoVista || 'auto', false); } catch (e) { console.warn('Error applyContainerWidth:', e); }
     try { this.initStaticIcons(); } catch (e) { console.warn('Error initStaticIcons:', e); }
     try { this.updateAllUITexts(this.prefs.idioma || 'es'); } catch (e) { console.warn('Error updateAllUITexts:', e); }
     try { this.renderHeader(); } catch (e) { console.warn('Error renderHeader:', e); }
@@ -244,6 +245,9 @@ export class FeUniversalApp {
     setTxt('label-btn-notif', t('header_schedules', safeLang));
     setTxt('label-btn-traditions', t('header_traditions', safeLang));
 
+    const widthBtn = document.getElementById('btn-toggle-width');
+    if (widthBtn) widthBtn.title = t('header_width_adjust', safeLang) || 'Ajustar ancho de pantalla';
+
     // Barra Segmentada
     setTxt('label-seg-hud', t('seg_balance', safeLang));
     setTxt('label-seg-intentions', t('seg_intentions', safeLang));
@@ -325,6 +329,7 @@ export class FeUniversalApp {
     setIcon('bnav-icon-altar', 'nav_altar');
     setIcon('bnav-icon-beads', 'nav_beads');
     setIcon('bnav-icon-vault', 'nav_vault');
+    setIcon('icon-btn-width', 'ui_layout_width');
 
     const themeIcon = document.getElementById('icon-btn-theme');
     if (themeIcon) {
@@ -343,6 +348,25 @@ export class FeUniversalApp {
     const themeIcon = document.getElementById('icon-btn-theme');
     if (themeIcon) {
       themeIcon.innerHTML = theme === 'light' ? renderIcon('ui_sun') : renderIcon('ui_moon');
+    }
+  }
+
+  applyContainerWidth(mode, showToast = false) {
+    const validModes = ['auto', 'wide', 'tablet', 'compact'];
+    const safeMode = validModes.includes(mode) ? mode : 'auto';
+    
+    document.documentElement.setAttribute('data-container-width', safeMode);
+    this.prefs.anchoVista = safeMode;
+    StorageService.savePreferences(this.prefs);
+
+    if (showToast) {
+      const lang = this.prefs.idioma || 'es';
+      let toastMsg = t('layout_width_toast_auto', lang) || '📐 Ancho: Automático (Adaptativo)';
+      if (safeMode === 'compact') toastMsg = t('layout_width_toast_compact', lang) || '📱 Ancho: Compacto (680px)';
+      else if (safeMode === 'tablet') toastMsg = t('layout_width_toast_tablet', lang) || '📟 Ancho: Tableta / iPad (980px)';
+      else if (safeMode === 'wide') toastMsg = t('layout_width_toast_wide', lang) || '🖥️ Ancho: Panorámico (1280px)';
+      
+      SacredDialog.showToast(toastMsg, 2000);
     }
   }
 
@@ -1228,6 +1252,18 @@ export class FeUniversalApp {
       themeBtn.addEventListener('click', () => {
         const newTheme = this.prefs.tema === 'dark' ? 'light' : 'dark';
         this.applyTheme(newTheme);
+      });
+    }
+
+    const widthBtn = document.getElementById('btn-toggle-width');
+    if (widthBtn) {
+      widthBtn.addEventListener('click', () => {
+        soundManager.playBeadClick();
+        const modes = ['auto', 'wide', 'tablet', 'compact'];
+        const current = this.prefs.anchoVista || 'auto';
+        const nextIdx = (modes.indexOf(current) + 1) % modes.length;
+        const nextMode = modes[nextIdx];
+        this.applyContainerWidth(nextMode, true);
       });
     }
 
