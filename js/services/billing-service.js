@@ -175,7 +175,7 @@ export class BillingService {
       : (planKey === 'micro_offering' ? PLAY_STORE_SKUS.MICRO_OFFERING : PLAY_STORE_SKUS.ANNUAL_SUB);
 
     // 1. Entorno Nativo Android (Google Play Billing)
-    if (this.#isNative && window.Capacitor?.Plugins?.InAppPurchasing) {
+    if (this.isNativePlatform() && window.Capacitor?.Plugins?.InAppPurchasing) {
       try {
         const result = await window.Capacitor.Plugins.InAppPurchasing.purchase({ productId: sku });
         if (result && result.success) {
@@ -190,7 +190,7 @@ export class BillingService {
       }
     }
 
-    // 2. Entorno Web / PC / iOS Web (Pasarela Segura PayPal)
+    // 2. Entorno Web / PC / iOS Web (Pasarela Segura PayPal Merchant)
     return this.launchPayPalPurchase(planKey);
   }
 
@@ -198,7 +198,7 @@ export class BillingService {
    * Restaura compras previas activas del usuario en Google Play o comprueba estado local
    */
   static async restorePurchases() {
-    if (this.#isNative && window.Capacitor?.Plugins?.InAppPurchasing) {
+    if (this.isNativePlatform() && window.Capacitor?.Plugins?.InAppPurchasing) {
       try {
         const activeSubs = await window.Capacitor.Plugins.InAppPurchasing.getPurchases();
         if (activeSubs && activeSubs.length > 0) {
