@@ -2,6 +2,7 @@ import { t, isRTL } from '../data/i18n.js';
 import { SacredDialog } from './sacred-dialog.js';
 import { renderIcon } from './icons.js';
 import { StorageService } from '../services/storage-service.js';
+import { TRADITIONS } from '../data/traditions.js';
 
 export const SUPPORT_EMAIL = 'feuniversal_faith_and_prayers@outlook.com';
 
@@ -10,6 +11,35 @@ export class TranslationReportModalComponent {
     this.modal = null;
     this.currentPrayer = null;
     this.selectedScreenshot = null;
+  }
+
+  resolvePrayerTitle(p, lang) {
+    if (!p) return t('liturgical_prayer', lang) || 'Oración Litúrgica';
+    if (p.titulo) {
+      const val = typeof p.titulo === 'object' ? (p.titulo[lang] || p.titulo.es || Object.values(p.titulo)[0]) : p.titulo;
+      if (val && val !== 'Oración Litúrgica') return val;
+    }
+    if (p.title) {
+      const val = typeof p.title === 'object' ? (p.title[lang] || p.title.en || Object.values(p.title)[0]) : p.title;
+      if (val && val !== 'Oración Litúrgica') return val;
+    }
+    if (p.nombre) {
+      const val = typeof p.nombre === 'object' ? (p.nombre[lang] || p.nombre.es || Object.values(p.nombre)[0]) : p.nombre;
+      if (val && val !== 'Oración Litúrgica') return val;
+    }
+    if (p.capitulo || p.libro) {
+      return `${p.libro || ''} ${p.capituloNumero || p.capitulo || ''}`.trim();
+    }
+    return t('liturgical_prayer', lang) || 'Oración Litúrgica';
+  }
+
+  resolveTraditionName(p, lang) {
+    if (!p || !p.tradicion) return 'Universal';
+    const key = String(p.tradicion).toLowerCase().trim();
+    if (TRADITIONS[key] && TRADITIONS[key].nombre) {
+      return TRADITIONS[key].nombre[lang] || TRADITIONS[key].nombre.es || p.tradicion;
+    }
+    return p.tradicion;
   }
 
   ensureModal() {
@@ -41,9 +71,11 @@ export class TranslationReportModalComponent {
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
     const isLangRTL = isRTL(lang);
-    const prayerTitle = (p.titulo && (p.titulo[lang] || p.titulo.es)) || p.titulo || 'Oración Litúrgica';
-    const tradKey = p.tradicion || 'Universal';
+    const prayerTitle = this.resolvePrayerTitle(p, lang);
+    const tradName = this.resolveTraditionName(p, lang);
     const origLang = p.idiomaLiturgicoOriginal || 'la';
+    const rawRootLabel = t('root_label', lang) || 'Idioma raíz:';
+    const cleanRootLabel = rawRootLabel.replace(/[:：\s]+$/, '');
 
     const defaultType = t('report_option_fidelity', lang);
 
@@ -66,7 +98,7 @@ export class TranslationReportModalComponent {
         <div class="crystal-card" style="padding: 10px 14px; background: var(--glass-inset); margin-bottom: 14px; font-size: 0.88rem; ${isLangRTL ? 'border-right: 3px solid var(--accent-gold); border-left: none;' : 'border-left: 3px solid var(--accent-gold); border-right: none;'} box-sizing: border-box; width: 100%;">
           <div style="font-weight: 800; font-size: 0.96rem; color: var(--accent-gold); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${prayerTitle}</div>
           <div style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 3px;">
-            ${t('report_tradition_label', lang)} <strong>${tradKey.toUpperCase()}</strong> · ${t('root_label', lang) || 'Idioma raíz'}: <strong>${origLang.toUpperCase()}</strong>
+            ${t('report_tradition_label', lang)} <strong>${tradName}</strong> · ${cleanRootLabel}: <strong>${origLang.toUpperCase()}</strong>
           </div>
         </div>
 
@@ -188,7 +220,8 @@ export class TranslationReportModalComponent {
         const p = this.currentPrayer || {};
         const currentPrefs = StorageService.getPreferences();
         const currentLang = currentPrefs.idioma || 'es';
-        const prayerTitle = (p.titulo && (p.titulo[currentLang] || p.titulo.es)) || p.titulo || 'Oración Litúrgica';
+        const prayerTitle = this.resolvePrayerTitle(p, currentLang);
+        const tradName = this.resolveTraditionName(p, currentLang);
         const type = document.getElementById('report-type')?.value || t('report_option_fidelity', currentLang);
         const details = document.getElementById('report-details')?.value || '';
 
@@ -203,12 +236,12 @@ export class TranslationReportModalComponent {
           return;
         }
 
-        const subjectText = `🕊️ ${t('report_email_subject_prefix', currentLang)} ${prayerTitle} [${p.id || 'N/A'}]`;
+        const subjectText = `${t('report_email_subject_prefix', currentLang)} ${prayerTitle} [${p.id || 'N/A'}]`;
         const screenshotText = this.selectedScreenshot 
           ? `\n- ${t('report_email_screenshot_attached', currentLang)} (${this.selectedScreenshot.name})` 
           : `\n- ${t('report_email_screenshot_hint', currentLang)}`;
         
-        const bodyText = `${t('report_email_greeting', currentLang)}\n\n${t('report_email_intro', currentLang)}\n- ${t('prayer_label', currentLang) || 'Oración'}: ${prayerTitle}\n- ${t('report_email_tradition', currentLang)} ${p.tradicion || 'Universal'}\n- ${t('report_email_root_lang', currentLang)} ${p.idiomaLiturgicoOriginal || 'N/A'}\n- ${t('report_email_type', currentLang)} ${type}${screenshotText}\n\n${t('report_email_obs', currentLang)}\n${details.trim()}\n\n---\n${t('report_email_footer', currentLang)}`;
+        const bodyText = `${t('report_email_greeting', currentLang)}\n\n${t('report_email_intro', currentLang)}\n- ${t('prayer_label', currentLang) || 'Oración'}: ${prayerTitle}\n- ${t('report_email_tradition', currentLang)} ${tradName}\n- ${t('report_email_root_lang', currentLang)} ${p.idiomaLiturgicoOriginal || 'N/A'}\n- ${t('report_email_type', currentLang)} ${type}${screenshotText}\n\n${t('report_email_obs', currentLang)}\n${details.trim()}\n\n---\n${t('report_email_footer', currentLang)}`;
 
         if (this.selectedScreenshot && navigator.canShare && navigator.canShare({ files: [this.selectedScreenshot] })) {
           try {
@@ -246,7 +279,7 @@ export class TranslationReportModalComponent {
         const p = this.currentPrayer || {};
         const currentPrefs = StorageService.getPreferences();
         const currentLang = currentPrefs.idioma || 'es';
-        const prayerTitle = (p.titulo && (p.titulo[currentLang] || p.titulo.es)) || p.titulo || 'Oración Litúrgica';
+        const prayerTitle = this.resolvePrayerTitle(p, currentLang);
         const type = document.getElementById('report-type')?.value || t('report_option_fidelity', currentLang);
         const details = document.getElementById('report-details')?.value || '';
 

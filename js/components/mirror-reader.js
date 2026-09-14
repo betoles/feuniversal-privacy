@@ -281,7 +281,7 @@ export class MirrorReaderComponent {
       `;
     }
 
-    const titleText = typeof prayer.titulo === 'string' ? prayer.titulo : ((prayer.titulo && (prayer.titulo[lang] || prayer.titulo.es)) || 'Oración');
+    const titleText = typeof prayer.titulo === 'string' ? prayer.titulo : ((prayer.titulo && (prayer.titulo[lang] || prayer.titulo.es)) || t('liturgical_prayer', lang) || 'Oración');
     const soundDef = SacredSoundPicker.getSoundDef(this.currentSound, lang);
     const isLangRTL = isRTL(lang);
 

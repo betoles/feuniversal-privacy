@@ -607,7 +607,7 @@
         regs.forEach(r => r.update());
       });
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=9.6.0').then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=10.1.0').then(reg => {
           reg.update();
         }).catch(err => {
           console.log('[PWA] Service Worker activo');
@@ -617,7 +617,7 @@
   </script>
 
   <!-- Script Principal con Cache-Busting -->
-  <script type="module" src="js/app.js?v=9.6.0"></script>
+  <script type="module" src="js/app.js?v=10.1.0"></script>
 
 </body>
 </html>

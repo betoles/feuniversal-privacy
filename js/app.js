@@ -1103,7 +1103,7 @@ export class FeUniversalApp {
   renderPrayerCardHtml(p, lang) {
     const currentLang = lang || this.prefs.idioma || 'es';
     const tData = getTradition(p.tradicion);
-    const title = typeof p.titulo === 'string' ? p.titulo : ((p.titulo && (p.titulo[currentLang] || p.titulo.es)) || 'Oración');
+    const title = typeof p.titulo === 'string' ? p.titulo : ((p.titulo && (p.titulo[currentLang] || p.titulo.es)) || t('liturgical_prayer', currentLang) || 'Oración');
     const trad = p.textoTraducido || (p.traducciones && (p.traducciones[currentLang] || p.traducciones.es)) || p.textoEspanol || p.textoOriginal || '';
     const tradName = (tData && tData.nombre && (tData.nombre[currentLang] || tData.nombre.es)) || '';
     const tradColor = tData ? tData.colorAcento : '#d4af37';

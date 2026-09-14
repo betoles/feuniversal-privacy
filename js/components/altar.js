@@ -31,7 +31,7 @@ export class AltarComponent {
     const tradObj = getTradition(this.selectedTradition);
     const durObj = getDurationDef(this.selectedDuration, lang);
 
-    const prayerTitle = activePrayer ? (typeof activePrayer.titulo === 'string' ? activePrayer.titulo : ((activePrayer.titulo && (activePrayer.titulo[lang] || activePrayer.titulo.es || activePrayer.titulo.en)) || 'Oración')) : '';
+    const prayerTitle = activePrayer ? (typeof activePrayer.titulo === 'string' ? activePrayer.titulo : ((activePrayer.titulo && (activePrayer.titulo[lang] || activePrayer.titulo.es || activePrayer.titulo.en)) || t('liturgical_prayer', lang) || 'Oración')) : '';
     const tradIcon = activePrayer ? (getTradition(activePrayer.tradicion)?.icono || 'trad_catolicismo') : 'trad_catolicismo';
     const activeTradObj = activePrayer ? getTradition(activePrayer.tradicion) : null;
     const activeTradLabel = activeTradObj && activeTradObj.nombre ? (activeTradObj.nombre[lang] || activeTradObj.nombre.es || activeTradObj.nombre.en || activePrayer.tradicion).toUpperCase() : ((activePrayer?.tradicion || '').toUpperCase().replace(/_/g, ' '));
