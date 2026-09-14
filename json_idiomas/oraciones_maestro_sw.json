@@ -59281,7 +59281,7 @@
     {
       "id": "CAT_ESP_COVADONGA_SANTINA",
       "numero": 2738,
-      "titulo": "Dua kwa Santina wa Covadonga",
+      "titulo": "Dua kwa Bikira Maria wa Covadonga (Santina)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Ulinzi_wa_Nchi",
       "estadosEmocionales": [
@@ -59290,10 +59290,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español asturiano",
-      "textoOriginal": "Bikira wa Covadonga, Mama na Malkia wa milima... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
-      "guiaFonetica": "Virgen de Covadonga, Madre y Reina de la... A-mén.",
-      "textoTraducido": "Bikira wa Covadonga, Mama na Malkia wa milima... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español (Devoción Asturiana)",
+      "textoOriginal": "Bendita sea tu pureza y eternamente lo sea, pues todo un Dios se recrea en tan graciosa belleza. A ti, celestial Princesa, Virgen Sagrada María de Covadonga, te ofrezco en este día alma, vida y corazón. Mírame con compasión, Madre de nuestras montañas y cuna de nuestra fe; no me dejes, Madre mía, ni de noche ni de día, y ampárame bajo tu manto maternal en todas las tribulaciones de la vida. Amén.",
+      "guiaFonetica": "[Ben-dí-ta sé-a tu pu-ré-za y e-tér-na-mén-te lo sé-a, pues tó-do un Diós se re-kré-a en tan gra-sió-sa be-yé-za...]",
+      "textoTraducido": "Ibarikiwe usafi wa moyo wako daima, Ee Bikira Maria wa Covadonga! Ninakutolea roho yangu, uzima wangu na moyo wangu. Ututazame kwa huruma ya kimama na utufunike chini ya vazi lako la ulinzi katika magumu yote ya maisha. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59304,7 +59304,7 @@
     {
       "id": "CAT_ESP_ISIDRO_LABRADOR",
       "numero": 2739,
-      "titulo": "Maombi kwa San Isidro Labrador kwa Kupanda na Mvua",
+      "titulo": "Sala kwa Mtakatifu Isidori Mkulima kwa Ajili ya Mazao, Kazi na Mvua",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Vuna_Na_Dumisha",
       "estadosEmocionales": [
@@ -59313,10 +59313,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Mtakatifu Isidro mwenye fadhili, uliyelima mashamba huku malaika wakilinda kazi yako... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
-      "guiaFonetica": "San Isidro bondadoso, que araste los cam... A-mén.",
-      "textoTraducido": "Mtakatifu Isidro mwenye fadhili, uliyelima mashamba huku malaika wakilinda kazi yako... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "Oh Dios todopoderoso, que en San Isidro Labrador nos diste un modelo admirable de humildad, trabajo honrado y oración continua: concédenos por su intercesión que las labores de nuestras manos sean bendecidas y fructíferas. Envía el rocío del cielo y la lluvia oportuna a nuestros campos, aparta la sequía, las plagas y la escasez, y otórganos el pan de cada día ganado con justicia y compartido con los más necesitados. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[O Diós to-do-po-de-ró-so, ke en San I-sí-dro La-bra-dór nos dís-te un mo-dé-lo ad-mi-rá-ble...]",
+      "textoTraducido": "Mwenyezi Mungu, uliyemweka Mtakatifu Isidori Mkulima kama kielelezo cha unyenyekevu, kazi ya uaminifu na sala: tubariki kazi ya mikono yetu. Shusha mvua njema juu ya mashamba yetu, ondoa ukame na njaa, na utujalie riziki ya kila siku. Kwa njia ya Kristo Bwana wetu. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59327,7 +59327,7 @@
     {
       "id": "CAT_ESP_SAN_JUAN_DIOS",
       "numero": 2740,
-      "titulo": "Maombi kwa ajili ya wagonjwa na wasio na msaada",
+      "titulo": "Sala ya Mtakatifu Yohane wa Mungu kwa Ajili ya Wagonjwa na Wanyonge",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Hospitali_ya_Charity",
       "estadosEmocionales": [
@@ -59336,10 +59336,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Mtakatifu Yohane wa Mungu, moyo wa moto na mikono ya upendo... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
-      "guiaFonetica": "San Juan de Dios, corazón de fuego y man... A-mén.",
-      "textoTraducido": "Mtakatifu Yohane wa Mungu, moyo wa moto na mikono ya upendo... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "¡Oh glorioso San Juan de Dios, herido por el amor de Cristo y entregado por entero al alivio de los dolientes! Tú que en cada hermano enfermo viste el rostro doloroso del Redentor y jamás negaste tu auxilio al necesitado: alcánzanos de Dios la salud del cuerpo y la paz del alma. Consuela a los afligidos, sostiene a quienes sufren en soledad, bendice a los médicos y enfermeros con manos compasivas, y enciende en nuestro corazón el fuego de la verdadera caridad. Amén.",
+      "guiaFonetica": "[O glo-rió-so San Juán de Diós, e-rí-do por el a-mór de Krís-to...]",
+      "textoTraducido": "Ee Mtakatifu Yohane wa Mungu mtukufu, uliyejawa na upendo wa Kristo na kujitolea kuwahudumia wagonjwa: tuombee afya ya mwili na amani ya roho. Wafariji wanaoteseka, wabariki madaktari na wauguzi, na washa mioyoni mwetu moto wa upendo wa kweli. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59350,7 +59350,7 @@
     {
       "id": "CAT_PRT_NUNO_SANTA_MARIA",
       "numero": 2741,
-      "titulo": "Maombi ya Mtakatifu Nuno de Santa Maria kwa Concord na Ushujaapt",
+      "titulo": "Sala ya Mtakatifu Nuno wa Bikira Maria kwa Ajili ya Amani na Upatanisho",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Fortaleza_Moralpt",
       "estadosEmocionales": [
@@ -59359,10 +59359,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "Mtakatifu Nuno, Konstebo Mtakatifu, mfano wa kikosi na sala... Nipe neema ya kutembea katika utakatifu, imani na unyoofu chini ya ulinzi wako wa kimungu. Amina.pt-PT",
-      "guiaFonetica": "São Nuno, Santo Condestável, exemplo de ... A-mén.",
-      "textoTraducido": "Mtakatifu Nuno, Konstebo Mtakatifu, mfano wa kikosi na sala... Nipe neema ya kutembea katika utakatifu, imani na unyoofu chini ya ulinzi wako wa kimungu. Amina.pt",
+      "idiomaLiturgicoOriginal": "Portugués Tradicional",
+      "textoOriginal": "Senhor Deus todo-poderoso, que concedestes a São Nuno de Santa Maria a coragem invencível nas batalhas e a mais sublime humildade na vida religiosa carmelita: ensinai-nos por seu exemplo a lutar pela justiça, a viver desapegados das vaidades do mundo e a buscar sempre a concórdia e a paz entre os povos. Por Jesus Cristo, Nosso Senhor. Amém.",
+      "guiaFonetica": "[Se-nyor Deus to-do-po-de-ró-zo, ke kon-se-dés-tes a Sãu Nú-nu...]",
+      "textoTraducido": "Mwenyezi Mungu, uliyempa Mtakatifu Nuno ujasiri usioshindwa na unyenyekevu mkuu: tufundishe kwa mfano wake kupigania haki na kutafuta amani na umoja katika jamii zetu. Kwa njia ya Kristo Bwana wetu. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59373,7 +59373,7 @@
     {
       "id": "CAT_FRA_VICENTE_PAUL_CARIDAD",
       "numero": 2742,
-      "titulo": "Sala ya Mtakatifu Vincent de Paulo kwa ajili ya Huduma kwa Maskini",
+      "titulo": "Sala ya Mtakatifu Fransisko wa Paulo kwa Ajili ya Huduma kwa Maskini na Upendo",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Universal_Charity",
       "estadosEmocionales": [
@@ -59382,10 +59382,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés",
-      "textoOriginal": "Seigneur, faites-moi le serviteur des pauvres et des rejetés... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
-      "guiaFonetica": "Seigneur, faites-moi le serviteur des pa... A-mén.",
-      "textoTraducido": "Seigneur, faites-moi le serviteur des pauvres et des rejetés... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Francés (Tradition Lazariste)",
+      "textoOriginal": "Seigneur Jésus, Toi qui as voulu te faire pauvre parmi les pauvres, donne-nous par l'intercession de Saint Vincent de Paul un cœur plein de compassion, d'humilité et de zèle pour servir nos frères les plus démunis. Apprends-nous à voir Ton visage dans les affligés, à partager notre pain avec générosité et à répandre autour de nous la flamme de la charité vivante. Toi qui règnes pour les siècles des siècles. Amen.",
+      "guiaFonetica": "[Se-nyœ́r Je-zǘ, Twa ki a vu-lú te fêr pó-vr par-mí le pó-vr...]",
+      "textoTraducido": "Bwana Yesu, uliyechagua kuwa maskini kati ya maskini: utujalie kwa maombezi ya Mtakatifu Fransisko wa Paulo moyo wa huruma na unyenyekevu kuwatumikia maskini. Tufundishe kuona uso wako kwa wanaoteseka na kuwasha moto wa upendo ulimwenguni. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59396,7 +59396,7 @@
     {
       "id": "CAT_FRA_MONTMARTRE_SACRE_COEUR",
       "numero": 2743,
-      "titulo": "Tendo la Malipizi ya Daima kwa Moyo Mtakatifu wa Yesu",
+      "titulo": "Sala ya Malipizi ya Daima kwa Moyo Mtakatifu wa Yesu (Montmartre)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Repair_Upendo",
       "estadosEmocionales": [
@@ -59405,10 +59405,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés / Latín",
-      "textoOriginal": "Cœur Sacré de Jesus, source infinie d'amour et de pardon... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
-      "guiaFonetica": "Cœur Sacré de Jésus, source infinie d'am... A-mén.",
-      "textoTraducido": "Cœur Sacré de Jesus, source infinie d'amour et de pardon... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Francés / Latín Eclesiástico",
+      "textoOriginal": "Très doux Jésus, dont l'amour infini pour les hommes n'est payé que d'ingratitude, d'oubli et de mépris: prosternés devant Votre autel, nous venons réparer par un hommage solennel les outrages dont Votre Cœur très aimant est blessé de toutes parts. Consacrez nos âmes, protégez nos familles, apportez la paix aux nations et régnez souverainement sur nos cœurs aujourd'hui et toujours. Cœur Sacré de Jésus, j'ai confiance en Vous. Amen.",
+      "guiaFonetica": "[Trê du Je-zǘ, dõ l'a-múr in-fi-ní pur lez òm n'e pe-yé ke d'in-gra-ti-tüd...]",
+      "textoTraducido": "Ee Yesu Mpole mno, ambaye upendo wako usio na mipaka unalipwa kwa kusahaulika: tukipiga magoti mbele ya madhabahu yako, tunatoa faraja na upendo kwa Moyo wako Mtakatifu. Takasa roho zetu, linda familia zetu na utawale mioyoni mwetu daima. Moyo Mtakatifu wa Yesu, nakutumaini Wewe. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59419,7 +59419,7 @@
     {
       "id": "CAT_IRL_COLUMBA_IONA_ALTUS",
       "numero": 2744,
-      "titulo": "Altus Prosator - Maombi ya Mungu Muumba Aliye Juu",
+      "titulo": "Altus Prosator · Wimbo wa Muumba Mkuu wa Mtakatifu Kolumba wa Iona",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Cosmic_Sifa",
       "estadosEmocionales": [
@@ -59428,10 +59428,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Irlandés / Latín",
-      "textoOriginal": "Altus Prosator, Vetus dierum et Ingenitus... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
-      "guiaFonetica": "Altus Prosator, Vetustus dierum et Ingen... A-mén.",
-      "textoTraducido": "Altus Prosator, Vetus dierum et Ingenitus... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Latín Celto-Irlandés (Iona)",
+      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus, absque origine principio et creamine, est et erit in saecula saeculorum: cui est Unigenitus Christus et Spiritus Sanctus, coaeternus in sempiterna deitatis gloria. Te Deum laudamus, Te Dominum confitemur, Te Creatorem caeli et terrae humiliter adoramus. Amen.",
+      "guiaFonetica": "[Ál-tus Pro-sá-tor, Ve-tús-tus di-é-rum et In-jé-ni-tus...]",
+      "textoTraducido": "Muumba Mkuu, Mzee wa Siku na Asiyeumbwa, uliyeko na utakayekuwako milele na milele: unayetawala pamoja na Kristo Mwanao Pekee na Roho Mtakatifu. Tunakusifu Wewe Mungu, tunakukiri kuwa Bwana na kukuabudu kama Muumba wa mbingu na nchi. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59442,7 +59442,7 @@
     {
       "id": "CAT_IRL_KEVIN_GLENDALOUGH",
       "numero": 2745,
-      "titulo": "Maombi ya Amani na Maelewano na Asili ya Mtakatifu Kevin",
+      "titulo": "Sala ya Amani na Upatanisho na Viumbe ya Mtakatifu Kevin wa Glendalough",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Amani_Asili_ya_Ndani",
       "estadosEmocionales": [
@@ -59451,10 +59451,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Gaélico / Español",
-      "textoOriginal": "Kwa Naomh Caoimhín, mtakatifu wa upweke na huruma pamoja na ndege wa angani... Nipe neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kiungu. Amina.",
-      "guiaFonetica": "A Naomh Caoimhín, santo de la soledad y ... A-mén.",
-      "textoTraducido": "Kwa Naomh Caoimhín, mtakatifu wa upweke na huruma pamoja na ndege wa angani... Nipe neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kiungu. Amina.",
+      "idiomaLiturgicoOriginal": "Gaélico Irlandés / Español",
+      "textoOriginal": "A Naomh Caoimhín Ghleann Dá Loch, a chara Dé agus a chara an dúlra: guigh orainn. Que la paz del valle sagrado y el silencio de las montañas serenen nuestra alma. Tú que sostuviste el nido del ave en tu mano extendida con infinita paciencia: enséñanos a vivir en armonía con toda la creación de Dios, a orar sin cesar en el secreto de nuestro corazón y a encontrar en la quietud la presencia luminosa del Creador. Por Cristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[A Nív Kwi-vín Glen Dá Loj, a já-ra Dye á-gus a já-ra an dúl-ra...]",
+      "textoTraducido": "Ee Mtakatifu Kevin wa Glendalough, rafiki wa Mungu na mlinzi wa viumbe vyote! Amani ya bonde takatifu na utulivu wa milima ilete amani rohoni mwetu. Tufundishe kuishi kwa amani na viumbe vyote vya Mungu na kugundua uwepo wa Muumba katika utulivu. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59465,7 +59465,7 @@
     {
       "id": "CAT_ITA_SAN_GENNARO_NAPOLI",
       "numero": 2746,
-      "titulo": "Ombi kwa Mtakatifu Jannaro kwa Ulinzi wa Jiji na Muujiza",
+      "titulo": "Dua kwa Mtakatifu Januari kwa Ulinzi wa Mji na Muujiza",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Ulinzi_Majanga",
       "estadosEmocionales": [
@@ -59474,10 +59474,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano napolitano",
-      "textoOriginal": "San Gennaro glorious, martire e patron nostro amatissimo... Nipe neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
-      "guiaFonetica": "San Gennaro glorioso, martire e patrono ... A-mén.",
-      "textoTraducido": "San Gennaro glorious, martire e patron nostro amatissimo... Nipe neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradizione Napoletana)",
+      "textoOriginal": "O San Gennaro, insigne martire e nostro amatissimo patrono, che con il prodigio del tuo sangue rinnovi nei secoli la testimonianza della fede e la protezione celeste sulla tua diletta città: stendi la tua mano pietosa sopra di noi. Difendici dalle calamità, dalle malattie e da ogni insidia spirituale e materiale; ravviva nei nostri cuori la carità di Cristo e ottienici la grazia della perseveranza finale. Amen.",
+      "guiaFonetica": "[O San Jen-ná-ro, in-sí-nye már-ti-re e nós-tro a-ma-tís-si-mo pa-tró-no...]",
+      "textoTraducido": "Ee Mtakatifu Januari mtukufu, shahidi mkuu na msimamizi wetu mpendwa! Wewe unayehuisha ushuhuda wa imani hai kwa muujiza wa damu yako: nyosha mkono wako wa huruma juu yetu. Utulinde dhidi ya majanga, magonjwa na hila zote za mwovu; washa mioyoni mwetu upendo wa Kristo na utuongoze kwenye wokovu wa milele. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59511,7 +59511,7 @@
     {
       "id": "CAT_MEX_NINO_PLATEROS_FRESNILLO",
       "numero": 2748,
-      "titulo": "Maombi kwa Mtoto Mtakatifu wa Atocha de Plateros",
+      "titulo": "Sala kwa Mtoto Mtakatifu wa Atocha huko Plateros",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Ukombozi_Wafungwa_Watembeao",
       "estadosEmocionales": [
@@ -59520,10 +59520,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Mtoto Mtakatifu wa Atocha, mlinzi wa wachimba migodi na watembeaji... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
-      "guiaFonetica": "Santo Niño de Atocha, protector de los m... A-mén.",
-      "textoTraducido": "Mtoto Mtakatifu wa Atocha, mlinzi wa wachimba migodi na watembeaji... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Mexicano Tradicional",
+      "textoOriginal": "¡Oh amabilísimo y milagroso Santo Niño de Atocha, venerado en el santuario de Plateros! Protector celestial de los caminantes, mineros, enfermos y desamparados: Tú que con tu canastita de pan y tu calabacita de agua jamás dejaste desfallecer a los cautivos y peregrinos, atiende mi humilde súplica en esta hora de aflicción. Desata mis cadenas espirituales y materiales, guía mis pasos por senderos de paz y cólmame de tu bendición soberana. Amén.",
+      "guiaFonetica": "[O a-ma-bi-lí-si-mo y mi-la-gró-so Sán-to Ní-nyo de A-tó-cha, ve-ne-rá-do en Pla-té-ros...]",
+      "textoTraducido": "Ee Mtoto Mtakatifu wa Atocha mwenye huruma na miujiza! Mlinzi wa wasafiri, wagonjwa na waliofungwa: sikiliza maombi yangu wakati huu wa shida, fungua vifungo vyangu vyote na uongoze hatua zangu katika amani. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59534,7 +59534,7 @@
     {
       "id": "CAT_ECU_VIRGEN_QUINCHE",
       "numero": 2749,
-      "titulo": "Ombi la Mama kwa Mama Yetu wa Quinche",
+      "titulo": "Dua ya Kimama kwa Bikira Maria wa El Quinche (Ecuador)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Consuelo_Andino",
       "estadosEmocionales": [
@@ -59543,10 +59543,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español andino",
-      "textoOriginal": "Bikira wa Quinche, Mama wa wema na ulinzi wa watu wa Andes... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
-      "guiaFonetica": "Virgen del Quinche, Madre de bondad y am... A-mén.",
-      "textoTraducido": "Bikira wa Quinche, Mama wa wema na ulinzi wa watu wa Andes... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español Andino / Kichwa Devocional",
+      "textoOriginal": "¡Oh Madre santísima del Quinche, amparo y consuelo de los pueblos andinos y protectora de tus devotos peregrinos! A tus pies acudimos con el corazón lleno de confianza filial, pidiéndote que extiendas tu manto protector sobre nuestras familias, nuestros campos y nuestra patria. Líbranos de todo mal, preserva en nuestros hogares la fe, la concordia y el pan de cada día, y condúcenos de la mano hacia tu divino Hijo Jesús. Amén.",
+      "guiaFonetica": "[O Má-dre san-tí-si-ma del Kín-che, am-pá-ro y kon-swé-lo...]",
+      "textoTraducido": "Ee Mama Mtakatifu wa El Quinche, kimbilio na faraja ya wanaohiji! Tunakuja miguuni pako kwa tumaini kuu: nyoosha vazi lako la ulinzi juu ya familia zetu, utulinde na maovu yote na utuongoze kwa Mwanao Yesu. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59557,7 +59557,7 @@
     {
       "id": "CAT_CRC_VIRGEN_ANGELES_NEGRITA",
       "numero": 2750,
-      "titulo": "Maombi kwa La Negrita (Mama yetu wa Malaika",
+      "titulo": "Sala kwa Bikira Maria Malkia wa Malaika (La Negrita, Costa Rica)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Kitengo_cha_Familia",
       "estadosEmocionales": [
@@ -59566,10 +59566,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Bikira wa Malaika, Negrita mnyenyekevu wa Carthage... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
-      "guiaFonetica": "Virgen de los Ángeles, humilde Negrita d... A-mén.",
-      "textoTraducido": "Bikira wa Malaika, Negrita mnyenyekevu wa Carthage... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Español (Tradición Costarricense)",
+      "textoOriginal": "¡Oh excelsa Reina de los Ángeles y Madre bondadosa de la Iglesia, dulce Negrita de Cartago! Tú que te manifestaste sobre la humilde piedra para estar cerca de los sencillos y desvalidos: acoge bajo tu amparo a nuestra patria, a nuestras familias y a cada uno de tus hijos. Sé luz en nuestras tinieblas, consuelo en el dolor y firmeza en la fe. Que tu manantial de gracia renueve nuestras vidas y nos alcance la bendición de Dios Padre, Hijo y Espíritu Santo. Amén.",
+      "guiaFonetica": "[O ex-sél-sa Réi-na de los Án-je-les y Má-dre bon-da-dó-sa...]",
+      "textoTraducido": "Ee Malkia mkuu wa Malaika na Mama mwenye upendo wa Kanisa! Wewe uliyejitokeza juu ya jiwe dogo ili uwe karibu na wanyonge: linda familia zetu na nchi yetu chini ya ulinzi wako. Uwe mwanga gizani, faraja katika maumivu na ngome ya imani yetu. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

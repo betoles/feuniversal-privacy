@@ -59281,7 +59281,7 @@
     {
       "id": "CAT_ESP_COVADONGA_SANTINA",
       "numero": 2738,
-      "titulo": "कोवाडोंगा की सेंटिना के लिए प्रार्थना",
+      "titulo": "कोवाडोन्गा की माता मरियम (सांतिना) से पावन प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_patria",
       "estadosEmocionales": [
@@ -59290,10 +59290,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español asturiano",
-      "textoOriginal": "कोवाडोंगा की कुँवारी, माँ और पहाड़ों की रानी... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Virgen de Covadonga, Madre y Reina de la... A-mén.",
-      "textoTraducido": "कोवाडोंगा की कुँवारी, माँ और पहाड़ों की रानी।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español (Devoción Asturiana)",
+      "textoOriginal": "Bendita sea tu pureza y eternamente lo sea, pues todo un Dios se recrea en tan graciosa belleza. A ti, celestial Princesa, Virgen Sagrada María de Covadonga, te ofrezco en este día alma, vida y corazón. Mírame con compasión, Madre de nuestras montañas y cuna de nuestra fe; no me dejes, Madre mía, ni de noche ni de día, y ampárame bajo tu manto maternal en todas las tribulaciones de la vida. Amén.",
+      "guiaFonetica": "[Ben-dí-ta sé-a tu pu-ré-za y e-tér-na-mén-te lo sé-a, pues tó-do un Diós se re-kré-a en tan gra-sió-sa be-yé-za...]",
+      "textoTraducido": "हे कोवाडोन्गा की धन्य कुंवारी मरियम! आपकी पावन पवित्रता सदा धन्य रहे। मैं आज अपना जीवन, अपनी आत्मा और अपना हृदय आपको अर्पित करता हूँ। अपनी कृपालु दृष्टि मुझ पर रखें और जीवन की हर विपत्ति में अपने ममतामयी आंचल में मुझे सुरक्षित रखें। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59304,7 +59304,7 @@
     {
       "id": "CAT_ESP_ISIDRO_LABRADOR",
       "numero": 2739,
-      "titulo": "बुआई और बारिश के लिए सैन इसिड्रो लैब्राडोर से प्रार्थना",
+      "titulo": "संत इसिडोर किसान से अच्छी फसल, कार्य में सफलता एवं वर्षा हेतु प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "cosecha_y_sustento",
       "estadosEmocionales": [
@@ -59313,10 +59313,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "दयालु संत इसिड्रो, जिन्होंने खेतों की जुताई की, जबकि स्वर्गदूत आपके काम की रक्षा कर रहे थे... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "San Isidro bondadoso, que araste los cam... A-mén.",
-      "textoTraducido": "दयालु संत इसिड्रो, जिन्होंने खेतों की जुताई की, जबकि स्वर्गदूत आपके काम की रक्षा कर रहे थे।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "Oh Dios todopoderoso, que en San Isidro Labrador nos diste un modelo admirable de humildad, trabajo honrado y oración continua: concédenos por su intercesión que las labores de nuestras manos sean bendecidas y fructíferas. Envía el rocío del cielo y la lluvia oportuna a nuestros campos, aparta la sequía, las plagas y la escasez, y otórganos el pan de cada día ganado con justicia y compartido con los más necesitados. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[O Diós to-do-po-de-ró-so, ke en San I-sí-dro La-bra-dór nos dís-te un mo-dé-lo ad-mi-rá-ble...]",
+      "textoTraducido": "हे सर्वशक्तिमान परमेश्वर, जिन्होंने संत इसिडोर में हमें विनम्रता, ईमानदारी और निरंतर प्रार्थना का सुंदर उदाहरण दिया: हमारे हाथों के परिश्रम को आशीष दें। हमारे खेतों में समय पर वर्षा भेजें, सूखे और संकट को दूर करें, और हमें प्रतिदिन का भोजन प्रदान करें। हमारे प्रभु यीशु मसीह के द्वारा। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59327,7 +59327,7 @@
     {
       "id": "CAT_ESP_SAN_JUAN_DIOS",
       "numero": 2740,
-      "titulo": "बीमारों और असहायों के लिए प्रार्थना",
+      "titulo": "रोगियों और असहायों के लिए संत जॉन ऑफ गॉड की पावन प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_hospitalaria",
       "estadosEmocionales": [
@@ -59336,10 +59336,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "ईश्वर के संत जॉन, अग्नि का हृदय और दान के हाथ... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "San Juan de Dios, corazón de fuego y man... A-mén.",
-      "textoTraducido": "ईश्वर के संत जॉन, अग्नि का हृदय और दान के हाथ।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "¡Oh glorioso San Juan de Dios, herido por el amor de Cristo y entregado por entero al alivio de los dolientes! Tú que en cada hermano enfermo viste el rostro doloroso del Redentor y jamás negaste tu auxilio al necesitado: alcánzanos de Dios la salud del cuerpo y la paz del alma. Consuela a los afligidos, sostiene a quienes sufren en soledad, bendice a los médicos y enfermeros con manos compasivas, y enciende en nuestro corazón el fuego de la verdadera caridad. Amén.",
+      "guiaFonetica": "[O glo-rió-so San Juán de Diós, e-rí-do por el a-mór de Krís-to...]",
+      "textoTraducido": "हे ईश्वर के संत जॉन, मसीह के प्रेम से प्रज्वलित और रोगियों की सेवा में समर्पित संत! हमारे लिए शारीरिक स्वास्थ्य और आत्मिक शांति की कृपा मांगें। दुखियों को सांत्वना दें, चिकित्सकों और परिचारकों को आशीर्वाद दें, और हमारे हृदयों में सच्ची दया की ज्योति जलाएं। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59350,7 +59350,7 @@
     {
       "id": "CAT_PRT_NUNO_SANTA_MARIA",
       "numero": 2741,
-      "titulo": "कॉनकॉर्डिया और ब्रावुरा के लिए साओ नूनो डी सांता मारिया की प्रार्थना",
+      "titulo": "शांति, न्याय एवं एकता हेतु संत नूनो की पावन प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "fortaleza_moral",
       "estadosEmocionales": [
@@ -59359,10 +59359,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "सेंट नूनो, सेंट कांस्टेबल, वैराग्य और प्रार्थना का उदाहरण... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और ईमानदारी में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "São Nuno, Santo Condestável, exemplo de ... A-mén.",
-      "textoTraducido": "साओ नूनो, सैंटो कोंडेस्टावेल, वैराग्य और प्रार्थना का उदाहरण।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Portugués Tradicional",
+      "textoOriginal": "Senhor Deus todo-poderoso, que concedestes a São Nuno de Santa Maria a coragem invencível nas batalhas e a mais sublime humildade na vida religiosa carmelita: ensinai-nos por seu exemplo a lutar pela justiça, a viver desapegados das vaidades do mundo e a buscar sempre a concórdia e a paz entre os povos. Por Jesus Cristo, Nosso Senhor. Amém.",
+      "guiaFonetica": "[Se-nyor Deus to-do-po-de-ró-zo, ke kon-se-dés-tes a Sãu Nú-nu...]",
+      "textoTraducido": "हे सर्वशक्तिमान ईश्वर, जिन्होंने संत नूनो को साहस और गहरी विनम्रता का वरदान दिया: हमें उनके उदाहरण पर चलकर न्याय के लिए कार्य करने और समाज में शांति व सौहार्द स्थापित करने की प्रेरणा दें। हमारे प्रभु यीशु मसीह के द्वारा। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59373,7 +59373,7 @@
     {
       "id": "CAT_FRA_VICENTE_PAUL_CARIDAD",
       "numero": 2742,
-      "titulo": "गरीबों की सेवा के लिए सेंट विंसेंट डी पॉल की प्रार्थना",
+      "titulo": "दीन-दुखियों की सेवा एवं परोपकार हेतु संत विंसेंट डी पॉल की प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_universal",
       "estadosEmocionales": [
@@ -59382,10 +59382,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés",
-      "textoOriginal": "सिग्नॉरिटी, फ़ाइट्स-मोई ले सर्विटूर डेस पॉवर्स एट डेस रिजेट्स... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Seigneur, faites-moi le serviteur des pa... A-mén.",
-      "textoTraducido": "सिग्नॉरिटी, फ़ाइट्स-मोई ले सर्विटूर डेस पॉवर्स एट डेस रिजेट्स।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Francés (Tradition Lazariste)",
+      "textoOriginal": "Seigneur Jésus, Toi qui as voulu te faire pauvre parmi les pauvres, donne-nous par l'intercession de Saint Vincent de Paul un cœur plein de compassion, d'humilité et de zèle pour servir nos frères les plus démunis. Apprends-nous à voir Ton visage dans les affligés, à partager notre pain avec générosité et à répandre autour de nous la flamme de la charité vivante. Toi qui règnes pour les siècles des siècles. Amen.",
+      "guiaFonetica": "[Se-nyœ́r Je-zǘ, Twa ki a vu-lú te fêr pó-vr par-mí le pó-vr...]",
+      "textoTraducido": "हे प्रभु यीशु, जिन्होंने हमारे लिए निर्धनों में निर्धन बनना स्वीकार किया: संत विंसेंट डी पॉल की मध्यस्थता द्वारा हमें दीन-दुखियों की सेवा के लिए दयालु और विनम्र हृदय प्रदान करें। हमें दुखियों में आपका चेहरा देखने और संसार में प्रेम की ज्योति फैलाने की कृपा दें। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59396,7 +59396,7 @@
     {
       "id": "CAT_FRA_MONTMARTRE_SACRE_COEUR",
       "numero": 2743,
-      "titulo": "के के यीशु",
+      "titulo": "यीशु के अति पावन हृदय के प्रति सतत प्रायश्चित एवं समर्पण प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "reparacion_amor",
       "estadosEmocionales": [
@@ -59405,10 +59405,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés / Latín",
-      "textoOriginal": "Cœur Sacré de Jésus, स्रोत infinie d'amour et de क्षमा... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Cœur Sacré de Jésus, source infinie d'am... A-mén.",
-      "textoTraducido": "हे सर्वशक्तिमान और करुणामय परमेश्वर, प्रभु यीशु मसीह के पावन नाम में हम आपके सम्मुख आते हैं। हमारे पापों को क्षमा करें, हमारे मनों को शांति दें और हमें अपनी पवित्र आत्मा की शक्ति से भर दें। हमारे परिवारों, कार्य और जीवन की समस्त बुराई से रक्षा करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Francés / Latín Eclesiástico",
+      "textoOriginal": "Très doux Jésus, dont l'amour infini pour les hommes n'est payé que d'ingratitude, d'oubli et de mépris: prosternés devant Votre autel, nous venons réparer par un hommage solennel les outrages dont Votre Cœur très aimant est blessé de toutes parts. Consacrez nos âmes, protégez nos familles, apportez la paix aux nations et régnez souverainement sur nos cœurs aujourd'hui et toujours. Cœur Sacré de Jésus, j'ai confiance en Vous. Amen.",
+      "guiaFonetica": "[Trê du Je-zǘ, dõ l'a-múr in-fi-ní pur lez òm n'e pe-yé ke d'in-gra-ti-tüd...]",
+      "textoTraducido": "हे अति मधुर यीशु, जिनके असीम प्रेम को संसार में अक्सर भुला दिया जाता है: आपकी पावन वेदी के सम्मुख झुककर हम आपके अति दयालु हृदय को अपना सम्पूर्ण प्रेम और समर्पण अर्पित करते हैं। हमारी आत्माओं को पवित्र करें, हमारे परिवारों की रक्षा करें और हमारे हृदयों में सदा राज्य करें। हे यीशु के पावन हृदय, मेरा आप पर भरोसा है। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59419,7 +59419,7 @@
     {
       "id": "CAT_IRL_COLUMBA_IONA_ALTUS",
       "numero": 2744,
-      "titulo": "अल्टस प्रोसेटर - सर्वोच्च निर्माता भगवान की प्रार्थना",
+      "titulo": "परमपिता सृष्टिकर्ता की स्तुति (आल्टस प्रोसाटोर - संत कोलम्बा)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "alabanza_cosmica",
       "estadosEmocionales": [
@@ -59428,10 +59428,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Irlandés / Latín",
-      "textoOriginal": "अल्टस प्रोसाटर, वेटुस्टस डिएरम एट इंजेनिटस... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Altus Prosator, Vetustus dierum et Ingen... A-mén.",
-      "textoTraducido": "अल्टस प्रोसाटर, वेटुस्टस डिएरम एट इंजेनिटस।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Latín Celto-Irlandés (Iona)",
+      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus, absque origine principio et creamine, est et erit in saecula saeculorum: cui est Unigenitus Christus et Spiritus Sanctus, coaeternus in sempiterna deitatis gloria. Te Deum laudamus, Te Dominum confitemur, Te Creatorem caeli et terrae humiliter adoramus. Amen.",
+      "guiaFonetica": "[Ál-tus Pro-sá-tor, Ve-tús-tus di-é-rum et In-jé-ni-tus...]",
+      "textoTraducido": "हे परमपिता सृष्टिकर्ता, अनादि, अनंत और सर्वोपरि परमेश्वर, जो युगानुयुग विद्यमान हैं: आपके साथ आपके इकलौते पुत्र यीशु और पवित्र आत्मा अनंत महिमा में राज्य करते हैं। हम आपकी स्तुति करते हैं और आपको स्वर्ग व पृथ्वी के सृष्टिकर्ता के रूप में नमन करते हैं। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59442,7 +59442,7 @@
     {
       "id": "CAT_IRL_KEVIN_GLENDALOUGH",
       "numero": 2745,
-      "titulo": "सेंट केविन की प्रकृति के साथ शांति और सद्भाव के लिए प्रार्थना",
+      "titulo": "सृष्टि के साथ शांति एवं सामंजस्य हेतु संत केविन की पावन प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_interior_naturaleza",
       "estadosEmocionales": [
@@ -59451,10 +59451,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Gaélico / Español",
-      "textoOriginal": "आकाश के पक्षियों के साथ एकांत और कोमलता के संत नाओम काओमहिन को... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "A Naomh Caoimhín, santo de la soledad y ... A-mén.",
-      "textoTraducido": "आकाश के पक्षियों के साथ एकांत और कोमलता के संत नाओम काओमहिन को।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Gaélico Irlandés / Español",
+      "textoOriginal": "A Naomh Caoimhín Ghleann Dá Loch, a chara Dé agus a chara an dúlra: guigh orainn. Que la paz del valle sagrado y el silencio de las montañas serenen nuestra alma. Tú que sostuviste el nido del ave en tu mano extendida con infinita paciencia: enséñanos a vivir en armonía con toda la creación de Dios, a orar sin cesar en el secreto de nuestro corazón y a encontrar en la quietud la presencia luminosa del Creador. Por Cristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[A Nív Kwi-vín Glen Dá Loj, a já-ra Dye á-gus a já-ra an dúl-ra...]",
+      "textoTraducido": "हे ग्लेन्डालो के संत केविन, ईश्वर के प्रिय मित्र और प्रकृति के संरक्षक! पवित्र घाटी की शांति हमारे मन को शांत करे। आपने जिस असीम धैर्य से अपने खुले हाथ पर पक्षी के घोंसले को संभाला: हमें ईश्वर की समस्त सृष्टि के साथ सामंजस्य में रहना और एकांत में प्रभु की उपस्थिति को खोजना सिखाएं। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59465,7 +59465,7 @@
     {
       "id": "CAT_ITA_SAN_GENNARO_NAPOLI",
       "numero": 2746,
-      "titulo": "शहर और चमत्कार की सुरक्षा के लिए संत जन्नारो से प्रार्थना",
+      "titulo": "संत जानुआरियस से नगर की रक्षा एवं चमत्कार हेतु विनम्र प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_calamidades",
       "estadosEmocionales": [
@@ -59474,10 +59474,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano napolitano",
-      "textoOriginal": "सैन गेनारो गौरवशाली, शहीद और संरक्षक नोस्त्रो अमातिसिमो... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "San Gennaro glorioso, martire e patrono ... A-mén.",
-      "textoTraducido": "गौरवशाली संत गेनारो, शहीद और हमारे अमातिसिमो के संरक्षक।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Italiano (Tradizione Napoletana)",
+      "textoOriginal": "O San Gennaro, insigne martire e nostro amatissimo patrono, che con il prodigio del tuo sangue rinnovi nei secoli la testimonianza della fede e la protezione celeste sulla tua diletta città: stendi la tua mano pietosa sopra di noi. Difendici dalle calamità, dalle malattie e da ogni insidia spirituale e materiale; ravviva nei nostri cuori la carità di Cristo e ottienici la grazia della perseveranza finale. Amen.",
+      "guiaFonetica": "[O San Jen-ná-ro, in-sí-nye már-ti-re e nós-tro a-ma-tís-si-mo pa-tró-no...]",
+      "textoTraducido": "हे प्रतापी संत जानुआरियस, प्रतिष्ठित शहीद और हमारे प्रिय संरक्षक! आप जो अपने रक्त के चमत्कार से सदियों से सजीव विश्वास और स्वर्गीय सुरक्षा की गवाही देते हैं: हम पर अपनी दयालु दृष्टि रखें। हमें विपत्तियों, रोगों और सभी बुराइयों से बचाएं, हमारे हृदयों में मसीह के प्रेम को प्रज्वलित करें और हमें अनंत मुक्ति दिलाएं। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59511,7 +59511,7 @@
     {
       "id": "CAT_MEX_NINO_PLATEROS_FRESNILLO",
       "numero": 2748,
-      "titulo": "एटोचा डे प्लेटेरोस के पवित्र बच्चे को प्रार्थना",
+      "titulo": "प्लातेरोस के पावन बाल यीशु (सांतो नीन्यो दे अतोचा) से प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "liberacion_presos_caminantes",
       "estadosEmocionales": [
@@ -59520,10 +59520,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "अटोचा के पवित्र बच्चे, खनिकों और पैदल चलने वालों के रक्षक... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Santo Niño de Atocha, protector de los m... A-mén.",
-      "textoTraducido": "अटोचा की पवित्र संतान, खनिकों और पैदल चलने वालों के रक्षक।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Mexicano Tradicional",
+      "textoOriginal": "¡Oh amabilísimo y milagroso Santo Niño de Atocha, venerado en el santuario de Plateros! Protector celestial de los caminantes, mineros, enfermos y desamparados: Tú que con tu canastita de pan y tu calabacita de agua jamás dejaste desfallecer a los cautivos y peregrinos, atiende mi humilde súplica en esta hora de aflicción. Desata mis cadenas espirituales y materiales, guía mis pasos por senderos de paz y cólmame de tu bendición soberana. Amén.",
+      "guiaFonetica": "[O a-ma-bi-lí-si-mo y mi-la-gró-so Sán-to Ní-nyo de A-tó-cha, ve-ne-rá-do en Pla-té-ros...]",
+      "textoTraducido": "हे अति कृपालु एवं चमत्कारिक बाल यीशु (सांतो नीन्यो दे अतोचा)! यात्रियों, रोगियों और बंदियों के स्वर्गीय रक्षक: संकट की इस घड़ी में मेरी विनम्र प्रार्थना सुनें। मेरी सभी बाधाओं को दूर करें और मेरे कदमों को शांति के मार्ग पर ले जाएं। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59534,7 +59534,7 @@
     {
       "id": "CAT_ECU_VIRGEN_QUINCHE",
       "numero": 2749,
-      "titulo": "हमारी लेडी ऑफ क्विन्चे से मातृ प्रार्थना",
+      "titulo": "एल क्विन्चे की माता मरियम से ममतामयी प्रार्थना (इक्वाडोर)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "consuelo_andino",
       "estadosEmocionales": [
@@ -59543,10 +59543,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español andino",
-      "textoOriginal": "क्विनचे ​​की वर्जिन, एंडियन लोगों की अच्छाई और सुरक्षा की मां... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Virgen del Quinche, Madre de bondad y am... A-mén.",
-      "textoTraducido": "क्विंच की वर्जिन, एंडियन लोगों की दयालुता और सुरक्षा की मां।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español Andino / Kichwa Devocional",
+      "textoOriginal": "¡Oh Madre santísima del Quinche, amparo y consuelo de los pueblos andinos y protectora de tus devotos peregrinos! A tus pies acudimos con el corazón lleno de confianza filial, pidiéndote que extiendas tu manto protector sobre nuestras familias, nuestros campos y nuestra patria. Líbranos de todo mal, preserva en nuestros hogares la fe, la concordia y el pan de cada día, y condúcenos de la mano hacia tu divino Hijo Jesús. Amén.",
+      "guiaFonetica": "[O Má-dre san-tí-si-ma del Kín-che, am-pá-ro y kon-swé-lo...]",
+      "textoTraducido": "हे एल क्विन्चे की अति पावन माता मरियम, दीन-दुखियों की शरण और तीर्थयात्रियों की संरक्षिका! हम आपके चरणों में विश्वास के साथ आते हैं: हमारे परिवारों और घरों पर अपना दयालु आंचल फैलाएं, हमें हर बुराई से बचाएं और अपने पुत्र यीशु के पास ले जाएं। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59557,7 +59557,7 @@
     {
       "id": "CAT_CRC_VIRGEN_ANGELES_NEGRITA",
       "numero": 2750,
-      "titulo": "ला नेग्रिटा (स्वर्गदूतों की हमारी महिला) को प्रार्थना",
+      "titulo": "स्वर्गदूतों की माता मरियम से प्रार्थना (ला नेग्रिता, कोस्टा रिका)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "unidad_familiar",
       "estadosEmocionales": [
@@ -59566,10 +59566,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "एन्जिल्स की वर्जिन, कार्थेज की विनम्र नेग्रिटा... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Virgen de los Ángeles, humilde Negrita d... A-mén.",
-      "textoTraducido": "एन्जिल्स की वर्जिन, कार्थेज की विनम्र नेग्रिटा।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Español (Tradición Costarricense)",
+      "textoOriginal": "¡Oh excelsa Reina de los Ángeles y Madre bondadosa de la Iglesia, dulce Negrita de Cartago! Tú que te manifestaste sobre la humilde piedra para estar cerca de los sencillos y desvalidos: acoge bajo tu amparo a nuestra patria, a nuestras familias y a cada uno de tus hijos. Sé luz en nuestras tinieblas, consuelo en el dolor y firmeza en la fe. Que tu manantial de gracia renueve nuestras vidas y nos alcance la bendición de Dios Padre, Hijo y Espíritu Santo. Amén.",
+      "guiaFonetica": "[O ex-sél-sa Réi-na de los Án-je-les y Má-dre bon-da-dó-sa...]",
+      "textoTraducido": "हे स्वर्गदूतों की महारानी और कलीसिया की कृपालु माता! जो साधारण और नम्र लोगों के निकट रहने के लिए पावन शिला पर प्रकट हुईं: हमारे परिवारों और हमारे देश को अपने संरक्षण में रखें। हमारे कष्टों में सांत्वना और विश्वास में दृढ़ता प्रदान करें। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

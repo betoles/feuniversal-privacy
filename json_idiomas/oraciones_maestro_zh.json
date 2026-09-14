@@ -59281,7 +59281,7 @@
     {
       "id": "CAT_ESP_COVADONGA_SANTINA",
       "numero": 2738,
-      "titulo": "向科瓦东加桑蒂娜祈求",
+      "titulo": "向科瓦东加圣母（山中圣母）恳求庇佑祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_patria",
       "estadosEmocionales": [
@@ -59290,10 +59290,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español asturiano",
-      "textoOriginal": "Virgen de Covadonga, Madre y Reina de las montañas... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen de Covadonga, Madre y Reina de la... A-mén.",
-      "textoTraducido": "科瓦东加圣母、山之母亲和女王……请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Español (Devoción Asturiana)",
+      "textoOriginal": "Bendita sea tu pureza y eternamente lo sea, pues todo un Dios se recrea en tan graciosa belleza. A ti, celestial Princesa, Virgen Sagrada María de Covadonga, te ofrezco en este día alma, vida y corazón. Mírame con compasión, Madre de nuestras montañas y cuna de nuestra fe; no me dejes, Madre mía, ni de noche ni de día, y ampárame bajo tu manto maternal en todas las tribulaciones de la vida. Amén.",
+      "guiaFonetica": "[Ben-dí-ta sé-a tu pu-ré-za y e-tér-na-mén-te lo sé-a, pues tó-do un Diós se re-kré-a en tan gra-sió-sa be-yé-za...]",
+      "textoTraducido": "赞美您至圣无玷的纯洁，万世万代受赞美！天廷之后、科瓦东加圣母玛利亚，我今天将灵魂、生命与心灵完全奉献于您。求以慈目垂顾我们，在一切磨难中将我们护佑在您慈爱的圣袍之下。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59304,7 +59304,7 @@
     {
       "id": "CAT_ESP_ISIDRO_LABRADOR",
       "numero": 2739,
-      "titulo": "向圣伊西德罗拉布拉多祈祷播种和降雨",
+      "titulo": "向农夫圣依西多禄祈求五谷丰登、辛勤劳作与及时甘霖祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "cosecha_y_sustento",
       "estadosEmocionales": [
@@ -59313,10 +59313,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Isidro bondadoso, que araste los campos mientras los ángeles custodiaban tu labor... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Isidro bondadoso, que araste los cam... A-mén.",
-      "textoTraducido": "仁慈的圣伊西德罗，当天使守护你的工作时，他耕耘着田地……请赐予我祝福，让我的家庭和工作充满健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "Oh Dios todopoderoso, que en San Isidro Labrador nos diste un modelo admirable de humildad, trabajo honrado y oración continua: concédenos por su intercesión que las labores de nuestras manos sean bendecidas y fructíferas. Envía el rocío del cielo y la lluvia oportuna a nuestros campos, aparta la sequía, las plagas y la escasez, y otórganos el pan de cada día ganado con justicia y compartido con los más necesitados. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[O Diós to-do-po-de-ró-so, ke en San I-sí-dro La-bra-dór nos dís-te un mo-dé-lo ad-mi-rá-ble...]",
+      "textoTraducido": "全能的天主，祢在农夫圣依西多禄身上赐给了我们谦逊、诚实劳作与恒心祈祷的崇高典范：因他的转祷，求祢降福我们双手的劳作。求赐甘霖润泽田畴，远离干旱与匮乏，并赏赐我们日用的食粮。因我们的主基督。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59327,7 +59327,7 @@
     {
       "id": "CAT_ESP_SAN_JUAN_DIOS",
       "numero": 2740,
-      "titulo": "为病人和无助者祈祷",
+      "titulo": "圣天主若望为病患与受困者祈祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_hospitalaria",
       "estadosEmocionales": [
@@ -59336,10 +59336,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Juan de Dios, corazón de fuego y manos de caridad... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Juan de Dios, corazón de fuego y man... A-mén.",
-      "textoTraducido": "上帝的圣约翰，火热的心和慈善之手......请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "¡Oh glorioso San Juan de Dios, herido por el amor de Cristo y entregado por entero al alivio de los dolientes! Tú que en cada hermano enfermo viste el rostro doloroso del Redentor y jamás negaste tu auxilio al necesitado: alcánzanos de Dios la salud del cuerpo y la paz del alma. Consuela a los afligidos, sostiene a quienes sufren en soledad, bendice a los médicos y enfermeros con manos compasivas, y enciende en nuestro corazón el fuego de la verdadera caridad. Amén.",
+      "guiaFonetica": "[O glo-rió-so San Juán de Diós, e-rí-do por el a-mór de Krís-to...]",
+      "textoTraducido": "光荣的圣天主若望，深受基督圣爱所化、全心奉献于安抚病患的圣人！求您为我们求得肉身的康健与心灵的平安。抚慰受苦者，降福医护人员的仁爱双手，并在我们心中点燃真挚的爱德之火。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59350,7 +59350,7 @@
     {
       "id": "CAT_PRT_NUNO_SANTA_MARIA",
       "numero": 2741,
-      "titulo": "圣努诺·德·圣玛丽亚为康科迪亚和布拉武拉祈祷",
+      "titulo": "向圣若望·努诺·阿尔瓦雷斯·佩雷拉祈求和平与正义祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "fortaleza_moral",
       "estadosEmocionales": [
@@ -59359,10 +59359,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "São Nuno, Santo Condestável, exemplo de desprendimento e oração... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "São Nuno, Santo Condestável, exemplo de ... A-mén.",
-      "textoTraducido": "圣努诺（São Nuno）、桑托·康德斯塔维尔（Santo Condestavel），超然和祈祷的榜样……请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Portugués Tradicional",
+      "textoOriginal": "Senhor Deus todo-poderoso, que concedestes a São Nuno de Santa Maria a coragem invencível nas batalhas e a mais sublime humildade na vida religiosa carmelita: ensinai-nos por seu exemplo a lutar pela justiça, a viver desapegados das vaidades do mundo e a buscar sempre a concórdia e a paz entre os povos. Por Jesus Cristo, Nosso Senhor. Amém.",
+      "guiaFonetica": "[Se-nyor Deus to-do-po-de-ró-zo, ke kon-se-dés-tes a Sãu Nú-nu...]",
+      "textoTraducido": "全能的天主，祢赐予圣若望·努诺无畏的勇气与极深的谦逊：求教导我们效法他的芳表，为正义而奋斗，并在我们的家庭与邦国之间恒常缔造和平与合一。因我们的主基督。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59373,7 +59373,7 @@
     {
       "id": "CAT_FRA_VICENTE_PAUL_CARIDAD",
       "numero": 2742,
-      "titulo": "圣文森特德保罗为穷人服务的祈祷",
+      "titulo": "向圣文生·德·保禄祈求爱德与服务贫困弱小者祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_universal",
       "estadosEmocionales": [
@@ -59382,10 +59382,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés",
-      "textoOriginal": "Seigneur, faites-moi le serviteur des pauvres et des rejetés... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Seigneur, faites-moi le serviteur des pa... A-mén.",
-      "textoTraducido": "Seigneur，faites-moi le serviteur des pauvres et des rejetés...请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Francés (Tradition Lazariste)",
+      "textoOriginal": "Seigneur Jésus, Toi qui as voulu te faire pauvre parmi les pauvres, donne-nous par l'intercession de Saint Vincent de Paul un cœur plein de compassion, d'humilité et de zèle pour servir nos frères les plus démunis. Apprends-nous à voir Ton visage dans les affligés, à partager notre pain avec générosité et à répandre autour de nous la flamme de la charité vivante. Toi qui règnes pour les siècles des siècles. Amen.",
+      "guiaFonetica": "[Se-nyœ́r Je-zǘ, Twa ki a vu-lú te fêr pó-vr par-mí le pó-vr...]",
+      "textoTraducido": "主耶稣，祢甘愿在贫民中成为贫穷的：求祢因圣文生·德·保禄的转求，赐予我们充满慈悲与谦逊的心灵，以侍奉受苦弱小的弟兄姐妹。教导我们在受苦者身上认出祢的圣容，并在普世点燃活泼的爱德圣火。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59396,7 +59396,7 @@
     {
       "id": "CAT_FRA_MONTMARTRE_SACRE_COEUR",
       "numero": 2743,
-      "titulo": "对耶稣圣心的永久修复行动",
+      "titulo": "蒙马特耶稣圣心永恒赎罪与奉献经",
       "tradicion": "catolicismo",
       "categoriaIntencion": "reparacion_amor",
       "estadosEmocionales": [
@@ -59405,10 +59405,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés / Latín",
-      "textoOriginal": "Cœur Sacré de Jésus, source infinie d'amour et de pardon... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Cœur Sacré de Jésus, source infinie d'am... A-mén.",
-      "textoTraducido": "Cœur Sacré de Jésus，source infinie d'amour et de pardon...请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Francés / Latín Eclesiástico",
+      "textoOriginal": "Très doux Jésus, dont l'amour infini pour les hommes n'est payé que d'ingratitude, d'oubli et de mépris: prosternés devant Votre autel, nous venons réparer par un hommage solennel les outrages dont Votre Cœur très aimant est blessé de toutes parts. Consacrez nos âmes, protégez nos familles, apportez la paix aux nations et régnez souverainement sur nos cœurs aujourd'hui et toujours. Cœur Sacré de Jésus, j'ai confiance en Vous. Amen.",
+      "guiaFonetica": "[Trê du Je-zǘ, dõ l'a-múr in-fi-ní pur lez òm n'e pe-yé ke d'in-gra-ti-tüd...]",
+      "textoTraducido": "至甘饴的耶稣，祢对世人的无限慈爱却常换来忘恩与冷漠：我们俯伏在祢的祭台前，愿以虔诚的敬礼补偿祢至爱圣心所受的切肤之痛。求祢圣化我们的心灵，护佑我们的家庭，并在我们心中永远执王权。耶稣圣心，我全心信赖祢！阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59419,7 +59419,7 @@
     {
       "id": "CAT_IRL_COLUMBA_IONA_ALTUS",
       "numero": 2744,
-      "titulo": "阿尔特斯·普罗萨托 - 至高造物主神的祈祷",
+      "titulo": "爱奥那圣高隆拔赞美至高造物主赞歌（崇高造物主经）",
       "tradicion": "catolicismo",
       "categoriaIntencion": "alabanza_cosmica",
       "estadosEmocionales": [
@@ -59428,10 +59428,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Irlandés / Latín",
-      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Altus Prosator, Vetustus dierum et Ingen... A-mén.",
-      "textoTraducido": "Altus Prosator、Vetustus dierum et Ingenitus...请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Latín Celto-Irlandés (Iona)",
+      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus, absque origine principio et creamine, est et erit in saecula saeculorum: cui est Unigenitus Christus et Spiritus Sanctus, coaeternus in sempiterna deitatis gloria. Te Deum laudamus, Te Dominum confitemur, Te Creatorem caeli et terrae humiliter adoramus. Amen.",
+      "guiaFonetica": "[Ál-tus Pro-sá-tor, Ve-tús-tus di-é-rum et In-jé-ni-tus...]",
+      "textoTraducido": "至高造物主、万古常在而不受造者，昔在、今在并永在直至无穷世之世：与祢同掌王权者乃独生圣子基督与圣神。天主，我们赞美祢，称谢祢为主，并谦卑朝拜祢为天地万物的化育之源。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59442,7 +59442,7 @@
     {
       "id": "CAT_IRL_KEVIN_GLENDALOUGH",
       "numero": 2745,
-      "titulo": "为圣凯文的自然和平与和谐祈祷",
+      "titulo": "格伦达洛圣凯文祈求宁静与天地和睦祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_interior_naturaleza",
       "estadosEmocionales": [
@@ -59451,10 +59451,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Gaélico / Español",
-      "textoOriginal": "A Naomh Caoimhín, santo de la soledad y la ternura con las aves del cielo... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "A Naomh Caoimhín, santo de la soledad y ... A-mén.",
-      "textoTraducido": "致 Naomh Caoimhín，与天空中的鸟儿一起孤独和温柔的圣人......请赐予我祝福，在我的家庭和工作中健康与和平。阿门。",
+      "idiomaLiturgicoOriginal": "Gaélico Irlandés / Español",
+      "textoOriginal": "A Naomh Caoimhín Ghleann Dá Loch, a chara Dé agus a chara an dúlra: guigh orainn. Que la paz del valle sagrado y el silencio de las montañas serenen nuestra alma. Tú que sostuviste el nido del ave en tu mano extendida con infinita paciencia: enséñanos a vivir en armonía con toda la creación de Dios, a orar sin cesar en el secreto de nuestro corazón y a encontrar en la quietud la presencia luminosa del Creador. Por Cristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[A Nív Kwi-vín Glen Dá Loj, a já-ra Dye á-gus a já-ra an dúl-ra...]",
+      "textoTraducido": "格伦达洛圣凯文，天主的至友与大自然的护佑者！愿幽谷的安宁与山岳的寂静抚慰我们的心灵。您曾以无限的恒忍在掌中庇护雀鸟的巢穴：求教导我们与天主所造的万物和睦共处，并在纯静的默想中体会造物主的临在。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59465,7 +59465,7 @@
     {
       "id": "CAT_ITA_SAN_GENNARO_NAPOLI",
       "numero": 2746,
-      "titulo": "向圣贾纳罗祈求保护城市和奇迹",
+      "titulo": "向那不勒斯圣雅纳略主教恳求守护城市与奇迹祈祷",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_calamidades",
       "estadosEmocionales": [
@@ -59474,10 +59474,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano napolitano",
-      "textoOriginal": "San Gennaro glorioso, martire e patrono nostro amatissimo... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Gennaro glorioso, martire e patrono ... A-mén.",
-      "textoTraducido": "光荣的圣热纳罗，烈士和我们amatissimo的赞助人......请赐予我祝福，在我的家庭和工作中保持健康与和平。阿门。",
+      "idiomaLiturgicoOriginal": "Italiano (Tradizione Napoletana)",
+      "textoOriginal": "O San Gennaro, insigne martire e nostro amatissimo patrono, che con il prodigio del tuo sangue rinnovi nei secoli la testimonianza della fede e la protezione celeste sulla tua diletta città: stendi la tua mano pietosa sopra di noi. Difendici dalle calamità, dalle malattie e da ogni insidia spirituale e materiale; ravviva nei nostri cuori la carità di Cristo e ottienici la grazia della perseveranza finale. Amen.",
+      "guiaFonetica": "[O San Jen-ná-ro, in-sí-nye már-ti-re e nós-tro a-ma-tís-si-mo pa-tró-no...]",
+      "textoTraducido": "光荣的圣雅纳略，卓越的殉道者与我们深爱的圣人！您历经世纪以圣血奇迹见证着活泼的信德与属天的庇佑：求您向我们伸出慈爱之手，护佑我们免受灾祸与疾苦，并在我们心中重燃基督的圣爱，助我们至死忠信。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59511,7 +59511,7 @@
     {
       "id": "CAT_MEX_NINO_PLATEROS_FRESNILLO",
       "numero": 2748,
-      "titulo": "向阿托查·德·普拉特罗斯的圣子祈祷",
+      "titulo": "墨西哥普拉特罗斯阿托查圣婴还愿祈祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "liberacion_presos_caminantes",
       "estadosEmocionales": [
@@ -59520,10 +59520,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Santo Niño de Atocha, protector de los mineros y caminantes... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Santo Niño de Atocha, protector de los m... A-mén.",
-      "textoTraducido": "阿托查的圣子，矿工和步行者的保护者……请赐予我家庭和工作中的祝福、健康与和平。阿门。",
+      "idiomaLiturgicoOriginal": "Español Mexicano Tradicional",
+      "textoOriginal": "¡Oh amabilísimo y milagroso Santo Niño de Atocha, venerado en el santuario de Plateros! Protector celestial de los caminantes, mineros, enfermos y desamparados: Tú que con tu canastita de pan y tu calabacita de agua jamás dejaste desfallecer a los cautivos y peregrinos, atiende mi humilde súplica en esta hora de aflicción. Desata mis cadenas espirituales y materiales, guía mis pasos por senderos de paz y cólmame de tu bendición soberana. Amén.",
+      "guiaFonetica": "[O a-ma-bi-lí-si-mo y mi-la-gró-so Sán-to Ní-nyo de A-tó-cha, ve-ne-rá-do en Pla-té-ros...]",
+      "textoTraducido": "至仁至慈、显行奇迹的阿托查圣婴！旅人、病患与受困者的天廷守护者：求在困境之中垂听我谦卑的祈祷，解开身心一切枷锁，指引我行于平安之途。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59534,7 +59534,7 @@
     {
       "id": "CAT_ECU_VIRGEN_QUINCHE",
       "numero": 2749,
-      "titulo": "向昆奇圣母的母亲恳求",
+      "titulo": "厄瓜多尔昆切圣母慈母求护祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "consuelo_andino",
       "estadosEmocionales": [
@@ -59543,10 +59543,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español andino",
-      "textoOriginal": "Virgen del Quinche, Madre de bondad y amparo de los pueblos andinos... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen del Quinche, Madre de bondad y am... A-mén.",
-      "textoTraducido": "昆什圣母，安第斯人民的仁慈和保护之母……请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Español Andino / Kichwa Devocional",
+      "textoOriginal": "¡Oh Madre santísima del Quinche, amparo y consuelo de los pueblos andinos y protectora de tus devotos peregrinos! A tus pies acudimos con el corazón lleno de confianza filial, pidiéndote que extiendas tu manto protector sobre nuestras familias, nuestros campos y nuestra patria. Líbranos de todo mal, preserva en nuestros hogares la fe, la concordia y el pan de cada día, y condúcenos de la mano hacia tu divino Hijo Jesús. Amén.",
+      "guiaFonetica": "[O Má-dre san-tí-si-ma del Kín-che, am-pá-ro y kon-swé-lo...]",
+      "textoTraducido": "至圣昆切圣母，安第斯高原人民的避难所与朝圣者的庇护者！我们怀着儿女般的信赖来到您脚前：求您在我们的家庭与家园上展开庇护圣袍，救我们脱免一切凶恶，并引领我们走向您的圣子耶稣。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59557,7 +59557,7 @@
     {
       "id": "CAT_CRC_VIRGEN_ANGELES_NEGRITA",
       "numero": 2750,
-      "titulo": "向La Negrita（天使圣母）祈祷",
+      "titulo": "哥斯达黎加天使之后圣母（黑圣母）祈祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "unidad_familiar",
       "estadosEmocionales": [
@@ -59566,10 +59566,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Virgen de los Ángeles, humilde Negrita de Cartago... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen de los Ángeles, humilde Negrita d... A-mén.",
-      "textoTraducido": "天使圣母、谦逊的迦太基尼格丽塔……请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Español (Tradición Costarricense)",
+      "textoOriginal": "¡Oh excelsa Reina de los Ángeles y Madre bondadosa de la Iglesia, dulce Negrita de Cartago! Tú que te manifestaste sobre la humilde piedra para estar cerca de los sencillos y desvalidos: acoge bajo tu amparo a nuestra patria, a nuestras familias y a cada uno de tus hijos. Sé luz en nuestras tinieblas, consuelo en el dolor y firmeza en la fe. Que tu manantial de gracia renueve nuestras vidas y nos alcance la bendición de Dios Padre, Hijo y Espíritu Santo. Amén.",
+      "guiaFonetica": "[O ex-sél-sa Réi-na de los Án-je-les y Má-dre bon-da-dó-sa...]",
+      "textoTraducido": "崇高的天使之后、教会慈母！您显现于简朴的原石之上，愿长伴谦逊与贫弱之人：求将我们的家庭与国家护佑于您的圣袍之下，做我们黑暗中的明灯、痛苦中的安慰与信仰的磐石。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

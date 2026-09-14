@@ -59281,7 +59281,7 @@
     {
       "id": "CAT_ESP_COVADONGA_SANTINA",
       "numero": 2738,
-      "titulo": "الدعاء لسانتينا كوفادونجا",
+      "titulo": "صلاة إلى عذراء كوفادونجا (سانتينا الجبال)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_patria",
       "estadosEmocionales": [
@@ -59290,10 +59290,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español asturiano",
-      "textoOriginal": "Virgen de Covadonga, Madre y Reina de las montañas... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen de Covadonga, Madre y Reina de la... A-mén.",
-      "textoTraducido": "يا عذراء كوفادونجا،  أم وملكة الجبال... إمنحيني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Español (Devoción Asturiana)",
+      "textoOriginal": "Bendita sea tu pureza y eternamente lo sea, pues todo un Dios se recrea en tan graciosa belleza. A ti, celestial Princesa, Virgen Sagrada María de Covadonga, te ofrezco en este día alma, vida y corazón. Mírame con compasión, Madre de nuestras montañas y cuna de nuestra fe; no me dejes, Madre mía, ni de noche ni de día, y ampárame bajo tu manto maternal en todas las tribulaciones de la vida. Amén.",
+      "guiaFonetica": "[Ben-dí-ta sé-a tu pu-ré-za y e-tér-na-mén-te lo sé-a, pues tó-do un Diós se re-kré-a en tan gra-sió-sa be-yé-za...]",
+      "textoTraducido": "طوبى لطهارة قلبكِ إلى الأبد، يا من سرّ بها العلي في سماء مجده! إليكِ يا أمنا مريم العذراء سيدة كوفادونجا أقدم نفسي وحياتي وقلبي. انظري إليّ برحمتكِ الوالدية، ولا تفارقيني ليلاً ولا نهاراً، واستريني تحت فيض حمايتكِ المباركة. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59304,7 +59304,7 @@
     {
       "id": "CAT_ESP_ISIDRO_LABRADOR",
       "numero": 2739,
-      "titulo": "صلاة لسان إيسيدرو لابرادور من أجل البذر والمطر",
+      "titulo": "صلاة إلى القديس إيزيدور الفلاح لبركة الزرع والعمل ونزول المطر",
       "tradicion": "catolicismo",
       "categoriaIntencion": "cosecha_y_sustento",
       "estadosEmocionales": [
@@ -59313,10 +59313,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Isidro bondadoso, que araste los campos mientras los ángeles custodiaban tu labor... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Isidro bondadoso, que araste los cam... A-mén.",
-      "textoTraducido": "القديس الطيب إيسيدرو،  الذي حرث الحقول بينما الملائكة تحرس عملك... إمنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "Oh Dios todopoderoso, que en San Isidro Labrador nos diste un modelo admirable de humildad, trabajo honrado y oración continua: concédenos por su intercesión que las labores de nuestras manos sean bendecidas y fructíferas. Envía el rocío del cielo y la lluvia oportuna a nuestros campos, aparta la sequía, las plagas y la escasez, y otórganos el pan de cada día ganado con justicia y compartido con los más necesitados. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[O Diós to-do-po-de-ró-so, ke en San I-sí-dro La-bra-dór nos dís-te un mo-dé-lo ad-mi-rá-ble...]",
+      "textoTraducido": "اللهم القادر على كل شيء، يا من أعطيتنا في القديس إيزيدور الفلاح مثالاً باهراً للتواضع والعمل الشريف والصلاة الدائمة: بارك بصلواته ثمار تعبنا، واسكب المطر النافع على حقولنا، وابعد الجفاف والقحط، وارزقنا خبزنا كفاف يومنا لنشاركه مع المحتاجين. بالمسيح ربنا. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59327,7 +59327,7 @@
     {
       "id": "CAT_ESP_SAN_JUAN_DIOS",
       "numero": 2740,
-      "titulo": "دعاء للمرضى والعاجزين",
+      "titulo": "صلاة القديس يوحنا دي ديوس للمرضى والمتروكين",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_hospitalaria",
       "estadosEmocionales": [
@@ -59336,10 +59336,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Juan de Dios, corazón de fuego y manos de caridad... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Juan de Dios, corazón de fuego y man... A-mén.",
-      "textoTraducido": "يا قديس يوحنا الله،  قلب النار وأيادي المحبة... إمنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "¡Oh glorioso San Juan de Dios, herido por el amor de Cristo y entregado por entero al alivio de los dolientes! Tú que en cada hermano enfermo viste el rostro doloroso del Redentor y jamás negaste tu auxilio al necesitado: alcánzanos de Dios la salud del cuerpo y la paz del alma. Consuela a los afligidos, sostiene a quienes sufren en soledad, bendice a los médicos y enfermeros con manos compasivas, y enciende en nuestro corazón el fuego de la verdadera caridad. Amén.",
+      "guiaFonetica": "[O glo-rió-so San Juán de Diós, e-rí-do por el a-mór de Krís-to...]",
+      "textoTraducido": "يا أيها القديس يوحنا دي ديوس المجيد، الملتهب بمحبة المسيح والمتفاني في خدمة المرضى والمعذبين! يا من رأيت في كل متألم وجه الفادي الأقدس: اشفع لنا لتنال أجسادنا الشفاء ونفوسنا الطمأنينة. عزِّ المحزونين وبارك الأطباء والممرضين وأشعل فينا روح الرحمة الصادقة. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59350,7 +59350,7 @@
     {
       "id": "CAT_PRT_NUNO_SANTA_MARIA",
       "numero": 2741,
-      "titulo": "صلاة ساو نونو دي سانتا ماريا لكونكورديا وبرافورا",
+      "titulo": "صلاة القديس نونو دي سانتا ماريا من أجل السلام والوفاق",
       "tradicion": "catolicismo",
       "categoriaIntencion": "fortaleza_moral",
       "estadosEmocionales": [
@@ -59359,10 +59359,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "São Nuno, Santo Condestável, exemplo de desprendimento e oração... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "São Nuno, Santo Condestável, exemplo de ... A-mén.",
-      "textoTraducido": "ساو نونو،  سانتو كونديستافيل،  مثال التجرد والصلاة... امنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Portugués Tradicional",
+      "textoOriginal": "Senhor Deus todo-poderoso, que concedestes a São Nuno de Santa Maria a coragem invencível nas batalhas e a mais sublime humildade na vida religiosa carmelita: ensinai-nos por seu exemplo a lutar pela justiça, a viver desapegados das vaidades do mundo e a buscar sempre a concórdia e a paz entre os povos. Por Jesus Cristo, Nosso Senhor. Amém.",
+      "guiaFonetica": "[Se-nyor Deus to-do-po-de-ró-zo, ke kon-se-dés-tes a Sãu Nú-nu...]",
+      "textoTraducido": "أيها الرب الإله القدير، يا من منحت القديس نونو شجاعة لا تقهر في الشدائد وتواضعاً عميقاً في تكريس حياته: علّمنا باقتفاء أثره أن نجاهد في سبيل الحق، ونسعى دوماً إلى إحلال السلام والوفاق في بيوتنا وأوطاننا. بالمسيح ربنا. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59373,7 +59373,7 @@
     {
       "id": "CAT_FRA_VICENTE_PAUL_CARIDAD",
       "numero": 2742,
-      "titulo": "صلاة القديس منصور دي بول لخدمة الفقراء",
+      "titulo": "صلاة القديس منصور دي بول لخدمة الفقراء والمحبة المسيحية",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_universal",
       "estadosEmocionales": [
@@ -59382,10 +59382,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés",
-      "textoOriginal": "Seigneur, faites-moi le serviteur des pauvres et des rejetés... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Seigneur, faites-moi le serviteur des pa... A-mén.",
-      "textoTraducido": "Seigneur،  faites-moi le serviteur des pauvres et des rejetés... إمنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Francés (Tradition Lazariste)",
+      "textoOriginal": "Seigneur Jésus, Toi qui as voulu te faire pauvre parmi les pauvres, donne-nous par l'intercession de Saint Vincent de Paul un cœur plein de compassion, d'humilité et de zèle pour servir nos frères les plus démunis. Apprends-nous à voir Ton visage dans les affligés, à partager notre pain avec générosité et à répandre autour de nous la flamme de la charité vivante. Toi qui règnes pour les siècles des siècles. Amen.",
+      "guiaFonetica": "[Se-nyœ́r Je-zǘ, Twa ki a vu-lú te fêr pó-vr par-mí le pó-vr...]",
+      "textoTraducido": "أيها الرب يسوع، يا من شئت أن تفتقر لأجلنا: امنحنا بشفاعة القديس منصور دي بول قلباً مفعماً بالرحمة والتواضع لخدمة إخوتنا المعوزين. علّمنا أن نرى وجهك الأقدس في المتألمين وأن نشعل في العالم شعلة المحبة الحية. أنت الحي والمالك إلى دهر الداهرين. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59396,7 +59396,7 @@
     {
       "id": "CAT_FRA_MONTMARTRE_SACRE_COEUR",
       "numero": 2743,
-      "titulo": "فعل التعويض الدائم لقلب يسوع الأقدس",
+      "titulo": "فعل التعويض الدائم لقلب يسوع الأقدس (مونمارتر)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "reparacion_amor",
       "estadosEmocionales": [
@@ -59405,10 +59405,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés / Latín",
-      "textoOriginal": "Cœur Sacré de Jésus, source infinie d'amour et de pardon... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Cœur Sacré de Jésus, source infinie d'am... A-mén.",
-      "textoTraducido": "Cœur Sacré de Jésus،  مصدر الحب والعفو اللامتناهي... امنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Francés / Latín Eclesiástico",
+      "textoOriginal": "Très doux Jésus, dont l'amour infini pour les hommes n'est payé que d'ingratitude, d'oubli et de mépris: prosternés devant Votre autel, nous venons réparer par un hommage solennel les outrages dont Votre Cœur très aimant est blessé de toutes parts. Consacrez nos âmes, protégez nos familles, apportez la paix aux nations et régnez souverainement sur nos cœurs aujourd'hui et toujours. Cœur Sacré de Jésus, j'ai confiance en Vous. Amen.",
+      "guiaFonetica": "[Trê du Je-zǘ, dõ l'a-múr in-fi-ní pur lez òm n'e pe-yé ke d'in-gra-ti-tüd...]",
+      "textoTraducido": "يا يسوع الكلي العذوبة، يا من تقابل محبتك اللامتناهية للبشر بالنسيان ونكران الجميل: ساجدين أمام مذبحك المقدس، نأتي لنقدم التعويض والإكرام لقلبك الأقدس المحب. قدس نفوسنا واحفظ عائلاتنا واملأ العالم بسلامك، واملُك في قلوبنا إلى الأبد. يا قلب يسوع الأقدس، عليك اتكالي. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59419,7 +59419,7 @@
     {
       "id": "CAT_IRL_COLUMBA_IONA_ALTUS",
       "numero": 2744,
-      "titulo": "ألتوس بروساتور - صلاة الله الخالق الأعلى",
+      "titulo": "نشيد الخالق العلي للقديس كولومبا دي إيونا (ألتوس بروساتور)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "alabanza_cosmica",
       "estadosEmocionales": [
@@ -59428,10 +59428,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Irlandés / Latín",
-      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Altus Prosator, Vetustus dierum et Ingen... A-mén.",
-      "textoTraducido": "Altus Prosator،  Vetustus dierum et Ingenitus... امنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Latín Celto-Irlandés (Iona)",
+      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus, absque origine principio et creamine, est et erit in saecula saeculorum: cui est Unigenitus Christus et Spiritus Sanctus, coaeternus in sempiterna deitatis gloria. Te Deum laudamus, Te Dominum confitemur, Te Creatorem caeli et terrae humiliter adoramus. Amen.",
+      "guiaFonetica": "[Ál-tus Pro-sá-tor, Ve-tús-tus di-é-rum et In-jé-ni-tus...]",
+      "textoTraducido": "أيها الخالق العلي، قديم الأيام وغير المخلوق، الكائن والذي سيكون إلى أبد الآبدين: يا من يملك معك ابنك الوحيد يسوع والروح القدس في مجد الألوهية الأزلي. إياك نمدح وإياك نعترف بك رباً وإياك نسجد لك كخالق السماء والأرض. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59442,7 +59442,7 @@
     {
       "id": "CAT_IRL_KEVIN_GLENDALOUGH",
       "numero": 2745,
-      "titulo": "الصلاة من أجل السلام والوئام مع طبيعة القديس كيفن",
+      "titulo": "صلاة القديس كيفن دي غليندالوخ للسلام والانسجام مع الخليقة",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_interior_naturaleza",
       "estadosEmocionales": [
@@ -59451,10 +59451,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Gaélico / Español",
-      "textoOriginal": "A Naomh Caoimhín, santo de la soledad y la ternura con las aves del cielo... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "A Naomh Caoimhín, santo de la soledad y ... A-mén.",
-      "textoTraducido": "إلى نعوم كاويمين،  قديسة الوحدة والحنان مع طيور السماء... إمنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Gaélico Irlandés / Español",
+      "textoOriginal": "A Naomh Caoimhín Ghleann Dá Loch, a chara Dé agus a chara an dúlra: guigh orainn. Que la paz del valle sagrado y el silencio de las montañas serenen nuestra alma. Tú que sostuviste el nido del ave en tu mano extendida con infinita paciencia: enséñanos a vivir en armonía con toda la creación de Dios, a orar sin cesar en el secreto de nuestro corazón y a encontrar en la quietud la presencia luminosa del Creador. Por Cristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[A Nív Kwi-vín Glen Dá Loj, a já-ra Dye á-gus a já-ra an dúl-ra...]",
+      "textoTraducido": "يا قديس كيفن دي غليندالوخ، حبيب الله وحامي الطبيعة الخلابة! فليحلّ سلام الوادي المقدس وسكون الجبال على نفوسنا. يا من بسطت يدك بصبر عجيب لتحتضن عش الطير حتى أبصر النور: علّمنا أن نحيا بانسجام مع خليقة الله وأن نجد في الهدوء حضور الخالق الحي. بالمسيح ربنا. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59465,7 +59465,7 @@
     {
       "id": "CAT_ITA_SAN_GENNARO_NAPOLI",
       "numero": 2746,
-      "titulo": "نداء إلى القديس جانارو من أجل حماية المدينة والمعجزة",
+      "titulo": "صلاة إلى القديس جانواريوس لحماية المدينة وطلب المعجزة",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_calamidades",
       "estadosEmocionales": [
@@ -59474,10 +59474,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano napolitano",
-      "textoOriginal": "San Gennaro glorioso, martire e patrono nostro amatissimo... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Gennaro glorioso, martire e patrono ... A-mén.",
-      "textoTraducido": "أيها القديس جينارو المجيد،  الشهيد وشفيع الأماتيسيمو... إمنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradizione Napoletana)",
+      "textoOriginal": "O San Gennaro, insigne martire e nostro amatissimo patrono, che con il prodigio del tuo sangue rinnovi nei secoli la testimonianza della fede e la protezione celeste sulla tua diletta città: stendi la tua mano pietosa sopra di noi. Difendici dalle calamità, dalle malattie e da ogni insidia spirituale e materiale; ravviva nei nostri cuori la carità di Cristo e ottienici la grazia della perseveranza finale. Amen.",
+      "guiaFonetica": "[O San Jen-ná-ro, in-sí-nye már-ti-re e nós-tro a-ma-tís-si-mo pa-tró-no...]",
+      "textoTraducido": "يا أيها القديس العظيم جانواريوس، الشهيد المجيد وشفيعنا المحبوب! يا من تجدد عبر الأجيال بأعجوبة دمك شهادة الإيمان الحي والحماية السماوية: ابسط يدك الكريمة علينا، واحفظنا من النكبات والأمراض وشرور النفس والجسد، وأشعل في قلوبنا محبة المسيح وامنحنا الثبات حتى النهاية. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59511,7 +59511,7 @@
     {
       "id": "CAT_MEX_NINO_PLATEROS_FRESNILLO",
       "numero": 2748,
-      "titulo": "صلاة إلى طفل أتوتشا دي بلاتروس المقدس",
+      "titulo": "صلاة إلى طفل أتوكا الأقدس في بلاتيروس (فريسنيو، المكسيك)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "liberacion_presos_caminantes",
       "estadosEmocionales": [
@@ -59520,10 +59520,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Santo Niño de Atocha, protector de los mineros y caminantes... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Santo Niño de Atocha, protector de los m... A-mén.",
-      "textoTraducido": "يا طفل أتوتشا القديس،  حامي عمال المناجم والمشاة... إمنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Español Mexicano Tradicional",
+      "textoOriginal": "¡Oh amabilísimo y milagroso Santo Niño de Atocha, venerado en el santuario de Plateros! Protector celestial de los caminantes, mineros, enfermos y desamparados: Tú que con tu canastita de pan y tu calabacita de agua jamás dejaste desfallecer a los cautivos y peregrinos, atiende mi humilde súplica en esta hora de aflicción. Desata mis cadenas espirituales y materiales, guía mis pasos por senderos de paz y cólmame de tu bendición soberana. Amén.",
+      "guiaFonetica": "[O a-ma-bi-lí-si-mo y mi-la-gró-so Sán-to Ní-nyo de A-tó-cha, ve-ne-rá-do en Pla-té-ros...]",
+      "textoTraducido": "يا طفل أتوكا الأقدس الكلي المحبة وصانع المعجزات! يا حامي المسافرين والمتألمين والأسرى: استجب لدعائي في ساعة الضيق، وفك كل القيود المادية والروحية، واهدِ خطاي في دروب السلام والبركة. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59534,7 +59534,7 @@
     {
       "id": "CAT_ECU_VIRGEN_QUINCHE",
       "numero": 2749,
-      "titulo": "نداء الأم إلى سيدة Quinche",
+      "titulo": "صلاة إلى عذراء الكينتشي الحنونة (سيدة الإكوادور)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "consuelo_andino",
       "estadosEmocionales": [
@@ -59543,10 +59543,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español andino",
-      "textoOriginal": "Virgen del Quinche, Madre de bondad y amparo de los pueblos andinos... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen del Quinche, Madre de bondad y am... A-mén.",
-      "textoTraducido": "عذراء كوينشي،  أم العطف والحماية لشعوب الأنديز... امنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Español Andino / Kichwa Devocional",
+      "textoOriginal": "¡Oh Madre santísima del Quinche, amparo y consuelo de los pueblos andinos y protectora de tus devotos peregrinos! A tus pies acudimos con el corazón lleno de confianza filial, pidiéndote que extiendas tu manto protector sobre nuestras familias, nuestros campos y nuestra patria. Líbranos de todo mal, preserva en nuestros hogares la fe, la concordia y el pan de cada día, y condúcenos de la mano hacia tu divino Hijo Jesús. Amén.",
+      "guiaFonetica": "[O Má-dre san-tí-si-ma del Kín-che, am-pá-ro y kon-swé-lo...]",
+      "textoTraducido": "يا أمنا القديسة سيدة الكينتشي، ملجأ المتألمين وحامية الزوار الأتقياء! نأتي إلى قدميك بثقة بنوية: ابسطي رداء حمايتك على عائلاتنا وديارنا، ونجنا من كل أذى، واهدينا دوماً إلى ابنك الحبيب يسوع. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59557,7 +59557,7 @@
     {
       "id": "CAT_CRC_VIRGEN_ANGELES_NEGRITA",
       "numero": 2750,
-      "titulo": "صلاة لا نيجريتا (سيدة الملائكة)",
+      "titulo": "صلاة إلى سيدة الملائكة الحبيبة (كوستاريكا)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "unidad_familiar",
       "estadosEmocionales": [
@@ -59566,10 +59566,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Virgen de los Ángeles, humilde Negrita de Cartago... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen de los Ángeles, humilde Negrita d... A-mén.",
-      "textoTraducido": "يا عذراء الملائكة،  يا نيغريتا قرطاجة المتواضعة... امنحني البركة والصحة والسلام في بيتي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Español (Tradición Costarricense)",
+      "textoOriginal": "¡Oh excelsa Reina de los Ángeles y Madre bondadosa de la Iglesia, dulce Negrita de Cartago! Tú que te manifestaste sobre la humilde piedra para estar cerca de los sencillos y desvalidos: acoge bajo tu amparo a nuestra patria, a nuestras familias y a cada uno de tus hijos. Sé luz en nuestras tinieblas, consuelo en el dolor y firmeza en la fe. Que tu manantial de gracia renueve nuestras vidas y nos alcance la bendición de Dios Padre, Hijo y Espíritu Santo. Amén.",
+      "guiaFonetica": "[O ex-sél-sa Réi-na de los Án-je-les y Má-dre bon-da-dó-sa...]",
+      "textoTraducido": "يا ملكة الملائكة السامية وأم الكنيسة الحنونة! يا من تجليتِ على الحجر البسيط لتكوني قريبة من الودعاء والمحتاجين: احفظي عائلاتنا وأوطاننا تحت ستركِ المنيع، وكوني لنا نوراً في الظلمات ورجاءً في الألم وثباتاً في الإيمان. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

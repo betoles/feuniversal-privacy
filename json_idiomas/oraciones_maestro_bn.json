@@ -59281,7 +59281,7 @@
     {
       "id": "CAT_ESP_COVADONGA_SANTINA",
       "numero": 2738,
-      "titulo": "কোভাডোঙ্গার সান্তিনার কাছে মিনতি",
+      "titulo": "কোভাডোঙ্গার মাতা মারিয়ার কাছে বিনীত প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "স্বদেশ_রক্ষা",
       "estadosEmocionales": [
@@ -59290,10 +59290,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español asturiano",
-      "textoOriginal": "কোভাডোঙ্গার কুমারী, পাহাড়ের মা এবং রানী... আমাকে আপনার ঐশ্বরিক সুরক্ষায় পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দিন। আমীন।",
-      "guiaFonetica": "Virgen de Covadonga, Madre y Reina de la... A-mén.",
-      "textoTraducido": "কোভাডোঙ্গার কুমারী, পাহাড়ের মা এবং রানী। .। আমাকে আপনার ঐশ্বরিক সুরক্ষায় পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দিন। আমীন।",
+      "idiomaLiturgicoOriginal": "Español (Devoción Asturiana)",
+      "textoOriginal": "Bendita sea tu pureza y eternamente lo sea, pues todo un Dios se recrea en tan graciosa belleza. A ti, celestial Princesa, Virgen Sagrada María de Covadonga, te ofrezco en este día alma, vida y corazón. Mírame con compasión, Madre de nuestras montañas y cuna de nuestra fe; no me dejes, Madre mía, ni de noche ni de día, y ampárame bajo tu manto maternal en todas las tribulaciones de la vida. Amén.",
+      "guiaFonetica": "[Ben-dí-ta sé-a tu pu-ré-za y e-tér-na-mén-te lo sé-a, pues tó-do un Diós se re-kré-a en tan gra-sió-sa be-yé-za...]",
+      "textoTraducido": "ধন্য আপনার পবিত্রতা, হে কোভাডোঙ্গার পবিত্র কুমারী মারিয়া! আমি আজ আমার হৃদয়, প্রাণ ও জীবন আপনার চরণে সমর্পণ করছি। আপনার করুণাময় দৃষ্টি আমাদের উপর রাখুন এবং জীবনের সকল ঝড়ে আপনার মাতৃসুলভ স্নেহে আমাদের রক্ষা করুন। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59304,7 +59304,7 @@
     {
       "id": "CAT_ESP_ISIDRO_LABRADOR",
       "numero": 2739,
-      "titulo": "বপন এবং বৃষ্টির জন্য সান ইসিড্রো ল্যাব্রাডরের কাছে প্রার্থনা",
+      "titulo": "ফসল, পরিশ্রম ও বৃষ্টির জন্য সেন্ট ইসিডোর কৃষকের কাছে প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "ফসল_এন্ড_টেকসইes",
       "estadosEmocionales": [
@@ -59313,10 +59313,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "দয়ালু সেন্ট ইসিড্রো, যিনি ক্ষেত চাষ করেছিলেন যখন ফেরেশতারা আপনার কাজকে রক্ষা করেছিলেন... আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দিন। আমীন।",
-      "guiaFonetica": "San Isidro bondadoso, que araste los cam... A-mén.",
-      "textoTraducido": "দয়ালু সেন্ট ইসিড্রো, যিনি ক্ষেত চাষ করেছিলেন যখন ফেরেশতারা আপনার কাজকে রক্ষা করেছিলেন। .। আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দিন। আমীন।",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "Oh Dios todopoderoso, que en San Isidro Labrador nos diste un modelo admirable de humildad, trabajo honrado y oración continua: concédenos por su intercesión que las labores de nuestras manos sean bendecidas y fructíferas. Envía el rocío del cielo y la lluvia oportuna a nuestros campos, aparta la sequía, las plagas y la escasez, y otórganos el pan de cada día ganado con justicia y compartido con los más necesitados. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[O Diós to-do-po-de-ró-so, ke en San I-sí-dro La-bra-dór nos dís-te un mo-dé-lo ad-mi-rá-ble...]",
+      "textoTraducido": "সর্বশক্তিমান ঈশ্বর, যিনি সেন্ট ইসিডোর কৃষকের মাধ্যমে আমাদের নম্রতা, সৎ পরিশ্রম ও অবিরাম প্রার্থনার শিক্ষা দিয়েছেন: আমাদের হাতের কাজকে ফলপ্রসূ করুন। আমাদের ভূমিতে উপযুক্ত বৃষ্টি বর্ষণ করুন এবং আমাদের সকল অভাব দূর করে দৈনিক অন্ন দান করুন। আমাদের প্রভু যীশু খ্রীষ্টের মাধ্যমে। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59327,7 +59327,7 @@
     {
       "id": "CAT_ESP_SAN_JUAN_DIOS",
       "numero": 2740,
-      "titulo": "অসুস্থ এবং অসহায়দের জন্য প্রার্থনা",
+      "titulo": "অসুস্থ ও নিঃস্বদের জন্য সেন্ট জন অব গডের প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "দাতব্য_হাসপাতালes",
       "estadosEmocionales": [
@@ -59336,10 +59336,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "ঈশ্বরের সেন্ট জন, আগুনের হৃদয় এবং দাতব্য হাত... আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দান করুন। আমীন।",
-      "guiaFonetica": "San Juan de Dios, corazón de fuego y man... A-mén.",
-      "textoTraducido": "ঈশ্বরের সেন্ট জন, আগুনের হৃদয় এবং দাতব্য হাত। .। আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দান করুন। আমীন।",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "¡Oh glorioso San Juan de Dios, herido por el amor de Cristo y entregado por entero al alivio de los dolientes! Tú que en cada hermano enfermo viste el rostro doloroso del Redentor y jamás negaste tu auxilio al necesitado: alcánzanos de Dios la salud del cuerpo y la paz del alma. Consuela a los afligidos, sostiene a quienes sufren en soledad, bendice a los médicos y enfermeros con manos compasivas, y enciende en nuestro corazón el fuego de la verdadera caridad. Amén.",
+      "guiaFonetica": "[O glo-rió-so San Juán de Diós, e-rí-do por el a-mór de Krís-to...]",
+      "textoTraducido": "হে মহিমান্বিত সেন্ট জন অব গড, খ্রীষ্টের প্রেমে উদ্দীপ্ত ও অসুস্থদের সেবায় নিবেদিত সাধক! আমাদের জন্য শারীরিক সুস্থতা ও মানসিক শান্তি যাচ্ঞা করুন। পীড়িতদের সান্ত্বনা দিন, চিকিৎসক ও সেবকদের আশীর্বাদ করুন এবং আমাদের অন্তরে নিঃস্বার্থ ভালোবাসার আলো জ্বালিয়ে দিন। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59350,7 +59350,7 @@
     {
       "id": "CAT_PRT_NUNO_SANTA_MARIA",
       "numero": 2741,
-      "titulo": "কনকর্ড এবং সাহসিকতার জন্য সেন্ট নুনো ডি সান্তা মারিয়ার প্রার্থনা",
+      "titulo": "শান্তি ও ন্যায়ের জন্য সেন্ট নুনো অব সেন্ট মেরির প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "ফোর্তালেজা_মোরালpt",
       "estadosEmocionales": [
@@ -59359,10 +59359,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "সেন্ট নুনো, সেন্ট কনস্টেবল, বিচ্ছিন্নতা এবং প্রার্থনার উদাহরণ... আমাকে আপনার ঐশ্বরিক সুরক্ষায় পবিত্রতা, বিশ্বাস এবং শুদ্ধতায় চলার অনুগ্রহ দিন। আমীন।pt-PT",
-      "guiaFonetica": "São Nuno, Santo Condestável, exemplo de ... A-mén.",
-      "textoTraducido": "সেন্ট নুনো, সেন্ট কনস্টেবল, বিচ্ছিন্নতা এবং প্রার্থনার উদাহরণ। .। আমাকে আপনার ঐশ্বরিক সুরক্ষায় পবিত্রতা, বিশ্বাস এবং শুদ্ধতায় চলার অনুগ্রহ দিন। আমীন।",
+      "idiomaLiturgicoOriginal": "Portugués Tradicional",
+      "textoOriginal": "Senhor Deus todo-poderoso, que concedestes a São Nuno de Santa Maria a coragem invencível nas batalhas e a mais sublime humildade na vida religiosa carmelita: ensinai-nos por seu exemplo a lutar pela justiça, a viver desapegados das vaidades do mundo e a buscar sempre a concórdia e a paz entre os povos. Por Jesus Cristo, Nosso Senhor. Amém.",
+      "guiaFonetica": "[Se-nyor Deus to-do-po-de-ró-zo, ke kon-se-dés-tes a Sãu Nú-nu...]",
+      "textoTraducido": "সর্বশক্তিমান ঈশ্বর, যিনি সেন্ট নুনোকে অটল সাহস ও গভীর নম্রতা দান করেছিলেন: তাঁর দৃষ্টান্ত অনুসরণ করে আমাদের ন্যায়বিচার ও শান্তির পথে চলার শক্তি দিন। আমাদের প্রভু যীশু খ্রীষ্টের মাধ্যমে। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59373,7 +59373,7 @@
     {
       "id": "CAT_FRA_VICENTE_PAUL_CARIDAD",
       "numero": 2742,
-      "titulo": "প্রার্থনা এর সাধু এর",
+      "titulo": "দরিদ্রদের সেবা ও মানবপ্রেমের জন্য সেন্ট ভিনসেন্ট ডি পলের প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "সর্বজনীন_চ্যারিটি",
       "estadosEmocionales": [
@@ -59382,10 +59382,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés",
-      "textoOriginal": "Seigneur, faites-moi le serviteur des pauvres et des rejetés... আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দান করুন। আমীন।",
-      "guiaFonetica": "Seigneur, faites-moi le serviteur des pa... A-mén.",
-      "textoTraducido": "হে সর্বশক্তিমান ও দয়াময় ঈশ্বর, প্রভু যীশু খ্রীষ্টের পবিত্র নামে আমরা আপনার চরণে আসি। আমাদের পাপ ক্ষমা করুন, আত্মায় শান্তি দিন এবং আপনার পবিত্র আত্মায় আমাদের পরিচালিত করুন। আমেন।",
+      "idiomaLiturgicoOriginal": "Francés (Tradition Lazariste)",
+      "textoOriginal": "Seigneur Jésus, Toi qui as voulu te faire pauvre parmi les pauvres, donne-nous par l'intercession de Saint Vincent de Paul un cœur plein de compassion, d'humilité et de zèle pour servir nos frères les plus démunis. Apprends-nous à voir Ton visage dans les affligés, à partager notre pain avec générosité et à répandre autour de nous la flamme de la charité vivante. Toi qui règnes pour les siècles des siècles. Amen.",
+      "guiaFonetica": "[Se-nyœ́r Je-zǘ, Twa ki a vu-lú te fêr pó-vr par-mí le pó-vr...]",
+      "textoTraducido": "প্রভু যীশু, যিনি আমাদের জন্য দরিদ্রদের মাঝে দরিদ্র হয়েছিলেন: সেন্ট ভিনসেন্ট ডি পলের প্রার্থনায় আমাদের অন্তরকে নিঃস্বার্থ সেবায় নিবেদিত করুন। পীড়িতদের মাঝে আপনার মুখচ্ছবি দেখতে এবং জগতে প্রেমের আলো ছড়াতে আমাদের সাহায্য করুন। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59396,7 +59396,7 @@
     {
       "id": "CAT_FRA_MONTMARTRE_SACRE_COEUR",
       "numero": 2743,
-      "titulo": "এর এর যীশু",
+      "titulo": "যীশুর পবিত্র অন্তরের প্রতি অবিরাম সমর্পণ ও প্রায়শ্চিত্তের প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "মেরামত_প্রেমes",
       "estadosEmocionales": [
@@ -59405,10 +59405,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés / Latín",
-      "textoOriginal": "Cœur Sacré de Jésus, source infinie d'amour et de pardon... আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দান করুন। আমীন।",
-      "guiaFonetica": "Cœur Sacré de Jésus, source infinie d'am... A-mén.",
-      "textoTraducido": "হে সর্বশক্তিমান ও দয়াময় ঈশ্বর, প্রভু যীশু খ্রীষ্টের পবিত্র নামে আমরা আপনার চরণে আসি। আমাদের পাপ ক্ষমা করুন, আত্মায় শান্তি দিন এবং আপনার পবিত্র আত্মায় আমাদের পরিচালিত করুন। আমেন।",
+      "idiomaLiturgicoOriginal": "Francés / Latín Eclesiástico",
+      "textoOriginal": "Très doux Jésus, dont l'amour infini pour les hommes n'est payé que d'ingratitude, d'oubli et de mépris: prosternés devant Votre autel, nous venons réparer par un hommage solennel les outrages dont Votre Cœur très aimant est blessé de toutes parts. Consacrez nos âmes, protégez nos familles, apportez la paix aux nations et régnez souverainement sur nos cœurs aujourd'hui et toujours. Cœur Sacré de Jésus, j'ai confiance en Vous. Amen.",
+      "guiaFonetica": "[Trê du Je-zǘ, dõ l'a-múr in-fi-ní pur lez òm n'e pe-yé ke d'in-gra-ti-tüd...]",
+      "textoTraducido": "পরম দয়ালু যীশু, যাঁর অসীম ভালোবাসাকে মানুষ ভুলে যায়: আপনার বেদীর সম্মুখে অবনত হয়ে আমরা আপনার পবিত্র অন্তরের প্রতি আন্তরিক সমর্পণ ও ভালোবাসা নিবেদন করছি। আমাদের আত্মাকে পবিত্র করুন, আমাদের পরিবারকে রক্ষা করুন এবং চিরকাল আমাদের হৃদয়ে রাজত্ব করুন। হে যীশুর পবিত্র অন্তর, আপনার উপর আমার বিশ্বাস। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59419,7 +59419,7 @@
     {
       "id": "CAT_IRL_COLUMBA_IONA_ALTUS",
       "numero": 2744,
-      "titulo": "প্রার্থনা এর ঈশ্বর",
+      "titulo": "পরম পিতা সৃষ্টিকর্তার স্তোত্র (অল্টাস প্রোসেটর - সেন্ট কলম্বা অব আইওনা)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "মহাজাগতিক_প্রশংসা",
       "estadosEmocionales": [
@@ -59428,10 +59428,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Irlandés / Latín",
-      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus... আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দান করুন। আমীন।",
-      "guiaFonetica": "Altus Prosator, Vetustus dierum et Ingen... A-mén.",
-      "textoTraducido": "হে সর্বশক্তিমান ও দয়াময় ঈশ্বর, প্রভু যীশু খ্রীষ্টের পবিত্র নামে আমরা আপনার চরণে আসি। আমাদের পাপ ক্ষমা করুন, আত্মায় শান্তি দিন এবং আপনার পবিত্র আত্মায় আমাদের পরিচালিত করুন। আমেন।",
+      "idiomaLiturgicoOriginal": "Latín Celto-Irlandés (Iona)",
+      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus, absque origine principio et creamine, est et erit in saecula saeculorum: cui est Unigenitus Christus et Spiritus Sanctus, coaeternus in sempiterna deitatis gloria. Te Deum laudamus, Te Dominum confitemur, Te Creatorem caeli et terrae humiliter adoramus. Amen.",
+      "guiaFonetica": "[Ál-tus Pro-sá-tor, Ve-tús-tus di-é-rum et In-jé-ni-tus...]",
+      "textoTraducido": "হে পরম স্রষ্টা, আদি অন্তহীন ঈশ্বর, যিনি চিরকাল বিরাজমান: আপনার সাথে আপনার একমাত্র পুত্র যীশু খ্রীষ্ট এবং পবিত্র আত্মা মহিমায় রাজত্ব করেন। আমরা আপনার মহিমা কীর্তন করি এবং স্বর্গ ও মর্ত্যের সৃষ্টিকর্তা হিসেবে আপনাকে প্রণাম জানাই। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59442,7 +59442,7 @@
     {
       "id": "CAT_IRL_KEVIN_GLENDALOUGH",
       "numero": 2745,
-      "titulo": "সেন্ট কেভিনের প্রকৃতির সাথে শান্তি ও সম্প্রীতির জন্য প্রার্থনা",
+      "titulo": "সৃষ্টির সাথে শান্তি ও ঐক্যের জন্য সেন্ট কেভিনের প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "শান্তি_অভ্যন্তরীণ_প্রকৃতি",
       "estadosEmocionales": [
@@ -59451,10 +59451,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Gaélico / Español",
-      "textoOriginal": "নাওম কাওইহিনের কাছে, আকাশের পাখিদের সাথে একাকীত্ব এবং কোমলতার সাধু... আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দিন। আমীন।",
-      "guiaFonetica": "A Naomh Caoimhín, santo de la soledad y ... A-mén.",
-      "textoTraducido": "নাওম কাওইহিনের কাছে, আকাশের পাখিদের সাথে একাকীত্ব এবং কোমলতার সাধু। .। আমাকে আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ দিন। আমীন।",
+      "idiomaLiturgicoOriginal": "Gaélico Irlandés / Español",
+      "textoOriginal": "A Naomh Caoimhín Ghleann Dá Loch, a chara Dé agus a chara an dúlra: guigh orainn. Que la paz del valle sagrado y el silencio de las montañas serenen nuestra alma. Tú que sostuviste el nido del ave en tu mano extendida con infinita paciencia: enséñanos a vivir en armonía con toda la creación de Dios, a orar sin cesar en el secreto de nuestro corazón y a encontrar en la quietud la presencia luminosa del Creador. Por Cristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[A Nív Kwi-vín Glen Dá Loj, a já-ra Dye á-gus a já-ra an dúl-ra...]",
+      "textoTraducido": "হে সেন্ট কেভিন, ঈশ্বরের প্রিয় ভক্ত ও প্রকৃতির অভিভাবক! পবিত্র উপত্যকার শান্তি আমাদের হৃদয়কে শান্ত করুক। আপনি যিনি অপার ধৈর্যে আপনার উন্মুক্ত হাতে পাখির বাসা ধারণ করেছিলেন: ঈশ্বরের সমস্ত সৃষ্টির সাথে ঐক্যে বাঁচতে এবং নীরবতার মাঝে প্রভুর সান্নিধ্য উপলব্ধি করতে আমাদের শেখান। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59465,7 +59465,7 @@
     {
       "id": "CAT_ITA_SAN_GENNARO_NAPOLI",
       "numero": 2746,
-      "titulo": "বিনম্র প্রার্থনা সাধু এর জন্য সুরক্ষা এর ও",
+      "titulo": "নগরীর সুরক্ষা ও অলৌকিক কৃপার জন্য সেন্ট জানুয়ারিয়াসের কাছে প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "সুরক্ষা_বিপদes",
       "estadosEmocionales": [
@@ -59474,10 +59474,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano napolitano",
-      "textoOriginal": "San Gennaro মহিমান্বিত, martire e patron nostro amatissimo... আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ আমাকে দিন। আমীন।",
-      "guiaFonetica": "San Gennaro glorioso, martire e patrono ... A-mén.",
-      "textoTraducido": "হে সর্বশক্তিমান ও দয়াময় ঈশ্বর, প্রভু যীশু খ্রীষ্টের পবিত্র নামে আমরা আপনার চরণে আসি। আমাদের পাপ ক্ষমা করুন, আত্মায় শান্তি দিন এবং আপনার পবিত্র আত্মায় আমাদের পরিচালিত করুন। আমেন।",
+      "idiomaLiturgicoOriginal": "Italiano (Tradizione Napoletana)",
+      "textoOriginal": "O San Gennaro, insigne martire e nostro amatissimo patrono, che con il prodigio del tuo sangue rinnovi nei secoli la testimonianza della fede e la protezione celeste sulla tua diletta città: stendi la tua mano pietosa sopra di noi. Difendici dalle calamità, dalle malattie e da ogni insidia spirituale e materiale; ravviva nei nostri cuori la carità di Cristo e ottienici la grazia della perseveranza finale. Amen.",
+      "guiaFonetica": "[O San Jen-ná-ro, in-sí-nye már-ti-re e nós-tro a-ma-tís-si-mo pa-tró-no...]",
+      "textoTraducido": "হে মহিমান্বিত সেন্ট জানুয়ারিয়াস, বিখ্যাত শহীদ ও আমাদের প্রিয় অভিভাবক! আপনি যিনি আপনার রক্তের অলৌকিক ঘটনার মাধ্যমে যুগ যুগ ধরে জীবন্ত বিশ্বাস ও স্বর্গীয় সুরক্ষার সাক্ষ্য বহন করছেন: আমাদের উপর আপনার কৃপাদৃষ্টি রাখুন। আমাদের সমস্ত বিপর্যয়, রোগব্যাধি ও সংকট থেকে রক্ষা করুন এবং অন্তরে খ্রীষ্টের প্রেম জাগ্রত রাখুন। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59511,7 +59511,7 @@
     {
       "id": "CAT_MEX_NINO_PLATEROS_FRESNILLO",
       "numero": 2748,
-      "titulo": "এর পবিত্র সন্তানের কাছে প্রার্থনা",
+      "titulo": "প্লাতেরোসের পবিত্র শিশু যীশুর প্রতি ভক্তিপূর্ণ প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "মুক্তির_বন্দিদের_হাজারes",
       "estadosEmocionales": [
@@ -59520,10 +59520,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "আটোচা পবিত্র শিশু, খনি শ্রমিক এবং হাঁটারদের রক্ষাকারী... আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ আমাকে দিন। আমীন।",
-      "guiaFonetica": "Santo Niño de Atocha, protector de los m... A-mén.",
-      "textoTraducido": "আটোচা পবিত্র শিশু, খনি শ্রমিক এবং হাঁটারদের রক্ষাকারী। .। আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ আমাকে দিন। আমীন।",
+      "idiomaLiturgicoOriginal": "Español Mexicano Tradicional",
+      "textoOriginal": "¡Oh amabilísimo y milagroso Santo Niño de Atocha, venerado en el santuario de Plateros! Protector celestial de los caminantes, mineros, enfermos y desamparados: Tú que con tu canastita de pan y tu calabacita de agua jamás dejaste desfallecer a los cautivos y peregrinos, atiende mi humilde súplica en esta hora de aflicción. Desata mis cadenas espirituales y materiales, guía mis pasos por senderos de paz y cólmame de tu bendición soberana. Amén.",
+      "guiaFonetica": "[O a-ma-bi-lí-si-mo y mi-la-gró-so Sán-to Ní-nyo de A-tó-cha, ve-ne-rá-do en Pla-té-ros...]",
+      "textoTraducido": "হে পরম করুণাময় ও অলৌকিক শিশু যীশু! পথিক, অসুস্থ ও বন্দীদের স্বর্গীয় অভিভাবক: এই সংকটের মুহূর্তে আমার প্রার্থনা শুনুন। আমার সমস্ত বাঁধন দূর করুন এবং শান্তির পথে পরিচালিত করুন। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59534,7 +59534,7 @@
     {
       "id": "CAT_ECU_VIRGEN_QUINCHE",
       "numero": 2749,
-      "titulo": "আওয়ার লেডি অফ কুইঞ্চের কাছে মাতৃত্বের আবেদন",
+      "titulo": "এল কুইনচের মাতা মারিয়ার কাছে মাতৃসুলভ প্রার্থনা (ইকুয়েডর)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "কনসুয়েলো_অ্যান্ডিনো",
       "estadosEmocionales": [
@@ -59543,10 +59543,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español andino",
-      "textoOriginal": "কুইঞ্চের কুমারী, আন্দিয়ান জনগণের মঙ্গল ও সুরক্ষার মা... আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ আমাকে দিন। আমীন।",
-      "guiaFonetica": "Virgen del Quinche, Madre de bondad y am... A-mén.",
-      "textoTraducido": "কুইঞ্চের কুমারী, আন্দিয়ান জনগণের মঙ্গল ও সুরক্ষার মা। .। আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ আমাকে দিন। আমীন।",
+      "idiomaLiturgicoOriginal": "Español Andino / Kichwa Devocional",
+      "textoOriginal": "¡Oh Madre santísima del Quinche, amparo y consuelo de los pueblos andinos y protectora de tus devotos peregrinos! A tus pies acudimos con el corazón lleno de confianza filial, pidiéndote que extiendas tu manto protector sobre nuestras familias, nuestros campos y nuestra patria. Líbranos de todo mal, preserva en nuestros hogares la fe, la concordia y el pan de cada día, y condúcenos de la mano hacia tu divino Hijo Jesús. Amén.",
+      "guiaFonetica": "[O Má-dre san-tí-si-ma del Kín-che, am-pá-ro y kon-swé-lo...]",
+      "textoTraducido": "হে এল কুইনচের পবিত্র মাতা মারিয়া, তীর্থযাত্রীদের আশ্রয় ও সহায়িকা! আমরা আপনার চরণে গভীর বিশ্বাসে এসেছি: আমাদের পরিবার ও সমাজের উপর আপনার স্নেহের আঁচল বিস্তার করুন, আমাদের সকল বিপদ থেকে রক্ষা করুন এবং যীশুর কাছে পরিচালিত করুন। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59557,7 +59557,7 @@
     {
       "id": "CAT_CRC_VIRGEN_ANGELES_NEGRITA",
       "numero": 2750,
-      "titulo": "লা নেগ্রিটার কাছে প্রার্থনা (আওয়ার লেডি অফ দ্য অ্যাঞ্জেলস",
+      "titulo": "আকাশের দূতদের রানি মাতা মারিয়ার প্রতি প্রার্থনা (কোস্টারিকা)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "পরিবার_ইউনিটes",
       "estadosEmocionales": [
@@ -59566,10 +59566,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "দেবদূতের ভার্জিন, কার্থেজের নম্র নেগ্রিটা... আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ আমাকে দিন। আমীন।",
-      "guiaFonetica": "Virgen de los Ángeles, humilde Negrita d... A-mén.",
-      "textoTraducido": "দেবদূতের ভার্জিন, কার্থেজের নম্র নেগ্রিটা। .। আপনার ঐশ্বরিক সুরক্ষার অধীনে পবিত্রতা, বিশ্বাস এবং ধার্মিকতায় চলার অনুগ্রহ আমাকে দিন। আমীন।",
+      "idiomaLiturgicoOriginal": "Español (Tradición Costarricense)",
+      "textoOriginal": "¡Oh excelsa Reina de los Ángeles y Madre bondadosa de la Iglesia, dulce Negrita de Cartago! Tú que te manifestaste sobre la humilde piedra para estar cerca de los sencillos y desvalidos: acoge bajo tu amparo a nuestra patria, a nuestras familias y a cada uno de tus hijos. Sé luz en nuestras tinieblas, consuelo en el dolor y firmeza en la fe. Que tu manantial de gracia renueve nuestras vidas y nos alcance la bendición de Dios Padre, Hijo y Espíritu Santo. Amén.",
+      "guiaFonetica": "[O ex-sél-sa Réi-na de los Án-je-les y Má-dre bon-da-dó-sa...]",
+      "textoTraducido": "হে স্বর্গদূতদের রানি ও মণ্ডলীর স্নেহময়ী মাতা! যিনি দীন-দরিদ্রদের কাছে থাকার জন্য সাধারণ শিলার উপর আবির্ভূত হয়েছিলেন: আমাদের পরিবার ও সমাজকে আপনার স্নেহে রক্ষা করুন। অন্ধকারের মাঝে আমাদের আলো এবং ব্যথায় সান্ত্বনা দান করুন। আমেন!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

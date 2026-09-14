@@ -59281,7 +59281,7 @@
     {
       "id": "CAT_ESP_COVADONGA_SANTINA",
       "numero": 2738,
-      "titulo": "Supplica alla Santina di Covadonga",
+      "titulo": "Supplica alla Santina di Nostra Signora di Covadonga",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_patria",
       "estadosEmocionales": [
@@ -59290,10 +59290,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español asturiano",
-      "textoOriginal": "Virgen de Covadonga, Madre y Reina de las montañas... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen de Covadonga, Madre y Reina de la... A-mén.",
-      "textoTraducido": "Vergine di Covadonga, Madre e Regina della montagna... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Español (Devoción Asturiana)",
+      "textoOriginal": "Bendita sea tu pureza y eternamente lo sea, pues todo un Dios se recrea en tan graciosa belleza. A ti, celestial Princesa, Virgen Sagrada María de Covadonga, te ofrezco en este día alma, vida y corazón. Mírame con compasión, Madre de nuestras montañas y cuna de nuestra fe; no me dejes, Madre mía, ni de noche ni de día, y ampárame bajo tu manto maternal en todas las tribulaciones de la vida. Amén.",
+      "guiaFonetica": "[Ben-dí-ta sé-a tu pu-ré-za y e-tér-na-mén-te lo sé-a, pues tó-do un Diós se re-kré-a en tan gra-sió-sa be-yé-za...]",
+      "textoTraducido": "Benedetta sia la tua purezza ed eternamente lo sia, poiché Dio stesso si compiace in così amabile bellezza. A Te, celeste Principessa, Vergine Maria di Covadonga, offro oggi l'anima, la vita e il cuore. Volgi a me il tuo sguardo materno, proteggimi giorno e notte, e custodiscimi sotto il tuo manto in ogni prova della vita. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59304,7 +59304,7 @@
     {
       "id": "CAT_ESP_ISIDRO_LABRADOR",
       "numero": 2739,
-      "titulo": "Preghiera a San Isidro Labrador per la semina ed la pioggia",
+      "titulo": "Preghiera a Sant'Isidoro l'Agricoltore per i Raccolti, il Lavoro e la Pioggia",
       "tradicion": "catolicismo",
       "categoriaIntencion": "cosecha_y_sustento",
       "estadosEmocionales": [
@@ -59313,10 +59313,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Isidro bondadoso, que araste los campos mientras los ángeles custodiaban tu labor... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Isidro bondadoso, que araste los cam... A-mén.",
-      "textoTraducido": "Gentile sant'Isidro, che aravi i campi mentre gli angeli custodivano il tuo lavoro... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "Oh Dios todopoderoso, que en San Isidro Labrador nos diste un modelo admirable de humildad, trabajo honrado y oración continua: concédenos por su intercesión que las labores de nuestras manos sean bendecidas y fructíferas. Envía el rocío del cielo y la lluvia oportuna a nuestros campos, aparta la sequía, las plagas y la escasez, y otórganos el pan de cada día ganado con justicia y compartido con los más necesitados. Por Jesucristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[O Diós to-do-po-de-ró-so, ke en San I-sí-dro La-bra-dór nos dís-te un mo-dé-lo ad-mi-rá-ble...]",
+      "textoTraducido": "O Dio onnipotente, che in Sant'Isidoro l'Agricoltore ci hai donato un modello insigne di umiltà, lavoro onesto e preghiera assidua: fa' che le nostre fatiche siano benedette e feconde. Manda la pioggia propizia sui nostri campi, allontana la siccità e la carestia, e donaci il pane quotidiano da condividere con i fratelli. Per Cristo nostro Signore. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59327,7 +59327,7 @@
     {
       "id": "CAT_ESP_SAN_JUAN_DIOS",
       "numero": 2740,
-      "titulo": "Preghiera per i malati ed gli indifesi",
+      "titulo": "Preghiera di San Giovanni di Dio per i Malati e i Bisognosi",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_hospitalaria",
       "estadosEmocionales": [
@@ -59336,10 +59336,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "San Juan de Dios, corazón de fuego y manos de caridad... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Juan de Dios, corazón de fuego y man... A-mén.",
-      "textoTraducido": "San Giovanni di Dio, cuore di fuoco e mani di carità... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Español Tradicional",
+      "textoOriginal": "¡Oh glorioso San Juan de Dios, herido por el amor de Cristo y entregado por entero al alivio de los dolientes! Tú que en cada hermano enfermo viste el rostro doloroso del Redentor y jamás negaste tu auxilio al necesitado: alcánzanos de Dios la salud del cuerpo y la paz del alma. Consuela a los afligidos, sostiene a quienes sufren en soledad, bendice a los médicos y enfermeros con manos compasivas, y enciende en nuestro corazón el fuego de la verdadera caridad. Amén.",
+      "guiaFonetica": "[O glo-rió-so San Juán de Diós, e-rí-do por el a-mór de Krís-to...]",
+      "textoTraducido": "O glorioso San Giovanni di Dio, acceso dall'amore di Cristo e dedito al sollievo dei malati! Tu che in ogni sofferente hai visto il volto del Redentore: ottienici la salute del corpo e la pace dell'anima. Conforta gli afflitti, benedici i medici e gli infermieri, e accendi nei nostri cuori la vera carità. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59350,7 +59350,7 @@
     {
       "id": "CAT_PRT_NUNO_SANTA_MARIA",
       "numero": 2741,
-      "titulo": "Preghiera di São Nuno de Santa Maria per Concordia ed Bravura",
+      "titulo": "Preghiera di San Nuno di Santa Maria per la Pace e la Giustizia",
       "tradicion": "catolicismo",
       "categoriaIntencion": "fortaleza_moral",
       "estadosEmocionales": [
@@ -59359,10 +59359,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "São Nuno, Santo Condestável, exemplo de desprendimento e oração... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "São Nuno, Santo Condestável, exemplo de ... A-mén.",
-      "textoTraducido": "São Nuno, Santo Condestavel, esempio di distacco e di preghiera... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Portugués Tradicional",
+      "textoOriginal": "Senhor Deus todo-poderoso, que concedestes a São Nuno de Santa Maria a coragem invencível nas batalhas e a mais sublime humildade na vida religiosa carmelita: ensinai-nos por seu exemplo a lutar pela justiça, a viver desapegados das vaidades do mundo e a buscar sempre a concórdia e a paz entre os povos. Por Jesus Cristo, Nosso Senhor. Amém.",
+      "guiaFonetica": "[Se-nyor Deus to-do-po-de-ró-zo, ke kon-se-dés-tes a Sãu Nú-nu...]",
+      "textoTraducido": "Signore Dio onnipotente, che hai concesso a San Nuno di Santa Maria un coraggio invitto e una profonda umiltà: insegnaci a lottare per la giustizia, a distaccarci dalle vanità del mondo e a promuovere sempre la pace e la concordia tra gli uomini. Per Cristo nostro Signore. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59373,7 +59373,7 @@
     {
       "id": "CAT_FRA_VICENTE_PAUL_CARIDAD",
       "numero": 2742,
-      "titulo": "Preghiera di San Vincenzo de Paoli per il servizio ai poveri",
+      "titulo": "Preghiera di San Vincenzo de' Paoli per la Carità e il Servizio ai Poveri",
       "tradicion": "catolicismo",
       "categoriaIntencion": "caridad_universal",
       "estadosEmocionales": [
@@ -59382,10 +59382,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés",
-      "textoOriginal": "Seigneur, faites-moi le serviteur des pauvres et des rejetés... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Seigneur, faites-moi le serviteur des pa... A-mén.",
-      "textoTraducido": "Seigneur, faites-moi le serviteur des pauvres et des rejetés... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Francés (Tradition Lazariste)",
+      "textoOriginal": "Seigneur Jésus, Toi qui as voulu te faire pauvre parmi les pauvres, donne-nous par l'intercession de Saint Vincent de Paul un cœur plein de compassion, d'humilité et de zèle pour servir nos frères les plus démunis. Apprends-nous à voir Ton visage dans les affligés, à partager notre pain avec générosité et à répandre autour de nous la flamme de la charité vivante. Toi qui règnes pour les siècles des siècles. Amen.",
+      "guiaFonetica": "[Se-nyœ́r Je-zǘ, Twa ki a vu-lú te fêr pó-vr par-mí le pó-vr...]",
+      "textoTraducido": "Signore Gesù, che hai voluto farti povero tra i poveri: donaci, per intercessione di San Vincenzo de' Paoli, un cuore pieno di compassione e umiltà per servire i nostri fratelli più bisognosi. Insegnaci a vedere il tuo volto in chi soffre e a diffondere nel mondo la fiamma della carità viva. Tu che vivi e regni nei secoli dei secoli. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59396,7 +59396,7 @@
     {
       "id": "CAT_FRA_MONTMARTRE_SACRE_COEUR",
       "numero": 2743,
-      "titulo": "Atto di riparazione perpetua al Sacro Cuore di Gesù",
+      "titulo": "Atto di Riparazione Perpetua al Sacro Cuore di Gesù (Montmartre)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "reparacion_amor",
       "estadosEmocionales": [
@@ -59405,10 +59405,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Francés / Latín",
-      "textoOriginal": "Cœur Sacré de Jésus, source infinie d'amour et de pardon... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Cœur Sacré de Jésus, source infinie d'am... A-mén.",
-      "textoTraducido": "Cœur Sacré de Jésus, fonte infinie d'amour et de pardon... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Francés / Latín Eclesiástico",
+      "textoOriginal": "Très doux Jésus, dont l'amour infini pour les hommes n'est payé que d'ingratitude, d'oubli et de mépris: prosternés devant Votre autel, nous venons réparer par un hommage solennel les outrages dont Votre Cœur très aimant est blessé de toutes parts. Consacrez nos âmes, protégez nos familles, apportez la paix aux nations et régnez souverainement sur nos cœurs aujourd'hui et toujours. Cœur Sacré de Jésus, j'ai confiance en Vous. Amen.",
+      "guiaFonetica": "[Trê du Je-zǘ, dõ l'a-múr in-fi-ní pur lez òm n'e pe-yé ke d'in-gra-ti-tüd...]",
+      "textoTraducido": "Dolcissimo Gesù, il cui amore infinito per gli uomini è ripagato con ingratitudine e indifferenza: prostrati davanti al tuo altare, veniamo a riparare le offese recate al tuo amantissimo Cuore. Consacra le nostre anime, proteggi le nostre famiglie e regna nei nostri cuori per sempre. Sacro Cuore di Gesù, confido in Te. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59419,7 +59419,7 @@
     {
       "id": "CAT_IRL_COLUMBA_IONA_ALTUS",
       "numero": 2744,
-      "titulo": "Altus Prosator - Preghiera dell'Altissimo Dio Creatore",
+      "titulo": "Altus Prosator · Inno a Dio Altissimo Creatore di San Columba di Iona",
       "tradicion": "catolicismo",
       "categoriaIntencion": "alabanza_cosmica",
       "estadosEmocionales": [
@@ -59428,10 +59428,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Irlandés / Latín",
-      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Altus Prosator, Vetustus dierum et Ingen... A-mén.",
-      "textoTraducido": "Altus Prosator, Vetustus dierum et Ingenitus... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Latín Celto-Irlandés (Iona)",
+      "textoOriginal": "Altus Prosator, Vetustus dierum et Ingenitus, absque origine principio et creamine, est et erit in saecula saeculorum: cui est Unigenitus Christus et Spiritus Sanctus, coaeternus in sempiterna deitatis gloria. Te Deum laudamus, Te Dominum confitemur, Te Creatorem caeli et terrae humiliter adoramus. Amen.",
+      "guiaFonetica": "[Ál-tus Pro-sá-tor, Ve-tús-tus di-é-rum et In-jé-ni-tus...]",
+      "textoTraducido": "Altissimo Creatore, Antico dei Giorni e non generato, che sei e sarai nei secoli dei secoli: con cui regna il tuo Unigenito Cristo e lo Spirito Santo. Ti lodiamo, Ti confessiamo e Ti adoriamo umilmente come Creatore del cielo e della terra. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59442,7 +59442,7 @@
     {
       "id": "CAT_IRL_KEVIN_GLENDALOUGH",
       "numero": 2745,
-      "titulo": "Preghiera per la pace ed l'armonia con la natura di San Kevin",
+      "titulo": "Preghiera di Pace e Armonia col Creato di San Kevin di Glendalough",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_interior_naturaleza",
       "estadosEmocionales": [
@@ -59451,10 +59451,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Gaélico / Español",
-      "textoOriginal": "A Naomh Caoimhín, santo de la soledad y la ternura con las aves del cielo... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "A Naomh Caoimhín, santo de la soledad y ... A-mén.",
-      "textoTraducido": "A Naomh Caoimhín, santa della solitudine e della tenerezza con gli uccelli del cielo... Concedimi benedizione, salute e pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Gaélico Irlandés / Español",
+      "textoOriginal": "A Naomh Caoimhín Ghleann Dá Loch, a chara Dé agus a chara an dúlra: guigh orainn. Que la paz del valle sagrado y el silencio de las montañas serenen nuestra alma. Tú que sostuviste el nido del ave en tu mano extendida con infinita paciencia: enséñanos a vivir en armonía con toda la creación de Dios, a orar sin cesar en el secreto de nuestro corazón y a encontrar en la quietud la presencia luminosa del Creador. Por Cristo Nuestro Señor. Amén.",
+      "guiaFonetica": "[A Nív Kwi-vín Glen Dá Loj, a já-ra Dye á-gus a já-ra an dúl-ra...]",
+      "textoTraducido": "O San Kevin di Glendalough, amico di Dio e custode del creato! Possa la pace della valle santa e la quiete dei monti donare serenità alla nostra anima. Tu che con infinita pazienza hai custodito il nido sul palmo della mano: insegnaci a vivere in armonia con la natura e a pregare nel silenzio del cuore. Per Cristo nostro Signore. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59465,7 +59465,7 @@
     {
       "id": "CAT_ITA_SAN_GENNARO_NAPOLI",
       "numero": 2746,
-      "titulo": "Supplica a San Jannaro per la protezione della Città ed il Miracolo",
+      "titulo": "Supplica a San Gennaro per la Protezione della Città e il Miracolo",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_calamidades",
       "estadosEmocionales": [
@@ -59474,10 +59474,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano napolitano",
-      "textoOriginal": "San Gennaro glorioso, martire e patrono nostro amatissimo... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "San Gennaro glorioso, martire e patrono ... A-mén.",
-      "textoTraducido": "Glorioso San Gennaro, martire e patrono del nostro amatissimo... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradizione Napoletana)",
+      "textoOriginal": "O San Gennaro, insigne martire e nostro amatissimo patrono, che con il prodigio del tuo sangue rinnovi nei secoli la testimonianza della fede e la protezione celeste sulla tua diletta città: stendi la tua mano pietosa sopra di noi. Difendici dalle calamità, dalle malattie e da ogni insidia spirituale e materiale; ravviva nei nostri cuori la carità di Cristo e ottienici la grazia della perseveranza finale. Amen.",
+      "guiaFonetica": "[O San Jen-ná-ro, in-sí-nye már-ti-re e nós-tro a-ma-tís-si-mo pa-tró-no...]",
+      "textoTraducido": "O glorioso San Gennaro, insigne martire e nostro amatissimo patrono! Tu che con il prodigio del tuo sangue rinnovi nei secoli la testimonianza della fede viva e la protezione celeste: stendi la tua mano pietosa sopra di noi. Difendici dalle calamità, dalle malattie e da ogni insidia spirituale e materiale; ravviva nei nostri cuori la carità di Cristo e ottienici la grazia della perseveranza finale. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59511,7 +59511,7 @@
     {
       "id": "CAT_MEX_NINO_PLATEROS_FRESNILLO",
       "numero": 2748,
-      "titulo": "Preghiera al Santo Bambino di Atocha de Plateros",
+      "titulo": "Preghiera al Santo Bambino di Atocha di Plateros (Fresnillo, Zacatecas)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "liberacion_presos_caminantes",
       "estadosEmocionales": [
@@ -59520,10 +59520,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Santo Niño de Atocha, protector de los mineros y caminantes... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Santo Niño de Atocha, protector de los m... A-mén.",
-      "textoTraducido": "Santo Bambino di Atocha, protettore dei minatori e dei camminatori... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Español Mexicano Tradicional",
+      "textoOriginal": "¡Oh amabilísimo y milagroso Santo Niño de Atocha, venerado en el santuario de Plateros! Protector celestial de los caminantes, mineros, enfermos y desamparados: Tú que con tu canastita de pan y tu calabacita de agua jamás dejaste desfallecer a los cautivos y peregrinos, atiende mi humilde súplica en esta hora de aflicción. Desata mis cadenas espirituales y materiales, guía mis pasos por senderos de paz y cólmame de tu bendición soberana. Amén.",
+      "guiaFonetica": "[O a-ma-bi-lí-si-mo y mi-la-gró-so Sán-to Ní-nyo de A-tó-cha, ve-ne-rá-do en Pla-té-ros...]",
+      "textoTraducido": "O amabilissimo e miracoloso Santo Bambino di Atocha, venerato nel santuario di Plateros! Protettore dei viandanti, dei malati e dei prigionieri: Tu che con il tuo cestino di pane e la fiaschetta d'acqua hai sostentato i pellegrini, ascolta la mia preghiera. Sciogli ogni catena materiale e spirituale e guida i miei passi nella pace. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59534,7 +59534,7 @@
     {
       "id": "CAT_ECU_VIRGEN_QUINCHE",
       "numero": 2749,
-      "titulo": "Supplica materna alla Madonna delle Quinche",
+      "titulo": "Supplica Materna a Nostra Signora del Quinche (Ecuador)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "consuelo_andino",
       "estadosEmocionales": [
@@ -59543,10 +59543,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español andino",
-      "textoOriginal": "Virgen del Quinche, Madre de bondad y amparo de los pueblos andinos... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen del Quinche, Madre de bondad y am... A-mén.",
-      "textoTraducido": "Vergine di Quinche, Madre di bontà e protezione dei popoli andini... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Español Andino / Kichwa Devocional",
+      "textoOriginal": "¡Oh Madre santísima del Quinche, amparo y consuelo de los pueblos andinos y protectora de tus devotos peregrinos! A tus pies acudimos con el corazón lleno de confianza filial, pidiéndote que extiendas tu manto protector sobre nuestras familias, nuestros campos y nuestra patria. Líbranos de todo mal, preserva en nuestros hogares la fe, la concordia y el pan de cada día, y condúcenos de la mano hacia tu divino Hijo Jesús. Amén.",
+      "guiaFonetica": "[O Má-dre san-tí-si-ma del Kín-che, am-pá-ro y kon-swé-lo...]",
+      "textoTraducido": "O Madre santissima del Quinche, rifugio dei popoli andini e custode dei pellegrini! Ai tuoi piedi ricorriamo con fiducia filiale: stendi il tuo manto protettore sulle nostre famiglie e sulla nostra terra. Liberaci da ogni male e guidaci sempre a Gesù. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59557,7 +59557,7 @@
     {
       "id": "CAT_CRC_VIRGEN_ANGELES_NEGRITA",
       "numero": 2750,
-      "titulo": "Preghiera a La Negrita (Nostra Signora degli Angeli)",
+      "titulo": "Preghiera a Nostra Signora degli Angeli (La Negrita della Costa Rica)",
       "tradicion": "catolicismo",
       "categoriaIntencion": "unidad_familiar",
       "estadosEmocionales": [
@@ -59566,10 +59566,10 @@
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Virgen de los Ángeles, humilde Negrita de Cartago... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Virgen de los Ángeles, humilde Negrita d... A-mén.",
-      "textoTraducido": "Vergine degli Angeli, umile Negrita di Cartagine... Concedimi la benedizione, la salute e la pace nella mia casa e nel mio lavoro. Amen.",
+      "idiomaLiturgicoOriginal": "Español (Tradición Costarricense)",
+      "textoOriginal": "¡Oh excelsa Reina de los Ángeles y Madre bondadosa de la Iglesia, dulce Negrita de Cartago! Tú que te manifestaste sobre la humilde piedra para estar cerca de los sencillos y desvalidos: acoge bajo tu amparo a nuestra patria, a nuestras familias y a cada uno de tus hijos. Sé luz en nuestras tinieblas, consuelo en el dolor y firmeza en la fe. Que tu manantial de gracia renueve nuestras vidas y nos alcance la bendición de Dios Padre, Hijo y Espíritu Santo. Amén.",
+      "guiaFonetica": "[O ex-sél-sa Réi-na de los Án-je-les y Má-dre bon-da-dó-sa...]",
+      "textoTraducido": "O eccelsa Regina degli Angeli e Madre amabile, dolce Negrita di Cartago! Tu che ti sei rivelata sull'umile pietra per stare accanto ai semplici: accogli sotto la tua protezione le nostre famiglie e i nostri cari. Sii luce nelle nostre tenebre e fortezza nella fede. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
