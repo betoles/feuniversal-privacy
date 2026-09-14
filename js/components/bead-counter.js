@@ -5,6 +5,8 @@
 
 import { soundManager } from '../services/sound-service.js';
 import { StorageService } from '../services/storage-service.js';
+import { PrayerCorpusService } from '../services/prayer-corpus-service.js';
+import { getTradition } from '../data/traditions.js';
 import { renderIcon } from './icons.js';
 import { SacredDialog } from './sacred-dialog.js';
 import { t } from '../data/i18n.js';
@@ -18,10 +20,23 @@ export class BeadCounterComponent {
     this.lapsCompleted = 0;
   }
 
-  render() {
+  async render() {
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
-    const activePrayer = window.activePrayerSession;
+    let activePrayer = window.activePrayerSession;
+
+    // Sincronización asíncrona garantizada con el idioma activo
+    if (activePrayer && activePrayer.id) {
+      try {
+        const fresh = await PrayerCorpusService.getPrayerById(activePrayer.id, lang);
+        if (fresh) {
+          activePrayer = fresh;
+          window.activePrayerSession = fresh;
+        }
+      } catch (e) {
+        console.warn('[BeadCounter] Error cargando plegaria activa en idioma:', lang, e);
+      }
+    }
 
     // Auto-ajuste de modo de conteo según la tradición de la oración activa
     if (activePrayer) {
@@ -38,9 +53,11 @@ export class BeadCounterComponent {
     }
 
     const tradIconKey = activePrayer ? (`trad_${activePrayer.tradicion}`) : 'nav_beads';
+    const tradObj = activePrayer ? getTradition(activePrayer.tradicion) : null;
+    const tradLabel = tradObj && tradObj.nombre ? (tradObj.nombre[lang] || tradObj.nombre.es || tradObj.nombre.en || activePrayer.tradicion).toUpperCase() : ((activePrayer?.tradicion || '').toUpperCase().replace(/_/g, ' '));
 
-    const prayerTitle = activePrayer ? (typeof activePrayer.titulo === 'string' ? activePrayer.titulo : ((activePrayer.titulo && (activePrayer.titulo[lang] || activePrayer.titulo.es)) || 'Oración')) : '';
-    const prayerTradText = activePrayer ? (activePrayer.textoTraducido || (activePrayer.traducciones && (activePrayer.traducciones[lang] || activePrayer.traducciones.es)) || activePrayer.textoEspanol || activePrayer.textoOriginal || '') : '';
+    const prayerTitle = activePrayer ? (typeof activePrayer.titulo === 'string' ? activePrayer.titulo : ((activePrayer.titulo && (activePrayer.titulo[lang] || activePrayer.titulo.es || activePrayer.titulo.en)) || 'Oración')) : '';
+    const prayerTradText = activePrayer ? (activePrayer.textoTraducido || (activePrayer.traducciones && (activePrayer.traducciones[lang] || activePrayer.traducciones.es || activePrayer.traducciones.en)) || activePrayer.textoEspanol || activePrayer.textoOriginal || '') : '';
 
     const sessionBarHTML = activePrayer ? `
       <div class="active-prayer-session-bar" style="margin-bottom: 14px;">
@@ -50,7 +67,7 @@ export class BeadCounterComponent {
             <div style="font-size: 0.68rem; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 2px;">${t('active_prayers_compendium', lang)}:</div>
             <div class="session-title">${prayerTitle}</div>
           </div>
-          <span class="session-trad">${(activePrayer.tradicion || '').toUpperCase().replace('_', ' ')}</span>
+          <span class="session-trad">${tradLabel}</span>
         </div>
         <button id="btn-bead-return-prayer" class="btn-return-reader" title="${t('return_to_reader_tooltip', lang) || 'Regresar al Lector de Oración'}" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;">
           <span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); flex-shrink: 0;">${renderIcon('nav_scriptures')}</span>

@@ -490,6 +490,18 @@ export class FeUniversalApp {
       }
     }
 
+    // 0. Sincronización reactiva de la sesión de oración activa en el nuevo idioma
+    if (window.activePrayerSession && window.activePrayerSession.id) {
+      try {
+        const reloadedSessionPrayer = await PrayerCorpusService.getPrayerById(window.activePrayerSession.id, safeLang);
+        if (reloadedSessionPrayer) {
+          window.activePrayerSession = reloadedSessionPrayer;
+        }
+      } catch (e) {
+        console.warn('[App] Error sincronizando activePrayerSession en idioma:', safeLang, e);
+      }
+    }
+
     // 1. Textos globales y etiquetas DOM
     this.updateAllUITexts(safeLang);
 
@@ -508,7 +520,7 @@ export class FeUniversalApp {
 
     // 6. Sincronizar todos los componentes y vistas secundarias
     if (this.altar && typeof this.altar.render === 'function') this.altar.render();
-    if (this.beadCounter && typeof this.beadCounter.render === 'function') this.beadCounter.render();
+    if (this.beadCounter && typeof this.beadCounter.render === 'function') await this.beadCounter.render();
     if (this.scripturesView && typeof this.scripturesView.render === 'function') this.scripturesView.render();
     if (this.vault && typeof this.vault.render === 'function') this.vault.render();
     if (this.novenasModal && typeof this.novenasModal.render === 'function') this.novenasModal.render();
@@ -534,6 +546,13 @@ export class FeUniversalApp {
   }
 
   async handleLanguageChanged(newLang) {
+    if (typeof window !== 'undefined' && window.history && window.history.replaceState) {
+      try {
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', newLang);
+        window.history.replaceState({}, '', url.toString());
+      } catch (e) {}
+    }
     await this.applyLanguage(newLang, true);
     SacredDialog.toast(`✨ ${newLang.toUpperCase()}`);
   }
