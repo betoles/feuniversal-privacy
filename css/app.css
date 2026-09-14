@@ -2088,3 +2088,40 @@ button {
     max-width: 720px;
   }
 }
+
+/* ==========================================================================
+   CORRECCIÓN GLOBAL DE ANCHO PARA EL BOTÓN DE AJUSTES EN LA CINTA
+   ========================================================================== */
+#btn-ribbon-add,
+.tradition-chip.tradition-chip-add {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  width: auto !important;
+  min-width: max-content !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+  border-style: dashed !important;
+  padding: 6px 14px !important;
+  flex-shrink: 0 !important;
+}
+
+#btn-ribbon-add span,
+.tradition-chip.tradition-chip-add span {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+}
+
+#btn-ribbon-add .tradition-chip-icon,
+.tradition-chip.tradition-chip-add .tradition-chip-icon {
+  width: 14px !important;
+  height: 14px !important;
+  min-width: 14px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}

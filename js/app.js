@@ -488,14 +488,14 @@ export class FeUniversalApp {
         </div>
       `;
     }).join('') + `
-      <div class="tradition-chip tradition-chip-add" id="btn-ribbon-add" title="${t('ribbon_adjust', lang) || 'Ajustar'}" style="border-style: dashed; color: var(--text-muted); cursor: pointer;">
-        <span class="tradition-chip-icon" style="display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; min-width: 14px;">
-          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;">
+      <div class="tradition-chip tradition-chip-add" id="btn-ribbon-add" title="${t('ribbon_adjust', lang) || 'Ajustar'}" style="border-style: dashed !important; color: var(--text-muted) !important; cursor: pointer !important; display: inline-flex !important; align-items: center !important; gap: 6px !important; width: auto !important; min-width: max-content !important; max-width: none !important; white-space: nowrap !important; padding: 6px 14px !important; flex-shrink: 0 !important;">
+        <span class="tradition-chip-icon" style="display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 14px !important; height: 14px !important; min-width: 14px !important; max-width: 14px !important; flex-shrink: 0 !important;">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="width: 13px !important; height: 13px !important; min-width: 13px !important;">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
           </svg>
         </span>
-        <span class="tradition-chip-label">${(t('ribbon_adjust', lang) || 'Ajustar').replace(/^\+\s*/, '')}</span>
+        <span class="tradition-chip-label" style="display: inline-block !important; width: auto !important; max-width: none !important; min-width: 0 !important; overflow: visible !important; white-space: nowrap !important; font-size: 0.8rem !important; font-weight: 700 !important; line-height: 1 !important;">${(t('ribbon_adjust', lang) || 'Ajustar').replace(/^\+\s*/, '')}</span>
       </div>
     `;
 
