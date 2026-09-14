@@ -82266,7 +82266,7 @@
     {
       "id": "CAT_MEX_CRISTO_VENENO_CATEDRAL",
       "numero": 3760,
-      "titulo": "Supplica al Cristo del Veleno contro il tradimento ed l'odio",
+      "titulo": "Santo Cristo del Veneno (Catedral Metropolitana) · Defensa contra Traición, Envidia y Males Ocultos",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_traicion",
       "estadosEmocionales": [
@@ -82276,9 +82276,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Cristo del Veneno, que absorbiste la ponzoña para salvar a tu devoto: líbrame de la maldad oculta... Amén.",
-      "guiaFonetica": "[Cristo del Veneno, que absorbiste la ponzoña]",
-      "textoTraducido": "Attraverso l'intercessione della Supplica al Cristo del Veleno contro il Tradimento e l'Odio, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "¡Oh Señor del Veneno, Cristo de la Catedral de México que absorbiste la ponzoña para salvar a tu devoto! Líbrame de toda traición y maldad oculta. Amén.",
+      "guiaFonetica": "[O mi-la-gró-so Se-ñór del Ve-né-no, Krís-to ve-ne-rá-do en la Ka-te-drál Me-tro-po-li-tá-na de Mé-xi-ko... A-mén.]",
+      "textoTraducido": "O miraculous Lord of the Poison, revered Christ of the Metropolitan Cathedral of Mexico! You who in infinite love absorbed into Your holy body the deadly venom of the traitor's candle to save the life of Your faithful servant: extend over me Your divine protection. Absorb and dispel all poison of slander, envy, betrayal, and hidden harm directed against my life, my family, or my livelihood. Cover me with the holy power of Your Cross and grant me peace and divine justice. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82289,7 +82289,7 @@
     {
       "id": "CAT_MEX_NINO_ATOCHA_PLATEROS",
       "numero": 3761,
-      "titulo": "Supplica al Santo Bambino di Atocha per i minatori ed gli escursionisti",
+      "titulo": "Santo Niño de Atocha de Plateros · Protector de Mineros, Caminantes y Cautivos",
       "tradicion": "catolicismo",
       "categoriaIntencion": "auxilio_caminantes",
       "estadosEmocionales": [
@@ -82299,9 +82299,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Santo Niño de Atocha de Plateros: desata a los presos inocentes, guía a los caminantes y cuida a los mineros... Amén.",
-      "guiaFonetica": "[Santo Niño de Atocha de Plateros: desata a lo]",
-      "textoTraducido": "Attraverso l'intercessione della Supplica al Santo Bambino di Atocha per i minatori e gli escursionisti, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "Santo Niño de Atocha de Plateros: con tu canasta de pan y tu calabacita de agua, desata las cadenas de los afligidos y bendice nuestro camino. Amén.",
+      "guiaFonetica": "[O a-ma-bi-lí-si-mo y mi-la-gró-so Sán-to Ní-nyo de A-tó-cha de Pla-té-ros... A-mén.]",
+      "textoTraducido": "O most loving and miraculous Holy Child of Atocha, beloved Infant of Plateros! You who with Your basket of blessed bread, Your pilgrim's staff, and Your never-failing gourd of water sustained the miners in the depths of the earth and the travelers on lonely roads: look with mercy upon my need. Unbind all chains of affliction, guide my steps, and bless my home. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82312,7 +82312,7 @@
     {
       "id": "CAT_BRA_PADRE_CICERO_JUAZEIRO",
       "numero": 3762,
-      "titulo": "Lodate Padre Cícero con Sertão ed Romeiros",
+      "titulo": "Prece a Padre Cícero do Juazeiro · Amparo dos Romeiros e Fé do Sertão",
       "tradicion": "catolicismo",
       "categoriaIntencion": "amparo_sertao",
       "estadosEmocionales": [
@@ -82322,9 +82322,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "Meu Padim Ciço, protetor dos aflitos do sertão: trazei chuva aos campos, fartura e paz aos romeiros... Amén.",
-      "guiaFonetica": "[Meu Padim Ciço, protetor dos aflitos do sertã]",
-      "textoTraducido": "Attraverso l'intercessione di Prece a Padre Cícero pelo Sertão e Romeiros, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "Meu Padrinho Padre Cícero Romão Batista, consolador dos aflitos e guia dos romeiros no Juazeiro do Norte: rogai por nós a Jesus e a Maria Santíssima. Amém.",
+      "guiaFonetica": "[Meu Pa-drí-nyo Pá-dre Sí-se-ro Ro-mão Ba-tís-ta, kon-so-la-dór dos a-flí-tos... A-mém.]",
+      "textoTraducido": "My beloved Godfather Father Cícero, patriarch of the Sertão and comforter of pilgrims! You who taught the people to pray, work with dignity, and trust in the protection of the Mother of God: hear my prayer in this hour of need. Intercede before the Lord to grant us health, honest labor, and abundant peace. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82335,7 +82335,7 @@
     {
       "id": "CAT_BRA_NOSSA_SENHORA_DESATADORA",
       "numero": 3763,
-      "titulo": "Consacrazione brasiliana a Desatadora dos Nós",
+      "titulo": "Nossa Senhora Desatadora dos Nós · Consagração e Libertação de Aflições",
       "tradicion": "catolicismo",
       "categoriaIntencion": "desatar_nos_impossiveis",
       "estadosEmocionales": [
@@ -82345,9 +82345,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Portugués",
-      "textoOriginal": "Maria Desatadora dos Nós, desatai os nós do desemprego, da discórdia e da doença em minha família... Amén.",
-      "guiaFonetica": "[Maria Desatadora dos Nós, desatai os nós do d]",
-      "textoTraducido": "Attraverso l’intercessione della Consagração Brasileira à Desatadora dos Nós possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "Santa Maria, cheia da presença de Deus, durante a vossa vida aceitastes a vontade do Pai: desatai os nós da nossa vida e rogai por nós. Amém.",
+      "guiaFonetica": "[Sán-ta Ma-rí-a, shé-ya da pre-zén-sa de De-us... de-za-tái os nós da nós-sa ví-da. A-mém.]",
+      "textoTraducido": "Virgin Mary, Mother of Beautiful Love and Undoer of Knots! I place into Your maternal hands all the knots and tangles of my life: discord, financial distress, sickness, and lack of peace. Untie every knot of affliction and lead me in freedom to Jesus. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82358,7 +82358,7 @@
     {
       "id": "CAT_COL_VIRGEN_LAS_LAJAS",
       "numero": 3764,
-      "titulo": "Supplica davanti all'Abisso nella Madonna di Las Lajas",
+      "titulo": "Nuestra Señora de las Lajas (Ipiales) · Plegaria ante el Prodigio del Abismo",
       "tradicion": "catolicismo",
       "categoriaIntencion": "milagro_en_el_abismo",
       "estadosEmocionales": [
@@ -82368,9 +82368,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Virgen de las Lajas, milagro pintado en la roca viva sobre el abismo: ilumina mis noches y sálvame... Amén.",
-      "guiaFonetica": "[Virgen de las Lajas, milagro pintado en la ro]",
-      "textoTraducido": "Attraverso l'intercessione della Supplica davanti all'Abisso nella Madonna di Las Lajas, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "¡Oh Virgen de las Lajas, milagro de amor sobre el abismo del río Guáitara! Escucha el clamor de tus peregrinos y alcánzanos la gracia de Dios. Amén.",
+      "guiaFonetica": "[O Vír-jen Pu-rí-si-ma de las Lá-jas, mi-lá-gro se-les-tyál... A-mén.]",
+      "textoTraducido": "O Most Pure Virgin of Las Lajas, heavenly miracle painted on the rock above the canyon! You who revealed Yourself to the humble to show that God's love shines in the deepest trials: look with mercy upon my need and grant us health, peace, and protection. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82381,7 +82381,7 @@
     {
       "id": "CAT_COL_SANTA_LAURA_MONTOYA",
       "numero": 3765,
-      "titulo": "Preghiera di Santa Laura Montoya per i popoli indigeni",
+      "titulo": "Santa Laura Montoya · Apóstol de los Indígenas y Fortaleza Misionera",
       "tradicion": "catolicismo",
       "categoriaIntencion": "mision_y_celo_apostolico",
       "estadosEmocionales": [
@@ -82391,9 +82391,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Santa Laura, madre de los indígenas: enséñanos a tener sed ardiente de salvar almas... Amén.",
-      "guiaFonetica": "[Santa Laura, madre de los indígenas: enséñano]",
-      "textoTraducido": "Attraverso l’intercessione della Preghiera di Santa Laura Montoya per i Popoli Indigeni, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "Santa Laura Montoya, apóstol de los marginados y mensajera de la paz: intercede por nuestras familias y fortalece nuestra fe en el Señor. Amén.",
+      "guiaFonetica": "[Sán-ta Láu-ra Mon-tó-ya, a-pós-tol de los pue-blos in-dí-je-nas... A-mén.]",
+      "textoTraducido": "O Saint Laura Montoya, first saint of Colombia and loving mother of indigenous peoples! You who crossed jungles and mountains to bring the light of the Gospel to the forgotten: grant us your apostolic zeal and unwavering faith. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82404,7 +82404,7 @@
     {
       "id": "CAT_COL_SENOR_MONSERRATE_BOGOTA",
       "numero": 3766,
-      "titulo": "Preghiera al Signore Caduto di Monserrate",
+      "titulo": "Santo Cristo Caído de Monserrate · Consuelo en el Sufrimiento y la Prueba",
       "tradicion": "catolicismo",
       "categoriaIntencion": "fortaleza_en_la_caida",
       "estadosEmocionales": [
@@ -82414,9 +82414,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Señor Caído de Monserrate: levántame de mis caídas y sé mi refugio en la cumbre de la prueba... Amén.",
-      "guiaFonetica": "[Señor Caído de Monserrate: levántame de mis c]",
-      "textoTraducido": "Attraverso l'intercessione della Preghiera al Signore Caduto di Monserrate, possiamo noi ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "¡Oh Señor Caído de Monserrate, que con tu cruz a cuestas miras con piedad a los atribulados! Levántame de mis caídas y bendice mi hogar. Amén.",
+      "guiaFonetica": "[O Se-ñór Ka-í-do de Mon-se-rrá-te, Krís-to de in-fi-ní-ta ter-nú-ra... A-mén.]",
+      "textoTraducido": "O most loving Fallen Lord of Monserrate, Christ of tender mercy who from the mountaintop watches over Your pilgrims! As I contemplate You beneath the weight of the Cross, raise me from my falls, heal my sicknesses, and grant me strength to walk in faith. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82427,7 +82427,7 @@
     {
       "id": "CAT_PER_TAYTACHA_TEMBLORES_CUSCO",
       "numero": 3767,
-      "titulo": "Preghiera al Signore dei Tremori in quechua ed spagnolo",
+      "titulo": "Señor de los Temblores (Taytacha Temblores del Cusco) · Amparo en la Adversidad",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_terremotos",
       "estadosEmocionales": [
@@ -82437,9 +82437,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Quechua / Español",
-      "textoOriginal": "Taytacha Temblores, Señor de los temblores del Cusco: aplaca la furia de la tierra y danos tu paz... Amén.",
-      "guiaFonetica": "[Taytacha Temblores, Señor de los temblores de]",
-      "textoTraducido": "Attraverso l'intercessione della Preghiera al Signore dei Tremori in quechua e spagnolo, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "Apu Taytacha Temblores, Cusco llaqtap amachaqnin: qanmi llapa sasachakuypi kanchayta quwayku. Señor de los Temblores, protégenos y calma nuestras tempestades. Amén.",
+      "guiaFonetica": "[A-pu Tay-tá-cha Tem-blo-res, Kús-ko llaq-tap a-ma-cháq-nin... A-mén.]",
+      "textoTraducido": "O Holy Christ of the Earthquakes, beloved Taytacha of Cusco crowned with crimson flowers! You who stilled the trembling earth and are a safe refuge in all storms of life: protect our families from harm, heal our wounds, and grant us peace. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82450,7 +82450,7 @@
     {
       "id": "CAT_PER_VIRGEN_CHAPI_AREQUIPA",
       "numero": 3768,
-      "titulo": "Appello alla Mamita di Chapi nel deserto",
+      "titulo": "Nuestra Señora de Chapi (Arequipa) · Mamita de Chapi y Estrella del Desierto",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_desierto",
       "estadosEmocionales": [
@@ -82460,9 +82460,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Mamita de Chapi, estrella del desierto de Arequipa: refresca mi alma con el agua de tu amor... Amén.",
-      "guiaFonetica": "[Mamita de Chapi, estrella del desierto de Are]",
-      "textoTraducido": "Attraverso l'intercessione della Supplica alla Mamita de Chapi nel Deserto, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "¡Mamita de Chapi, tierna Madre de Arequipa! En medio del desierto de la vida, sé nuestra luz y manantial de bendición. Amén.",
+      "guiaFonetica": "[Ma-mí-ta de Chá-pi, tiér-na Má-dre de A-re-kí-pa... A-mén.]",
+      "textoTraducido": "O sweet Virgin of Chapi, beloved Mother and Queen of the desert hills of Arequipa! You are our fountain of comfort, hope, and maternal care. Guard my children, bless the bread on our table, heal the sick, and grant us peace. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82473,7 +82473,7 @@
     {
       "id": "CAT_ECU_VIRGEN_DEL_CISNE_LOJA",
       "numero": 3769,
-      "titulo": "Preghiera alla Churona de Loja (Virgen del Cisne)",
+      "titulo": "Nuestra Señora del Cisne (La Churona de Loja) · Consuelo de Peregrinos y Familias",
       "tradicion": "catolicismo",
       "categoriaIntencion": "proteccion_romerias",
       "estadosEmocionales": [
@@ -82483,9 +82483,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Churonita del Cisne, Reina de Loja y del Austro ecuatoriano: bendice a los romeros y danos salud... Amén.",
-      "guiaFonetica": "[Churonita del Cisne, Reina de Loja y del Aust]",
-      "textoTraducido": "Attraverso l'intercessione della Preghiera alla Churona de Loja (Virgen del Cisne) possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "¡Oh tierna Virgen del Cisne, hermosa Churona de Loja! Acompaña a tus peregrinos y derrama bendición sobre nuestros hogares. Amén.",
+      "guiaFonetica": "[O tiér-na Vír-jen del Sís-ne, her-mó-sa Chu-ró-na de Ló-ja... A-mén.]",
+      "textoTraducido": "O beautiful Virgin of El Cisne, beloved Churona of Loja! Mother of infinite goodness who ended famine and plague for Your children: accompany our steps, open paths of honest labor, heal our sicknesses, and fill us with Christ's love. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82496,7 +82496,7 @@
     {
       "id": "CAT_ECU_SANTA_MARIANA_JESUS_QUITO",
       "numero": 3770,
-      "titulo": "Preghiera di offerta per la Patria di Santa Mariana de Jesús",
+      "titulo": "Santa Mariana de Jesús (Azucena de Quito) · Ofrenda de Paz y Protección de la Patria",
       "tradicion": "catolicismo",
       "categoriaIntencion": "entrega_por_la_patria",
       "estadosEmocionales": [
@@ -82506,9 +82506,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español",
-      "textoOriginal": "Santa Mariana de Jesús, azucena pura de Quito: protege a nuestra nación de todo mal y discordia... Amén.",
-      "guiaFonetica": "[Santa Mariana de Jesús, azucena pura de Quito]",
-      "textoTraducido": "Attraverso l'intercessione della Preghiera di Offerta per la Patria di Santa Mariana de Jesús, possiamo ottenere la benedizione, la salute e la pace nelle nostre case. Amen.",
+      "textoOriginal": "Santa Mariana de Jesús, Azucena de Quito y modelo de pureza: intercede por nuestra patria y alcánzanos la paz de Cristo. Amén.",
+      "guiaFonetica": "[Sán-ta Ma-riá-na de Je-sús, A-zu-sé-na de Kí-to... A-mén.]",
+      "textoTraducido": "O pure and celestial Lily of Quito, Saint Mariana of Jesus! You who with heroic charity offered your life to God to protect your people: teach us to live in holiness and purity of heart. Defend our families and bring true peace to our nation. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82519,7 +82519,7 @@
     {
       "id": "CAT_VEN_CHINITA_MARACAIBO",
       "numero": 3771,
-      "titulo": "Preghiera a Nostra Signora di Chiquinquirá (La Chinita di Maracaibo)",
+      "titulo": "Nuestra Señora del Rosario de Chiquinquirá (La Chinita de Maracaibo) · Luz del Zulia",
       "tradicion": "catolicismo",
       "categoriaIntencion": "gozo_mariano_zuliano",
       "estadosEmocionales": [
@@ -82529,9 +82529,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español venezolano",
-      "textoOriginal": "Virgen de Chiquinquirá, mi Chinita amada de Maracaibo: bendice a tus gaiteros y derrama paz sobre Venezuela... Amén.",
-      "guiaFonetica": "[Virgen de Chiquinquirá, mi Chinita amada de M]",
-      "textoTraducido": "Per intercessione di Nostra Signora di Chiquinquirá (La Chinita di Maracaibo), possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "¡Virgen de Chiquinquirá, patrona del Zulia y luz de Maracaibo! Bendice a tus hijos, derrama salud y une a nuestras familias en la fe. Amén.",
+      "guiaFonetica": "[Vír-jen de Chi-kin-ki-rá, dūl-se Chi-ní-ta de Ma-ra-kái-bo... A-mén.]",
+      "textoTraducido": "Glorious Virgin of Chiquinquirá, sweet Chinita of Maracaibo! You who shone upon the humble tablet on the lake to bring faith and joy to Your people: illuminate our lives, banish sorrow and scarcity, heal the sick, and bless our homes. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
@@ -82542,7 +82542,7 @@
     {
       "id": "CAT_VEN_DIVINA_PASTORA_BARQUISIMETO",
       "numero": 3772,
-      "titulo": "Preghiera al Divino Pastore delle Anime",
+      "titulo": "Divina Pastora de las Almas (Barquisimeto) · Protección y Salud del Pueblo",
       "tradicion": "catolicismo",
       "categoriaIntencion": "cuidado_pastoral",
       "estadosEmocionales": [
@@ -82552,9 +82552,9 @@
         "amparado"
       ],
       "idiomaLiturgicoOriginal": "Español venezolano",
-      "textoOriginal": "Divina Pastora, que caminas entre millones de hijos en Barquisimeto: guía a tu rebaño por pastos de gracia... Amén.",
-      "guiaFonetica": "[Divina Pastora, que caminas entre millones de]",
-      "textoTraducido": "Attraverso l'intercessione della Preghiera al Divin Pastore delle Anime, possiamo ottenere benedizione, salute e pace nelle nostre case. Amen.",
+      "textoOriginal": "¡Divina Pastora de las Almas, Madre bondadosa de Barquisimeto! Conduce a tu rebaño con amor, sana a los enfermos y derrama paz sobre el mundo. Amén.",
+      "guiaFonetica": "[Di-ví-na Pas-tó-ra de las Ál-mas, Má-dre bon-da-dó-sa... A-mén.]",
+      "textoTraducido": "O most loving Mother, Divine Shepherdess of Souls! With deep devotion we come to Your maternal mantle, remembering how You brought healing and peace to Your people. Guide Your flock along paths of life, heal our ailments, and keep our families united in Christ. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_o_tres_aves_marias",
         "duracionVeladoraSugeridaHoras": 24,
