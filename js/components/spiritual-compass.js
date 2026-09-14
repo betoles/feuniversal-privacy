@@ -271,9 +271,9 @@ export class SpiritualCompassComponent {
       const prefs = StorageService.getPreferences();
       const lang = prefs.idioma || "es";
       if (this.isDesktopMode) {
-        badge.innerHTML = `💻 <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`;
+        badge.innerHTML = `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_laptop")}</span> <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`;
       } else {
-        badge.innerHTML = `📱 <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`;
+        badge.innerHTML = `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_mobile")}</span> <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`;
       }
     }
   }
@@ -301,11 +301,11 @@ export class SpiritualCompassComponent {
       const lang = prefs.idioma || "es";
 
       if (isAligned) {
-        targetDiff.innerHTML = `<span style="color: var(--accent-gold); font-weight: 800; text-shadow: 0 0 10px rgba(251,191,36,0.6);">✨ ¡Alineación Sagrada Perfecta! (${this.targetHeading}°)</span>`;
+        targetDiff.innerHTML = `<span style="color: var(--accent-gold); font-weight: 800; text-shadow: 0 0 10px rgba(251,191,36,0.6); display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 14px; height: 14px; display: inline-flex;">${renderIcon("ui_sparkles")}</span> ¡Alineación Sagrada Perfecta! (${this.targetHeading}°)</span>`;
       } else if (diff > 0) {
-        targetDiff.innerHTML = `👉 <strong style="color: var(--accent-gold);">Gira a la derecha ${Math.round(diff)}°</strong> · Objetivo: ${this.targetHeading}°`;
+        targetDiff.innerHTML = `<span style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 13px; height: 13px; display: inline-flex; color: var(--accent-gold);">${renderIcon("ui_chevron_right")}</span> <strong style="color: var(--accent-gold);">Gira a la derecha ${Math.round(diff)}°</strong> · Objetivo: ${this.targetHeading}°</span>`;
       } else {
-        targetDiff.innerHTML = `👈 <strong style="color: var(--accent-cyan);">Gira a la izquierda ${Math.round(Math.abs(diff))}°</strong> · Objetivo: ${this.targetHeading}°`;
+        targetDiff.innerHTML = `<span style="display: inline-flex; align-items: center; justify-content: center; gap: 6px;"><span style="width: 13px; height: 13px; display: inline-flex; color: var(--accent-cyan);">${renderIcon("ui_chevron_left")}</span> <strong style="color: var(--accent-cyan);">Gira a la izquierda ${Math.round(Math.abs(diff))}°</strong> · Objetivo: ${this.targetHeading}°</span>`;
       }
     }
 
@@ -584,8 +584,8 @@ export class SpiritualCompassComponent {
             <span>${t("compass_title", lang) || "Brújula Espiritual"}</span>
           </div>
           <div style="font-size: 0.74rem; font-weight: 600; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; line-height: 1.4;">
-            <span style="display: inline-flex; align-items: center; gap: 3px; color: var(--text-primary); font-weight: 700;">
-              <span style="color: var(--accent-gold);">📍</span> ${sunTimes.cityName}
+            <span style="display: inline-flex; align-items: center; gap: 4px; color: var(--text-primary); font-weight: 700;">
+              <span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold);">${renderIcon("ui_globe")}</span> ${sunTimes.cityName}
             </span>
             <span style="color: var(--text-muted); opacity: 0.6;">·</span>
             <span style="display: inline-flex; align-items: center; gap: 4px;">
@@ -674,8 +674,8 @@ export class SpiritualCompassComponent {
         <!-- Barra de Estado de Sensores / Modo Escritorio -->
         <div id="compass-sensor-badge" style="margin-bottom: 12px; font-size: 0.72rem; color: var(--text-secondary); text-align: center; background: rgba(0,0,0,0.35); padding: 6px 12px; border-radius: var(--radius-full); border: 1px solid var(--glass-border); width: 100%; box-sizing: border-box;">
           ${this.isDesktopMode 
-            ? `💻 <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`
-            : `📱 <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`}
+            ? `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_laptop")}</span> <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`
+            : `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_mobile")}</span> <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`}
         </div>
 
         <!-- Botones de Acción: Auto-Alineación y Calibración -->

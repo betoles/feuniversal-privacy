@@ -506,6 +506,19 @@ export const SVG_ICONS = {
     <rect x="2" y="14" width="20" height="8" rx="2" ry="2"/>
     <line x1="6" y1="6" x2="6.01" y2="6"/>
     <line x1="6" y1="18" x2="6.01" y2="18"/>
+  </svg>`,
+
+  ui_mobile: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="6" y="2" width="12" height="20" rx="2.5" stroke="currentColor"/>
+    <line x1="11" y1="18" x2="13" y2="18" stroke-width="2"/>
+  </svg>`,
+
+  ui_chevron_right: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="9 18 15 12 9 6"/>
+  </svg>`,
+
+  ui_chevron_left: `<svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="15 18 9 12 15 6"/>
   </svg>`
 };
 

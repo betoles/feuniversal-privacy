@@ -51,110 +51,128 @@ export class MembershipComponent {
     const isNative = StorageService.isNativePlatform();
 
     let headline = t('membership_title', lang) || 'Membresía Santuario Celestial';
+    let headlineIcon = 'ui_sparkles';
     let messageHtml = '';
 
     if (isPro) {
       headline = t('membership_active_headline', lang) || 'Membresía Celestial Activa';
-      messageHtml = `<p style="font-size: 0.86rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 18px; line-height: 1.5;">${t('membership_active_msg', lang) || '¡Eres Miembro Sagrado Activo! Tienes acceso ilimitado a todas las bendiciones, música y funciones de FeUniversal.'}</p>`;
+      headlineIcon = 'ui_check';
+      messageHtml = `<p style="font-size: 0.86rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 16px; line-height: 1.5;">${t('membership_active_msg', lang) || '¡Eres Miembro Sagrado Activo! Tienes acceso ilimitado a todas las bendiciones, música y funciones de FeUniversal.'}</p>`;
     } else if (this.context === 'prayer_limit') {
-      headline = '🕊️ Cuota Diaria de Oraciones';
+      headline = 'Cuota Diaria de Oraciones';
+      headlineIcon = 'nav_scriptures';
       const quotaLimit = isNative ? '3' : '2';
       messageHtml = `
-        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 18px; max-width: 500px;">
-          <p style="font-size: 0.88rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
+        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 16px; max-width: 500px; text-align: start;">
+          <p style="font-size: 0.86rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
             «Con profundo respeto, has alcanzado tus ${quotaLimit} oraciones devocionales de hoy en la versión gratuita. Puedes regresar mañana con una nueva bendición diaria o, si deseas orar sin límites y acceder a todas las frecuencias sagradas y lecturas guiadas, te invitamos a unirte al Santuario PRO.»
           </p>
         </div>
       `;
     } else if (this.context === 'candle_limit') {
-      headline = '🕯️ Altar Mayor de 12 Veladoras';
+      headline = 'Altar Mayor de 12 Veladoras';
+      headlineIcon = 'nav_altar';
       messageHtml = `
-        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 18px; max-width: 500px;">
-          <p style="font-size: 0.88rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
+        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 16px; max-width: 500px; text-align: start;">
+          <p style="font-size: 0.86rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
             «En el modo devocional libre puedes mantener 1 veladora encendida con tu intención sagrada activa. Para consagrar múltiples veladoras de los 12 colores litúrgicos simultáneamente y preservar su llama perpetua, te invitamos a unirte al Santuario PRO.»
           </p>
         </div>
       `;
     } else if (this.context === 'weekly_reminder' || daysLeft === 0) {
       headline = t('membership_reminder_headline', lang) || 'Recordatorio de Bendición';
+      headlineIcon = 'ui_sparkles';
       messageHtml = `
-        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 18px; max-width: 500px;">
-          <p style="font-size: 0.88rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
+        <div style="background: rgba(234, 179, 8, 0.12); border: 1px solid rgba(234, 179, 8, 0.35); border-radius: var(--radius-md); padding: 14px 16px; margin: 0 auto 16px; max-width: 500px; text-align: start;">
+          <p style="font-size: 0.86rem; color: #fef08a; line-height: 1.55; margin: 0; font-style: italic;">
             ${t('membership_reminder_msg', lang) || '«Con profundo respeto, FeUniversal te recuerda que si te gustó la app y deseas seguir apoyando la plataforma puedes adquirir tu suscripción o compra, muchas gracias y eternas bendiciones.»'}
           </p>
         </div>
       `;
     } else {
       headline = t('membership_title', lang) || 'Membresía Santuario Celestial';
-      messageHtml = `<p style="font-size: 0.86rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 18px; line-height: 1.5;">${t('membership_trial_desc', lang) || `Disfruta de tu Prueba Gratuita con TODO desbloqueado. 100% libre de anuncios comerciales para preservar tu paz interior.`}</p>`;
+      headlineIcon = 'ui_sparkles';
+      messageHtml = `<p style="font-size: 0.86rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 16px; line-height: 1.5;">${t('membership_trial_desc', lang) || `Disfruta de tu Prueba Gratuita con TODO desbloqueado. 100% libre de anuncios comerciales para preservar tu paz interior.`}</p>`;
     }
 
     this.modal.innerHTML = `
-      <div class="crystal-card" style="max-width: 580px; width: 100%; margin: auto 0; padding: 28px 24px; position: relative; max-height: 90vh; overflow-y: auto; box-sizing: border-box; text-align: center;">
-        <button id="btn-close-membership-modal" class="btn-modal-close" title="Cerrar">${renderIcon('ui_close')}</button>
+      <div class="crystal-card" style="max-width: 540px; width: 100%; margin: auto 0; padding: clamp(18px, 4vw, 28px) clamp(14px, 3.5vw, 24px); position: relative; max-height: calc(100vh - 36px); overflow-y: auto; -webkit-overflow-scrolling: touch; box-sizing: border-box; text-align: center; border: 1.5px solid var(--glass-border-highlight); box-shadow: 0 24px 60px rgba(0,0,0,0.75);">
+        <button id="btn-close-membership-modal" class="btn-modal-close" title="Cerrar" style="position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: var(--glass-surface-2); border: 1px solid var(--glass-border); color: var(--text-secondary); cursor: pointer; z-index: 10;">
+          <span style="display: flex; width: 16px; height: 16px;">${renderIcon('ui_close')}</span>
+        </button>
 
         <!-- Medallón Oficial FeUniversal -->
-        <div style="width: 72px; height: 72px; margin: 0 auto 10px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 32px rgba(245, 158, 11, 0.55), 0 0 16px rgba(99, 102, 241, 0.4); box-sizing: border-box; overflow: hidden;">
+        <div style="width: 64px; height: 64px; margin: 0 auto 8px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 28px rgba(245, 158, 11, 0.55), 0 0 14px rgba(99, 102, 241, 0.4); box-sizing: border-box; overflow: hidden; border: 2px solid rgba(251, 191, 36, 0.6);">
           <img src="ico.png?v=5.0" alt="FeUniversal" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block;" />
         </div>
 
-        <div style="font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); margin-bottom: 6px;">
+        <div style="font-size: 0.74rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); margin-bottom: 4px;">
           FeUniversal · Faith & Prayers
         </div>
 
-        <h2 style="font-family: var(--font-sacred); font-size: 1.35rem; margin: 0 0 8px; color: var(--text-primary); hyphens: none; -webkit-hyphens: none; word-break: keep-all; line-height: 1.25;">${headline}</h2>
+        <h2 style="font-family: var(--font-sacred); font-size: clamp(1.15rem, 3.5vw, 1.35rem); margin: 0 0 8px; color: var(--text-primary); display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap;">
+          <span style="width: 20px; height: 20px; display: inline-flex; color: var(--accent-gold); flex-shrink: 0;">${renderIcon(headlineIcon)}</span>
+          <span>${headline}</span>
+        </h2>
         ${messageHtml}
 
         <!-- PILARES DE VALOR CON ICONOS SVG PUROS -->
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 16px; text-align: left;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-bottom: 16px; text-align: left;">
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: var(--accent-cyan); display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('ui_audio')}</span>
             <div style="min-width: 0;">
-              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_music_title', lang) || 'Música & Frecuencias'}</div>
-              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_music_desc', lang) || '11 frecuencias sagradas y solfeggio sin límites.'}</div>
+              <div style="color: var(--text-primary); font-size: 0.86rem; font-weight: 700; line-height: 1.3; margin-bottom: 2px;">${t('pillar_music_title', lang) || 'Música & Frecuencias'}</div>
+              <div style="color: var(--text-muted); font-size: 0.74rem; line-height: 1.35;">${t('pillar_music_desc', lang) || '11 frecuencias sagradas y solfeggio sin límites.'}</div>
             </div>
           </div>
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: var(--accent-gold); display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('nav_altar')}</span>
             <div style="min-width: 0;">
-              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_altar_title', lang) || 'Altar Consagrado'}</div>
-              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_altar_desc', lang) || 'Hasta 12 veladoras simultáneas y llama eterna.'}</div>
+              <div style="color: var(--text-primary); font-size: 0.86rem; font-weight: 700; line-height: 1.3; margin-bottom: 2px;">${t('pillar_altar_title', lang) || 'Altar Consagrado'}</div>
+              <div style="color: var(--text-muted); font-size: 0.74rem; line-height: 1.35;">${t('pillar_altar_desc', lang) || 'Hasta 12 veladoras simultáneas y llama eterna.'}</div>
             </div>
           </div>
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: #60a5fa; display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('ui_compass')}</span>
             <div style="min-width: 0;">
-              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_compass_title', lang) || 'Brújula 3D Mística'}</div>
-              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_compass_desc', lang) || 'Skins 3D Kaaba, Surya Mandala y Dharma Zen.'}</div>
+              <div style="color: var(--text-primary); font-size: 0.86rem; font-weight: 700; line-height: 1.3; margin-bottom: 2px;">${t('pillar_compass_title', lang) || 'Brújula 3D Mística'}</div>
+              <div style="color: var(--text-muted); font-size: 0.74rem; line-height: 1.35;">${t('pillar_compass_desc', lang) || 'Skins 3D Kaaba, Surya Mandala y Dharma Zen.'}</div>
             </div>
           </div>
           <div class="crystal-card" style="padding: 12px 14px; font-size: 0.84rem; background: var(--glass-inset); display: flex; align-items: flex-start; gap: 10px;">
             <span style="color: var(--accent-gold); display: flex; align-items: center; flex-shrink: 0; width: 22px; height: 22px; margin-top: 2px;">${renderIcon('nav_vault')}</span>
             <div style="min-width: 0;">
-              <div style="color: var(--text-primary); font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 3px;">${t('pillar_vault_title', lang) || 'Bóveda & FaithGPT'}</div>
-              <div style="color: var(--text-muted); font-size: 0.76rem; line-height: 1.35;">${t('pillar_vault_desc', lang) || 'Oraciones con IA ilimitadas y diario cifrado.'}</div>
+              <div style="color: var(--text-primary); font-size: 0.86rem; font-weight: 700; line-height: 1.3; margin-bottom: 2px;">${t('pillar_vault_title', lang) || 'Bóveda & FaithGPT'}</div>
+              <div style="color: var(--text-muted); font-size: 0.74rem; line-height: 1.35;">${t('pillar_vault_desc', lang) || 'Oraciones con IA ilimitadas y diario cifrado.'}</div>
             </div>
           </div>
         </div>
 
-        <!-- CUADRO COMPARATIVO MODO LIBRE VS PRO -->
-        <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); border-radius: var(--radius-md); padding: 12px 14px; margin-bottom: 18px; text-align: left;">
-          <div style="font-size: 0.72rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px;">
-            ${t('benefits_comparison_title', lang) || 'Comparativa de Beneficios'}
+        <!-- CUADRO COMPARATIVO MODO LIBRE VS PRO (100% SVG Y RESPONSIVO) -->
+        <div style="background: rgba(0,0,0,0.35); border: 1px solid var(--glass-border); border-radius: var(--radius-md); padding: 12px 14px; margin-bottom: 18px; text-align: left;">
+          <div style="font-size: 0.72rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+            <span style="width: 14px; height: 14px; display: inline-flex; color: var(--accent-gold);">${renderIcon('ui_sparkles')}</span>
+            <span>${t('benefits_comparison_title', lang) || 'Comparativa de Beneficios'}</span>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.74rem;">
-            <div style="background: var(--glass-surface-1); padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
-              <div style="color: var(--text-muted); font-weight: 700; margin-bottom: 4px;">🕊️ Modo Gratuito</div>
-              <div style="color: var(--text-secondary); line-height: 1.4;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 8px; font-size: 0.74rem;">
+            <div style="background: var(--glass-surface-1); padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.06);">
+              <div style="color: var(--text-muted); font-weight: 700; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;">
+                <span style="width: 14px; height: 14px; display: inline-flex; color: var(--accent-cyan);">${renderIcon('ui_sun')}</span>
+                <span>Modo Gratuito</span>
+              </div>
+              <div style="color: var(--text-secondary); line-height: 1.45;">
                 • ${BillingService.isNativePlatform() ? '3 oraciones diarias' : '2 oraciones diarias'}<br>
                 • 1 veladora activa en altar<br>
                 • 3 sonidos de meditación<br>
                 • Brújula clásica astrolabio
               </div>
             </div>
-            <div style="background: rgba(234, 179, 8, 0.08); padding: 8px 10px; border-radius: var(--radius-sm); border: 1px solid rgba(234, 179, 8, 0.25);">
-              <div style="color: var(--accent-gold); font-weight: 800; margin-bottom: 4px;">👑 Santuario PRO</div>
-              <div style="color: var(--text-primary); font-weight: 600; line-height: 1.4;">
+            <div style="background: rgba(234, 179, 8, 0.08); padding: 10px 12px; border-radius: var(--radius-sm); border: 1.5px solid rgba(234, 179, 8, 0.35);">
+              <div style="color: var(--accent-gold); font-weight: 800; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;">
+                <span style="width: 14px; height: 14px; display: inline-flex; color: var(--accent-gold);">${renderIcon('ui_sparkles')}</span>
+                <span>Santuario PRO</span>
+              </div>
+              <div style="color: var(--text-primary); font-weight: 600; line-height: 1.45;">
                 • <strong>Oraciones ilimitadas</strong><br>
                 • <strong>12 veladoras</strong> simultáneas<br>
                 • <strong>11 frecuencias</strong> completas<br>
@@ -166,9 +184,9 @@ export class MembershipComponent {
         </div>
 
         <!-- PLANES DE MEMBRESÍA -->
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 18px;">
           <!-- PLAN ANUAL: $2.99 -->
-          <div class="crystal-card" style="padding: 16px 12px; border: 1px solid rgba(234, 179, 8, 0.4); background: var(--glass-surface-1); display: flex; flex-direction: column; justify-content: space-between;">
+          <div class="crystal-card" style="padding: 16px 12px; border: 1.5px solid rgba(234, 179, 8, 0.4); background: var(--glass-surface-1); display: flex; flex-direction: column; justify-content: space-between;">
             <div>
               <span class="hud-pill dot-gold" style="font-size: 0.65rem; margin-bottom: 6px;">${t('plan_annual_badge', lang) || '7 DÍAS GRATIS'}</span>
               <div style="font-size: 0.88rem; font-weight: 800; color: var(--text-primary);">${t('plan_annual_title', lang) || 'Plan Anual'}</div>
@@ -279,7 +297,9 @@ export class MembershipComponent {
           });
           this.render();
           const badge = document.getElementById('header-membership-badge');
-          if (badge) badge.innerHTML = '👑 <span>PRO</span>';
+          if (badge) {
+            badge.innerHTML = `<span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold); vertical-align: middle;">${renderIcon('ui_sparkles')}</span> <span>PRO</span>`;
+          }
         } else {
           SacredDialog.toast(t('membership_no_purchases_toast', lang) || 'No se encontraron compras previas activas.', 3000, 'ui_info');
         }
@@ -303,7 +323,7 @@ export class MembershipComponent {
           this.render();
           const badge = document.getElementById('header-membership-badge');
           if (badge) {
-            badge.innerHTML = '👑 <span>PRO</span>';
+            badge.innerHTML = `<span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold); vertical-align: middle;">${renderIcon('ui_sparkles')}</span> <span>PRO</span>`;
           }
         }
       });

@@ -327,7 +327,7 @@ export class AltarComponent {
           SacredDialog.alert({
             title: t('altar_alert_req_title', lang) || 'Petición Requerida',
             message: t('altar_alert_req_msg', lang) || 'Por favor escribe tu intención o plegaria para consagrar la veladora en el altar.',
-            icon: '🕯️',
+            icon: 'nav_altar',
             buttonText: t('understood_label', lang) || t('dialog_accept', lang) || 'Entendido',
             type: 'warning'
           });
