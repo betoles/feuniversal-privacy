@@ -298,7 +298,7 @@ export class MembershipComponent {
           this.render();
           const badge = document.getElementById('header-membership-badge');
           if (badge) {
-            badge.innerHTML = `<span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold); vertical-align: middle;">${renderIcon('ui_sparkles')}</span> <span>PRO</span>`;
+            badge.innerHTML = '<span>PRO</span>';
           }
         } else {
           SacredDialog.toast(t('membership_no_purchases_toast', lang) || 'No se encontraron compras previas activas.', 3000, 'ui_info');
@@ -323,7 +323,7 @@ export class MembershipComponent {
           this.render();
           const badge = document.getElementById('header-membership-badge');
           if (badge) {
-            badge.innerHTML = `<span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold); vertical-align: middle;">${renderIcon('ui_sparkles')}</span> <span>PRO</span>`;
+            badge.innerHTML = '<span>PRO</span>';
           }
         }
       });

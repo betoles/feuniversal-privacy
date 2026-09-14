@@ -113,7 +113,7 @@ export class FeUniversalApp {
         });
         const badge = document.getElementById('header-membership-badge');
         if (badge) {
-          badge.innerHTML = `<span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon('ui_sparkles')}</span><span>PRO</span>`;
+          badge.innerHTML = '<span>PRO</span>';
         }
       }, 600);
 
@@ -440,8 +440,7 @@ export class FeUniversalApp {
     const daysLeft = StorageService.getTrialDaysRemaining();
     const badge = document.getElementById('header-membership-badge');
     if (badge) {
-      const sparkIcon = `<span style="display: inline-flex; width: 13px; height: 13px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon('ui_sparkles')}</span>`;
-      badge.innerHTML = sub.isPremium ? `${sparkIcon}<span>PRO</span>` : `${sparkIcon}<span>Trial: ${daysLeft}d</span>`;
+      badge.innerHTML = sub.isPremium ? '<span>PRO</span>' : `<span>Trial: ${daysLeft}d</span>`;
     }
 
     // 3. Etiqueta de Idioma Activo y Botones de Acción
