@@ -63,7 +63,7 @@ export class PrayerCorpusService {
           resolve(null);
           return;
         }
-        const req = window.indexedDB.open('feuniversal_prayers_corpus_db', 1);
+        const req = window.indexedDB.open('feuniversal_prayers_corpus_db_v2', 1);
         req.onupgradeneeded = (e) => {
           const db = e.target.result;
           if (!db.objectStoreNames.contains('language_corpuses')) {
@@ -80,7 +80,7 @@ export class PrayerCorpusService {
   /**
    * Carga el compendio de oraciones para el idioma especificado (o el activo)
    * @param {string} lang Código de idioma (es, en, fr, pt, it, de, ru, ar, he, hi, zh, la, ja, bn, id, ur, sw)
-   * @returns {Promise<Array>} Lista de 4,245 oraciones
+   * @returns {Promise<Array>} Lista de 4,251 oraciones
    */
   static async loadCorpus(lang = 'es') {
     const targetLang = (lang || 'es').toLowerCase();
@@ -88,11 +88,14 @@ export class PrayerCorpusService {
 
     // 1. Verificar caché en memoria RAM
     if (PrayerCorpusService.memoryCache.has(targetLang)) {
-      PrayerCorpusService._touchLRU(targetLang);
-      return PrayerCorpusService.memoryCache.get(targetLang);
+      const memCorpus = PrayerCorpusService.memoryCache.get(targetLang);
+      if (Array.isArray(memCorpus) && memCorpus.length >= 4251) {
+        PrayerCorpusService._touchLRU(targetLang);
+        return memCorpus;
+      }
     }
 
-    // 2. Intentar cargar desde IndexedDB (Ultra-rápido offline)
+    // 2. Intentar cargar desde IndexedDB (Ultra-rápido offline con validación de versión)
     try {
       const db = await PrayerCorpusService.getDB();
       if (db) {
@@ -104,7 +107,7 @@ export class PrayerCorpusService {
           req.onerror = () => resolve(null);
         });
 
-        if (cached && Array.isArray(cached) && cached.length > 0) {
+        if (cached && Array.isArray(cached) && cached.length >= 4251) {
           PrayerCorpusService._setInCache(targetLang, cached);
           return cached;
         }
@@ -114,7 +117,7 @@ export class PrayerCorpusService {
     }
 
     // 3. Cargar archivo JSON/GZ vía Fetch con descompresión transparente
-    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json`;
+    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json?v=9.4.1`;
     try {
       const data = await fetchAndDecompressJson(jsonPath);
       const oraciones = data.oraciones || [];
@@ -195,21 +198,36 @@ export class PrayerCorpusService {
    * Búsqueda inteligente por texto libre en el catálogo del idioma activo
    */
   static async searchPrayers(query, lang = 'es', activeTraditions = []) {
-    const prayers = await PrayerCorpusService.getAvailablePrayers(lang, activeTraditions);
+    const prayers = await PrayerCorpusService.loadCorpus(lang);
     if (!query || !query.trim()) {
-      return prayers;
+      return (!activeTraditions || activeTraditions.length === 0)
+        ? prayers
+        : prayers.filter(p => activeTraditions.includes(p.tradicion));
     }
 
     const q = query.trim().toLowerCase();
-    return prayers.filter(p => {
+    const tokens = q.split(/\s+/).filter(t => t.length > 0);
+
+    const matches = (p) => {
       const t = (typeof p.titulo === 'string' ? p.titulo : (p.titulo?.[lang] || p.titulo?.es || '')).toLowerCase();
       const txt = (p.textoTraducido || (p.traducciones && (p.traducciones[lang] || p.traducciones.es)) || p.textoEspanol || '').toLowerCase();
       const orig = (p.textoOriginal || '').toLowerCase();
       const cat = (p.categoriaIntencion || '').toLowerCase();
       const trad = (p.tradicion || '').toLowerCase();
+      const pId = (p.id || '').toLowerCase();
+      const composite = `${t} ${txt} ${orig} ${cat} ${trad} ${pId}`;
 
-      return t.includes(q) || txt.includes(q) || orig.includes(q) || cat.includes(q) || trad.includes(q);
-    });
+      return tokens.every(tok => composite.includes(tok));
+    };
+
+    let results = prayers.filter(matches);
+    if (activeTraditions && activeTraditions.length > 0) {
+      const traditionFiltered = results.filter(p => activeTraditions.includes(p.tradicion));
+      if (traditionFiltered.length > 0) {
+        return traditionFiltered;
+      }
+    }
+    return results;
   }
 
   /**

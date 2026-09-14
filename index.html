@@ -543,7 +543,7 @@
     if ('caches' in window) {
       caches.keys().then(keys => {
         keys.forEach(k => {
-          if (k.includes('feuniversal-core') && !k.endsWith('v9.4.0')) {
+          if (k.includes('feuniversal-core') && !k.endsWith('v9.4.1')) {
             console.log('[Cache Cleanup] Purgando caché obsoleta:', k);
             caches.delete(k);
           }
@@ -555,7 +555,7 @@
         regs.forEach(r => r.update());
       });
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=9.4.0').then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=9.4.1').then(reg => {
           reg.update();
         }).catch(err => {
           console.log('[PWA] Service Worker activo');
@@ -565,7 +565,7 @@
   </script>
 
   <!-- Script Principal con Cache-Busting -->
-  <script type="module" src="js/app.js?v=9.4.0"></script>
+  <script type="module" src="js/app.js?v=9.4.1"></script>
 
 </body>
 </html>

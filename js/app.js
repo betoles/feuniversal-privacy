@@ -728,8 +728,8 @@ export class FeUniversalApp {
       }
     }
 
-    // 2. Gráfico Donut de Oraciones y Compendio Sagrado Universal (4,245 oraciones)
-    const totalUniversalCompendium = 4245;
+    // 2. Gráfico Donut de Oraciones y Compendio Sagrado Universal (4,251 oraciones)
+    const totalUniversalCompendium = 4251;
     const activeTraditionsCompendium = availablePrayers.length > 0 
       ? availablePrayers.length 
       : activeTraditions.reduce((sum, tid) => sum + (getTradition(tid)?.totalRezosDisponibles || 0), 0);
@@ -857,13 +857,18 @@ export class FeUniversalApp {
   getFilteredPrayers(availablePrayers, lang) {
     let filtered = availablePrayers;
 
-    // Filtro por Estado Emocional (Fluido y amplio)
+    // Filtro por Estado Emocional (Fluido, tolerante a alias canónicos)
     if (this.currentFilterEmotion) {
       const emoData = EMOTIONAL_STATES[this.currentFilterEmotion];
       const targetIntent = emoData?.intencionPrincipal;
+      const emoKey = this.currentFilterEmotion;
       filtered = filtered.filter(p => {
-        if (Array.isArray(p.estadosEmocionales) && p.estadosEmocionales.includes(this.currentFilterEmotion)) {
-          return true;
+        if (Array.isArray(p.estadosEmocionales)) {
+          if (p.estadosEmocionales.includes(emoKey)) return true;
+          if (emoKey === 'angustia_miedo' && (p.estadosEmocionales.includes('miedo_angustia') || p.estadosEmocionales.includes('desesperacion'))) return true;
+          if (emoKey === 'tristeza_duelo' && (p.estadosEmocionales.includes('duelo_tristeza') || p.estadosEmocionales.includes('soledad_vacio'))) return true;
+          if (emoKey === 'enfermedad_dolor' && (p.estadosEmocionales.includes('dolor_enfermedad') || p.estadosEmocionales.includes('cansancio_agotamiento'))) return true;
+          if (emoKey === 'gratitud_gozo' && (p.estadosEmocionales.includes('gratitud') || p.estadosEmocionales.includes('gozo'))) return true;
         }
         if (targetIntent && getCanonicalIntention(p.categoriaIntencion, p.id) === targetIntent) {
           return true;
@@ -882,24 +887,42 @@ export class FeUniversalApp {
       filtered = filtered.filter(p => p.tradicion === this.currentFilterTradition);
     }
 
-    // Filtro por Búsqueda de Texto Instantánea (Normalizada sin acentos)
+    // Filtro por Búsqueda de Texto Instantánea (Normalizada sin acentos, multi-palabra / tokenizada)
     const hasSearch = this.searchQuery && this.searchQuery.trim().length > 0;
     if (hasSearch) {
-      const q = this.normalizeStr(this.searchQuery.trim());
-      filtered = filtered.filter(p => {
+      const rawQuery = this.normalizeStr(this.searchQuery.trim());
+      const queryTokens = rawQuery.split(/\s+/).filter(t => t.length > 0);
+
+      const matchesTokens = (p) => {
         const titleLang = typeof p.titulo === 'string' ? this.normalizeStr(p.titulo) : this.normalizeStr(p.titulo?.[lang] || p.titulo?.es || '');
         const titleOrig = this.normalizeStr(p.titulo?.lat || p.titulo?.he || p.titulo?.sa || p.titulo?.yo || p.titulo?.ar || p.titulo?.el || '');
         const textOrig = this.normalizeStr(p.textoOriginal || '');
         const tradText = this.normalizeStr(p.textoTraducido || p.traducciones?.[lang] || p.traducciones?.es || p.textoEspanol || '');
         const tradInfo = getTradition(p.tradicion);
         const tradName = this.normalizeStr(tradInfo ? (tradInfo.nombre?.[lang] || tradInfo.nombre?.es || '') : '');
+        const intentKey = this.normalizeStr(p.categoriaIntencion || '');
+        const pId = this.normalizeStr(p.id || '');
 
-        return titleLang.includes(q) ||
-               titleOrig.includes(q) ||
-               textOrig.includes(q) ||
-               tradText.includes(q) ||
-               tradName.includes(q);
-      });
+        const composite = `${titleLang} ${titleOrig} ${textOrig} ${tradText} ${tradName} ${intentKey} ${pId}`;
+        return queryTokens.every(token => composite.includes(token));
+      };
+
+      let searchResults = filtered.filter(matchesTokens);
+
+      // Si no hay resultados con el filtro de emoción/intención activo, buscar en todas las oraciones disponibles
+      if (searchResults.length === 0 && (this.currentFilterEmotion || this.currentFilterIntention || this.currentFilterTradition)) {
+        searchResults = availablePrayers.filter(matchesTokens);
+      }
+
+      // Si aún no hay resultados (ej. la tradición está oculta en los ajustes del usuario), buscar en todo el catálogo global
+      if (searchResults.length === 0) {
+        const globalCorpus = PrayerCorpusService.memoryCache.get(lang) || PRAYERS_DB;
+        if (Array.isArray(globalCorpus)) {
+          searchResults = globalCorpus.filter(matchesTokens);
+        }
+      }
+
+      filtered = searchResults;
     }
 
     return filtered;
@@ -1169,6 +1192,11 @@ export class FeUniversalApp {
         }
 
         if (val.trim().length > 0) {
+          // Desactivar filtros restrictivos al escribir en el buscador para búsqueda amplia
+          this.currentFilterEmotion = null;
+          this.currentFilterIntention = null;
+          this.currentFilterTradition = null;
+
           // Conmutar automáticamente a la sub-vista de Catálogo
           document.querySelectorAll('.segmented-item').forEach(i => {
             i.classList.toggle('active', i.getAttribute('data-subview') === 'prayers');
@@ -1181,12 +1209,12 @@ export class FeUniversalApp {
           this.activeSubview = 'prayers';
         }
 
-        // Búsqueda fluida con debounce a 180ms para móviles
+        // Búsqueda fluida con debounce a 150ms para móviles
         clearTimeout(this.debounceTimer);
         this.debounceTimer = setTimeout(() => {
           this.catalogCurrentPage = 1;
           this.renderDashboard();
-        }, 180);
+        }, 150);
       });
     }
 

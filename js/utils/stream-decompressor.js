@@ -17,9 +17,12 @@ export async function fetchAndDecompressJson(baseUrl, options = {}) {
   // 2. Browser Environment with Native DecompressionStream
   const supportsDecompression = typeof window !== 'undefined' && 'DecompressionStream' in window;
 
-  // Clean URL to base (.json)
-  const cleanBase = baseUrl.replace(/\.gz$/, '');
-  const gzUrl = cleanBase + '.gz';
+  // Separate URL path and query params for cache busting
+  const [urlPath, queryStr] = baseUrl.split('?');
+  const querySuffix = queryStr ? `?${queryStr}` : '';
+  const cleanBase = urlPath.replace(/\.gz$/, '');
+  const gzUrl = cleanBase + '.gz' + querySuffix;
+  const jsonUrl = cleanBase + querySuffix;
 
   if (preferCompressed && supportsDecompression) {
     try {
@@ -45,12 +48,12 @@ export async function fetchAndDecompressJson(baseUrl, options = {}) {
   }
 
   // Fallback: Fetch plain uncompressed .json
-  const plainResponse = await fetch(cleanBase, {
+  const plainResponse = await fetch(jsonUrl, {
     headers: { 'Accept': 'application/json, */*' }
   });
 
   if (!plainResponse.ok) {
-    throw new Error(`[StreamDecompressor] HTTP ${plainResponse.status} loading ${cleanBase}`);
+    throw new Error(`[StreamDecompressor] HTTP ${plainResponse.status} loading ${jsonUrl}`);
   }
 
   return plainResponse.json();
@@ -64,7 +67,8 @@ async function loadInNode(baseUrl, preferCompressed) {
   const path = await import('path');
   const zlib = await import('zlib');
 
-  const cleanBase = baseUrl.replace(/\.gz$/, '');
+  const [urlPath] = baseUrl.split('?');
+  const cleanBase = urlPath.replace(/\.gz$/, '');
   let resolvedPath = cleanBase;
 
   // Try relative to cwd
