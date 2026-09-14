@@ -2351,7 +2351,8 @@ button {
 .community-banner-text {
   margin: 0 auto 16px auto !important;
   max-width: 540px !important;
-  font-size: 0.84rem !important;
+  font-size: 0.86rem !important;
+  font-weight: 550 !important;
   line-height: 1.6 !important;
   text-align: center !important;
   box-sizing: border-box !important;
@@ -2359,11 +2360,13 @@ button {
 
 :root:not([data-theme="light"]) .community-banner-text,
 [data-theme="dark"] .community-banner-text {
-  color: #cbd5e1 !important;
+  color: #f8fafc !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
 [data-theme="light"] .community-banner-text {
-  color: #334155 !important;
+  color: #090d16 !important;
+  text-shadow: none !important;
 }
 
 .community-banner-actions {
