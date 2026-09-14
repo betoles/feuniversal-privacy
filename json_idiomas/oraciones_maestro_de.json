@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "Gebet des Heiligen Johannes Bosco an Maria, Hilfe der Christen",
+      "titulo": "Gebet des Heiligen Johannes Bosco zu Maria, Hilfe der Christen",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Schenke mir Segen, Gesundheit und Frieden in meinem Zuhause und bei meiner Arbeit. Amen.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[O Ma-rí-a, méch-ti-ge Yúng-frau! Du bist das er-há-be-ne Bóll-verk...]",
+      "textoTraducido": "O Maria, mächtige Jungfrau! Du bist das erhabene Bollwerk der Kirche; Du, die wunderbare Hilfe der Christen; Du, furchtgebietend wie ein wohlgeordnetes Heerlager; Du allein hast alle Irrtümer in der ganzen Welt überwunden. In Ängsten, in Kämpfen und in all unseren Nöten beschütze uns vor dem Feind und nimm unsere Seele in der Stunde des Todes im Paradies auf. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "תפילת דון בוסקו a María Auxiliadora של los Cristianos",
+      "titulo": "תפילת יוחנן בוסקו הקדוש למרים עזרת הנוצרים",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[Ho Mir-yam, ha-B'tu-lah ha-A-tsu-mah! At ma'oz ha-k'ne-si-yah...]",
+      "textoTraducido": "הו מרים, הבתולה העצומה! את מעוז הכנסייה הנשגב והמהולל; את עזרתם המופלאה של המאמינים; את נוראה כצבא ערוך למלחמה; את אשר ביטלת כל פילוג ומכשול בעולם. במצוקותינו, במאבקינו ובכל עת צרה, הגני עלינו מפני האויב, ובשעת מותנו קבלי את נשמותינו בגן העדן. אמן.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

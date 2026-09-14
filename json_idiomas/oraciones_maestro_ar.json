@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "صلاة القديس يوحنا بوسكو لمريم معونة المسيحيين",
+      "titulo": "صلاة القديس يوحنا بوسكو إلى مريم معونة النصارى",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice،  Madre della Chiesa e guida della gioventù... امنحني البركة والصحة والسلام في منزلي وفي عملي. آمين.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[Ya Mar-yam, ay-yu-hal 'Adh-ra-ul Qa-di-rah, an-ti his-nul ka-ni-sa-til 'a-dheem...]",
+      "textoTraducido": "يا مريم، أيتها العذراء القديرة، أنتِ حصن الكنيسة العظيم والمجيد؛ أنتِ معونة المسيحيين العجيبة؛ أنتِ الرهيبة كجيش مصطف للحرب؛ أنتِ وحدكِ بدّدتِ كل البدع في العالم بأسره. في الشدائد والضيقات ومصاعب حياتنا، احمينا من العدو، وعند ساعة موتنا، اقبلي نفوسنا في الفردوس السماوي. آمين.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

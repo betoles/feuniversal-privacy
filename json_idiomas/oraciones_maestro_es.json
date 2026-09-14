@@ -59490,17 +59490,17 @@
       "numero": 2747,
       "titulo": "Oración de San Juan Bosco a María Auxiliadora de los Cristianos",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la bendición, la salud y la paz en mi hogar y en mi trabajo. Amén.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[O Ma-rí-a, Vér-dji-ne po-tén-te, Tu grán-de ed il-lús-tre pre-sí-dio dél-la Kié-sa; Tu a-yú-to mi-rá-bi-le dei Kris-tiá-ni...]",
+      "textoTraducido": "¡Oh María, Virgen poderosa! Tú eres el grande e ilustre baluarte de la Iglesia; Tú, auxilio admirable de los cristianos; Tú, terrible como un ejército formado en orden de batalla; Tú sola has destruido todas las herejías del mundo entero. En las angustias, en las luchas, en nuestras dificultades, defiéndenos del enemigo y en la hora de la muerte acoge nuestra alma en el Paraíso. ¡Amén!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

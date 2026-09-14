@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "Oração de São João Bosco a Maria Auxiliadora",
+      "titulo": "Oração de São João Bosco a Maria Auxiliadora dos Cristãos",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Auxiliadora, Madre della Chiesa e guia della gioventù... Concedei-me bênção, saúde e paz em meu lar e em meu trabalho. Amém.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[Ó Ma-rí-a, Vír-jem po-de-ró-za! Vós sois o grán-de e i-lús-tre ba-lu-ár-te da I-gré-ja...]",
+      "textoTraducido": "Ó Maria, Virgem poderosa! Vós sois o grande e ilustre baluarte da Igreja; Vós, auxílio admirável dos cristãos; Vós, terrível como um exército formado em linha de batalha; Vós que dissipastes todos os erros do mundo inteiro. Nas angústias, nas lutas e em todas as nossas aflições, defendei-nos do inimigo e, na hora da morte, acolhei a nossa alma no Paraíso. Amém!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

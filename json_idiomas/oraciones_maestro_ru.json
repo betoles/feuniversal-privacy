@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "Молитва святителя Иоанна Боско Марии Помощнице христиан",
+      "titulo": "Молитва святого Иоанна Боско к Пресвятой Деве Марии Помощнице Христиан",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Даруй мне благословение, здоровье и мир в моем доме и в моей работе. Аминь.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[О Ма-ри-я, Де-ва все-силь-на-я, Ты ве-ли-ка-я и див-на-я за-щи-та Церк-ви...]",
+      "textoTraducido": "О Мария, Дева всесильная, Ты великая и дивная защита Церкви; Ты дивная Помощь христиан; Ты грозная, как полки со знаменами; Ты единая победила все заблуждения во всем мире. В скорбях, в бранях и во всех бедах наших защити нас от врага, и в час смерти нашей прими душу нашу в Рай. Аминь.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

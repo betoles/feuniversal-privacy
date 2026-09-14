@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "Maombi ya Mtakatifu John Bosco kwa Maria Msaada wa Wakristo",
+      "titulo": "Sala ya Mtakatifu Yohane Bosco kwa Bikira Maria Msaada wa Wakristo",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Vijana_Ulinzi",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice, Madre yala Chiesa e guida yala gioventù... Unijalie neema ya kutembea katika utakatifu, imani na haki chini ya ulinzi wako wa Kimungu. Amina.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[E-e Ma-rí-a, Bi-kí-ra mwé-nye ngú-vu! We-we ndi-we ngo-me ku-u ya Ka-ní-sa...]",
+      "textoTraducido": "Ee Maria, Bikira mwenye nguvu! Wewe ndiwe ngome kuu na tukufu ya Kanisa; Wewe ndiwe msaada wa ajabu wa Wakristo; Wewe uliye hodari kama jeshi lililojipanga vitani. Katika mahangaiko, mapambano na shida zetu zote, utulinde dhidi ya adui, na saa ya kufa kwetu upokee roho zetu Mbinguni. Amina!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

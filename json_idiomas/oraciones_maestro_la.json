@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "Oratio Sanctus Ioannes Bosco a María Auxiliadora Cristianos",
+      "titulo": "Oratio Sancti Ioannis Bosco ad Mariam Auxilium Christianorum",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice, Mater della Chiesa e guida della gioventù... Concédeme la benedictio, la salus et la pax in mi domus et in mi trabajo. Amen.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[O Ma-rí-a, Vír-go pó-tens, Tu mág-num et il-lús-tre pre-sí-di-um Ek-klé-si-e...]",
+      "textoTraducido": "O Maria, Virgo potens, Tu magnum et illustre praesidium Ecclesiae; Tu Auxilium mirabile Christianorum; Tu terribilis ut castrorum acies ordinata; Tu cunctas haereses sola interemisti in universo mundo. In angustiis, in agonibus, in necessitatibus nostris defende nos ab hoste, et in hora mortis suscipe animam nostram in Paradisum. Amen.",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

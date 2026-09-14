@@ -59490,17 +59490,17 @@
       "numero": 2747,
       "titulo": "Doa Santo Yohanes Bosco kepada Maria Penolong Umat Kristiani",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Pemuda_Perlindungan",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Berilah aku rahmat untuk berjalan dalam kekudusan, iman dan kebenaran di bawah perlindungan ilahi-Mu. Amin.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Berilah aku rahmat untuk berjalan dalam kekudusan, iman dan kebenaran di bawah perlindungan ilahi-Mu. Amin.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[Ya Ma-ri-a, Pe-ra-wan yang ber-kwa-sa! Eng-kau-lah ben-teng Ge-re-ja...]",
+      "textoTraducido": "Ya Maria, Perawan yang berkuasa! Engkaulah benteng pertahanan Gereja yang agung dan mulia; Engkaulah Penolong umat Kristiani yang mengagumkan; Engkaulah yang perkasa laksana bala tentara yang siap berperang. Dalam segala kecemasan, perjuangan, dan kesesakan hidup kami, lindungilah kami dari musuh, dan pada saat ajal kami, terimalah jiwa kami ke dalam Surga. Amin!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

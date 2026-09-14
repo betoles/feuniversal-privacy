@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "圣约翰·博斯科向基督教之佑玛利亚祈祷",
+      "titulo": "圣若望·鲍思高向进教之佑圣母祈祷文",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice、Madre della Chiesa e guida della gioventù...请赐予我家庭和工作中的祝福、健康与平安。阿门。",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[Yu, Ma-li-ya, da-neng de tong-zhen-nv! Nin shi jiao-hui wei-da de bao-zhang...]",
+      "textoTraducido": "吁，玛利亚，大能的童贞女！您是教会伟大而光辉的保障；您是基督徒的卓越救援；您威严如布阵齐整的军队；您独力消灭了普世的所有异端。在忧患、战斗与艰难困苦之中，求您庇佑我们脱免仇敌的陷害；并在我们临终之时，接引我们的灵魂进入天国乐园。阿们！",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "ईसाइयों की मदद के लिए सेंट जॉन बॉस्को की मैरी से प्रार्थना",
+      "titulo": "मसीहियों की सहायिका माता मरियम से संत जॉन बॉस्को की प्रार्थना",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "proteccion_juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italiano",
-      "textoOriginal": "मारिया ऑसिलियाट्रिस, माद्रे डेला चिएसा ई गाइडा डेला जियोवेंटु... मुझे अपने दिव्य संरक्षण के तहत पवित्रता, विश्वास और धार्मिकता में चलने की कृपा प्रदान करें। आमीन.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "मारिया ऑसिलियाट्राइस, माद्रे डेला चिएसा ई गाइडा डेला जियोवेंटु।। । मुझे मेरे घर और मेरे काम में आशीर्वाद, स्वास्थ्य और शांति प्रदान करें। आमीन।",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[He Ma-ri-yam, sa-mar-thi kun-va-ri! Aap ka-lee-si-ya kee ma-haan rak-shak hain...]",
+      "textoTraducido": "हे मरियम, सामर्थी कुंवारी! आप कलीसिया की महान और तेजस्वी रक्षक हैं; आप मसीहियों की अद्भुत सहायिका हैं; आप सेना की तरह दुर्जेय हैं; आपने संसार के समस्त भ्रमों को समाप्त किया है। हमारी चिंताओं, संघर्षों और संकटों में हमें शत्रु से बचाएं, और हमारी मृत्यु की घड़ी में हमारी आत्मा को स्वर्ग में स्वीकार करें। आमीन!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

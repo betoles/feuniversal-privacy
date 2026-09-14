@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "Prière de Saint Jean Bosco à Marie Auxiliatrice",
+      "titulo": "Prière de Saint Jean Bosco à Marie Auxiliatrice des Chrétiens",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italien",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Auxiliatrice, Madre della Chiesa e guida della gioventù... Accorde-moi la bénédiction, la santé et la paix dans ma maison et dans mon travail. Amen.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[O Ma-rí, Vièrj pwi-sãnt, Vu zêt le grã e il-lüstr rã-pàr de l'E-glíz...]",
+      "textoTraducido": "Ô Marie, Vierge puissante, Vous êtes le grand et illustre rempart de l'Église ; Vous, le secours admirable des chrétiens ; Vous, terrible comme une armée rangée en bataille ; Vous seule avez détruit toutes les hérésies dans le monde entier. Dans les angoisses, dans les combats et dans nos détresses, défendez-nous de l'ennemi et à l'heure de la mort, accueillez notre âme en Paradis. Amen !",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,

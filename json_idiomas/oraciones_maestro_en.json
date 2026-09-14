@@ -59488,19 +59488,19 @@
     {
       "id": "CAT_ITA_DON_BOSCO_AUXILIADORA",
       "numero": 2747,
-      "titulo": "Prayer of Saint John Bosco to Mary Help of Christians",
+      "titulo": "Saint John Bosco's Prayer to Mary Help of Christians",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "Proteccion_Juventud",
+      "categoriaIntencion": "proteccion",
       "estadosEmocionales": [
         "devoto",
         "esperanzado",
         "en_paz",
         "agradecido"
       ],
-      "idiomaLiturgicoOriginal": "Italian",
-      "textoOriginal": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Concédeme la gracia de caminar en santidad, fe y rectitud bajo tu divina protección. Amén.",
-      "guiaFonetica": "Maria Ausiliatrice, Madre della Chiesa e... A-mén.",
-      "textoTraducido": "Maria Ausiliatrice, Madre della Chiesa e guida della gioventù... Grant me blessing, health and peace in my home and in my work. Amen.",
+      "idiomaLiturgicoOriginal": "Italiano (Tradición Salesiana)",
+      "textoOriginal": "O Maria, Vergine potente, Tu grande ed illustre presidio della Chiesa; Tu aiuto mirabile dei Cristiani; Tu terribile come esercito schierato a battaglia; Tu sola hai distrutto tutte le eresie in tutto il mondo; Tu nelle angustie, nelle lotte, nelle strettezze nostre difendici dal nemico e nell'ora della morte accogli l'anima nostra in Paradiso! Amen.",
+      "guiaFonetica": "[O Mary, powerful Virgin! You are the great and illustrious bulwark of the Church...]",
+      "textoTraducido": "O Mary, powerful Virgin! You are the great and illustrious bulwark of the Church; You, admirable help of Christians; You, terrible as an army set in battle array; You alone have destroyed all heresies throughout the world. In anxieties, in struggles, and in our difficulties, defend us from the enemy and at the hour of our death receive our soul into Paradise. Amen!",
       "ritualesAsociados": {
         "tipoContador": "denario_devocional",
         "duracionVeladoraSugeridaHoras": 24,
