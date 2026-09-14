@@ -779,14 +779,12 @@ export class FeUniversalApp {
       const topIntents = Object.values(INTENTIONS).slice(0, 4);
       const userFreq = scoreData.categoriaFrecuencia || {};
       const totalUserPrayers = topIntents.reduce((sum, intent) => sum + (userFreq[intent.id] || 0), 0);
-      const defaultPcts = [35, 25, 20, 20]; // Distribución de balance universal inicial
-
       const rowsHTML = topIntents.map((intent, idx) => {
         const count = userFreq[intent.id] || 0;
         const pct = totalUserPrayers > 0 
           ? Math.round((count / totalUserPrayers) * 100) 
-          : defaultPcts[idx] || 25;
-        const fillWidth = Math.max(8, pct);
+          : 0;
+        const fillWidth = totalUserPrayers > 0 ? Math.max(6, pct) : 0;
         const prayerUnit = count === 1 ? (t('prayer_singular', lang) || 'oración') : (t('prayer_plural', lang) || 'oraciones');
         const metricLabel = `${count} ${prayerUnit}`;
 
