@@ -162,7 +162,8 @@ export class ScripturesViewComponent {
   renderScriptureCardHtml(item, lang) {
     const translationText = (item.traducciones && (item.traducciones[lang] || item.traducciones.es || Object.values(item.traducciones)[0])) || item.textoOriginal || '';
     const adj = getAdjacentScriptures(item.id);
-    const isRTL = item.dir === 'rtl';
+    const isOrigRTL = item.dir === 'rtl';
+    const isTranslationRTL = isRTL(lang);
 
     const currChapNum = (typeof adj.currentIndex === 'number' && !isNaN(adj.currentIndex)) ? (adj.currentIndex + 1) : (item.capituloNumero || 1);
     const totalChapsInBook = (typeof adj.totalInBook === 'number' && !isNaN(adj.totalInBook) && adj.totalInBook > 0) ? adj.totalInBook : 1;
@@ -220,7 +221,7 @@ export class ScripturesViewComponent {
             </div>
             
             <div style="direction: ${item.dir || 'ltr'}; font-family: 'Amiri', 'Cinzel', Georgia, serif; flex: 1;">
-              ${this.formatVersesHtml(item.textoOriginal, isRTL)}
+              ${this.formatVersesHtml(item.textoOriginal, isOrigRTL)}
             </div>
 
             <!-- FONÉTICA LITÚRGICA -->
@@ -237,8 +238,8 @@ export class ScripturesViewComponent {
             <div style="font-size: 0.72rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; border-bottom: 1px dashed var(--glass-border); padding-bottom: 6px;">
               ${t('scriptures_verified_translation', lang)} (${lang.toUpperCase()}):
             </div>
-            <div style="flex: 1;">
-              ${this.formatVersesHtml(translationText, false)}
+            <div style="direction: ${isTranslationRTL ? 'rtl' : 'ltr'}; flex: 1;">
+              ${this.formatVersesHtml(translationText, isTranslationRTL)}
             </div>
           </div>
         </div>
