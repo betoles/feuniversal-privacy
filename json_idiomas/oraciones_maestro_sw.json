@@ -94583,6 +94583,72 @@
           "afya"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Bikira Maria wa Mlima Karmeli · Sala ya Dereva na Ulinzi Safarini",
+      "nombre": "Bikira Maria wa Mlima Karmeli · Sala ya Dereva na Ulinzi Safarini",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "Ee Bikira Maria wa Karmeli, Mama Mtakatifu wa Mungu na Mlinzi wa madereva na wasafiri! Nipe mkono imara na jicho makini ili nisimdhuru mtu yeyote safarini. Ulinde maisha yangu na ya wenzangu dhidi ya ajali, hatari na mashambulizi njiani. Niongoze niendeshe kwa busara, uvumilivu na heshima; na mwisho wa safari unirejeshe salama nyumbani kwangu. Bikira wa Karmeli, Malkia wa njia zote, uwe nami katika kila safari! Amina.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera... Sancta Maria, Regina Viae, protege nos.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera...]",
+      "metadata": {
+        "origen": "Mapokeo ya Ibada ya Bikira Maria wa Karmeli kwa ajili ya Madereva",
+        "proposito": "Sala ya kuomba usalama barabarani na kinga dhidi ya ajali za vyombo vya moto.",
+        "tags": [
+          "ukatoliki",
+          "bikira_wa_karmeli",
+          "sala_ya_dereva",
+          "usalama_barabarani",
+          "safari"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Dua kwa Mtoto Mtakatifu Yesu Katika Shida Elfu Moja (Bogotá)",
+      "nombre": "Dua kwa Mtoto Mtakatifu Yesu Katika Shida Elfu Moja (Bogotá)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Mtoto Mtakatifu Yesu, Mfalme wa moyo na maisha yangu, Mwokozi wangu mpendwa! Ninapiga magoti mbele Yako kwa matumaini makubwa:\n\nNina shida elfu moja: nisaidie.\nDhidi ya maadui wa roho: niokoe.\nKatika makosa yangu: niangazie.\nKatika huzuni zangu: nifariji.\nKatika upweke wangu: kaa nami.\nKatika magonjwa yangu: nitie nguvu.\nKatika majaribu: nilinde.\nKatika nyakati ngumu: nitegemee.\nKwa uwezo wako mkuu: nikinge.\nNa mikononi mwako ninapokata roho: nipokee.\n\nMtoto Mtakatifu Yesu, ninakutumaini Wewe! Amina.",
+      "textoOriginal": "Mtoto Mtakatifu Yesu, ninakutumaini Wewe! Nina shida elfu moja: nisaidie. Amina.",
+      "guiaFonetica": "[Mtoto Mtakatifu Yesu, ninakutumaini Wewe...]",
+      "metadata": {
+        "origen": "Madhabahu ya Divino Niño (Bogotá, Kolombia)",
+        "proposito": "Sala ya maombi ya msaada wa haraka katika matatizo mazito ya maisha.",
+        "tags": [
+          "ukatoliki",
+          "mtoto_yesu",
+          "shida_elfu_moja",
+          "matumaini",
+          "msaada"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Yesu Mnazareti wa Mtakatifu Paulo · Muujiza wa Mti wa Ndimu (Caracas, Venezuela)",
+      "nombre": "Yesu Mnazareti wa Mtakatifu Paulo · Muujiza wa Mti wa Ndimu (Caracas, Venezuela)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "Ee Yesu Mpendwa Mnazareti wa Mtakatifu Paulo, Kristo uliyebeba Msalaba mzito kwa macho ya huruma! Kumbuka muujiza wa mti wa ndimu wakati wa tauni ulipomwaga uponyaji kwa wagonjwa. Geuza macho yako ya rehema kwa familia zetu. Utuokoe na magonjwa ya milipuko, maradhi ya mwili na roho; uwaponye wanaoteseka mahospitalini na utupe nguvu ya kubeba misalaba yetu ya kila siku kwa imani. Yesu Mnazareti, utubariki na kuponya watu wako! Amina.",
+      "textoOriginal": "Ee Yesu Mnazareti, ponya magonjwa yetu na utuokoe na tauni. Amina.",
+      "guiaFonetica": "[Ee Yesu Mpendwa Mnazareti wa Mtakatifu Paulo...]",
+      "metadata": {
+        "origen": "Basilika ya Mtakatifu Teresa (Caracas, Venezuela)",
+        "proposito": "Sala ya kuomba uponyaji wa magonjwa ya kuambukiza, afya njema na amani ya familia.",
+        "tags": [
+          "ukatoliki",
+          "yesu_mnazareti",
+          "uponyaji",
+          "venezuela",
+          "ulinzi_dhidi_ya_tauni"
+        ]
+      }
     }
   ]
 }

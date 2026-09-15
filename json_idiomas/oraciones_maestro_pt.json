@@ -94584,6 +94584,72 @@
           "cirurgias"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Nossa Senhora do Carmo · Oração do Motorista e Proteção nas Estradas",
+      "nombre": "Nossa Senhora do Carmo · Oração do Motorista e Proteção nas Estradas",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "Ó Virgem do Carmo, bendita Mãe de Deus e amada Padroeira dos motoristas e viajantes! Dai-me, Senhora, mão firme e olhar atento para que ao meu passar eu não cause dano a ninguém. A Vós, que guardais a vida, suplico humildemente que protejais hoje a minha vida e a de todos os que me acompanham. Livrai-me de acidentes, perigos, assaltos e defeitos; afastai da minha estrada toda imprudência. Fazei com que eu dirija com prudência, paciência e serenidade. E ao fim da jornada, guiado pela vossa estrela, possa eu regressar são e salvo ao meu lar. Virgem do Carmo, Rainha dos caminhos, acompanhai-me em cada viagem! Amém.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera, splendor caeli... Sancta Maria, Regina Viae, protege nos. Amen.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera, splendor caeli...]",
+      "metadata": {
+        "origen": "Tradição Mariana dos Motoristas e Protetora dos Caminhoneiros",
+        "proposito": "Oração de proteção no trânsito, estradas e viagens seguras.",
+        "tags": [
+          "catolicismo",
+          "nossa_senhora_do_carmo",
+          "motorista",
+          "viagem",
+          "protecao_estradas"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Súplica ao Divino Menino Jesus nas Mil Dificuldades (Bogotá)",
+      "nombre": "Súplica ao Divino Menino Jesus nas Mil Dificuldades (Bogotá)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Divino Menino Jesus, dono do meu coração e da minha vida, meu terno Salvador! Diante de Vós me coloco com imensa confiança no vosso amor:\n\nTenho mil dificuldades: ajudai-me.\nDos inimigos da alma: salvai-me.\nNos meus desacertos: iluminai-me.\nNas minhas dúvidas e dores: confortai-me.\nNa minha solidão: acompanhai-me.\nNas minhas enfermidades: fortalecei-me.\nQuando me desprezarem: animai-me.\nNas tentações: defendei-me.\nNas horas difíceis: consolai-me.\nCom o vosso imenso poder: protegei-me.\nE em vossos braços ao expirar: acolhei-me.\n\nEm vossas mãos benditas coloco minhas dores e esperanças. Divino Menino Jesus, em Vós confio! Amém.",
+      "textoOriginal": "Divino Menino Jesus, em Vós confio! Tenho mil dificuldades: ajudai-me.",
+      "guiaFonetica": "[Divino Menino Jesus, em Vos confio...]",
+      "metadata": {
+        "origen": "Santuário do Divino Menino Jesus (Bogotá, Colômbia)",
+        "proposito": "Súplica tradicional para alívio imediato nas tribulações e angústias.",
+        "tags": [
+          "catolicismo",
+          "divino_menino_jesus",
+          "mil_dificuldades",
+          "em_ti_confio",
+          "auxilio"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Nosso Pai Jesus Nazareno de São Paulo · O Limoeiro do Senhor (Caracas)",
+      "nombre": "Nosso Pai Jesus Nazareno de São Paulo · O Limoeiro do Senhor (Caracas)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "Ó amadíssimo Jesus Nazareno de São Paulo, Cristo paciente de olhar doce e compassivo! Vós que levais a pesada Cruz por nosso amor: lembrai-vos do milagre histórico do limoeiro, quando em meio à peste derramastes cura e alívio sobre os enfermos. Volvei vossos olhos misericordiosos para as nossas famílias e lares. Livrai-nos de epidemias, enfermidades do corpo e da alma; curai os que sofrem nos hospitais; aliviai nossos fardos e dai-nos a graça de carregar nossas cruzes com santa paciência. Jesus Nazareno de São Paulo, abençoai-nos e curai o vosso povo! Amém.",
+      "textoOriginal": "Ó Jesus Nazareno de São Paulo! Pelo milagre do limoeiro, curai nossas enfermidades. Amém.",
+      "guiaFonetica": "[O Jesus Nazareno de Sao Paulo...]",
+      "metadata": {
+        "origen": "Basílica de Santa Teresa (Caracas, Venezuela)",
+        "proposito": "Oração de cura, proteção contra epidemias e auxílio nas aflições.",
+        "tags": [
+          "catolicismo",
+          "jesus_nazareno",
+          "venezuela",
+          "cura",
+          "protecao_epidemias"
+        ]
+      }
     }
   ]
 }

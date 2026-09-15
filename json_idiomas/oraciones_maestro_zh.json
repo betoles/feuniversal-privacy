@@ -94587,6 +94587,73 @@
           "手术平安"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "加尔默罗圣母（加曼圣母）· 驾驶员与道路平安祈祷文",
+      "nombre": "加尔默罗圣母（加曼圣母）· 驾驶员与道路平安祈祷文",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "加尔默罗圣山圣母，天主圣母暨驾驶员与行路人的慈爱主保！求祢赐我沉稳的双手与警醒的双眼，使我在行程中不致伤害任何人。求祢庇护我及同车之人的性命，使我们远离车祸、危险、袭击与灾殃。使我能以谨慎、耐心与礼让驾驶；并在旅途结束时，在祢慈爱晨星的指引下平平安安地回到家中。加尔默罗圣母，旅途之母皇，求在每一次行程中与我同行！阿们。",
+      "textoOriginal": "Flos Carmeli, Vitis florigera... Sancta Maria, Regina Viae, protege nos in omni itinere. Amen.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera...]",
+      "metadata": {
+        "origen": "哥伦比亚及拉丁美洲加尔默罗圣母驾驶员传统敬礼",
+        "proposito": "祈求行车平安、防止交通事故、保障行路人安全的传统护佑经文。",
+        "tags": [
+          "天主教",
+          "加尔默罗圣母",
+          "驾驶员祈祷",
+          "道路平安",
+          "行车安全"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "千难万阻中向圣婴耶稣祈求文（哥伦比亚波哥大）",
+      "nombre": "千难万阻中向圣婴耶稣祈求文（哥伦比亚波哥大）",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "至圣圣婴耶稣，我心我生命的主宰，我最亲爱的救主！我满怀坚定的信德跪在祢台前：\n\n我有千重困难：求祢相助。\n面对灵魂的仇敌：求祢拯救。\n在我失误彷徨时：求祢光照。\n在我疑虑痛苦时：求祢安慰。\n在我孤独寂寞时：求祢陪伴。\n在我身患疾苦时：求祢坚强。\n在面临诱惑时：求祢护卫。\n在艰难时刻：求祢做我的依靠。\n以祢无上的神能：求祢庇护。\n在我生命的终点：求祢接纳在祢怀中。\n\n至圣圣婴耶稣，我完全信赖祢！阿们。",
+      "textoOriginal": "至圣圣婴耶稣，我完全信赖祢！我有千重困难：求祢相助。阿们。",
+      "guiaFonetica": "[Zhisheng Shengying Yesu, wo wanquan xinlai Ni...]",
+      "metadata": {
+        "origen": "哥伦比亚波哥大圣婴耶稣大圣殿传统敬礼",
+        "proposito": "在面临重重困境、家庭危难与病痛时的经典求助圣咏。",
+        "tags": [
+          "天主教",
+          "圣婴耶稣",
+          "千难万阻",
+          "完全信赖",
+          "紧急救助"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "圣保禄的纳匝肋人耶稣 · 柠檬树圣迹与医治瘟疫祈祷文（加拉加斯，委内瑞拉）",
+      "nombre": "圣保禄的纳匝肋人耶稣 · 柠檬树圣迹与医治瘟疫祈祷文（加拉加斯，委内瑞拉）",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "最亲爱的圣保禄纳匝肋人耶稣，背负沉重十字架、目光充满慈悲怜悯的受苦救主！在委内瑞拉加拉加斯圣德肋撒大殿受万民敬礼的祢：求祢忆及当年柠檬树显灵的奇迹，在瘟疫蔓延时赐予病人痊愈与新生。求祢今日将慈目垂顾我们的家宅与亲人。使我们免受瘟疫、灾殃与一切身心灵疾病的侵扰；医治在医院受苦之人，减轻我们的重负，并赐我们坚定的信德以背负每日的十字架。纳匝肋人耶稣，求祢降福我们并赐予天下平安！阿们。",
+      "textoOriginal": "圣保禄的纳匝肋人耶稣，求祢借柠檬树圣迹医治我们的疾苦，赐予平安！阿们。",
+      "guiaFonetica": "[Zui qin'ai de Shengbaolu Nazale ren Yesu...]",
+      "metadata": {
+        "origen": "委内瑞拉加拉加斯圣德肋撒大殿（17世纪柠檬树圣迹）",
+        "proposito": "祈求重病痊愈、消弭瘟疫传染病及全家平安健康的委内瑞拉国宝级传统圣咏。",
+        "tags": [
+          "天主教",
+          "纳匝肋人耶稣",
+          "委内瑞拉",
+          "医治瘟疫",
+          "健康",
+          "十字架"
+        ]
+      }
     }
   ]
 }

@@ -94583,6 +94583,72 @@
           "operasi"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Santa Perawan Maria dari Gunung Karmel · Doa Pengemudi dan Keselamatan Perjalanan",
+      "nombre": "Santa Perawan Maria dari Gunung Karmel · Doa Pengemudi dan Keselamatan Perjalanan",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O Maria dari Gunung Karmel, Bunda Allah dan Pelindung para pengemudi serta musafir! Berilah aku tangan yang mantap dan mata yang waspada agar aku tidak mencelakakan siapa pun di jalan. Lindungilah nyawaku dan mereka yang bepergian bersamaku dari kecelakaan, bahaya, dan kejahatan di jalan. Bimbinglah aku agar mengemudi dengan sabar, bijaksana, dan santun; serta hantarkanlah aku kembali ke rumah dengan selamat. Bunda Maria dari Karmel, Ratu perjalanan, sertailah aku di setiap langkah! Amin.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera... Sancta Maria, Regina Viae, protege nos.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera...]",
+      "metadata": {
+        "origen": "Tradisi Devosi Maria Karmel untuk Keselamatan Pengemudi",
+        "proposito": "Doa memohon keselamatan berlalu lintas, perlindungan dari kecelakaan, dan perjalanan aman.",
+        "tags": [
+          "katolik",
+          "maria_gunung_karmel",
+          "doa_pengemudi",
+          "keselamatan_jalan",
+          "perjalanan"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Permohonan kepada Kanak-Kanak Yesus dalam Seribu Kesulitan (Bogotá)",
+      "nombre": "Permohonan kepada Kanak-Kanak Yesus dalam Seribu Kesulitan (Bogotá)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Kanak-Kanak Yesus yang Ilahi, Pemilik hati dan hidupku, Juruselamatku yang penuh kasih! Di hadapan-Mu aku bersujud dengan keyakinan yang tak tergoyahkan:\n\nAku menghadapi seribu kesulitan: tolonglah aku.\nDari musuh-musuh jiwaku: selamatkanlah aku.\nDalam kesalahanku: terangilah aku.\nDalam keraguan dan dukaku: hiburlah aku.\nDalam kesepianku: sertailah aku.\nDalam penyakitku: kuatkanlah aku.\nDalam pencobaan: lindungilah aku.\nDalam saat-saat sulit: teguhkanlah aku.\nDengan kuasa-Mu yang tak terbatas: lindungilah aku.\nDan dalam dekapan-Mu saat ajalku tiba: terimalah aku.\n\nKanak-Kanak Yesus yang Ilahi, kepada-Mu aku percaya! Amin.",
+      "textoOriginal": "Kanak-Kanak Yesus yang Ilahi, kepada-Mu aku percaya! Tolonglah aku dalam seribu kesulitan.",
+      "guiaFonetica": "[Kanak-Kanak Yesus yang Ilahi, kepada-Mu aku percaya...]",
+      "metadata": {
+        "origen": "Santuari Kanak-Kanak Yesus (Bogotá, Kolombia)",
+        "proposito": "Doa permohonan pertolongan mendesak di saat menghadapi beban hidup yang berat.",
+        "tags": [
+          "katolik",
+          "kanak_kanak_yesus",
+          "seribu_kesulitan",
+          "percaya",
+          "pertolongan"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Yesus dari Nazaret Santo Paulus · Mukjizat Pohon Lemon (Caracas, Venezuela)",
+      "nombre": "Yesus dari Nazaret Santo Paulus · Mukjizat Pohon Lemon (Caracas, Venezuela)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O Yesus dari Nazaret Santo Paulus yang terkasih, Kristus yang menderita dan memanggul Salib dengan pandangan penuh belas kasih! Ingatlah akan mukjizat pohon lemon ketika di tengah wabah penyakit Engkau mencurahkan kesembuhan bagi orang-orang sakit. Pandanglah keluarga dan rumah kami dengan kasih sayang. Bebaskanlah kami dari wabah, penyakit raga dan jiwa; sembuhkanlah mereka yang terbaring di rumah sakit; serta berilah kami kekuatan untuk memikul salib hidup kami dengan iman. Yesus dari Nazaret, berkati dan sembuhkanlah kami! Amin.",
+      "textoOriginal": "O Yesus dari Nazaret, sembuhkanlah penyakit kami dan lindungilah kami dari wabah. Amin.",
+      "guiaFonetica": "[O Yesus dari Nazaret Santo Paulus...]",
+      "metadata": {
+        "origen": "Basilika Santa Teresa (Caracas, Venezuela)",
+        "proposito": "Doa memohon kesembuhan penyakit, pembebasan dari wabah menular, dan perlindungan keluarga.",
+        "tags": [
+          "katolik",
+          "yesus_dari_nazaret",
+          "kesembuhan",
+          "venezuela",
+          "bebas_wabah"
+        ]
+      }
     }
   ]
 }

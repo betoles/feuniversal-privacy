@@ -94581,6 +94581,71 @@
           "chirurgia"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Madonna del Carmine · Preghiera dell'Automobilista e Protezione sulle Strade",
+      "nombre": "Madonna del Carmine · Preghiera dell'Automobilista e Protezione sulle Strade",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O Vergine del Carmine, Madre di Dio e Patrona degli automobilisti e dei viaggiatori! Dammi, o Signora, mano ferma e occhio vigile, affinché al mio passaggio io non rechi danno a nessuno. Custodisci la mia vita e quella di chi viaggia con me. Liberami da incidenti, pericoli e insidie della strada. Fa' che io guidi con prudenza, pazienza e rispetto del prossimo; e fa' che al termine del viaggio io ritorni sano e salvo alla mia casa. Vergine del Carmine, Stella del Mare e Regina della strada, veglia su ogni mio cammino! Amen.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera, splendor caeli... Sancta Maria, Regina Viae, protege nos.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera, splendor caeli...]",
+      "metadata": {
+        "origen": "Tradizione Devozionale della Madonna del Carmine per i Viaggiatori",
+        "proposito": "Preghiera per la sicurezza alla guida e nei viaggi.",
+        "tags": [
+          "cattolicesimo",
+          "madonna_del_carmine",
+          "automobilista",
+          "viaggio",
+          "protezione"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Supplica al Divino Bambino Gesù nelle Mille Difficoltà (Bogotà)",
+      "nombre": "Supplica al Divino Bambino Gesù nelle Mille Difficoltà (Bogotà)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Divino Bambino Gesù, Signore del mio cuore e della mia vita, mio amato Salvatore! A Te mi rivolgo con profonda fiducia:\n\nHo mille difficoltà: aiutami.\nDai nemici dell'anima: salvami.\nNelle mie indecisioni: illuminami.\nNei miei dubbi e dolori: confortami.\nNelle mie solitudini: accompagnami.\nNelle mie malattie: fortificami.\nNelle tentazioni: difendimi.\nNelle ore difficili: consolami.\nCon il tuo immenso potere: proteggimi.\nE tra le tue braccia al tramonto della vita: accoglimi.\n\nNelle tue mani miracolose ripongo ogni mia speranza. Divino Bambino Gesù, in Te confido! Amen.",
+      "textoOriginal": "Divino Bambino Gesù, in Te confido! Ho mille difficoltà: aiutami.",
+      "guiaFonetica": "[Divino Bambino Gesu, in Te confido...]",
+      "metadata": {
+        "origen": "Santuario del Divin Bambino di Bogotà",
+        "proposito": "Preghiera di soccorso immediato nelle angustie della vita.",
+        "tags": [
+          "cattolicesimo",
+          "bambino_gesu",
+          "mille_difficolta",
+          "fiducia"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Gesù Nazareno di San Paolo · Il Limoneto del Signore (Caracas, Venezuela)",
+      "nombre": "Gesù Nazareno di San Paolo · Il Limoneto del Signore (Caracas, Venezuela)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O amatissimo Gesù Nazareno di San Paolo, Cristo sofferente dallo sguardo mite e misericordioso! Tu che porti la pesante Croce: ricordati del miracolo del limoneto benedetto, quando in tempo di peste donasti guarigione ai malati. Volgi il tuo sguardo sulle nostre famiglie. Liberaci dalle epidemie e dai mali del corpo e dello spirito; dona sollievo a chi soffre e la forza di portare la nostra croce quotidiana. Gesù Nazareno di San Paolo, abbi pietà di noi e donaci la tua pace! Amen.",
+      "textoOriginal": "O Gesù Nazareno di San Paolo! Liberaci dalla peste e dona la salute. Amen.",
+      "guiaFonetica": "[O Gesu Nazareno di San Paolo...]",
+      "metadata": {
+        "origen": "Basilica di Santa Teresa (Caracas, Venezuela)",
+        "proposito": "Preghiera per la guarigione dalle malattie e la liberazione dalle tribolazioni.",
+        "tags": [
+          "cattolicesimo",
+          "gesu_nazareno",
+          "guarigione",
+          "venezuela",
+          "protezione"
+        ]
+      }
     }
   ]
 }

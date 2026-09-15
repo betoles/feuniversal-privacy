@@ -94584,6 +94584,71 @@
           "手術成功"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "カルメル山の聖母 · 運転者の祈りと道中の交通安全",
+      "nombre": "カルメル山の聖母 · 運転者の祈りと道中の交通安全",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "カルメル山の聖母、神の御母、運転者と旅人の保護者よ！私が通る道で誰にも危害を加えることのないよう、確かな手と注意深い目を与え給え。私と同乗者の命を事故、危険、災難から守り給え。慎重さと忍耐をもって運転させ、旅の終わりにはあなたの星の導きにより無事に我が家に帰らせ給え。カルメルの聖母、旅路の女王よ、我がすべての歩みに伴い給え。アーメン。",
+      "textoOriginal": "Flos Carmeli, Vitis florigera... Sancta Maria, Regina Viae, protege nos.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera...]",
+      "metadata": {
+        "origen": "カルメル山の聖母 運転者と旅人のための伝統祈祷",
+        "proposito": "交通安全、事故防止、安全な移動を願う祈り。",
+        "tags": [
+          "カトリック",
+          "カルメル山の聖母",
+          "運転者の祈り",
+          "交通安全",
+          "旅の保護"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "千の困難における幼子イエスへの懇願（コロンビア・ボゴタ）",
+      "nombre": "千の困難における幼子イエスへの懇願（コロンビア・ボゴタ）",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "神聖なる幼子イエス、我が心と命の主、愛する救い主よ！私は揺るぎない信頼をもって御前にひれ伏します：\n\n私に千の困難があるとき：私を助け給え。\n魂の敵から：私を救い給え。\n過ちにおいて：私を照らし給え。\n疑いと悲しみにおいて：私を慰め給え。\n孤独において：私と共にいて給え。\n病において：私を強め給え。\n誘惑において：私を守り給え。\n苦難の時において：私を支え給え。\n御身の偉大なる力により：私を保護し給え。\nそして息絶えるとき：御腕に私を受け入れ給え。\n\n神聖なる幼子イエスよ、私は御身に信頼し奉る！アーメン。",
+      "textoOriginal": "神聖なる幼子イエスよ、私は御身に信頼し奉る！私に千の困難があるとき：助け給え。",
+      "guiaFonetica": "[Shinseinaru Osanago Iesu, watashi wa Onmi ni shinrai shi tatematsuru...]",
+      "metadata": {
+        "origen": "ボゴタ・神聖なる幼子イエス巡礼聖堂",
+        "proposito": "人生の困難や試練における即座の助けを願う祈り。",
+        "tags": [
+          "カトリック",
+          "幼子イエス",
+          "困難の助け",
+          "信頼の祈り"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "聖パウロのナザレのイエス · 奇跡のレモンの木（ベネズエラ・カラカス）",
+      "nombre": "聖パウロのナザレのイエス · 奇跡のレモンの木（ベネズエラ・カラカス）",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "愛する聖パウロのナザレのイエス、慈愛に満ちた眼差しで重い十字架を担われる苦難の主よ！かつて疫病の中でレモンの木の奇跡によって病める人々に治癒をもたらされたことを思い起こし給え。今日、私たちの家庭と家族に憐れみの目を注ぎ給え。伝染病や心身の病から私たちを救い、病床にある者を癒やし、日々の十字架を耐え忍ぶ力を与え給え。ナザレのイエスよ、私たちを祝福し平安を与え給え。アーメン。",
+      "textoOriginal": "ナザレのイエスよ、病を癒やし、疫病から私たちを救い給え。アーメン。",
+      "guiaFonetica": "[Aisuru Sei Pauro no Nazare no Iesu...]",
+      "metadata": {
+        "origen": "聖テレサ大聖堂（ベネズエラ・カラカス）",
+        "proposito": "疫病除け、難病治癒、家族の健康を守る伝統的祈祷。",
+        "tags": [
+          "カトリック",
+          "ナザレのイエス",
+          "病気平癒",
+          "ベネズエラ",
+          "疫病除け"
+        ]
+      }
     }
   ]
 }

@@ -94579,6 +94579,69 @@
           "infirmi"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Precatio ad Beatam Mariam Virginem de Monte Carmelo pro Viatoribus et Aurigis",
+      "nombre": "Precatio ad Beatam Mariam Virginem de Monte Carmelo pro Viatoribus et Aurigis",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O Domina Nostra de Monte Carmelo, Mater Dei et Regina Viae! Da mihi dexteram firmam et oculum vigilantem, ne cuiquam in itinere noceam. Custodi vitam meam et comitum meorum ab omni periculo, ruina et casu adversitatis. Fac me caute et mansuete procedere, et sub stella tua matutina ad domum incolumem pervenire. Flos Carmeli, Stella Maris, ora pro nobis et custodi vias nostras. Amen.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera, splendor caeli, Virgo puerpera singularis. Mater mitis, sed viri nescia, Carmelitis da privilegia, Stella Maris. Sancta Maria, Regina Viae, protege nos in omni itinere. Amen.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera, splendor caeli, Virgo puerpera singularis...]",
+      "metadata": {
+        "origen": "Liturgia et Traditio Carmelitana pro Viatoribus",
+        "proposito": "Precatio pro salute in itinere et custodia a periculis viae.",
+        "tags": [
+          "catholicismus",
+          "virgo_carmeli",
+          "viatores",
+          "protectio_in_via"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Supplicatio ad Divinum Puerum Iesum in Mille Angustiis",
+      "nombre": "Supplicatio ad Divinum Puerum Iesum in Mille Angustiis",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Divinus Puer Iesus, Dominus cordis mei et vitae meae! Ante Te provolutus cum magna fiducia clamo:\n\nMille angustias habeo: adiuva me.\nAb inimicis animae: salva me.\nIn erroribus meis: illumina me.\nIn dubiis et doloribus: conforta me.\nIn solitudinibus: mecum mane.\nIn infirmitatibus: robora me.\nIn tentationibus: defende me.\nIn horis difficilibus: consolare me.\nPotentia tua immensa: protege me.\nEt in brachiis tuis ad obitum: me suscipe.\n\nIn manibus tuis omnem spem meam pono. Divinus Puer Iesus, in Te confido! Amen.",
+      "textoOriginal": "Divinus Puer Iesus, in Te confido! Mille angustias habeo: adiuva me. Amen.",
+      "guiaFonetica": "[Divinus Puer Iesus, in Te confido...]",
+      "metadata": {
+        "origen": "Traditio Devotionis ad Puerum Iesum",
+        "proposito": "Supplicatio pro auxilio in periculis et necessitatibus.",
+        "tags": [
+          "catholicismus",
+          "puer_iesus",
+          "angustiae",
+          "fiducia"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Precatio ad Dominum Iesum Nazarenum Sancti Pauli pro Sanatione et Pace",
+      "nombre": "Precatio ad Dominum Iesum Nazarenum Sancti Pauli pro Sanatione et Pace",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O amantissime Domine Iesu Nazarene Sancti Pauli, qui Crucem nostrorum peccatorum tulisti et oculos misericordiae super nos conicis! Memento prodigii arboris limonum, qua olim pestilentiam a populo avertisti. Libera nos ab omnibus morbis, pestibus et doloribus; sana infirmos, sustenta laborantes, et da nobis gratiam cruces nostras cum fide ferendi. Iesu Nazarene, miserere nobis et da nobis pacem. Amen.",
+      "textoOriginal": "Iesu Nazarene Sancti Pauli, qui Crucem tulisti, sana infirmos nostros et libera nos a malo. Amen.",
+      "guiaFonetica": "[O amantissime Domine Iesu Nazarene Sancti Pauli...]",
+      "metadata": {
+        "origen": "Basilica Sanctae Theresiae (Caracas, Venetiola)",
+        "proposito": "Precatio pro salute et liberatione a peste.",
+        "tags": [
+          "catholicismus",
+          "iesus_nazarenus",
+          "sanatio",
+          "liberatio"
+        ]
+      }
     }
   ]
 }

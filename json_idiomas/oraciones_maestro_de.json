@@ -94581,6 +94581,72 @@
           "kranke"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Unsere Liebe Frau auf dem Berge Karmel · Gebet der Autofahrer und Reiseschutz",
+      "nombre": "Unsere Liebe Frau auf dem Berge Karmel · Gebet der Autofahrer und Reiseschutz",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O Maria vom Berge Karmel, Mutter Gottes und Schutzpatronin aller Fahrer und Reisenden! Schenke mir eine feste Hand und ein wachsames Auge, damit ich auf meinem Weg niemandem schade. Bewahre mein Leben und das Leben aller, die mit mir reisen. Schütze mich vor Unfällen, Gefahren und Unachtsamkeit auf den Straßen. Lass mich mit Geduld, Umsicht und Besonnenheit fahren und führe mich am Ende des Tages wohlbehalten nach Hause. O Königin der Wege, begleite mich auf allen Fahrten! Amen.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera... Sancta Maria, Regina Viae, protege nos.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera...]",
+      "metadata": {
+        "origen": "Karmelitische Marienandacht für Kraftfahrer und Reisende",
+        "proposito": "Gebet für Schutz im Straßenverkehr und sicheres Reisen.",
+        "tags": [
+          "katholizismus",
+          "maria_karmel",
+          "autofahrer",
+          "reiseschutz",
+          "unfallschutz"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Flehentliches Gebet zum Göttlichen Jesuskind in Tausend Nöten (Bogotá)",
+      "nombre": "Flehentliches Gebet zum Göttlichen Jesuskind in Tausend Nöten (Bogotá)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Göttliches Jesuskind, Herr meines Herzens und meines Lebens! Voll unerschütterlichem Vertrauen knie ich vor Dir:\n\nIch habe tausend Nöte: hilf mir.\nVor den Feinden der Seele: rette mich.\nIn meinen Fehlern: erleuchte mich.\nIn meinen Zweifeln und Schmerzen: tröste mich.\nIn meiner Einsamkeit: begleite mich.\nIn meinen Krankheiten: stärke mich.\nIn Versuchungen: verteidige mich.\nIn schweren Stunden: sei mein Trost.\nMit Deiner unendlichen Macht: beschütze mich.\nUnd in Deine Arme beim Abschied vom Leben: nimm mich auf.\n\nIn Deine Hände lege ich all meine Sorgen und Hoffnungen. Göttliches Jesuskind, auf Dich vertraue ich! Amen.",
+      "textoOriginal": "Göttliches Jesuskind, auf Dich vertraue ich! Ich habe tausend Nöte: hilf mir.",
+      "guiaFonetica": "[Goettliches Jesuskind, auf Dich vertraue ich...]",
+      "metadata": {
+        "origen": "Heiligtum des Göttlichen Jesuskindes (Bogotá, Kolumbien)",
+        "proposito": "Traditionelles Hilfsgebet bei großen Sorgen und Nöten.",
+        "tags": [
+          "katholizismus",
+          "jesuskind",
+          "tausend_noete",
+          "vertrauen",
+          "hilfe"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Jesus der Nazarener von Sankt Paul · Der Wunderbare Zitronenbaum (Caracas)",
+      "nombre": "Jesus der Nazarener von Sankt Paul · Der Wunderbare Zitronenbaum (Caracas)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O geliebtester Herr Jesus, der Nazarener von Sankt Paul, leidender Heiland voll barmherzigem Blick! Du, der Du das schwere Kreuz für uns trägst: Erinnere Dich an das Wunder des gesegneten Zitronenbaums, als Du inmitten der Seuche Heilung und Trost schenktest. Blicke gnädig auf unsere Familien. Erlöse uns von Seuchen, Krankheiten und Nöten; schenke den Kranken Genesung und stärke uns im Tragen unserer täglichen Kreuze. Jesus, Nazarener von Sankt Paul, erbarme Dich unser und segne uns! Amen.",
+      "textoOriginal": "O Jesus, Nazarener von Sankt Paul! Schenke uns Heilung und Frieden. Amen.",
+      "guiaFonetica": "[O geliebtester Herr Jesus, der Nazarener von Sankt Paul...]",
+      "metadata": {
+        "origen": "Basilika Santa Teresa (Caracas, Venezuela)",
+        "proposito": "Gebet um Heilung von Krankheiten und Schutz vor Seuchen.",
+        "tags": [
+          "katholizismus",
+          "jesus_nazarener",
+          "heilung",
+          "venezuela",
+          "seuchenschutz"
+        ]
+      }
     }
   ]
 }

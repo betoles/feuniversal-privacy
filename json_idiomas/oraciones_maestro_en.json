@@ -94589,6 +94589,75 @@
           "surgery"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Our Lady of Mount Carmel · Driver's Prayer and Safe Travel on the Road",
+      "nombre": "Our Lady of Mount Carmel · Driver's Prayer and Safe Travel on the Road",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O Lady of Mount Carmel, blessed Mother of God and loving Patroness of drivers and travelers! Grant me, O Mother, a steady hand and a watchful eye, that no one may suffer harm as I pass by. To You who cherish life, I humbly pray that You safeguard my life and the lives of those who ride with me. Deliver me from every accident, collision, danger, assault, and breakdown; remove from my way all recklessness and hidden perils. Grant that I may drive with patience, prudence, and courtesy, serving my neighbor with honest care. And when the journey ends, guided by Your maternal star, may I return safely home to my family. Our Lady of Mount Carmel, Queen of the road, accompany me on every journey! Amen.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera, splendor caeli... Sancta Maria, Regina Viae, protege nos in omni itinere. Amen.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera, splendor caeli...]",
+      "metadata": {
+        "origen": "Devotional Tradition of Our Lady of Mount Carmel, Patroness of Drivers",
+        "proposito": "Driver's prayer for safety, protection from traffic accidents, and peaceful travel.",
+        "tags": [
+          "catholicism",
+          "our_lady_of_mount_carmel",
+          "drivers_prayer",
+          "travel",
+          "protection",
+          "safe_journey"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Supplication to the Divine Child Jesus in a Thousand Difficulties (Bogotá, Colombia)",
+      "nombre": "Supplication to the Divine Child Jesus in a Thousand Difficulties (Bogotá, Colombia)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Divine Child Jesus, Master of my heart and life, my gentle and beloved Savior! Before You I kneel, weighed down by burdens, yet filled with unwavering confidence in Your infinite mercy:\n\nI have a thousand difficulties: help me.\nFrom the enemies of my soul: save me.\nIn my mistakes and errors: enlighten me.\nIn my doubts and sorrows: comfort me.\nIn my loneliness: stay with me.\nIn my sickness: strengthen me.\nWhen others despise me: encourage me.\nIn temptations: defend me.\nIn difficult hours: console me.\nWith Your Fatherly heart: love me.\nWith Your immense power: protect me.\nAnd into Your arms when I expire: receive me.\n\nInto Your miraculous hands, Divine Child Jesus, I place my sorrows, my family, and all my hopes. Divine Child Jesus, in You I trust! Amen.",
+      "textoOriginal": "Divine Child Jesus, I trust in You! I have a thousand difficulties: help me. From the enemies of my soul: save me. Amen.",
+      "guiaFonetica": "[Divine Child Jesus, in You I trust...]",
+      "metadata": {
+        "origen": "Sanctuary of the Divine Child Jesus of July 20 (Bogotá, Colombia)",
+        "proposito": "Beloved traditional supplication for immediate relief in distress, family problems, and illness.",
+        "tags": [
+          "catholicism",
+          "divine_child_jesus",
+          "colombia",
+          "thousand_difficulties",
+          "in_you_i_trust",
+          "help"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Our Father Jesus the Nazarene of Saint Paul · The Miraculous Lemon Tree (Caracas, Venezuela)",
+      "nombre": "Our Father Jesus the Nazarene of Saint Paul · The Miraculous Lemon Tree (Caracas, Venezuela)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "O most beloved Jesus the Nazarene of Saint Paul, suffering Christ and blessed Lord of gentle and compassionate gaze! You who in Your purple tunic, bearing the heavy Cross, bless the faithful who revere You in the Basilica of Saint Teresa in Caracas: remember the historic miracle of the lemon tree, when amidst plague and desolation You poured healing and health upon the afflicted. Turn Your merciful eyes toward our homes, our families, and our nations. Deliver us from epidemics, sickness of body and soul, and heavy trials; heal those who suffer in hospitals; lighten our burdens and give us strength to carry our daily crosses with steadfast faith. Jesus the Nazarene of Saint Paul, bless us and grant us Your healing peace! Amen.",
+      "textoOriginal": "O Jesus the Nazarene of Saint Paul! By the miracle of the lemon tree, deliver us from plague and heal our sickness. Amen.",
+      "guiaFonetica": "[O most beloved Jesus the Nazarene of Saint Paul...]",
+      "metadata": {
+        "origen": "Basilica of Saint Teresa (Caracas, Venezuela)",
+        "proposito": "National Venezuelan devotion for protection against pestilence, healing of sickness, and spiritual solace.",
+        "tags": [
+          "catholicism",
+          "nazarene_of_saint_paul",
+          "venezuela",
+          "healing",
+          "protection_from_disease",
+          "miracles"
+        ]
+      }
     }
   ]
 }

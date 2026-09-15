@@ -94582,6 +94582,72 @@
           "sante"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Notre-Dame du Mont-Carmel · Prière du Conducteur et Protection sur les Routes",
+      "nombre": "Notre-Dame du Mont-Carmel · Prière du Conducteur et Protection sur les Routes",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "Ô Vierge du Mont-Carmel, Mère de Dieu et Patronne bien-aimée des conducteurs et des voyageurs! Donne-moi, Ô Mère, une main sûre et un regard attentif afin que sur ma route je ne cause de tort à personne. Je te confie ma vie et celle de ceux qui m'accompagnent. Préserve-moi des accidents, des dangers et de toute imprudence. Fais que je conduise avec calme, patience et courtoisie; et qu'à la fin de mon voyage, guidé par ton étoile maternelle, je revienne sain et sauf auprès des miens. Vierge du Carmel, Reine des routes, sois avec moi à chaque trajet! Amen.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera... Sancta Maria, Regina Viae, protege nos in omni itinere.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera...]",
+      "metadata": {
+        "origen": "Tradition Dévotionnelle de Notre-Dame du Mont-Carmel pour les Chauffeurs",
+        "proposito": "Prière pour la sécurité routière et la protection des voyageurs.",
+        "tags": [
+          "catholicisme",
+          "notre_dame_du_carmel",
+          "conducteur",
+          "voyage",
+          "securite_routiere"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Supplication au Divin Enfant Jésus dans les Mille Difficultés (Bogota)",
+      "nombre": "Supplication au Divin Enfant Jésus dans les Mille Difficultés (Bogota)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "Divin Enfant Jésus, Maître de mon cœur et de ma vie, mon doux Sauveur! Devant Toi je m'incline avec une confiance absolue:\n\nJ'ai mille difficultés: aide-moi.\nDes ennemis de l'âme: sauve-moi.\nDans mes erreurs: éclaire-moi.\nDans mes doutes et peines: réconforte-moi.\nDans mes solitudes: accompagne-moi.\nDans mes maladies: fortifie-moi.\nDans les tentations: défends-moi.\nDans les heures difficiles: console-moi.\nPar ton immense puissance: protège-moi.\nEt dans tes bras à mon dernier soupir: reçois-moi.\n\nEn tes mains bénies je remets mes épreuves et mon espérance. Divin Enfant Jésus, j'ai confiance en Toi! Amen.",
+      "textoOriginal": "Divin Enfant Jésus, j'ai confiance en Toi! J'ai mille difficultés: aide-moi.",
+      "guiaFonetica": "[Divin Enfant Jesus, j'ai confiance en Toi...]",
+      "metadata": {
+        "origen": "Sanctuaire du Divin Enfant Jésus (Bogota, Colombie)",
+        "proposito": "Prière populaire de secours dans les épreuves insurmontables.",
+        "tags": [
+          "catholicisme",
+          "enfant_jesus",
+          "mille_difficultes",
+          "confiance",
+          "secours"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Notre Père Jésus Nazaréen de Saint-Paul · Le Citronnier du Seigneur (Caracas)",
+      "nombre": "Notre Père Jésus Nazaréen de Saint-Paul · Le Citronnier du Seigneur (Caracas)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "Ô très aimé Jésus Nazaréen de Saint-Paul, Christ souffrant au regard plein de douceur et de miséricorde! Toi qui portes la lourde Croix pour notre salut: souviens-toi du miracle historique du citronnier, lorsque au cœur de l'épidémie Tu as accordé la guérison aux malades. Tourne tes yeux compatissants vers nos foyers. Délivre-nous des épidémies et des maux du corps et de l'âme; guéris ceux qui souffrent et donne-nous le courage de porter nos croix quotidiennes. Jésus Nazaréen de Saint-Paul, bénis-nous et accorde-nous ta paix! Amen.",
+      "textoOriginal": "Ô Jésus Nazaréen de Saint-Paul! Par le miracle du citronnier, guéris nos malades. Amen.",
+      "guiaFonetica": "[O tres aime Jesus Nazareen de Saint-Paul...]",
+      "metadata": {
+        "origen": "Basilique Sainte-Thérèse (Caracas, Venezuela)",
+        "proposito": "Prière de guérison et de protection contre les épidémies.",
+        "tags": [
+          "catholicisme",
+          "jesus_nazareen",
+          "guerison",
+          "venezuela",
+          "protection"
+        ]
+      }
     }
   ]
 }

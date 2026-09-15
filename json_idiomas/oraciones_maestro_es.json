@@ -94593,6 +94593,77 @@
           "cirugias"
         ]
       }
+    },
+    {
+      "id": "CAT_COL_VIRGEN_DEL_CARMEN_CONDUCTOR",
+      "titulo": "Virgen del Carmen · Oración del Conductor y Protección en los Caminos",
+      "nombre": "Virgen del Carmen · Oración del Conductor y Protección en los Caminos",
+      "tradicion": "catolicismo",
+      "categoria": "viajes_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "¡Oh Virgen del Carmen, bendita Madre de Dios y amada Patrona de los conductores y transportadores! Dame, Señora, mano firme y mirada vigilante para que a mi paso no cause daño a nadie. A Ti, que das la vida y la conservas, te suplico humildemente guardes hoy la mía y la de quienes me acompañan. Líbrame, Madre mía, de todo accidente, peligro, choque, asalto y avería; aparta de mi camino las imprudencias y las acechanzas del enemigo. Haz que conduzca con prudencia, paciencia y serenidad, sirviendo con honradez a mi prójimo. Y que al finalizar la jornada, guiado por tu estrella maternal, regrese sano y salvo al seno de mi hogar. ¡Virgen del Carmen, reina de los caminos, acompáñame en cada viaje! Amén.",
+      "textoOriginal": "Flos Carmeli, Vitis florigera, splendor caeli... Sancta Maria, Mater Dei et Regina Viae, protege nos in omni itinere et perduc ad portum salutis. Amen.",
+      "guiaFonetica": "[Flos Carmeli, Vitis florigera, splendor caeli... Sancta Maria, Mater Dei et Regina Viae, protege nos in omni itinere...]",
+      "metadata": {
+        "origen": "Tradición Mariana Colombiana y Latinoamericana de los Conductores del Carmen",
+        "proposito": "Plegaria popular del conductor y transportador para pedir protección en carreteras, evitar accidentes y retornar con bien al hogar.",
+        "tags": [
+          "catolicismo",
+          "virgen_del_carmen",
+          "colombia",
+          "conductor",
+          "viajes",
+          "proteccion_caminos"
+        ]
+      }
+    },
+    {
+      "id": "CAT_COL_DIVINO_NINO_MIL_DIFICULTADES",
+      "titulo": "Súplica al Divino Niño Jesús ante las Mil Dificultades (20 de Julio, Bogotá)",
+      "nombre": "Súplica al Divino Niño Jesús ante las Mil Dificultades (20 de Julio, Bogotá)",
+      "tradicion": "catolicismo",
+      "categoria": "auxilio_en_necesidades",
+      "tipo": "oracion",
+      "textoTraducido": "¡Divino Niño Jesús, dueño de mi corazón y de mi vida, mi tierno y amado Salvador! Ante Ti me postro cargado de angustias, pero lleno de una confianza invencible en tu amor y tu poder infinito:\n\nTengo mil dificultades: ayúdame.\nDe los enemigos del alma: sálvame.\nEn mis desaciertos: ilumíname.\nEn mis dudas y penas: confórtame.\nEn mis soledades: acompáñame.\nEn mis enfermedades: fortaléceme.\nCuando me desprecien: anímame.\nEn las tentaciones: defiéndeme.\nEn las horas difíciles: consuélame.\nCon tu corazón de Padre: ámame.\nCon tu inmenso poder: protégeme.\nY en tus brazos al expirar: recíbeme.\n\nEn tus manos milagrosas, Divino Niño Jesús, coloco mis penas, mis necesidades, mi familia y mis esperanzas. ¡Divino Niño Jesús, bendice mi hogar y ten piedad de nosotros! ¡Divino Niño Jesús, en Ti confío! Amén.",
+      "textoOriginal": "¡Divino Niño Jesús, en Ti confío! Tengo mil dificultades: ayúdame. De los enemigos del alma: sálvame. En tus manos coloco mis penas y esperanzas. Amén.",
+      "guiaFonetica": "[¡Divino Niño Jesús, en Ti confío! Tengo mil dificultades: ayúdame...]",
+      "metadata": {
+        "origen": "Santuario del Divino Niño Jesús del 20 de Julio (Bogotá, Colombia)",
+        "proposito": "Plegaria popular por excelencia de Colombia y América Latina para auxilio inmediato ante problemas imposibles y desamparo.",
+        "tags": [
+          "catolicismo",
+          "divino_nino",
+          "bogota",
+          "colombia",
+          "mil_dificultades",
+          "en_ti_confio",
+          "auxilio"
+        ]
+      }
+    },
+    {
+      "id": "CAT_VEN_NAZARENO_DE_SAN_PABLO",
+      "titulo": "Nuestro Padre Jesús Nazareno de San Pablo · El Limonero del Señor (Caracas, Venezuela)",
+      "nombre": "Nuestro Padre Jesús Nazareno de San Pablo · El Limonero del Señor (Caracas, Venezuela)",
+      "tradicion": "catolicismo",
+      "categoria": "salud_y_proteccion",
+      "tipo": "oracion",
+      "textoTraducido": "¡Oh amadísimo Jesús Nazareno de San Pablo, Cristo sufriente y bendito Señor de la dulce y compasiva mirada! Tú que con tu túnica morada y tu pesada Cruz a cuestas bendices al pueblo que te venera en la Basílica de Santa Teresa en Caracas: acuérdate del histórico prodigio del limonero milagroso, cuando en medio de la peste y la desolación derramaste salud y consuelo sobre los enfermos. Vuelve hoy tus ojos misericordiosos hacia nuestros hogares, nuestras familias y nuestra patria. Líbranos de epidemias, pestes, tribulaciones y enfermedades del cuerpo y del alma; sana a los que sufren en los hospitales; alivia las cargas pesadas de quienes desfallecen y danos la fortaleza para llevar nuestras cruces cotidianas con fe y esperanza. ¡Jesús Nazareno de San Pablo, perdónanos, bendícenos y salva a nuestro pueblo! Amén.",
+      "textoOriginal": "¡Oh Señor Jesús Nazareno de San Pablo! Por el milagro del limonero y tu Cruz bendita, líbranos de la peste, sana nuestras enfermedades y protege a Venezuela. Amén.",
+      "guiaFonetica": "[¡Oh Señor Jesús Nazareno de San Pablo! Por el milagro del limonero y tu Cruz bendita...]",
+      "metadata": {
+        "origen": "Basílica de Santa Teresa (Caracas, Venezuela - Siglo XVII)",
+        "proposito": "Plegaria cumbre de la Semana Santa y devoción nacional venezolana para pedir salud, cese de epidemias y protección familiar.",
+        "tags": [
+          "catolicismo",
+          "venezuela",
+          "nazareno_de_san_pablo",
+          "caracas",
+          "limonero_del_senor",
+          "salud",
+          "sanacion"
+        ]
+      }
     }
   ]
 }
