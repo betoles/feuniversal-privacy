@@ -65,7 +65,13 @@ export class PrayerCorpusService {
           resolve(null);
           return;
         }
-        const req = window.indexedDB.open('feuniversal_prayers_corpus_db_v10_7', 1);
+        try {
+          if (window.indexedDB.deleteDatabase) {
+            window.indexedDB.deleteDatabase('feuniversal_prayers_corpus_db_v10_7');
+            window.indexedDB.deleteDatabase('feuniversal_prayers_corpus_db_v10_6');
+          }
+        } catch (_) {}
+        const req = window.indexedDB.open('feuniversal_prayers_corpus_db_v10_7_5', 1);
         req.onupgradeneeded = (e) => {
           const db = e.target.result;
           if (!db.objectStoreNames.contains('language_corpuses')) {
@@ -119,7 +125,7 @@ export class PrayerCorpusService {
     }
 
     // 3. Cargar archivo JSON/GZ vía Fetch con descompresión transparente
-    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json?v=10.7.0`;
+    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json?v=10.7.5`;
     try {
       const data = await fetchAndDecompressJson(jsonPath);
       const oraciones = data.oraciones || [];
