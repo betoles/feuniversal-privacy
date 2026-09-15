@@ -6,7 +6,7 @@
  * y por palabras clave/conceptos en el corpus sagrado universal.
  */
 
-import { SCRIPTURES_CATALOG, SACRED_BOOKS_INDEX } from '../data/scriptures-catalog.js';
+import { SCRIPTURES_CATALOG, SACRED_BOOKS_INDEX, SACRED_BOOKS_I18N } from '../data/scriptures-catalog.js';
 
 export class ScriptureSearchEngine {
   static searchCache = new Map();
@@ -208,12 +208,12 @@ export class ScriptureSearchEngine {
   /**
    * Búsqueda general en tiempo real en todo el catálogo con ranking y caché
    */
-  static search(query, maxResults = 25) {
+  static search(query, maxResults = 25, activeLang = 'es') {
     if (!query || query.trim().length < 2) return [];
 
     const limit = typeof maxResults === 'number' ? maxResults : 25;
     const cleanQuery = query.trim().toLowerCase();
-    const cacheKey = `${cleanQuery}_${limit}`;
+    const cacheKey = `${cleanQuery}_${limit}_${activeLang}`;
 
     if (ScriptureSearchEngine.searchCache.has(cacheKey)) {
       return ScriptureSearchEngine.searchCache.get(cacheKey);
@@ -247,10 +247,10 @@ export class ScriptureSearchEngine {
       const section = (item.seccion || '').toLowerCase();
       const orig = (item.textoOriginal || '').toLowerCase();
       const phon = (item.foneticaLiturgica || '').toLowerCase();
-      const transES = (item.traducciones && item.traducciones.es || '').toLowerCase();
-      const transEN = (item.traducciones && item.traducciones.en || '').toLowerCase();
+      const bKey = item.libroKey;
+      const bI18n = (bKey && SACRED_BOOKS_I18N && SACRED_BOOKS_I18N[bKey]) || null;
 
-      // Coincidencia de frase exacta
+      // Coincidencia de frase exacta en títulos de catálogo
       if (title.includes(cleanQuery)) {
         score += 60;
       }
@@ -260,21 +260,59 @@ export class ScriptureSearchEngine {
       if (book.includes(cleanQuery)) {
         score += 30;
       }
-      if (transES && transES.includes(cleanQuery)) {
-        score += 50;
-        matchedSnippet = ScriptureSearchEngine.extractSnippet(item.traducciones.es, cleanQuery);
-      } else if (transEN && transEN.includes(cleanQuery)) {
-        score += 45;
-        matchedSnippet = ScriptureSearchEngine.extractSnippet(item.traducciones.en, cleanQuery);
-      } else if (orig && orig.includes(cleanQuery)) {
+
+      // Coincidencia en SACRED_BOOKS_I18N (títulos, subtítulos y secciones en 17 idiomas)
+      if (bI18n) {
+        if (bI18n.title) {
+          for (const [lKey, tVal] of Object.entries(bI18n.title)) {
+            if (typeof tVal === 'string' && tVal.toLowerCase().includes(cleanQuery)) {
+              score += (lKey === activeLang ? 60 : 35);
+              break;
+            }
+          }
+        }
+        if (bI18n.subtitle) {
+          for (const [lKey, tVal] of Object.entries(bI18n.subtitle)) {
+            if (typeof tVal === 'string' && tVal.toLowerCase().includes(cleanQuery)) {
+              score += (lKey === activeLang ? 40 : 25);
+              break;
+            }
+          }
+        }
+        if (bI18n.section) {
+          for (const [lKey, tVal] of Object.entries(bI18n.section)) {
+            if (typeof tVal === 'string' && tVal.toLowerCase().includes(cleanQuery)) {
+              score += (lKey === activeLang ? 40 : 25);
+              break;
+            }
+          }
+        }
+      }
+
+      // Coincidencia en traducciones disponibles
+      if (item.traducciones) {
+        for (const [tLang, tVal] of Object.entries(item.traducciones)) {
+          if (typeof tVal === 'string' && tVal.toLowerCase().includes(cleanQuery)) {
+            score += (tLang === activeLang ? 55 : (tLang === 'es' || tLang === 'en' ? 45 : 35));
+            if (!matchedSnippet) {
+              matchedSnippet = ScriptureSearchEngine.extractSnippet(tVal, cleanQuery);
+            }
+            break;
+          }
+        }
+      }
+
+      if (orig && orig.includes(cleanQuery)) {
         score += 35;
-        matchedSnippet = ScriptureSearchEngine.extractSnippet(item.textoOriginal, cleanQuery);
+        if (!matchedSnippet) {
+          matchedSnippet = ScriptureSearchEngine.extractSnippet(item.textoOriginal, cleanQuery);
+        }
       }
 
       // Coincidencia de términos individuales
       let termMatches = 0;
       for (const t of terms) {
-        if (title.includes(t) || section.includes(t) || transES.includes(t) || transEN.includes(t) || orig.includes(t) || phon.includes(t)) {
+        if (title.includes(t) || section.includes(t) || book.includes(t) || orig.includes(t) || phon.includes(t)) {
           termMatches++;
         }
       }
