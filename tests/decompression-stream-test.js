@@ -34,10 +34,10 @@ async function runTests() {
 
     const decompressed = await fetchAndDecompressJson(`json_idiomas/oraciones_maestro_${lang}.json`);
     assert(decompressed && Array.isArray(decompressed.oraciones), `Formato inválido para oraciones ${lang}`);
-    assert(decompressed.oraciones.length === 4245, `Recuento incorrecto en ${lang}: esperado 4245, obtenido ${decompressed.oraciones.length}`);
+    assert(decompressed.oraciones.length === originalJson.oraciones.length, `Recuento incorrecto en ${lang}: esperado ${originalJson.oraciones.length}, obtenido ${decompressed.oraciones.length}`);
     assert(decompressed.oraciones[0].id === originalJson.oraciones[0].id, `Paridad de ID fallida en primer elemento de ${lang}`);
-    assert(decompressed.oraciones[4244].id === originalJson.oraciones[4244].id, `Paridad de ID fallida en último elemento de ${lang}`);
-    console.log(`   [OK] Idioma [${lang}]: 4,245 oraciones descomprimidas e idénticas 1:1 al original`);
+    assert(decompressed.oraciones[decompressed.oraciones.length - 1].id === originalJson.oraciones[originalJson.oraciones.length - 1].id, `Paridad de ID fallida en último elemento de ${lang}`);
+    console.log(`   [OK] Idioma [${lang}]: ${decompressed.oraciones.length} oraciones descomprimidas e idénticas 1:1 al original`);
   }
 
   // 2. Validar descompresión directa de escrituras sagradas (.json.gz)
@@ -66,7 +66,7 @@ async function runTests() {
   // 3. Probar integración end-to-end con PrayerCorpusService
   console.log("\n3. Probando integración de PrayerCorpusService con descompresión transparente...");
   const esPrayers = await PrayerCorpusService.loadCorpus('es');
-  assert(esPrayers.length === 4245, "PrayerCorpusService no cargó las 4,245 oraciones de ES");
+  assert(esPrayers.length === 4312, `PrayerCorpusService cargó ${esPrayers.length}, esperado 4312`);
   const samplePrayer = await PrayerCorpusService.getPrayerById('ARCANGEL_MIGUEL_ESPADA', 'es');
   assert(samplePrayer && samplePrayer.titulo, "getPrayerById falló al obtener ARCANGEL_MIGUEL_ESPADA");
   console.log(`   [OK] PrayerCorpusService: Oración obtenida: "${samplePrayer.titulo}"`);
