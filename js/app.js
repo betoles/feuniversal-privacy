@@ -13,6 +13,7 @@ import { renderIcon, renderLangBadge } from './components/icons.js?v=9.3.0';
 import { t, isRTL } from './data/i18n.js?v=9.3.0';
 import { STOPWORDS_BY_LANG, matchesTraditionInclusive, getSharedTraditions, getEcumenicalBadgeText } from './data/cross-traditions.js?v=10.4.0';
 import { prayerMatchesEmotionCanonical } from './data/emotion-taxonomy.js?v=10.4.0';
+import { NotificationService } from './services/notification-service.js?v=10.7.5';
 
 import { OnboardingComponent } from './components/onboarding.js?v=9.3.0';
 import { MirrorReaderComponent } from './components/mirror-reader.js?v=9.3.0';
@@ -128,7 +129,28 @@ export class FeUniversalApp {
       try { this.handleIncomingDeepLinks(); } catch (e) { console.warn('Error handleIncomingDeepLinks:', e); }
     }
 
-    // 2. Control de Onboarding: Si viene un enlace directo a una oración, suprimir onboarding
+    // 2. Iniciar Motor de Alarmas y Despertador Sagrado Multi-Plataforma
+    try {
+      NotificationService.startAlarmEngine((slot, title, body) => {
+        SacredDialog.alert({
+          title: title,
+          message: `${body}\n\n¿Deseas entrar a tu santuario y consagrar este momento?`,
+          icon: 'ui_bell',
+          buttonText: 'Comenzar Momento Sagrado',
+          type: 'gold',
+          onConfirm: () => {
+            const prayers = this.getFilteredPrayers();
+            if (prayers && prayers.length > 0) {
+              this.mirrorReader.open(prayers[0]);
+            }
+          }
+        });
+      });
+    } catch (e) {
+      console.warn('[AlarmEngine] Error iniciando motor de alarmas:', e);
+    }
+
+    // 3. Control de Onboarding: Si viene un enlace directo a una oración, suprimir onboarding
     if (!this.prefs.onboardingCompletado && !incomingPrayerId) {
       setTimeout(() => this.onboarding.open(1), 500);
     } else if (StorageService.shouldShowWeeklyPaywallReminder() && !incomingPrayerId) {

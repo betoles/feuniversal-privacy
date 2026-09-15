@@ -174,16 +174,24 @@ export class NotificationModalComponent {
 
     const saveBtn = document.getElementById('btn-save-notif-schedule');
     if (saveBtn) {
-      saveBtn.addEventListener('click', () => {
+      saveBtn.addEventListener('click', async () => {
         const sched = NotificationService.getSchedule();
         sched.albaEnabled = document.getElementById('notif-toggle-alba')?.checked || false;
         sched.mediodiaEnabled = document.getElementById('notif-toggle-mediodia')?.checked || false;
         sched.ocasoEnabled = document.getElementById('notif-toggle-ocaso')?.checked || false;
         sched.nocheEnabled = document.getElementById('notif-toggle-noche')?.checked || false;
         NotificationService.saveSchedule(sched);
+
+        // Solicitar permisos nativos si hay algún horario activado
+        const anyActive = sched.albaEnabled || sched.mediodiaEnabled || sched.ocasoEnabled || sched.nocheEnabled;
+        if (anyActive) {
+          await NotificationService.requestPermission();
+          NotificationService.startAlarmEngine();
+        }
+
         const prefs = StorageService.getPreferences();
         const lang = prefs.idioma || 'es';
-        SacredDialog.toast(t('notification_toast_saved', lang) || 'Horarios devocionales guardados con éxito.');
+        SacredDialog.toast(t('notification_toast_saved', lang) || '✨ Horarios sagrados y alarma devocional activados con éxito.');
         this.close();
       });
     }
