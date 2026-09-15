@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "سان أونوفري · توفير العمل اللائق والمأوى والرخاء",
+      "titulo": "القديس أونوفريوس (مار نوفر السائح) · صلاة من أجل العمل الشريف والمأوى والرزق",
       "tradicion": "catolicismo",
       "categoriaIntencion": "رزق_وعمل",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "أيها القديس أونوفريوس المجيد،  خادم الله المتواضع الذي تدعمه العناية الإلهية: إمنحني المساعدة في احتياجاتي المادية،  وافتح مصادر العمل واجلب الوفرة إلى حياتي. آمين.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Ya Qiddis Onophriyus as-Sa'ih al-Mubarak...]",
+      "textoTraducido": "يا قديس أونوفريوس السائح المبارك، يا خادم الله المتوحد في البرية والمقتات بالعناية الإلهية! انظر بعين الرأفة إلى ضيقتي وحاجتي المعيشية. تضرع أمام عرش النعمة لكي ينعم الله عليّ بعمل شريف وثابت، ويبعد الفقر والديون عن بيتي، ويرزقنا مأوى آمناً وخبزنا كفاف يومنا. يا قديس أونوفريوس، لا تتركني في وقت حاجتي! آمين.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "القديس أونوفريوس (مار نوفر السائح) · صلاة من أجل العمل الشريف والمأوى والرزق",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "التقاليد التقوية للقديس أونوفريوس السائح (مار نوفر)",
+        "proposito": "صلاة لطلب العمل وسداد الديون وتأمين المسكن والرزق الحلال.",
+        "tags": [
+          "كاثوليكية",
+          "القديس_أونوفريوس",
+          "عمل",
+          "رزق",
+          "سكن"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "القديس بانتاليون · الطبيب والشهيد · تخفيف المعاناة والصحة",
+      "titulo": "القديس بانتاليون · الطبيب والشهيد الشافي للأمراض",
       "tradicion": "catolicismo",
       "categoriaIntencion": "صحة_وشفاء",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "أيها القديس بانتاليون،  أيها الطبيب الرؤوف الذي عالجته بالعلم والإيمان: أنظر إلى أمراضنا وآلامنا. أسكب على جسدنا بلسم الطب الإلهي،  وخفف آلام المرضى،  واهد يد الأطباء الذين يساعدوننا. آمين.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi... Amen.",
+      "guiaFonetica": "[Ayyuha al-Qiddis al-Majid Pantaleon...]",
+      "textoTraducido": "أيها القديس المجيد بانتاليون، يا شهيد يسوع المسيح وطبيب المتألمين الرحيم! أنت الذي داويت المرضى مجاناً باسم الرب وسفكت دمك حباً بالمسيح: اطلب من الله الشفاء للمرضى، وتسكين الأوجاع، والقوة في المحن. أرشد الأطباء والممرضين وهبنا نعمة الصحة والسلام. أيها القديس بانتاليون العجائبي، صلِّ لأجلنا واشفِ مرضانا! آمين.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "القديس بانتاليون · الطبيب والشهيد الشافي للأمراض",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "التقاليد التقوية للقديس بانتاليون الطبيب الشافي",
+        "proposito": "صلاة لطلب الشفاء من الأمراض الجسدية وحماية الكوادر الطبية.",
+        "tags": [
+          "كاثوليكية",
+          "القديس_بانتاليون",
+          "شفاء",
+          "صحة",
+          "أطباء"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "صلاة إلى عذراء كارمن دي مايبو",
+      "titulo": "سيدة الكرمل في مايبو · شفيعة تشيلي وملكتها",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_social_y_proteccion_escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "يا عذراء كارمن دي مايبو: مدي ثوبك المقدس فوقنا،  واحمي السلام في وطننا وكن ملجأ لنا في ساعة الخطر. آمين.",
+      "textoOriginal": "يا سيدة الكرمل في مايبو، باركي شعبنا ووطننا. آمين.",
+      "guiaFonetica": "[Ya 'Adhra Sayyidat al-Karmel fi Maipu...]",
+      "textoTraducido": "يا عذراء سيدة الكرمل في مايبو، ملكة تشيلي وشفيعتها! نكرس لقلبكِ بيوتنا وعائلاتنا. ابسطي ثوب حمايتكِ علينا، وامنحينا العدل والسلام والوفاق الأخوي. يا أم الكرمل، باركي شعبكِ دائماً وأبداً! آمين.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "سيدة الكرمل في مايبو · شفيعة تشيلي وملكتها",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "مزار مايبو الوطني (تشيلي)",
+        "proposito": "صلاة تكريس العائلات وطلب السلام الوطني والازدهار.",
+        "tags": [
+          "كاثوليكية",
+          "سيدة_الكرمل_مايبو",
+          "تشيلي",
+          "سلام"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94648,6 +94689,27 @@
           "شفاء",
           "فنزويلا",
           "حماية_من_الوباء"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "الطوباوي زيفيرينو نامونكورا · زنبقة باتاغونيا وقدوة الشبيبة",
+      "nombre": "الطوباوي زيفيرينو نامونكورا · زنبقة باتاغونيا وقدوة الشبيبة",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "أيها الرب يسوع، يا من وهبتنا في الطوباوي زيفيرينو نامونكورا مثالاً رائعاً في النقاوة والمحبة البسيطة! امنح شبيبتنا بشفاعته نعمة الثبات في الإيمان والرجاء. يا طوباوي زيفيرينو، يا زنبقة باتاغونيا، صلِّ لأجلنا! آمين.",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Ayyuha at-Tubawe Zeferino Namuncura...]",
+      "metadata": {
+        "origen": "التقاليد الساليزيانية التقوية",
+        "proposito": "صلاة من أجل الشبيبة ونقاوة القلب.",
+        "tags": [
+          "كاثوليكية",
+          "زيفيرينو_نامونكورا",
+          "شبيبة",
+          "باتاغونيا"
         ]
       }
     }

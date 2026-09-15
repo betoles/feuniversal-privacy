@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "San Onofre · Offre de travail décent, de logement et de prospérité",
+      "titulo": "Saint Onuphre · Anachorète du Désert · Travail Digne, Toit et Subsistance",
       "tradicion": "catolicismo",
       "categoriaIntencion": "prosperite_travail",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desespoir"
       ],
       "idiomaLiturgicoOriginal": "Espagnol Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "Ô glorieux Saint Onuphrius, humble serviteur de Dieu soutenu par la Divine Providence : accorde-moi de l'aide dans mes besoins matériels, ouvre des sources de travail et apporte une juste abondance à ma vie. Amen.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[O bienheureux Saint Onuphre...]",
+      "textoTraducido": "Ô bienheureux Saint Onuphre, ermite du désert nourri par la Divine Providence! Regarde avec bonté mes nécessités matérielles. Obtiens-moi de Dieu un travail honnête et stable, éloigne la précarité de mon foyer et accorde-nous un toit sûr et le pain de chaque jour. Saint Onuphre, viens à mon secours en ce temps d'épreuve! Amen.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Saint Onuphre · Anachorète du Désert · Travail Digne, Toit et Subsistance",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Tradition Dévotionnelle de Saint Onuphre le Grand",
+        "proposito": "Prière pour l'emploi, le logement et la subsistance familiale.",
+        "tags": [
+          "catholicisme",
+          "saint_onuphre",
+          "travail",
+          "emploi",
+          "logement"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "Saint Pantaléon · Médecin et Martyr · Soulagement des Souffrances et Santé",
+      "titulo": "Saint Pantaléon · Médecin et Martyr · Santé des Malades et Prière du 27",
       "tradicion": "catolicismo",
       "categoriaIntencion": "sante_guerison",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desespoir"
       ],
       "idiomaLiturgicoOriginal": "Grec y Latin Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "Saint Pantaléon, médecin compatissant que tu as guéri avec science et foi : regarde nos maux et nos souffrances. Versez le baume de la médecine divine sur notre corps, soulagez les douleurs des malades et guidez la main des médecins qui nous assistent. Amen.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi... Amen.",
+      "guiaFonetica": "[Sancte Pantaleon, medicus misericors...]",
+      "textoTraducido": "Ô glorieux Saint Pantaléon, martyr du Christ et médecin des affligés! Toi qui as uni ta science à la foi pour guérir gratuitement les malades au Nom du Seigneur: obtiens de Dieu la santé pour ceux qui souffrent, le soulagement des douleurs et la force dans l'épreuve. Guide les médecins et soignants. Saint Pantaléon thaumaturge, prie pour nous et guéris nos malades! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Saint Pantaléon · Médecin et Martyr · Santé des Malades et Prière du 27",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Tradition Dévotionnelle de Saint Pantaléon Guérisseur",
+        "proposito": "Prière de guérison corporelle et de bénédiction des soignants.",
+        "tags": [
+          "catholicisme",
+          "saint_pantaleon",
+          "guerison",
+          "sante",
+          "malades"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Prière à la Vierge de Carmen de Maipú",
+      "titulo": "Notre-Dame du Mont-Carmel de Maipú · Patronne du Chili",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Paz_Social_Y_Proteccion_Escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Espagnol chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Vierge de Carmen de Maipú : étends sur nous ton Saint Scapulaire, protège la paix dans notre patrie et sois notre refuge à l'heure du danger. Amen.",
+      "textoOriginal": "Notre-Dame du Mont-Carmel de Maipú, protège notre patrie. Amen.",
+      "guiaFonetica": "[Vierge du Carmel de Maipu...]",
+      "textoTraducido": "Vierge du Carmel de Maipú, Reine et Patronne du Chili! Nous te consacrons nos foyers et notre patrie. Étends sur nous ton Saint Scapulaire, fais grandir la justice et la paix fraternelle. Mère du Carmel, bénis ton peuple à jamais! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Notre-Dame du Mont-Carmel de Maipú · Patronne du Chili",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Sanctuaire National de Maipú (Chili)",
+        "proposito": "Prière de consécration et de protection mariale.",
+        "tags": [
+          "catholicisme",
+          "notre_dame_du_carmel",
+          "chili",
+          "maipu"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94646,6 +94687,27 @@
           "guerison",
           "venezuela",
           "protection"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Bienheureux Zéphyrin Namuncurá · Le Lys de Patagonie",
+      "nombre": "Bienheureux Zéphyrin Namuncurá · Le Lys de Patagonie",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Seigneur Jésus, qui as donné dans le Bienheureux Zéphyrin Namuncurá un modèle de pureté et de dévouement joyeux! Accorde-nous par sa prière de protéger notre jeunesse et de grandir dans l'amour fraternel. Bienheureux Zéphyrin, lys de Patagonie, prie pour nous! Amen.",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Beate Zepherine Namuncura...]",
+      "metadata": {
+        "origen": "Tradition Salésienne",
+        "proposito": "Prière pour la jeunesse et la pureté d'âme.",
+        "tags": [
+          "catholicisme",
+          "zephyrin_namuncura",
+          "jeunesse",
+          "patagonie"
         ]
       }
     }

@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "San Onofre · Fornitura di lavoro dignitoso, alloggio ed prosperità",
+      "titulo": "Sant'Onofrio · Anacoreta del Deserto · Lavoro Dignitoso, Casa e Provvidenza",
       "tradicion": "catolicismo",
       "categoriaIntencion": "prosperita_lavoro",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "O glorioso Sant'Onufrio, umile servitore di Dio sostenuto dalla Divina Provvidenza: concedimi aiuto nei miei bisogni materiali, apri fonti di lavoro e porta giusta abbondanza nella mia vita. Amen.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti, ora pro nobis et impetra nobis laborem et panem. Amen.",
+      "guiaFonetica": "[O beato Sant'Onofrio, umile anacoreta...]",
+      "textoTraducido": "O beato Sant'Onofrio, umile anacoreta del deserto sostenuto dalla Divina Provvidenza! Guarda con pietà alle mie necessità. Intercedi presso Dio affinché io trovi un lavoro onesto e sicuro, allontana la miseria dalla mia casa e donaci un tetto stabile e il pane quotidiano. Sant'Onofrio benedetto, soccorrimi nella mia indigenza! Amen.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Sant'Onofrio · Anacoreta del Deserto · Lavoro Dignitoso, Casa e Provvidenza",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Tradizione Devozionale di Sant'Onofrio Anacoreta",
+        "proposito": "Preghiera per trovare lavoro e provvidenza materiale.",
+        "tags": [
+          "cattolicesimo",
+          "sant_onofrio",
+          "lavoro",
+          "casa",
+          "provvidenza"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "San Pantaleone · Medico ed Martire · Sollievo della Sofferenza ed della Salute",
+      "titulo": "San Pantaleone · Medico e Martire · Salute degli Infermi e Preghiera del Giorno 27",
       "tradicion": "catolicismo",
       "categoriaIntencion": "salute_guarigione",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "San Pantaleone, medico compassionevole che hai curato con scienza e fede: guarda i nostri disturbi e le nostre sofferenze. Versa sul nostro corpo il balsamo della medicina divina, allevia il dolore degli ammalati e guida la mano dei medici che ci assistono. Amen.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi... Amen.",
+      "guiaFonetica": "[Sancte Pantaleon, medicus misericors...]",
+      "textoTraducido": "O glorioso San Pantaleone, insigne martire di Cristo e medico compassionevole! Tu che curasti gratuitamente i malati nel Nome del Signore: volgi il tuo sguardo su chi soffre nel corpo e nello spirito. Ottieni da Dio la guarigione per gli ammalati, sollievo nei dolori e conforto nella prova. Guida le mani dei medici e donaci pace e salute. San Pantaleone taumaturgo, prega per noi! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "San Pantaleone · Medico e Martire · Salute degli Infermi e Preghiera del Giorno 27",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Tradizione Devozionale di San Pantaleone Medico",
+        "proposito": "Preghiera per la guarigione fisica e la protezione del personale medico.",
+        "tags": [
+          "cattolicesimo",
+          "san_pantaleone",
+          "guarigione",
+          "salute",
+          "medici"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Preghiera alla Vergine di Carmen de Maipú",
+      "titulo": "Nostra Signora del Carmine di Maipú · Patrona del Cile",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_social_y_proteccion_escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Vergine del Carmen de Maipú: estendi su di noi il tuo Santo Scapolare, proteggi la pace nella nostra Patria e sii il nostro rifugio nell'ora del pericolo. Amen.",
+      "textoOriginal": "Sancta Maria de Monte Carmelo de Maipu, ora pro nobis. Amen.",
+      "guiaFonetica": "[Vergine del Carmine di Maipu...]",
+      "textoTraducido": "Vergine del Carmine di Maipú, Regina e Patrona del Cile! Ti consacriamo le nostre famiglie e la nostra terra. Stendi il tuo Santo Scapolare su di noi, dona pace, giustizia e lavoro, e sii il conforto dei sofferenti. Madre del Carmelo, proteggici sempre! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Nostra Signora del Carmine di Maipú · Patrona del Cile",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Santuario Nazionale di Maipú",
+        "proposito": "Preghiera per la concordia e la protezione delle famiglie.",
+        "tags": [
+          "cattolicesimo",
+          "madonna_del_carmine",
+          "cile",
+          "maipu"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94644,6 +94685,27 @@
           "guarigione",
           "venezuela",
           "protezione"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Beato Zefferino Namuncurá · Il Giglio della Patagonia e la Gioventù",
+      "nombre": "Beato Zefferino Namuncurá · Il Giglio della Patagonia e la Gioventù",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Signore Gesù, che nel Beato Zefferino Namuncurá ci hai donato un modello mirabile di purezza evangelica e gioia salesiana! Concedici per sua intercessione di custodire i nostri giovani nella fede e nella speranza. Beato Zefferino, giglio della Patagonia, prega per noi! Amen.",
+      "textoOriginal": "Beate Zepherine Namuncura, lilium Patagoniae, ora pro nobis. Amen.",
+      "guiaFonetica": "[Beate Zepherine Namuncura...]",
+      "metadata": {
+        "origen": "Tradizione Salesiana (Argentina / Italia)",
+        "proposito": "Preghiera per i giovani e la purezza.",
+        "tags": [
+          "cattolicesimo",
+          "zefferino_namuncura",
+          "giovani",
+          "patagonia"
         ]
       }
     }

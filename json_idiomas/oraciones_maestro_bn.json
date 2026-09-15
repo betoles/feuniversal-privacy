@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "সাধু · শালীন কাজ, আশ্রয় এবং সমৃদ্ধির বিধান",
+      "titulo": "সাধু কোনোফ্রিউস · কর্মসংস্থান, আশ্রয় ও জীবিকার প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "সমৃদ্ধি_কাজes",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "ওহ মহিমান্বিত সেন্ট ওনুফ্রিয়াস, মরুভূমির নম্র নোঙ্গর, যিনি স্বর্গীয় মঙ্গল দ্বারা টিকিয়ে রেখেছিলেন: যেমন আপনি কখনই ঈশ্বরের সাহায্যের অভাব করেননি, এই প্রয়োজনের সময়ে আমাকে সহায়তা করুন যাতে আমি একটি সৎ চাকরি, একটি নিরাপদ ছাদ এবং শান্তি ও মঙ্গলময় জীবনযাপনের উপায় পেতে পারি। আমীন।",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Hey Dhanyo Sadhu Onuphrius...]",
+      "textoTraducido": "হে ধন্য সাধু কোনোফ্রিউস, মরুভূমির তপস্বী ও ঈশ্বরের করুণায় পালিত বিশ্বস্ত দাস! আমার আর্থিক সংকটের প্রতি কৃপাদৃষ্টি দিন। ঈশ্বরের কাছে আমার জন্য সৎ ও স্থায়ী কর্মসংস্থান প্রার্থনা করুন, আমাদের ঘর থেকে ঋণ ও দারিদ্র্য দূর করুন এবং আমাদের একটি নিরাপদ বাসস্থান ও দৈনন্দিন আহার দিন। সাধু কোনোফ্রিউস, এই বিপদের সময় আমাকে সাহায্য করুন! আমেন।",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "সাধু কোনোফ্রিউস · কর্মসংস্থান, আশ্রয় ও জীবিকার প্রার্থনা",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "সাধু কোনোফ্রিউসের ঐতিহ্যবাহী প্রার্থনা",
+        "proposito": "চাকরি লাভ, বাসস্থান এবং আর্থিক সমৃদ্ধির প্রার্থনা।",
+        "tags": [
+          "ক্যাথলিক",
+          "সাধু_কোনোফ্রিউস",
+          "কর্মসংস্থান",
+          "আশ্রয়",
+          "জীবিকা"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "সেন্ট প্যান্টালিয়ন · চিকিত্সক এবং শহীদ · যন্ত্রণা এবং স্বাস্থ্য থেকে মুক্তি",
+      "titulo": "সাধু প্যান্টালিওন · চিকিৎসক ও শহীদ · রোগমুক্তির প্রার্থনা",
       "tradicion": "catolicismo",
       "categoriaIntencion": "স্বাস্থ্য_নিরাময়",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "সেন্ট প্যান্টালিয়ন, করুণাময় চিকিত্সক এবং খ্রিস্টের ক্রীড়াবিদ: অসুস্থদের উপর স্বর্গীয় ওষুধ ঢালা, তাদের যন্ত্রণা লাঘব করুন এবং পূর্ণ স্বাস্থ্য প্রাপ্ত করুন। আমীন।",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors... Amen.",
+      "guiaFonetica": "[Hey Mohimanwito Sadhu Pantaleon...]",
+      "textoTraducido": "হে মহিমান্বিত সাধু প্যান্টালিওন, যীশু খ্রীষ্টের শহীদ ও পীড়িতদের দয়ালু চিকিৎসক! আপনি প্রভুর নামে বিনামূল্যে রোগীদের আরোগ্য করেছিলেন: ঈশ্বরের কাছে অসুস্থদের শারীরিক সুস্থতা ও যন্ত্রণা থেকে মুক্তির করুণা প্রার্থনা করুন। চিকিৎসকদের হাত পরিচালিত করুন এবং আমাদের রোগমুক্ত রাখুন। সাধু প্যান্টালিওন, আমাদের জন্য প্রার্থনা করুন! আমেন।",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "সাধু প্যান্টালিওন · চিকিৎসক ও শহীদ · রোগমুক্তির প্রার্থনা",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "সাধু প্যান্টালিওন আরোগ্যদাতার ঐতিহ্যবাহী প্রার্থনা",
+        "proposito": "রোগমুক্তি এবং চিকিৎসকদের সেবায় আশীর্বাদের প্রার্থনা।",
+        "tags": [
+          "ক্যাথলিক",
+          "সাধু_প্যান্টালিওন",
+          "আরোগ্য",
+          "রোগমুক্তি",
+          "স্বাস্থ্য"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "কারমেন ডি মাইপু এর ভার্জিনের কাছে প্রার্থনা",
+      "titulo": "মাইপুর কার্মেল মা মরিয়ম · চিলির রক্ষয়িত্রী",
       "tradicion": "catolicismo",
       "categoriaIntencion": "সামাজিক_শান্তি_এবং_স্ক্যাপুলারি_সুরক্ষা",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "কারমেনের ভার্জিন, কুইন এবং চিলির পৃষ্ঠপোষক: মাইপুতে নির্মিত পবিত্র শপথের আগে, আমরা আমাদের পরিবার এবং আমাদের জমির ভাগ্য আপনার মায়ের হাতে রেখে দিই। আপনার আশীর্বাদিত কারমেলাইট স্ক্যাপুলার দিয়ে আমাদের আবরণ করুন, আমাদের বাড়িতে শান্তি রক্ষা করুন, আমাদের ভূমিকম্প এবং বিরোধ থেকে রক্ষা করুন এবং সর্বদা আপনার ঐশ্বরিক পুত্র যীশু খ্রীষ্টের কাছে আমাদের গাইড করুন। আমীন।",
+      "textoOriginal": "মাইপুর কার্মেল মা, আমাদের রক্ষা করুন। আমেন।",
+      "guiaFonetica": "[Maipur Karmel Ma Moriyom...]",
+      "textoTraducido": "হে মাইপুর কার্মেল মা মরিয়ম, চিলির রানী ও রক্ষয়িত্রী! আমরা আমাদের পরিবার ও দেশকে আপনার চরণে উৎসর্গ করি। আপনার সুরক্ষার চাদরে আমাদের ঢেকে রাখুন, শান্তি ও সম্প্রীতি দান করুন। কার্মেলের মা, আপনার সন্তানদের সর্বদা আশীর্বাদ করুন! আমেন।",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "মাইপুর কার্মেল মা মরিয়ম · চিলির রক্ষয়িত্রী",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "মাইপুর জাতীয় তীর্থ (চিলি)",
+        "proposito": "শান্তি, ঐক্য এবং পরিবারের সুরক্ষার জন্য মারিয়ান প্রার্থনা।",
+        "tags": [
+          "ক্যাথলিক",
+          "মাইপুর_মা_মরিয়ম",
+          "চিলি",
+          "শান্তি"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94643,6 +94684,27 @@
           "আরোগ্য",
           "ভেনেজুয়েলা",
           "মহামারী_থেকে_সুরক্ষা"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "ধন্য সেফেরিনো নামুনকুরা · প্যাটাগোনিয়ার পদ্ম ও যুবসমাজ",
+      "nombre": "ধন্য সেফেরিনো নামুনকুরা · প্যাটাগোনিয়ার পদ্ম ও যুবসমাজ",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "হে প্রভু যীশু, ধন্য সেফেরিনো নামুনকুরার মধ্যে আপনি আমাদের পবিত্রতা ও নম্রতার উজ্জ্বল আদর্শ দিয়েছেন! তাঁর প্রার্থনায় আমাদের যুবসমাজকে রক্ষা করুন ও সৎপথে রাখুন। ধন্য সেফেরিনো, আমাদের জন্য প্রার্থনা করুন! আমেন।",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Dhanyo Seferino Namunckura...]",
+      "metadata": {
+        "origen": "সালেসিয়ান ঐতিহ্যবাহী প্রার্থনা",
+        "proposito": "যুবসমাজের সুরক্ষা ও আত্মিক উন্নতির প্রার্থনা।",
+        "tags": [
+          "ক্যাথলিক",
+          "সেফেরিনো_নামুনকুরা",
+          "যুবসমাজ",
+          "পবিত্রতা"
         ]
       }
     }

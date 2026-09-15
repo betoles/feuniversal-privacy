@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "圣奥诺弗雷·提供体面工作、住房和繁荣",
+      "titulo": "圣奥诺弗雷（圣诺伯）· 旷野隐修者 · 谋求职业、安居之所与紧急供应祈祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "事业与丰足",
       "estadosEmocionales": [
@@ -449,15 +449,30 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "哦，光荣的圣奥努弗里乌斯，上帝谦卑的仆人，在神圣的普罗维登斯的支持下：请在我的物质需求上给予我帮助，开放工作来源，并为我的生活带来丰富。阿门。",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti, impetra nobis laborem et panem quotidianum. Amen.",
+      "guiaFonetica": "[Zhenfu er guangrong de Sheng Aonuofuolei...]",
+      "textoTraducido": "真福而光荣的圣奥诺弗雷，旷野的谦逊隐修士与至高天主的忠仆！你在旷野隐修六十年，蒙天使奇迹般供养与上主天照的护佑而一无所缺：求你慈目垂顾我目前的经济困窘与急迫需要。求你在天主宝座前转求，赐我一份正当、稳定而体面的工作；驱除我家中的贫困、债务与匮乏；并为我们预备安全的居所与日用的食粮。圣奥诺弗雷，求在患难中不要舍弃我！阿们。",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "圣奥诺弗雷（圣诺伯）· 旷野隐修者 · 谋求职业、安居之所与紧急供应祈祷文",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "圣奥诺弗雷大圣敬礼传统",
+        "proposito": "祈求找到工作、清偿债务、购置房产与求取生计的传统求援圣咏。",
+        "tags": [
+          "天主教",
+          "圣奥诺弗雷",
+          "求职",
+          "安居",
+          "天主供给",
+          "生计"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +696,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "圣潘塔莱翁 · 医生和烈士 · 救济痛苦和健康",
+      "titulo": "圣庞大良（圣潘塔莱昂）· 医生与殉道者 · 病人康复与每月27日敬礼祈祷文",
       "tradicion": "catolicismo",
       "categoriaIntencion": "健康与医治",
       "estadosEmocionales": [
@@ -690,15 +705,30 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "圣潘塔莱昂，您用科学和信仰治愈的富有同情心的医生：看看我们的疾病和痛苦。将神药的香膏浇在我们的身上，减轻病人的痛苦，引导援助我们的医生的手。阿门。",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi... Amen.",
+      "guiaFonetica": "[Guangrong de Sheng Pangdaliang, Yisheng yu Xundaoshe...]",
+      "textoTraducido": "光荣的圣庞大良，耶稣基督卓越的殉道圣人与受苦之人的仁爱医师！你将世间的医术与福音的热切信德相融合，奉主圣名免费医治病患并为基督倾流鲜血：求你向天主转求，赐予病人早日痊愈，减轻肉身的痛苦并在患难中赐予坚韧。求你光照并指引医护人员的双手；显奇迹的圣庞大良，求你为我们转求，赐予我们健康的体魄与灵魂的平安！阿们。",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "圣庞大良（圣潘塔莱昂）· 医生与殉道者 · 病人康复与每月27日敬礼祈祷文",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "圣庞大良十四救难圣人敬礼传统（阿根廷布宜诺斯艾利斯每月27日朝圣）",
+        "proposito": "祈求重病痊愈、止痛安抚及降福医务工作者的传统天主教圣咏。",
+        "tags": [
+          "天主教",
+          "圣庞大良",
+          "医治",
+          "病人康复",
+          "阿根廷",
+          "每月27日"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59229,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "向卡门·德·迈普圣母祈祷",
+      "titulo": "迈普加尔默罗圣母 · 智利之母皇暨誓愿主保",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_social_y_proteccion_escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59238,29 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "卡门·德·迈普圣母：将您的圣衣伸向我们，保护我们祖国的和平，并在危险时刻成为我们的避难所。阿门。",
+      "textoOriginal": "迈普加尔默罗圣母，求祢庇佑我们的国家与家庭。阿们。",
+      "guiaFonetica": "[Maipu Jia'ermuoluo Shengmu...]",
+      "textoTraducido": "迈普加尔默罗圣母，智利的主保母皇！我们在迈普国家圣殿台前，将我们的家庭与国家全心奉献给祢。求祢展施圣衣的慈爱庇佑，使正义、和平与手足之情在我们中间繁荣昌盛。加尔默罗圣母，求永远降福祢的子民！阿们。",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "迈普加尔默罗圣母 · 智利之母皇暨誓愿主保",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "智利迈普国家圣殿（1818年历史誓愿）",
+        "proposito": "祈求家庭平安、国家正义与和平的智利国宝级圣咏。",
+        "tags": [
+          "天主教",
+          "加尔默罗圣母",
+          "智利",
+          "迈普",
+          "和平"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94652,6 +94696,28 @@
           "医治瘟疫",
           "健康",
           "十字架"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "真福则斐林·纳蒙库拉（塞费里诺）· 巴塔哥尼亚的百合与青年主保",
+      "nombre": "真福则斐林·纳蒙库拉（塞费里诺）· 巴塔哥尼亚的百合与青年主保",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "主耶稣，祢在真福则斐林·纳蒙库拉身上赐予我们纯洁、谦卑与热忱仁爱的卓越榜样！求祢借着他的转求，庇护我们的青年与儿童，使他们在信仰与希望的道路上坚定前行。巴塔哥尼亚的馨香百合真福则斐林，求你为我们转求！阿们。",
+      "textoOriginal": "Beate Zepherine Namuncura, lilium Patagoniae, ora pro nobis. Amen.",
+      "guiaFonetica": "[Zhenfu Zefeilin Namengkoula...]",
+      "metadata": {
+        "origen": "慈幼会与阿根廷传统敬礼",
+        "proposito": "为青年健康成长、心灵纯洁及原住民福祉祈祷文。",
+        "tags": [
+          "天主教",
+          "真福则斐林",
+          "阿根廷",
+          "青年主保",
+          "纯洁"
         ]
       }
     }

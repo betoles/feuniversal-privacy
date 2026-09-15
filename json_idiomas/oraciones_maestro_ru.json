@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "Сан-Онофре · Обеспечение достойного труда, жилья и процветания",
+      "titulo": "Преподобный Онуфрий Великий · Молитва о честном труде, крове и достатке",
       "tradicion": "catolicismo",
       "categoriaIntencion": "процветание_труд",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "О славный святитель Онуфрий, смиренный раб Божий, поддерживаемый Божественным Промыслом: даруй мне помощь в моих материальных нуждах, открой источники труда и внеси справедливое изобилие в мою жизнь. Аминь.",
+      "textoOriginal": "Преподобне отче Онуфрие, моли Бога о нас и испроси нам хлеб насущный. Аминь.",
+      "guiaFonetica": "[O prepodobne otche Onufriye...]",
+      "textoTraducido": "О преподобне отче Онуфрие, пустынножителю великий и угодниче Христов! Ты, в пустыне ангелами питаемый и Промыслом Божиим дивно сохраняемый: призри на нужды и скорби мои. Испроси у Всещедрого Бога для меня честный и достойный труд, избавление от долгов и нищеты, надежный кров и хлеб насущный для семьи моей. Святый Онуфрие, не остави меня в скорби моей! Аминь.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Преподобный Онуфрий Великий · Молитва о честном труде, крове и достатке",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Молитвенное почитание преподобного Онуфрия Великого",
+        "proposito": "Молитва о работе, жилье и избавлении от нужды.",
+        "tags": [
+          "католицизм",
+          "онуфрий_великий",
+          "работа",
+          "жилье",
+          "достаток"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "Святой Пантелеон · Врач и мученик · Облегчение страданий и здравие",
+      "titulo": "Святой великомученик и целитель Пантелеимон · Молитва об исцелении недугов",
       "tradicion": "catolicismo",
       "categoriaIntencion": "здоровье_исцеление",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "Святой Панталеон, милосердный врач, которого ты наукой и верой исцелил: взгляни на наши недуги и страдания. Излей бальзам божественного лекарства на наше тело, облегчи боль больных и направь руку врачей, помогающих нам. Аминь.",
+      "textoOriginal": "Ἀθλοφόρε ἅγιε καὶ ἰαмаτικὲ Παντελεῆμον, πρέσβευε τῷ ἐλεήμονι Θεῷ... Аминь.",
+      "guiaFonetica": "[O velikiy Khristov ugodniche, tselitel Panteleymone...]",
+      "textoTraducido": "О великий Христов угодниче, страстотерпче и врачу многомилостивый Пантелеимоне! Умилосердись надо мною грешным, услыши стенание мое и уврачуй недуги душ и телес наших. Испроси у Господа Бога здравие болящим, ослабление болей и крепость во искушениях. Наставь врачующих нас, да послужат они во благо. Святый великомучениче Пантелеимоне, моли Христа Бога о спасении и исцелении нашем! Аминь.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Святой великомученик и целитель Пантелеимон · Молитва об исцелении недугов",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Молитва святому великомученику и целителю Пантелеимону",
+        "proposito": "Молитва об исцелении от тяжких болезней и помощи врачам.",
+        "tags": [
+          "католицизм",
+          "целитель_пантелеимон",
+          "исцеление",
+          "здравие",
+          "молитва_о_болящих"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Молитва Богородице Кармен де Майпу",
+      "titulo": "Пресвятая Богородица Кармельская из Майпу · Покровительница Чили",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_social_y_proteccion_escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,29 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Дева Кармен де Майпу: простри над нами Свой Святой Скапулярий, защити мир на нашей родине и будь нашим убежищем в час опасности. Аминь.",
+      "textoOriginal": "Пресвятая Богородица Кармельская из Майпу, спаси народ Твой. Аминь.",
+      "guiaFonetica": "[O Presvyataya Deva Mariya Karmelskaya iz Maypu...]",
+      "textoTraducido": "О Пресвятая Дева Мария Кармельская из Майпу, Царица и Заступница Чили! Посвящаем Тебе наши семьи и дома. Покрой нас Твоим святым омофором, даруй справедливость, мир и благословение трудов. Матерь Кармельская, благослови нас вовеки! Аминь.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Пресвятая Богородица Кармельская из Майпу · Покровительница Чили",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Национальное святилище Майпу (Чили)",
+        "proposito": "Молитва о мире, защите семей и благословении отечества.",
+        "tags": [
+          "католицизм",
+          "богородица_майпу",
+          "чили",
+          "мир",
+          "семья"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94646,6 +94688,27 @@
           "исцеление",
           "венесуэла",
           "защита_от_болезней"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Блаженный Зеферин Намункура · Лилия Патагонии и покровитель юношества",
+      "nombre": "Блаженный Зеферин Намункура · Лилия Патагонии и покровитель юношества",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Господи Иисусе, явивший в блаженном Зеферине Намункура дивный пример евангельской чистоты, кротости и любви к ближним! Молитвами его сохрани юношество наше в вере и чистоте сердечной. Блаженный Зеферин, лилия Патагонии, моли Бога о нас! Аминь.",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Blazhennyy Zeferin Namunckura...]",
+      "metadata": {
+        "origen": "Почитание блаженного Зеферина Намункура",
+        "proposito": "Молитва о молодежи, чистоте нравов и духовном возрастании.",
+        "tags": [
+          "католицизм",
+          "зеферин_намункура",
+          "молодежь",
+          "патагония"
         ]
       }
     }

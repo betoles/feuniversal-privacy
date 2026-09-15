@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "サンオノフレ · 働きがいのある人間らしい仕事、避難場所、繁栄の提供",
+      "titulo": "聖オノフリウス · 荒野の隠修者 · 尊厳ある仕事・住まい・生活の糧を願う祈り",
       "tradicion": "catolicismo",
       "categoriaIntencion": "仕事と繁栄",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "ああ、栄光に満ちた聖オヌフリウス、神の摂理に支えられた神の謙虚な僕よ、物質的なニーズを助け、仕事の源をオープンにし、私の人生に豊かさをもたらしたまえ。アーメン。",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Sei Onofuriusu, kouya no inshuusha...]",
+      "textoTraducido": "栄光ある聖オノフリウス、神の御摂理によって養われた荒野の隠修者よ！私の経済的苦境を憐れみ給え。誠実で安定した仕事が得られるよう神に取り成し、我が家から貧困と負債を遠ざけ、安心できる住まいと日々の糧を与え給え。聖オノフリウスよ、苦難の時に私を助け給え。アーメン。",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "聖オノフリウス · 荒野の隠修者 · 尊厳ある仕事・住まい・生活の糧を願う祈り",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "聖オノフリウス伝統信心祈祷",
+        "proposito": "就職、住居の確保、経済的困難の打開を願う祈り。",
+        "tags": [
+          "カトリック",
+          "聖オノフリウス",
+          "仕事",
+          "住まい",
+          "摂理"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "聖パンタレオン · 医師であり殉教者 · 苦しみと健康の救済",
+      "titulo": "聖パンタレオン · 医師・殉教者 · 病者の癒やしと毎月27日の祈り",
       "tradicion": "catolicismo",
       "categoriaIntencion": "健康と癒やし",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "聖パンタレオン、あなたが科学と信仰で治してくださった慈悲深い医師よ、私たちの病気と苦しみを顧みたまえ。神聖な薬の香油を私たちの体に注ぎ、病人の痛みを和らげ、私たちを助ける医師の手を導きます。アーメン。",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi... Amen.",
+      "guiaFonetica": "[Sei Pantareon, Isha Junkousha...]",
+      "textoTraducido": "栄光ある聖パンタレオン、キリストの殉教者、苦しむ者の慈悲深き医師よ！主の御名によって病める人々を無償で癒やされたあなたに願います。病者に健康の回復と苦痛の軽減、試練における忍耐を取り成し給え。医師や看護師の手を導き、私たちに平安を与え給え。奇跡の聖パンタレオン、私たちのために祈り、病者を癒やし給え。アーメン。",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "聖パンタレオン · 医師・殉教者 · 病者の癒やしと毎月27日の祈り",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "聖パンタレオン医師・十四救難聖人伝統信心",
+        "proposito": "病気の治癒、医療関係者の保護と祝福を願う祈り。",
+        "tags": [
+          "カトリック",
+          "聖パンタレオン",
+          "病気平癒",
+          "健康",
+          "医師"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "カルメン・デ・マイプの聖母への祈り",
+      "titulo": "マイプのカルメル山の聖母 · チリの保護者・女王",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_social_y_proteccion_escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,29 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "カルメン・デ・マイプの聖母よ、あなたの聖なるスカプラリオを私たちの上に差し出し、祖国の平和を守り、危険の時の私たちの避難所となりたまえ。アーメン。",
+      "textoOriginal": "マイプのカルメル山の聖母よ、私たちを守り給え。アーメン。",
+      "guiaFonetica": "[Maipu no Karumeru-san no Seibo...]",
+      "textoTraducido": "マイプのカルメル山の聖母、チリの女王にして保護者よ！私たちの家庭と国をあなたに捧げます。あなたの保護のスキャプラリオを広げ、正義、平和、兄弟愛をもたらし給え。カルメルの御母よ、民を永遠に祝福し給え。アーメン。",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "マイプのカルメル山の聖母 · チリの保護者・女王",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "マイプ国立巡礼聖堂（チリ）",
+        "proposito": "家庭の平和と国の繁栄を願う祈り。",
+        "tags": [
+          "カトリック",
+          "カルメルの聖母",
+          "チリ",
+          "マイプ",
+          "平和"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94647,6 +94689,27 @@
           "病気平癒",
           "ベネズエラ",
           "疫病除け"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "福者ゼフェリノ・ナムンクラ · パタゴニアの百合と青少年の友",
+      "nombre": "福者ゼフェリノ・ナムンクラ · パタゴニアの百合と青少年の友",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "主イエスよ、福者ゼフェリノ・ナムンクラのうちに清らかさと隣人愛の模範を示された主よ！彼の取り成しにより、青少年の歩みを信仰と希望のうちにお守り給え。パタゴニアの百合、福者ゼフェリノよ、私たちのために祈り給え。アーメン。",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Fukusha Zeferino Namunckura...]",
+      "metadata": {
+        "origen": "サレジオ会伝統信心（アルゼンチン）",
+        "proposito": "青少年の保護と信仰の成長を願う祈り。",
+        "tags": [
+          "カトリック",
+          "ゼフェリノ・ナムンクラ",
+          "青少年",
+          "パタゴニア"
         ]
       }
     }

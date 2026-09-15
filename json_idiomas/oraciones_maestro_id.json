@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "Santo Onofre · Penyediaan Pekerjaan yang Layak, Tempat Tinggal dan Kemakmuran",
+      "titulo": "Santo Onofrius · Pertapa Padang Gurun · Pekerjaan Layak, Tempat Tinggal, dan Rezeki",
       "tradicion": "catolicismo",
       "categoriaIntencion": "kemakmuran_pekerjaan",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "Oh Santo Onuphrius yang mulia, pertapa gurun yang rendah hati yang ditopang oleh kebaikan surgawi: sama seperti Anda tidak pernah kekurangan pertolongan Tuhan, bantulah saya di saat yang membutuhkan ini sehingga saya mendapatkan pekerjaan yang jujur, tempat tinggal yang aman dan sarana untuk hidup dalam damai dan sejahtera. Amin.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Santo Onofrius yang terberkati...]",
+      "textoTraducido": "O Santo Onofrius yang terberkati, pertapa padang gurun yang dipelihara oleh Penyelenggaraan Ilahi! Pandanglah kesulitan ekonomiku. Mohonkanlah kepada Allah agar aku memperoleh pekerjaan yang jujur dan layak, jauhkanlah kemiskinan dan hutang dari rumahku, serta berilah kami tempat tinggal yang aman dan rezeki sehari-hari. Santo Onofrius, tolonglah aku di saat kesesakanku! Amin.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Santo Onofrius · Pertapa Padang Gurun · Pekerjaan Layak, Tempat Tinggal, dan Rezeki",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Tradisi Devosi Santo Onofrius Pertapa",
+        "proposito": "Doa untuk mencari pekerjaan, melunasi hutang, dan memperoleh tempat tinggal.",
+        "tags": [
+          "katolik",
+          "santo_onofrius",
+          "pekerjaan",
+          "tempat_tinggal",
+          "rezeki"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "Saint Pantaleon · Dokter dan Martir · Bantuan Penderitaan dan Kesehatan",
+      "titulo": "Santo Pantaleon · Tabib dan Martir · Kesembuhan Orang Sakit dan Doa Tanggal 27",
       "tradicion": "catolicismo",
       "categoriaIntencion": "kesehatan_penyembuhan",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "Saint Pantaleon, tabib dan atlet Kristus yang penuh belas kasihan: tuangkan obat surgawi pada orang sakit, meringankan rasa sakit mereka, dan memperoleh kesehatan penuh. Amin.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors... Amen.",
+      "guiaFonetica": "[Santo Pantaleon, tabib dan martir...]",
+      "textoTraducido": "O Santo Pantaleon yang mulia, martir Kristus dan tabib penuh belas kasih! Engkau yang menyembuhkan orang sakit demi Nama Tuhan secara cuma-cuma: mohonkanlah kesembuhan bagi mereka yang menderita, ringankanlah rasa sakit, dan bimbinglah tangan para dokter dan perawat. Santo Pantaleon pembuat mukjizat, doakanlah kami dan sembuhkanlah orang-orang sakit di antara kami! Amin.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Santo Pantaleon · Tabib dan Martir · Kesembuhan Orang Sakit dan Doa Tanggal 27",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Tradisi Devosi Santo Pantaleon Tabib",
+        "proposito": "Doa memohon kesembuhan dari sakit dan berkat bagi para tenaga medis.",
+        "tags": [
+          "katolik",
+          "santo_pantaleon",
+          "kesembuhan",
+          "orang_sakit",
+          "dokter"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Doa untuk Perawan Carmen de Maipú",
+      "titulo": "Bunda Maria dari Gunung Karmel di Maipú · Pelindung Chili",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Sosial_Perdamaian_Dan_Skapulir_Perlindungan",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Perawan Carmen, Ratu dan Pelindung Chili: sebelum sumpah suci didirikan di Maipú, kami menyerahkan nasib keluarga dan tanah kami di tangan keibuan Anda. Lindungi kami dengan Skapulir Karmelit-Mu yang terberkati, peliharalah kedamaian di rumah kami, bebaskan kami dari gempa bumi dan perselisihan, dan selalu bimbing kami kepada Putra Ilahi-Mu Yesus Kristus. Amin.",
+      "textoOriginal": "Bunda Maria dari Maipu, lindungilah negeri kami. Amin.",
+      "guiaFonetica": "[Bunda Maria dari Gunung Karmel di Maipu...]",
+      "textoTraducido": "O Maria dari Gunung Karmel di Maipú, Ratu dan Pelindung Chili! Kami mempersembahkan keluarga dan tanah air kami kepadamu. Bentangkanlah Skapulir suci perlindunganmu atas kami, tumbuhkanlah keadilan, damai, dan persaudaraan. Bunda Karmel, berkahirah umatmu senantiasa! Amin.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Bunda Maria dari Gunung Karmel di Maipú · Pelindung Chili",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Santuari Nasional Maipú (Chili)",
+        "proposito": "Doa penyerahan keluarga dan permohonan damai sejahtera.",
+        "tags": [
+          "katolik",
+          "maria_karmel_maipu",
+          "chili",
+          "damai"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94647,6 +94688,27 @@
           "kesembuhan",
           "venezuela",
           "bebas_wabah"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Beato Ceferino Namuncurá · Bunga Bakung Patagonia dan Teladan Kaum Muda",
+      "nombre": "Beato Ceferino Namuncurá · Bunga Bakung Patagonia dan Teladan Kaum Muda",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Tuhan Yesus, yang dalam diri Beato Ceferino Namuncurá memberi kami teladan kemurnian dan kasih persaudaraan! Melalui perantaraannya, bimbinglah kaum muda kami di jalan iman dan harapan. Beato Ceferino, bunga bakung Patagonia, doakanlah kami! Amin.",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Beato Ceferino Namuncura...]",
+      "metadata": {
+        "origen": "Tradisi Salesian (Argentina)",
+        "proposito": "Doa untuk kaum muda dan kemurnian hati.",
+        "tags": [
+          "katolik",
+          "ceferino_namuncura",
+          "kaum_muda",
+          "kemurnian"
         ]
       }
     }

@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "Saint Onofre · Provision of Decent Work, Shelter and Prosperity",
+      "titulo": "Saint Onuphrius · Desert Hermit · Decent Work, Shelter, and Urgent Provision",
       "tradicion": "catolicismo",
       "categoriaIntencion": "prosperity_work",
       "estadosEmocionales": [
@@ -449,15 +449,30 @@
         "despair"
       ],
       "idiomaLiturgicoOriginal": "Spanish Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "Oh glorious Saint Onuphrius, humble servant of God supported by Divine Providence: grant me help in my material needs, open sources of work and bring just abundance to my life. Amen.",
+      "textoOriginal": "Oh glorious Saint Onuphrius, hermit of the desert... obtain for us from Divine Providence work, shelter, and bread. Amen.",
+      "guiaFonetica": "[Oh glorious Saint Onuphrius, hermit of the desert...]",
+      "textoTraducido": "O blessed and glorious Saint Onuphrius, humble hermit of the desert and faithful servant of the Most High God! You who lived for sixty years in solitary prayer, miraculously sustained by God's angels and Divine Providence without ever lacking daily nourishment or heavenly protection: look with compassion upon my financial distress and material needs. Intercede before the Throne of Grace that I may obtain honest, stable, and fulfilling employment; drive away debt, poverty, and want from my home; and secure for my family a peaceful roof and daily bread. Blessed Saint Onuphrius, as God never failed you in the desert, do not forsake me in my time of need! Amen.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Saint Onuphrius · Desert Hermit · Decent Work, Shelter, and Urgent Provision",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Devotional Tradition of Saint Onuphrius the Great",
+        "proposito": "Popular prayer for finding employment, paying debts, and securing shelter.",
+        "tags": [
+          "catholicism",
+          "saint_onuphrius",
+          "employment",
+          "work",
+          "provision",
+          "housing"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +696,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "Saint Pantaleon · Physician and Martyr · Relief of Suffering and Health",
+      "titulo": "Saint Pantaleon · Physician and Martyr · Health of the Sick and 27th Day Prayer",
       "tradicion": "catolicismo",
       "categoriaIntencion": "health_healing",
       "estadosEmocionales": [
@@ -690,15 +705,30 @@
         "despair"
       ],
       "idiomaLiturgicoOriginal": "Greek y Latin Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "Saint Pantaleon, compassionate doctor whom you cured with science and faith: look at our ailments and sufferings. Pour the balm of divine medicine on our body, relieve the pain of the sick and guide the hand of the doctors who assist us. Amen.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem... Amen.",
+      "guiaFonetica": "[Sancte Pantaleon, medicus misericors et athleta Christi...]",
+      "textoTraducido": "O glorious Saint Pantaleon, renowned martyr of Jesus Christ and compassionate physician of the afflicted! You who combined your medical wisdom with fervent faith in the Gospel, healing the sick freely in the Name of the Lord and shedding your blood for love of Christ: turn your merciful eyes upon all who suffer in body and soul today. Obtain for the sick the gift of bodily health, the alleviation of pain, and strength in the midst of trial. Guide the hands of doctors and nurses, and grant us a pure and thankful heart to praise God's mercy all our days. Miraculous Saint Pantaleon, pray for us and restore health to our loved ones! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Saint Pantaleon · Physician and Martyr · Health of the Sick and 27th Day Prayer",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Devotional Tradition of Saint Pantaleon the Healer",
+        "proposito": "Monthly prayer on the 27th day for healing, alleviation of physical suffering, and blessing upon medical professionals.",
+        "tags": [
+          "catholicism",
+          "saint_pantaleon",
+          "healing",
+          "physicians",
+          "health",
+          "sick"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59229,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Prayer to the Virgin of Carmen of Maipú",
+      "titulo": "Our Lady of Mount Carmel of Maipú · Queen and Sworn Patroness of Chile",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Paz_Social_Y_Proteccion_Escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59238,30 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Spanish chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Virgin of Carmen de Maipú: extend your Holy Scapular over us, protect peace in our homeland and be our refuge in the hour of danger. Amen.",
+      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile, protege a nuestra patria. Amen.",
+      "guiaFonetica": "[Our Lady of Mount Carmel of Maipu...]",
+      "textoTraducido": "O Lady of Mount Carmel, Queen and Sworn Patroness of Chile! Before the National Sanctuary of Maipú, erected in fulfillment of the solemn historic vow of our people, we consecrate our families, our homes, and our nation to Your maternal care. Extend the Holy Scapular of Your protection over us; dissolve division and foster justice, peace, honest labor, and brotherhood. Be the refuge of the sick and the guide of our youth. Mother of Carmel, save Your people and bless Chile forever! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Chiming bells ofl Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Our Lady of Mount Carmel of Maipú · Queen and Sworn Patroness of Chile",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "National Shrine of Maipú (Chile)",
+        "proposito": "Solemn prayer of protection and peace for the nation and families.",
+        "tags": [
+          "catholicism",
+          "our_lady_of_mount_carmel",
+          "chile",
+          "maipu",
+          "patroness",
+          "peace"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94656,6 +94701,29 @@
           "healing",
           "protection_from_disease",
           "miracles"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Blessed Ceferino Namuncurá · The Lily of Patagonia, Youth, and Charity",
+      "nombre": "Blessed Ceferino Namuncurá · The Lily of Patagonia, Youth, and Charity",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Lord Jesus, who in Blessed Ceferino Namuncurá gave us an admirable model of evangelical purity, Salesian joy, and generous love for his people! You who inspired in his noble Mapuche heart the burning desire to serve his brothers and sisters and dedicate his life to God: grant us, through his intercession, the grace to live with integrity and joy, shielding our youth from despair and spiritual harm. We humbly ask for the special grace we need today... Blessed Ceferino, fragrant lily of Patagonia, pray for us and guide all young hearts on paths of faith and love! Amen.",
+      "textoOriginal": "Beate Zepherine Namuncura, lilium Patagoniae, ora pro nobis. Amen.",
+      "guiaFonetica": "[Beate Zepherine Namuncura, lilium Patagoniae...]",
+      "metadata": {
+        "origen": "Salesian and Popular Devotion in Argentina and South America",
+        "proposito": "Intercession for youth, purity of heart, and indigenous heritage.",
+        "tags": [
+          "catholicism",
+          "ceferino_namuncura",
+          "argentina",
+          "patagonia",
+          "salesians",
+          "youth"
         ]
       }
     }

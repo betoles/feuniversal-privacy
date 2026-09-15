@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "San Onofre · Provisio de Labor Digno, Techo et Prosperitas",
+      "titulo": "Precatio ad Sanctum Onuphrium pro Opere, Domo et Pane Quotidiano",
       "tradicion": "catolicismo",
       "categoriaIntencion": "prosperitas_labor",
       "estadosEmocionales": [
@@ -449,15 +449,28 @@
         "desperatio"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "Oh glorioso San Onofre, humilde siervo de Deus sostenido per la Divina Providencia: concédeme auxilio in mis necesidades materiales, abre fuentes de trabajo et trae abundancia justa a mi vita. Amen.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti, impetra nobis laborem et panem quotidianum. Amen.",
+      "guiaFonetica": "[O beate Sancte Onuphri, anachoreta deserti...]",
+      "textoTraducido": "O beate Sancte Onuphri, anachoreta deserti et fidelis famule Dei! Qui per annos multos in solitudine a Providentia divina sustentatus es: respice miserias meas materiales. Impetra mihi a Domino laborem honestum, domum tutam et panem quotidianum; pellite inopiam a familia mea. Sancte Onuphri, ora pro nobis. Amen.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Precatio ad Sanctum Onuphrium pro Opere, Domo et Pane Quotidiano",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Traditio Sancti Onuphrii Magni",
+        "proposito": "Precatio pro impetrando labore et provisio.",
+        "tags": [
+          "catholicismus",
+          "sanctus_onuphrius",
+          "labor",
+          "panis"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +694,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "San Pantaleón · Médico et Mártir · Alivio Sufrimiento et Salus",
+      "titulo": "Precatio ad Sanctum Pantaleonem Medicum et Martyrem pro Infirmis",
       "tradicion": "catolicismo",
       "categoriaIntencion": "sanitas_sanatio",
       "estadosEmocionales": [
@@ -691,14 +704,27 @@
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
       "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "San Pantaleón, médico compasivo qui curaste cum la ciencia et la fides: mira nuestras dolencias et sufrimientos. Derrama el bálsamo medicina divina super nuestro corpus, alivia el dolor infirmi et guía la mano médicos qui nos asisten. Amen.",
+      "guiaFonetica": "[Sancte Pantaleon, medicus misericors et athleta Christi...]",
+      "textoTraducido": "O gloriose Sancte Pantaleon, martyr Christi et medicus animarum et corporum! Qui scientiam medicinae cum fide evangelica coniunxisti et gratis infirmos curasti: impetra a Deo sanitatem languentibus, dolores mitiga et medicorum manus dirige. Sancte Pantaleon, ora pro nobis et infirmos sana. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Precatio ad Sanctum Pantaleonem Medicum et Martyrem pro Infirmis",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Liturgia et Traditio Sancti Pantaleonis Martyris",
+        "proposito": "Precatio pro salute corporis et animi.",
+        "tags": [
+          "catholicismus",
+          "sanctus_pantaleon",
+          "sanatio",
+          "infirmi"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59225,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Oratio ad Domina Nostra de Monte Carmelo de Maipú",
+      "titulo": "Precatio ad Beatam Mariam Virginem de Monte Carmelo de Maipu",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Paz_Social_Y_Proteccion_Escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59234,27 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Virgen Carmen de Maipú: extiende tu sanctus Escapulario super nosotros, cuida la pax in nuestra patria et sé nuestro refugium in hora periculum. Amen.",
+      "textoOriginal": "Sancta Maria de Monte Carmelo de Maipu, ora pro nobis et protege populum tuum. Amen.",
+      "guiaFonetica": "[O Domina Nostra de Monte Carmelo de Maipu...]",
+      "textoTraducido": "O Domina Nostra de Monte Carmelo de Maipu, Regina et Patrona Chiliae! Tibi familias et patriam nostram consecramus. Scapulare tuum super nos extende, da pacem, iustitiam et concordiam. Mater Carmeli, protege nos in saecula. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Precatio ad Beatam Mariam Virginem de Monte Carmelo de Maipu",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Sanctuarium Nationale de Maipu",
+        "proposito": "Precatio pro salute patriae et familiarum.",
+        "tags": [
+          "catholicismus",
+          "virgo_carmeli_maipu",
+          "chilia"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94640,6 +94678,26 @@
           "iesus_nazarenus",
           "sanatio",
           "liberatio"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Precatio ad Beatum Zepherinum Namuncurá Lilium Patagoniae",
+      "nombre": "Precatio ad Beatam Zepherinum Namuncurá Lilium Patagoniae",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Domine Iesu, qui in Beato Zepherino Namuncurá exemplar puritatis et caritatis evangelicae nobis dedisti: concede nobis, eo intercedente, ut iuventutem nostram in fide et sanctitate custodias. Beate Zepherine, lilium Patagoniae, ora pro nobis. Amen.",
+      "textoOriginal": "Beate Zepherine Namuncura, lilium Patagoniae et amator Christi, ora pro nobis et pro iuventute nostra. Amen.",
+      "guiaFonetica": "[Beate Zepherine Namuncura, lilium Patagoniae...]",
+      "metadata": {
+        "origen": "Liturgia Salesiana",
+        "proposito": "Precatio pro iuventute et sanctitate cordis.",
+        "tags": [
+          "catholicismus",
+          "zepherinus_namuncura",
+          "iuventus"
         ]
       }
     }

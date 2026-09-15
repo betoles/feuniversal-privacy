@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "San Onofre · Bereitstellung menschenwürdiger Arbeit, Unterkunft und Wohlstand",
+      "titulo": "Heiliger Onuphrius · Wüsteneinsiedler · Würdige Arbeit, Wohnung und Beistand",
       "tradicion": "catolicismo",
       "categoriaIntencion": "wohlstand_arbeit",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "Oh glorreicher Heiliger Onuphrius, demütiger Diener Gottes, unterstützt durch die göttliche Vorsehung: Gewähre mir Hilfe bei meinen materiellen Bedürfnissen, eröffne Arbeitsquellen und bringe gerechte Fülle in mein Leben. Amen.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[O heiliger Onuphrius...]",
+      "textoTraducido": "O heiliger Onuphrius, Einsiedler der Wüste, den die göttliche Vorsehung wunderbar versorgte! Blicke voll Erbarmen auf meine irdischen Nöte. Erbitte mir von Gott ehrliche und sichere Arbeit, wende Mangel und Schulden von meinem Hause ab und schenke uns ein sicheres Dach und das tägliche Brot. Heiliger Onuphrius, verlass mich nicht in meiner Not! Amen.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Heiliger Onuphrius · Wüsteneinsiedler · Würdige Arbeit, Wohnung und Beistand",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Andachtstradition des heiligen Onuphrius",
+        "proposito": "Gebet um Arbeitsplatz, Wohnung und Lebensunterhalt.",
+        "tags": [
+          "katholizismus",
+          "onuphrius",
+          "arbeit",
+          "wohnung",
+          "vorsehung"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "Heiliger Pantaleon · Arzt und Märtyrer · Linderung von Leid und Gesundheit",
+      "titulo": "Heiliger Pantaleon · Arzt und Märtyrer · Heilung der Kranken und Gebet des 27. Tages",
       "tradicion": "catolicismo",
       "categoriaIntencion": "gesundheit_heilung",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "Heiliger Pantaleon, mitfühlender Arzt, den du mit Wissenschaft und Glauben geheilt hast: Schau dir unsere Leiden und Leiden an. Gieße den Balsam der göttlichen Medizin auf unseren Körper, lindere die Schmerzen der Kranken und führe die Hand der Ärzte, die uns helfen. Amen.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi... Amen.",
+      "guiaFonetica": "[Sancte Pantaleon, medicus misericors...]",
+      "textoTraducido": "O glorreicher heiliger Pantaleon, Märtyrer Christi und barmherziger Arzt der Leidenden! Du, der du die Kranken im Namen des Herrn unentgeltlich heiltest: Erbitte von Gott Genesung für die Kranken, Linderung der Schmerzen und Kraft in der Prüfung. Leite die Hände der Ärzte und Pflegekräfte. Heiliger Pantaleon, bitte für uns und schenke den Kranken Heilung! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Heiliger Pantaleon · Arzt und Märtyrer · Heilung der Kranken und Gebet des 27. Tages",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Andacht zum heiligen Nothelfer Pantaleon",
+        "proposito": "Gebet um Genesung von Krankheiten und Segen für Ärzte.",
+        "tags": [
+          "katholizismus",
+          "pantaleon",
+          "nothelfer",
+          "heilung",
+          "aerzte"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Gebet an die Jungfrau von Carmen de Maipú",
+      "titulo": "Unsere Liebe Frau vom Berge Karmel von Maipú · Schutzpatronin Chiles",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_social_y_proteccion_escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Jungfrau von Carmen de Maipú: Reichen Sie Ihr heiliges Skapulier über uns aus, schützen Sie den Frieden in unserem Heimatland und seien Sie unsere Zuflucht in der Stunde der Gefahr. Amen.",
+      "textoOriginal": "Maria vom Berge Karmel von Maipu, bitte fuer uns. Amen.",
+      "guiaFonetica": "[Maria vom Berge Karmel von Maipu...]",
+      "textoTraducido": "O Maria vom Berge Karmel von Maipú, Patronin Chiles! Wir weihen dir unsere Familien und unsere Heimat. Breite dein Skapulier des Schutzes über uns aus und schenke uns Eintracht, Frieden und Gerechtigkeit. Mutter vom Karmel, segne uns immerdar! Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Unsere Liebe Frau vom Berge Karmel von Maipú · Schutzpatronin Chiles",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Nationalheiligtum von Maipú (Chile)",
+        "proposito": "Mariengebet für Frieden und Schutz der Familien.",
+        "tags": [
+          "katholizismus",
+          "maria_karmel",
+          "chile",
+          "maipu"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94645,6 +94686,27 @@
           "heilung",
           "venezuela",
           "seuchenschutz"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Seliger Zephyrinus Namuncurá · Die Lilie Patagoniens",
+      "nombre": "Seliger Zephyrinus Namuncurá · Die Lilie Patagoniens",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Herr Jesus Christus, der du im seligen Zephyrinus Namuncurá ein leuchtendes Vorbild der Reinheit und Nächstenliebe geschenkt hast! Schenke unserer Jugend Festigkeit im Glauben und Freude am Guten. Seliger Zephyrinus, Lilie Patagoniens, bitte für uns! Amen.",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Beate Zepherine Namuncura...]",
+      "metadata": {
+        "origen": "Salesianische Frömmigkeit",
+        "proposito": "Gebet für die Jugend und Reinheit des Herzens.",
+        "tags": [
+          "katholizismus",
+          "zephyrinus_namuncura",
+          "jugend",
+          "patagonien"
         ]
       }
     }

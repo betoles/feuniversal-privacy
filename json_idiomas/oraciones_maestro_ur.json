@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "مقدس · مہذب کام، پناہ گاہ اور خوشحالی کی فراہمی",
+      "titulo": "مقدس اونوپھریئس · صحرائی زاہد · روزگار، چھت اور رزق کی دعا",
       "tradicion": "catolicismo",
       "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "اوہ شاندار سینٹ اونوفریئس، صحرا کا ایک عاجز اینکرائٹ جو آسمانی بھلائی سے برقرار تھا: جس طرح آپ کو کبھی بھی خدا کی مدد کی کمی نہیں تھی، اسی طرح ضرورت کی اس گھڑی میں میری مدد کریں تاکہ مجھے ایک ایماندارانہ ملازمت، ایک محفوظ چھت اور امن و سلامتی کے ساتھ رہنے کا ذریعہ ملے۔ آمین۔",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Ey Muqaddas Onuphrius, rozgar aur rizq...]",
+      "textoTraducido": "اے برگزیدہ مقدس اونوپھریئس، صحرا کے حلیم گوشہ نشین جنہیں قدرت نے معجزاتی طور پر سنبھالا! میری مالی مشکلات پر رحم فرمائیں۔ خدا کے حضور میرے لیے عزت کی اور پائیدار ملازمت کی دعا کریں، غربت اور قرض کو دور کریں اور ہمیں محفوظ چھت اور روزی عطا کریں۔ اے مقدس اونوپھریئس، اس مشکل میں میری مدد کریں! آمین۔",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "مقدس اونوپھریئس · صحرائی زاہد · روزگار، چھت اور رزق کی دعا",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "مقدس اونوپھریئس کی روایتی دعا",
+        "proposito": "ملازمت کے حصول، چھت اور مالی فراخی کی دعا۔",
+        "tags": [
+          "کیتھولک",
+          "مقدس_اونوپھریئس",
+          "روزگار",
+          "چھت",
+          "رزق"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "سینٹ پینٹالیون · طبیب اور شہید · مصائب سے نجات اور صحت",
+      "titulo": "مقدس پینٹالیون · طبیب اور شہید · بیماروں کی شفا کی دعا",
       "tradicion": "catolicismo",
       "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "سینٹ پینٹالیون، مہربان طبیب اور مسیح کا کھلاڑی: بیماروں پر آسمانی دوا ڈالیں، ان کے درد کو کم کریں، اور مکمل صحت حاصل کریں۔ آمین۔",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors... Amen.",
+      "guiaFonetica": "[Ey Muqaddas Pantaleon, tabib aur shaheed...]",
+      "textoTraducido": "اے جلیل القدر مقدس پینٹالیون، مسیح کے شہید اور بیماروں کے شفیق معالج! آپ جنہوں نے خداوند کے نام پر مریضوں کو شفا بخشی: خدا سے بیماروں کے لیے صحت اور تکلیف سے نجات کی التجا کریں۔ ڈاکٹروں کے ہاتھوں میں برکت دیں اور ہمیں تندرستی بخشیں۔ اے معجزاتی مقدس پینٹالیون، ہمارے لیے دعا کریں! آمین۔",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "مقدس پینٹالیون · طبیب اور شہید · بیماروں کی شفا کی دعا",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "مقدس پینٹالیون کی روایتی شفا کی دعا",
+        "proposito": "بیماروں کی شفا اور طبی عملے کی رہنمائی کے لیے دعا۔",
+        "tags": [
+          "کیتھولک",
+          "مقدس_پینٹالیون",
+          "شفا",
+          "صحت",
+          "طبیب"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "کارمین ڈی میپو کی کنواری کے لیے دعا",
+      "titulo": "مائیپو کی کارمل مقدس مریم · چلی کی سرپرست",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Paz_Social_Y_Proteccion_Escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,29 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "کارمین کی کنواری، چلی کی ملکہ اور سرپرستی: مائیپو میں قائم ہونے والے مقدس عہد سے پہلے، ہم اپنے خاندانوں اور اپنی زمین کی تقدیر آپ کے ماؤں کے ہاتھ میں دیتے ہیں۔ ہمیں اپنے بابرکت کارملائٹ سکیپولر سے ڈھانپیں، ہمارے گھروں میں امن قائم کریں، ہمیں زلزلوں اور جھگڑوں سے نجات دلائیں، اور ہمیشہ اپنے الہی بیٹے یسوع مسیح تک ہماری رہنمائی کریں۔ آمین۔",
+      "textoOriginal": "اے مائیپو کی کارمل مریم، ہماری حفاظت فرما۔ آمین۔",
+      "guiaFonetica": "[Ey Maipu ki Karmel Muqaddas Maryam...]",
+      "textoTraducido": "اے مائیپو کی کارمل مقدس مریم، چلی کی ملکہ اور حامی! ہم اپنے خاندانوں اور وطن کو تیرے سپرد کرتے ہیں۔ ہم پر اپنے تحفظ کا سایہ قائم رکھ، عدل، امن اور بھائی چارے کو فروغ دے۔ اے کارمل کی ماں، اپنے لوگوں کو ہمیشہ برکت دے! آمین۔",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "مائیپو کی کارمل مقدس مریم · چلی کی سرپرست",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "مائیپو کا قومی مزار (چلی)",
+        "proposito": "امن، انصاف اور خاندانی حفاظت کی دعا۔",
+        "tags": [
+          "کیتھولک",
+          "کارمل_مریم",
+          "چلی",
+          "مائیپو",
+          "امن"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94643,6 +94685,27 @@
           "شفا",
           "وینزویلا",
           "وبا_سے_حفاظت"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "مبارک زیفرینو نامونکورا · پیٹاگونیا کا کنول اور نوجوانوں کے سرپرست",
+      "nombre": "مبارک زیفرینو نامونکورا · پیٹاگونیا کا کنول اور نوجوانوں کے سرپرست",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "اے خداوند یسوع، جنہوں نے مبارک زیفرینو نامونکورا میں پاکیزگی اور محبت کی عمدہ مثال دی! ان کی شفاعت سے ہمارے نوجوانوں کو ایمان کی راہ پر قائم رکھ۔ اے مبارک زیفرینو، ہمارے لیے دعا فرمائیں! آمین۔",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Mubarak Zeferino Namuncura...]",
+      "metadata": {
+        "origen": "سیلیشین روایتی دعا",
+        "proposito": "نوجوانوں کی حفاظت اور پاکیزگی کی دعا۔",
+        "tags": [
+          "کیتھولک",
+          "زیفرینو_نامونکورا",
+          "نوجوان",
+          "پاکیزگی"
         ]
       }
     }

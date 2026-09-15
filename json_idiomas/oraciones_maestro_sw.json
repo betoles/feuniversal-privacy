@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "San Onofre · Utoaji wa Kazi Yenye Heshima, Makazi na Ufanisi",
+      "titulo": "Mtakatifu Onofri · Mtawa wa Jangwani · Kazi ya Heshima, Makazi na Riziki",
       "tradicion": "catolicismo",
       "categoriaIntencion": "mafanikio_kazi",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "Ee Mtakatifu Onuphrius mtukufu, nanga mnyenyekevu wa jangwa ambaye aliimarishwa na wema wa mbinguni: kama vile haukukosa msaada wa Mungu, nisaidie katika saa hii ya hitaji ili nipate kazi ya uaminifu, paa salama na njia za kuishi kwa amani na ustawi. Amina.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Ee Mtakatifu Onofri mbarikiwa...]",
+      "textoTraducido": "Ee Mtakatifu Onofri mbarikiwa, mtawa wa jangwani uliyetunzwa na Huruma ya Mungu! Tazama mahitaji yangu ya kimaisha. Nisaidie kupata kazi ya heshima na halali, ondoa umaskini na madeni nyumbani mwangu, na utujalie makazi salama na mkate wa kila siku. Mtakatifu Onofri, usinitupe katika shida yangu! Amina.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Mtakatifu Onofri · Mtawa wa Jangwani · Kazi ya Heshima, Makazi na Riziki",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Mapokeo ya Ibada ya Mtakatifu Onofri",
+        "proposito": "Sala ya kuomba kazi, makazi na maongozi ya Mungu katika maisha.",
+        "tags": [
+          "ukatoliki",
+          "mtakatifu_onofri",
+          "kazi",
+          "makazi",
+          "riziki"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "Saint Pantaleon · Tabibu na Shahidi · Msaada wa Kuteseka na Afya",
+      "titulo": "Mtakatifu Pantaleoni · Daktari na Mfiadini · Uponyaji wa Wagonjwa na Sala ya Tarehe 27",
       "tradicion": "catolicismo",
       "categoriaIntencion": "afya_uponyaji",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "Mtakatifu Pantaleon, daktari mwenye huruma na mwanariadha wa Kristo: mimina dawa ya mbinguni juu ya wagonjwa, wapunguze maumivu yao, na kupata afya kamili. Amina.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors... Amen.",
+      "guiaFonetica": "[Ee Mtakatifu Pantaleoni, daktari na mfiadini...]",
+      "textoTraducido": "Ee Mtakatifu Pantaleoni mtukufu, mfiadini wa Kristo na daktari mwenye huruma! Uliyewaponya wagonjwa bure kwa Jina la Bwana: mwombe Mungu awajalie wagonjwa afya, utulivu wa maumivu na nguvu katika majaribu. Ongoza mikono ya madaktari na wauguzi. Mtakatifu Pantaleoni mwenye miujiza, utuombee na kuponya wagonjwa wetu! Amina.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Mtakatifu Pantaleoni · Daktari na Mfiadini · Uponyaji wa Wagonjwa na Sala ya Tarehe 27",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Mapokeo ya Ibada ya Mtakatifu Pantaleoni Daktari",
+        "proposito": "Sala ya kuomba uponyaji wa magonjwa na baraka kwa wahudumu wa afya.",
+        "tags": [
+          "ukatoliki",
+          "mtakatifu_pantaleoni",
+          "uponyaji",
+          "wagonjwa",
+          "madaktari"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "Maombi kwa Bikira wa Carmen de Maipú",
+      "titulo": "Bikira Maria wa Karmeli wa Maipú · Msimamizi wa Chile",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Kijamii_Amani_Na_Ulinzi_wa_Kijamii",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "Bikira wa Carmen, Malkia na Mlinzi wa Chile: kabla ya nadhiri takatifu iliyowekwa Maipú, tunaweka hatima ya familia zetu na ardhi yetu mikononi mwa mama yako. Tufunike kwa Skapulari yako ya Karmeli iliyobarikiwa, utunze amani katika nyumba zetu, utuokoe na matetemeko ya ardhi na mafarakano, na utuongoze daima kwa Mwana wako wa Kimungu Yesu Kristo. Amina.",
+      "textoOriginal": "Bikira Maria wa Maipu, uilinde nchi yetu. Amina.",
+      "guiaFonetica": "[Bikira Maria wa Karmeli wa Maipu...]",
+      "textoTraducido": "Bikira Maria wa Karmeli wa Maipú, Malkia na Mlinzi wa Chile! Tunakukabidhi familia zetu na nchi yetu. Panua Skapulari yako ya ulinzi juu yetu, leta haki, amani na mshikamano. Mama wa Karmeli, ubariki watu wako daima! Amina.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "Bikira Maria wa Karmeli wa Maipú · Msimamizi wa Chile",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "Madhabahu ya Kitaifa ya Maipú (Chile)",
+        "proposito": "Sala ya kuiweka nchi na familia chini ya ulinzi wa Bikira Maria.",
+        "tags": [
+          "ukatoliki",
+          "bikira_wa_maipu",
+          "chile",
+          "amani"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94647,6 +94688,27 @@
           "uponyaji",
           "venezuela",
           "ulinzi_dhidi_ya_tauni"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "Mwenyeheri Ceferino Namuncurá · Waridi la Patagonia na Mlinzi wa Vijana",
+      "nombre": "Mwenyeheri Ceferino Namuncurá · Waridi la Patagonia na Mlinzi wa Vijana",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "Bwana Yesu, uliyetoa kwa Mwenyeheri Ceferino Namuncurá mfano mzuri wa usafi na upendo! Kwa maombezi yake, ulinde vijana wetu katika imani na matumaini. Mwenyeheri Ceferino, waridi la Patagonia, utuombee! Amina.",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Mwenyeheri Ceferino Namuncura...]",
+      "metadata": {
+        "origen": "Mapokeo ya Wasalesiani (Argentina)",
+        "proposito": "Sala ya kuwaombea vijana na usafi wa moyo.",
+        "tags": [
+          "ukatoliki",
+          "ceferino_namuncura",
+          "vijana",
+          "usafi_wa_moyo"
         ]
       }
     }

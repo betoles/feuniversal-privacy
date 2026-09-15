@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "San Onofre · פרנסה של עבודה ופרנסה Digno, Techo ו שפע ופרנסה",
+      "titulo": "אונופריוס הקדוש · תפילה לפרנסה טובה, עבודה וקורת גג",
       "tradicion": "catolicismo",
       "categoriaIntencion": "prosperidad_trabajo",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "אָבִינוּ הַמְּפַרְנֵס וְהַזָּן אֶת הַכֹּל בְּרַחֲמָיו.\nפְּתַח לָנוּ שַׁעֲרֵי שָׁמַיִם, שַׁעֲרֵי בְּרָכָה, שַׁעֲרֵי פַּרְנָסָה טוֹבָה וְרֶוַח לְלֹא מְצוּקָה.\nבָּרֵךְ אֶת מַעֲשֵׂה יָדֵינוּ, הַסֵּר כָּל חֹסֶר וּמַחְסוֹר, וּתְנֵנוּ לִהְיוֹת צִנּוֹר שֶׁל שֶׁפַע, חֶסֶד וּנְתִינָה לַזּוּלַת. אָמֵן.",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Onuphriyus ha-Kadosh, parnasa tova...]",
+      "textoTraducido": "הוי אונופריוס הקדוש, נזיר המדבר העניו שזכה לחסדי ההשגחה העליונה! הבט ברחמים על מצוקתי הכלכלית. בקש מאלוהים עבורי עבודה הוגנת ופרנסה בכבוד, הרחק חובות ועוני מביתי, והענק לנו קורת גג בטוחה ולחם חוקנו. אונופריוס הקדוש, עמוד לי בעת צרתי! אמן.",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "אונופריוס הקדוש · תפילה לפרנסה טובה, עבודה וקורת גג",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "מסורת התפילה לאונופריוס הקדוש לפרנסה",
+        "proposito": "תפילה למציאת מקור פרנסה, בית וסילוק חובות.",
+        "tags": [
+          "קתוליות",
+          "אונופריוס_הקדוש",
+          "פרנסה",
+          "עבודה",
+          "בית"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "San Pantaleón · Médico ו Mártir · Alivio שלl Sufrimiento ו בריאות",
+      "titulo": "פנטלאון הקדוש · רופא וקדוש מעונה · רפואת חולים",
       "tradicion": "catolicismo",
       "categoriaIntencion": "salud_sanacion",
       "estadosEmocionales": [
@@ -690,15 +704,28 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "אֵל נָא, רְפָא נָא לָנוּ.\nרוֹפֵא כָּל בָּשָׂר וּמַפְלִיא לַעֲשׂוֹת, הוֹשֵׁט יָדְךָ הַמְּרַפֵּאת וּשְׁלַח רְפוּאָה שְׁלֵמָה מִן הַשָּׁמַיִם, רְפוּאַת הַנֶּפֶשׁ וּרְפוּאַת הַגּוּף.\nחַדֵּשׁ כֹּחוֹתֵינוּ, גָּרֵשׁ כָּל מַחֲלָה וּמַכְאוֹב, וּמַלֵּא אֶת לִבֵּנוּ שַׁלְוָה, תִּקְוָה וּבְרִיאוּת אֵיתָנָה. אָמֵן.",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors... Amen.",
+      "guiaFonetica": "[Pantaleon ha-Kadosh, rofe ha-cholim...]",
+      "textoTraducido": "הוי פנטלאון הקדוש והמפואר, רופא החולים ומשרתו הנאמן של המשיח! אתה אשר ריפאת חולים בשם האדון באהבה ובחמלה: בקש מאלוהים רפואה שלמה לחולים, הקלה בכאבים וכוח בשעת מבחן. הדרך את ידי הרופאים והענק לנו בריאות ושלום. פנטלאון הקדוש, התפלל בעדנו ורפא את חולינו! אמן.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "פנטלאון הקדוש · רופא וקדוש מעונה · רפואת חולים",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "מסורת התפילה לפנטלאון הקדוש הרופא",
+        "proposito": "תפילה לרפואה שלמה והקלה על סבלם של חולים.",
+        "tags": [
+          "קתוליות",
+          "פנטלאון_הקדוש",
+          "רפואה_שלמה",
+          "חולים"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59226,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "תפילה ל la Virgen שלl Carmen של Maipú",
+      "titulo": "גבירתנו מהר הכרמל במאיפו · מגינת צ'ילה",
       "tradicion": "catolicismo",
       "categoriaIntencion": "Paz_Social_Y_Proteccion_Escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59235,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "רִבּוֹן הָעוֹלָמִים וּבוֹרֵא כָּל חַי, אֵלֶיךָ אֶשָּׂא עֵינַי בִּתְפִלָּה וּבִתְחִנָּה.\nהָאֵר נָא אֶת נְתִיבִי, פְּרֹשׂ עָלַי אֶת חַסְדְּךָ וְהַשְׁכֵּן בְּקִרְבִּי שָׁלוֹם, אֱמוּנָה וּבְרָכָה שְׁלֵמָה.\nשְׁמַע תְּפִלָּתִי וְהַאֲזֵן לְשַׁוְעָתִי, כִּי בְּךָ תִּקְוָתִי וּמַחֲסִי לְעוֹלָם וָעֶד. אָמֵן.",
+      "textoOriginal": "מרים מהר הכרמל במאיפו, ברכי את עמך. אמן.",
+      "guiaFonetica": "[Miryam me-Har ha-Karmel be-Maipu...]",
+      "textoTraducido": "מרים הבתולה מהר הכרמל במאיפו, מלכתה ומגינתה של צ'ילה! אנו מקדישים לך את משפחותינו ואת ארצנו. פרשי עלינו את מגן חסדך, העניקי שלום, צדק ואחווה. אם הכרמל, ברכי את עמך לעולם! אמן.",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "rtl"
+      "dir": "rtl",
+      "nombre": "גבירתנו מהר הכרמל במאיפו · מגינת צ'ילה",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "המקדש הלאומי של מאיפו, צ'ילה",
+        "proposito": "תפילת הגנה ושלום למשפחות ולמדינה.",
+        "tags": [
+          "קתוליות",
+          "הכרמל_מאיפו",
+          "צ'ילה",
+          "שלום"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94643,6 +94683,27 @@
           "רפואה",
           "ונצואלה",
           "הגנה_ממגפות"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "צפרינו נאמונקורה המבורך · שושנת פטגוניה ומגן הנוער",
+      "nombre": "צפרינו נאמונקורה המבורך · שושנת פטגוניה ומגן הנוער",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "האדון ישוע, אשר בצפרינו נאמונקורה המבורך נתת לנו מופת של טוהר, ענווה ואהבת הבריות! שמור על בני הנוער שלנו בדרכי האמונה והתקווה. צפרינו המבורך, שושנת פטגוניה, התפלל בעדנו! אמן.",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Tzeferino Namunckura ha-Mevorakh...]",
+      "metadata": {
+        "origen": "מסורת התפילה לצפרינו המבורך",
+        "proposito": "תפילה למען הנוער וטהרת הלב.",
+        "tags": [
+          "קתוליות",
+          "צפרינו_נאמונקורה",
+          "נוער",
+          "פטגוניה"
         ]
       }
     }

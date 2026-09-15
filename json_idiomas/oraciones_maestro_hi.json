@@ -440,7 +440,7 @@
     {
       "id": "SAN_ONOFRE_TRABAJO_VIVIENDA",
       "numero": 20,
-      "titulo": "सैन ओनोफ़्रे · सभ्य कार्य, आश्रय और समृद्धि का प्रावधान",
+      "titulo": "संत ओनोफ्रियस · सम्मानजनक कार्य, आवास और जीविका की प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "समृद्धि_और_कार्य",
       "estadosEmocionales": [
@@ -449,15 +449,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Español Litúrgico Devocional",
-      "textoOriginal": "Oh glorioso San Onofre, humilde anacoreta del desierto que fuiste sostenido por la bondad celestial: así como nunca te faltó el auxilio de Dios, asísteme en esta hora de necesidad para que obtenga un trabajo honrado, un techo seguro y los medios para vivir en paz y bienestar. Amén.",
-      "guiaFonetica": "[O glo-rió-so San O-nó-fre, u-míl-de a-na-co-ré-ta del de-siér-to...]",
-      "textoTraducido": "हे गौरवशाली संत ओनुफ्रियस, ईश्वरीय प्रोविडेंस द्वारा समर्थित ईश्वर के विनम्र सेवक: मुझे मेरी भौतिक आवश्यकताओं, काम के खुले स्रोतों में सहायता प्रदान करें और मेरे जीवन में प्रचुरता लाएं। आमीन।",
+      "textoOriginal": "Sancte Onuphri, anachoreta deserti... Amen.",
+      "guiaFonetica": "[Hey Dhanya Sant Onophriyus...]",
+      "textoTraducido": "हे धन्य संत ओनोफ्रियस, रेगिस्तान के विनम्र तपस्वी और ईश्वरीय कृपा से पोषित सेवक! मेरी आर्थिक कठिनाइयों पर दया करें। ईश्वर से मेरे लिए सम्मानजनक और स्थिर रोजगार की कृपा मांगें, हमारे घर से गरीबी और कर्ज दूर करें, और हमें सुरक्षित छत और दैनिक रोटी प्रदान करें। हे संत ओनोफ्रियस, इस संकट में मेरी सहायता करें! आमीन।",
       "ritualesAsociados": {
         "tipoContador": "libre",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_432"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "संत ओनोफ्रियस · सम्मानजनक कार्य, आवास और जीविका की प्रार्थना",
+      "categoria": "trabajo_y_sustento",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "संत ओनोफ्रियस की पारंपरिक प्रार्थना",
+        "proposito": "रोजगार प्राप्ति, घर और आर्थिक संकट निवारण की प्रार्थना।",
+        "tags": [
+          "कैथोलिक",
+          "संत_ओनोफ्रियस",
+          "रोजगार",
+          "आवास",
+          "जीविका"
+        ]
+      }
     },
     {
       "id": "SAN_PANCRACIO_TRABAJO_SALUD",
@@ -681,7 +695,7 @@
     {
       "id": "SAN_PANTALEON_MEDICO_SANACION",
       "numero": 31,
-      "titulo": "सेंट पैंटालियन · चिकित्सक और शहीद · दुख से राहत और स्वास्थ्य",
+      "titulo": "संत पेंटालियन · चिकित्सक और शहीद · रोगियों की चंगाई की प्रार्थना",
       "tradicion": "catolicismo",
       "categoriaIntencion": "स्वास्थ्य_और_चंगाई",
       "estadosEmocionales": [
@@ -690,15 +704,29 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Griego y Latín Clásico",
-      "textoOriginal": "Sancte Pantaleon, medicus misericors et athleta Christi: infunde medicinam caelestem super languentes, dolores mitiga, et plenam sanitatem impetra. Amen.",
-      "guiaFonetica": "[Sánc-te Pan-ta-lé-on, mé-di-kus mi-se-rí-kors et at-lé-ta Krís-ti...]",
-      "textoTraducido": "संत पैंटालियन, दयालु चिकित्सक जिन्हें आपने विज्ञान और विश्वास से ठीक किया: हमारी बीमारियों और पीड़ाओं को देखें। हमारे शरीर पर दिव्य औषधि का मरहम लगाओ, बीमारों के दर्द को दूर करो और हमारी सहायता करने वाले डॉक्टरों के हाथों का मार्गदर्शन करो। आमीन।",
+      "textoOriginal": "Sancte Pantaleon, medicus misericors... Amen.",
+      "guiaFonetica": "[Hey Mahimamay Sant Pantaleon...]",
+      "textoTraducido": "हे महिमामय संत पेंटालियन, मसीह के शहीद और रोगियों के दयालु चिकित्सक! आपने प्रभु के नाम में रोगियों को निःशुल्क चंगा किया: ईश्वर से बीमारों के लिए स्वास्थ्य, दर्द से राहत और कष्टों में धैर्य की कृपा प्राप्त करें। डॉक्टरों के हाथों का मार्गदर्शन करें और हमारे प्रियजनों को स्वास्थ्य प्रदान करें। हे चमत्कारी संत पेंटालियन, हमारे लिए प्रार्थना करें! आमीन।",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "frecuencia_528"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "संत पेंटालियन · चिकित्सक और शहीद · रोगियों की चंगाई की प्रार्थना",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "संत पेंटालियन चिकित्सक की पारंपरिक प्रार्थना",
+        "proposito": "रोगियों की चंगाई, स्वास्थ्य लाभ और डॉक्टरों के लिए प्रार्थना।",
+        "tags": [
+          "कैथोलिक",
+          "संत_पेंटालियन",
+          "चंगाई",
+          "स्वास्थ्य",
+          "डॉक्टर"
+        ]
+      }
     },
     {
       "id": "SAN_BLAS_BENDICION_SALUD",
@@ -59199,7 +59227,7 @@
     {
       "id": "CAT_CHL_VIRGEN_CARMEN_MAIPU",
       "numero": 2735,
-      "titulo": "कारमेन डी माईपु की वर्जिन से प्रार्थना",
+      "titulo": "माईपू की कार्मेल माता मरियम · चिली की संरक्षिका",
       "tradicion": "catolicismo",
       "categoriaIntencion": "paz_social_y_proteccion_escapulario",
       "estadosEmocionales": [
@@ -59208,15 +59236,28 @@
         "confiado"
       ],
       "idiomaLiturgicoOriginal": "Español chileno",
-      "textoOriginal": "Virgen del Carmen, Reina y Patrona de Chile: ante el voto sagrado erigido en Maipú, ponemos en tus maternales manos el destino de nuestras familias y de nuestra tierra. Cúbrenos con tu bendito Escapulario carmelitano, preserva la paz en nuestros hogares, líbranos de terremotos y discordias, y guíanos siempre hacia tu Divino Hijo Jesucristo. Amén.",
-      "guiaFonetica": "[Vir-jen del Car-men, Rei-na y Pa-tro-na de Chi-le... Cu-bre-nos con tu ben-di-to Es-ca-pu-la-rio car-me-li-ta-no]",
-      "textoTraducido": "वर्जिन ऑफ कारमेन डी माईपु: अपने पवित्र स्कैपुलर को हमारे ऊपर फैलाएं, हमारी मातृभूमि में शांति की रक्षा करें और खतरे की घड़ी में हमारी शरण बनें। आमीन।",
+      "textoOriginal": "माईपू की कार्मेल माता, हमारी रक्षा करें। आमीन।",
+      "guiaFonetica": "[Maipu ki Karmel Mata Mariyam...]",
+      "textoTraducido": "हे माईपू की कार्मेल माता मरियम, चिली की महारानी और संरक्षिका! हम अपने परिवारों और देश को आपकी मातृत्व सुरक्षा में समर्पित करते हैं। हम पर अपनी कृपा का आंचल फैलाएं, शांति, न्याय और बंधुत्व का संचार करें। हे कार्मेल की माता, अपनी प्रजा को सदा आशीष दें! आमीन।",
       "ritualesAsociados": {
         "tipoContador": "rosario_carmelitano",
         "duracionVeladoraSugeridaHoras": 24,
         "paisajeSonoroRecomendado": "Campanadas del Templo Votivo de Maipú y guitarra andina solemne"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "nombre": "माईपू की कार्मेल माता मरियम · चिली की संरक्षिका",
+      "categoria": "marianas",
+      "tipo": "oracion",
+      "metadata": {
+        "origen": "माईपू का राष्ट्रीय तीर्थ (चिली)",
+        "proposito": "परिवारों और राष्ट्र की सुरक्षा तथा शांति के लिए प्रार्थना।",
+        "tags": [
+          "कैथोलिक",
+          "कार्मेल_माता_माईपू",
+          "चिली",
+          "शांति"
+        ]
+      }
     },
     {
       "id": "CAT_CUB_CARIDAD_DEL_COBRE",
@@ -94644,6 +94685,27 @@
           "चंगाई",
           "वेनेजुएला",
           "महामारी_से_रक्षा"
+        ]
+      }
+    },
+    {
+      "id": "CAT_ARG_BEATO_CEFERINO_NAMUNCURA",
+      "titulo": "धन्य सेफ़ेरिनो नामुनकुरा · पेटागोनिया के लिली और युवाओं के संरक्षक",
+      "nombre": "धन्य सेफ़ेरिनो नामुनकुरा · पेटागोनिया के लिली और युवाओं के संरक्षक",
+      "tradicion": "catolicismo",
+      "categoria": "intercesion_santos",
+      "tipo": "oracion",
+      "textoTraducido": "हे प्रभु यीशु, जिन्होंने धन्य सेफ़ेरिनो नामुनकुरा में हमें पवित्रता और प्रेम का आदर्श दिया! उनकी मध्यस्थता से हमारे युवाओं को विश्वास और सत्य के मार्ग पर चलाएं। हे पेटागोनिया के लिली, हमारे लिए प्रार्थना करें! आमीन।",
+      "textoOriginal": "Beate Zepherine Namuncura, ora pro nobis. Amen.",
+      "guiaFonetica": "[Dhanya Seferino Namunckura...]",
+      "metadata": {
+        "origen": "सेलेशियन भक्ति परंपरा",
+        "proposito": "युवाओं और हृदय की पवित्रता के लिए प्रार्थना।",
+        "tags": [
+          "कैथोलिक",
+          "सेफ़ेरिनो_नामुनकुरा",
+          "युवा",
+          "पवित्रता"
         ]
       }
     }
