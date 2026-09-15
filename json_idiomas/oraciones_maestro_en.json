@@ -58976,9 +58976,9 @@
         "amoroso"
       ],
       "idiomaLiturgicoOriginal": "Italian",
-      "textoOriginal": "Resta con me, Signore, perché ho bisogno della tua presenza per non dimenticarti. Tu sai con quanta facilità ti abbandono. Resta con me, Signore, perché sono debole e ho bisogno della tua forza per non cadere tante volte. Resta con me, Signore, perché tu sei la mia vita e senza di te non ho fervore. Resta con me, Signore, perché tu sei la mia luce e senza di te sono nelle tenebre. Fammi riconoscere come fecero i tuoi discepoli allo spezzare del pane, affinché la Comunione Eucaristica sia la luce che dissipa le tenebre, la forza che mi sostiene e l'unico gaudio del mio cuore. Amen.",
-      "guiaFonetica": "[Res-ta kon me, Si-nyo-re, per-ke o bi-zo-nyo del-la tu-a pre-zen-tsa per non di-men-ti-kar-ti]",
-      "textoTraducido": "Stay with me, Lord, because it is necessary to keep you present so as not to forget you. You know how easily I abandon you. Stay with me, Lord, because I am weak and I need your strength to not fall. Stay with me, Lord, because You are my light and without You I am in darkness. Make me recognize you as your disciples when breaking bread, so that the Eucharist may be the light that dispels the darkness and joy of my heart. Amen.",
+      "textoOriginal": "Resta con me, Signore, perché ho bisogno della tua presenza per non dimenticarti. Tu sai con quanta facilità ti abbandono. Resta con me, Signore, perché sono debole e ho bisogno della tua forza per non cadere tante volte. Resta con me, Signore, perché tu sei la mia vita e senza di te vengo meno nel fervore. Resta con me, Signore, per farmi conoscere la tua volontà. Resta con me, Signore, perché tu sei la mia luce e senza di te sono nelle tenebre. Resta con me, Signore, perché desidero amarti tanto ed essere sempre in tua compagnia. Resta con me, Gesù, perché per quanto povera sia l'anima mia, desidera essere per te un luogo di consolazione e un nido d'amore. Fammi riconoscere come fecero i tuoi discepoli allo spezzare del pane, affinché la Comunione Eucaristica sia la luce che dissipa le tenebre, la forza che mi sostiene e l'unico gaudio del mio cuore. Amen.",
+      "guiaFonetica": "Resta kon me, Siñore, perké o bisoño dela tua presentsa per non dimentikarti...",
+      "textoTraducido": "Stay with me, Lord, for I need Your presence so as not to forget You. You know how easily I abandon You. Stay with me, Lord, because I am weak and I need Your strength so that I may not fall so often. Stay with me, Lord, for You are my life, and without You I lack fervor. Stay with me, Lord, to make known to me Your holy will. Stay with me, Lord, for You are my light, and without You I walk in darkness. Stay with me, Jesus, for although my soul is poor, it desires to be a place of consolation and a nest of love for You. Let me recognize You as Your disciples did at the breaking of the bread, so that the Eucharist may be the light dispelling darkness, the strength sustaining me, and the only joy of my heart. Amen.",
       "ritualesAsociados": {
         "tipoContador": "oracion_post_comunion_silencio",
         "duracionVeladoraSugeridaHoras": 24,
@@ -59022,9 +59022,9 @@
         "suplicante"
       ],
       "idiomaLiturgicoOriginal": "Italian / Latin",
-      "textoOriginal": "O gloriosa Santa Rita da Cascia, avvocata dei casi disperati e impossibili! Sotto il peso del dolore ricorro a te con fiducia. Tu che portasti sulla fronte la piaga della spina di Cristo e fosti specchio di pazienza e riconciliazione: intercedi presso il trono di Dio per questa mia causa che sembra senza speranza (presentar la petición). Mostra la potenza della tua preghiera e fammi cantare le lodi del Signore per i secoli eterni. Amen.",
-      "guiaFonetica": "[O glo-rio-za San-ta Ri-ta da Ka-sha, av-vo-ka-ta dey ka-zi dis-pe-ra-ti e im-pos-si-bi-li]",
-      "textoTraducido": "Oh glorious Saint Rita of Casia, advocate of desperate cases and impossible causes! Under the weight of affliction I turn to you with complete confidence. You who received the thorn of the Passion of Christ on your forehead: intercede before God for my urgent need. Amen.",
+      "textoOriginal": "O potente e gloriosa Santa Rita da Cascia, avvocata celeste dei casi disperati e delle cause impossibili! Sotto il peso dell'angoscia e delle prove della vita, ricorro a te con umile e filiale fiducia. Tu che portasti sulla fronte la piaga della spina redentrice di Cristo e fosti specchio supremo di pazienza, carità e riconciliazione: guarda con compassione la mia afflizione e soccorrimi in questa necessità urgente (presentare la richiesta). Ottienimi da Dio la grazia del conforto, allontana l'amarezza e la disperazione dal mio cuore, e fa' che, lodando la divina misericordia, cammini in pace e fedeltà per tutti i giorni della mia vita. Per Cristo nostro Signore. Amen.",
+      "guiaFonetica": "O potente e gloriosa Santa Rita da Kasha, avokata cheles-te dei kazi disperati e dele kause imposibili...",
+      "textoTraducido": "O powerful and glorious Saint Rita of Cascia, heavenly advocate of desperate cases and impossible causes! Under the weight of affliction and the trials of life, I turn to you with humble and filial trust. You who bore upon your forehead the wound of Christ's redeeming thorn and were a supreme model of patience, charity, and reconciliation: look with compassion upon my distress and assist me in this urgent need. Obtain for me from God the grace of comfort, remove bitterness and despair from my heart, and grant that, praising divine mercy, I may walk in peace and fidelity all the days of my life. Through Christ our Lord. Amen.",
       "ritualesAsociados": {
         "tipoContador": "novena_de_rosas_de_santa_rita",
         "duracionVeladoraSugeridaHoras": 15,
@@ -94725,7 +94725,93 @@
           "salesians",
           "youth"
         ]
+      },
+      "categoriaIntencion": "salud_juventud",
+      "estadosEmocionales": [
+        "enfermedad",
+        "esperanza",
+        "humildad",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "Español / Mapudungun",
+      "ritualesAsociados": {
+        "tipoContador": "novenario",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "viento_patagonia"
       }
+    },
+    {
+      "id": "CAT_ITA_SAN_ANTONIO_OBJETOS_PERDIDOS",
+      "numero": 4307,
+      "titulo": "Saint Anthony of Padua · Traditional Prayer to Find Lost Items and Restore Inner Peace",
+      "subtitulo": "Patron of the poor, family causes, and finding lost grace",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz",
+      "estadosEmocionales": [
+        "ansiedad",
+        "paz",
+        "fe",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Italiano / Latín",
+      "textoOriginal": "O glorioso Sant'Antonio di Padova, servo fedele e amico di Gesù, tu che hai ricevuto da Dio il dono mirabile di ritrovare le cose perdute e restituire la pace ai cuori afflitti: volgi a me il tuo sguardo pietoso. Aiutami a ritrovare ciò che ho smarrito in questo momento di ansia (esprimere ciò que se busca), ma soprattutto ottienimi la grazia di non perdere mai l'amicizia con Dio, la fede viva, la purezza del cuore e la carità verso il prossimo. Sii il custode della mia casa, benedici la mia famiglia e guidami sempre sulla via del Vangelo. Per Cristo nostro Signore. Amen.",
+      "guiaFonetica": "O glorioso Sant'Antonio di Padova, servo fedele e amiko di Yezú...",
+      "textoTraducido": "O glorious Saint Anthony of Padua, faithful servant and friend of Jesus! You who received from God the miraculous gift of finding lost things and restoring peace to troubled hearts: turn your compassionate gaze upon me. Help me find what I have lost in this time of anxiety, but above all obtain for me the grace never to lose my friendship with God, my living faith, purity of heart, and charity toward my neighbor. Be the protector of my home, bless my family, and guide me always on the path of the Gospel. Through Christ our Lord. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "trece_martes",
+        "duracionVeladoraSugeridaHoras": 13,
+        "paisajeSonoroRecomendado": "organo_basilica"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_ITA_PADRE_PIO_CORONILLA_SAGRADO_CORAZON",
+      "numero": 4308,
+      "titulo": "Saint Pio of Pietrelcina · Efficacious Novena to the Sacred Heart of Jesus",
+      "subtitulo": "The daily prayer Padre Pio offered for all who requested his intercession",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sanacion_milagros",
+      "estadosEmocionales": [
+        "desesperanza",
+        "confianza",
+        "suplica",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "Italiano",
+      "textoOriginal": "O mio Gesù, che hai detto: «In verità vi dico, chiedete e vi sarà dato, cercate e troverete, bussate e vi sarà aperto!». Ecco che io busso, io cerco, io chiedo la grazia... Padre Nostro, Ave Maria, Gloria al Padre. Sacro Cuore di Gesù, confido e spero in Te. O mio Gesù, che hai detto: «In verità vi dico, qualunque cosa chiederete al Padre mio nel mio nome, Egli ve la concederà!». Ecco che al Padre tuo, nel tuo nome, io chiedo la grazia... Padre Nostro, Ave Maria, Gloria al Padre. Sacro Cuore di Gesù, confido e spero in Te. O mio Gesù, che hai detto: «In verità vi dico, il cielo e la terra passeranno, ma le mie parole non passeranno mai!». Ecco che, appoggiato sull'infallibilità delle tue sante parole, io chiedo la grazia... Padre Nostro, Ave Maria, Gloria al Padre. Sacro Cuore di Gesù, cui è impossibile non avere compassione degli afflitti, abbi pietà di noi miseri peccatori ed accordaci le grazie che ti domandiamo. Amen.",
+      "guiaFonetica": "O mio Yezú, ke ai detto: In verità vi diko, kyedete e vi sarà dato...",
+      "textoTraducido": "O my Jesus, You said: 'Truly I say to you, ask and you will receive, seek and you will find, knock and it will be opened to you!' Behold, I knock, I seek, and I ask for this grace. Our Father, Hail Mary, Glory Be. Sacred Heart of Jesus, I place all my trust in You. O my Jesus, You said: 'Truly I say to you, whatever you ask the Father in my name, He will give you!' Behold, in Your name, I ask the Father for this grace. Our Father, Hail Mary, Glory Be. Sacred Heart of Jesus, I place all my trust in You. O my Jesus, You said: 'Heaven and earth will pass away, but my words will not pass away!' Encouraged by Your infallible promises, I implore Your help. Sacred Heart of Jesus, to whom it is impossible not to have compassion on the afflicted, have mercy on us and grant our petition. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "coronilla_sagrado_corazon",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_san_giovanni_rotondo"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_FRA_TERESITA_LLUVIA_ROSAS",
+      "numero": 4309,
+      "titulo": "Saint Thérèse of Lisieux · Prayer for the Shower of Roses and Heavenly Grace",
+      "subtitulo": "Supplication to the Little Flower of Jesus for blessings and comfort",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "amor_devocion",
+      "estadosEmocionales": [
+        "afliccion",
+        "consuelo",
+        "amor",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "Français",
+      "textoOriginal": "Sainte Thérèse de l'Enfant-Jésus et de la Sainte-Face, petite fleur du Carmel, toi qui as promis de passer ton Ciel à faire du bien sur la terre et d'y faire tomber une pluie de roses: jette un regard de miséricorde sur ma petitesse et mon affliction. Toi qui as suivi avec simplicité et confiance la «petite voie» de l'amour abandonné entre les bras du Père céleste, obtiens-moi la grâce que je demande avec foi (présenter la demande). Fais fleurir dans mon cœur la confiance inébranlable, la pureté et la paix, afin que comme toi, au cœur de l'Église, je sois l'amour. Amen.",
+      "guiaFonetica": "Sant Teréz de l'Anfan-Yezú e de la Sent-Fas, petit flör dü Karmel...",
+      "textoTraducido": "O Little Flower of Jesus, Saint Thérèse of Lisieux, you who promised to spend your Heaven doing good upon earth and to let fall a shower of roses! Turn your compassionate eyes toward my needy heart. You who walked with childlike trust the 'little way' of total surrender into the arms of the Heavenly Father: obtain for me from God the grace I fervently implore. Foster in my soul living faith, invincible hope, and pure love, so that at the end of my life I may behold with you the eternal beauty of the Lord. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "novena_rosas",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_carmelo"
+      },
+      "dir": "ltr"
     }
-  ]
+  ],
+  "total": 4309
 }
