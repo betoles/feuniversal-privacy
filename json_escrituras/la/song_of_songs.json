@@ -1,7 +1,7 @@
 {
   "metadata": {
     "libroKey": "song_of_songs",
-    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "titulo": "Canticum Canticorum Salomonis (Shir HaShirim)",
     "totalCapitulos": 8,
     "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
     "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
@@ -20,7 +20,7 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-17",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
       "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
       "traducciones": {
@@ -37,7 +37,7 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-17",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
       "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
       "traducciones": {
@@ -54,7 +54,7 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-11",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
       "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
       "traducciones": {
@@ -71,7 +71,7 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-16",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
       "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
       "traducciones": {
@@ -88,11 +88,11 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-16",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
       "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
       "traducciones": {
-        "la": "Veni in hortum meum, soror mea, sponsa; messui myrrham meam cum aromatibus meis; comedi favum cum melle meo; bibi vinum meum cum lacte meo;\n2. Ego dormio, et cor meum vigilat. Vox dilecti mei pulsantis!\n3. Dilectus meus candidus et rubicundus, praepositus de decem milibus.\n4. Caput ejus aurum optimum, comæ ejus comæ frutices, et ni- grum sicut corvus.\n5. Oculi eius sicut columbæ ad flumina aquarum, lacte lotos, & ornatos.\n6. Suavissimum est os ejus, et totus amabilis est; Hic est dilectus meus, et hic est amicus meus, filiae Jerusalem."
+        "la": "1. Veni in hortum meum, soror mea, sponsa; messui myrrham meam cum aromatibus meis; comedi favum cum melle meo; bibi vinum meum cum lacte meo;\n2. Ego dormio, et cor meum vigilat. Vox dilecti mei pulsantis!\n3. Dilectus meus candidus et rubicundus, praepositus de decem milibus.\n4. Caput ejus aurum optimum, comæ ejus comæ frutices, et ni- grum sicut corvus.\n5. Oculi eius sicut columbæ ad flumina aquarum, lacte lotos, & ornatos.\n6. Suavissimum est os ejus, et totus amabilis est; Hic est dilectus meus, et hic est amicus meus, filiae Jerusalem."
       }
     },
     {
@@ -105,7 +105,7 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-13",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
       "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
       "traducciones": {
@@ -122,7 +122,7 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-13",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
       "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
       "traducciones": {
@@ -139,7 +139,7 @@
       "seccion": "Ketuvim · Shir HaShirim",
       "versiculoNumero": "1-14",
       "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-      "dir": "rtl",
+      "dir": "ltr",
       "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
       "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
       "traducciones": {

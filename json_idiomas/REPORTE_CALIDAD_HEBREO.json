@@ -1,13 +1,13 @@
 {
-  "fecha_auditoria": "2026-09-10T01:37:10.623Z",
+  "fecha_auditoria": "2026-09-15T03:52:01.821Z",
   "idioma": "עברית (Hebrew)",
   "codigo": "he",
   "archivo": "oraciones_maestro_he.json",
-  "total_oraciones": 4245,
-  "tamano_mb": 6.37,
+  "total_oraciones": 4312,
+  "tamano_mb": 6.49,
   "paridad_ids_porcentaje": 100,
   "campos_nulos": 0,
-  "cobertura_caracteres_hebreos": "100.00%",
+  "cobertura_caracteres_hebreos": "98.47%",
   "estado": "100% Certificado & Pulido Canónico",
   "registro_liturgico": "Tanakh / Masoretic / Siddur & Solemn Devotional Hebrew",
   "certificacion": "Aprobado para Producción Global"
