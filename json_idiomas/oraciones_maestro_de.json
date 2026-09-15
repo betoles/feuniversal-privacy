@@ -94538,6 +94538,49 @@
           "mitgefuehl"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Heiliger Alexius · Feierliches Gebet zur Abwendung von Bosheit, Neid und Verrat",
+      "nombre": "Heiliger Alexius · Feierliches Gebet zur Abwendung von Bosheit, Neid und Verrat",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "O ruhmreicher heiliger Alexius, demütiger Diener Jesu Christi! Du, der du aus Liebe zu Gott allen irdischen Eitelkeiten entsagtest und in heiliger Stille lebtest: Wende von mir, meiner Familie, meinem Heim und meiner Arbeit alle böswilligen Menschen, falschen Freunde, Verleumder und Neider ab. Halte Verrat, Hinterlist und alle feindlichen Anschläge von meinen Wegen fern, und führe mich stets näher zur Gnade Christi und zum Schutz der Jungfrau Maria. Sei mein Schild, damit ich in Frieden und Sicherheit wandle. Amen.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "Andachtstradition des heiligen Alexius von Rom",
+        "proposito": "Gebet um geistigen Schutz vor falschen Freunden und Feinden.",
+        "tags": [
+          "katholizismus",
+          "heiliger_alexius",
+          "schutz",
+          "frieden"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Heiliges Jesuskind als Arzt der Kranken (Tepeaca) · Heilung, Gesundheit und Operationen",
+      "nombre": "Heiliges Jesuskind als Arzt der Kranken (Tepeaca) · Heilung, Gesundheit und Operationen",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "O liebenswürdigstes und wundertätiges Heiliges Jesuskind als Arzt der Kranken, göttlicher Heiler unserer Seelen! Du, der du deine gesegneten Hände ausstreckst, um die Leidenden zu heilen und den Schwachen neue Kraft zu schenken: Blicke voll Erbarmen auf mich (oder den Kranken, für den ich bete). Leite die Hände der Ärzte und Chirurgen, segne alle Behandlungen und schenke vollkommene Genesung. Süßes Jesuskind, himmlischer Arzt, auf Dich vertraue ich: Heile meinen Leib und schenke uns Deinen Frieden. Amen.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino!",
+      "guiaFonetica": "[O Heiliges Jesuskind Arzt der Kranken...]",
+      "metadata": {
+        "origen": "Heiligtum des Santo Niño Doctor (Tepeaca, Mexiko)",
+        "proposito": "Gebet für Kranke, gelingende Operationen und göttliche Heilung.",
+        "tags": [
+          "katholizismus",
+          "jesuskind_arzt",
+          "heilung",
+          "gesundheit",
+          "kranke"
+        ]
+      }
     }
   ]
 }

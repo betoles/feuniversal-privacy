@@ -94541,6 +94541,49 @@
           "調和"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "聖アレクシウス · 悪意・嫉妬・裏切りを退ける厳粛な祈り",
+      "nombre": "聖アレクシウス · 悪意・嫉妬・裏切りを退ける厳粛な祈り",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "イエス・キリストの栄光ある謙遜な僕、聖アレクシウスよ！あなたは神への愛のために世の虚栄を捨て、沈黙と清貧の中で生きられました。神より賜った力により、私と私の家族、家庭、職場から、悪意ある者、偽りの友、中傷する舌、嫉妬深い者を遠ざけ給え。私の歩む道から裏切りや欺き、すべての悪しき罠を退け、私を常にキリストの恵みと聖母マリアの保護の御許へと導き給え。聖アレクシウスよ、我が盾となり、平和のうちに歩ませ給え。アーメン。",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "聖アレクシウス（神の人）伝統信心祈祷",
+        "proposito": "悪意ある人々や嫉妬からの精神的保護と平和を願う祈り。",
+        "tags": [
+          "カトリック",
+          "聖アレクシウス",
+          "保護",
+          "平和"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "病者の医師 幼子イエス（テペアカ）· 治癒・健康・手術成功の祈り",
+      "nombre": "病者の医師 幼子イエス（テペアカ）· 治癒・健康・手術成功の祈り",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "いとも愛らしく奇跡に満ちた病者の医師、幼子イエスよ、魂と肉体の神聖なる医師、苦しむ者の慰めよ！あなたは祝福された御手を差し伸べ、病める者を癒やし、弱き者に力を与えられます。今日、慈悲の目を私（または祈願する病者）に注ぎ給え。医師や外科医の知恵と手を導き、すべての治療を祝福し、私の体に神聖な健康の油を注ぎ給え。愛する幼子イエスよ、御手にすべてを委ねます。我が肉体を癒やし、我が家に平安をもたらし給え。アーメン。",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino!",
+      "guiaFonetica": "[Byosha no Ishi Osanago Iesu...]",
+      "metadata": {
+        "origen": "聖幼子医師巡礼聖堂（メキシコ・プエブラ・テペアカ）",
+        "proposito": "病気平癒、手術の成功、身体の健康回復を願う伝統的祈祷。",
+        "tags": [
+          "カトリック",
+          "幼子イエス医師",
+          "病気平癒",
+          "健康",
+          "手術成功"
+        ]
+      }
     }
   ]
 }

@@ -94540,6 +94540,49 @@
           "kasih_sayang"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Santo Aleksius · Doa Khidmat untuk Menjauhkan Niat Jahat, Iri Hati, dan Pengkhianatan",
+      "nombre": "Santo Aleksius · Doa Khidmat untuk Menjauhkan Niat Jahat, Iri Hati, dan Pengkhianatan",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "O Santo Aleksius yang mulia, hamba Yesus Kristus yang rendah hati dan terberkati! Engkau yang demi kasih kepada Allah meninggalkan kesia-siaan duniawi dan hidup dalam keheningan suci: jauhkanlah dari diriku, keluargaku, rumahku, dan pekerjaanku setiap orang yang berniat jahat, teman palsu, lidah berbisa, dan orang yang iri hati. Singkirkanlah dari jalanku segala pengkhianatan, tipu muslihat, dan pengaruh buruk; serta dekatkanlah aku selalu pada rahmat Yesus dan perlindungan Bunda Maria. Jadilah perisaiku agar aku dapat melangkah dalam damai dan ketenteraman. Amin.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "Tradisi Devosi Santo Aleksius Pengaku Iman",
+        "proposito": "Doa perlindungan dari orang-orang berniat jahat, kedengkian, dan bahaya tersembunyi.",
+        "tags": [
+          "katolik",
+          "santo_aleksius",
+          "perlindungan",
+          "kedamaian"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Kanak-Kanak Yesus Dokter Orang Sakit (Tepeaca) · Doa Kesembuhan, Kesehatan, dan Operasi",
+      "nombre": "Kanak-Kanak Yesus Dokter Orang Sakit (Tepeaca) · Doa Kesembuhan, Kesehatan, dan Operasi",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "O Kanak-Kanak Yesus Dokter Orang Sakit yang terkasih dan penuh mukjizat, Tabib Ilahi bagi jiwa dan raga kami, penghibur mereka yang berduka! Engkau yang mengulurkan tangan-Mu yang kudus untuk menyembuhkan orang sakit dan memulihkan yang lemah: pandanglah aku dengan penuh belas kasih (atau orang sakit yang kudoakan). Bimbinglah pikiran dan tangan para dokter dan ahli bedah; berkatilah obat-obatan dan perawatan; serta curahkanlah kesembuhan ilahi ke dalam seluruh tubuhku. Kanak-Kanak Yesus yang manis, Tabib Ilahi, kepada-Mu aku percaya: sembuhkanlah tubuhku dan penuhilah rumah kami dengan sukacita dan kesehatan. Amin.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino!",
+      "guiaFonetica": "[O Kanak-Kanak Yesus Dokter Orang Sakit...]",
+      "metadata": {
+        "origen": "Tempat Ziarah Santo Niño Doctor (Tepeaca, Puebla, Meksiko)",
+        "proposito": "Doa memohon kesembuhan dari penyakit berat, kelancaran operasi medis, dan pemulihan kesehatan.",
+        "tags": [
+          "katolik",
+          "kanak_kanak_yesus_dokter",
+          "kesembuhan",
+          "orang_sakit",
+          "operasi"
+        ]
+      }
     }
   ]
 }

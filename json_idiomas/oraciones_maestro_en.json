@@ -94543,6 +94543,52 @@
           "coexistence"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Saint Alexius · Solemn Prayer to Ward Off Evil Intentions, Envy, and Treachery",
+      "nombre": "Saint Alexius · Solemn Prayer to Ward Off Evil Intentions, Envy, and Treachery",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "O glorious Saint Alexius, blessed and humble servant of Jesus Christ! You who for the love of God renounced all worldly vanity and lived in silent obscurity without anyone recognizing your noble birth: you who received from the Almighty the singular power to drive away all evil that threatens the children of God, banish from me, from my family, my home, and my work every malevolent person, false friends, slanderous tongues, envious eyes, and those who plot harm. Keep far from my path all betrayal, deceit, spiritual traps, and dark intentions; and draw me ever closer to the saving grace of Jesus and the sweet protection of the Virgin Mary. Blessed Saint Alexius, be my shield and constant intercessor to walk in peace, truth, and safety. Amen.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime, qui omnia mundi vana despexisti ut Deo soli placeres: averte a nobis omnem inimicum...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "Devotional Tradition of Saint Alexius the Confessor",
+        "proposito": "Traditional prayer of spiritual protection against ill-willed people, envy, and betrayal.",
+        "tags": [
+          "catholicism",
+          "saint_alexius",
+          "protection",
+          "ward_off_evil",
+          "peace"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Holy Child Doctor of the Sick (Tepeaca, Mexico) · Divine Healing, Surgeries, and Health",
+      "nombre": "Holy Child Doctor of the Sick (Tepeaca, Mexico) · Divine Healing, Surgeries, and Health",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "O most loving and miraculous Holy Child Doctor of the Sick, divine Physician of our souls and solace of the afflicted! You who from Your venerable Sanctuary in Tepeaca, Mexico, extend Your tender hands and Your heavenly medicine to heal the suffering, restore strength to the weak, and bring peace to troubled hearts: gaze upon me with compassion today (or upon the sick one for whom I pray). Guide the minds and hands of doctors and surgeons; bless all medicines and treatments; and pour the balm of divine vitality into every part of my body. Sweet Child Jesus, Divine Doctor, in You I place all my trust: heal my body, renew my soul, and fill our home with lasting health. Amen.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino! Pon tus manitas santas sobre nuestros dolores y derrama tu salud celestial. Amén.",
+      "guiaFonetica": "[Oh Holy Infant Doctor of Tepeaca, Divine Physician...]",
+      "metadata": {
+        "origen": "Sanctuary of the Santo Niño Doctor (Tepeaca, Puebla, Mexico)",
+        "proposito": "Popular prayer for healing, successful medical operations, and recovery from serious illness.",
+        "tags": [
+          "catholicism",
+          "nino_doctor",
+          "tepeaca",
+          "mexico",
+          "healing",
+          "sick",
+          "surgery"
+        ]
+      }
     }
   ]
 }

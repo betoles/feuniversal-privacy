@@ -94545,6 +94545,54 @@
           "todos_somos_uno"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "San Alejo · Oración Solemne para Alejar Malas Compañías, Envidias y Traiciones",
+      "nombre": "San Alejo · Oración Solemne para Alejar Malas Compañías, Envidias y Traiciones",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "¡Oh glorioso San Alejo mío, bendito y humilde siervo de Jesucristo! Tú que por amor a Dios renunciaste a las vanidades del mundo y viviste en silencio bajo la escalera paterna sin que nadie reconociera tu nobleza: tú que recibiste del Altísimo el poder singular de alejar todo lo malo que acecha a los hijos de Dios, aparta de mí, de mi familia, de mi hogar y de mi trabajo a toda persona malintencionada, a los falsos amigos, a las lenguas venenosas, a los envidiosos y a quienes busquen mi ruina o desdicha. Aleja de mis caminos la traición, el engaño, los maleficios y las malas energías; y acércame siempre a la gracia divina de Jesús y al manto protector de la Santísima Virgen María. San Alejo bienaventurado, sé mi escudo y mi intercesor para caminar en paz, dignidad y santidad. Amén.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime, qui omnia mundi vana despexisti ut Deo soli placeres: averte a nobis omnem inimicum, malam voluntatem et periculum animae et corporis. Ora pro nobis ad Dominum Iesum Christum. Amen.",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime, qui omnia mundi vana despexisti ut Deo soli placeres: averte a nobis omnem inimicum... Ora pro nobis ad Dominum Iesum Christum. Amen]",
+      "metadata": {
+        "origen": "Tradición Devocional a San Alejo Confesor (Roma / Tradición Popular Hispanoamericana)",
+        "proposito": "Plegaria popular de protección contra personas perjudiciales, malas influencias, envidias y peligros ocultos.",
+        "tags": [
+          "catolicismo",
+          "san_alejo",
+          "mexico",
+          "proteccion",
+          "alejar_enemigos",
+          "paz_en_el_hogar"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Santo Niño Doctor de los Enfermos (Tepeaca, Puebla) · Salud, Medicina Celestial y Cirugías",
+      "nombre": "Santo Niño Doctor de los Enfermos (Tepeaca, Puebla) · Salud, Medicina Celestial y Cirugías",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "¡Oh amabilísimo y milagroso Santo Niño Doctor de los Enfermos, divino Médico de nuestras almas y consuelo de los afligidos! Tú que desde tu venerable Santuario en Tepeaca, Puebla, extiendes tus manitas benditas y tu tierno botiquín celestial para sanar a los desahuciados, devolver la vista a los ciegos, la fuerza a los débiles y la paz a los atribulados: pon hoy tu mirada compasiva sobre mí (o sobre la persona enferma por quien pido). Guía la mente y las manos de los médicos y cirujanos; bendice las medicinas y los tratamientos; y derrama el bálsamo de tu divina salud en cada célula, órgano y latido de mi cuerpo. Dulce Niño Jesús, Médico Divino, en Ti confío plenamente: ¡sana mi cuerpo, purifica mi espíritu y llena de gozo nuestro hogar! Amén.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino de las almas y los cuerpos! Pon tus manitas santas sobre nuestros dolores y derrama tu salud celestial. Amén.",
+      "guiaFonetica": "[¡Oh Santo Niño Doctor de Tepeaca, Médico Divino de las almas y los cuerpos! Pon tus manitas santas sobre nuestros dolores...]",
+      "metadata": {
+        "origen": "Santuario del Santo Niño Doctor de los Enfermos (Tepeaca, Puebla, México)",
+        "proposito": "Plegaria popular masiva de México para pedir salud en enfermedades graves, éxito en cirugías y sanación de niños y adultos.",
+        "tags": [
+          "catolicismo",
+          "nino_doctor",
+          "tepeaca",
+          "puebla",
+          "mexico",
+          "sanacion",
+          "enfermos",
+          "cirugias"
+        ]
+      }
     }
   ]
 }

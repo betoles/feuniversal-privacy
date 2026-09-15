@@ -94539,6 +94539,51 @@
           "compaixao"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Santo Aleixo · Oração Solene para Afastar Más Companhias, Invejas e Traições",
+      "nombre": "Santo Aleixo · Oração Solene para Afastar Más Companhias, Invejas e Traições",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "Ó meu glorioso Santo Aleixo, bendito e humilde servo de Jesus Cristo! Vós que por amor a Deus renunciastes a todas as vaidades do mundo e vivestes em silêncio e santidade: vós que recebestes do Altíssimo o dom de afastar tudo o que é mau e perverso, afastai de mim, da minha família, da minha casa e do meu trabalho todas as pessoas mal-intencionadas, os falsos amigos, as línguas venenosas e os invejosos. Afastai dos meus caminhos a traição, as armadilhas e as más energias; e aproximai-me sempre da graça redentora de Jesus e do manto santo de Nossa Senhora. Santo Aleixo bem-aventurado, sede o meu escudo e amparo para que eu viva em paz e harmonia. Amém.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime... averte a nobis omnem inimicum.",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "Tradição Devocional de Santo Aleixo Confessor",
+        "proposito": "Prece tradicional de proteção e afastamento de más influências.",
+        "tags": [
+          "catolicismo",
+          "santo_aleixo",
+          "protecao",
+          "afastar_inimigos",
+          "paz"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Santo Menino Doutor dos Enfermos (Tepeaca) · Saúde, Medicina Celestial e Cirurgias",
+      "nombre": "Santo Menino Doutor dos Enfermos (Tepeaca) · Saúde, Medicina Celestial e Cirurgias",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "Ó amabilíssimo e milagroso Santo Menino Doutor dos Enfermos, divino Médico das almas e consolo dos aflitos! Vós que do vosso venerável Santuário estendeis vossas mãozinhas benditas para curar os enfermos, restaurar as forças dos fracos e dar esperança aos que sofrem: olhai com compaixão para mim (ou pelo enfermo por quem intercedo). Iluminai a mente e as mãos dos médicos e cirurgiões; abençoai os remédios e tratamentos; e derramai o bálsamo da vossa saúde divina em todo o meu corpo. Doce Menino Jesus, Médico Divino, em Vós confio: curai meu corpo e abençoai nosso lar! Amém.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino! Pon tus manitas santas sobre nuestros dolores...",
+      "guiaFonetica": "[O Santo Menino Doutor, Medico Divino...]",
+      "metadata": {
+        "origen": "Santuário do Menino Doutor dos Enfermos (Tepeaca, México)",
+        "proposito": "Oração de cura para enfermos, cirurgias e restabelecimento da saúde.",
+        "tags": [
+          "catolicismo",
+          "menino_doutor",
+          "cura",
+          "saude",
+          "enfermos",
+          "cirurgias"
+        ]
+      }
     }
   ]
 }

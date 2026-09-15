@@ -94537,6 +94537,48 @@
           "concordia"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Precatio Sollemnis ad Sanctum Alexium pro Defensione et Aversione Inimicorum",
+      "nombre": "Precatio Sollemnis ad Sanctum Alexium pro Defensione et Aversione Inimicorum",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "O gloriose Sancte Alexi, humillime Iesu Christi famule! Qui amore Dei mundi vanitates despexisti et sub gradibus paternis occulte vixisti: averte a me, a familia mea et ab omnibus bonis meis omnes homines malevolos, falsos amicos, invidos et linguas venenosas. Procul a semitis meis depelle perfidiam, fraudem et insidias diaboli; meque semper divinae gratiae Iesu et praesidio Beatae Mariae Virginis coniunge. Esto protector et scutum meum, ut in pace et sanctitate ambulem. Amen.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime, qui omnia mundi vana despexisti ut Deo soli placeres: averte a nobis omnem inimicum, malam voluntatem et periculum animae et corporis. Ora pro nobis ad Dominum Iesum Christum. Amen.",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime, qui omnia mundi vana despexisti...]",
+      "metadata": {
+        "origen": "Liturgia et Traditio Sancti Alexii Confessoris",
+        "proposito": "Precatio ad averruncandum mala et inimicos.",
+        "tags": [
+          "catholicismus",
+          "sanctus_alexius",
+          "protectio",
+          "pax"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Precatio ad Sanctum Puerum Iesum Medicum Infirmorum",
+      "nombre": "Precatio ad Sanctum Puerum Iesum Medicum Infirmorum",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "O amabilissime et miraculose Sancte Puer Iesu, Medicus Infirmorum et consolatio afflictorum! Qui manus tuas sanctissimas extendis ad sanandos languores et vires renovandas: respice propitius super me (vel super infirmum pro quo oro). Dirige manus medicorum et chirurgorum, benedic medicamenta, et infunde caelestem sanitatem corpori meo. Dulcis Puer Iesu, Medice Divinus, in Te confido: sana corpus meum et conserva domum meam. Amen.",
+      "textoOriginal": "O Sancte Puer Iesu, Medicus Infirmorum, miserere nobis et sana nos. Amen.",
+      "guiaFonetica": "[O amabilissime et miraculose Sancte Puer Iesu, Medicus Infirmorum...]",
+      "metadata": {
+        "origen": "Sanctuarium Sancti Infantis Medici (Tepeaca, Mexicum)",
+        "proposito": "Precatio pro salute corporali et chirurgia feliciter peragenda.",
+        "tags": [
+          "catholicismus",
+          "puer_iesus_medicus",
+          "sanatio",
+          "infirmi"
+        ]
+      }
     }
   ]
 }

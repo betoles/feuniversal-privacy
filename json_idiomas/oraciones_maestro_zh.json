@@ -94542,6 +94542,51 @@
           "慈悲"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "圣亚肋修（圣阿莱霍）· 驱除恶人、嫉妒与背叛庄严祈祷文",
+      "nombre": "圣亚肋修（圣阿莱霍）· 驱除恶人、嫉妒与背叛庄严祈祷文",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "光荣的圣亚肋修，耶稣基督谦逊圣洁的仆人！你因爱慕天主而舍弃世俗的虚荣，在隐修与静默中度过圣洁的一生：求你从至高者那里获得的神圣德能，使一切心怀不轨之人、虚伪的朋友、毁谤的口舌和嫉妒的目光远离我、我的家人、我的家宅与工作。从我的道路上消除一切背叛、欺诈与阴险的罗网；使我时刻亲近救主耶稣的圣宠与圣母玛利亚的慈爱庇佑。真福圣亚肋修，请作我的坚固护盾，使我在平安与真理中稳步行走。阿们。",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime, averte a nobis omnem inimicum...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "圣亚肋修（天主之人）传统敬礼祈祷文",
+        "proposito": "祈求驱逐恶人、防范嫉妒背叛与守护家庭平安的传统护佑经文。",
+        "tags": [
+          "天主教",
+          "圣亚肋修",
+          "护佑",
+          "驱恶",
+          "家庭平安"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "病人之医圣婴耶稣（特佩亚卡，墨西哥）· 医治、健康与外科手术神圣祷词",
+      "nombre": "病人之医圣婴耶稣（特佩亚卡，墨西哥）· 医治、健康与外科手术神圣祷词",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "最亲爱且显行奇迹的病人之医圣婴耶稣，我们灵魂与肉身的神圣医师、受苦之人的安慰！祢从墨西哥特佩亚卡的圣殿伸出圣洁的双手，医治绝望之人，使软弱者重获新生：求祢今日垂顾我（或我所代祷的患病之人）。指引医生与外科大夫的心思与双手；降福所有药物与治疗；并将天上神圣健康的甘霖倾注在我身体的每一个细胞与器官中。至甘饴的圣婴耶稣，神圣医师，我全心信赖祢：求祢医治我的肉躯，洁净我的心灵，使我们的家宅满溢健康与平安！阿们。",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino de las almas y los cuerpos!",
+      "guiaFonetica": "[Zui qin'ai de bingren zhi yi Shengying Yesu...]",
+      "metadata": {
+        "origen": "墨西哥普埃布拉特佩亚卡圣婴医师朝圣地",
+        "proposito": "祈求重病痊愈、手术顺利、身心康泰的墨西哥传统圣婴大医敬礼祈祷文。",
+        "tags": [
+          "天主教",
+          "圣婴医师",
+          "墨西哥",
+          "医治",
+          "病人",
+          "手术平安"
+        ]
+      }
     }
   ]
 }

@@ -94538,6 +94538,49 @@
           "armonia"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Sant'Alessio · Preghiera Solenne per Allontanare le Cattive Compagnie e l'Invidia",
+      "nombre": "Sant'Alessio · Preghiera Solenne per Allontanare le Cattive Compagnie e l'Invidia",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "O glorioso Sant'Alessio, servo umile e fedele di Gesù Cristo! Tu che per amore di Dio rinunciasti alle vanità del mondo e vivesti nel silenzio: allontana da me, dalla mia famiglia, dalla mia casa e dal mio lavoro ogni persona malintenzionata, i falsi amici, le lingue maldicenti e gli invidiosi. Allontana dai miei passi il tradimento e ogni insidia maligna, e avvicinami sempre alla grazia divina di Cristo e alla protezione della Vergine Maria. Sant'Alessio beato, sii il mio scudo per camminare nella pace. Amen.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime, averte a nobis omnem inimicum...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "Tradizione Devozionale di Sant'Alessio Confessore",
+        "proposito": "Preghiera di custodia spirituale e allontanamento del male.",
+        "tags": [
+          "cattolicesimo",
+          "sant_alessio",
+          "protezione",
+          "pace"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Santo Bambino Dottore dei Malati (Tepeaca) · Guarigione, Salute e Operazioni",
+      "nombre": "Santo Bambino Dottore dei Malati (Tepeaca) · Guarigione, Salute e Operazioni",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "O amabilissimo e miracoloso Santo Bambino Dottore dei Malati, divino Medico delle anime e dei corpi! Tu che dal tuo Santuario stendi le tue mani benedette per risanare i sofferenti e donare pace: posa il tuo sguardo compassionevole su di me (o sul malato per cui prego). Guida le mani dei medici e dei chirurghi, benedici le medicine e dona la guarigione completa. Dolce Gesù Bambino, Medico Celeste, in Te confido: guarisci il mio corpo e benedici la mia famiglia. Amen.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino!",
+      "guiaFonetica": "[O Santo Bambino Dottore...]",
+      "metadata": {
+        "origen": "Santuario del Santo Niño Doctor (Tepeaca, Messico)",
+        "proposito": "Preghiera per la salute dei malati e l'esito favorevole degli interventi chirurgici.",
+        "tags": [
+          "cattolicesimo",
+          "bambino_dottore",
+          "guarigione",
+          "malati",
+          "chirurgia"
+        ]
+      }
     }
   ]
 }

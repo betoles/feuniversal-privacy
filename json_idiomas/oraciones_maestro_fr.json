@@ -94538,6 +94538,50 @@
           "compassion"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Saint Alexis · Prière Solennelle pour Éloigner les Mauvaises Intentions et la Jalousie",
+      "nombre": "Saint Alexis · Prière Solennelle pour Éloigner les Mauvaises Intentions et la Jalousie",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "Ô glorieux Saint Alexis, serviteur humble et dévoué de Jésus-Christ! Toi qui par amour de Dieu as renoncé aux vanités du monde pour vivre dans le saint silence: éloigne de moi, de ma famille, de mon foyer et de mon travail toute personne malveillante, les faux amis, les médisants et les jaloux. Écarte de mes pas la trahison, les pièges et les mauvaises intentions, et rapproche-moi toujours de la grâce de Jésus et de la protection de la Sainte Vierge. Bienheureux Saint Alexis, sois mon bouclier afin que je marche dans la paix et la sécurité. Amen.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "Tradition Dévotionnelle de Saint Alexis le Confesseur",
+        "proposito": "Prière de protection spirituelle contre la malveillance et les pièges du mal.",
+        "tags": [
+          "catholicisme",
+          "saint_alexis",
+          "protection",
+          "eloigner_ennemis",
+          "paix"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Saint Enfant Docteur des Malades (Tepeaca) · Guérison, Santé et Chirurgies",
+      "nombre": "Saint Enfant Docteur des Malades (Tepeaca) · Guérison, Santé et Chirurgies",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "Ô très aimable et miraculeux Saint Enfant Docteur des Malades, divin Médecin des âmes et réconfort des affligés! Toi qui étends tes mains bénies pour guérir les souffrants et redonner la force aux faibles: pose ton regard de compassion sur moi (ou sur la personne malade pour qui je prie). Guide les mains des médecins et des chirurgiens, bénis les remèdes et répands le baume de ta divine santé sur tout mon être. Doux Enfant Jésus, Médecin Divin, j'ai confiance en Toi: guéris mon corps et apporte la joie dans notre foyer! Amen.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino!",
+      "guiaFonetica": "[O Saint Enfant Docteur...]",
+      "metadata": {
+        "origen": "Sanctuaire du Saint Enfant Docteur (Tepeaca, Mexique)",
+        "proposito": "Prière pour les malades, le succès des opérations chirurgicales et la guérison.",
+        "tags": [
+          "catholicisme",
+          "enfant_docteur",
+          "guerison",
+          "malades",
+          "sante"
+        ]
+      }
     }
   ]
 }

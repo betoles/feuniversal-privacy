@@ -94540,6 +94540,49 @@
           "huruma"
         ]
       }
+    },
+    {
+      "id": "CAT_MEX_SAN_ALEJO_ALEJAR_ENEMIGOS",
+      "titulo": "Mtakatifu Aleksi · Sala ya Fahari ya Kufukuza Watu Wenye Nia Mbaya na Wivu",
+      "nombre": "Mtakatifu Aleksi · Sala ya Fahari ya Kufukuza Watu Wenye Nia Mbaya na Wivu",
+      "tradicion": "catolicismo",
+      "categoria": "proteccion_espiritual",
+      "tipo": "oracion",
+      "textoTraducido": "Ee Mtakatifu Aleksi mtukufu, mtumishi mnyenyekevu na mbarikiwa wa Yesu Kristo! Wewe uliyeacha anasa zote za dunia kwa ajili ya kumpenda Mungu: uondoe mbali nami, mbali na familia yangu, nyumba yangu na kazi yangu kila mtu mwenye nia mbaya, marafiki wa uongo, ndimi zenye sumu na watu wenye wivu. Ondoa kwenye njia yangu usaliti, hila na mitego ya giza; na unikaribishe daima kwenye neema ya Yesu na ulinzi wa Bikira Maria. Uwe ngao yangu ili nitembee kwa amani na usalama. Amina.",
+      "textoOriginal": "Sancte Alexi, confessor Christi humillime...",
+      "guiaFonetica": "[Sancte Alexi, confessor Christi humillime...]",
+      "metadata": {
+        "origen": "Mapokeo ya Ibada kwa Mtakatifu Aleksi",
+        "proposito": "Sala ya ulinzi wa kiroho dhidi ya watu wabaya, husuda na usaliti.",
+        "tags": [
+          "ukatoliki",
+          "mtakatifu_aleksi",
+          "ulinzi",
+          "amani"
+        ]
+      }
+    },
+    {
+      "id": "CAT_MEX_SANTO_NINO_DOCTOR_TEPEACA",
+      "titulo": "Mtoto Mtakatifu Daktari wa Wagonjwa (Tepeaca) · Sala ya Uponyaji, Afya na Upasuaji",
+      "nombre": "Mtoto Mtakatifu Daktari wa Wagonjwa (Tepeaca) · Sala ya Uponyaji, Afya na Upasuaji",
+      "tradicion": "catolicismo",
+      "categoria": "sanacion",
+      "tipo": "oracion",
+      "textoTraducido": "Ee Mtoto Mtakatifu Yesu Daktari wa Wagonjwa mwenye upendo na miujiza, Mganga Mkuu wa roho na miili yetu na faraja ya wanaoteseka! Wewe unayenyosha mikono yako mitakatifu kuponya wagonjwa na kurudisha nguvu kwa wanyonge: nitazame kwa huruma leo (au mtazame mgonjwa ninayemwombea). Ongoza mikono na akili za madaktari na wapasuaji; bariki dawa na matibabu yote; na umwage zeri ya afya ya kimungu katika mwili wangu. Mtoto Yesu mtamu, ninakutumaini Wewe: ponya mwili wangu na ujaze nyumba yetu afya na amani. Amina.",
+      "textoOriginal": "¡Oh Santo Niño Doctor de Tepeaca, Médico Divino!",
+      "guiaFonetica": "[Ee Mtoto Mtakatifu Yesu Daktari wa Wagonjwa...]",
+      "metadata": {
+        "origen": "Madhabahu ya Santo Niño Doctor (Tepeaca, Puebla, Mexico)",
+        "proposito": "Sala ya kuomba uponyaji wa magonjwa, kufanikiwa kwa upasuaji na afya njema.",
+        "tags": [
+          "ukatoliki",
+          "mtoto_yesu_daktari",
+          "uponyaji",
+          "wagonjwa",
+          "afya"
+        ]
+      }
     }
   ]
 }
