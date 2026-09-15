@@ -1,7 +1,7 @@
 {
   "metadata": {
     "libroKey": "dhammapada",
-    "titulo": "El Dhammapada Canónico (धम्मपद · Tipitaka)",
+    "titulo": "Dhammapada Sang Buddha (Jalan Kebenaran Dharma)",
     "totalCapitulos": 26,
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
     "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
@@ -41,7 +41,7 @@
       "textoOriginal": "अप्पमादो अमतपदं पमादो मच्चुनो पदं। अप्पमत्ता न मीयन्ति ये पमत्ता यथा मता॥",
       "foneticaLiturgica": "Appamādo amatapadaṁ pamādo maccuno padaṁ | appamattā na mīyanti ye pamattā yathā matā ||",
       "traducciones": {
-        "id": "[\"21. 'Kewaspadaan adalah jalan menuju Tanpa Kematian; kelalaian adalah jalan menuju kematian. Orang yang waspada tidak akan mati; orang yang lalai seperti orang mati.'\""
+        "id": "21. 'Kewaspadaan adalah jalan menuju Tanpa Kematian; kelalaian adalah jalan menuju kematian. Orang yang waspada tidak akan mati; orang yang lalai seperti orang mati.'"
       }
     },
     {
@@ -58,7 +58,7 @@
       "textoOriginal": "फन्दनं चपलं चित्तं दुरक्खं दुन्निवारयं। उजुं करोति मेधावी उसुकारोव तेजनं॥",
       "foneticaLiturgica": "Phandanaṁ capalaṁ cittaṁ durakkhaṁ dunnivārayaṁ | ujuṁ karoti medhāvī usukāro'va tejanaṁ ||",
       "traducciones": {
-        "id": "[\"33. 'Bagaikan seorang pemanah meluruskan anak panah, demikian pula orang bijak meluruskan pikiran yang tidak stabil dan berubah-ubah, yang sulit dijaga dan dikendalikan.'\""
+        "id": "33. 'Bagaikan seorang pemanah meluruskan anak panah, demikian pula orang bijak meluruskan pikiran yang tidak stabil dan berubah-ubah, yang sulit dijaga dan dikendalikan.'"
       }
     },
     {
@@ -75,7 +75,7 @@
       "textoOriginal": "यथापि रुचिरं पुप्फं वण्णवन्तं अगन्धकं। एवं सुभासिता वाचा अफला होती अकुब्बतो॥ यथापि रुचिरं पुप्फं वण्णवन्तं सगन्धकं। एवं सुभासिता वाचा सफला होती सुकुब्बतो॥",
       "foneticaLiturgica": "Yathāpi ruciraṁ pupphaṁ vaṇṇavantaṁ agandhakaṁ...",
       "traducciones": {
-        "id": "[\"51. 'Bagaikan bunga yang indah penuh warna tetapi tidak harum, demikian pula perkataan indah yang tidak membuahkan hasil adalah perkataan orang yang tidak mengamalkannya.'\""
+        "id": "51. 'Bagaikan bunga yang indah penuh warna tetapi tidak harum, demikian pula perkataan indah yang tidak membuahkan hasil adalah perkataan orang yang tidak mengamalkannya.'"
       }
     },
     {
@@ -92,7 +92,7 @@
       "textoOriginal": "दीघा जागरतो रत्ति दीघं सन्तस्स योजनं। दीघो बालानं संसारो सद्धम्मं अविजानतं॥",
       "foneticaLiturgica": "Dīghā jāgarato ratti dīghaṁ santassa yojanaṁ...",
       "traducciones": {
-        "id": "[\"60. 'Malam panjang bagi mereka yang tidak bisa tidur; panjang liga bagi pengelana yang lelah; panjang siklus kelahiran kembali bagi orang bodoh yang tidak mengetahui Kebenaran Agung.'\""
+        "id": "60. 'Malam panjang bagi mereka yang tidak bisa tidur; panjang liga bagi pengelana yang lelah; panjang siklus kelahiran kembali bagi orang bodoh yang tidak mengetahui Kebenaran Agung.'"
       }
     },
     {
@@ -109,7 +109,7 @@
       "textoOriginal": "सेलो यथा एकघनो वातेन न समीरति। एवं निन्दापसंसासु न सम्मिञ्जन्ति पण्डिता॥",
       "foneticaLiturgica": "Selo yathā ekaghano vātena na samīrati | evaṁ nindā-pasaṁsāsu na sammiñjanti paṇḍitā ||",
       "traducciones": {
-        "id": "[\"81. 'Seperti batu yang kokoh tidak terguncang oleh angin, demikian pula para bijaksana tidak tergerak oleh pujian atau celaan.'\""
+        "id": "81. 'Seperti batu yang kokoh tidak terguncang oleh angin, demikian pula para bijaksana tidak tergerak oleh pujian atau celaan.'"
       }
     },
     {
@@ -126,7 +126,7 @@
       "textoOriginal": "गताद्धिनो विसोकस्स विप्पमुत्तस्स सब्बधि। सब्बगन्थप्पहीनस्स परिळाहो न विज्जति॥",
       "foneticaLiturgica": "Gataddhino visokassa vippamuttassa sabbadhi...",
       "traducciones": {
-        "id": "[\"90. 'Bagi dia yang telah menyelesaikan perjalanan, yang terbebas dari kesedihan, terbebas dalam segala hal, dan yang telah menghancurkan semua ikatan, demam nafsu tidak ada lagi.'\""
+        "id": "90. 'Bagi dia yang telah menyelesaikan perjalanan, yang terbebas dari kesedihan, terbebas dalam segala hal, dan yang telah menghancurkan semua ikatan, demam nafsu tidak ada lagi.'"
       }
     },
     {
@@ -143,7 +143,7 @@
       "textoOriginal": "सहस्समपि चे वाचा अनत्थपदसंहिता। एकं अत्थपदं सेय्यो यं सुत्वा उपसम्मति॥",
       "foneticaLiturgica": "Sahassam api ce vācā anattha-pada-saṁhitā | ekaṁ attha-padaṁ seyyo yaṁ sutvā upasammati ||",
       "traducciones": {
-        "id": "[\"100. 'Lebih baik dari seribu kata-kata yang tidak berguna, satu kata yang bermakna, setelah mendengarnya seseorang memperoleh kedamaian.'\""
+        "id": "100. 'Lebih baik dari seribu kata-kata yang tidak berguna, satu kata yang bermakna, setelah mendengarnya seseorang memperoleh kedamaian.'"
       }
     },
     {
@@ -160,7 +160,7 @@
       "textoOriginal": "अभिथरेथ कल्याणे पापा चित्तं निवारये। दन्धं हि करोतो पुञ्ञं पापिस्मिं रमती मनो॥",
       "foneticaLiturgica": "Abhittharetha kalyāṇe pāpā cittaṁ nivāraye...",
       "traducciones": {
-        "id": "[\"116. 'Bersegeralah berbuat baik; periksa pikiranmu dari kejahatan. Jika seseorang lamban dalam berbuat baik, maka pikirannya akan senang pada kejahatan.'\""
+        "id": "116. 'Bersegeralah berbuat baik; periksa pikiranmu dari kejahatan. Jika seseorang lamban dalam berbuat baik, maka pikirannya akan senang pada kejahatan.'"
       }
     },
     {
@@ -177,7 +177,7 @@
       "textoOriginal": "सब्बे तसन्ति दण्डस्स सब्बे भायन्ति मच्चुनो। अत्तानं उपमं कत्वा न हनेय्य न घातये॥",
       "foneticaLiturgica": "Sabbe tasanti daṇḍassa sabbe bhāyanti maccuno | attānaṁ upamaṁ katvā na haneyya na ghātaye ||",
       "traducciones": {
-        "id": "[\"129. 'Semua gemetar karena kekerasan; semua takut mati. Menempatkan diri sendiri pada posisi orang lain, seseorang tidak boleh membunuh atau menyebabkan orang lain membunuh.'\""
+        "id": "129. 'Semua gemetar karena kekerasan; semua takut mati. Menempatkan diri sendiri pada posisi orang lain, seseorang tidak boleh membunuh atau menyebabkan orang lain membunuh.'"
       }
     },
     {
@@ -194,7 +194,7 @@
       "textoOriginal": "को नु हासो किमानन्दो निच्चं पज्जलितो सति। अन्धकारेन ओनद्धा पदीपं न गवेस्सथ॥",
       "foneticaLiturgica": "Ko nu hāso kim ānando niccaṁ pajjalite sati...",
       "traducciones": {
-        "id": "[\"146. 'Mengapa ada tawa, mengapa ada kegembiraan, ketika dunia terbakar selamanya? Diselubungi kegelapan, maukah kamu mencari terang?'\""
+        "id": "146. 'Mengapa ada tawa, mengapa ada kegembiraan, ketika dunia terbakar selamanya? Diselubungi kegelapan, maukah kamu mencari terang?'"
       }
     },
     {
@@ -211,7 +211,7 @@
       "textoOriginal": "अत्ता हि अत्तनो नाथो को हि नाथो परो सिया। अत्तना हि सुदन्तेन नाथं लभति दुल्लभं॥",
       "foneticaLiturgica": "Attā hi attano nātho ko hi nātho paro siyā | attanā hi sudantena nāthaṁ labhati dullabhaṁ ||",
       "traducciones": {
-        "id": "[\"160. 'Seseorang sesungguhnya adalah pelindung dirinya sendiri; siapa lagi yang bisa menjadi pelindungnya? Dengan pengendalian diri sepenuhnya, seseorang memperoleh penguasaan yang sulit ditemukan.'\""
+        "id": "160. 'Seseorang sesungguhnya adalah pelindung dirinya sendiri; siapa lagi yang bisa menjadi pelindungnya? Dengan pengendalian diri sepenuhnya, seseorang memperoleh penguasaan yang sulit ditemukan.'"
       }
     },
     {
@@ -228,7 +228,7 @@
       "textoOriginal": "यथा बुब्बुळकं पस्से यथा पस्से मरीचिकं। एवं लोकं अवेक्खन्तं मच्चुराजा न पस्सति॥",
       "foneticaLiturgica": "Yathā bubbuḷakaṁ passe yathā passe marīcikaṁ...",
       "traducciones": {
-        "id": "[\"170. 'Pandanglah dunia sebagai sebuah gelembung, pandanglah dunia sebagai sebuah fatamorgana. Raja Kematian tidak akan melihat orang yang memandang rendah dunia seperti itu.'\""
+        "id": "170. 'Pandanglah dunia sebagai sebuah gelembung, pandanglah dunia sebagai sebuah fatamorgana. Raja Kematian tidak akan melihat orang yang memandang rendah dunia seperti itu.'"
       }
     },
     {
@@ -245,7 +245,7 @@
       "textoOriginal": "सब्बपापस्स अकरणं कुसलस्स उपसम्पदा। सचित्तपरियोदपनं एतं बुद्धान सासनं॥",
       "foneticaLiturgica": "Sabbapāpassa akaraṇaṁ kusalassa upasampadā | sacittapariyodapanaṁ etaṁ buddhāna sāsanaṁ ||",
       "traducciones": {
-        "id": "[\"183. 'Menghindari segala kejahatan, mengembangkan kebaikan, dan membersihkan pikiran—ini adalah ajaran para Buddha.'\""
+        "id": "183. 'Menghindari segala kejahatan, mengembangkan kebaikan, dan membersihkan pikiran—ini adalah ajaran para Buddha.'"
       }
     },
     {
@@ -262,7 +262,7 @@
       "textoOriginal": "सुसुखं वत जीवाम वेरिनेसु अवेरिनो। वेरिनेसु मनुस्सेसु विहराम अवेरिनो॥ जयं वेरं पसवति दुक्खं सेति पराजितो। उपसन्तो सुखं सेति हित्वा जयपराजयं॥",
       "foneticaLiturgica": "Susukhaṁ vata jīvāma verinesu averino...",
       "traducciones": {
-        "id": "[\"197. 'Sesungguhnya kita hidup bahagia, bersahabat di tengah permusuhan.'\n201. 'Kemenangan melahirkan kebencian. Yang kalah hidup dalam kesakitan. Berbahagialah mereka yang hidup damai, tidak menyerah pada kemenangan dan kekalahan.'\""
+        "id": "197. 'Sesungguhnya kita hidup bahagia, bersahabat di tengah permusuhan.'\n201. 'Kemenangan melahirkan kebencian. Yang kalah hidup dalam kesakitan. Berbahagialah mereka yang hidup damai, tidak menyerah pada kemenangan dan kekalahan.'"
       }
     },
     {
@@ -279,7 +279,7 @@
       "textoOriginal": "पियतो जायती सोको पियतो जायती भयं। पियतो विप्पमुत्तस्स नत्थि सोको कुतो भयं॥",
       "foneticaLiturgica": "Piyato jāyatī soko piyato jāyatī bhayaṁ...",
       "traducciones": {
-        "id": "[\"212. 'Dari rasa sayang muncullah kesedihan, dari rasa sayang muncullah ketakutan. Bagi dia yang sepenuhnya bebas dari rasa sayang, tidak ada kesedihan, lalu dari mana rasa takut?'\""
+        "id": "212. 'Dari rasa sayang muncullah kesedihan, dari rasa sayang muncullah ketakutan. Bagi dia yang sepenuhnya bebas dari rasa sayang, tidak ada kesedihan, lalu dari mana rasa takut?'"
       }
     },
     {
@@ -296,7 +296,7 @@
       "textoOriginal": "अक्कोधेन जिने कोधं असाधुं साधुना जिने। जिने कदरियं दानेन सच्चेन अलिकवादिनं॥",
       "foneticaLiturgica": "Akkodhena jine kodhaṁ asādhuṁ sādhunā jine | jine kadariyaṁ dānena saccena alikavādinaṁ ||",
       "traducciones": {
-        "id": "[\"223. 'Taklukkan amarah dengan tidak marah. Taklukkan keburukan dengan kebaikan. Taklukkan kekejaman dengan kemurahan hati. Taklukkan ketidakjujuran dengan kebenaran.'\""
+        "id": "223. 'Taklukkan amarah dengan tidak marah. Taklukkan keburukan dengan kebaikan. Taklukkan kekejaman dengan kemurahan hati. Taklukkan ketidakjujuran dengan kebenaran.'"
       }
     },
     {
@@ -313,7 +313,7 @@
       "textoOriginal": "अनुपुब्बेन मेधावी थोकथोकं खणे खणे। कम्मclassो रजतस्सेव निद्धमे मलमत्तनो॥",
       "foneticaLiturgica": "Anupubbena medhāvī thoka-thokaṁ khaṇe khaṇe...",
       "traducciones": {
-        "id": "[\"239. 'Secara bertahap, sedikit demi sedikit, dari waktu ke waktu, orang bijaksana harus menghilangkan kotorannya sendiri, seperti seorang pandai besi menghilangkan sampah perak.'\""
+        "id": "239. 'Secara bertahap, sedikit demi sedikit, dari waktu ke waktu, orang bijaksana harus menghilangkan kotorannya sendiri, seperti seorang pandai besi menghilangkan sampah perak.'"
       }
     },
     {
@@ -330,7 +330,7 @@
       "textoOriginal": "न तेन होति धम्मट्ठो येनत्थं सहसा नये। यो च अत्थं अनत्थं च उभो निच्छेय्य पण्डितो॥",
       "foneticaLiturgica": "Na tena hoti dhammattho yen'atthaṁ sahasā naye...",
       "traducciones": {
-        "id": "[\"256. 'Seseorang tidak adil jika ia memutuskan suatu perkara dengan semena-mena. Namun dia yang menilai benar dan salah adalah orang yang benar-benar bijaksana.'\""
+        "id": "256. 'Seseorang tidak adil jika ia memutuskan suatu perkara dengan semena-mena. Namun dia yang menilai benar dan salah adalah orang yang benar-benar bijaksana.'"
       }
     },
     {
@@ -347,7 +347,7 @@
       "textoOriginal": "मग्गानट्ठङ्गिको सेट्ठो सच्चानं चतुरो पदा। विरागो सेट्ठो धम्मानं द्विपदानं च चक्खुमा॥",
       "foneticaLiturgica": "Maggānaṭṭhaṅgiko seṭṭho saccānaṁ caturo padā...",
       "traducciones": {
-        "id": "[\"273. 'Di antara jalan-jalan, Yang Beruas Delapan adalah yang terbaik; kebenaran, Empat Ucapan; tentang kebajikan, kebebasan dari keterikatan; dan manusia, Yang mempunyai Mata untuk melihat.'\""
+        "id": "273. 'Di antara jalan-jalan, Yang Beruas Delapan adalah yang terbaik; kebenaran, Empat Ucapan; tentang kebajikan, kebebasan dari keterikatan; dan manusia, Yang mempunyai Mata untuk melihat.'"
       }
     },
     {
@@ -364,7 +364,7 @@
       "textoOriginal": "मत्तासुखपरिच्चागा पस्से चे विपुलं सुखं। चजे मत्तासुखं धीरो सम्पस्सं विपुलं सुखं॥",
       "foneticaLiturgica": "Mattāsukha-pariccāgā passe ce vipulaṁ sukhaṁ...",
       "traducciones": {
-        "id": "[\"290. 'Jika dengan meninggalkan kebahagiaan yang lebih kecil seseorang dapat melihat kebahagiaan yang lebih besar, hendaklah orang bijak meninggalkan kebahagiaan yang lebih kecil, dengan memperhatikan kebahagiaan yang lebih besar.'\""
+        "id": "290. 'Jika dengan meninggalkan kebahagiaan yang lebih kecil seseorang dapat melihat kebahagiaan yang lebih besar, hendaklah orang bijak meninggalkan kebahagiaan yang lebih kecil, dengan memperhatikan kebahagiaan yang lebih besar.'"
       }
     },
     {
@@ -381,7 +381,7 @@
       "textoOriginal": "अभूतवादी निरयं उपेति यो वापि कत्वा न करोमीति चाह। उभोपि ते पेच्च समा भवन्ति निहीनकम्मा मनुजा परत्थ॥",
       "foneticaLiturgica": "Abhūtavādī nirayaṁ upeti...",
       "traducciones": {
-        "id": "[\"306. 'Orang yang berbohong akan berada dalam keadaan yang malang, seperti halnya orang yang setelah melakukan suatu perbuatan berkata, 'Bukan aku yang melakukannya.''\""
+        "id": "306. 'Orang yang berbohong akan berada dalam keadaan yang malang, seperti halnya orang yang setelah melakukan suatu perbuatan berkata, 'Bukan aku yang melakukannya.''"
       }
     },
     {
@@ -398,7 +398,7 @@
       "textoOriginal": "अहं नागोवा सङ्गामे चापातो पतितं सरं। अतिवाक्यं तितिक्खिस्सं दुस्सclassो हि बहुज्जनो॥",
       "foneticaLiturgica": "Ahaṁ nāgo'va saṅgāme cāpāto patitaṁ saraṁ...",
       "traducciones": {
-        "id": "[\"320. 'Aku akan menanggung pelecehan seperti seekor gajah dalam pertempuran menanggung anak panah yang ditembakkan dari busur; karena dunia ini penuh dengan orang-orang yang tidak terkendali.'\""
+        "id": "320. 'Aku akan menanggung pelecehan seperti seekor gajah dalam pertempuran menanggung anak panah yang ditembakkan dari busur; karena dunia ini penuh dengan orang-orang yang tidak terkendali.'"
       }
     },
     {
@@ -415,7 +415,7 @@
       "textoOriginal": "मनुजस्स पमत्तचारिनो तण्हा वड्ढति मालुवा विय। सो पलवति हुरा हुरं फलं इच्छं व वनस्मि मक्कclassो॥",
       "foneticaLiturgica": "Manujassa pamattacārino taṇhā vaḍḍhati māluvā viya...",
       "traducciones": {
-        "id": "[\"334. 'Keinginan seseorang yang hidup lalai tumbuh bagaikan tanaman merambat. Dia melompat dari kehidupan ke kehidupan seperti monyet di hutan mencari buah.'\""
+        "id": "334. 'Keinginan seseorang yang hidup lalai tumbuh bagaikan tanaman merambat. Dia melompat dari kehidupan ke kehidupan seperti monyet di hutan mencari buah.'"
       }
     },
     {
@@ -432,7 +432,7 @@
       "textoOriginal": "चक्खुना संवरो साधु साधु सोतेन संवरो। घानेन संवरो साधु साधु जिव्हाय संवरो॥ कायेन संवरो साधु साधु वाचाय संवरो। मनसा संवरो साधु साधु सब्बत्थ संवरो॥",
       "foneticaLiturgica": "Cakkhunā saṁvaro sādhu sādhu sotena saṁvaro...",
       "traducciones": {
-        "id": "[\"360. 'Kebaikan adalah pengendalian mata; baiklah pengendalian telinga; baiklah pengendalian hidung; baiklah pengendalian lidah.'\n361. 'Kebaikan adalah pengendalian pada tubuh; baiklah menahan diri dalam berbicara; yang baik adalah pengendalian diri dalam pikiran. Bhikkhu yang terkendali dalam segala hal terbebas dari segala penderitaan.'\""
+        "id": "360. 'Kebaikan adalah pengendalian mata; baiklah pengendalian telinga; baiklah pengendalian hidung; baiklah pengendalian lidah.'\n361. 'Kebaikan adalah pengendalian pada tubuh; baiklah menahan diri dalam berbicara; yang baik adalah pengendalian diri dalam pikiran. Bhikkhu yang terkendali dalam segala hal terbebas dari segala penderitaan.'"
       }
     },
     {
@@ -449,7 +449,7 @@
       "textoOriginal": "छिन्न सोतं परक्कम्म कामे पनुद ब्राह्मण। सङ्खारानं खयं ञत्वा अकतञ्ञू सि ब्राह्मण॥ यस्स पारं अपारं वा पारापारं न विज्जति। वीतद्दरं विसंयुत्तं तमहं ब्रूमि ब्राह्मणं॥",
       "foneticaLiturgica": "Chinda sotaṁ parakkamma kāme panuda brāhmaṇa...",
       "traducciones": {
-        "id": "[\"383. 'Wahai pencari, berusahalah sekuat tenaga dan putuskan aliran nafsu! Mengetahui kehancuran hal-hal yang berkondisi, jadilah orang yang mengetahui Yang Tak Tercipta.'\n385. 'Ia yang tidak mengenal pantai ini maupun pantai seberang, yang tak kenal takut dan tidak terikat—saya sebut orang suci.'\""
+        "id": "383. 'Wahai pencari, berusahalah sekuat tenaga dan putuskan aliran nafsu! Mengetahui kehancuran hal-hal yang berkondisi, jadilah orang yang mengetahui Yang Tak Tercipta.'\n385. 'Ia yang tidak mengenal pantai ini maupun pantai seberang, yang tak kenal takut dan tidak terikat—saya sebut orang suci.'"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "libroKey": "dhammapada",
-    "titulo": "El Dhammapada Canónico (धम्मपद · Tipitaka)",
+    "titulo": "Il Dhammapada del Buddha (La Via della Sacra Dottrina)",
     "totalCapitulos": 26,
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
     "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
@@ -24,7 +24,7 @@
       "textoOriginal": "मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पदुट्ठेन भासति वा करोति वा। ततो नं दुक्खमन्वेति चक्कंव वहतो पदं॥ मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पसन्नेन भासति वा करोति वा। ततो नं सुखमन्वेति छायाव अनपायिनी॥",
       "foneticaLiturgica": "Manopubbaṅgamā dhammā manoseṭṭhā manomayā | manasā ce paduṭṭhena bhāsati vā karoti vā...",
       "traducciones": {
-        "it": "[\"1. La mente precede tutti gli stati mentali. La mente è il loro capo; sono tutti frutto della mente. Se con mente impura una persona parla o agisce, la sofferenza lo segue.\n2. Se una persona parla o agisce con mente pura, la felicità lo segue come un'ombra che non se ne va mai.\""
+        "it": "1. La mente precede tutti gli stati mentali. La mente è il loro capo; sono tutti frutto della mente. Se con mente impura una persona parla o agisce, la sofferenza lo segue.\n2. Se una persona parla o agisce con mente pura, la felicità lo segue come un'ombra che non se ne va mai."
       }
     },
     {
@@ -41,7 +41,7 @@
       "textoOriginal": "अप्पमादो अमतपदं पमादो मच्चुनो पदं। अप्पमत्ता न मीयन्ति ये पमत्ता यथा मता॥",
       "foneticaLiturgica": "Appamādo amatapadaṁ pamādo maccuno padaṁ | appamattā na mīyanti ye pamattā yathā matā ||",
       "traducciones": {
-        "it": "[\"21. 'L'attenzione è la via verso l'Immortale; la disattenzione è la via verso la morte. Chi è attento non muore; gli incuranti sono come i morti.'\""
+        "it": "21. 'L'attenzione è la via verso l'Immortale; la disattenzione è la via verso la morte. Chi è attento non muore; gli incuranti sono come i morti.'"
       }
     },
     {
@@ -58,7 +58,7 @@
       "textoOriginal": "फन्दनं चपलं चित्तं दुरक्खं दुन्निवारयं। उजुं करोति मेधावी उसुकारोव तेजनं॥",
       "foneticaLiturgica": "Phandanaṁ capalaṁ cittaṁ durakkhaṁ dunnivārayaṁ | ujuṁ karoti medhāvī usukāro'va tejanaṁ ||",
       "traducciones": {
-        "it": "[\"33. 'Proprio come un arciere raddrizza una freccia, così la persona saggia raddrizza la mente instabile e volubile, che è difficile da proteggere e controllare.'\""
+        "it": "33. 'Proprio come un arciere raddrizza una freccia, così la persona saggia raddrizza la mente instabile e volubile, che è difficile da proteggere e controllare.'"
       }
     },
     {
@@ -75,7 +75,7 @@
       "textoOriginal": "यथापि रुचिरं पुप्फं वण्णवन्तं अगन्धकं। एवं सुभासिता वाचा अफला होती अकुब्बतो॥ यथापि रुचिरं पुप्फं वण्णवन्तं सगन्धकं। एवं सुभासिता वाचा सफला होती सुकुब्बतो॥",
       "foneticaLiturgica": "Yathāpi ruciraṁ pupphaṁ vaṇṇavantaṁ agandhakaṁ...",
       "traducciones": {
-        "it": "[\"51. 'Come un bel fiore pieno di colore ma senza profumo, anche così, infruttuose sono le belle parole di chi non le pratica.'\""
+        "it": "51. 'Come un bel fiore pieno di colore ma senza profumo, anche così, infruttuose sono le belle parole di chi non le pratica.'"
       }
     },
     {
@@ -92,7 +92,7 @@
       "textoOriginal": "दीघा जागरतो रत्ति दीघं सन्तस्स योजनं। दीघो बालानं संसारो सद्धम्मं अविजानतं॥",
       "foneticaLiturgica": "Dīghā jāgarato ratti dīghaṁ santassa yojanaṁ...",
       "traducciones": {
-        "it": "[\"60. 'Lunga è la notte per gli insonni; lunga è la lega per il viaggiatore stanco; lungo è il ciclo delle rinascite per gli stolti che non conoscono la sublime Verità.'\""
+        "it": "60. 'Lunga è la notte per gli insonni; lunga è la lega per il viaggiatore stanco; lungo è il ciclo delle rinascite per gli stolti che non conoscono la sublime Verità.'"
       }
     },
     {
@@ -109,7 +109,7 @@
       "textoOriginal": "सेलो यथा एकघनो वातेन न समीरति। एवं निन्दापसंसासु न सम्मिञ्जन्ति पण्डिता॥",
       "foneticaLiturgica": "Selo yathā ekaghano vātena na samīrati | evaṁ nindā-pasaṁsāsu na sammiñjanti paṇḍitā ||",
       "traducciones": {
-        "it": "[\"81. 'Come una solida roccia non è scossa dal vento, così i saggi non sono mossi dalla lode o dal biasimo.'\""
+        "it": "81. 'Come una solida roccia non è scossa dal vento, così i saggi non sono mossi dalla lode o dal biasimo.'"
       }
     },
     {
@@ -143,7 +143,7 @@
       "textoOriginal": "सहस्समपि चे वाचा अनत्थपदसंहिता। एकं अत्थपदं सेय्यो यं सुत्वा उपसम्मति॥",
       "foneticaLiturgica": "Sahassam api ce vācā anattha-pada-saṁhitā | ekaṁ attha-padaṁ seyyo yaṁ sutvā upasammati ||",
       "traducciones": {
-        "it": "[\"100. 'Meglio di mille parole inutili è una sola parola significativa, ascoltando la quale si ottiene la pace.'\""
+        "it": "100. 'Meglio di mille parole inutili è una sola parola significativa, ascoltando la quale si ottiene la pace.'"
       }
     },
     {
@@ -160,7 +160,7 @@
       "textoOriginal": "अभिथरेथ कल्याणे पापा चित्तं निवारये। दन्धं हि करोतो पुञ्ञं पापिस्मिं रमती मनो॥",
       "foneticaLiturgica": "Abhittharetha kalyāṇe pāpā cittaṁ nivāraye...",
       "traducciones": {
-        "it": "116. «Affrettati a fare il bene; controlla la tua mente dal male. Se uno è lento nel fare il bene, la sua mente trova piacere nel male.'"
+        "it": "116. «Affrettati a fare il bene; controlla la tua mente dal male. Se uno è lento nel fare il bene, la sua mente trova piacere nel male."
       }
     },
     {
@@ -177,7 +177,7 @@
       "textoOriginal": "सब्बे तसन्ति दण्डस्स सब्बे भायन्ति मच्चुनो। अत्तानं उपमं कत्वा न हनेय्य न घातये॥",
       "foneticaLiturgica": "Sabbe tasanti daṇḍassa sabbe bhāyanti maccuno | attānaṁ upamaṁ katvā na haneyya na ghātaye ||",
       "traducciones": {
-        "it": "[\"129. «Tutti tremano davanti alla violenza; tutti temono la morte. Mettendosi nei panni di un altro, non si dovrebbe uccidere né far uccidere un altro.'\""
+        "it": "129. «Tutti tremano davanti alla violenza; tutti temono la morte. Mettendosi nei panni di un altro, non si dovrebbe uccidere né far uccidere un altro."
       }
     },
     {
@@ -194,7 +194,7 @@
       "textoOriginal": "को नु हासो किमानन्दो निच्चं पज्जलितो सति। अन्धकारेन ओनद्धा पदीपं न गवेस्सथ॥",
       "foneticaLiturgica": "Ko nu hāso kim ānando niccaṁ pajjalite sati...",
       "traducciones": {
-        "it": "[\"146. 'Perché c'è la risata, perché c'è la gioia, quando il mondo brucia per sempre? Avvolto dalle tenebre, non cercherai una luce?'\""
+        "it": "146. 'Perché c'è la risata, perché c'è la gioia, quando il mondo brucia per sempre? Avvolto dalle tenebre, non cercherai una luce?'"
       }
     },
     {
@@ -211,7 +211,7 @@
       "textoOriginal": "अत्ता हि अत्तनो नाथो को हि नाथो परो सिया। अत्तना हि सुदन्तेन नाथं लभति दुल्लभं॥",
       "foneticaLiturgica": "Attā hi attano nātho ko hi nātho paro siyā | attanā hi sudantena nāthaṁ labhati dullabhaṁ ||",
       "traducciones": {
-        "it": "[\"160. «Uno è veramente protettore di se stesso; chi altro potrebbe essere il protettore? Con se stessi completamente controllati, si acquisisce una maestria difficile da trovare.'\""
+        "it": "160. «Uno è veramente protettore di se stesso; chi altro potrebbe essere il protettore? Con se stessi completamente controllati, si acquisisce una maestria difficile da trovare."
       }
     },
     {
@@ -228,7 +228,7 @@
       "textoOriginal": "यथा बुब्बुळकं पस्से यथा पस्से मरीचिकं। एवं लोकं अवेक्खन्तं मच्चुराजा न पस्सति॥",
       "foneticaLiturgica": "Yathā bubbuḷakaṁ passe yathā passe marīcikaṁ...",
       "traducciones": {
-        "it": "[\"170. 'Considera il mondo come una bolla, consideralo come un miraggio. Il Re della Morte non vede colui che guarda così il mondo dall'alto in basso.'\""
+        "it": "170. 'Considera il mondo come una bolla, consideralo come un miraggio. Il Re della Morte non vede colui che guarda così il mondo dall'alto in basso."
       }
     },
     {
@@ -245,7 +245,7 @@
       "textoOriginal": "सब्बपापस्स अकरणं कुसलस्स उपसम्पदा। सचित्तपरियोदपनं एतं बुद्धान सासनं॥",
       "foneticaLiturgica": "Sabbapāpassa akaraṇaṁ kusalassa upasampadā | sacittapariyodapanaṁ etaṁ buddhāna sāsanaṁ ||",
       "traducciones": {
-        "it": "[\"183. 'Evitare ogni male, coltivare il bene e purificare la propria mente: questo è l'insegnamento dei Buddha.'\""
+        "it": "183. 'Evitare ogni male, coltivare il bene e purificare la propria mente: questo è l'insegnamento dei Buddha."
       }
     },
     {
@@ -262,7 +262,7 @@
       "textoOriginal": "सुसुखं वत जीवाम वेरिनेसु अवेरिनो। वेरिनेसु मनुस्सेसु विहराम अवेरिनो॥ जयं वेरं पसवति दुक्खं सेति पराजितो। उपसन्तो सुखं सेति हित्वा जयपराजयं॥",
       "foneticaLiturgica": "Susukhaṁ vata jīvāma verinesu averino...",
       "traducciones": {
-        "it": "197. 'Happy indeed we live, friendly amidst the hostile.'\n201. «La vittoria genera odio. Gli sconfitti vivono nel dolore. Fortunatamente chi vive in pace, rinunciando alla vittoria e alla sconfitta.'"
+        "it": "197. 'Happy indeed we live, friendly amidst the hostile.'\n201. «La vittoria genera odio. Gli sconfitti vivono nel dolore. Fortunatamente chi vive in pace, rinunciando alla vittoria e alla sconfitta."
       }
     },
     {
@@ -296,7 +296,7 @@
       "textoOriginal": "अक्कोधेन जिने कोधं असाधुं साधुना जिने। जिने कदरियं दानेन सच्चेन अलिकवादिनं॥",
       "foneticaLiturgica": "Akkodhena jine kodhaṁ asādhuṁ sādhunā jine | jine kadariyaṁ dānena saccena alikavādinaṁ ||",
       "traducciones": {
-        "it": "[\"223. «Conquistare la rabbia con la non-rabbia. Conquistare la cattiveria con la bontà. Conquistare la meschinità con la generosità. Vincere la disonestà con la verità.'\""
+        "it": "223. «Conquistare la rabbia con la non-rabbia. Conquistare la cattiveria con la bontà. Conquistare la meschinità con la generosità. Vincere la disonestà con la verità."
       }
     },
     {
@@ -313,7 +313,7 @@
       "textoOriginal": "अनुपुब्बेन मेधावी थोकथोकं खणे खणे। कम्मclassो रजतस्सेव निद्धमे मलमत्तनो॥",
       "foneticaLiturgica": "Anupubbena medhāvī thoka-thokaṁ khaṇe khaṇe...",
       "traducciones": {
-        "it": "[\"239. 'A poco a poco, a poco a poco, di tanto in tanto, una persona saggia dovrebbe rimuovere le proprie impurità, come un fabbro rimuove le scorie dell'argento.'\""
+        "it": "239. 'A poco a poco, a poco a poco, di tanto in tanto, una persona saggia dovrebbe rimuovere le proprie impurità, come un fabbro rimuove le scorie dell'argento."
       }
     },
     {
@@ -330,7 +330,7 @@
       "textoOriginal": "न तेन होति धम्मट्ठो येनत्थं सहसा नये। यो च अत्थं अनत्थं च उभो निच्छेय्य पण्डितो॥",
       "foneticaLiturgica": "Na tena hoti dhammattho yen'atthaṁ sahasā naye...",
       "traducciones": {
-        "it": "[\"256. «Una persona non è giusta se decide arbitrariamente un caso. Ma chi valuta sia il bene che lo sbagliato è veramente saggio.'\""
+        "it": "256. «Una persona non è giusta se decide arbitrariamente un caso. Ma chi valuta sia il bene che lo sbagliato è veramente saggio."
       }
     },
     {
@@ -347,7 +347,7 @@
       "textoOriginal": "मग्गानट्ठङ्गिको सेट्ठो सच्चानं चतुरो पदा। विरागो सेट्ठो धम्मानं द्विपदानं च चक्खुमा॥",
       "foneticaLiturgica": "Maggānaṭṭhaṅgiko seṭṭho saccānaṁ caturo padā...",
       "traducciones": {
-        "it": "[\"273. «Dei sentieri, l'Ottuplice è il migliore; delle verità, i Quattro Detti; delle virtù, libertà dall'attaccamento; e degli esseri umani, Colui che ha gli occhi per vedere.'\""
+        "it": "273. «Dei sentieri, l'Ottuplice è il migliore; delle verità, i Quattro Detti; delle virtù, libertà dall'attaccamento; e degli esseri umani, Colui che ha gli occhi per vedere."
       }
     },
     {
@@ -381,7 +381,7 @@
       "textoOriginal": "अभूतवादी निरयं उपेति यो वापि कत्वा न करोमीति चाह। उभोपि ते पेच्च समा भवन्ति निहीनकम्मा मनुजा परत्थ॥",
       "foneticaLiturgica": "Abhūtavādī nirayaṁ upeti...",
       "traducciones": {
-        "it": "[\"306. 'Chi dice il falso entra in uno stato di dolore, come fa colui che, dopo aver compiuto un'azione, dice: 'Non l'ho fatto.''\""
+        "it": "306. 'Chi dice il falso entra in uno stato di dolore, come fa colui che, dopo aver compiuto un'azione, dice: 'Non l'ho fatto.''"
       }
     },
     {
@@ -398,7 +398,7 @@
       "textoOriginal": "अहं नागोवा सङ्गामे चापातो पतितं सरं। अतिवाक्यं तितिक्खिस्सं दुस्सclassो हि बहुज्जनो॥",
       "foneticaLiturgica": "Ahaṁ nāgo'va saṅgāme cāpāto patitaṁ saraṁ...",
       "traducciones": {
-        "it": "320. «Sopporterò gli insulti come un elefante in battaglia sopporta le frecce scoccate da un arco; perché il mondo è pieno di persone incontrollate.'"
+        "it": "320. «Sopporterò gli insulti come un elefante in battaglia sopporta le frecce scoccate da un arco; perché il mondo è pieno di persone incontrollate."
       }
     },
     {
@@ -415,7 +415,7 @@
       "textoOriginal": "मनुजस्स पमत्तचारिनो तण्हा वड्ढति मालुवा विय। सो पलवति हुरा हुरं फलं इच्छं व वनस्मि मक्कclassो॥",
       "foneticaLiturgica": "Manujassa pamattacārino taṇhā vaḍḍhati māluvā viya...",
       "traducciones": {
-        "it": "[\"334. «La brama di una persona che vive sconsideratamente cresce come una vite strisciante. Salta di vita in vita come una scimmia nella foresta in cerca di frutta.'\""
+        "it": "334. «La brama di una persona che vive sconsideratamente cresce come una vite strisciante. Salta di vita in vita come una scimmia nella foresta in cerca di frutta."
       }
     },
     {
@@ -432,7 +432,7 @@
       "textoOriginal": "चक्खुना संवरो साधु साधु सोतेन संवरो। घानेन संवरो साधु साधु जिव्हाय संवरो॥ कायेन संवरो साधु साधु वाचाय संवरो। मनसा संवरो साधु साधु सब्बत्थ संवरो॥",
       "foneticaLiturgica": "Cakkhunā saṁvaro sādhu sādhu sotena saṁvaro...",
       "traducciones": {
-        "it": "[\"360. «Buono è il controllo dell'occhio; buona è la moderazione sull'orecchio; buono è il controllo del naso; bene è il controllo della lingua».\n361. «Buono è il controllo del corpo; il bene è la moderazione nel parlare; il bene è la moderazione nel pensiero. Il monaco in ogni modo trattenuto è liberato da ogni sofferenza.'\""
+        "it": "360. «Buono è il controllo dell'occhio; buona è la moderazione sull'orecchio; buono è il controllo del naso; bene è il controllo della lingua».\n361. «Buono è il controllo del corpo; il bene è la moderazione nel parlare; il bene è la moderazione nel pensiero. Il monaco in ogni modo trattenuto è liberato da ogni sofferenza."
       }
     },
     {
@@ -449,7 +449,7 @@
       "textoOriginal": "छिन्न सोतं परक्कम्म कामे पनुद ब्राह्मण। सङ्खारानं खयं ञत्वा अकतञ्ञू सि ब्राह्मण॥ यस्स पारं अपारं वा पारापारं न विज्जति। वीतद्दरं विसंयुत्तं तमहं ब्रूमि ब्राह्मणं॥",
       "foneticaLiturgica": "Chinda sotaṁ parakkamma kāme panuda brāhmaṇa...",
       "traducciones": {
-        "it": "383. 'O ricercatore, sforzati intensamente e taglia il flusso dei desideri! Conoscendo la distruzione delle cose condizionate, sii uno che conosce l'Increato.'\n385. 'He for whom there exists neither this shore nor the other shore, who is fearless and detached—him I call a holy one.'"
+        "it": "383. 'O ricercatore, sforzati intensamente e taglia il flusso dei desideri! Conoscendo la distruzione delle cose condizionate, sii uno che conosce l'Increato.'\n385. 'He for whom there exists neither this shore nor the other shore, who is fearless and detached—him I call a holy one."
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "libroKey": "dhammapada",
-    "titulo": "El Dhammapada Canónico (धम्मपद · Tipitaka)",
+    "titulo": "دھمپد (گوتم بدھ کی مقدس تعلیمات)",
     "totalCapitulos": 26,
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
     "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
@@ -20,7 +20,7 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · Los Versos Gemelos (La Mente y el Karma)",
       "versiculoNumero": "1-1",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पदुट्ठेन भासति वा करोति वा। ततो नं दुक्खमन्वेति चक्कंव वहतो पदं॥ मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पसन्नेन भासति वा करोति वा। ततो नं सुखमन्वेति छायाव अनपायिनी॥",
       "foneticaLiturgica": "Manopubbaṅgamā dhammā manoseṭṭhā manomayā | manasā ce paduṭṭhena bhāsati vā karoti vā...",
       "traducciones": {
@@ -37,11 +37,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · La Atención y la Consciencia Plena",
       "versiculoNumero": "1-2",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "अप्पमादो अमतपदं पमादो मच्चुनो पदं। अप्पमत्ता न मीयन्ति ये पमत्ता यथा मता॥",
       "foneticaLiturgica": "Appamādo amatapadaṁ pamādo maccuno padaṁ | appamattā na mīyanti ye pamattā yathā matā ||",
       "traducciones": {
-        "ur": "[\"21. 'اطاعت بے موت کا راستہ ہے۔ غفلت موت کا راستہ ہے۔ ہوشیار مرتے نہیں غافل مُردوں کی طرح ہیں۔\""
+        "ur": "21. 'اطاعت بے موت کا راستہ ہے۔ غفلت موت کا راستہ ہے۔ ہوشیار مرتے نہیں غافل مُردوں کی طرح ہیں۔"
       }
     },
     {
@@ -54,11 +54,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio y la Serenidad de la Mente",
       "versiculoNumero": "1-3",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "फन्दनं चपलं चित्तं दुरक्खं दुन्निवारयं। उजुं करोति मेधावी उसुकारोव तेजनं॥",
       "foneticaLiturgica": "Phandanaṁ capalaṁ cittaṁ durakkhaṁ dunnivārayaṁ | ujuṁ karoti medhāvī usukāro'va tejanaṁ ||",
       "traducciones": {
-        "ur": "[\"33. 'جس طرح اڑانے والا تیر کو سیدھا کرتا ہے، اسی طرح عقلمند شخص غیر مستحکم، چست دماغ کو سیدھا کرتا ہے جس کی حفاظت اور قابو پانا مشکل ہے۔'\""
+        "ur": "33. 'جس طرح اڑانے والا تیر کو سیدھا کرتا ہے، اسی طرح عقلمند شخص غیر مستحکم، چست دماغ کو سیدھا کرتا ہے جس کی حفاظت اور قابو پانا مشکل ہے۔'"
       }
     },
     {
@@ -71,11 +71,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · Las Flores de la Sabiduría",
       "versiculoNumero": "1-4",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "यथापि रुचिरं पुप्फं वण्णवन्तं अगन्धकं। एवं सुभासिता वाचा अफला होती अकुब्बतो॥ यथापि रुचिरं पुप्फं वण्णवन्तं सगन्धकं। एवं सुभासिता वाचा सफला होती सुकुब्बतो॥",
       "foneticaLiturgica": "Yathāpi ruciraṁ pupphaṁ vaṇṇavantaṁ agandhakaṁ...",
       "traducciones": {
-        "ur": "[\"51. 'رنگوں سے بھرے خوبصورت پھول کی طرح لیکن خوشبو کے بغیر، یوں بھی بے نتیجہ ہیں اس کی باتیں جو ان پر عمل نہیں کرتا۔'\""
+        "ur": "51. 'رنگوں سے بھرے خوبصورت پھول کی طرح لیکن خوشبو کے بغیر، یوں بھی بے نتیجہ ہیں اس کی باتیں جو ان پر عمل نہیں کرتا۔'"
       }
     },
     {
@@ -88,11 +88,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Necio y el Apego",
       "versiculoNumero": "1-5",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "दीघा जागरतो रत्ति दीघं सन्तस्स योजनं। दीघो बालानं संसारो सद्धम्मं अविजानतं॥",
       "foneticaLiturgica": "Dīghā jāgarato ratti dīghaṁ santassa yojanaṁ...",
       "traducciones": {
-        "ur": "[\"60. بے خوابوں کے لیے رات لمبی ہوتی ہے۔ تھکے ہوئے مسافر کے لیے لیگ لمبی ہے۔ ان احمقوں کے لیے دوبارہ جنم لینے کا چکر لمبا ہے جو عظیم سچائی کو نہیں جانتے۔'\""
+        "ur": "60. بے خوابوں کے لیے رات لمبی ہوتی ہے۔ تھکے ہوئے مسافر کے لیے لیگ لمبی ہے۔ ان احمقوں کے لیے دوبارہ جنم لینے کا چکر لمبا ہے جو عظیم سچائی کو نہیں جانتے۔"
       }
     },
     {
@@ -105,11 +105,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Sabio e Iluminado",
       "versiculoNumero": "1-6",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "सेलो यथा एकघनो वातेन न समीरति। एवं निन्दापसंसासु न सम्मिञ्जन्ति पण्डिता॥",
       "foneticaLiturgica": "Selo yathā ekaghano vātena na samīrati | evaṁ nindā-pasaṁsāsu na sammiñjanti paṇḍitā ||",
       "traducciones": {
-        "ur": "[\"81. 'جیسے ٹھوس چٹان ہوا سے نہیں ہلتی، اسی طرح عقلمند تعریف یا الزام سے متاثر نہیں ہوتے۔'\""
+        "ur": "81. 'جیسے ٹھوس چٹان ہوا سے نہیں ہلتی، اسی طرح عقلمند تعریف یا الزام سے متاثر نہیں ہوتے۔'"
       }
     },
     {
@@ -122,11 +122,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Santo que Alcanzó la Paz Suprema",
       "versiculoNumero": "1-7",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "गताद्धिनो विसोकस्स विप्पमुत्तस्स सब्बधि। सब्बगन्थप्पहीनस्स परिळाहो न विज्जति॥",
       "foneticaLiturgica": "Gataddhino visokassa vippamuttassa sabbadhi...",
       "traducciones": {
-        "ur": "[\"90. 'جس نے سفر مکمل کر لیا، جو غم سے آزاد، ہر طرح سے آزاد، اور جس نے تمام بندھنوں کو ختم کر دیا، اس کے لیے جوش کا بخار باقی نہیں رہا۔'\""
+        "ur": "90. 'جس نے سفر مکمل کر لیا، جو غم سے آزاد، ہر طرح سے آزاد، اور جس نے تمام بندھنوں کو ختم کر دیا، اس کے لیے جوش کا بخار باقی نہیں رہا۔'"
       }
     },
     {
@@ -139,11 +139,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Valor de los Mil Pasajes y la Paz Interior",
       "versiculoNumero": "1-8",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "सहस्समपि चे वाचा अनत्थपदसंहिता। एकं अत्थपदं सेय्यो यं सुत्वा उपसम्मति॥",
       "foneticaLiturgica": "Sahassam api ce vācā anattha-pada-saṁhitā | ekaṁ attha-padaṁ seyyo yaṁ sutvā upasammati ||",
       "traducciones": {
-        "ur": "[\"100. 'ہزار فضول الفاظ سے بہتر ایک ہی بامعنی لفظ ہے، جسے سن کر سکون ملتا ہے۔'\""
+        "ur": "100. 'ہزار فضول الفاظ سے بہتر ایک ہی بامعنی لفظ ہے، جسے سن کر سکون ملتا ہے۔'"
       }
     },
     {
@@ -156,11 +156,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Mal y la Protección de la Virtud",
       "versiculoNumero": "1-9",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "अभिथरेथ कल्याणे पापा चित्तं निवारये। दन्धं हि करोतो पुञ्ञं पापिस्मिं रमती मनो॥",
       "foneticaLiturgica": "Abhittharetha kalyāṇe pāpā cittaṁ nivāraye...",
       "traducciones": {
-        "ur": "[\"116. نیکی میں جلدی کرو۔ اپنے دماغ کو برائی سے چیک کریں۔ اگر کوئی نیکی کرنے میں سست ہے تو اس کا دماغ برائی میں لذت پاتا ہے۔'\""
+        "ur": "116. نیکی میں جلدی کرو۔ اپنے دماغ کو برائی سے چیک کریں۔ اگر کوئی نیکی کرنے میں سست ہے تو اس کا دماغ برائی میں لذت پاتا ہے۔"
       }
     },
     {
@@ -173,11 +173,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · La Compasión y la No-Violencia hacia Todos los Seres",
       "versiculoNumero": "1-10",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "सब्बे तसन्ति दण्डस्स सब्बे भायन्ति मच्चुनो। अत्तानं उपमं कत्वा न हनेय्य न घातये॥",
       "foneticaLiturgica": "Sabbe tasanti daṇḍassa sabbe bhāyanti maccuno | attānaṁ upamaṁ katvā na haneyya na ghātaye ||",
       "traducciones": {
-        "ur": "[\"129. 'تشدد سے سب کانپتے ہیں۔ سب موت سے ڈرتے ہیں۔ اپنے آپ کو دوسرے کی جگہ پر رکھ کر کسی کو قتل نہیں کرنا چاہیے اور نہ ہی دوسرے کو مارنے کا سبب بننا چاہیے۔'\""
+        "ur": "129. 'تشدد سے سب کانپتے ہیں۔ سب موت سے ڈرتے ہیں۔ اپنے آپ کو دوسرے کی جگہ پر رکھ کر کسی کو قتل نہیں کرنا چاہیے اور نہ ہی دوسرے کو مارنے کا سبب بننا چاہیے۔'"
       }
     },
     {
@@ -190,11 +190,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · La Vejez y la Transitoriedad de la Vida",
       "versiculoNumero": "1-11",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "को नु हासो किमानन्दो निच्चं पज्जलितो सति। अन्धकारेन ओनद्धा पदीपं न गवेस्सथ॥",
       "foneticaLiturgica": "Ko nu hāso kim ānando niccaṁ pajjalite sati...",
       "traducciones": {
-        "ur": "[\"146. جب دنیا ہمیشہ جل رہی ہے تو ہنسی کیوں ہے، خوشی کیوں ہے؟ اندھیروں میں ڈوبے ہوئے کیا تم روشنی نہیں ڈھونڈو گے؟'\""
+        "ur": "146. جب دنیا ہمیشہ جل رہی ہے تو ہنسی کیوں ہے، خوشی کیوں ہے؟ اندھیروں میں ڈوبے ہوئے کیا تم روشنی نہیں ڈھونڈو گے؟"
       }
     },
     {
@@ -207,11 +207,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Sí Mismo y la Autorrealización",
       "versiculoNumero": "1-12",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "अत्ता हि अत्तनो नाथो को हि नाथो परो सिया। अत्तना हि सुदन्तेन नाथं लभति दुल्लभं॥",
       "foneticaLiturgica": "Attā hi attano nātho ko hi nātho paro siyā | attanā hi sudantena nāthaṁ labhati dullabhaṁ ||",
       "traducciones": {
-        "ur": "[\"160. 'حقیقت میں ایک خود کا محافظ ہے۔ محافظ اور کون ہو سکتا ہے؟ اپنے آپ کو مکمل طور پر قابو میں رکھنے کے ساتھ، کوئی ایسی مہارت حاصل کر لیتا ہے جسے تلاش کرنا مشکل ہے۔'\""
+        "ur": "160. 'حقیقت میں ایک خود کا محافظ ہے۔ محافظ اور کون ہو سکتا ہے؟ اپنے آپ کو مکمل طور پر قابو میں رکھنے کے ساتھ، کوئی ایسی مہارت حاصل کر لیتا ہے جسے تلاش کرنا مشکل ہے۔'"
       }
     },
     {
@@ -224,11 +224,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Mundo y el Despertar de la Ilusión",
       "versiculoNumero": "1-13",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "यथा बुब्बुळकं पस्से यथा पस्से मरीचिकं। एवं लोकं अवेक्खन्तं मच्चुराजा न पस्सति॥",
       "foneticaLiturgica": "Yathā bubbuḷakaṁ passe yathā passe marīcikaṁ...",
       "traducciones": {
-        "ur": "[\"170. 'دنیا کو ایک بلبلے کی طرح دیکھو، اسے سراب کی طرح دیکھو۔ موت کا بادشاہ اس کو نہیں دیکھتا جو اس طرح دنیا کو نیچا دیکھتا ہے۔'\""
+        "ur": "170. 'دنیا کو ایک بلبلے کی طرح دیکھو، اسے سراب کی طرح دیکھو۔ موت کا بادشاہ اس کو نہیں دیکھتا جو اس طرح دنیا کو نیچا دیکھتا ہے۔'"
       }
     },
     {
@@ -241,7 +241,7 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Iluminado y el Cese del Sufrimiento",
       "versiculoNumero": "1-14",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "सब्बपापस्स अकरणं कुसलस्स उपसम्पदा। सचित्तपरियोदपनं एतं बुद्धान सासनं॥",
       "foneticaLiturgica": "Sabbapāpassa akaraṇaṁ kusalassa upasampadā | sacittapariyodapanaṁ etaṁ buddhāna sāsanaṁ ||",
       "traducciones": {
@@ -258,11 +258,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · La Verdadera Dicha y Felicidad Interior",
       "versiculoNumero": "1-15",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "सुसुखं वत जीवाम वेरिनेसु अवेरिनो। वेरिनेसु मनुस्सेसु विहराम अवेरिनो॥ जयं वेरं पसवति दुक्खं सेति पराजितो। उपसन्तो सुखं सेति हित्वा जयपराजयं॥",
       "foneticaLiturgica": "Susukhaṁ vata jīvāma verinesu averino...",
       "traducciones": {
-        "ur": "[\"197. 'بے شک ہم خوش ہیں، دشمنوں کے درمیان دوستانہ رہتے ہیں۔'\n201. 'فتح نفرت کو جنم دیتی ہے۔ شکست خوردہ درد میں رہتے ہیں۔ فتح اور شکست کو ترک کرتے ہوئے خوشی سے پرامن رہتے ہیں۔'\""
+        "ur": "197. 'بے شک ہم خوش ہیں، دشمنوں کے درمیان دوستانہ رہتے ہیں۔'\n201. 'فتح نفرت کو جنم دیتی ہے۔ شکست خوردہ درد میں رہتے ہیں۔ فتح اور شکست کو ترک کرتے ہوئے خوشی سے پرامن رہتے ہیں۔'"
       }
     },
     {
@@ -275,11 +275,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Afecto Apego y la Libertad Emocional",
       "versiculoNumero": "1-16",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "पियतो जायती सोको पियतो जायती भयं। पियतो विप्पमुत्तस्स नत्थि सोको कुतो भयं॥",
       "foneticaLiturgica": "Piyato jāyatī soko piyato jāyatī bhayaṁ...",
       "traducciones": {
-        "ur": "[\"212. 'محبت سے غم نکلتا ہے، پیار سے خوف نکلتا ہے۔ جو محبت سے بالکل آزاد ہے، اس کے لیے کوئی غم نہیں، خوف کہاں سے؟'\""
+        "ur": "212. 'محبت سے غم نکلتا ہے، پیار سے خوف نکلتا ہے۔ جو محبت سے بالکل آزاد ہے، اس کے لیے کوئی غم نہیں، خوف کہاں سے؟'"
       }
     },
     {
@@ -292,11 +292,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio de la Ira y el Amor Incondicional",
       "versiculoNumero": "1-17",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "अक्कोधेन जिने कोधं असाधुं साधुना जिने। जिने कदरियं दानेन सच्चेन अलिकवादिनं॥",
       "foneticaLiturgica": "Akkodhena jine kodhaṁ asādhuṁ sādhunā jine | jine kadariyaṁ dānena saccena alikavādinaṁ ||",
       "traducciones": {
-        "ur": "[\"223. غصے کو غیر غصے سے فتح کرو۔ برائی کو نیکی سے فتح کرو۔ سخاوت کے ساتھ عاجزی پر فتح حاصل کریں۔ بے ایمانی کو سچائی سے فتح کرو۔'\""
+        "ur": "223. غصے کو غیر غصے سے فتح کرو۔ برائی کو نیکی سے فتح کرو۔ سخاوت کے ساتھ عاجزی پر فتح حاصل کریں۔ بے ایمانی کو سچائی سے فتح کرو۔"
       }
     },
     {
@@ -309,11 +309,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · La Pureza y la Eliminación de las Impurezas",
       "versiculoNumero": "1-18",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "अनुपुब्बेन मेधावी थोकथोकं खणे खणे। कम्मclassो रजतस्सेव निद्धमे मलमत्तनो॥",
       "foneticaLiturgica": "Anupubbena medhāvī thoka-thokaṁ khaṇe khaṇe...",
       "traducciones": {
-        "ur": "[\"239. 'ڈگریوں کے حساب سے، آہستہ آہستہ، وقتاً فوقتاً، عقلمند کو چاہیے کہ وہ اپنی نجاست کو اس طرح دور کرے جس طرح لوہا چاندی کے میل کو دور کرتا ہے۔'\""
+        "ur": "239. 'ڈگریوں کے حساب سے، آہستہ آہستہ، وقتاً فوقتاً، عقلمند کو چاہیے کہ وہ اپنی نجاست کو اس طرح دور کرے جس طرح لوہا چاندی کے میل کو دور کرتا ہے۔'"
       }
     },
     {
@@ -326,11 +326,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Justo y el Establecido en el Dharma",
       "versiculoNumero": "1-19",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "न तेन होति धम्मट्ठो येनत्थं सहसा नये। यो च अत्थं अनत्थं च उभो निच्छेय्य पण्डितो॥",
       "foneticaLiturgica": "Na tena hoti dhammattho yen'atthaṁ sahasā naye...",
       "traducciones": {
-        "ur": "[\"256. 'ایک شخص صرف اس صورت میں نہیں ہوتا جب وہ کسی مقدمے کا من مانی فیصلہ کرے۔ لیکن جو صحیح اور غلط دونوں کو جانچتا ہے وہ واقعی عقلمند ہے۔'\""
+        "ur": "256. 'ایک شخص صرف اس صورت میں نہیں ہوتا جب وہ کسی مقدمے کا من مانی فیصلہ کرے۔ لیکن جو صحیح اور غلط دونوں کو جانچتا ہے وہ واقعی عقلمند ہے۔'"
       }
     },
     {
@@ -343,11 +343,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Noble Óctuple Sendero",
       "versiculoNumero": "1-20",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "मग्गानट्ठङ्गिको सेट्ठो सच्चानं चतुरो पदा। विरागो सेट्ठो धम्मानं द्विपदानं च चक्खुमा॥",
       "foneticaLiturgica": "Maggānaṭṭhaṅgiko seṭṭho saccānaṁ caturo padā...",
       "traducciones": {
-        "ur": "[\"273. 'راستوں میں سے آٹھ گنا بہترین ہے۔ سچائیوں کی، چار اقوال؛ خوبیوں کی، لگاؤ \\u200b\\u200bسے آزادی؛ اور انسانوں میں سے، جس کی آنکھیں دیکھنے والی ہیں۔'\""
+        "ur": "273. 'راستوں میں سے آٹھ گنا بہترین ہے۔ سچائیوں کی، چار اقوال؛ خوبیوں کی، لگاؤ \\u200b\\u200bسے آزادی؛ اور انسانوں میں سے، جس کی آنکھیں دیکھنے والی ہیں۔'"
       }
     },
     {
@@ -360,11 +360,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · Versos Misceláneos de la Sabiduría",
       "versiculoNumero": "1-21",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "मत्तासुखपरिच्चागा पस्से चे विपुलं सुखं। चजे मत्तासुखं धीरो सम्पस्सं विपुलं सुखं॥",
       "foneticaLiturgica": "Mattāsukha-pariccāgā passe ce vipulaṁ sukhaṁ...",
       "traducciones": {
-        "ur": "[\"290. 'اگر چھوٹی خوشی کو ترک کرنے سے کوئی بڑی کو دیکھ سکتا ہے، تو عقلمند کو چاہیے کہ وہ بڑی کو دیکھتے ہوئے چھوٹی کو ترک کر دے۔'\""
+        "ur": "290. 'اگر چھوٹی خوشی کو ترک کرنے سے کوئی بڑی کو دیکھ سکتا ہے، تو عقلمند کو چاہیے کہ وہ بڑی کو دیکھتے ہوئے چھوٹی کو ترک کر دے۔'"
       }
     },
     {
@@ -377,7 +377,7 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · La Consecuencia de las Acciones Dañinas",
       "versiculoNumero": "1-22",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "अभूतवादी निरयं उपेति यो वापि कत्वा न करोमीति चाह। उभोपि ते पेच्च समा भवन्ति निहीनकम्मा मनुजा परत्थ॥",
       "foneticaLiturgica": "Abhūtavādī nirayaṁ upeti...",
       "traducciones": {
@@ -394,11 +394,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · La Fortaleza y Nobleza del Elefante",
       "versiculoNumero": "1-23",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "अहं नागोवा सङ्गामे चापातो पतितं सरं। अतिवाक्यं तितिक्खिस्सं दुस्सclassो हि बहुज्जनो॥",
       "foneticaLiturgica": "Ahaṁ nāgo'va saṅgāme cāpāto patitaṁ saraṁ...",
       "traducciones": {
-        "ur": "[\"320. 'میں گالیاں اس طرح برداشت کروں گا جیسے جنگ میں ہاتھی کمان کے تیروں کو برداشت کرتا ہے۔ کیونکہ دنیا بے قابو لوگوں سے بھری ہوئی ہے۔'\""
+        "ur": "320. 'میں گالیاں اس طرح برداشت کروں گا جیسے جنگ میں ہاتھی کمان کے تیروں کو برداشت کرتا ہے۔ کیونکہ دنیا بے قابو لوگوں سے بھری ہوئی ہے۔'"
       }
     },
     {
@@ -411,11 +411,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Deseo Ávido y el Origen de la Sed",
       "versiculoNumero": "1-24",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "मनुजस्स पमत्तचारिनो तण्हा वड्ढति मालुवा विय। सो पलवति हुरा हुरं फलं इच्छं व वनस्मि मक्कclassो॥",
       "foneticaLiturgica": "Manujassa pamattacārino taṇhā vaḍḍhati māluvā viya...",
       "traducciones": {
-        "ur": "[\"334۔ بے پروا رہنے والے کی خواہش رینگنے والی بیل کی طرح بڑھتی ہے۔ وہ پھل کی تلاش میں جنگل میں بندر کی طرح زندگی سے زندگی کی طرف چھلانگ لگاتا ہے۔'\""
+        "ur": "334۔ بے پروا رہنے والے کی خواہش رینگنے والی بیل کی طرح بڑھتی ہے۔ وہ پھل کی تلاش میں جنگل میں بندر کی طرح زندگی سے زندگی کی طرف چھلانگ لگاتا ہے۔"
       }
     },
     {
@@ -428,11 +428,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Monje y el Buscador de la Verdad",
       "versiculoNumero": "1-25",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "चक्खुना संवरो साधु साधु सोतेन संवरो। घानेन संवरो साधु साधु जिव्हाय संवरो॥ कायेन संवरो साधु साधु वाचाय संवरो। मनसा संवरो साधु साधु सब्बत्थ संवरो॥",
       "foneticaLiturgica": "Cakkhunā saṁvaro sādhu sādhu sotena saṁvaro...",
       "traducciones": {
-        "ur": "[\"360. 'نکھ پر پابندی اچھی ہے۔ کان پر پابندی اچھی ہے ناک پر قابو رکھنا اچھا ہے۔ زبان پر قابو رکھنا اچھا ہے۔\n361. اچھا ہے جسم میں روک تھام۔ اچھی بات میں ضبط ہے سوچ میں پابندی اچھی ہے۔ ہر طرح سے روکا ہوا راہب تمام مصائب سے آزاد ہوتا ہے۔'\""
+        "ur": "360. 'نکھ پر پابندی اچھی ہے۔ کان پر پابندی اچھی ہے ناک پر قابو رکھنا اچھا ہے۔ زبان پر قابو رکھنا اچھا ہے۔\n361. اچھا ہے جسم میں روک تھام۔ اچھی بات میں ضبط ہے سوچ میں پابندی اچھی ہے۔ ہر طرح سے روکا ہوا راہب تمام مصائب سے آزاد ہوتا ہے۔'"
       }
     },
     {
@@ -445,11 +445,11 @@
       "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Santo y el Iluminado de Corazón Puro",
       "versiculoNumero": "1-26",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-      "dir": "ltr",
+      "dir": "rtl",
       "textoOriginal": "छिन्न सोतं परक्कम्म कामे पनुद ब्राह्मण। सङ्खारानं खयं ञत्वा अकतञ्ञू सि ब्राह्मण॥ यस्स पारं अपारं वा पारापारं न विज्जति। वीतद्दरं विसंयुत्तं तमहं ब्रूमि ब्राह्मणं॥",
       "foneticaLiturgica": "Chinda sotaṁ parakkamma kāme panuda brāhmaṇa...",
       "traducciones": {
-        "ur": "[\"383. اے طالب! کوشش کر اور خواہشات کے دھارے کو کاٹ! مشروط چیزوں کی تباہی کو جانتے ہوئے، غیر مخلوق کو جاننے والے بنو۔'\n385. 'جس کے لیے نہ یہ کنارہ ہے نہ دوسرا کنارہ، جو بے خوف اور لاتعلق ہے، اسے میں مقدس کہتا ہوں۔'\""
+        "ur": "383. اے طالب! کوشش کر اور خواہشات کے دھارے کو کاٹ! مشروط چیزوں کی تباہی کو جانتے ہوئے، غیر مخلوق کو جاننے والے بنو۔'\n385. 'جس کے لیے نہ یہ کنارہ ہے نہ دوسرا کنارہ، جو بے خوف اور لاتعلق ہے، اسے میں مقدس کہتا ہوں۔"
       }
     }
   ]
