@@ -12,7 +12,7 @@ import { ScriptureCorpusService } from '../services/scripture-corpus-service.js'
 import { StorageService } from '../services/storage-service.js';
 import { SocialShareComponent } from './social-share.js';
 import { TranslationReportModalComponent } from './translation-report-modal.js';
-import { SacredScripturePicker } from './sacred-scripture-picker.js';
+import { cleanScriptureTextNLP } from '../utils/text-sanitizer.js';
 import { renderIcon } from './icons.js';
 import { t, isRTL } from '../data/i18n.js';
 
@@ -134,7 +134,8 @@ export class ScripturesViewComponent {
 
   formatVersesHtml(rawText, isRTL = false) {
     if (!rawText) return '';
-    const lines = rawText.split('\n').map(l => l.trim()).filter(Boolean);
+    const cleanedText = cleanScriptureTextNLP(rawText);
+    const lines = cleanedText.split('\n').map(l => l.trim()).filter(Boolean);
 
     return lines.map((line, idx) => {
       // Detectar si la línea empieza con un número de versículo (ej. "1.", "255.", "47.")

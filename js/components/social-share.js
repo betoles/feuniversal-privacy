@@ -12,6 +12,7 @@ import { StorageService } from '../services/storage-service.js';
 import { renderIcon } from './icons.js';
 import { SacredDialog } from './sacred-dialog.js';
 import { getScriptureBookTitle, formatChapterLabel } from '../data/scriptures-catalog.js';
+import { cleanScriptureTextNLP, extractScriptureExcerpt } from '../utils/text-sanitizer.js';
 
 export const CANONICAL_WEB_URL = 'https://betoles.github.io/feuniversal-privacy/';
 
@@ -39,14 +40,19 @@ export function getShareItemTitle(item, lang) {
 }
 
 export function getShareItemText(item, lang, customText = null) {
-  if (customText) return customText;
-  if (!item) return '';
-  if (typeof item === 'string') return item;
-  const transMap = item.traducciones || item.traduccion || {};
-  if (transMap && typeof transMap === 'object' && Object.keys(transMap).length > 0) {
-    return transMap[lang] || transMap.es || transMap.en || Object.values(transMap)[0] || item.textoOriginal || '';
+  let raw = '';
+  if (customText) raw = customText;
+  else if (!item) raw = '';
+  else if (typeof item === 'string') raw = item;
+  else {
+    const transMap = item.traducciones || item.traduccion || {};
+    if (transMap && typeof transMap === 'object' && Object.keys(transMap).length > 0) {
+      raw = transMap[lang] || transMap.es || transMap.en || Object.values(transMap)[0] || item.textoOriginal || '';
+    } else {
+      raw = item.textoTraducido || item.textoOriginal || item.texto || '';
+    }
   }
-  return item.textoTraducido || item.textoOriginal || item.texto || '';
+  return cleanScriptureTextNLP(raw);
 }
 
 export function getShareItemTradition(item, lang) {
@@ -145,25 +151,50 @@ export function breakTextIntoLines(ctx, text, maxWidth, fontSize, lang = 'es') {
 }
 
 export function calculateOptimalTypography(ctx, fullText, lang, maxWidth, availableHeight) {
-  for (let fontSize = 36; fontSize >= 18; fontSize -= 2) {
+  if (!fullText) {
+    return { fontSize: 28, lineHeight: 40, lines: [], totalHeight: 0, isTruncated: false };
+  }
+
+  // 1. Probar si el texto completo cabe en fuentes desde 34px hasta 20px
+  for (let fontSize = 34; fontSize >= 20; fontSize -= 2) {
     const lineHeight = Math.round(fontSize * 1.48);
     ctx.font = getScriptSpecificFont(lang, 'normal', fontSize, false);
     const lines = breakTextIntoLines(ctx, fullText, maxWidth, fontSize, lang);
     const totalHeight = lines.length * lineHeight;
-    if (totalHeight <= availableHeight || fontSize === 18) {
+    if (totalHeight <= availableHeight) {
       return {
         fontSize,
         lineHeight,
         lines,
-        totalHeight
+        totalHeight,
+        isTruncated: false
       };
     }
   }
+
+  // 2. Si es un capítulo largo de escrituras que excede el espacio disponible:
+  // Fijar tipografía legible y noble (24px) y encuadrar el pasaje de apertura exacto
+  const targetFontSize = 24;
+  const targetLineHeight = Math.round(targetFontSize * 1.48);
+  ctx.font = getScriptSpecificFont(lang, 'normal', targetFontSize, false);
+
+  // Dejar espacio de 2 líneas para el separador "« ··· »" y margen de seguridad
+  const maxLinesPossible = Math.max(4, Math.floor((availableHeight - (targetLineHeight * 1.5)) / targetLineHeight));
+  const approxChars = maxLinesPossible * 42;
+  const { excerpt } = extractScriptureExcerpt(fullText, approxChars);
+
+  let lines = breakTextIntoLines(ctx, excerpt, maxWidth, targetFontSize, lang);
+  if (lines.length > maxLinesPossible) {
+    lines = lines.slice(0, maxLinesPossible);
+  }
+  lines.push('« ··· »');
+
   return {
-    fontSize: 18,
-    lineHeight: 26,
-    lines: breakTextIntoLines(ctx, fullText, maxWidth, 18, lang),
-    totalHeight: availableHeight
+    fontSize: targetFontSize,
+    lineHeight: targetLineHeight,
+    lines,
+    totalHeight: lines.length * targetLineHeight,
+    isTruncated: true
   };
 }
 
@@ -651,10 +682,15 @@ export class SocialShareComponent {
     const ctaY = deepLinkY - 36;
     const topOfFooter = ctaY - 26;
 
-    // 8.1 Dibujar CTA
+    // 8.1 Dibujar CTA dinámico según el tipo de contenido
+    const isScriptureOrLong = !!(prayer.libroKey || prayer.capitulo);
+    const ctaPrefix = isScriptureOrLong
+      ? (t('share_read_full_chapter_cta', lang) || 'Reza y lee el capítulo completo en:')
+      : (t('share_story_card_cta_prefix', lang) || 'Reza la devoción completa y enciende tu veladora en:');
+
     ctx.fillStyle = '#f59e0b';
     ctx.font = getScriptSpecificFont(lang, 'bold', 22, false);
-    ctx.fillText(t('share_story_card_cta_prefix', lang) || 'Reza la devoción completa y enciende tu veladora en:', 540, ctaY);
+    ctx.fillText(ctaPrefix, 540, ctaY);
 
     // 8.2 Dibujar Deep Link URL Canónico y Localizado
     ctx.fillStyle = '#38bdf8';
@@ -721,12 +757,12 @@ export class SocialShareComponent {
       curLegendY += legendLineHeight;
     }
 
-    // 9. Texto Sagrado de la Plegaria Completa (Motor Tipográfico Dinámico - 100% Íntegro)
+    // 9. Texto Sagrado de la Plegaria Completa o Pasaje de Apertura (NLP Sanado)
     const rawPrayerText = getShareItemText(prayer, lang, this.customText);
-    const cleanPrayerText = rawPrayerText.replace(/^\d+\.\s*/gm, '').trim();
+    const cleanPrayerText = cleanScriptureTextNLP(rawPrayerText.replace(/^\d+\.\s*/gm, '').trim());
 
-    const prayerStartY = titleEndY + 30;
-    const availableHeight = topOfFooter - prayerStartY - 20;
+    const prayerStartY = titleEndY + 28;
+    const availableHeight = topOfFooter - prayerStartY - 24;
 
     const typo = calculateOptimalTypography(ctx, cleanPrayerText, lang, 860, availableHeight);
 
@@ -738,7 +774,9 @@ export class SocialShareComponent {
     let drawTextY = prayerStartY + offsetVertical + typo.fontSize;
 
     for (const pline of typo.lines) {
-      ctx.fillText(pline, 540, drawTextY);
+      if (drawTextY <= (topOfFooter - 8)) {
+        ctx.fillText(pline, 540, drawTextY);
+      }
       drawTextY += typo.lineHeight;
     }
 
