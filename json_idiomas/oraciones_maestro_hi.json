@@ -72750,807 +72750,842 @@
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_06",
       "numero": 3345,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 06",
+      "titulo": "Veni Creator Spiritus · Himno Solemne de Invocación al Espíritu Santo",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 06)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वेटिकन भक्ति 06)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Veni, Creator Spiritus, mentes tuorum visita, imple superna gratia quae tu creasti pectora. Qui diceris Paraclitus, donum Dei altissimi, fons vivus, ignis, caritas, et spiritalis unctio. Da gaudiorum praemia, da gratiarum munera; dissolve litis vincula, adstringe pacis foedera. Per te sciamus da Patrem, noscamus atque Filium, teque utriusque Spiritum credamus omni tempore. Amen.",
+      "guiaFonetica": "Veni, Creator Spiritus, mentes tuorum visita, imple superna gratia quae tu creas...",
+      "textoTraducido": "¡Ven, Espíritu Creador, visita las almas de tus fieles y llena con tu gracia celestial los corazones que Tú creaste! Tú eres llamado el Consolador, don del Dios Altísimo, fuente viva, fuego, caridad y unción espiritual. Concédenos gozar de tus dones celestiales, disuelve los lazos de la discordia y afianza los lazos de la paz. Haz que por Ti conozcamos al Padre y al Hijo, y que en Ti, Espíritu de entrambos, creamos en todo tiempo. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Ven, Espíritu Creador, visita las almas de tus fieles"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_07",
       "numero": 3346,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 07",
+      "titulo": "Veni Sancte Spiritus · Secuencia de Pentecostés y Rayo de Luz Celestial",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 07)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वेटिकन भक्ति 07)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Veni, Sancte Spiritus, et emitte caelitus lucis tuae radium. Veni, pater pauperum, veni, dator munerum, veni, lumen cordium. Consolator optime, dulcis hospes animae, dulce refrigerium. In labore requies, in aestu temperies, in fletu solacium. O lux beatissima, reple cordis intima tuorum fidelium. Sine tuo numine, nihil est in homine, nihil est innoxium. Lava quod est sordidum, riga quod est aridum, sana quod est saucium. Flecte quod est rigidum, fove quod est frigidum, rege quod est devium. Da virtutis meritum, da salutis exitum, da perenne gaudium. Amen.",
+      "guiaFonetica": "Veni, Sancte Spiritus, et emitte caelitus lucis tuae radium. Veni, pater pauperu...",
+      "textoTraducido": "Ven, Espíritu Santo, y envía desde el cielo un rayo de tu luz. Ven, padre de los pobres; ven, dador de las gracias; ven, luz de los corazones. Consolador supremo, dulce huésped del alma, dulce refrigerio. Descanso en el trabajo, templanza en el ardor, consuelo en el llanto. ¡Oh luz santísima!, llena lo más íntimo de los corazones de tus fieles. Sin tu ayuda divina, nada hay en el hombre, nada que sea puro. Lava lo que está manchado, riega lo que está seco, sana lo que está herido. Doblega lo que está rígido, calienta lo que está frío, endereza lo que está extraviado. Concede a tus fieles el premio de la virtud, el puerto de la salvación y el gozo eterno. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Secuencia de oro al Divino Consolador"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_08",
       "numero": 3347,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 08",
+      "titulo": "Regina Caeli Laetare · Antífona Pascual de Victoria y Alegría a la Reina del Cielo",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 08)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वेटिकन भक्ति 08)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Regina caeli, laetare, alleluia; Quia quem meruisti portare, alleluia, Resurrexit, sicut dixit, alleluia: Ora pro nobis Deum, alleluia. Gaude et laetare, Virgo Maria, alleluia. Quia surrexit Dominus vere, alleluia. Deus, qui per resurrectionem Filii tui Domini nostri Iesu Christi mundum laetificare dignatus es: praesta, quaesumus, ut per eius Genetricem Virginem Mariam perpetuae capiamus gaudia vitae. Per Christum Dominum nostrum. Amen.",
+      "guiaFonetica": "Regina caeli, laetare, alleluia; Quia quem meruisti portare, alleluia, Resurrexi...",
+      "textoTraducido": "Alégrate, Reina del cielo, aleluya; porque el que mereciste llevar en tu seno, aleluya, ha resucitado, según su palabra, aleluya. Ruega por nosotros a Dios, aleluya. Gózate y alégrate, Virgen María, aleluya; porque verdaderamente ha resucitado el Señor, aleluya. Oh Dios, que por la resurrección de tu Hijo, nuestro Señor Jesucristo, te dignaste alegrar al mundo: concédenos que por su Madre, la Virgen María, alcancemos los gozos de la vida eterna. Por Cristo nuestro Señor. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Alégrate, Reina del Cielo, ¡Aleluya!, porque el que mereciste llevar ha resucitado"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_09",
       "numero": 3348,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 09",
+      "titulo": "Alma Redemptoris Mater · Santa Madre del Redentor, Puerta del Cielo y Estrella del Mar",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 09)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 09)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Alma Redemptoris Mater, quae pervia caeli porta manes, et stella maris, succurre cadenti, surgere qui curat, populo: tu quae genuisti, natura mirante, tuum sanctum Genitorem, Virgo prius ac posterius, Gabrielis ab ore sumens illud Ave, peccatorum miserere. Amen.",
+      "guiaFonetica": "Alma Redemptoris Mater, quae pervia caeli porta manes, et stella maris, succurre...",
+      "textoTraducido": "Santa Madre del Redentor, que permaneces siempre como puerta abierta del cielo y estrella del mar: socorre al pueblo que cae y lucha por levantarse. Tú que engendraste, ante el asombro de la naturaleza, a tu propio Creador; Virgen antes y después del parto, que recibiste de los labios de Gabriel aquel gozoso 'Ave', ten piedad de nosotros pecadores. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Antífona mariana del tiempo de Adviento y Navidad"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_10",
       "numero": 3349,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 10",
+      "titulo": "Ave Regina Caelorum · Soberana de los Ángeles y Esperanza de la Humanidad",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 10)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 10)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Ave, Regina Caelorum, Ave, Domina Angelorum: Salve, radix, salve, porta, ex qua mundo lux est orta: Gaude, Virgo gloriosa, super omnes speciosa, vale, o valde decora, et pro nobis Christum exora. Amen.",
+      "guiaFonetica": "Ave, Regina Caelorum, Ave, Domina Angelorum: Salve, radix, salve, porta, ex qua ...",
+      "textoTraducido": "Salve, Reina de los cielos y Señora de los Ángeles; salve, raíz; salve, puerta por donde vino al mundo la Luz. Alégrate, Virgen gloriosa, hermosa entre todas las criaturas; salve, oh doncella llena de gracia, y ruega a Cristo por nosotros. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Salve, Reina de los cielos y Señora de los Ángeles"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_11",
       "numero": 3350,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 11",
+      "titulo": "Stabat Mater Dolorosa · Plegaria de Compasión al Pie de la Cruz",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 11)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 11)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Stabat Mater dolorosa iuxta crucem lacrimosa, dum pendebat Filius. Cuius animam gementem, contristatam et dolentem pertransivit gladius. O quam tristis et afflicta fuit illa benedicta Mater Unigeniti! Sancta Mater, istud agas, Crucifixi fige plagas cordi meo valide. Tui Nati vulnerati, tam dignati pro me pati, poenas mecum divide. Fac ut tecum pie fleam, Crucifixo condoleam, donec ego vixero. Amen.",
+      "guiaFonetica": "Stabat Mater dolorosa iuxta crucem lacrimosa, dum pendebat Filius. Cuius animam ...",
+      "textoTraducido": "Estaba la Madre dolorosa junto a la Cruz llorando, mientras pendía su Divino Hijo. Su alma gimiente, contristada y compungida fue atravesada por la espada. ¡Oh cuán triste y afligida estuvo aquella bendita Madre del Unigénito! Santa Madre, graba con fuerza en mi corazón las llagas de Jesús Crucificado. Hazme llorar contigo con piedad y compartir el dolor de la Cruz todos los días de mi vida. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "La Madre piadosa estaba de pie junto a la cruz llorando"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_12",
       "numero": 3351,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 12",
+      "titulo": "San Agustín de Hipona · «¡Tarde te amé, Hermosura tan antigua y tan nueva!»",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 12)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 12)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Sero te amavi, pulchritudo tam antiqua et tam nova, sero te amavi! Et ecce intus eras et ego foris, et ibi te quaerebam. Vocasti et clamasti et rupisti surditatem meam; coruscasti, splenduisti et fugasti caecitatem meam; fragrasti, et duxi spiritum et anhelo tibi; gustavi et esurio et sitio; tetigisti me, et exarsi in pacem tuam. Amen.",
+      "guiaFonetica": "Sero te amavi, pulchritudo tam antiqua et tam nova, sero te amavi! Et ecce intus...",
+      "textoTraducido": "¡Tarde te amé, Hermosura tan antigua y tan nueva, tarde te amé! Y he aquí que Tú estabas dentro de mí y yo estaba fuera, y por fuera te buscaba. Me llamaste, me gritaste y rompiste mi sordera; brillaste, resplandeciste y disipaste mi ceguera; exhalaste tu perfume, lo respiré y ahora suspiro por Ti; te gusté, y tengo hambre y sed de Ti; me tocaste, y me encendí en el deseo de tu paz. Dios mío, en Ti descansa mi corazón inquieto. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Confesiones de San Agustín · Conversión y Amor a Dios"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_13",
       "numero": 3352,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 13",
+      "titulo": "San Agustín · Oración al Espíritu Santo para la Pureza de Pensamiento y Obras",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 13)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 13)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Respira in me, Spiritus Sancte, ut sancta cogitem. Suade me, Spiritus Sancte, ut sancta diligam. Accende me, Spiritus Sancte, ut sancta operer. Custodi me, Spiritus Sancte, ut sancta non perdam. Amen.",
+      "guiaFonetica": "Respira in me, Spiritus Sancte, ut sancta cogitem. Suade me, Spiritus Sancte, ut...",
+      "textoTraducido": "Respira en mí, oh Espíritu Santo, para que todos mis pensamientos sean santos. Actúa en mí, oh Espíritu Santo, para que mis obras sean santas. Atrae mi corazón, oh Espíritu Santo, para que ame solo lo que es santo. Fortaléceme, oh Espíritu Santo, para que defienda todo lo que es santo. Guárdame, oh Espíritu Santo, para que jamás pierda tu santa gracia. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Respira en mí, oh Espíritu Santo, para que mis pensamientos sean santos»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_14",
       "numero": 3353,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 14",
+      "titulo": "San Juan Crisóstomo · Plegaria de Humildad y Fe antes de la Sagrada Comunión",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 14)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 14)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Domine, non sum dignus ut intres sub tectum meum... Credo, Domine, et confiteor quia tu es vere Christus, Filius Dei vivi, qui venisti in mundum peccatores salvos facere, quorum primus ego sum. Cenae tuae mysticae hodie, Fili Dei, communicantem me accipe. Non enim inimicis tuis mysterium dicam, non osculum tibi dabo sicut Iudas, sed sicut latro confitendo te: Memento mei, Domine, in regno tuo. Amen.",
+      "guiaFonetica": "Domine, non sum dignus ut intres sub tectum meum... Credo, Domine, et confiteor ...",
+      "textoTraducido": "Creo, Señor, y confieso que Tú eres verdaderamente el Cristo, el Hijo de Dios vivo, que viniste al mundo para salvar a los pecadores, de los cuales yo soy el primero. Hazme hoy partícipe de tu Cena Mística, oh Hijo de Dios; pues no revelaré el misterio a tus enemigos, ni te daré un beso traidor como Judas, sino que como el buen ladrón te suplico: Acuérdate de mí, Señor, cuando estés en tu Reino. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Creo, Señor, y confieso que Tú eres verdaderamente el Cristo»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_15",
       "numero": 3354,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 15",
+      "titulo": "San Basilio Magno · Gratitud Matutina y Consagración del Trabajo a Dios",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 15)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 15)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Benedicimus te, altissime Deus et Domine misericordiae, qui facis nobiscum semper magna et investigabilia, gloriosa et eximia, quorum non est numerus: qui dedisti nobis somnum ad requiem infirmitatis nostrae. Dirige opera manuum nostrarum in voluntate tua et concede nobis ut in sanctitate ambulantes diem hunc consummemus. Amen.",
+      "guiaFonetica": "Benedicimus te, altissime Deus et Domine misericordiae, qui facis nobiscum sempe...",
+      "textoTraducido": "Te bendecimos, Dios Altísimo y Señor de misericordia, que haces siempre con nosotros maravillas inescrutables y gloriosas; que nos concediste el sueño para descanso de nuestra fragilidad corporal. Concédenos ahora, al despuntar el día, que iluminados por tu gracia dirijamos las obras de nuestras manos según tu santa voluntad, para que caminando en santidad y pureza te glorifiquemos en todas las horas de nuestra vida. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Plegaria de los Padres de la Iglesia al comenzar la jornada"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_16",
       "numero": 3355,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 16",
+      "titulo": "San Bernardo de Claraval · «Mira la Estrella, Invoca a María» (Ave Maris Stella)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 16)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 16)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Respice stellam, voca Mariam! Si insurgant venti tentationum, si incurras scopulos tribulationum: respice stellam, voca Mariam. Si iactaris superbiae undis, si ambitionis, si detractionis: respice stellam, voca Mariam. Si turbatus peccatorum immanitate, confusus conscientiae foeditate, pavens iudicii horrore: Mariam cogita, Mariam invoca. Ipsa tenente, non corruis; ipsa protegente, non metuis; ipsa duce, non fatigaris; ipsa propitia, pervenis. Amen.",
+      "guiaFonetica": "Respice stellam, voca Mariam! Si insurgant venti tentationum, si incurras scopul...",
+      "textoTraducido": "¡Si se levantan los vientos de las tentaciones, si tropiezas con los escollos de las tribulaciones: mira a la estrella, invoca a María! Si eres batido por las olas de la soberbia, de la ambición, de la calumnia o de la envidia: mira a la estrella, invoca a María. Si turbado por la magnitud de tus faltas y temeroso del juicio de Dios comienzas a hundirte en la tristeza o la desesperación: piensa en María. Si Ella te sostiene, no caerás; si Ella te protege, nada temerás; si Ella te guía, no te fatigarás; y con su favor alcanzarás la vida eterna. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Guía y amparo en las tempestades y pruebas de la vida"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_17",
       "numero": 3356,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 17",
+      "titulo": "San Anselmo de Canterbury · Oración para Buscar y Encontrar a Dios",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 17)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 17)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Doce me quaerere te, et ostende te quaerenti: quia nec quaerere te possum, nisi tu doceas; nec invenire, nisi te ostendas. Desiderando quaeram te, quaerendo desiderem te; amando inveniam te, inveniendo amem te. Fateor, Domine, et gratias ago, quia creasti in me hanc imaginem tuam, ut tui memor te cogitem, te amem. Amen.",
+      "guiaFonetica": "Doce me quaerere te, et ostende te quaerenti: quia nec quaerere te possum, nisi ...",
+      "textoTraducido": "Señor Dios mío, enséñame dónde y cómo buscarte, dónde y cómo encontrarte. Enséñame a buscarte y muéstrate cuando te busco; porque no puedo buscarte si Tú no me enseñas, ni encontrarte si Tú no te manifiestas. Que te busque deseándote, que te desee buscándote; que te encuentre amándote y que te ame encontrándote. Reconozco, Señor, y te doy gracias, porque has creado en mí tu imagen para que me acuerde de Ti, medite en Ti y te ame con todo mi corazón. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Enséñame a buscarte y muéstrate a quien te busca»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_18",
       "numero": 3357,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 18",
+      "titulo": "San Buenaventura · Plegaria de Amor Ardiente tras la Sagrada Comunión",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 18)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 18)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Transfige, dulcissime Domine Iesu, medullas et viscera animae meae suavissimo ac saluberrimo amoris tui vulnere, vera serenaque et apostolica sanctissima caritate, ut languat et liquefiat anima mea solo semper amore et desiderio tui. Tu esto solus spes mea, tota fiducia mea, divitiae meae, gaudium meum, requies mea et portio mea semper. Amen.",
+      "guiaFonetica": "Transfige, dulcissime Domine Iesu, medullas et viscera animae meae suavissimo ac...",
+      "textoTraducido": "Traspasa, dulcísimo Señor Jesús, lo más íntimo de mi alma con la herida suave y saludable de tu divino amor, con una caridad ardiente y sincera, para que mi alma desfallezca y se derrita siempre en el deseo de Ti. Que mi alma tenga sed de Ti, fuente de la vida eterna y manantial de luz divina. Sé Tú mi único refugio, mi descanso, mi fortaleza, mi alegría, mi consuelo y mi porción eterna por los siglos de los siglos. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Traspasa, dulcísimo Jesús, la médula de mi alma con tu amor»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_19",
       "numero": 3358,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 19",
+      "titulo": "San Francisco de Asís · Bendición Solemne al Hermano León y a la Humanidad",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 19)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 19)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Benedicat tibi Dominus et custodiat te; ostendat faciem suam tibi et misereatur tui. Convertat vultum suum ad te et det tibi pacem. Dominus benedicat te. Amen.",
+      "guiaFonetica": "Benedicat tibi Dominus et custodiat te; ostendat faciem suam tibi et misereatur ...",
+      "textoTraducido": "El Señor te bendiga y te guarde. El Señor haga resplandecer su rostro sobre ti y tenga de ti misericordia. El Señor vuelva hacia ti su mirada y te conceda la paz. Que el Señor bendiga tu hogar, tus caminos y tu vida entera, en el nombre del Padre, del Hijo y del Espíritu Santo. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«El Señor te bendiga y te guarde; ilumine su rostro sobre ti» (Números 6:24-26)"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_20",
       "numero": 3359,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 20",
+      "titulo": "San Francisco de Asís · Cántico de las Criaturas y Alabanza Universal",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 20)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 20)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Altissimu, onnipotente, bon Signore, tue so' le laude, la gloria e l'honore et onne benedictione. Laudato si', mi' Signore, cun tucte le tue creature, spetialmente messor lo frate sole, lo qual è iorno, et allumini noi per lui. Laudato si', mi' Signore, per sora luna e le stelle, per frate vento, per sor'aqua, per frate focu e per nostra matre terra. Laudate et benedicite mi' Signore et rengratiate et serviateli cun grande humilitate. Amen.",
+      "guiaFonetica": "Altissimu, onnipotente, bon Signore, tue so' le laude, la gloria e l'honore et o...",
+      "textoTraducido": "Altísimo, omnipotente, buen Señor, tuyas son las alabanzas, la gloria y el honor y toda bendición. Alabado seas, mi Señor, con todas tus criaturas, especialmente el señor hermano Sol, por quien nos das el día y nos iluminas. Alabado seas, mi Señor, por la hermana Luna y las estrellas, por el hermano Viento, por la hermana Agua, por el hermano Fuego y por nuestra hermana la madre Tierra, que nos sustenta y gobierna. Alaben y bendigan a mi Señor y denle gracias y sírvanle con gran humildad. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Alabado seas, mi Señor, con todas tus criaturas, especialmente el hermano Sol»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_21",
       "numero": 3360,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 21",
+      "titulo": "Santa Catalina de Siena · Oración al Fuego Eterno de la Trinidad",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 21)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 21)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "O Deità eterna, o Deità inestimabile! Tu sei un fuoco che sempre arde e non si consuma mai; Tu sei l'abisso della carità infinita. Nella tua luce ho veduto la luce; nella tua sapienza ho conosciuto la verità; nella tua misericordia ho trovato la pace. O Trinità beata, vestimi di Te, affinché io corra con perseveranza nella via della tua santa verità. Amen.",
+      "guiaFonetica": "O Deità eterna, o Deità inestimabile! Tu sei un fuoco che sempre arde e non si c...",
+      "textoTraducido": "¡Oh Deidad eterna, oh Trinidad inefable! Tú eres un fuego que siempre arde y nunca se extingue; Tú eres el abismo infinito de la caridad. En tu luz he visto la luz; en tu sabiduría he conocido la verdad; en tu misericordia he hallado el perdón y la paz. Oh Trinidad Santísima, revísteme de tu amor divino para que corra con paciencia y fidelidad por el sendero de tus mandamientos hasta llegar a Ti. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«En tu luz hemos visto la luz; Tú eres el Abismo de la Caridad»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_22",
       "numero": 3361,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 22",
+      "titulo": "Santa Teresa de Jesús · «Nada te turbe, nada te espante; quien a Dios tiene, nada le falta»",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 22)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 22)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Nada te turbe, nada te espante, todo se pasa, Dios no se muda; la paciencia todo lo alcanza; quien a Dios tiene nada le falta: Sólo Dios basta. En tu amor descansa mi alma, Señor. Amén.",
+      "guiaFonetica": "Nada te turbe, nada te espante, todo se pasa, Dios no se muda; la paciencia todo...",
+      "textoTraducido": "Nada te turbe, nada te espante; todo se pasa, Dios no se muda. La paciencia todo lo alcanza; quien a Dios tiene nada le falta: Sólo Dios basta. Eleva el pensamiento, al cielo sube, por nada te congojes, nada te turbe. A Jesucristo sigue con pecho grande, y venga lo que venga, nada te espante. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Letrilla de Santa Teresa de Ávila para la Paz Interior y Confianza Absoluta"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_23",
       "numero": 3362,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 23",
+      "titulo": "San Juan de la Cruz · Oración del Alma Enamorada de Dios",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 23)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 23)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Señor Dios, Amado mío! Míos son los cielos y mía es la tierra; mías son las gentes, los justos son míos y míos los pecadores; los ángeles son míos, y la Madre de Dios y todas las cosas son mías; y el mismo Dios es mío y para mí, porque Cristo es mío y todo para mí. Pues ¿qué pides y buscas, alma mía? Tuyo es todo esto, y todo es para ti. No te envilezcas ni atiendas a las migajas que caen de la mesa de tu Padre. Amén.",
+      "guiaFonetica": "¡Señor Dios, Amado mío! Míos son los cielos y mía es la tierra; mías son las gen...",
+      "textoTraducido": "¡Señor Dios, Amado mío! Si todavía te acuerdas de mis pecados para no darme lo que te pido, haz en ellos, Dios mío, tu voluntad, que es lo que yo más quiero. Míos son los cielos y mía es la tierra; mías son las naciones, los justos y los pecadores; los ángeles son míos, y la Madre de Dios y todas las cosas son mías; y el mismo Dios es mío y para mí, porque Cristo es mío y todo para mí. ¿Qué pides, pues, y buscas, alma mía? Tuyo es todo esto. Alaba y bendice al Señor que en su amor te lo ha dado todo. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Míos son los cielos y mía es la tierra; Dios es mío y para mí»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_24",
       "numero": 3363,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 24",
+      "titulo": "Santo Tomás Moro · Oración por el Buen Humor, la Alegría y la Paz del Espíritu",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 24)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 24)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Dame, Señor, una buena digestión, y también algo que digerir. Dame la salud del cuerpo, con el buen humor necesario para mantenerla. Dame, Señor, un alma santa que sepa aprovechar lo que es bueno y puro, para que no se asuste ante el pecado, sino que encuentre el modo de poner las cosas en orden. Concédeme un alma que no conozca el aburrimiento, las quejas, los suspiros ni los lamentos; y no permitas que me tome demasiado en serio esa cosa tan invasora llamada 'yo'. Dame, Señor, el sentido del humor. Concédeme la gracia de comprender las bromas, para que conozca en la vida un poco de alegría y pueda comunicársela a los demás. Amén.",
+      "guiaFonetica": "Dame, Señor, una buena digestión, y también algo que digerir. Dame la salud del ...",
+      "textoTraducido": "Dame, Señor, una buena digestión, y también algo que digerir. Dame la salud del cuerpo, con el buen humor necesario para mantenerla. Dame, Señor, un alma santa que sepa aprovechar lo que es bueno y puro, para que no se asuste ante el pecado, sino que encuentre el modo de poner las cosas en orden. Concédeme un alma que no conozca el aburrimiento, las quejas, los suspiros ni los lamentos; y no permitas que me tome demasiado en serio esa cosa tan invasora llamada 'yo'. Dame, Señor, el sentido del humor. Concédeme la gracia de comprender las bromas, para que conozca en la vida un poco de alegría y pueda comunicársela a los demás. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Plegaria escrita en la Torre de Londres ante las adversidades de la vida"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_25",
       "numero": 3364,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 25",
+      "titulo": "San Carlos Borromeo · Plegaria de Entrega y Celo Pastoral por la Iglesia",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 25)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 25)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Señor Jesús, Pastor Eterno de las almas, que pusiste tu vida por tus ovejas: infunde en mi corazón el celo ardiente de tu amor. Haz que no tema el cansancio, ni las pruebas, ni las contradicciones del mundo cuando se trate de glorificar tu Nombre y socorrer a los afligidos. Que mi vida sea una ofrenda viva, pura y santa, para que tu Iglesia resplandezca en unidad, verdad y caridad. Por Jesucristo nuestro Señor. Amén.",
+      "guiaFonetica": "Señor Jesús, Pastor Eterno de las almas, que pusiste tu vida por tus ovejas: inf...",
+      "textoTraducido": "Señor Jesús, Pastor Eterno de las almas, que pusiste tu vida por tus ovejas: infunde en mi corazón el celo ardiente de tu amor. Haz que no tema el cansancio, ni las pruebas, ni las contradicciones del mundo cuando se trate de glorificar tu Nombre y socorrer a los afligidos. Que mi vida sea una ofrenda viva, pura y santa, para que tu Iglesia resplandezca en unidad, verdad y caridad. Por Jesucristo nuestro Señor. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Consagración de la vida al servicio fiel del Evangelio y de los necesitados"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_26",
       "numero": 3365,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 26",
+      "titulo": "San Juan de Ávila · Confianza Inquebrantable en la Redención de Cristo",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 26)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 26)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh Jesús mío, Redentor y Salvador de mi alma! ¿Quién podrá dudar de tu amor cuando veo tus brazos abiertos en la Cruz para abrazarme y tu Corazón traspasado para acogerme? En tus llagas santas escondo mis debilidades; en tu infinita misericordia deposito todas mis angustias. No permitas jamás que me separe de Ti, y haz que viva y muera abrazado a tu Santa Cruz. Amén.",
+      "guiaFonetica": "¡Oh Jesús mío, Redentor y Salvador de mi alma! ¿Quién podrá dudar de tu amor cua...",
+      "textoTraducido": "¡Oh Jesús mío, Redentor y Salvador de mi alma! ¿Quién podrá dudar de tu amor cuando veo tus brazos abiertos en la Cruz para abrazarme y tu Corazón traspasado para acogerme? En tus llagas santas escondo mis debilidades; en tu infinita misericordia deposito todas mis angustias. No permitas jamás que me separe de Ti, y haz que viva y muera abrazado a tu Santa Cruz. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Doctor de la Iglesia · Esperanza ante las dudas y tribulaciones"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_27",
       "numero": 3366,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 27",
+      "titulo": "San Alfonso María de Ligorio · Visita y Acto de Amor al Santísimo Sacramento",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 27)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 27)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Señor mío Jesucristo, que por amor a los hombres estás noche y día en este Sacramento, lleno de piedad y amor, esperando, llamando y acogiendo a todos los que vienen a visitarte: creo que estás realmente presente en el Santísimo Sacramento del Altar. Te adoro desde el abismo de mi nada y te doy gracias por todos los beneficios que me has concedido, especialmente por haberte entregado a mí en este Sacramento, por haberme concedido a tu Madre como abogada y por haberme llamado a visitarte en este templo. Amén.",
+      "guiaFonetica": "Señor mío Jesucristo, que por amor a los hombres estás noche y día en este Sacra...",
+      "textoTraducido": "Señor mío Jesucristo, que por amor a los hombres estás noche y día en este Sacramento, lleno de piedad y amor, esperando, llamando y acogiendo a todos los que vienen a visitarte: creo que estás realmente presente en el Santísimo Sacramento del Altar. Te adoro desde el abismo de mi nada y te doy gracias por todos los beneficios que me has concedido, especialmente por haberte entregado a mí en este Sacramento, por haberme concedido a tu Madre como abogada y por haberme llamado a visitarte en este templo. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Señor mío Jesucristo, que por amor a los hombres estás noche y día en este Sacramento»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_28",
       "numero": 3367,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 28",
+      "titulo": "San Francisco de Sales · Oración de Abandono Total en la Divina Providencia",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 28)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 28)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "No temas lo que pueda suceder mañana. El mismo Padre Celestial que hoy cuida de ti, cuidará de ti mañana y todos los días. O te librará del sufrimiento, o te dará una fuerza invencible para soportarlo. Descansa en paz, pues, y aparta de tu mente todo pensamiento de angustia y desasosiego. En las manos de Dios me abandono enteramente. Amén.",
+      "guiaFonetica": "No temas lo que pueda suceder mañana. El mismo Padre Celestial que hoy cuida de ...",
+      "textoTraducido": "No temas lo que pueda suceder mañana. El mismo Padre Celestial que hoy cuida de ti, cuidará de ti mañana y todos los días. O te librará del sufrimiento, o te dará una fuerza invencible para soportarlo. Descansa en paz, pues, y aparta de tu mente todo pensamiento de angustia y desasosiego. En las manos de Dios me abandono enteramente; hágase en mí su santísima voluntad. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Doctor del Amor y la Mansedumbre · Confianza en el Cuidado de Dios"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_29",
       "numero": 3368,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 29",
+      "titulo": "Santo Cura de Ars (San Juan María Vianney) · Acto de Amor Puro a Dios",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 29)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 29)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Te amo, Dios mío, y mi único deseo es amarte hasta el último suspiro de mi vida. Te amo, Dios infinitamente amable, y prefiero morir amándote que vivir un solo instante sin amarte. Te amo, Señor, y la única gracia que te pido es amarte eternamente. Dios mío, si mi lengua no puede decir a cada instante que te amo, quiero que mi corazón te lo repita tantas veces cuantas veces respiro. Amén.",
+      "guiaFonetica": "Te amo, Dios mío, y mi único deseo es amarte hasta el último suspiro de mi vida....",
+      "textoTraducido": "Te amo, Dios mío, y mi único deseo es amarte hasta el último suspiro de mi vida. Te amo, Dios infinitamente amable, y prefiero morir amándote que vivir un solo instante sin amarte. Te amo, Señor, y la única gracia que te pido es amarte eternamente. Dios mío, si mi lengua no puede decir a cada instante que te amo, quiero que mi corazón te lo repita tantas veces cuantas veces respiro. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«Te amo, Dios mío, y mi único deseo es amarte hasta el último suspiro»"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_30",
       "numero": 3369,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 30",
+      "titulo": "San Juan Bosco · Plegaria de Encomienda a María Auxiliadora por los Hijos y la Juventud",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 30)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 30)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh María Auxiliadora, Madre bondadosa y poderosa! Tú que siempre has sido el amparo invencible del pueblo de Dios y la protectora de la juventud: toma bajo tu manto maternal a nuestros hijos, jóvenes y familias. Líbralos de los peligros del mundo, custodia su pureza, guía sus pasos en el camino del bien y alcánzanos a todos la gracia de perseverar en el amor de Cristo hasta el fin. María, Auxilio de los Cristianos, ruega por nosotros. Amén.",
+      "guiaFonetica": "¡Oh María Auxiliadora, Madre bondadosa y poderosa! Tú que siempre has sido el am...",
+      "textoTraducido": "¡Oh María Auxiliadora, Madre bondadosa y poderosa! Tú que siempre has sido el amparo invencible del pueblo de Dios y la protectora de la juventud: toma bajo tu manto maternal a nuestros hijos, jóvenes y familias. Líbralos de los peligros del mundo, custodia su pureza, guía sus pasos en el camino del bien y alcánzanos a todos la gracia de perseverar en el amor de Cristo hasta el fin. María, Auxilio de los Cristianos, ruega por nosotros. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Auxilio de los Cristianos · Amparo y Guía de las Familias"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_31",
       "numero": 3370,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 31",
+      "titulo": "Santa Margarita María Alacoque · Consagración Personal al Sagrado Corazón de Jesús",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 31)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 31)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Yo me entrego y consagro al Sagrado Corazón de nuestro Señor Jesucristo: mi persona y mi vida, mis acciones, penas y sufrimientos, para no querer servirme de ninguna parte de mi ser sino para honrarle, amarle y glorificarle. Este es mi propósito irrevocable: ser enteramente suyo y hacerlo todo por su amor, renunciando con todo mi corazón a cuanto pueda desagradarle. Sé, pues, oh Corazón divino, el único objeto de mi amor, el protector de mi vida, la seguridad de mi salvación y el remedio de mi fragilidad. Amén.",
+      "guiaFonetica": "Yo me entrego y consagro al Sagrado Corazón de nuestro Señor Jesucristo: mi pers...",
+      "textoTraducido": "Yo me entrego y consagro al Sagrado Corazón de nuestro Señor Jesucristo: mi persona y mi vida, mis acciones, penas y sufrimientos, para no querer servirme de ninguna parte de mi ser sino para honrarle, amarle y glorificarle. Este es mi propósito irrevocable: ser enteramente suyo y hacerlo todo por su amor, renunciando con todo mi corazón a cuanto pueda desagradarle. Sé, pues, oh Corazón divino, el único objeto de mi amor, el protector de mi vida, la seguridad de mi salvación y el remedio de mi fragilidad. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Acto de Entrega al Corazón de Cristo"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_32",
       "numero": 3371,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 32",
+      "titulo": "San Antonio María Claret · Oración por la Salvación de las Almas y el Amor al Prójimo",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 32)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 32)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh Dios mío y Padre mío! Haz que te conozca y te haga conocer; que te ame y te haga amar; que te sirva y te haga servir; que te alabe y te haga alabar por todas las criaturas. Dame, Padre mío, que todos los pecadores se conviertan, que todos los justos perseveren en gracia y que todos alcancemos la gloria eterna. Por Jesucristo nuestro Señor. Amén.",
+      "guiaFonetica": "¡Oh Dios mío y Padre mío! Haz que te conozca y te haga conocer; que te ame y te ...",
+      "textoTraducido": "¡Oh Dios mío y Padre mío! Haz que te conozca y te haga conocer; que te ame y te haga amar; que te sirva y te haga servir; que te alabe y te haga alabar por todas las criaturas. Dame, Padre mío, que todos los pecadores se conviertan, que todos los justos perseveren en gracia y que todos alcancemos la gloria eterna. Por Jesucristo nuestro Señor. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Celo apostólico y caridad universal"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_33",
       "numero": 3372,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 33",
+      "titulo": "San José de Calasanz · Oración por los Maestros, Educadores y la Niñez",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 33)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 33)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh glorioso San José de Calasanz, que consagraste tu vida entera a la educación de la niñez y la juventud! Intercede por todos los maestros, profesores y educadores del mundo. Concédeles paciencia, sabiduría y amor para guiar a las nuevas generaciones por los caminos de la verdad, la piedad y la ciencia, formando corazones limpios y ciudadanos de bien. Por Cristo nuestro Señor. Amén.",
+      "guiaFonetica": "¡Oh glorioso San José de Calasanz, que consagraste tu vida entera a la educación...",
+      "textoTraducido": "¡Oh glorioso San José de Calasanz, que consagraste tu vida entera a la educación de la niñez y la juventud! Intercede por todos los maestros, profesores y educadores del mundo. Concédeles paciencia, sabiduría y amor para guiar a las nuevas generaciones por los caminos de la verdad, la piedad y la ciencia, formando corazones limpios y ciudadanos de bien. Por Cristo nuestro Señor. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Patrono de las Escuelas Pías y la Educación Cristiana"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_34",
       "numero": 3373,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 34",
+      "titulo": "San Camilo de Lelis · Plegaria de Caridad y Asistencia a los Enfermos Graves",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 34)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 34)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh San Camilo de Lelis, modelo admirable de caridad hacia los enfermos y desvalidos! Tú que veías en cada doliente el rostro sufriente de Cristo: bendice a los médicos, enfermeros y cuidadores. Dales un corazón compasivo y manos bondadosas para aliviar el dolor físico y confortar el alma de quienes sufren en los hospitales y en sus hogares. Por Jesucristo nuestro Señor. Amén.",
+      "guiaFonetica": "¡Oh San Camilo de Lelis, modelo admirable de caridad hacia los enfermos y desval...",
+      "textoTraducido": "¡Oh San Camilo de Lelis, modelo admirable de caridad hacia los enfermos y desvalidos! Tú que veías en cada doliente el rostro sufriente de Cristo: bendice a los médicos, enfermeros y cuidadores. Dales un corazón compasivo y manos bondadosas para aliviar el dolor físico y confortar el alma de quienes sufren en los hospitales y en sus hogares. Por Jesucristo nuestro Señor. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Patrono de los Hospitales, Médicos y Enfermeros"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_35",
       "numero": 3374,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 35",
+      "titulo": "San Pedro Julián Eymard · Plegaria de Adoración Perpetua al Santísimo Sacramento",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 35)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 35)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh Jesús Sacramentado, Rey de amor y centro de todos los corazones! Aquí me tienes postrado ante tu sagrario, reconociendo tu presencia real y viva en la Hostia Santa. Deseo amarte por todos los que no te aman, adorarte por los que te olvidan y desagraviarte por todas las ofensas cometidas contra tu divino Sacramento. ¡Alabado sea el Santísimo Sacramento del Altar! Amén.",
+      "guiaFonetica": "¡Oh Jesús Sacramentado, Rey de amor y centro de todos los corazones! Aquí me tie...",
+      "textoTraducido": "¡Oh Jesús Sacramentado, Rey de amor y centro de todos los corazones! Aquí me tienes postrado ante tu sagrario, reconociendo tu presencia real y viva en la Hostia Santa. Deseo amarte por todos los que no te aman, adorarte por los que te olvidan y desagraviarte por todas las ofensas cometidas contra tu divino Sacramento. ¡Alabado sea el Santísimo Sacramento del Altar! Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Apóstol de la Eucaristía · Amor al Tabernáculo"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_36",
       "numero": 3375,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 36",
+      "titulo": "Beato Carlo Acutis · Oración de la Juventud y Amor a la Eucaristía",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 36)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 36)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Señor Jesús, que concediste al Beato Carlo Acutis la gracia de vivir con pureza y pasión por el Evangelio, haciendo de la Eucaristía el centro de su vida cotidiana y el camino seguro al Cielo: ayúdanos a usar nuestros talentos y la tecnología para difundir tu amor y la verdad. Haz que busquemos siempre lo eterno y alcánzanos, por su intercesión, la gracia de vivir con alegría y santidad todos los días de nuestra vida. Amén.",
+      "guiaFonetica": "Señor Jesús, que concediste al Beato Carlo Acutis la gracia de vivir con pureza ...",
+      "textoTraducido": "Señor Jesús, que concediste al Beato Carlo Acutis la gracia de vivir con pureza y pasión por el Evangelio, haciendo de la Eucaristía el centro de su vida cotidiana y el camino seguro al Cielo: ayúdanos a usar nuestros talentos y la tecnología para difundir tu amor y la verdad. Haz que busquemos siempre lo eterno y alcánzanos, por su intercesión, la gracia de vivir con alegría y santidad todos los días de nuestra vida. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "«La Eucaristía es mi autopista hacia el Cielo» · Santidad en la Vida Diaria"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_37",
       "numero": 3376,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 37",
+      "titulo": "Santa Clara de Asís · Bendición Solemne para la Paz y Fortaleza del Hogar",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 37)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 37)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "El Señor os bendiga y os guarde; os muestre su rostro y tenga misericordia de vosotras; vuelva a vosotras su mirada y os conceda la paz. Yo, sierva de Cristo y plantita de nuestro bienaventurado padre San Francisco, os bendigo en vida y después de mi muerte, con todas las bendiciones con que el Padre celestial ha bendecido y bendecirá a sus hijos en el cielo y en la tierra. Amén.",
+      "guiaFonetica": "El Señor os bendiga y os guarde; os muestre su rostro y tenga misericordia de vo...",
+      "textoTraducido": "El Señor os bendiga y os guarde; os muestre su rostro y tenga misericordia de vosotras; vuelva a vosotras su mirada y os conceda la paz. Yo, sierva de Cristo y plantita de nuestro bienaventurado padre San Francisco, os bendigo en vida y después de mi muerte, con todas las bendiciones con que el Padre celestial ha bendecido y bendecirá a sus hijos en el cielo y en la tierra. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Bendición de Santa Clara a sus Hermanas y al Mundo"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_38",
       "numero": 3377,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 38",
+      "titulo": "Santa Faustina Kowalska · Plegaria por los Sacerdotes y Misioneros",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 38)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 38)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh Jesús mío, te ruego por toda la Iglesia: concédele el amor y la luz de tu Espíritu y da poder a las palabras de los sacerdotes para que los corazones endurecidos se ablanden y vuelvan a Ti! Señor, danos sacerdotes santos; Tú mismo consérvalos en la santidad. Que el poder de tu misericordia los acompañe en todas partes y los proteja de las trampas del diablo. Amén.",
+      "guiaFonetica": "¡Oh Jesús mío, te ruego por toda la Iglesia: concédele el amor y la luz de tu Es...",
+      "textoTraducido": "¡Oh Jesús mío, te ruego por toda la Iglesia: concédele el amor y la luz de tu Espíritu y da poder a las palabras de los sacerdotes para que los corazones endurecidos se ablanden y vuelvan a Ti! Señor, danos sacerdotes santos; Tú mismo consérvalos en la santidad. Que el poder de tu misericordia los acompañe en todas partes y los proteja de las trampas del diablo. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Apóstol de la Divina Misericordia · Intercesión por los Pastores de la Iglesia"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_39",
       "numero": 3378,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 39",
+      "titulo": "Consagración de los Hogares a la Sagrada Familia de Nazaret",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 39)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 39)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "¡Oh Sagrada Familia de Nazaret: Jesús, María y José! En este día consagramos enteramente nuestro hogar y nuestra familia a vuestra protección. Haced que nuestra casa sea un santuario de paz, comprensión, perdón y amor mutuo. Alejad de nosotros toda discordia, enfermedad y peligro, y concedednos que, viviendo unidos en la fe en esta tierra, alcancemos juntos la felicidad eterna en el Cielo. Sagrada Familia de Nazaret, bendecid a nuestras familias. Amén.",
+      "guiaFonetica": "¡Oh Sagrada Familia de Nazaret: Jesús, María y José! En este día consagramos ent...",
+      "textoTraducido": "¡Oh Sagrada Familia de Nazaret: Jesús, María y José! En este día consagramos enteramente nuestro hogar y nuestra familia a vuestra protección. Haced que nuestra casa sea un santuario de paz, comprensión, perdón y amor mutuo. Alejad de nosotros toda discordia, enfermedad y peligro, y concedednos que, viviendo unidos en la fe en esta tierra, alcancemos juntos la felicidad eterna en el Cielo. Sagrada Familia de Nazaret, bendecid a nuestras familias. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Jesús, María y José · Paz, Fidelidad y Protección del Hogar"
     },
     {
       "id": "CAT_VAT_HOZANA_DEVOCION_40",
       "numero": 3379,
-      "titulo": "यूनिवर्सल चर्च की मैरियन और यूचरिस्टिक भक्ति 40",
+      "titulo": "Oración Universal por la Iglesia y el Santo Padre (Oremus pro Pontifice)",
       "tradicion": "catolicismo",
-      "categoriaIntencion": "adoracion_y_proteccion_eclesial",
+      "categoriaIntencion": "fe_devocion",
       "estadosEmocionales": [
-        "devoto",
-        "confiado",
-        "lleno_de_esperanza",
-        "en_gracia"
+        "paz",
+        "fe",
+        "esperanza",
+        "amor"
       ],
-      "idiomaLiturgicoOriginal": "Latín / Español",
-      "textoOriginal": "Benedictus Deus in saecula saeculorum. Santa María, Madre de la Iglesia, y San Miguel Arcángel: custodianos in pace. (Devoción Vaticana 40)",
-      "guiaFonetica": "[Be-ne-dik-tus De-us in se-ku-la se-ku-lo-rum]",
-      "textoTraducido": "भगवान सदा सर्वदा धन्य रहें। सांता मारिया, माद्रे डे ला इग्लेसिया, और सैन मिगुएल आर्कान्गेल: हमें शांति में रखें। (वैटिकन भक्ति 40)।",
+      "idiomaLiturgicoOriginal": "Latina / Español",
+      "textoOriginal": "Oremus pro Pontifice nostro. Dominus conservet eum, et vivificet eum, et beatum faciat eum in terra, et non tradat eum in animam inimicorum eius. Deus, omnium fidelium pastor et rector, famulum tuum, quem pastorem Ecclesiae tuae praeesse voluisti, propitius respice: da ei, quaesumus, verbo et exemplo, quibus praeest, proficere; ut ad vitam, una cum grege sibi credito, perveniat sempiternam. Per Christum Dominum nostrum. Amen.",
+      "guiaFonetica": "Oremus pro Pontifice nostro. Dominus conservet eum, et vivificet eum, et beatum ...",
+      "textoTraducido": "Oremos por nuestro Santo Padre el Papa. El Señor lo conserve, le dé vida, lo haga dichoso en la tierra y no lo entregue en manos de sus enemigos. Oh Dios, pastor y guía de todos los creyentes, mira con bondad a tu siervo a quien pusiste al frente de tu Iglesia; concédele que con su palabra y su ejemplo edifique a su grey, para que llegue a la vida eterna junto con el pueblo a él encomendado. Por Jesucristo nuestro Señor. Amén.",
       "ritualesAsociados": {
-        "tipoContador": "rosario_o_oracion_mental",
-        "duracionVeladoraSugeridaHoras": 24,
-        "paisajeSonoroRecomendado": "Campanas de San Pedro de Roma y órgano sacro"
+        "tipoContador": "plegaria_diaria",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "organo_catedral"
       },
-      "dir": "ltr"
+      "dir": "ltr",
+      "subtitulo": "Comunión con la Cátedra de Pedro y Unidad de los Cristianos"
     },
     {
       "id": "BUD_TIB_BARCHE_LAMSEL_OBSTACLES",
