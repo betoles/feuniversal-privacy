@@ -65,7 +65,7 @@ export class PrayerCorpusService {
           resolve(null);
           return;
         }
-        const req = window.indexedDB.open('feuniversal_prayers_corpus_db_v10_6', 1);
+        const req = window.indexedDB.open('feuniversal_prayers_corpus_db_v10_7', 1);
         req.onupgradeneeded = (e) => {
           const db = e.target.result;
           if (!db.objectStoreNames.contains('language_corpuses')) {
@@ -82,7 +82,7 @@ export class PrayerCorpusService {
   /**
    * Carga el compendio de oraciones para el idioma especificado (o el activo)
    * @param {string} lang Código de idioma (es, en, fr, pt, it, de, ru, ar, he, hi, zh, la, ja, bn, id, ur, sw)
-   * @returns {Promise<Array>} Lista de 4,253 oraciones
+   * @returns {Promise<Array>} Lista de 4,312 oraciones
    */
   static async loadCorpus(lang = 'es') {
     const targetLang = (lang || 'es').toLowerCase();
@@ -91,7 +91,7 @@ export class PrayerCorpusService {
     // 1. Verificar caché en memoria RAM
     if (PrayerCorpusService.memoryCache.has(targetLang)) {
       const memCorpus = PrayerCorpusService.memoryCache.get(targetLang);
-      if (Array.isArray(memCorpus) && memCorpus.length >= 4253 && memCorpus.some(p => p.id === 'DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION')) {
+      if (Array.isArray(memCorpus) && memCorpus.length >= 4312 && memCorpus.some(p => p.id === 'DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION')) {
         PrayerCorpusService._touchLRU(targetLang);
         return memCorpus;
       }
@@ -109,7 +109,7 @@ export class PrayerCorpusService {
           req.onerror = () => resolve(null);
         });
 
-        if (cached && Array.isArray(cached) && cached.length >= 4253 && cached.some(p => p.id === 'DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION')) {
+        if (cached && Array.isArray(cached) && cached.length >= 4312 && cached.some(p => p.id === 'DON_JUAN_DEL_VOLTEO_PROTECCION_REVERSION')) {
           PrayerCorpusService._setInCache(targetLang, cached);
           return cached;
         }
@@ -119,7 +119,7 @@ export class PrayerCorpusService {
     }
 
     // 3. Cargar archivo JSON/GZ vía Fetch con descompresión transparente
-    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json?v=10.6.0`;
+    const jsonPath = `./json_idiomas/oraciones_maestro_${targetLang}.json?v=10.7.0`;
     try {
       const data = await fetchAndDecompressJson(jsonPath);
       const oraciones = data.oraciones || [];

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "version": "10.6.0",
+    "version": "10.7.0",
     "idioma": "la",
     "nombreIdioma": "Latina (Lingua Latina)",
     "dir": "ltr",
-    "total_oraciones": 4296,
+    "total_oraciones": 4312,
     "estandar": "FeUniversal-Patristica-Vulgata-Romana-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4296
+    "totalOraciones": 4312
   },
   "oraciones": [
     {
@@ -95014,5 +95014,8 @@
       "dir": "ltr"
     }
   ],
-  "total": 4312
+  "total": 4312,
+  "version": "10.7.0",
+  "total_oraciones": 4312,
+  "totalOraciones": 4312
 }

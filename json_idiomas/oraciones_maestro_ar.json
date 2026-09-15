@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "version": "10.6.0",
+    "version": "10.7.0",
     "idioma": "ar",
     "nombreIdioma": "العربية (Arabic)",
     "dir": "rtl",
-    "total_oraciones": 4296,
+    "total_oraciones": 4312,
     "estandar": "FeUniversal-Balaghah-Ecumenical-v3",
     "certificacion": "100% Homologado y Verificado",
-    "totalOraciones": 4296
+    "totalOraciones": 4312
   },
   "oraciones": [
     {
@@ -95026,5 +95026,8 @@
       "dir": "rtl"
     }
   ],
-  "total": 4312
+  "total": 4312,
+  "version": "10.7.0",
+  "total_oraciones": 4312,
+  "totalOraciones": 4312
 }
