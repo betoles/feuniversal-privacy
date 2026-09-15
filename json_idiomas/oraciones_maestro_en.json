@@ -46,9 +46,9 @@
         "despair"
       ],
       "idiomaLiturgicoOriginal": "Ecclesiastical Latin",
-      "textoOriginal": "Raphael, custos et dux noster, afflictorum consolator et aegrotantium medicus,\ncorporis et animae morbos propelle, lucemque caelestem nobis impetra. Amen.",
-      "guiaFonetica": "[Rá-fa-el, cús-tos et duks nós-ter...]",
-      "textoTraducido": "Glorious Saint Raphael Archangel, medicine of God, spread your wings over my body and my soul. Dispel all ailments, relieve physical pain and renew my strength with the blessing of the Almighty. Amen.",
+      "textoOriginal": "Sancte Raphael Archangele, princeps gloriosissime et medicus divinus a Deo missus ad sanandum Tobiam et Saram! Veni in auxilium nostrum, morbos corporis et animae propelle, tenebras mentis dissipa, et sicut Tobiae fidelis comes extitisti, ita nos in omnibus viis vitae protege et ad salutem aeternam perduc. Per Christum Dominum nostrum. Amen.",
+      "guiaFonetica": "Sank-te Rafael Arkan-yele, princheps gloriosisime et medikus divinus a Deo misus ad sanandum Tobiam et Saram...",
+      "textoTraducido": "O glorious Saint Raphael the Archangel, Prince of the Heavenly Court and living medicine of God! You who by divine command healed the blindness of Tobit, delivered Sarah from the bonds of evil, and were the faithful guide, protector, and comforter of young Tobias on his journey: descend today with your heavenly balm upon us. Spread your radiant wings over my body, mind, and soul; relieve all ailments, heal serious illness, protect my family on every journey, and bless our home with peace, health, and the love of God. Through Christ our Lord. Amen.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94811,7 +94811,82 @@
         "paisajeSonoroRecomendado": "campanas_carmelo"
       },
       "dir": "ltr"
+    },
+    {
+      "id": "CAT_ITA_JOSE_CUPERTINO_ESTUDIANTES",
+      "numero": 4310,
+      "titulo": "Saint Joseph of Cupertino · Students' Prayer for Examinations and Difficult Tests",
+      "subtitulo": "Heavenly patron of students, test-takers, and academic trials",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sabiduria_estudio",
+      "estadosEmocionales": [
+        "ansiedad",
+        "estres",
+        "confianza",
+        "paz",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Italiano",
+      "textoOriginal": "O glorioso San Giuseppe da Copertino, amico degli studenti e protettore di quanti si trovano ad affrontare esami e prove difficili! Tu che per singolare grazia di Dio e sotto la guida materna della Vergine Maria superasti ogni ostacolo negli studi per essere elevato al santo sacerdozio: volgi il tuo sguardo compassionevole su di me in questa prova accademica. Allontana dal mio spirito ogni ansia, confusione e smarrimento; concedimi chiarezza di mente, pronta memoria e serenità interiore. Fa' che io ricordi con facilità ciò che ho studiato e che le domande corrispondano alle mie conoscenze, affinché, coronato dal successo, possa rendere lode a Dio e servire il prossimo con integrità. Per Cristo nostro Signore. Amen.",
+      "guiaFonetica": "O glorioso San Yuzepe da Kopertino, amiko deli studenti e protetore di kuanti...",
+      "textoTraducido": "O glorious Saint Joseph of Cupertino, beloved friend of students and heavenly patron of all who face difficult examinations! You who by the special grace of God and the maternal guidance of the Virgin Mary overcame all intellectual obstacles to be raised to the holy priesthood: turn your compassionate eyes upon me in this academic trial. Cast away all anxiety, mental blocks, confusion, and fear of failure from my heart; grant me keen understanding, a clear memory, and inner calm. Enable me to recall easily what I have studied and to answer with wisdom and accuracy, so that achieving success, I may give glory to God and use my talents in service to my neighbor. Through Christ our Lord. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "triduo_estudio",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "silencio_convento"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_ITA_TOMAS_AQUINO_CREATOR_INEFFABILIS",
+      "numero": 4311,
+      "titulo": "Saint Thomas Aquinas · Creator Ineffabilis (Prayer of Wisdom and Insight Before Study)",
+      "subtitulo": "The Angelic Doctor's universal prayer for intellect, memory, and eloquence",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sabiduria_estudio",
+      "estadosEmocionales": [
+        "busqueda",
+        "humildad",
+        "sabiduria",
+        "paz",
+        "claridad"
+      ],
+      "idiomaLiturgicoOriginal": "Latina",
+      "textoOriginal": "Creator ineffabilis, qui de thesauro sapientiae tuae tres Angelorum hierarchias designasti, et eas super caelum empyreum miro ordine collocasti, atque universi partes elegantissime distribuisti: Tu, inquam, qui verus fons luminis et sapientiae diceris, ac supereminens principium, infundere digneris super intellectus mei tenebras tuae radium claritatis, duplices a me, in quibus natus sum, amovens tenebras, peccatum scilicet et ignorantiam. Tu, qui linguas infantium facis disertas, linguam meam erudias atque in labiis meis gratiam tuae benedictionis infundas. Da mihi intelligendi acumen, retinendi capacitatem, addiscendi modum et facilitatem, interpretandi subtilitatem, loquendi copiosam gratiam. Ingressum instruas, progressum dirigas, egressum compleas. Tu, qui es verus Deus et homo, qui vivis et regnas in saecula saeculorum. Amen.",
+      "guiaFonetica": "Kreator inefabilis, kwi de tesauro sapientsie tue tres Anyelorum yerarkias desiñasti...",
+      "textoTraducido": "Ineffable Creator, who from the treasures of Your wisdom appointed three hierarchies of Angels and placed them in wondrous order above the highest heaven, arranging all parts of the universe in glorious beauty! You who are the true font of light and wisdom and the sovereign origin of all things: be pleased to shed a ray of Your brightness upon the darkness of my intellect, driving away from me the twofold darkness of sin and ignorance in which I was born. You who make eloquent the tongues of infants, instruct my speech and pour upon my lips the grace of Your blessing. Grant me keenness of understanding, capacity of memory, method and ease in learning, subtlety in interpreting, and abundant grace in speaking. Guide my beginning, direct my progress, and crown my completion. You who are true God and true Man, living and reigning forever and ever. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "oracion_diaria_estudio",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "canto_gregoriano_estudio"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_ITA_SAN_MIGUEL_CORONILLA_ANGELES",
+      "numero": 4312,
+      "titulo": "Saint Michael the Archangel · Chaplet of the Nine Angelic Choirs",
+      "subtitulo": "Angelic shield invoking Seraphim, Cherubim, Thrones, and Dominions",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz",
+      "estadosEmocionales": [
+        "miedo",
+        "combate_espiritual",
+        "fortaleza",
+        "fe",
+        "proteccion"
+      ],
+      "idiomaLiturgicoOriginal": "Latina / Italiano",
+      "textoOriginal": "Deus in adiutorium meum intende. Domine ad adiuvandum me festina. Gloria Patri, et Filio, et Spiritui Sancto. Sancte Michael Archangele, Princeps gloriosissime caelestis militiae, per intercessionem tuam et novem Angelorum chororum: impetra nobis a Domino cordium amorem perfectum, castitatem, humilitatem, victoriam super omnem diabolicam tentationem et protectionem ecclesiae ac familiarum nostrarum. Defende nos in die iudicii, ut non pereamus in tremendo examine. Amen.",
+      "guiaFonetica": "Deus in adiutorium meum intende. Domine ad adiuvandum me festina...",
+      "textoTraducido": "O God, come to my assistance; O Lord, make haste to help me! Glory be to the Father, and to the Son, and to the Holy Spirit. O glorious Prince of the Heavenly Host, Saint Michael the Archangel! Through your powerful intercession and that of the Nine Choirs of Holy Angels—Seraphim, Cherubim, Thrones, Dominions, Powers, Virtues, Principalities, Archangels, and Angels—obtain for us from the Lord the fire of perfect love, purity of soul, and celestial protection against the snares of the enemy. Guard our homes, shield our families, and be our defense in spiritual battle and at the hour of death. Through Christ our Lord. Amen.",
+      "ritualesAsociados": {
+        "tipoContador": "coronilla_san_miguel_9_coros",
+        "duracionVeladoraSugeridaHoras": 29,
+        "paisajeSonoroRecomendado": "campanas_angeles"
+      },
+      "dir": "ltr"
     }
   ],
-  "total": 4309
+  "total": 4312
 }

@@ -46,9 +46,9 @@
         "desesperacion"
       ],
       "idiomaLiturgicoOriginal": "Latín Eclesiástico",
-      "textoOriginal": "Raphael, custos et dux noster, afflictorum consolator et aegrotantium medicus,\ncorporis et animae morbos propelle, lucemque caelestem nobis impetra. Amen.",
-      "guiaFonetica": "[Rá-fa-el, cús-tos et duks nós-ter...]",
-      "textoTraducido": "Glorioso Arcanjo São Rafael, medicina de Deus, estendei vossas asas sobre o meu corpo e a minha alma. Dissipai toda enfermidade, aliviai as dores físicas e renovai as minhas forças com a bênção do Altíssimo. Amém.",
+      "textoOriginal": "Sancte Raphael Archangele, princeps gloriosissime et medicus divinus a Deo missus ad sanandum Tobiam et Saram! Veni in auxilium nostrum, morbos corporis et animae propelle, tenebras mentis dissipa, et sicut Tobiae fidelis comes extitisti, ita nos in omnibus viis vitae protege et ad salutem aeternam perduc. Per Christum Dominum nostrum. Amen.",
+      "guiaFonetica": "Sank-te Rafael Arkan-yele, princheps gloriosisime et medikus divinus a Deo misus ad sanandum Tobiam et Saram...",
+      "textoTraducido": "Ó glorioso São Rafael Arcanjo, Príncipe da Corte Celeste e remédio vivo de Deus! Vós que por mandato divino curastes a cegueira do velho Tobit, libertastes Sara das amarras do maligno e fostes o guia fiel, protetor e consolador do jovem Tobias em sua longa jornada: descei hoje com o vosso bálsamo celestial sobre nós. Estendei as vossas asas luminosas sobre o meu corpo, mente e alma; aliviai todas as enfermidades, curai as dores graves, protegei a minha família de todo perigo nos caminhos e abençoai o nosso lar com a paz, a saúde e o amor de Deus. Por Cristo, nosso Senhor. Amém.",
       "ritualesAsociados": {
         "tipoContador": "rosario_10",
         "duracionVeladoraSugeridaHoras": 24,
@@ -94801,7 +94801,82 @@
         "paisajeSonoroRecomendado": "campanas_carmelo"
       },
       "dir": "ltr"
+    },
+    {
+      "id": "CAT_ITA_JOSE_CUPERTINO_ESTUDIANTES",
+      "numero": 4310,
+      "titulo": "São José de Cupertino · Oração dos Estudantes para Exames e Provas Difíceis",
+      "subtitulo": "Padroeiro celeste dos estudantes, vestibulandos e concurseiros",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sabiduria_estudio",
+      "estadosEmocionales": [
+        "ansiedad",
+        "estres",
+        "confianza",
+        "paz",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Italiano",
+      "textoOriginal": "O glorioso San Giuseppe da Copertino, amico degli studenti e protettore di quanti si trovano ad affrontare esami e prove difficili! Tu che per singolare grazia di Dio e sotto la guida materna della Vergine Maria superasti ogni ostacolo negli studi per essere elevato al santo sacerdozio: volgi il tuo sguardo compassionevole su di me in questa prova accademica. Allontana dal mio spirito ogni ansia, confusione e smarrimento; concedimi chiarezza di mente, pronta memoria e serenità interiore. Fa' che io ricordi con facilità ciò che ho studiato e che le domande corrispondano alle mie conoscenze, affinché, coronato dal successo, possa rendere lode a Dio e servire il prossimo con integrità. Per Cristo nostro Signore. Amen.",
+      "guiaFonetica": "O glorioso San Yuzepe da Kopertino, amiko deli studenti e protetore di kuanti...",
+      "textoTraducido": "Ó glorioso São José de Cupertino, amigo protetor dos estudantes e amparo de quantos enfrentam provas e exames difíceis! Vós que, por graça especial de Deus e sob o olhar maternal da Virgem Maria, superastes todo obstáculo intelectual para alcançar o sacerdócio: volvei o vosso olhar compassivo para mim nesta prova de estudos. Afastai da minha mente toda ansiedade, confusão, esquecimento e medo do fracasso; concedei-me clareza de raciocínio, memória lúcida e serenidade interior. Fazei com que eu me recorde com facilidade daquilo que estudei e responda com sabedoria, para que, alcançando êxito, glorifique a Deus e ponha o meu saber a serviço do próximo. Por Cristo, nosso Senhor. Amém.",
+      "ritualesAsociados": {
+        "tipoContador": "triduo_estudio",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "silencio_convento"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_ITA_TOMAS_AQUINO_CREATOR_INEFFABILIS",
+      "numero": 4311,
+      "titulo": "São Tomás de Aquino · Creator Ineffabilis (Oração da Sabedoria e Lucidez Antes do Estudo)",
+      "subtitulo": "A oração universal do Doutor Angélico para a inteligência, memória e eloqüência",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "sabiduria_estudio",
+      "estadosEmocionales": [
+        "busqueda",
+        "humildad",
+        "sabiduria",
+        "paz",
+        "claridad"
+      ],
+      "idiomaLiturgicoOriginal": "Latina",
+      "textoOriginal": "Creator ineffabilis, qui de thesauro sapientiae tuae tres Angelorum hierarchias designasti, et eas super caelum empyreum miro ordine collocasti, atque universi partes elegantissime distribuisti: Tu, inquam, qui verus fons luminis et sapientiae diceris, ac supereminens principium, infundere digneris super intellectus mei tenebras tuae radium claritatis, duplices a me, in quibus natus sum, amovens tenebras, peccatum scilicet et ignorantiam. Tu, qui linguas infantium facis disertas, linguam meam erudias atque in labiis meis gratiam tuae benedictionis infundas. Da mihi intelligendi acumen, retinendi capacitatem, addiscendi modum et facilitatem, interpretandi subtilitatem, loquendi copiosam gratiam. Ingressum instruas, progressum dirigas, egressum compleas. Tu, qui es verus Deus et homo, qui vivis et regnas in saecula saeculorum. Amen.",
+      "guiaFonetica": "Kreator inefabilis, kwi de tesauro sapientsie tue tres Anyelorum yerarkias desiñasti...",
+      "textoTraducido": "Criador inefável, que dos tesouros da vossa infinita sabedoria ordenastes com admirável perfeição as três hierarquias dos Anjos e dispusestes com harmonia todas as partes do universo! Vós, que sois a verdadeira fonte da luz e o princípio soberano da sabedoria, dignai-vos derramar sobre as trevas da minha inteligência um raio da vossa claridade, afastando de mim a dupla escuridão na qual nasci: o pecado e a ignorância. Vós, que tornais eloqüente a língua dos pequeninos, instruí a minha palavra e derramai nos meus lábios a graça da vossa bênção. Dai-me agudeza para compreender, capacidade para reter, método e facilidade para aprender, sutileza para interpretar e abundante graça para falar. Iluminai o meu início, dirigi o meu progresso e coroai a minha conclusão. Vós que sois verdadeiro Deus e verdadeiro Homem, que viveis e reinais por todos os séculos dos séculos. Amém.",
+      "ritualesAsociados": {
+        "tipoContador": "oracion_diaria_estudio",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "canto_gregoriano_estudio"
+      },
+      "dir": "ltr"
+    },
+    {
+      "id": "CAT_ITA_SAN_MIGUEL_CORONILLA_ANGELES",
+      "numero": 4312,
+      "titulo": "São Miguel Arcanjo · Coroa Angélica dos Nove Coros dos Santos Anjos",
+      "subtitulo": "Blindagem celeste invocando Serafins, Querubins, Tronos e Dominações",
+      "tradicion": "catolicismo",
+      "categoriaIntencion": "proteccion_paz",
+      "estadosEmocionales": [
+        "miedo",
+        "combate_espiritual",
+        "fortaleza",
+        "fe",
+        "proteccion"
+      ],
+      "idiomaLiturgicoOriginal": "Latina / Italiano",
+      "textoOriginal": "Deus in adiutorium meum intende. Domine ad adiuvandum me festina. Gloria Patri, et Filio, et Spiritui Sancto. Sancte Michael Archangele, Princeps gloriosissime caelestis militiae, per intercessionem tuam et novem Angelorum chororum: impetra nobis a Domino cordium amorem perfectum, castitatem, humilitatem, victoriam super omnem diabolicam tentationem et protectionem ecclesiae ac familiarum nostrarum. Defende nos in die iudicii, ut non pereamus in tremendo examine. Amen.",
+      "guiaFonetica": "Deus in adiutorium meum intende. Domine ad adiuvandum me festina...",
+      "textoTraducido": "Vinde, ó Deus, em meu auxílio; apressai-vos, Senhor, em me socorrer! Glória ao Pai, ao Filho e ao Espírito Santo. Ó gloriosíssimo Príncipe da milícia celeste, São Miguel Arcanjo! Pela vossa poderosa intercessão e a dos Nove Coros dos Santos Anjos — Serafins, Querubins, Tronos, Dominações, Potestades, Virtudes, Principados, Arcanjos e Anjos —: alcançai-nos do Senhor o ardor da caridade perfeita, a pureza da alma e a proteção contra as ciladas do maligno. Guardai os nossos lares, defendei as nossas famílias e sede o nosso escudo no combate espiritual e na hora da morte. Por Cristo, nosso Senhor. Amém.",
+      "ritualesAsociados": {
+        "tipoContador": "coronilla_san_miguel_9_coros",
+        "duracionVeladoraSugeridaHoras": 29,
+        "paisajeSonoroRecomendado": "campanas_angeles"
+      },
+      "dir": "ltr"
     }
   ],
-  "total": 4309
+  "total": 4312
 }
