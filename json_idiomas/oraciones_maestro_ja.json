@@ -94549,6 +94549,19 @@
           "痛悔",
           "聖神"
         ]
+      },
+      "categoriaIntencion": "perdon_reconciliacion",
+      "estadosEmocionales": [
+        "arrepentimiento",
+        "humildad",
+        "paz",
+        "perdon"
+      ],
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "ritualesAsociados": {
+        "tipoContador": "salterio_ortodoxo",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "canto_bizantino"
       }
     },
     {
@@ -94571,6 +94584,19 @@
           "保護霊",
           "霊的守護"
         ]
+      },
+      "categoriaIntencion": "proteccion_paz",
+      "estadosEmocionales": [
+        "paz",
+        "confianza",
+        "serenidad",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "Français / Português",
+      "ritualesAsociados": {
+        "tipoContador": "elevacion_espiritual",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "arpa_celestial"
       }
     },
     {
@@ -94594,6 +94620,19 @@
           "信仰の盾",
           "御霊の剣"
         ]
+      },
+      "categoriaIntencion": "proteccion_guerra_espiritual",
+      "estadosEmocionales": [
+        "fortaleza",
+        "fe",
+        "victoria",
+        "proteccion"
+      ],
+      "idiomaLiturgicoOriginal": "Griego Koiné / Español",
+      "ritualesAsociados": {
+        "tipoContador": "clamor_guerrero",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "shofar_clamor"
       }
     },
     {
@@ -94617,6 +94656,19 @@
           "慈悲",
           "調和"
         ]
+      },
+      "categoriaIntencion": "paz_unidad_mundial",
+      "estadosEmocionales": [
+        "amor",
+        "paz",
+        "unidad",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Universal / Multilingüe",
+      "ritualesAsociados": {
+        "tipoContador": "meditacion_universal",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos_paz"
       }
     },
     {
@@ -94638,6 +94690,19 @@
           "保護",
           "平和"
         ]
+      },
+      "categoriaIntencion": "proteccion_liberacion",
+      "estadosEmocionales": [
+        "ansiedad",
+        "alivio",
+        "proteccion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "Español / Latín",
+      "ritualesAsociados": {
+        "tipoContador": "novenario",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "campanas_romanas"
       }
     },
     {
@@ -94660,6 +94725,19 @@
           "健康",
           "手術成功"
         ]
+      },
+      "categoriaIntencion": "salud_cirugias",
+      "estadosEmocionales": [
+        "enfermedad",
+        "esperanza",
+        "fe",
+        "consuelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español",
+      "ritualesAsociados": {
+        "tipoContador": "novenario_salud",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_tepeaca"
       }
     },
     {
@@ -94682,6 +94760,19 @@
           "交通安全",
           "旅の保護"
         ]
+      },
+      "categoriaIntencion": "proteccion_viajeros",
+      "estadosEmocionales": [
+        "confianza",
+        "prudencia",
+        "paz",
+        "proteccion"
+      ],
+      "idiomaLiturgicoOriginal": "Español / Latín",
+      "ritualesAsociados": {
+        "tipoContador": "oracion_viajero",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "viento_caminos"
       }
     },
     {
@@ -94703,6 +94794,19 @@
           "困難の助け",
           "信頼の祈り"
         ]
+      },
+      "categoriaIntencion": "causas_dificiles",
+      "estadosEmocionales": [
+        "afliccion",
+        "confianza",
+        "fe",
+        "alivio"
+      ],
+      "idiomaLiturgicoOriginal": "Español",
+      "ritualesAsociados": {
+        "tipoContador": "novenario_20_julio",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_bogota"
       }
     },
     {
@@ -94725,6 +94829,19 @@
           "ベネズエラ",
           "疫病除け"
         ]
+      },
+      "categoriaIntencion": "salud_sanacion_epidemias",
+      "estadosEmocionales": [
+        "afliccion",
+        "fe",
+        "esperanza",
+        "consuelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español",
+      "ritualesAsociados": {
+        "tipoContador": "procesion_miercoles_santo",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_santa_teresa_caracas"
       }
     },
     {

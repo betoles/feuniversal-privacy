@@ -94547,6 +94547,19 @@
           "kirchenslawisch",
           "busse"
         ]
+      },
+      "categoriaIntencion": "perdon_reconciliacion",
+      "estadosEmocionales": [
+        "arrepentimiento",
+        "humildad",
+        "paz",
+        "perdon"
+      ],
+      "idiomaLiturgicoOriginal": "Eslavo Eclesiástico / Griego Bizantino",
+      "ritualesAsociados": {
+        "tipoContador": "salterio_ortodoxo",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "canto_bizantino"
       }
     },
     {
@@ -94569,6 +94582,19 @@
           "beschuetzende_geister",
           "geistige_fuehrung"
         ]
+      },
+      "categoriaIntencion": "proteccion_paz",
+      "estadosEmocionales": [
+        "paz",
+        "confianza",
+        "serenidad",
+        "gratitud"
+      ],
+      "idiomaLiturgicoOriginal": "Français / Português",
+      "ritualesAsociados": {
+        "tipoContador": "elevacion_espiritual",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "arpa_celestial"
       }
     },
     {
@@ -94591,6 +94617,19 @@
           "glaube",
           "sieg"
         ]
+      },
+      "categoriaIntencion": "proteccion_guerra_espiritual",
+      "estadosEmocionales": [
+        "fortaleza",
+        "fe",
+        "victoria",
+        "proteccion"
+      ],
+      "idiomaLiturgicoOriginal": "Griego Koiné / Español",
+      "ritualesAsociados": {
+        "tipoContador": "clamor_guerrero",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "shofar_clamor"
       }
     },
     {
@@ -94613,6 +94652,19 @@
           "koexistenz",
           "mitgefuehl"
         ]
+      },
+      "categoriaIntencion": "paz_unidad_mundial",
+      "estadosEmocionales": [
+        "amor",
+        "paz",
+        "unidad",
+        "esperanza"
+      ],
+      "idiomaLiturgicoOriginal": "Universal / Multilingüe",
+      "ritualesAsociados": {
+        "tipoContador": "meditacion_universal",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "cuencos_tibetanos_paz"
       }
     },
     {
@@ -94634,6 +94686,19 @@
           "schutz",
           "frieden"
         ]
+      },
+      "categoriaIntencion": "proteccion_liberacion",
+      "estadosEmocionales": [
+        "ansiedad",
+        "alivio",
+        "proteccion",
+        "paz"
+      ],
+      "idiomaLiturgicoOriginal": "Español / Latín",
+      "ritualesAsociados": {
+        "tipoContador": "novenario",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "campanas_romanas"
       }
     },
     {
@@ -94656,6 +94721,19 @@
           "gesundheit",
           "kranke"
         ]
+      },
+      "categoriaIntencion": "salud_cirugias",
+      "estadosEmocionales": [
+        "enfermedad",
+        "esperanza",
+        "fe",
+        "consuelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español",
+      "ritualesAsociados": {
+        "tipoContador": "novenario_salud",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_tepeaca"
       }
     },
     {
@@ -94678,6 +94756,19 @@
           "reiseschutz",
           "unfallschutz"
         ]
+      },
+      "categoriaIntencion": "proteccion_viajeros",
+      "estadosEmocionales": [
+        "confianza",
+        "prudencia",
+        "paz",
+        "proteccion"
+      ],
+      "idiomaLiturgicoOriginal": "Español / Latín",
+      "ritualesAsociados": {
+        "tipoContador": "oracion_viajero",
+        "duracionVeladoraSugeridaHoras": 12,
+        "paisajeSonoroRecomendado": "viento_caminos"
       }
     },
     {
@@ -94700,6 +94791,19 @@
           "vertrauen",
           "hilfe"
         ]
+      },
+      "categoriaIntencion": "causas_dificiles",
+      "estadosEmocionales": [
+        "afliccion",
+        "confianza",
+        "fe",
+        "alivio"
+      ],
+      "idiomaLiturgicoOriginal": "Español",
+      "ritualesAsociados": {
+        "tipoContador": "novenario_20_julio",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_bogota"
       }
     },
     {
@@ -94722,6 +94826,19 @@
           "venezuela",
           "seuchenschutz"
         ]
+      },
+      "categoriaIntencion": "salud_sanacion_epidemias",
+      "estadosEmocionales": [
+        "afliccion",
+        "fe",
+        "esperanza",
+        "consuelo"
+      ],
+      "idiomaLiturgicoOriginal": "Español",
+      "ritualesAsociados": {
+        "tipoContador": "procesion_miercoles_santo",
+        "duracionVeladoraSugeridaHoras": 24,
+        "paisajeSonoroRecomendado": "campanas_santa_teresa_caracas"
       }
     },
     {
