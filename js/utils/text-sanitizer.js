@@ -7,6 +7,60 @@
  * para lecturas devocionales fluidas y tarjetas visuales impecables.
  */
 
+const SACRED_EXEMPT_ACRONYMS = new Set(['YHWH', 'JHWH', 'YHVH', 'JHVH', 'IAO', 'OM', 'AUM', 'III', 'VII', 'VIII', 'XII']);
+
+/**
+ * Normaliza palabras en mayúsculas sostenidas al inicio de versículos o líneas
+ * (ej. "EN el principio" -> "En el principio", "LIBRO de la generación" -> "Libro de la generación")
+ * preservando nombres sagrados inmutables (YHWH, JHWH, etc.).
+ * @param {string} text
+ * @returns {string}
+ */
+export function normalizeLeadingCapitalization(text) {
+  if (!text || typeof text !== 'string') return '';
+
+  const lines = text.split('\n');
+  const outLines = lines.map(line => {
+    const match = line.match(/^(\s*(?:\d+[\.\:]\s*)?)(.*)$/);
+    if (!match) return line;
+
+    const prefix = match[1];
+    const content = match[2];
+    const words = content.split(' ');
+    const newWords = [];
+    let isStart = true;
+
+    for (let i = 0; i < words.length; i++) {
+      const w = words[i];
+      const matchWord = w.match(/^([A-ZÁÉÍÓÚÜÑÀÈÌÒÙÂÊÎÔÛÄËÏÖÜÇ]{2,})([\,\.\:\;\!\?]*)$/);
+      const matchSingle = w.match(/^([A-ZÁÉÍÓÚÜÑÀÈÌÒÙÂÊÎÔÛÄËÏÖÜÇ])([\,\.\:\;\!\?]*)$/);
+
+      if (isStart && matchWord) {
+        const rawW = matchWord[1];
+        const punc = matchWord[2] || '';
+        if (SACRED_EXEMPT_ACRONYMS.has(rawW)) {
+          newWords.push(w);
+          isStart = false;
+        } else {
+          if (i === 0) {
+            newWords.push(rawW.charAt(0).toUpperCase() + rawW.slice(1).toLowerCase() + punc);
+          } else {
+            newWords.push(rawW.toLowerCase() + punc);
+          }
+        }
+      } else if (isStart && i === 0 && matchSingle) {
+        newWords.push(w);
+      } else {
+        isStart = false;
+        newWords.push(w);
+      }
+    }
+    return prefix + newWords.join(' ');
+  });
+
+  return outLines.join('\n');
+}
+
 /**
  * Limpia y normaliza textos sagrados y oraciones con técnicas de NLP ligero
  * @param {string} text Texto en bruto proveniente de bases canónicas
@@ -27,7 +81,10 @@ export function cleanScriptureTextNLP(text) {
   // 3. Normalizar llaves simples: {palabra} -> palabra (conservar palabras suplementarias sin símbolos)
   cleaned = cleaned.replace(/\{([^{}]+)\}/g, '$1');
 
-  // 4. Normalizar números de versículos al inicio de líneas en textos limpios
+  // 4. Normalizar mayúsculas sostenidas arcaicas al inicio de versículos (ej. "EN el principio" -> "En el principio")
+  cleaned = normalizeLeadingCapitalization(cleaned);
+
+  // 5. Normalizar números de versículos y puntuación al inicio de líneas en textos limpios
   const lines = cleaned.split('\n');
   const normalizedLines = lines.map(line => {
     let l = line.trim();

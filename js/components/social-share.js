@@ -12,7 +12,7 @@ import { StorageService } from '../services/storage-service.js';
 import { renderIcon } from './icons.js';
 import { SacredDialog } from './sacred-dialog.js';
 import { getScriptureBookTitle, formatChapterLabel } from '../data/scriptures-catalog.js';
-import { cleanScriptureTextNLP, extractScriptureExcerpt } from '../utils/text-sanitizer.js';
+import { cleanScriptureTextNLP, extractScriptureExcerpt, normalizeLeadingCapitalization } from '../utils/text-sanitizer.js';
 
 export const CANONICAL_WEB_URL = 'https://betoles.github.io/feuniversal-privacy/';
 
@@ -109,8 +109,10 @@ export function breakTextIntoLines(ctx, text, maxWidth, fontSize, lang = 'es') {
   const l = (lang || 'es').toLowerCase();
   const isCJK = ['zh', 'ja'].includes(l);
 
-  const paragraphs = String(text)
-    .replace(/^\d+\.\s*/gm, '')
+  const cleanedText = normalizeLeadingCapitalization(cleanScriptureTextNLP(text));
+
+  const paragraphs = String(cleanedText)
+    .replace(/^\d+[\.\:]\s*/gm, '')
     .split('\n')
     .map(p => p.trim())
     .filter(Boolean);
@@ -678,8 +680,24 @@ export class SocialShareComponent {
     const emailY = legendStartY - 28;
     const medallionY = emailY - 62;
     const iconRadius = 34;
-    const deepLinkY = medallionY - 58;
-    const ctaY = deepLinkY - 36;
+
+    // 8.2 Separar Deep Link URL en 2 renglones armónicos
+    let urlLine1 = 'betoles.github.io/feuniversal-privacy/';
+    let urlLine2 = '';
+
+    if (deepLinkDisplay.includes('?')) {
+      const parts = deepLinkDisplay.split('?');
+      urlLine1 = parts[0] + (parts[0].endsWith('/') ? '' : '/');
+      urlLine2 = '?' + parts[1];
+    } else {
+      urlLine1 = deepLinkDisplay;
+      urlLine2 = '';
+    }
+
+    const hasTwoUrlLines = !!urlLine2;
+    const deepLinkY2 = medallionY - 48;
+    const deepLinkY1 = hasTwoUrlLines ? deepLinkY2 - 28 : deepLinkY2;
+    const ctaY = deepLinkY1 - 32;
     const topOfFooter = ctaY - 26;
 
     // 8.1 Dibujar CTA dinámico según el tipo de contenido
@@ -692,10 +710,16 @@ export class SocialShareComponent {
     ctx.font = getScriptSpecificFont(lang, 'bold', 22, false);
     ctx.fillText(ctaPrefix, 540, ctaY);
 
-    // 8.2 Dibujar Deep Link URL Canónico y Localizado
+    // 8.2 Dibujar Deep Link URL en 2 renglones con tipografía nítida
     ctx.fillStyle = '#38bdf8';
-    ctx.font = 'bold 21px "JetBrains Mono", "Plus Jakarta Sans", monospace';
-    ctx.fillText(deepLinkDisplay, 540, deepLinkY);
+    ctx.font = 'bold 22px "JetBrains Mono", "Plus Jakarta Sans", monospace';
+    ctx.fillText(urlLine1, 540, deepLinkY1);
+
+    if (hasTwoUrlLines) {
+      ctx.fillStyle = '#7dd3fc';
+      ctx.font = 'bold 20px "JetBrains Mono", "Plus Jakarta Sans", monospace';
+      ctx.fillText(urlLine2, 540, deepLinkY2);
+    }
 
     // 8.3 Dibujar Medallón Oficial FeUniversal
     const iconX = 540;
