@@ -80,8 +80,11 @@ export function getShareDeepLink(item, lang = 'es') {
 
 export function getScriptSpecificFont(lang, weight = 'normal', size = 28, isSerif = false) {
   const l = (lang || 'es').toLowerCase();
-  if (['ar', 'ur'].includes(l)) {
+  if (l === 'ar') {
     return `${weight} ${size}px 'Scheherazade New', 'Amiri', serif`;
+  }
+  if (l === 'ur') {
+    return `${weight} ${size}px 'Noto Nastaliq Urdu', 'Scheherazade New', 'Amiri', serif`;
   }
   if (l === 'he') {
     return `${weight} ${size}px 'Frank Ruhl Libre', serif`;
@@ -98,7 +101,7 @@ export function getScriptSpecificFont(lang, weight = 'normal', size = 28, isSeri
   if (l === 'ja') {
     return `${weight} ${size}px 'Noto Serif JP', 'Yu Mincho', serif`;
   }
-  if (isSerif) {
+  if (isSerif || l === 'la') {
     return `${weight} ${size}px 'Cinzel', Georgia, serif`;
   }
   return `${weight} ${size}px 'Plus Jakarta Sans', sans-serif`;
@@ -581,18 +584,55 @@ export class SocialShareComponent {
     // Generador de Tarjeta Canvas HD 1080x1920 (Totalmente Desbloqueado para Todos)
     const downloadCardBtn = document.getElementById('btn-download-story-card');
     if (downloadCardBtn) {
-      downloadCardBtn.addEventListener('click', () => {
-        this.generateStoryCardCanvas(this.currentPrayer);
+      downloadCardBtn.addEventListener('click', async () => {
+        downloadCardBtn.disabled = true;
+        try {
+          await this.generateStoryCardCanvas(this.currentPrayer);
+        } finally {
+          downloadCardBtn.disabled = false;
+        }
       });
     }
   }
 
-  generateStoryCardCanvas(prayer) {
+  async generateStoryCardCanvas(prayer) {
     if (typeof document === 'undefined') return;
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
     const deepLink = getShareDeepLink(prayer, lang);
     const deepLinkDisplay = deepLink.replace(/^https?:\/\//, '');
+
+    // Blindaje de Tipografía Sagrada: Esperar a que el motor de fuentes esté 100% cargado
+    if (typeof document !== 'undefined' && document.fonts && document.fonts.ready) {
+      try {
+        await document.fonts.ready;
+        const fontToLoad = getScriptSpecificFont(lang, 'normal', 28, false);
+        if (document.fonts.load) {
+          await Promise.race([
+            Promise.all([
+              document.fonts.load('bold 36px "Cinzel"'),
+              document.fonts.load(fontToLoad),
+              document.fonts.load('bold 22px "JetBrains Mono"')
+            ]),
+            new Promise(res => setTimeout(res, 1200))
+          ]);
+        }
+      } catch (e) {
+        console.warn('[CanvasFonts] Precarga tipográfica completada con fallback:', e);
+      }
+    }
+
+    // Asegurar carga de imagen del medallón sagrado si aún no está en caché
+    if (!this.logoImg || !this.logoImg.complete || this.logoImg.naturalWidth === 0) {
+      try {
+        await new Promise((resolve) => {
+          const img = new Image();
+          img.onload = () => { this.logoImg = img; resolve(img); };
+          img.onerror = () => resolve(null);
+          img.src = 'ico.png';
+        });
+      } catch (_) {}
+    }
 
     const canvas = document.createElement('canvas');
     canvas.width = 1080;
