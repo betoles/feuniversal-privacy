@@ -52,9 +52,12 @@
   /* Superficies de Cristal */
   --glass-surface-1: rgba(19, 21, 36, 0.68);
   --glass-surface-2: rgba(26, 29, 50, 0.78);
+  --glass-surface-3: rgba(35, 39, 66, 0.88);
+  --glass-surface-modal: rgba(18, 20, 36, 0.96);
   --glass-surface-hover: rgba(35, 39, 66, 0.88);
   --glass-surface-active: rgba(43, 48, 82, 0.98);
   --glass-inset: rgba(10, 11, 22, 0.65);
+  --modal-backdrop: rgba(3, 7, 18, 0.82);
 
   /* Bordes de Luz y Reflejos */
   --glass-border: rgba(255, 255, 255, 0.08);
@@ -114,9 +117,12 @@
   /* Superficies de Cristal Opalino */
   --glass-surface-1: rgba(255, 255, 255, 0.75);
   --glass-surface-2: rgba(255, 255, 255, 0.9);
+  --glass-surface-3: rgba(241, 245, 249, 0.95);
+  --glass-surface-modal: rgba(255, 255, 255, 0.98);
   --glass-surface-hover: rgba(255, 255, 255, 0.98);
   --glass-surface-active: #ffffff;
   --glass-inset: rgba(226, 232, 240, 0.6);
+  --modal-backdrop: rgba(15, 23, 42, 0.65);
 
   /* Bordes de Luz y Reflejos */
   --glass-border: rgba(148, 163, 184, 0.38);

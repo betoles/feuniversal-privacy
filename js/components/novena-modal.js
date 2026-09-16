@@ -37,10 +37,10 @@ export class NovenaModalComponent {
     const modal = document.createElement('div');
     modal.id = this.modalId;
     modal.className = 'modal-overlay';
-    modal.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(3, 7, 18, 0.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); z-index: 6200; overflow-y: auto; -webkit-overflow-scrolling: touch; align-items: flex-start; justify-content: center; padding: 24px 12px 100px; box-sizing: border-box;';
+    modal.style.cssText = 'display: none; position: fixed; inset: 0; background: var(--modal-backdrop, rgba(3, 7, 18, 0.82)); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); z-index: 6200; overflow-y: auto; -webkit-overflow-scrolling: touch; align-items: flex-start; justify-content: center; padding: 24px 12px 100px; box-sizing: border-box;';
 
     modal.innerHTML = `
-      <div class="crystal-card" style="position: relative; width: 100%; max-width: 580px; margin: auto 0; padding: 28px 22px; box-sizing: border-box; border: 1.5px solid var(--glass-border-highlight); background: var(--glass-surface-modal); border-radius: var(--radius-2xl); box-shadow: 0 24px 60px rgba(0,0,0,0.65);">
+      <div class="crystal-card" style="position: relative; width: 100%; max-width: 580px; margin: auto 0; padding: 28px 22px; box-sizing: border-box; border: 1.5px solid var(--glass-border-highlight); background: var(--glass-surface-modal); border-radius: var(--radius-2xl); box-shadow: 0 24px 60px rgba(0,0,0,0.45);">
         <!-- Botón de Cierre Superior -->
         <button id="btn-close-novenas" class="btn-modal-close-custom" aria-label="Cerrar modal de novenas" style="position: absolute; top: 16px; right: 16px; width: 34px; height: 34px; border-radius: 50%; background: var(--glass-surface-2); border: 1px solid var(--glass-border); color: var(--text-secondary); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all var(--transition-fast); z-index: 10;">
           <span style="display: flex; align-items: center; justify-content: center; width: 18px; height: 18px;">
@@ -166,10 +166,10 @@ export class NovenaModalComponent {
       const doneCount = (nProg.completedDays || []).length;
       const novTitle = getNovenaI18n(n.titulo, lang);
       return `
-        <button class="btn-crystal novena-pill-btn ${isCur ? 'active-glow-gold' : ''}" data-novena-id="${n.id}" style="font-size: 0.76rem; padding: 7px 12px; border-radius: var(--radius-full); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; flex-shrink: 0; max-width: 240px; box-sizing: border-box;" title="${novTitle}">
+        <button class="btn-crystal novena-pill-btn ${isCur ? 'active-glow-gold' : ''}" data-novena-id="${n.id}" style="font-size: 0.76rem; padding: 7px 12px; border-radius: var(--radius-full); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; flex-shrink: 0; max-width: 240px; box-sizing: border-box; background: var(--glass-surface-2); border: 1px solid var(--glass-border); color: var(--text-primary);" title="${novTitle}">
           <span style="display: flex; align-items: center; width: 14px; height: 14px; color: var(--accent-gold); flex-shrink: 0;">${renderIcon(n.icono || 'trad_catolicismo')}</span>
           <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${novTitle}</span>
-          <span style="font-size: 0.68rem; opacity: 0.85; background: rgba(255,255,255,0.12); padding: 2px 6px; border-radius: 8px; flex-shrink: 0;">${doneCount}/${n.totalDias}</span>
+          <span style="font-size: 0.68rem; opacity: 0.95; background: var(--glass-surface-3); color: var(--text-secondary); border: 1px solid var(--glass-border); padding: 2px 6px; border-radius: 8px; flex-shrink: 0;">${doneCount}/${n.totalDias}</span>
         </button>
       `;
     }).join('');
@@ -181,15 +181,15 @@ export class NovenaModalComponent {
       let bgStyle = 'background: var(--glass-surface-2); border: 1.5px solid var(--glass-border); color: var(--text-secondary);';
       
       if (isDone) {
-        bgStyle = 'background: linear-gradient(135deg, rgba(245, 158, 11, 0.35), rgba(217, 119, 6, 0.5)); border: 1.5px solid var(--accent-gold); color: #fff; box-shadow: 0 0 12px var(--accent-gold-glow);';
+        bgStyle = 'background: linear-gradient(135deg, var(--accent-gold), #b45309); border: 1.5px solid var(--accent-gold); color: #ffffff; box-shadow: 0 0 12px var(--accent-gold-glow);';
       } else if (isSelected) {
-        bgStyle = 'background: var(--glass-surface-3); border: 2px solid var(--accent-cyan); color: var(--accent-cyan); font-weight: 900; box-shadow: 0 0 12px rgba(56, 189, 248, 0.4); transform: scale(1.08);';
+        bgStyle = 'background: var(--glass-surface-3); border: 2px solid var(--accent-cyan); color: var(--accent-cyan); font-weight: 900; box-shadow: 0 0 12px var(--accent-cyan-glow); transform: scale(1.08);';
       }
 
       return `
         <button class="novena-day-pearl" data-day="${d.dia}" style="width: 36px; height: 36px; min-width: 36px; min-height: 36px; max-width: 36px; max-height: 36px; border-radius: 50%; ${bgStyle} display: inline-flex; align-items: center; justify-content: center; text-align: center; cursor: pointer; transition: all var(--transition-fast); padding: 0; position: relative; box-sizing: border-box; flex-shrink: 0;">
           <span style="font-size: 0.85rem; font-weight: 800; line-height: 1; text-align: center; display: inline-flex; align-items: center; justify-content: center;">${d.dia}</span>
-          ${isDone ? `<span style="display: flex; align-items: center; justify-content: center; width: 10px; height: 10px; position: absolute; bottom: 2px; color: var(--accent-gold);">${renderIcon('ui_check')}</span>` : ''}
+          ${isDone ? `<span style="display: flex; align-items: center; justify-content: center; width: 10px; height: 10px; position: absolute; bottom: 2px; color: #ffffff;">${renderIcon('ui_check')}</span>` : ''}
         </button>
       `;
     }).join('');
@@ -248,7 +248,7 @@ export class NovenaModalComponent {
       </div>
 
       <!-- Tarjeta del Día Seleccionado -->
-      <div class="crystal-card" dir="${isLangRTL ? 'rtl' : 'ltr'}" style="background: var(--glass-surface-2); border: 1.5px solid var(--glass-border-highlight); border-radius: var(--radius-xl); padding: 20px 18px; margin-bottom: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); box-sizing: border-box;">
+      <div class="crystal-card" dir="${isLangRTL ? 'rtl' : 'ltr'}" style="background: var(--glass-surface-2); border: 1.5px solid var(--glass-border-highlight); border-radius: var(--radius-xl); padding: 20px 18px; margin-bottom: 20px; box-shadow: var(--glass-shadow-md); box-sizing: border-box;">
         <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid var(--glass-border); padding-bottom: 10px; flex-wrap: wrap;">
           <div style="display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0;">
             <span style="display: inline-flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(135deg, var(--accent-gold), #d97706); color: #111; font-weight: 900; font-size: 0.75rem; letter-spacing: 0.04em; padding: 4px 12px; border-radius: var(--radius-full); white-space: nowrap; flex-shrink: 0; line-height: 1; box-shadow: 0 0 10px var(--accent-gold-glow); box-sizing: border-box;">
