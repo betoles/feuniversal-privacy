@@ -1,10 +1,14 @@
 {
   "metadata": {
     "libroKey": "dhammapada",
-    "titulo": "The Dhammapada of Buddha (The Path of the Sacred Dhamma)",
+    "titulo": "The Dhammapada (The Path of the Sacred Dhamma · धम्मपद)",
     "totalCapitulos": 26,
+    "idiomasDisponibles": [
+      "en"
+    ],
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Khuddaka Nikaya (Pali Canon / Tipitaka) · English Translation by Acharya Buddharakkhita",
+    "completitud": "100% Exhaustive · 26 Canonical Vaggas Complete",
     "idioma": "en",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"

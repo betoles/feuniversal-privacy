@@ -1,10 +1,14 @@
 {
   "metadata": {
     "libroKey": "gita",
-    "titulo": "The Srimad Bhagavad Gita (The Song of the Lord Krishna)",
+    "titulo": "The Bhagavad Gita (The Song of the Divine Lord · श्रीमद्भगवद्गीता)",
     "totalCapitulos": 18,
+    "idiomasDisponibles": [
+      "en"
+    ],
     "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Mahabharata (Bhishma Parva) · Classical Sanskrit & English Devotional Translation",
+    "completitud": "100% Exhaustive · 18 Canonical Yogas Complete",
     "idioma": "en",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
