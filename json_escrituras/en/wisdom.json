@@ -1,36 +1,21 @@
 {
   "metadata": {
     "libroKey": "proverbs",
-    "titulo": "Wisdom Literature & Proverbs of Solomon",
+    "titulo": "The Book of Proverbs of Solomon (Mishlei)",
     "totalCapitulos": 31,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "en"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustive · Complete Masoretic Hebrew Text (31/31 Chapters / 915 Verses)",
     "idioma": "en",
+    "fuenteOficial": "Masoretic Text (Leningrad / Aleppo Codex) · King James Version (KJV)",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
   },
   "capitulos": [
     {
       "id": "proverbs_chapter_1",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 1",
@@ -48,7 +33,7 @@
     },
     {
       "id": "proverbs_chapter_2",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 2",
@@ -66,7 +51,7 @@
     },
     {
       "id": "proverbs_chapter_3",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 3",
@@ -84,7 +69,7 @@
     },
     {
       "id": "proverbs_chapter_4",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 4",
@@ -102,7 +87,7 @@
     },
     {
       "id": "proverbs_chapter_5",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 5",
@@ -120,7 +105,7 @@
     },
     {
       "id": "proverbs_chapter_6",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 6",
@@ -138,7 +123,7 @@
     },
     {
       "id": "proverbs_chapter_7",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 7",
@@ -156,7 +141,7 @@
     },
     {
       "id": "proverbs_chapter_8",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 8",
@@ -174,7 +159,7 @@
     },
     {
       "id": "proverbs_chapter_9",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 9",
@@ -192,7 +177,7 @@
     },
     {
       "id": "proverbs_chapter_10",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 10",
@@ -210,7 +195,7 @@
     },
     {
       "id": "proverbs_chapter_11",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 11",
@@ -228,7 +213,7 @@
     },
     {
       "id": "proverbs_chapter_12",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 12",
@@ -246,7 +231,7 @@
     },
     {
       "id": "proverbs_chapter_13",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 13",
@@ -264,7 +249,7 @@
     },
     {
       "id": "proverbs_chapter_14",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 14",
@@ -282,7 +267,7 @@
     },
     {
       "id": "proverbs_chapter_15",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 15",
@@ -300,7 +285,7 @@
     },
     {
       "id": "proverbs_chapter_16",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 16",
@@ -318,7 +303,7 @@
     },
     {
       "id": "proverbs_chapter_17",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 17",
@@ -336,7 +321,7 @@
     },
     {
       "id": "proverbs_chapter_18",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 18",
@@ -354,7 +339,7 @@
     },
     {
       "id": "proverbs_chapter_19",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 19",
@@ -372,7 +357,7 @@
     },
     {
       "id": "proverbs_chapter_20",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 20",
@@ -390,7 +375,7 @@
     },
     {
       "id": "proverbs_chapter_21",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 21",
@@ -408,7 +393,7 @@
     },
     {
       "id": "proverbs_chapter_22",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 22",
@@ -426,7 +411,7 @@
     },
     {
       "id": "proverbs_chapter_23",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 23",
@@ -444,7 +429,7 @@
     },
     {
       "id": "proverbs_chapter_24",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 24",
@@ -462,7 +447,7 @@
     },
     {
       "id": "proverbs_chapter_25",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 25",
@@ -480,7 +465,7 @@
     },
     {
       "id": "proverbs_chapter_26",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 26",
@@ -498,7 +483,7 @@
     },
     {
       "id": "proverbs_chapter_27",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 27",
@@ -516,7 +501,7 @@
     },
     {
       "id": "proverbs_chapter_28",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 28",
@@ -534,7 +519,7 @@
     },
     {
       "id": "proverbs_chapter_29",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 29",
@@ -552,7 +537,7 @@
     },
     {
       "id": "proverbs_chapter_30",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 30",
@@ -570,7 +555,7 @@
     },
     {
       "id": "proverbs_chapter_31",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Libro de Proverbios de Salomón (Mishlei)",
       "libroKey": "proverbs",
       "capitulo": "Capítulo 31",
