@@ -1,28 +1,14 @@
 {
   "metadata": {
     "libroKey": "epistles",
-    "titulo": "Las Epístolas Apostólicas y Hechos de los Apóstoles",
+    "titulo": "Las Epístolas Apostólicas del Nuevo Testamento (Romanos a Judas)",
     "totalCapitulos": 121,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "es"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idiomaLiturgicoOriginal": "Griego Koiné (Ἑλληνιστική Κοινή) · Latín Vulgata",
+    "fuenteOficial": "Biblia Reina-Valera (Edición 1909) · Textus Receptus",
+    "completitud": "100% Exhaustivo · 21 Epístolas Canónicas Íntegras (121 Capítulos / 2,767 Versículos)",
     "idioma": "es",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
