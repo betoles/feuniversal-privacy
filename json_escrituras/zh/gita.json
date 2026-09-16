@@ -18,7 +18,7 @@
       "capitulo": "Capítulo 1: Arjuna Vishada Yoga (El Yoga del Desaliento de Arjuna)",
       "capituloNumero": 1,
       "seccion": "Mahabharata · El Desaliento y la Duda de Arjuna",
-      "versiculoNumero": "1-1",
+      "versiculoNumero": "1-46",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "धृतराष्ट्र उवाच। धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
@@ -35,13 +35,13 @@
       "capitulo": "Capítulo 2: Sankhya Yoga (El Yoga del Conocimiento y la Sabiduría)",
       "capituloNumero": 2,
       "seccion": "Mahabharata · El Yoga del Conocimiento y la Acción Desapegada",
-      "versiculoNumero": "1-2",
+      "versiculoNumero": "1-72",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि। तथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही॥",
       "foneticaLiturgica": "Karmaṇyevādhikāraste mā phaleṣu kadācana | Mā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi || Vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro'parāṇi | Tathā śarīrāṇi vihāya jīrṇānyanyāni saṁyāti navāni dehī ||",
       "traducciones": {
-        "zh": "47. '你有权履行规定的义务，但你无权获得行动的成果。永远不要认为你的活动结果是由你自己造成的，也永远不要执着于不履行你的职责。"
+        "zh": "47. 你有权履行规定的义务，但你无权获得行动的成果。永远不要认为你的活动结果是由你自己造成的，也永远不要执着于不履行你的职责。\n22. 正如一个人脱下旧衣服、换上新衣服，灵魂也离开旧身体、进入新的身体。"
       }
     },
     {
@@ -52,13 +52,13 @@
       "capitulo": "Capítulo 3: Karma Yoga (El Yoga de la Acción Sagrada Desinteresada)",
       "capituloNumero": 3,
       "seccion": "Mahabharata · El Yoga de la Acción Sagrada Desinteresada",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1-43",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः। शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः॥ यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः। तदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर॥",
       "foneticaLiturgica": "Niyataṁ kuru karma tvaṁ karma jyāyo hyakarmaṇaḥ | Śarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ || Yajñārthātkarmaṇo'nyatra loko'yaṁ karmabandhanaḥ | Tadarthaṁ karma kaunteya muktasaṅgaḥ samācara ||",
       "traducciones": {
-        "zh": "8.“履行你规定的职责，因为这样做比不工作好。”不工作的话，连身体都无法维持。”"
+        "zh": "8. 履行你规定的职责，因为这样做比不工作好。不工作的话，连身体都无法维持。\n9. 在这个世界上，除了为祭祀（毗湿奴）而做的行为之外，一切行为都是束缚的原因。因此，昆缇之子啊，你要为祭祀而履行你的规定职责，摆脱一切执着。"
       }
     },
     {
@@ -69,13 +69,13 @@
       "capitulo": "Capítulo 4: Jnana-Karma-Sannyasa Yoga (El Yoga de la Sabiduría Divina)",
       "capituloNumero": 4,
       "seccion": "Mahabharata · El Yoga de la Sabiduría Espiritual y el Descenso del Avatar",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1-42",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥ परित्राणाय साधूनां विनाशाय च दुष्कृताम्। धर्मसंस्थापनार्थाय सम्भवामि युगे युगे॥",
       "foneticaLiturgica": "Yadā yadā hi dharmasya glānirbhavati bhārata | Abhyutthānamadharmasya tadātmānaṁ sṛjāmyaham || Paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām | Dharmasaṁsthāpanārthāya sambhavāmi yuge yuge ||",
       "traducciones": {
-        "zh": "7.“每当正义减少、不正义增加时，婆罗多啊，那时我就会显现自己。”"
+        "zh": "7. 每当正义减少、不正义增加时，婆罗多啊，那时我就会显现自己。\n8. 为了保护善良的人，消灭邪恶的人，并重建正义的原则，我在每一个时代显现。"
       }
     },
     {
@@ -86,13 +86,13 @@
       "capitulo": "Capítulo 5: Karma-Sannyasa Yoga (El Yoga de la Renuncia a la Acción)",
       "capituloNumero": 5,
       "seccion": "Mahabharata · El Yoga de la Renuncia a los Frutos de la Acción",
-      "versiculoNumero": "1-5",
+      "versiculoNumero": "1-29",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः। लिप्यते न स पापेन पद्मपत्रमिवाम्भसा॥ कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि। योगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये॥",
       "foneticaLiturgica": "Brahmaṇyādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ | Lipyate na sa pāpena padmapatramivāmbhasā || Kāyena manasā buddhyā kevalairindriyairapi | Yoginaḥ karma kurvanti saṅgaṁ tyaktvātmaśuddhaye ||",
       "traducciones": {
-        "zh": "10. “一个人不执着地履行自己的职责，将结果交给至尊主，就不会受到罪恶行为的影响，就像荷叶不受水的影响一样。”"
+        "zh": "10. 一个人不执着地履行自己的职责，将结果交给至尊主，就不会受到罪恶行为的影响，就像荷叶不受水的影响一样。\n11. 瑜伽士们放弃执着，用身体、心意、智力，甚至只用感官来行动，以净化自己。"
       }
     },
     {
@@ -103,13 +103,13 @@
       "capitulo": "Capítulo 6: Dhyana Yoga (El Yoga de la Meditación)",
       "capituloNumero": 6,
       "seccion": "Mahabharata · El Yoga de la Meditación Profunda y el Dominio de la Mente",
-      "versiculoNumero": "1-6",
+      "versiculoNumero": "1-47",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम्। ततस्ततो नियम्यैतदात्मन्येव वशं नयेत्॥ प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम्। उपैति शान्तरजसं ब्रह्मभूतमकल्मषम्॥",
       "foneticaLiturgica": "Yato yato niścarati manaścañcalamasthiram | Tatastato niyamyaitadātmanyeva vaśaṁ nayet || Praśāntamanasaṁ hyenaṁ yoginaṁ sukhamuttamam | Upaiti śāntarajasaṁ brahmabhūtamakalmaṣam ||",
       "traducciones": {
-        "zh": "5、‘人必须以心解救自己，而不是贬低自己。头脑是受制约的灵魂的朋友，也是他的敌人。"
+        "zh": "26. 无论心意因为摇摆不定而游荡到哪里，都要把它撤回，并带回自我的控制之下。\n27. 这样的瑜伽士，心意平静，激情止息，远离罪恶，安住于梵，享受到最高的快乐。"
       }
     },
     {
@@ -120,13 +120,13 @@
       "capitulo": "Capítulo 7: Jnana-Vijnana Yoga (El Yoga del Conocimiento y la Comprensión)",
       "capituloNumero": 7,
       "seccion": "Mahabharata · El Conocimiento Supremo de la Realidad Absoluta",
-      "versiculoNumero": "1-7",
+      "versiculoNumero": "1-30",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च। अहङ्कार इतीयं मे भिन्ना प्रकृतिरष्टधा॥ अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम्। जीवभूतां महाबाहो ययेदं धार्यते जगत्॥",
       "foneticaLiturgica": "Bhūmirāpo'nalo vāyuḥ khaṁ mano buddhireva ca | Ahaṅkāra itīyaṁ me bhinnā prakṛtiraṣṭadhā || Apareyamitastvanyāṁ prakṛtiṁ viddhi me parām | Jīvabhūtāṁ mahābāho yayedaṁ dhāryate jagat ||",
       "traducciones": {
-        "zh": "7. 财富的征服者啊，没有任何真理能超越我。一切都取决于我，就像珍珠串在线上一样。"
+        "zh": "4. 土、水、火、风、以太、心意、智性、假我——这八种合起来构成了我分离出来的物质能量。\n5. 除了这些之外，强大的臂膀啊，还有另一种我的能量——高等能量，即构成这个宇宙中一切生物的灵魂。"
       }
     },
     {
@@ -137,13 +137,13 @@
       "capitulo": "Capítulo 8: Aksara-Brahma Yoga (El Yoga del Absoluto Imperecedero)",
       "capituloNumero": 8,
       "seccion": "Mahabharata · El Yoga del Absoluto Eterno e Imperecedero",
-      "versiculoNumero": "1-8",
+      "versiculoNumero": "1-28",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "ओमित्येकाक्षरं ब्रह्म व्याहरन्माममनुस्मरन्। यः प्रयाति त्यजन्देहं स याति परमां गतिम्॥ अनन्यचेताः सततं यो मां स्मरति नित्यशः। तस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः॥",
       "foneticaLiturgica": "Omityekākṣaraṁ brahma vyāharanmāmanusmaran | Yaḥ prayāti tyajandehaṁ sa yāti paramāṁ gatim || Ananyacetāḥ satataṁ yo māṁ smarati nityaśaḥ | Tasyāhaṁ sulabhaḥ pārtha nityayuktasya yoginaḥ ||",
       "traducciones": {
-        "zh": "5. 凡是在生命结束时离开身体而只记着我的人，立刻就获得了我的本性。这是毫无疑问的。"
+        "zh": "13. 在念诵神圣音节 ॐ（Om）——至高无上的字母组合——并记念我时，一个人如果这样离开身体，就一定能到达至高无上的目的地。\n14. 帕尔特啊，对于永远坚定地记念我、从不偏离的瑜伽士，我很容易就能达到。"
       }
     },
     {
@@ -154,13 +154,13 @@
       "capitulo": "Capítulo 9: Raja-Vidya-Raja-Guhya Yoga (El Yoga del Conocimiento Soberano y Secreto)",
       "capituloNumero": 9,
       "seccion": "Mahabharata · El Yoga de la Ciencia Soberana y el Misterio Secreto",
-      "versiculoNumero": "1-9",
+      "versiculoNumero": "1-34",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति। तदहं भक्त्युपहृतमश्नामि प्रयतात्मनः॥ यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्। यत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम्॥",
       "foneticaLiturgica": "Patraṁ puṣpaṁ phalaṁ toyaṁ yo me bhaktyā prayacchati | Tadahaṁ bhaktyupahṛtamaśnāmi prayatātmanaḥ || Yatkaroṣi yadaśnāsi yadjuhoṣi dadāsi yat | Yattapasyasi kaunteya tatkuruṣva madarpaṇam ||",
       "traducciones": {
-        "zh": "26.“如果有人带着爱和奉献给我一片叶子、一朵花、水果或水，我会接受。”"
+        "zh": "26. 如果有人带着爱和奉献给我一片叶子、一朵花、水果或水，我会接受。\n27. 昆缇之子啊，无论你做什么、吃什么、供奉什么、布施什么、做什么苦行，都要把它作为奉献献给我。"
       }
     },
     {
@@ -171,13 +171,13 @@
       "capitulo": "Capítulo 10: Vibhuti Yoga (El Yoga de las Manifestaciones Divinas)",
       "capituloNumero": 10,
       "seccion": "Mahabharata · El Yoga de las Opulencias y Manifestaciones Divinas",
-      "versiculoNumero": "1-10",
+      "versiculoNumero": "1-42",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
-      "textoOriginal": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः। अहमादिश्च मध्यं च भूतानामन्त एव च॥ आ Fallbacks: 0 | यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा। तत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम्॥",
+      "textoOriginal": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः। अहमादिश्च मध्यं च भूतानामन्त एव च॥ यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा। तत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम्॥",
       "foneticaLiturgica": "Ahamātmā guḍākeśa sarvabhūtāśayasthitaḥ | Ahamādiśca madhyaṁ ca bhūtānāmanta eva ca || Yadyadvibhūtimatsattvaṁ śrīmadūrjitameva vā | Tattadevāvagaccha tvaṁ mama tejo'ṁśasambhavam ||",
       "traducciones": {
-        "zh": "20. “我是超灵，古达克沙啊，坐在所有生物体的心中。我是一切众生的开始、中间和终结。"
+        "zh": "20. 我是超灵，古达克沙啊，坐在所有生物体的心中。我是一切众生的开始、中间和终结。\n41. 古达克沙啊，要知道一切辉煌、美丽或荣耀的事物都只是我光辉的一部分。"
       }
     },
     {
@@ -188,13 +188,13 @@
       "capitulo": "Capítulo 11: Visvarupa-Darsana Yoga (El Yoga de la Visión de la Forma Cósmica)",
       "capituloNumero": 11,
       "seccion": "Mahabharata · La Visión de la Forma Cósmica Universal",
-      "versiculoNumero": "1-11",
+      "versiculoNumero": "1-55",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "कालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्ततः। ऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः॥",
       "foneticaLiturgica": "Kālo'smi lokakṣayakṛtpravṛddho lokānsamāhartumiha pravṛttaḥ | Ṛte'pi tvāṁ na bhaviṣyanti sarve ye'vasthitāḥ pratyanīkeṣu yodhāḥ ||",
       "traducciones": {
-        "zh": "32.“我是时间，世界的伟大毁灭者……所以起来吧。”准备战斗并赢得荣耀。”"
+        "zh": "32. 我是时间，世界的伟大毁灭者。即使没有你，所有在敌对阵列中站立的战士也都将不复存在。因此，起来吧，准备战斗并赢得荣耀。"
       }
     },
     {
@@ -205,13 +205,13 @@
       "capitulo": "Capítulo 12: Bhakti Yoga (El Yoga de la Devoción Suprema)",
       "capituloNumero": 12,
       "seccion": "Mahabharata · El Yoga de la Devoción y el Amor Supremo",
-      "versiculoNumero": "1-12",
+      "versiculoNumero": "1-20",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "मय्यावेश्य मनो ये मां नित्ययुक्ता उपासते। श्रद्धया परयोपेतास्ते मे युक्ततमा मताः॥ अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च। निर्ममो निरहङ्कारः समदुःखसुखः क्षमी॥",
       "foneticaLiturgica": "Mayyāveśya mano ye māṁ nityayuktā upāsate | Śraddhayā parayopetāste me yuktatamā matāḥ || Adveṣṭā sarvabhūtānāṁ maitraḥ karuṇa eva ca | Nirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī ||",
       "traducciones": {
-        "zh": "2. “那些专注于我的形体并始终以伟大和超然的信仰来崇拜我的人被我认为是最完美的。”"
+        "zh": "2. 那些专注于我的形体并始终以伟大和超然的信仰来崇拜我的人被我认为是最完美的。\n13. 不嫉妒任何人，对一切众生友善、慈悲，不执著，不自大，对苦乐平等，宽容。"
       }
     },
     {
@@ -222,13 +222,13 @@
       "capitulo": "Capítulo 13: Ksetra-Ksetrajna Vibhaga Yoga (El Yoga de la Distinción del Campo y el Conocedor)",
       "capituloNumero": 13,
       "seccion": "Mahabharata · La Distinción entre el Campo y el Conocedor del Campo",
-      "versiculoNumero": "1-13",
+      "versiculoNumero": "1-35",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते। एतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः॥ क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत। क्षेत्रक्षेत्रज्ञयोर्ज्ञानं यत्तज्ज्ञानं मतं मम॥",
       "foneticaLiturgica": "Idaṁ śarīraṁ kaunteya kṣetramityabhidhīyate | Etadyo vetti taṁ prāhuḥ kṣetrajña iti tadvidaḥ || Kṣetrajñaṁ cāpi māṁ viddhi sarvakṣetreṣu bhārata | Kṣetrakṣetrajñayorjñānaṁ yattajjñānaṁ mataṁ mama ||",
       "traducciones": {
-        "zh": "1. “琨提之子啊，这个身体被称为场，而了解这个身体的人被称为场的知者。”"
+        "zh": "1. 昆缇之子啊，这个身体被称为场，而了解这个身体的人被称为场的知者。\n2. 婆罗多啊，还要知道，我是所有领域中的知者。对领域和领域知者的知识，我认为就是真正的知识。"
       }
     },
     {
@@ -239,13 +239,13 @@
       "capitulo": "Capítulo 14: Gunatraya-Vibhaga Yoga (El Yoga de las Tres Cualidades de la Naturaleza)",
       "capituloNumero": 14,
       "seccion": "Mahabharata · El Yoga de las Tres Modalidades de la Naturaleza (Gunas)",
-      "versiculoNumero": "1-14",
+      "versiculoNumero": "1-27",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः। निबध्नन्ति महाबाहो देहे देहिनमव्ययम्॥ तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम्। सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ॥",
       "foneticaLiturgica": "Sattvaṁ rajastama iti guṇāḥ prakṛtisambhavāḥ | Nibadhnanti mahābāho dehe dehinamavyayam || Tatra sattvaṁ nirmalatvāt prakāśakamanāmayam | Sukhasaṅgena badhnāti jñānasaṅgena cānagha ||",
       "traducciones": {
-        "zh": "5.“物质自然由三种形态组成——善良、激情和愚昧。”"
+        "zh": "5. 物质自然由三种形态组成——善良、激情和愚昧。强大的臂膀啊，当永恒的生物与自然接触时，这些形态就会束缚他。\n6. 无罪者啊，善良形态因为清净无染，能照亮一切。它通过执着于快乐和知识来束缚人。"
       }
     },
     {
@@ -256,13 +256,13 @@
       "capitulo": "Capítulo 15: Purusottama Yoga (El Yoga del Ser Supremo)",
       "capituloNumero": 15,
       "seccion": "Mahabharata · El Yoga de la Persona Suprema y el Árbol Cósmico",
-      "versiculoNumero": "1-15",
+      "versiculoNumero": "1-20",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्। छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्॥ द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च। क्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते॥ उत्तमः पुरुषस्त्वन्यः परमात्मेत्युदाहृतः।",
       "foneticaLiturgica": "Ūrdhvamūlamadhaḥśākhamaśvatthaṁ prāhuravyayam | Chandāṁsi yasya parṇāni yastaṁ veda sa vedavit || Dvāvimau puruṣau loke kṣaraścākṣara eva ca | Kṣaraḥ sarvāṇi bhūtāni kūṭastho'kṣara ucyate || Uttamaḥ puruṣastvanyaḥ paramātmetyudāhṛtaḥ ||",
       "traducciones": {
-        "zh": "1.据说有一种不朽的榕树，它的根向上，枝向下。"
+        "zh": "1. 据说有一种不朽的榕树，它的根向上，枝向下，叶子是吠陀赞歌。知道这棵树的人就是吠陀的知者。\n16. 在这个世界上有两种生物：会毁灭的和不会毁灭的。所有生物都是可毁灭的，而个体灵魂则是不可毁灭的。\n17. 除了这些之外，还有至高无上的存在，即被称为超灵的至尊人格。"
       }
     },
     {
@@ -273,13 +273,13 @@
       "capitulo": "Capítulo 16: Daivasura-Sampad-Vibhaga Yoga (El Yoga de la División de las Naturalezas Divina y Demoníaca)",
       "capituloNumero": 16,
       "seccion": "Mahabharata · La Distinción entre la Naturaleza Divina y Demoníaca",
-      "versiculoNumero": "1-16",
+      "versiculoNumero": "1-24",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "अभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः। दानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्॥ अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्। दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्॥",
       "foneticaLiturgica": "Abhayaṁ sattvasaṁśuddhirjñānayogavyavasthitiḥ | Dānaṁ damaśca yajñaśca svādhyāyastapa ārjavam || Ahiṁsā satyamakrodhastyāgaḥ śāntirapaiśunam | Dayā bhūteṣvaloluptvaṁ mārdavaṁ hrīracāpalam ||",
       "traducciones": {
-        "zh": "1.“无畏、净化自己的存在、培养灵性知识、慈善、自我控制……这些都是神圣的品质。”"
+        "zh": "1. 无畏、净化自己的存在、培养灵性知识、慈善、自我控制、举行祭祀、研习经典、苦行、朴素——这些都是神圣的品质。\n2. 非暴力、诚实、无嗔怒、弃绝、平静、不挑拨、对一切众生慈悲、不贪婪、温和、谦逊、稳重。"
       }
     },
     {
@@ -290,13 +290,13 @@
       "capitulo": "Capítulo 17: Sraddhatraya-Vibhaga Yoga (El Yoga de las Tres Divisiones de la Fe)",
       "capituloNumero": 17,
       "seccion": "Mahabharata · Las Tres Formas de la Fe y la Verdad (Om Tat Sat)",
-      "versiculoNumero": "1-17",
+      "versiculoNumero": "1-28",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "त्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा। सात्त्विकी राजसी चैव तामसी चेति तां शृणु॥ ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः। ब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा॥",
       "foneticaLiturgica": "Trividhā bhavati śraddhā dehināṁ sā svabhāvajā | Sāttvikī rājasī caiva tāmasī ceti tāṁ śṛṇu || Oṁ tatsaditi nirdeśo brahmaṇastrividhaḥ smṛtaḥ | Brāhmaṇāstena vedāśca yajñāśca vihitāḥ purā ||",
       "traducciones": {
-        "zh": "23.“从创世之初，OM TAT SAT 三个词就被用来表示至高无上的绝对真理。”"
+        "zh": "2. 根据生物的先天本性，信仰可以分为三种：善良的、激情的和愚昧的。现在听我讲述。\n23. 从创世之初，OM TAT SAT 三个词就被用来表示至高无上的绝对真理。婆罗门、吠陀和祭祀都是由此而设立的。"
       }
     },
     {
@@ -307,13 +307,13 @@
       "capitulo": "Capítulo 18: Moksa-Sannyasa Yoga (El Yoga de la Liberación por la Renuncia)",
       "capituloNumero": 18,
       "seccion": "Mahabharata · La Liberación Suprema por la Renuncia y la Gracia",
-      "versiculoNumero": "1-18",
+      "versiculoNumero": "1-78",
       "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
       "dir": "ltr",
       "textoOriginal": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज। अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥ यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः। तत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम॥",
       "foneticaLiturgica": "Sarvadharmānparityajya māmekaṁ śaraṇaṁ vraja | Ahaṁ tvāṁ sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ || Yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanurdharaḥ | Tatra śrīrvijayo bhūtirdhruvā nītirmatirmama ||",
       "traducciones": {
-        "zh": "65.‘永远想着我，成为我的奉献者，崇拜我并向我致敬。因此，你一定会来到我这里。\n66.“放弃所有宗教信仰，臣服于我。”我将把你从所有罪恶的反应中拯救出来。不要害怕。"
+        "zh": "66. 放弃一切形式的宗教，只是臣服于我。我将把你从一切罪恶反应中拯救出来。不要害怕。\n78. 无论瑜伽之主克里希那和射手阿周那在哪里，那里就一定有财富、胜利、非凡的力量和道德。这是我的看法。"
       }
     }
   ]
