@@ -3,19 +3,29 @@
  * FeUniversal - Faith & Prayers
  * 
  * Soporte de Lectura Continua Fluida ◀ / ▶, Motor de Búsqueda Indexado (FTS),
- * Renderizado Exhaustivo Versículo por Versículo y Resaltado Dinámico.
+ * Renderizado Exhaustivo Versículo por Versículo, Resaltado Dinámico y Selector Universal.
  */
 
-import { SCRIPTURES_CATALOG, getAdjacentScriptures, getScriptureById, getScriptureBookTitle, getScriptureSection, getScriptureOrigLang, formatChapterLabel } from '../data/scriptures-catalog.js?v=10.8.5';
-import { ScriptureSearchEngine } from '../services/scripture-search-engine.js?v=10.8.5';
-import { ScriptureCorpusService } from '../services/scripture-corpus-service.js?v=10.8.5';
-import { StorageService } from '../services/storage-service.js?v=10.8.5';
-import { SacredScripturePicker } from './sacred-scripture-picker.js?v=10.8.5';
-import { SocialShareComponent } from './social-share.js?v=10.8.5';
-import { TranslationReportModalComponent } from './translation-report-modal.js?v=10.8.5';
-import { cleanScriptureTextNLP } from '../utils/text-sanitizer.js?v=10.8.5';
-import { renderIcon } from './icons.js?v=10.8.5';
-import { t, isRTL } from '../data/i18n.js?v=10.8.5';
+import { 
+  SCRIPTURES_CATALOG, 
+  SACRED_BOOKS_INDEX,
+  getAdjacentScriptures, 
+  getScriptureById, 
+  getScripturesByBook,
+  getScriptureBookTitle, 
+  getScriptureSection, 
+  getScriptureOrigLang, 
+  formatChapterLabel 
+} from '../data/scriptures-catalog.js?v=10.8.6';
+import { ScriptureSearchEngine } from '../services/scripture-search-engine.js?v=10.8.6';
+import { ScriptureCorpusService } from '../services/scripture-corpus-service.js?v=10.8.6';
+import { StorageService } from '../services/storage-service.js?v=10.8.6';
+import { SacredScripturePicker } from './sacred-scripture-picker.js?v=10.8.6';
+import { SocialShareComponent } from './social-share.js?v=10.8.6';
+import { TranslationReportModalComponent } from './translation-report-modal.js?v=10.8.6';
+import { cleanScriptureTextNLP } from '../utils/text-sanitizer.js?v=10.8.6';
+import { renderIcon } from './icons.js?v=10.8.6';
+import { t, isRTL } from '../data/i18n.js?v=10.8.6';
 
 export class ScripturesViewComponent {
   constructor() {
@@ -53,10 +63,24 @@ export class ScripturesViewComponent {
   }
 
   getDefaultScriptureForUser() {
+    // 1. Revisar si el usuario guardó previamente una escritura específica
+    if (typeof window !== 'undefined' && window.localStorage) {
+      try {
+        const savedId = window.localStorage.getItem('feuniversal_current_scripture_id');
+        if (savedId) {
+          const found = getScriptureById(savedId);
+          if (found) {
+            this.hasUserManuallySelected = true;
+            return found;
+          }
+        }
+      } catch (e) { /* ignore */ }
+    }
+
     const prefs = StorageService.getPreferences();
     const activas = (prefs && prefs.tradicionesActivas) || [];
     
-    // Auto-detectar la escritura de la tradición del usuario
+    // 2. Auto-detectar la escritura de la tradición del usuario
     if (activas.length > 0) {
       for (const trad of activas) {
         const found = ScripturesViewComponent.getScriptureForTradition(trad);
@@ -74,13 +98,23 @@ export class ScripturesViewComponent {
     }
   }
 
+  openBook(bookKey, chapterNum = 1) {
+    const chapters = getScripturesByBook(bookKey);
+    if (chapters && chapters.length > 0) {
+      const target = (typeof chapterNum === 'number' && chapterNum > 0 && chapterNum <= chapters.length)
+        ? (chapters[chapterNum - 1] || chapters[0])
+        : chapters[0];
+      this.navigateToScripture(target, null, true);
+    }
+  }
+
   render() {
     if (!this.container) return;
 
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
 
-    // Sincronizar automáticamente si la escritura actual no pertenece a las tradiciones activas del usuario
+    // Sincronizar automáticamente si la escritura actual no ha sido elegida manualmente por el usuario
     if (!this.hasUserManuallySelected) {
       this.currentScripture = this.getDefaultScriptureForUser();
     }
@@ -96,7 +130,7 @@ export class ScripturesViewComponent {
         </p>
 
         <!-- MOTOR DE BÚSQUEDA INDEXADO FTS (CITAS & VERSÍCULOS EN TIEMPO REAL) -->
-        <div class="scripture-controls-wrap" style="margin-bottom: 12px;">
+        <div class="scripture-controls-wrap" style="margin-bottom: 12px; position: relative;">
           <div class="crystal-card" style="padding: 8px 14px; display: flex; align-items: center; gap: 10px; background: var(--glass-inset); border: 1px solid var(--glass-border); border-radius: var(--radius-md);">
             <span style="color: var(--accent-cyan); display: flex; align-items: center;">${renderIcon('ui_search')}</span>
             <input type="text" id="input-search-scriptures" placeholder="${t('scriptures_search_placeholder', lang)}" style="flex: 1; background: transparent; border: none; outline: none; color: var(--text-primary); font-family: var(--font-main); font-size: 0.85rem;" value="${this.searchQuery}">
@@ -107,7 +141,7 @@ export class ScripturesViewComponent {
           <div id="search-results-dropdown" style="display: none; position: absolute; top: calc(100% + 6px); left: 0; right: 0; z-index: 50; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: var(--radius-md); max-height: 280px; overflow-y: auto; padding: 6px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"></div>
         </div>
 
-        <!-- CÁPSULA TÁCTIL GLASSMORPHIC DE ESCRITURAS (CERO DESBORDAMIENTOS) -->
+        <!-- CÁPSULA TÁCTIL GLASSMORPHIC DE ESCRITURAS (ABRE LA GRAN BIBLIOTECA) -->
         <div class="scripture-controls-wrap">
           <button type="button" id="btn-open-scripture-picker" class="hud-sound-pill" style="width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; background: var(--glass-surface-2); border: 1px solid var(--glass-border); border-radius: var(--radius-md); color: var(--text-primary); cursor: pointer; box-sizing: border-box; text-align: left; transition: all var(--transition-fast);">
             <span style="display: flex; align-items: center; gap: 10px; min-width: 0; overflow: hidden;">
@@ -139,7 +173,6 @@ export class ScripturesViewComponent {
     const lines = cleanedText.split('\n').map(l => l.trim()).filter(Boolean);
 
     return lines.map((line, idx) => {
-      // Detectar si la línea empieza con un número de versículo (ej. "1.", "255.", "47.")
       const match = line.match(/^(\d+)\.\s*(.+)$/);
       let vNum = idx + 1;
       let vContent = line;
@@ -178,64 +211,82 @@ export class ScripturesViewComponent {
         
         <!-- BARRA SUPERIOR DE NAVEGACIÓN SECUENCIAL (LECTURA CONTINUA) -->
         <div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 6px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px dashed var(--glass-border); width: 100%; box-sizing: border-box;">
-          <button type="button" id="btn-prev-chapter-top" class="btn-crystal btn-nav-chapter ${adj.prev ? '' : 'disabled'}" style="padding: 7px 10px; font-size: 0.76rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 38px; min-width: 0; white-space: nowrap; ${adj.prev ? 'cursor: pointer;' : 'opacity: 0.35; pointer-events: none;'}" title="${t('scriptures_title_prev_chap', lang)}">
-            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; flex-shrink: 0;"><polyline points="15 18 9 12 15 6"></polyline></svg>
-            <span style="overflow: hidden; text-overflow: ellipsis;">${t('scriptures_previous', lang)}</span>
-          </button>
-
-          <button type="button" id="btn-toc-quick" class="hud-pill dot-gold" style="font-size: 0.72rem; font-weight: 800; padding: 6px 10px; cursor: pointer; border: 1px solid rgba(234,179,8,0.4); white-space: nowrap; justify-self: center;" title="${t('scriptures_title_all_chaps', lang)}">
-            <span>${chapterProgressText}</span>
-            <span style="font-size: 0.68rem; opacity: 0.8; margin-left: 4px;">▼</span>
-          </button>
-
-          <button type="button" id="btn-next-chapter-top" class="btn-crystal btn-nav-chapter ${adj.next ? '' : 'disabled'}" style="padding: 7px 10px; font-size: 0.76rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 38px; min-width: 0; white-space: nowrap; ${adj.next ? 'cursor: pointer;' : 'opacity: 0.35; pointer-events: none;'}" title="${t('scriptures_title_next_chap', lang)}">
-            <span style="overflow: hidden; text-overflow: ellipsis;">${t('scriptures_next', lang)}</span>
-            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; flex-shrink: 0;"><polyline points="9 18 15 12 9 6"></polyline></svg>
-          </button>
-        </div>
-
-        <!-- Cabecera del Capítulo -->
-        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px dashed var(--glass-border);">
-          <div>
-            <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 4px;">
-              <span class="hud-pill dot-gold" style="font-size: 0.70rem; font-weight: 800;">${getScriptureBookTitle(item, lang).toUpperCase()}</span>
-              ${getScriptureSection(item, lang) ? `<span class="hud-pill dot-cyan" style="font-size: 0.65rem;">${getScriptureSection(item, lang)}</span>` : ''}
-            </div>
-            <h3 style="font-family: var(--font-sacred); font-size: 1.25rem; margin: 4px 0 2px; color: var(--text-primary); line-height: 1.35;">${formatChapterLabel(item, lang)}</h3>
-            <div style="font-size: 0.76rem; color: var(--accent-cyan); font-weight: 700;">${t('scriptures_full_passage', lang)}</div>
+          <div style="min-width: 0; display: flex; justify-content: flex-start;">
+            <button type="button" id="btn-prev-chapter-top" class="btn-crystal ${adj.prev ? '' : 'disabled'}" style="padding: 8px 10px; font-size: 0.78rem; font-weight: 700; max-width: 100%; display: inline-flex; align-items: center; gap: 5px; ${adj.prev ? 'cursor: pointer;' : 'opacity: 0.35; pointer-events: none;'}" title="${adj.prev ? (adj.prev.capitulo || adj.prev.libro) : ''}">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px; flex-shrink: 0;"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${t('scriptures_prev_short', lang)}</span>
+            </button>
           </div>
-          <div style="display: flex; gap: 6px; align-items: center;">
-            <button id="btn-share-scripture" class="btn-crystal btn-crystal-gold" style="padding: 7px 14px; font-size: 0.78rem; font-weight: 800; display: inline-flex; align-items: center; gap: 6px;">
-              <span style="display: flex;">${renderIcon('ui_share_nodes')}</span>
-              <span>${t('share_prayer', lang)}</span>
+
+          <!-- ÍNDICE RÁPIDO & PROGRESO DEL LIBRO -->
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 0 4px;">
+            <button type="button" id="btn-toc-quick" class="hud-sound-pill" style="cursor: pointer; padding: 4px 10px; border-radius: var(--radius-full); background: var(--glass-surface-2); border: 1px solid var(--glass-border); display: inline-flex; align-items: center; gap: 5px;">
+              <span style="display: flex; width: 12px; height: 12px; color: var(--accent-gold);">${renderIcon('nav_scriptures')}</span>
+              <span style="font-size: 0.72rem; font-weight: 800; color: var(--accent-gold); font-family: var(--font-mono);">${chapterProgressText}</span>
+            </button>
+          </div>
+
+          <div style="min-width: 0; display: flex; justify-content: flex-end;">
+            <button type="button" id="btn-next-chapter-top" class="btn-crystal ${adj.next ? '' : 'disabled'}" style="padding: 8px 10px; font-size: 0.78rem; font-weight: 700; max-width: 100%; display: inline-flex; align-items: center; gap: 5px; ${adj.next ? 'cursor: pointer;' : 'opacity: 0.35; pointer-events: none;'}" title="${adj.next ? (adj.next.capitulo || adj.next.libro) : ''}">
+              <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${t('scriptures_next_short', lang)}</span>
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px; flex-shrink: 0;"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </button>
           </div>
         </div>
 
-        <!-- CUADRÍCULA PARALELA DE LECTURA (1 COLUMNA EN MÓVIL / MODO ESPEJO 2 COLUMNAS EN IPAD & DESKTOP) -->
-        <div class="scripture-panes-wrapper">
-          <!-- MODO ESPEJO: TEXTO LITÚRGICO ORIGINAL (RTL/LTR) -->
-          <div class="pane-sacred" style="padding: 18px; background: rgba(0,0,0,0.25); border-radius: var(--radius-md); border: 1px solid var(--glass-border); box-sizing: border-box; width: 100%; min-width: 0;">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span style="font-size: 0.72rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.06em;">${t('scriptures_root_text', lang)}</span>
-              <span class="hud-pill dot-green" style="font-size: 0.68rem;">${getScriptureOrigLang(item, lang)}</span>
-            </div>
-            
-            <div style="direction: ${item.dir || 'ltr'}; font-family: 'Amiri', 'Cinzel', Georgia, serif; flex: 1;">
-              ${this.formatVersesHtml(item.textoOriginal, isOrigRTL)}
-            </div>
-
-            <!-- FONÉTICA LITÚRGICA -->
-            <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed var(--glass-border);">
-              <div style="font-size: 0.68rem; font-weight: 800; color: var(--accent-cyan); text-transform: uppercase; margin-bottom: 4px;">${t('scriptures_phonetics', lang)}</div>
-              <div style="font-family: var(--font-mono); font-size: 0.84rem; color: var(--text-secondary); line-height: 1.6;">
-                ${item.foneticaLiturgica || '—'}
-              </div>
+        <!-- CABECERA Y METADATOS DEL CAPÍTULO -->
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; gap: 8px;">
+          <div style="flex: 1; min-width: 0;">
+            <span class="hud-pill dot-gold" style="font-size: 0.70rem; font-weight: 800; margin-bottom: 6px; display: inline-block;">
+              ${getScriptureSection(item, lang)}
+            </span>
+            <h3 style="font-family: var(--font-sacred); font-size: 1.45rem; margin: 4px 0; color: var(--text-primary); line-height: 1.25;">
+              ${getScriptureBookTitle(item, lang)}: ${formatChapterLabel(item, lang)}
+            </h3>
+            <div style="font-size: 0.76rem; color: var(--accent-gold); font-weight: 700; letter-spacing: 0.04em;">
+              ${item.versiculoNumero ? `Versículos: ${item.versiculoNumero}` : ''}
             </div>
           </div>
 
-          <!-- TRADUCCIÓN CANÓNICA OFICIAL CON VERSÍCULOS NUMERADOS -->
-          <div class="pane-translation-block" style="padding: 18px; background: var(--glass-inset); border-radius: var(--radius-md); border: 1px solid var(--glass-border); box-sizing: border-box; width: 100%; min-width: 0;">
+          <div style="display: flex; gap: 6px; flex-shrink: 0;">
+            <button id="btn-share-scripture" class="btn-crystal" title="${t('share_prayer', lang)}" style="padding: 8px; border-radius: var(--radius-sm); color: var(--accent-gold); display: flex; align-items: center; justify-content: center;">
+              ${renderIcon('ui_share')}
+            </button>
+          </div>
+        </div>
+
+        <!-- CONTENEDOR EN PERGAMINO: IDIOMA LITÚRGICO ORIGINAL & TRADUCCIÓN CANÓNICA -->
+        <div style="display: flex; flex-direction: column; gap: 18px; margin: 18px 0;">
+          
+          <!-- TEXTO SAGRADO ORIGINAL -->
+          <div class="crystal-card" style="padding: 16px; background: rgba(0, 0, 0, 0.25); border: 1px solid rgba(234, 179, 8, 0.2); border-radius: var(--radius-md);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; border-bottom: 1px dashed var(--glass-border); padding-bottom: 6px;">
+              <span style="font-size: 0.72rem; font-weight: 800; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.06em;">
+                ${t('scriptures_original_text', lang)} (${getScriptureOrigLang(item, lang)}):
+              </span>
+              ${item.foneticaLiturgica ? `
+                <span class="hud-pill dot-cyan" style="font-size: 0.65rem; padding: 2px 7px;">
+                  ${t('scriptures_has_phonetics', lang)}
+                </span>
+              ` : ''}
+            </div>
+            
+            <div style="direction: ${isOrigRTL ? 'rtl' : 'ltr'};">
+              ${this.formatVersesHtml(item.textoOriginal, isOrigRTL)}
+            </div>
+
+            ${item.foneticaLiturgica ? `
+              <div style="margin-top: 14px; padding-top: 10px; border-top: 1px dashed var(--glass-border); font-size: 0.86rem; font-style: italic; color: var(--text-secondary); line-height: 1.55;">
+                <span style="font-size: 0.70rem; font-weight: 800; color: var(--accent-cyan); font-style: normal; display: block; margin-bottom: 4px; text-transform: uppercase;">
+                  ${t('scriptures_phonetics_guide', lang)}:
+                </span>
+                ${item.foneticaLiturgica}
+              </div>
+            ` : ''}
+          </div>
+
+          <!-- TRADUCCIÓN CANÓNICA EN EL IDIOMA DEL USUARIO -->
+          <div class="crystal-card" style="padding: 16px; background: var(--glass-surface-2); border: 1px solid var(--glass-border); border-radius: var(--radius-md); display: flex; flex-direction: column;">
             <div style="font-size: 0.72rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; border-bottom: 1px dashed var(--glass-border); padding-bottom: 6px;">
               ${t('scriptures_verified_translation', lang)} (${lang.toUpperCase()}):
             </div>
@@ -342,6 +393,14 @@ export class ScripturesViewComponent {
     this.currentScripture = scripture;
     this.highlightVerse = targetVerse;
     this.hasUserManuallySelected = true;
+
+    // Persistir selección del usuario
+    if (typeof window !== 'undefined' && window.localStorage) {
+      try {
+        window.localStorage.setItem('feuniversal_current_scripture_id', scripture.id);
+      } catch (e) { /* ignore */ }
+    }
+
     await this.updateScriptureDisplay();
 
     // Si hay un versículo resaltado, hacer scroll suave hacia él
@@ -390,15 +449,15 @@ export class ScripturesViewComponent {
 
     const pickerBtn = document.getElementById('btn-open-scripture-picker');
     if (pickerBtn) {
-      pickerBtn.addEventListener('click', (e) => {
+      pickerBtn.onclick = (e) => {
         e.preventDefault();
         SacredScripturePicker.open({
-          currentScriptureId: this.currentScripture.id,
+          currentScriptureId: this.currentScripture ? this.currentScripture.id : 'genesis_chapter_1',
           onSelect: (selectedScripture) => {
             this.navigateToScripture(selectedScripture, null, true);
           }
         });
-      });
+      };
     }
 
     const searchInput = document.getElementById('input-search-scriptures');
@@ -414,7 +473,7 @@ export class ScripturesViewComponent {
           return;
         }
 
-        const results = ScriptureSearchEngine.search(query);
+        const results = ScriptureSearchEngine.search(query, 25, lang);
         if (results.length === 0) {
           dropdown.innerHTML = `<div style="padding: 10px; font-size: 0.78rem; color: var(--text-muted); text-align: center;">${t('scriptures_no_verses_found', lang)}</div>`;
           dropdown.style.display = 'block';
@@ -459,64 +518,63 @@ export class ScripturesViewComponent {
 
     const prevTop = document.getElementById('btn-prev-chapter-top');
     if (prevTop && adj.prev) {
-      prevTop.addEventListener('click', (e) => {
+      prevTop.onclick = (e) => {
         e.preventDefault();
         this.navigateToScripture(adj.prev, null, false);
-      });
+      };
     }
 
     const nextTop = document.getElementById('btn-next-chapter-top');
     if (nextTop && adj.next) {
-      nextTop.addEventListener('click', (e) => {
+      nextTop.onclick = (e) => {
         e.preventDefault();
         this.navigateToScripture(adj.next, null, false);
-      });
+      };
     }
 
     const prevBottom = document.getElementById('btn-prev-chapter-bottom');
     if (prevBottom && adj.prev) {
-      prevBottom.addEventListener('click', (e) => {
+      prevBottom.onclick = (e) => {
         e.preventDefault();
         this.navigateToScripture(adj.prev, null, true);
-      });
+      };
     }
 
     const nextBottom = document.getElementById('btn-next-chapter-bottom');
     if (nextBottom && adj.next) {
-      nextBottom.addEventListener('click', (e) => {
+      nextBottom.onclick = (e) => {
         e.preventDefault();
         this.navigateToScripture(adj.next, null, true);
-      });
+      };
     }
 
     const tocBtn = document.getElementById('btn-toc-quick');
     if (tocBtn) {
-      tocBtn.addEventListener('click', (e) => {
+      tocBtn.onclick = (e) => {
         e.preventDefault();
         SacredScripturePicker.open({
           currentScriptureId: this.currentScripture.id,
           initialBookKey: this.currentScripture.libroKey,
+          initialStep: 'chapters',
           onSelect: (selectedScripture) => {
             this.navigateToScripture(selectedScripture, null, true);
           }
         });
-      });
+      };
     }
 
     const shareBtn = document.getElementById('btn-share-scripture');
     if (shareBtn) {
-      shareBtn.addEventListener('click', () => {
+      shareBtn.onclick = () => {
         this.socialShare.open(this.currentScripture);
-      });
+      };
     }
 
     const reportBtn = document.getElementById('btn-report-scripture');
     if (reportBtn) {
-      reportBtn.addEventListener('click', () => {
+      reportBtn.onclick = () => {
         this.reportModal.open(this.currentScripture);
-      });
+      };
     }
   }
 }
-
-

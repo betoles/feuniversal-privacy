@@ -858,7 +858,7 @@ export class StorageService {
   // GESTIÓN DE PRUEBA GRATUITA DE 7 DÍAS Y MEMBRESÍA SANTUARIO PRO
   static getSubscription() {
     const defaults = {
-      version: '10.8.5',
+      version: '10.8.6',
       isPremium: false,
       planType: null, // 'annual' ($2.99) | 'lifetime' ($4.99)
       trialStarted: true,
@@ -877,7 +877,7 @@ export class StorageService {
           return { ...defaults, ...parsed };
         }
         // Si no es premium y viene de una versión previa, restablecer el Trial al ciclo canónico de 7 días completos
-        if (!parsed.version || parsed.version !== '10.8.5') {
+        if (!parsed.version || parsed.version !== '10.8.6') {
           parsed.version = '10.8.5';
           parsed.trialStarted = true;
           parsed.trialStartDate = Date.now();
@@ -920,8 +920,9 @@ export class StorageService {
     const msElapsed = Math.max(0, Date.now() - (sub.trialStartDate || Date.now()));
     const daysElapsed = msElapsed / (1000 * 60 * 60 * 24);
     const duration = sub.trialDurationDays || 7;
-    const remaining = Math.ceil(duration - daysElapsed);
-    return Math.max(0, Math.min(duration, remaining));
+    if (daysElapsed < 1) return 7;
+    const remaining = Math.max(0, Math.ceil(duration - daysElapsed));
+    return Math.min(duration, remaining);
   }
 
   static isAccessUnlocked() {

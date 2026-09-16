@@ -589,13 +589,14 @@
   <div id="modal-onboarding" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 2000; padding: 24px 12px 90px; overflow-y: auto; -webkit-overflow-scrolling: touch; align-items: flex-start; justify-content: center; box-sizing: border-box;"></div>
   <div id="modal-reader" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 2000; padding: 24px 12px 90px; overflow-y: auto; -webkit-overflow-scrolling: touch; align-items: flex-start; justify-content: center; box-sizing: border-box;"></div>
   <div id="modal-language" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 2050; padding: 24px 12px 90px; overflow-y: auto; -webkit-overflow-scrolling: touch; align-items: flex-start; justify-content: center; box-sizing: border-box;"></div>
+  <div id="modal-sacred-scripture-picker" style="display: none; position: fixed; inset: 0; background: var(--modal-backdrop, rgba(0,0,0,0.85)); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 5100; padding: 14px 10px 85px; align-items: flex-start; justify-content: center; box-sizing: border-box; overflow-y: auto; -webkit-overflow-scrolling: touch;"></div>
 
   <!-- Registro de Service Worker PWA & Purga Forzada de Cachés Obsoletas -->
   <script>
     if ('caches' in window) {
       caches.keys().then(keys => {
         keys.forEach(k => {
-          if (!k.includes('v10.8.5')) {
+          if (!k.includes('v10.8.6')) {
             console.log('[Cache Cleanup] Purgando caché obsoleta:', k);
             caches.delete(k);
           }

@@ -13,7 +13,7 @@
  * 5. 100% Funcional sin conexión (Modo Avión perpetuo) con fallbacks estructurados.
  */
 
-const CACHE_VERSION = 'v10.8.5';
+const CACHE_VERSION = 'v10.8.6';
 const CORE_CACHE = `feuniversal-core-${CACHE_VERSION}`;
 const PRAYERS_CACHE = `feuniversal-prayers-${CACHE_VERSION}`;
 const SCRIPTURES_CACHE = `feuniversal-scriptures-${CACHE_VERSION}`;

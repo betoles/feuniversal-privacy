@@ -6,18 +6,18 @@
  * y activación por aura tras finalización de la oración (TTS onend / scroll final).
  */
 
-import { soundManager } from '../services/sound-service.js?v=10.8.5';
-import { PrayerCorpusService } from '../services/prayer-corpus-service.js?v=10.8.5';
-import { getTradition } from '../data/traditions.js?v=10.8.5';
-import { StorageService } from '../services/storage-service.js?v=10.8.5';
-import { renderIcon } from './icons.js?v=10.8.5';
-import { SocialShareComponent, getHeroMessagingPlatform, executePlatformShare } from './social-share.js?v=10.8.5';
-import { TranslationReportModalComponent } from './translation-report-modal.js?v=10.8.5';
-import { MembershipComponent } from './membership.js?v=10.8.5';
-import { SacredSoundPicker } from './sacred-sound-picker.js?v=10.8.5';
-import { SacredDialog } from './sacred-dialog.js?v=10.8.5';
-import { t, isRTL } from '../data/i18n.js?v=10.8.5';
-import { getEcumenicalBadgeText } from '../data/cross-traditions.js?v=10.8.5';
+import { soundManager } from '../services/sound-service.js?v=10.8.6';
+import { PrayerCorpusService } from '../services/prayer-corpus-service.js?v=10.8.6';
+import { getTradition } from '../data/traditions.js?v=10.8.6';
+import { StorageService } from '../services/storage-service.js?v=10.8.6';
+import { renderIcon } from './icons.js?v=10.8.6';
+import { SocialShareComponent, getHeroMessagingPlatform, executePlatformShare } from './social-share.js?v=10.8.6';
+import { TranslationReportModalComponent } from './translation-report-modal.js?v=10.8.6';
+import { MembershipComponent } from './membership.js?v=10.8.6';
+import { SacredSoundPicker } from './sacred-sound-picker.js?v=10.8.6';
+import { SacredDialog } from './sacred-dialog.js?v=10.8.6';
+import { t, isRTL } from '../data/i18n.js?v=10.8.6';
+import { getEcumenicalBadgeText } from '../data/cross-traditions.js?v=10.8.6';
 
 export class MirrorReaderComponent {
   constructor() {
