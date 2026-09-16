@@ -1,28 +1,15 @@
 {
   "metadata": {
     "libroKey": "quran",
-    "titulo": "The Holy Quran (Al-Qur'an al-Karim)",
+    "titulo": "The Holy Quran (Al-Qur'an al-Karim · القرآن الكريم)",
     "totalCapitulos": 114,
     "idiomasDisponibles": [
-      "ar",
-      "en",
-      "es",
-      "fr",
-      "de",
-      "ru",
-      "zh",
-      "ja",
-      "hi",
-      "bn",
-      "ur",
-      "pt",
-      "it",
-      "sw",
-      "id"
+      "en"
     ],
-    "fuenteOficial": "Tanzil / King Fahd Quran Complex / AlQuran.cloud API",
+    "idiomaLiturgicoOriginal": "Árabe Coránico Clásico (العربية الفصحى)",
+    "fuenteOficial": "King Fahd Glorious Quran Printing Complex (Medina) · Tanzil Project · Sahih International Translation",
     "version": "4.0.0-canonical-complete",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustive · 114 Surahs / 6,236 Verses Complete",
     "idioma": "en",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
