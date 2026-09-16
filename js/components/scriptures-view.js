@@ -250,14 +250,14 @@ export class ScripturesViewComponent {
             <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; flex-shrink: 0;"><polyline points="15 18 9 12 15 6"></polyline></svg>
             <div style="text-align: start; min-width: 0; flex: 1; overflow: hidden;">
               <div style="font-size: 0.60rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${t('scriptures_previous', lang)}</div>
-              <div style="font-size: 0.76rem; font-weight: 800; color: var(--text-primary); line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${adj.prev ? formatChapterLabel(adj.prev, lang) : t('scriptures_beginning_book', lang)}</div>
+              <div style="font-size: 0.76rem; font-weight: 800; color: var(--text-primary); line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${adj.prev ? (adj.isCrossBookPrev ? `${getScriptureBookTitle(adj.prev, lang)} · ${formatChapterLabel(adj.prev, lang)}` : formatChapterLabel(adj.prev, lang)) : t('scriptures_beginning_book', lang)}</div>
             </div>
           </button>
 
           <button type="button" id="btn-next-chapter-bottom" class="btn-crystal ${adj.next ? '' : 'disabled'}" style="flex: 1 1 0; min-width: 0; min-height: 46px; padding: 8px 10px; font-size: 0.80rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: flex-end; gap: 6px; box-sizing: border-box; ${adj.next ? 'cursor: pointer;' : 'opacity: 0.35; pointer-events: none;'}">
             <div style="text-align: end; min-width: 0; flex: 1; overflow: hidden;">
               <div style="font-size: 0.60rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${t('scriptures_next', lang)}</div>
-              <div style="font-size: 0.76rem; font-weight: 800; color: var(--text-primary); line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${adj.next ? formatChapterLabel(adj.next, lang) : t('scriptures_end_book', lang)}</div>
+              <div style="font-size: 0.76rem; font-weight: 800; color: var(--text-primary); line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${adj.next ? (adj.isCrossBookNext ? `${getScriptureBookTitle(adj.next, lang)} · ${formatChapterLabel(adj.next, lang)}` : formatChapterLabel(adj.next, lang)) : t('scriptures_end_book', lang)}</div>
             </div>
             <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; flex-shrink: 0;"><polyline points="9 18 15 12 9 6"></polyline></svg>
           </button>
@@ -304,6 +304,33 @@ export class ScripturesViewComponent {
     }
 
     if (wrapper && this.currentScripture) {
+      // Si ocurrió una desconexión o el capítulo no pudo descargarse por red
+      if (!this.currentScripture.textoOriginal && (!this.currentScripture.traducciones || !Object.keys(this.currentScripture.traducciones).length)) {
+        wrapper.innerHTML = `
+          <div class="crystal-card" style="text-align: center; padding: 36px 20px; border: 1.5px solid rgba(234, 179, 8, 0.4);">
+            <div style="width: 48px; height: 48px; margin: 0 auto 12px; border-radius: 50%; background: var(--glass-surface-2); border: 1.5px solid var(--accent-gold); display: flex; align-items: center; justify-content: center; color: var(--accent-gold);">
+              <span style="display: flex; width: 24px; height: 24px;">${renderIcon('ui_refresh')}</span>
+            </div>
+            <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0 0 8px; font-weight: 800;">${t('scriptures_offline_retry_title', lang) || 'Capítulo en Espera de Conexión'}</h4>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); max-width: 420px; margin: 0 auto 18px; line-height: 1.45;">
+              ${t('scriptures_offline_retry_desc', lang) || 'Comprueba tu conexión de red para descargar este libro sagrado y guardarlo automáticamente en tu dispositivo.'}
+            </p>
+            <button id="btn-retry-load-scripture" class="btn-crystal btn-crystal-gold" style="padding: 10px 24px; font-weight: 800; cursor: pointer; display: inline-flex; align-items: center; gap: 8px;">
+              <span style="display: flex; width: 15px; height: 15px;">${renderIcon('ui_refresh')}</span>
+              <span>${t('scriptures_retry_btn', lang) || 'Reintentar Descarga'}</span>
+            </button>
+          </div>
+        `;
+        const retryBtn = document.getElementById('btn-retry-load-scripture');
+        if (retryBtn) {
+          retryBtn.onclick = async () => {
+            retryBtn.innerText = '...';
+            await this.updateScriptureDisplay();
+          };
+        }
+        return;
+      }
+
       wrapper.innerHTML = this.renderScriptureCardHtml(this.currentScripture, lang);
       this.attachEventsToCard();
     }

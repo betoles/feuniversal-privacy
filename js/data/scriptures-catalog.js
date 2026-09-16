@@ -14032,9 +14032,9 @@ export function getScripturesByBook(bookKey) {
 }
 
 export function getAdjacentScriptures(id) {
-  if (!id) return { prev: null, next: null, currentIndex: 0, totalInBook: 1 };
+  if (!id) return { prev: null, next: null, currentIndex: 0, totalInBook: 1, isCrossBookNext: false, isCrossBookPrev: false };
   const idx = SCRIPTURES_CATALOG.findIndex(item => item.id === id);
-  if (idx === -1) return { prev: null, next: null, currentIndex: 0, totalInBook: 1 };
+  if (idx === -1) return { prev: null, next: null, currentIndex: 0, totalInBook: 1, isCrossBookNext: false, isCrossBookPrev: false };
   const currentItem = SCRIPTURES_CATALOG[idx];
 
   const bookItems = SCRIPTURES_CATALOG.filter(item => item.libroKey === currentItem.libroKey);
@@ -14043,6 +14043,8 @@ export function getAdjacentScriptures(id) {
 
   let prev = null;
   let next = null;
+  let isCrossBookPrev = false;
+  let isCrossBookNext = false;
 
   for (let i = idx - 1; i >= 0; i--) {
     if (SCRIPTURES_CATALOG[i].libroKey === currentItem.libroKey) {
@@ -14058,11 +14060,25 @@ export function getAdjacentScriptures(id) {
     }
   }
 
+  // Si no hay siguiente dentro del mismo libro, permitir continuar al primer capítulo del siguiente libro canónico
+  if (!next && idx + 1 < SCRIPTURES_CATALOG.length) {
+    next = SCRIPTURES_CATALOG[idx + 1];
+    isCrossBookNext = true;
+  }
+
+  // Si no hay anterior dentro del mismo libro, permitir retroceder al último capítulo del libro canónico anterior
+  if (!prev && idx - 1 >= 0) {
+    prev = SCRIPTURES_CATALOG[idx - 1];
+    isCrossBookPrev = true;
+  }
+
   return {
     prev,
     next,
     currentIndex: currentInBookIndex >= 0 ? currentInBookIndex : 0,
-    totalInBook: totalInBook > 0 ? totalInBook : 1
+    totalInBook: totalInBook > 0 ? totalInBook : 1,
+    isCrossBookNext,
+    isCrossBookPrev
   };
 }
 

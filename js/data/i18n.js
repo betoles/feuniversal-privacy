@@ -1,5 +1,9 @@
 export const UI_TRANSLATIONS = {
   "es": {
+    "scriptures_offline_retry_title": "Capítulo en Espera de Conexión",
+    "scriptures_offline_retry_desc": "Comprueba tu conexión de red para descargar este libro sagrado y guardarlo automáticamente en tu dispositivo.",
+    "scriptures_retry_btn": "Reintentar Descarga",
+
     "compass_mode_solar": "Sol en Vivo",
     "compass_solar_hint": "Alinea la brújula con la posición del Sol en tu horizonte",
     "compass_ios_permission_btn": "Activar Sensores de Movimiento (iOS)",
@@ -599,6 +603,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "¡Sensores Calibrados! Precisión Óptima"
   },
   "en": {
+    "scriptures_offline_retry_title": "Chapter Awaiting Connection",
+    "scriptures_offline_retry_desc": "Check your network connection to download this sacred book and store it automatically on your device.",
+    "scriptures_retry_btn": "Retry Download",
+
     "compass_mode_solar": "Live Sun",
     "compass_solar_hint": "Align compass with the Sun's position on your horizon",
     "compass_ios_permission_btn": "Enable Motion Sensors (iOS)",
@@ -1198,6 +1206,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensors Calibrated! Optimal Precision"
   },
   "fr": {
+    "scriptures_offline_retry_title": "Chapitre en Attente de Connexion",
+    "scriptures_offline_retry_desc": "Vérifiez votre connexion réseau pour télécharger ce livre sacré et l'enregistrer automatiquement sur votre appareil.",
+    "scriptures_retry_btn": "Réessayer le Téléchargement",
+
     "compass_mode_solar": "Soleil en Direct",
     "compass_solar_hint": "Alignez la boussole avec la position du Soleil à votre horizon",
     "compass_ios_permission_btn": "Activer les Capteurs de Mouvement (iOS)",
@@ -1797,6 +1809,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Capteurs Calibrés ! Précision Optimale"
   },
   "pt": {
+    "scriptures_offline_retry_title": "Capítulo Aguardando Conexão",
+    "scriptures_offline_retry_desc": "Verifique sua conexão de rede para baixar este livro sagrado e salvá-lo automaticamente no seu dispositivo.",
+    "scriptures_retry_btn": "Tentar Novamente",
+
     "compass_mode_solar": "Sol ao Vivo",
     "compass_solar_hint": "Alinhe a bússola com a posição do Sol no seu horizonte",
     "compass_ios_permission_btn": "Ativar Sensores de Movimento (iOS)",
@@ -2396,6 +2412,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensores Calibrados! Precisão Ideal"
   },
   "it": {
+    "scriptures_offline_retry_title": "Capitolo in Attesa di Connessione",
+    "scriptures_offline_retry_desc": "Controlla la tua connessione di rete per scaricare questo libro sacro e salvarlo automaticamente sul tuo dispositivo.",
+    "scriptures_retry_btn": "Riprova Download",
+
     "compass_mode_solar": "Sole dal Vivo",
     "compass_solar_hint": "Allinea la bussola con la posizione del Sole sul tuo orizzonte",
     "compass_ios_permission_btn": "Attiva Sensori di Movimento (iOS)",
@@ -2995,6 +3015,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensori Calibrati! Precisione Ottimale"
   },
   "de": {
+    "scriptures_offline_retry_title": "Kapitel wartet auf Verbindung",
+    "scriptures_offline_retry_desc": "Überprüfe deine Netzwerkverbindung, um dieses heilige Buch herunterzuladen und automatisch auf deinem Gerät zu speichern.",
+    "scriptures_retry_btn": "Download wiederholen",
+
     "compass_mode_solar": "Live-Sonne",
     "compass_solar_hint": "Richte den Kompass nach dem Sonnenstand an deinem Horizont aus",
     "compass_ios_permission_btn": "Bewegungssensoren aktivieren (iOS)",
@@ -3594,6 +3618,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensoren Kalibriert! Optimale Präzision"
   },
   "ru": {
+    "scriptures_offline_retry_title": "Глава ожидает подключения",
+    "scriptures_offline_retry_desc": "Проверьте сетевое подключение, чтобы загрузить эту священную книгу и автоматически сохранить её на вашем устройстве.",
+    "scriptures_retry_btn": "Повторить загрузку",
+
     "compass_mode_solar": "Живое Солнце",
     "compass_solar_hint": "Совместите компас с положением Солнца на вашем горизонте",
     "compass_ios_permission_btn": "Включить датчики движения (iOS)",
@@ -4193,6 +4221,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Датчики Калиброваны! Оптимальная Точность"
   },
   "ar": {
+    "scriptures_offline_retry_title": "الفصل في انتظار الاتصال",
+    "scriptures_offline_retry_desc": "تحقق من اتصال الشبكة لتنزيل هذا الكتاب المقدس وحفظه تلقائيًا على جهازك.",
+    "scriptures_retry_btn": "إعادة المحاولة",
+
     "compass_mode_solar": "الشمس المباشرة",
     "compass_solar_hint": "قم بمحاذاة البوصلة مع موقع الشمس في أفقك",
     "compass_ios_permission_btn": "تفعيل مستشعرات الحركة (iOS)",
@@ -4792,6 +4824,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "تمت معايرة المستشعرات! دقة مثالية"
   },
   "he": {
+    "scriptures_offline_retry_title": "פרק ממתין לחיבור",
+    "scriptures_offline_retry_desc": "בדוק את חיבור הרשת שלך כדי להוריד ספר קדוש זה ולשמור אותו אוטומטית במכשיר שלך.",
+    "scriptures_retry_btn": "נסה שוב",
+
     "compass_mode_solar": "שמש חיה",
     "compass_solar_hint": "כוון את המצפן לפי מיקום השמש באופק שלך",
     "compass_ios_permission_btn": "הפעל חיישני תנועה (iOS)",
@@ -5391,6 +5427,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "החיישנים כוילו! דיוק אופטימלי"
   },
   "hi": {
+    "scriptures_offline_retry_title": "अध्याय कनेक्शन की प्रतीक्षा कर रहा है",
+    "scriptures_offline_retry_desc": "इस पवित्र ग्रंथ को डाउनलोड करने और इसे अपने डिवाइस पर स्वचालित रूप से सहेजने के लिए अपने नेटवर्क कनेक्शन की जांच करें।",
+    "scriptures_retry_btn": "पुनः प्रयास करें",
+
     "compass_mode_solar": "प्रत्यक्ष सूर्य",
     "compass_solar_hint": "कंपास को अपने क्षितिज पर सूर्य की स्थिति के साथ संरेखित करें",
     "compass_ios_permission_btn": "मोशन सेंसर सक्रिय करें (iOS)",
@@ -5990,6 +6030,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "सेंसर कैलिब्रेटेड! इष्टतम सटीकता"
   },
   "zh": {
+    "scriptures_offline_retry_title": "章节等待网络连接",
+    "scriptures_offline_retry_desc": "请检查您的网络连接以获取此经文，下载后将自动保存在您的设备中以便离线阅读。",
+    "scriptures_retry_btn": "重新下载",
+
     "compass_mode_solar": "实时太阳",
     "compass_solar_hint": "将罗盘对准地平线上的太阳方位",
     "compass_ios_permission_btn": "启用动作传感器 (iOS)",
@@ -6589,6 +6633,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "传感器校准完成！达到最佳精度"
   },
   "la": {
+    "scriptures_offline_retry_title": "Caput Exspectat Connexionem",
+    "scriptures_offline_retry_desc": "Comproba connexionem interretialem ut hunc librum sacrum recipias et in machinamento tuo serves.",
+    "scriptures_retry_btn": "Iterum Conari",
+
     "compass_mode_solar": "Sol Vivus",
     "compass_solar_hint": "Dirige acum secundum situm Solis in horizonte tuo",
     "compass_ios_permission_btn": "Activa Sensores Motus (iOS)",
@@ -7188,6 +7236,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensores Calibrati! Praecisio Optima"
   },
   "ja": {
+    "scriptures_offline_retry_title": "章の接続を待機中",
+    "scriptures_offline_retry_desc": "この聖典をダウンロードして端末に自動保存するために、ネットワーク接続を確認してください。",
+    "scriptures_retry_btn": "再試行",
+
     "compass_mode_solar": "ライブ太陽",
     "compass_solar_hint": "地平線上の太陽の位置に合わせてコンパスを調整します",
     "compass_ios_permission_btn": "モーションセンサーを有効化 (iOS)",
@@ -7787,6 +7839,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "センサー校正完了！最適な精度"
   },
   "bn": {
+    "scriptures_offline_retry_title": "অধ্যায় সংযোগের অপেক্ষায়",
+    "scriptures_offline_retry_desc": "এই পবিত্র গ্রন্থটি ডাউনলোড করতে এবং এটি স্বয়ংক্রিয়ভাবে আপনার ডিভাইসে সংরক্ষণ করতে আপনার নেটওয়ার্ক সংযোগ পরীক্ষা করুন।",
+    "scriptures_retry_btn": "পুনরায় চেষ্টা করুন",
+
     "compass_mode_solar": "সরাসরি সূর্য",
     "compass_solar_hint": "আপনার দিগন্তে সূর্যের অবস্থানের সাথে কম্পাস সারিবদ্ধ করুন",
     "compass_ios_permission_btn": "মোশন সেন্সর সক্রিয় করুন (iOS)",
@@ -8386,6 +8442,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "সেন্সর ক্যালিব্রেট করা হয়েছে! সর্বোত্তম নির্ভুলতা"
   },
   "id": {
+    "scriptures_offline_retry_title": "Bab Menunggu Koneksi",
+    "scriptures_offline_retry_desc": "Periksa koneksi jaringan Anda untuk mengunduh kitab suci ini dan menyimpannya secara otomatis di perangkat Anda.",
+    "scriptures_retry_btn": "Coba Lagi",
+
     "compass_mode_solar": "Matahari Langsung",
     "compass_solar_hint": "Sejajarkan kompas dengan posisi Matahari di cakrawala Anda",
     "compass_ios_permission_btn": "Aktifkan Sensor Gerak (iOS)",
@@ -8985,6 +9045,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensor Dikalibrasi! Presisi Optimal"
   },
   "ur": {
+    "scriptures_offline_retry_title": "باب کنکشن کا منتظر ہے",
+    "scriptures_offline_retry_desc": "اس مقدس کتاب کو ڈاؤن لوڈ کرنے اور اسے خود بخود اپنے آلے میں محفوظ کرنے کے لیے اپنا نیٹ ورک کنکشن چیک کریں۔",
+    "scriptures_retry_btn": "دوبارہ کوشش کریں",
+
     "compass_mode_solar": "براہ راست سورج",
     "compass_solar_hint": "قطب نما کو اپنے افق پر سورج کی پوزیشن کے مطابق سیدھ میں کریں",
     "compass_ios_permission_btn": "حرکتی سینسر فعال کریں (iOS)",
@@ -9584,6 +9648,10 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "سینسر کیلیبریٹ ہو گئے! بہترین درستگی"
   },
   "sw": {
+    "scriptures_offline_retry_title": "Sura Inasubiri Muunganisho",
+    "scriptures_offline_retry_desc": "Angalia muunganisho wako wa mtandao ili kupakua kitabu hiki kitakatifu na kukihifadhi kiotomatiki kwenye kifaa chako.",
+    "scriptures_retry_btn": "Jaribu Tena",
+
     "compass_mode_solar": "Jua Moja kwa Moja",
     "compass_solar_hint": "Panga dira kulingana na nafasi ya Jua kwenye upeo wako",
     "compass_ios_permission_btn": "Washa Vihisi Mwendo (iOS)",
