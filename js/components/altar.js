@@ -69,7 +69,13 @@ export class AltarComponent {
     const activeCandles = altarState.veladoras || altarState.veladorasActivas || [];
     const candlesHTML = activeCandles.length > 0 ? activeCandles.map(v => {
       const colorObj = getCandleColor(v.colorId || v.color, lang);
-      const hoursAgo = Math.floor((Date.now() - (v.fechaEncendido || v.timestamp || Date.now())) / (1000 * 60 * 60));
+      const elapsedMs = Math.max(0, Date.now() - (v.fechaEncendido || v.timestamp || Date.now()));
+      const totalMs = (v.duracionHoras || 24) * 3600 * 1000;
+      const hoursAgo = Math.floor(elapsedMs / (1000 * 60 * 60));
+      const remainingRatio = Math.max(0.15, Math.min(1, 1 - (elapsedMs / totalMs)));
+      const remainingPercent = Math.max(1, Math.round(remainingRatio * 100));
+      const candleBodyHeight = Math.max(40, Math.round(90 * remainingRatio));
+
       const tradObj = getTradition(v.tradicion);
       const tradIconKey = tradObj?.icono || tradObj?.iconKey || 'trad_catolicismo';
       const tradName = tradObj && tradObj.nombre ? (tradObj.nombre[lang] || tradObj.nombre.es || tradObj.nombre.en || v.tradicion) : (v.tradicion || '');
@@ -83,14 +89,14 @@ export class AltarComponent {
             <div class="candle-flame"></div>
             <div class="candle-wick"></div>
           </div>
-          <div class="candle-body">
+          <div class="candle-body" style="height: ${candleBodyHeight}px; transition: height 0.4s ease;">
             <span class="candle-symbol" style="display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; color: ${colorObj.hex}; opacity: 0.85;">
               ${renderIcon(tradIconKey)}
             </span>
           </div>
           <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 14px;">
             <span style="font-size: 0.84rem; font-weight: 800; color: ${colorObj.hex}; letter-spacing: 0.01em;">${colorObj.name}</span>
-            <span class="hud-pill dot-cyan" style="font-size: 0.7rem; font-weight: 700;">${hoursAgo}h / ${v.duracionHoras || 24}h</span>
+            <span class="hud-pill dot-cyan" style="font-size: 0.7rem; font-weight: 700;">${hoursAgo}h / ${v.duracionHoras || 24}h · ${remainingPercent}%</span>
           </div>
           <div class="candle-peticion">«${peticionText}»</div>
           <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--glass-border);">

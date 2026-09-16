@@ -1028,11 +1028,30 @@ export class StorageService {
     return sub;
   }
 
-  // Altar Virtual (Veladoras activas con soporte para los 12 Colores)
+  // Altar Virtual (Veladoras activas con soporte para los 12 Colores y consumo real de cera)
   static getAltarState() {
     try {
       const data = _safeGetItem(STORAGE_KEYS.ALTAR);
-      if (data) return JSON.parse(data);
+      if (data) {
+        const state = JSON.parse(data);
+        if (state && Array.isArray(state.veladoras)) {
+          const now = Date.now();
+          const initialCount = state.veladoras.length;
+          // Filtrar veladoras cuya cera se haya consumido por completo (tiempo transcurrido >= duracionHoras)
+          state.veladoras = state.veladoras.filter(v => {
+            const start = v.fechaEncendido || v.timestamp || now;
+            const durHours = v.duracionHoras || 24;
+            const durMs = durHours * 3600 * 1000;
+            return (now - start) < durMs;
+          });
+
+          // Si expiraron veladoras, persistir el estado actualizado para liberar espacio
+          if (state.veladoras.length !== initialCount) {
+            this.saveAltarState(state);
+          }
+          return state;
+        }
+      }
     } catch (e) {
       console.warn('Error reading altar state:', e);
     }
