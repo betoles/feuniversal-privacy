@@ -4,25 +4,11 @@
     "titulo": "The Holy Pentateuch / The Torah (The Five Books of Moses)",
     "totalCapitulos": 90,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "en"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "fuenteOficial": "Masoretic Text (Leningrad Codex) · King James Version (KJV)",
+    "completitud": "100% Exhaustive · Genesis (50) + Exodus (40) Complete (90 Chapters / 2,746 Verses)",
     "idioma": "en",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
@@ -30,7 +16,7 @@
   "capitulos": [
     {
       "id": "genesis_chapter_1",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 1",
@@ -48,7 +34,7 @@
     },
     {
       "id": "genesis_chapter_2",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 2",
@@ -66,7 +52,7 @@
     },
     {
       "id": "genesis_chapter_3",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 3",
@@ -84,7 +70,7 @@
     },
     {
       "id": "genesis_chapter_4",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 4",
@@ -102,7 +88,7 @@
     },
     {
       "id": "genesis_chapter_5",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 5",
@@ -120,7 +106,7 @@
     },
     {
       "id": "genesis_chapter_6",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 6",
@@ -138,7 +124,7 @@
     },
     {
       "id": "genesis_chapter_7",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 7",
@@ -156,7 +142,7 @@
     },
     {
       "id": "genesis_chapter_8",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 8",
@@ -174,7 +160,7 @@
     },
     {
       "id": "genesis_chapter_9",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 9",
@@ -192,7 +178,7 @@
     },
     {
       "id": "genesis_chapter_10",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 10",
@@ -210,7 +196,7 @@
     },
     {
       "id": "genesis_chapter_11",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 11",
@@ -228,7 +214,7 @@
     },
     {
       "id": "genesis_chapter_12",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 12",
@@ -246,7 +232,7 @@
     },
     {
       "id": "genesis_chapter_13",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 13",
@@ -264,7 +250,7 @@
     },
     {
       "id": "genesis_chapter_14",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 14",
@@ -282,7 +268,7 @@
     },
     {
       "id": "genesis_chapter_15",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 15",
@@ -300,7 +286,7 @@
     },
     {
       "id": "genesis_chapter_16",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 16",
@@ -318,7 +304,7 @@
     },
     {
       "id": "genesis_chapter_17",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 17",
@@ -336,7 +322,7 @@
     },
     {
       "id": "genesis_chapter_18",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 18",
@@ -354,7 +340,7 @@
     },
     {
       "id": "genesis_chapter_19",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 19",
@@ -372,7 +358,7 @@
     },
     {
       "id": "genesis_chapter_20",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 20",
@@ -390,7 +376,7 @@
     },
     {
       "id": "genesis_chapter_21",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 21",
@@ -408,7 +394,7 @@
     },
     {
       "id": "genesis_chapter_22",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 22",
@@ -426,7 +412,7 @@
     },
     {
       "id": "genesis_chapter_23",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 23",
@@ -438,13 +424,13 @@
       "textoOriginal": "1. א ויהיו חיי שרה מאה שנה ועשרים שנה ושבע שנים--שני חיי שרה\n2. ב ותמת שרה בקרית ארבע הוא חברון--בארץ כנען ויבא אברהם לספד לשרה ולבכתה\n3. ג ויקם אברהם מעל פני מתו וידבר אל בני חת לאמר\n4. ד גר ותושב אנכי עמכם תנו לי אחזת קבר עמכם ואקברה מתי מלפני\n5. ה ויענו בני חת את אברהם לאמר לו\n6. ו שמענו אדני נשיא אלהים אתה בתוכנו--במבחר קברינו קבר את מתך איש ממנו את קברו לא יכלה ממך מקבר מתך\n7. ז ויקם אברהם וישתחו לעם הארץ לבני חת\n8. ח וידבר אתם לאמר  אם יש את נפשכם לקבר את מתי מלפני--שמעוני ופגעו לי בעפרון בן צחר\n9. ט ויתן לי את מערת המכפלה אשר לו אשר בקצה שדהו  בכסף מלא יתננה לי בתוככם--לאחזת קבר\n10. י ועפרון ישב בתוך בני חת ויען עפרון החתי את אברהם באזני בני חת לכל באי שער עירו לאמר\n11. יא לא אדני שמעני--השדה נתתי לך והמערה אשר בו לך נתתיה לעיני בני עמי נתתיה לך קבר מתך\n12. יב וישתחו אברהם לפני עם הארץ\n13. יג וידבר אל עפרון באזני עם הארץ לאמר אך אם אתה לו שמעני  נתתי כסף השדה קח ממני ואקברה את מתי שמה\n14. יד ויען עפרון את אברהם לאמר לו\n15. טו אדני שמעני ארץ ארבע מאת שקל כסף ביני ובינך מה הוא ואת מתך קבר\n16. טז וישמע אברהם אל עפרון וישקל אברהם לעפרן את הכסף אשר דבר באזני בני חת--ארבע מאות שקל כסף עבר לסחר\n17. יז ויקם שדה עפרון אשר במכפלה אשר לפני ממרא  השדה והמערה אשר בו וכל העץ אשר בשדה אשר בכל גבלו סביב\n18. יח לאברהם למקנה לעיני בני חת בכל באי שער עירו\n19. יט ואחרי כן קבר אברהם את שרה אשתו אל מערת שדה המכפלה על פני ממרא--הוא חברון  בארץ כנען\n20. כ ויקם השדה והמערה אשר בו לאברהם--לאחזת קבר  מאת בני חת  ס",
       "foneticaLiturgica": "Sefer Bereshit · Perek 23",
       "traducciones": {
-        "en": "1. And Sarah was an hundred and seven and twenty years old: these were the years of the life of Sarah.\n2. And Sarah died in Kirjatharba; the same is Hebron in the land of Canaan: and Abraham came to mourn for Sarah, and to weep for her.\n3. And Abraham stood up from before his dead, and spake unto the sons of Heth, saying,\n4. I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead out of my sight.\n5. And the children of Heth answered Abraham, saying unto him,\n6. Hear us, my lord: thou art a mighty prince among us: in the choice of our sepulchres bury thy dead; none of us shall withhold from thee his sepulchre, but that thou mayest bury thy dead.\n7. And Abraham stood up, and bowed himself to the people of the land, even to the children of Heth.\n8. And he communed with them, saying, If it be your mind that I should bury my dead out of my sight; hear me, and intreat for me to Ephron the son of Zohar,\n9. That he may give me the cave of Machpelah, which he hath, which is in the end of his field; for as much money as it is worth he shall give it me for a possession of a buryingplace amongst you.\n10. And Ephron dwelt among the children of Heth: and Ephron the Hittite answered Abraham in the audience of the children of Heth, even of all that went in at the gate of his city, saying,\n11. Nay, my lord, hear me: the field give I thee, and the cave that is therein, I give it thee; in the presence of the sons of my people give I it thee: bury thy dead.\n12. And Abraham bowed down himself before the people of the land.\n13. And he spake unto Ephron in the audience of the people of the land, saying, But if thou wilt give it, I pray thee, hear me: I will give thee money for the field; take it of me, and I will bury my dead there.\n14. And Ephron answered Abraham, saying unto him,\n15. My lord, hearken unto me: the land is worth four hundred shekels of silver; what is that betwixt me and thee? bury therefore thy dead.\n16. And Abraham hearkened unto Ephron; and Abraham weighed to Ephron the silver, which he had named in the audience of the sons of Heth, four hundred shekels of silver, current money with the merchant.\n17. And the field of Ephron, which was in Machpelah, which was before Mamre, the field, and the cave which was therein, and all the trees that were in the field, that were in all the borders round about, were made sure\n18. Unto Abraham for a possession in the presence of the children of Heth, before all that went in at the gate of his city.\n19. And after this, Abraham buried Sarah his wife in the cave of the field of Machpelah before Mamre: the same is Hebron in the land of Canaan.\n20. And the field, and the cave that is therein, were made sure unto Abraham for a possession of a buryingplace by the sons of Heth."
+        "en": "1. And Sarah was an hundred and seven and twenty years old: these were the years of the life of Sarah.\n2. And Sarah died in Kirjatharba; the same is Hebron in the land of Canaan: and Abraham came to mourn for Sarah, and to weep for her.\n3. And Abraham stood up from before his dead, and spake unto the sons of Heth, saying,\n4. I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead out of my sight.\n5. And the children of Heth answered Abraham, saying unto him,\n6. Hear us, my lord: thou art a mighty prince among us: in the choice of our sepulchres bury thy dead; none of us shall withhold from thee his sepulchre, but that thou mayest bury thy dead.\n7. And Abraham stood up, and bowed himself to the people of the land, even to the children of Heth.\n8. And he communed with them, saying, If it be your mind that I should bury my dead out of my sight; hear me, and intreat for me to Ephron the son of Zohar,\n9. That he may give me the cave of Machpelah, which he hath, which is in the end of his field; for as much money as it is worth he shall give it me for a possession of a buryingplace amongst you.\n10. And Ephron dwelt among the children of Heth: and Ephron the Hittite answered Abraham in the audience of the children of Heth, even of all that went in at the gate of his city, saying,\n11. Nay, my lord, hear me: the field give I thee, and the cave that is therein, I give it thee; in the presence of the sons of my people give I it thee: bury thy dead.\n12. And Abraham bowed down himself before the people of the land.\n13. And he spake unto Ephron in the audience of the people of the land, saying, But if thou wilt give it, I pray thee, hear me: I will give thee money for the field; take it of me, and I will bury my dead there.\n14. And Ephron answered Abraham, saying unto him,\n15. My lord, hearken unto me: the land is worth four hundred shekels of silver; what is that betwixt me and thee? bury therefore thy dead.\n16. And Abraham hearkened unto Ephron; and Abraham weighed to Ephron the silver, which he had named in the audience of the sons of Heth, four hundred shekels of silver, current money with the merchant.\n17. And the field of Ephron, which was in Machpelah, which was before Mamre, the field, and the cave which was therein, and all the trees that were in the field, that were in all the borders round about, were made sure,\n18. Unto Abraham for a possession in the presence of the children of Heth, before all that went in at the gate of his city.\n19. And after this, Abraham buried Sarah his wife in the cave of the field of Machpelah before Mamre: the same is Hebron in the land of Canaan.\n20. And the field, and the cave that is therein, were made sure unto Abraham for a possession of a buryingplace by the sons of Heth."
       },
       "capituloRelativo": 23
     },
     {
       "id": "genesis_chapter_24",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 24",
@@ -462,7 +448,7 @@
     },
     {
       "id": "genesis_chapter_25",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 25",
@@ -480,7 +466,7 @@
     },
     {
       "id": "genesis_chapter_26",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 26",
@@ -498,7 +484,7 @@
     },
     {
       "id": "genesis_chapter_27",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 27",
@@ -516,7 +502,7 @@
     },
     {
       "id": "genesis_chapter_28",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 28",
@@ -534,7 +520,7 @@
     },
     {
       "id": "genesis_chapter_29",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 29",
@@ -552,7 +538,7 @@
     },
     {
       "id": "genesis_chapter_30",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 30",
@@ -570,7 +556,7 @@
     },
     {
       "id": "genesis_chapter_31",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 31",
@@ -588,7 +574,7 @@
     },
     {
       "id": "genesis_chapter_32",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 32",
@@ -606,7 +592,7 @@
     },
     {
       "id": "genesis_chapter_33",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 33",
@@ -624,7 +610,7 @@
     },
     {
       "id": "genesis_chapter_34",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 34",
@@ -642,7 +628,7 @@
     },
     {
       "id": "genesis_chapter_35",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 35",
@@ -660,7 +646,7 @@
     },
     {
       "id": "genesis_chapter_36",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 36",
@@ -678,7 +664,7 @@
     },
     {
       "id": "genesis_chapter_37",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 37",
@@ -696,7 +682,7 @@
     },
     {
       "id": "genesis_chapter_38",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 38",
@@ -714,7 +700,7 @@
     },
     {
       "id": "genesis_chapter_39",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 39",
@@ -732,7 +718,7 @@
     },
     {
       "id": "genesis_chapter_40",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 40",
@@ -750,7 +736,7 @@
     },
     {
       "id": "genesis_chapter_41",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 41",
@@ -768,7 +754,7 @@
     },
     {
       "id": "genesis_chapter_42",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 42",
@@ -786,7 +772,7 @@
     },
     {
       "id": "genesis_chapter_43",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 43",
@@ -804,7 +790,7 @@
     },
     {
       "id": "genesis_chapter_44",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 44",
@@ -822,7 +808,7 @@
     },
     {
       "id": "genesis_chapter_45",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 45",
@@ -840,7 +826,7 @@
     },
     {
       "id": "genesis_chapter_46",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 46",
@@ -858,7 +844,7 @@
     },
     {
       "id": "genesis_chapter_47",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 47",
@@ -876,7 +862,7 @@
     },
     {
       "id": "genesis_chapter_48",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 48",
@@ -894,7 +880,7 @@
     },
     {
       "id": "genesis_chapter_49",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 49",
@@ -912,7 +898,7 @@
     },
     {
       "id": "genesis_chapter_50",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 50",
@@ -930,7 +916,7 @@
     },
     {
       "id": "exodus_chapter_1",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 1",
@@ -948,7 +934,7 @@
     },
     {
       "id": "exodus_chapter_2",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 2",
@@ -966,7 +952,7 @@
     },
     {
       "id": "exodus_chapter_3",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 3",
@@ -984,7 +970,7 @@
     },
     {
       "id": "exodus_chapter_4",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 4",
@@ -1002,7 +988,7 @@
     },
     {
       "id": "exodus_chapter_5",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 5",
@@ -1020,7 +1006,7 @@
     },
     {
       "id": "exodus_chapter_6",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 6",
@@ -1038,7 +1024,7 @@
     },
     {
       "id": "exodus_chapter_7",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 7",
@@ -1056,7 +1042,7 @@
     },
     {
       "id": "exodus_chapter_8",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 8",
@@ -1074,7 +1060,7 @@
     },
     {
       "id": "exodus_chapter_9",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 9",
@@ -1092,7 +1078,7 @@
     },
     {
       "id": "exodus_chapter_10",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 10",
@@ -1110,7 +1096,7 @@
     },
     {
       "id": "exodus_chapter_11",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 11",
@@ -1128,7 +1114,7 @@
     },
     {
       "id": "exodus_chapter_12",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 12",
@@ -1146,7 +1132,7 @@
     },
     {
       "id": "exodus_chapter_13",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 13",
@@ -1164,7 +1150,7 @@
     },
     {
       "id": "exodus_chapter_14",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 14",
@@ -1182,7 +1168,7 @@
     },
     {
       "id": "exodus_chapter_15",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 15",
@@ -1200,7 +1186,7 @@
     },
     {
       "id": "exodus_chapter_16",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 16",
@@ -1218,7 +1204,7 @@
     },
     {
       "id": "exodus_chapter_17",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 17",
@@ -1236,7 +1222,7 @@
     },
     {
       "id": "exodus_chapter_18",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 18",
@@ -1254,7 +1240,7 @@
     },
     {
       "id": "exodus_chapter_19",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 19",
@@ -1272,7 +1258,7 @@
     },
     {
       "id": "exodus_chapter_20",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 20",
@@ -1290,7 +1276,7 @@
     },
     {
       "id": "exodus_chapter_21",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 21",
@@ -1308,7 +1294,7 @@
     },
     {
       "id": "exodus_chapter_22",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 22",
@@ -1326,7 +1312,7 @@
     },
     {
       "id": "exodus_chapter_23",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 23",
@@ -1344,7 +1330,7 @@
     },
     {
       "id": "exodus_chapter_24",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 24",
@@ -1362,7 +1348,7 @@
     },
     {
       "id": "exodus_chapter_25",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 25",
@@ -1380,7 +1366,7 @@
     },
     {
       "id": "exodus_chapter_26",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 26",
@@ -1398,7 +1384,7 @@
     },
     {
       "id": "exodus_chapter_27",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 27",
@@ -1416,7 +1402,7 @@
     },
     {
       "id": "exodus_chapter_28",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 28",
@@ -1434,7 +1420,7 @@
     },
     {
       "id": "exodus_chapter_29",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 29",
@@ -1452,7 +1438,7 @@
     },
     {
       "id": "exodus_chapter_30",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 30",
@@ -1470,7 +1456,7 @@
     },
     {
       "id": "exodus_chapter_31",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 31",
@@ -1488,7 +1474,7 @@
     },
     {
       "id": "exodus_chapter_32",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 32",
@@ -1506,7 +1492,7 @@
     },
     {
       "id": "exodus_chapter_33",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 33",
@@ -1524,7 +1510,7 @@
     },
     {
       "id": "exodus_chapter_34",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 34",
@@ -1536,13 +1522,13 @@
       "textoOriginal": "1. א ויאמר יהוה אל משה פסל לך שני לחת אבנים כראשנים וכתבתי על הלחת את הדברים אשר היו על הלחת הראשנים אשר שברת\n2. ב והיה נכון לבקר ועלית בבקר אל הר סיני ונצבת לי שם על ראש ההר\n3. ג ואיש לא יעלה עמך וגם איש אל ירא בכל ההר גם הצאן והבקר אל ירעו אל מול ההר ההוא\n4. ד ויפסל שני לחת אבנים כראשנים וישכם משה בבקר ויעל אל הר סיני כאשר צוה יהוה אתו ויקח בידו שני לחת אבנים\n5. ה וירד יהוה בענן ויתיצב עמו שם ויקרא בשם יהוה\n6. ו ויעבר יהוה על פניו ויקרא יהוה יהוה אל רחום וחנון--ארך אפים ורב חסד ואמת\n7. ז נצר חסד לאלפים נשא עון ופשע וחטאה ונקה לא ינקה--פקד עון אבות על בנים ועל בני בנים על שלשים ועל רבעים\n8. ח וימהר משה ויקד ארצה וישתחו\n9. ט ויאמר אם נא מצאתי חן בעיניך אדני ילך נא אדני בקרבנו  כי עם קשה ערף הוא וסלחת לעוננו ולחטאתנו ונחלתנו\n10. י ויאמר הנה אנכי כרת ברית נגד כל עמך אעשה נפלאת אשר לא נבראו בכל הארץ ובכל הגוים וראה כל העם אשר אתה בקרבו את מעשה יהוה כי נורא הוא אשר אני עשה עמך\n11. יא שמר לך--את אשר אנכי מצוך היום הנני גרש מפניך את האמרי והכנעני והחתי והפרזי והחוי והיבוסי\n12. יב השמר לך פן תכרת ברית ליושב הארץ אשר אתה בא עליה  פן יהיה למוקש בקרבך\n13. יג כי את מזבחתם תתצון ואת מצבתם תשברון ואת אשריו תכרתון\n14. יד כי לא תשתחוה לאל אחר  כי יהוה קנא שמו אל קנא הוא\n15. טו פן תכרת ברית ליושב הארץ וזנו אחרי אלהיהם וזבחו לאלהיהם וקרא לך ואכלת מזבחו\n16. טז ולקחת מבנתיו לבניך וזנו בנתיו אחרי אלהיהן והזנו את בניך אחרי אלהיהן\n17. יז אלהי מסכה לא תעשה לך\n18. יח את חג המצות תשמר--שבעת ימים תאכל מצות אשר צויתך למועד חדש האביב  כי בחדש האביב יצאת ממצרים\n19. יט כל פטר רחם לי וכל מקנך תזכר פטר שור ושה\n20. כ ופטר חמור תפדה בשה ואם לא תפדה וערפתו כל בכור בניך תפדה ולא יראו פני ריקם\n21. כא ששת ימים תעבד וביום השביעי תשבת בחריש ובקציר תשבת\n22. כב וחג שבעת תעשה לך בכורי קציר חטים וחג האסיף--תקופת השנה\n23. כג שלש פעמים בשנה--יראה כל זכורך את פני האדן יהוה אלהי ישראל\n24. כד כי אוריש גוים מפניך והרחבתי את גבלך ולא יחמד איש את ארצך בעלתך לראות את פני יהוה אלהיך שלש פעמים בשנה\n25. כה לא תשחט על חמץ דם זבחי ולא ילין לבקר זבח חג הפסח\n26. כו ראשית בכורי אדמתך תביא בית יהוה אלהיך לא תבשל גדי בחלב אמו  פ\n27. כז ויאמר יהוה אל משה כתב לך את הדברים האלה  כי על פי הדברים האלה כרתי אתך ברית--ואת ישראל\n28. כח ויהי שם עם יהוה ארבעים יום וארבעים לילה--לחם לא אכל ומים לא שתה ויכתב על הלחת את דברי הברית--עשרת הדברים\n29. כט ויהי ברדת משה מהר סיני ושני לחת העדת ביד משה ברדתו מן ההר ומשה לא ידע כי קרן עור פניו--בדברו אתו\n30. ל וירא אהרן וכל בני ישראל את משה והנה קרן עור פניו וייראו מגשת אליו\n31. לא ויקרא אלהם משה וישבו אליו אהרן וכל הנשאים בעדה וידבר משה אלהם\n32. לב ואחרי כן נגשו כל בני ישראל ויצום--את כל אשר דבר יהוה אתו בהר סיני\n33. לג ויכל משה מדבר אתם ויתן על פניו מסוה\n34. לד ובבא משה לפני יהוה לדבר אתו יסיר את המסוה עד צאתו ויצא ודבר אל בני ישראל את אשר יצוה\n35. לה וראו בני ישראל את פני משה כי קרן עור פני משה והשיב משה את המסוה על פניו עד באו לדבר אתו  ס",
       "foneticaLiturgica": "Sefer Shemot · Perek 34",
       "traducciones": {
-        "en": "1. And the LORD said unto Moses, Hew thee two tables of stone like unto the first: and I will write upon these tables the words that were in the first tables, which thou brakest.\n2. And be ready in the morning, and come up in the morning unto mount Sinai, and present thyself there to me in the top of the mount.\n3. And no man shall come up with thee, neither let any man be seen throughout all the mount; neither let the flocks nor herds feed before that mount.\n4. And he hewed two tables of stone like unto the first; and Moses rose up early in the morning, and went up unto mount Sinai, as the LORD had commanded him, and took in his hand the two tables of stone.\n5. And the LORD descended in the cloud, and stood with him there, and proclaimed the name of the LORD.\n6. And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering, and abundant in goodness and truth,\n7. Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children's children, unto the third and to the fourth generation.\n8. And Moses made haste, and bowed his head toward the earth, and worshipped.\n9. And he said, If now I have found grace in thy sight, O Lord, let my Lord, I pray thee, go among us; for it is a stiffnecked people; and pardon our iniquity and our sin, and take us for thine inheritance.\n10. And he said, Behold, I make a covenant: before all thy people I will do marvels, such as have not been done in all the earth, nor in any nation: and all the people among which thou art shall see the work of the LORD: for it is a terrible thing that I will do with thee.\n11. Observe thou that which I command thee this day: behold, I drive out before thee the Amorite, and the Canaanite, and the Hittite, and the Perizzite, and the Hivite, and the Jebusite.\n12. Take heed to thyself, lest thou make a covenant with the inhabitants of the land whither thou goest, lest it be for a snare in the midst of thee:\n13. But ye shall destroy their altars, break their images, and cut down their groves:\n14. For thou shalt worship no other god: for the LORD, whose name is Jealous, is a jealous God:\n15. Lest thou make a covenant with the inhabitants of the land, and they go a whoring after their gods, and do sacrifice unto their gods, and one call thee, and thou eat of his sacrifice;\n16. And thou take of their daughters unto thy sons, and their daughters go a whoring after their gods, and make thy sons go a whoring after their gods.\n17. Thou shalt make thee no molten gods.\n18. The feast of unleavened bread shalt thou keep. Seven days thou shalt eat unleavened bread, as I commanded thee, in the time of the month Abib: for in the month Abib thou camest out from Egypt.\n19. All that openeth the matrix is mine; and every firstling among thy cattle, whether ox or sheep,.\n20. But the firstling of an ass thou shalt redeem with a lamb: and if thou redeem him not, then shalt thou break his neck. All the firstborn of thy sons thou shalt redeem. And none shall appear before me empty.\n21. Six days thou shalt work, but on the seventh day thou shalt rest: in earing time and in harvest thou shalt rest.\n22. And thou shalt observe the feast of weeks, of the firstfruits of wheat harvest, and the feast of ingathering at the year's end.\n23. Thrice in the year shall all your men children appear before the Lord GOD, the God of Israel.\n24. For I will cast out the nations before thee, and enlarge thy borders: neither shall any man desire thy land, when thou shalt go up to appear before the LORD thy God thrice in the year.\n25. Thou shalt not offer the blood of my sacrifice with leaven; neither shall the sacrifice of the feast of the passover be left unto the morning.\n26. The first of the firstfruits of thy land thou shalt bring unto the house of the LORD thy God. Thou shalt not seethe a kid in his mother's milk.\n27. And the LORD said unto Moses, Write thou these words: for after the tenor of these words I have made a covenant with thee and with Israel.\n28. And he was there with the LORD forty days and forty nights; he did neither eat bread, nor drink water. And he wrote upon the tables the words of the covenant, the ten commandments.\n29. And it came to pass, when Moses came down from mount Sinai with the two tables of testimony in Moses' hand, when he came down from the mount, that Moses wist not that the skin of his face shone while he talked with him.\n30. And when Aaron and all the children of Israel saw Moses, behold, the skin of his face shone; and they were afraid to come nigh him.\n31. And Moses called unto them; and Aaron and all the rulers of the congregation returned unto him: and Moses talked with them.\n32. And afterward all the children of Israel came nigh: and he gave them in commandment all that the LORD had spoken with him in mount Sinai.\n33. And till Moses had done speaking with them, he put a vail on his face.\n34. But when Moses went in before the LORD to speak with him, he took the vail off, until he came out. And he came out, and spake unto the children of Israel that which he was commanded.\n35. And the children of Israel saw the face of Moses, that the skin of Moses' face shone: and Moses put the vail upon his face again, until he went in to speak with him."
+        "en": "1. And the LORD said unto Moses, Hew thee two tables of stone like unto the first: and I will write upon these tables the words that were in the first tables, which thou brakest.\n2. And be ready in the morning, and come up in the morning unto mount Sinai, and present thyself there to me in the top of the mount.\n3. And no man shall come up with thee, neither let any man be seen throughout all the mount; neither let the flocks nor herds feed before that mount.\n4. And he hewed two tables of stone like unto the first; and Moses rose up early in the morning, and went up unto mount Sinai, as the LORD had commanded him, and took in his hand the two tables of stone.\n5. And the LORD descended in the cloud, and stood with him there, and proclaimed the name of the LORD.\n6. And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering, and abundant in goodness and truth,\n7. Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children's children, unto the third and to the fourth generation.\n8. And Moses made haste, and bowed his head toward the earth, and worshipped.\n9. And he said, If now I have found grace in thy sight, O Lord, let my Lord, I pray thee, go among us; for it is a stiffnecked people; and pardon our iniquity and our sin, and take us for thine inheritance.\n10. And he said, Behold, I make a covenant: before all thy people I will do marvels, such as have not been done in all the earth, nor in any nation: and all the people among which thou art shall see the work of the LORD: for it is a terrible thing that I will do with thee.\n11. Observe thou that which I command thee this day: behold, I drive out before thee the Amorite, and the Canaanite, and the Hittite, and the Perizzite, and the Hivite, and the Jebusite.\n12. Take heed to thyself, lest thou make a covenant with the inhabitants of the land whither thou goest, lest it be for a snare in the midst of thee:\n13. But ye shall destroy their altars, break their images, and cut down their groves:\n14. For thou shalt worship no other god: for the LORD, whose name is Jealous, is a jealous God:\n15. Lest thou make a covenant with the inhabitants of the land, and they go a whoring after their gods, and do sacrifice unto their gods, and one call thee, and thou eat of his sacrifice;\n16. And thou take of their daughters unto thy sons, and their daughters go a whoring after their gods, and make thy sons go a whoring after their gods.\n17. Thou shalt make thee no molten gods.\n18. The feast of unleavened bread shalt thou keep. Seven days thou shalt eat unleavened bread, as I commanded thee, in the time of the month Abib: for in the month Abib thou camest out from Egypt.\n19. All that openeth the matrix is mine; and every firstling among thy cattle, whether ox or sheep, that is male.\n20. But the firstling of an ass thou shalt redeem with a lamb: and if thou redeem him not, then shalt thou break his neck. All the firstborn of thy sons thou shalt redeem. And none shall appear before me empty.\n21. Six days thou shalt work, but on the seventh day thou shalt rest: in earing time and in harvest thou shalt rest.\n22. And thou shalt observe the feast of weeks, of the firstfruits of wheat harvest, and the feast of ingathering at the year's end.\n23. Thrice in the year shall all your men children appear before the Lord GOD, the God of Israel.\n24. For I will cast out the nations before thee, and enlarge thy borders: neither shall any man desire thy land, when thou shalt go up to appear before the LORD thy God thrice in the year.\n25. Thou shalt not offer the blood of my sacrifice with leaven; neither shall the sacrifice of the feast of the passover be left unto the morning.\n26. The first of the firstfruits of thy land thou shalt bring unto the house of the LORD thy God. Thou shalt not seethe a kid in his mother's milk.\n27. And the LORD said unto Moses, Write thou these words: for after the tenor of these words I have made a covenant with thee and with Israel.\n28. And he was there with the LORD forty days and forty nights; he did neither eat bread, nor drink water. And he wrote upon the tables the words of the covenant, the ten commandments.\n29. And it came to pass, when Moses came down from mount Sinai with the two tables of testimony in Moses' hand, when he came down from the mount, that Moses wist not that the skin of his face shone while he talked with him.\n30. And when Aaron and all the children of Israel saw Moses, behold, the skin of his face shone; and they were afraid to come nigh him.\n31. And Moses called unto them; and Aaron and all the rulers of the congregation returned unto him: and Moses talked with them.\n32. And afterward all the children of Israel came nigh: and he gave them in commandment all that the LORD had spoken with him in mount Sinai.\n33. And till Moses had done speaking with them, he put a vail on his face.\n34. But when Moses went in before the LORD to speak with him, he took the vail off, until he came out. And he came out, and spake unto the children of Israel that which he was commanded.\n35. And the children of Israel saw the face of Moses, that the skin of Moses' face shone: and Moses put the vail upon his face again, until he went in to speak with him."
       },
       "capituloRelativo": 34
     },
     {
       "id": "exodus_chapter_35",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 35",
@@ -1560,7 +1546,7 @@
     },
     {
       "id": "exodus_chapter_36",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 36",
@@ -1578,7 +1564,7 @@
     },
     {
       "id": "exodus_chapter_37",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 37",
@@ -1596,7 +1582,7 @@
     },
     {
       "id": "exodus_chapter_38",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 38",
@@ -1608,13 +1594,13 @@
       "textoOriginal": "1. א ויעש את מזבח העלה עצי שטים  חמש אמות ארכו וחמש אמות רחבו רבוע ושלש אמות קמתו\n2. ב ויעש קרנתיו על ארבע פנתיו--ממנו היו קרנתיו ויצף אתו נחשת\n3. ג ויעש את כל כלי המזבח את הסירת ואת היעים ואת המזרקת את המזלגת ואת המחתת כל כליו עשה נחשת\n4. ד ויעש למזבח מכבר מעשה רשת נחשת תחת כרכבו מלמטה עד חציו\n5. ה ויצק ארבע טבעת בארבע הקצות--למכבר הנחשת  בתים לבדים\n6. ו ויעש את הבדים עצי שטים ויצף אתם נחשת\n7. ז ויבא את הבדים בטבעת על צלעת המזבח לשאת אתו בהם נבוב לחת עשה אתו  ס\n8. ח ויעש את הכיור נחשת ואת כנו נחשת--במראת הצבאת אשר צבאו פתח אהל מועד  ס\n9. ט ויעש את החצר  לפאת נגב תימנה קלעי החצר שש משזר מאה באמה\n10. י עמודיהם עשרים ואדניהם עשרים נחשת ווי העמודים וחשקיהם כסף\n11. יא ולפאת צפון מאה באמה--עמודיהם עשרים ואדניהם עשרים נחשת ווי העמודים וחשקיהם כסף\n12. יב ולפאת ים קלעים חמשים באמה--עמודיהם עשרה ואדניהם עשרה ווי העמדים וחשוקיהם כסף\n13. יג ולפאת קדמה מזרחה חמשים אמה\n14. יד קלעים חמש עשרה אמה אל הכתף עמודיהם שלשה ואדניהם שלשה\n15. טו ולכתף השנית מזה ומזה לשער החצר קלעים חמש עשרה אמה עמדיהם שלשה ואדניהם שלשה\n16. טז כל קלעי החצר סביב שש משזר\n17. יז והאדנים לעמדים נחשת ווי העמודים וחשוקיהם כסף וצפוי ראשיהם כסף והם מחשקים כסף כל עמדי החצר\n18. יח ומסך שער החצר מעשה רקם--תכלת וארגמן ותולעת שני ושש משזר ועשרים אמה ארך וקומה ברחב חמש אמות לעמת קלעי החצר\n19. יט ועמדיהם ארבעה ואדניהם ארבעה נחשת וויהם כסף וצפוי ראשיהם וחשקיהם כסף\n20. כ וכל היתדת למשכן ולחצר סביב--נחשת  ס\n21. כא אלה פקודי המשכן משכן העדת אשר פקד על פי משה  עבדת הלוים ביד איתמר בן אהרן הכהן\n22. כב ובצלאל בן אורי בן חור למטה יהודה עשה את כל אשר צוה יהוה את משה\n23. כג ואתו אהליאב בן אחיסמך למטה דן--חרש וחשב ורקם בתכלת ובארגמן ובתולעת השני ובשש  ס\n24. כד כל הזהב העשוי למלאכה בכל מלאכת הקדש--ויהי זהב התנופה תשע ועשרים ככר ושבע מאות ושלשים שקל בשקל הקדש\n25. כה וכסף פקודי העדה מאת ככר ואלף ושבע מאות וחמשה ושבעים שקל--בשקל הקדש\n26. כו בקע לגלגלת מחצית השקל בשקל הקדש--לכל העבר על הפקדים מבן עשרים שנה ומעלה לשש מאות אלף ושלשת אלפים וחמש מאות וחמשים\n27. כז ויהי מאת ככר הכסף לצקת את אדני הקדש ואת אדני הפרכת  מאת אדנים למאת הככר ככר לאדן\n28. כח ואת האלף ושבע המאות וחמשה ושבעים עשה ווים לעמודים וצפה ראשיהם וחשק אתם\n29. כט ונחשת התנופה שבעים ככר ואלפים וארבע מאות שקל\n30. ל ויעש בה את אדני פתח אהל מועד ואת מזבח הנחשת ואת מכבר הנחשת אשר לו ואת כל כלי המזבח\n31. לא ואת אדני החצר סביב ואת אדני שער החצר ואת כל יתדת המשכן ואת כל יתדת החצר סביב",
       "foneticaLiturgica": "Sefer Shemot · Perek 38",
       "traducciones": {
-        "en": "1. And he made the altar of burnt offering of shittim wood: five cubits was the length thereof, and five cubits the breadth thereof; it was foursquare; and three cubits the height thereof.\n2. And he made the horns thereof on the four corners of it; the horns thereof were of the same: and he overlaid it with brass.\n3. And he made all the vessels of the altar, the pots, and the shovels, and the basons, and the fleshhooks, and the firepans: all the vessels thereof made he of brass.\n4. And he made for the altar a brasen grate of network under the compass thereof beneath unto the midst of it.\n5. And he cast four rings for the four ends of the grate of brass, to be places for the staves.\n6. And he made the staves of shittim wood, and overlaid them with brass.\n7. And he put the staves into the rings on the sides of the altar, to bear it withal; he made the altar hollow with boards.\n8. And he made the laver of brass, and the foot of it of brass, of the lookingglasses of the women assembling, which assembled at the door of the tabernacle of the congregation.\n9. And he made the court: on the south side southward the hangings of the court were of fine twined linen, an hundred cubits:\n10. Their pillars were twenty, and their brasen sockets twenty; the hooks of the pillars and their fillets were of silver.\n11. And for the north side the hangings were an hundred cubits, their pillars were twenty, and their sockets of brass twenty; the hooks of the pillars and their fillets of silver.\n12. And for the west side were hangings of fifty cubits, their pillars ten, and their sockets ten; the hooks of the pillars and their fillets of silver.\n13. And for the east side eastward fifty cubits.\n14. The hangings of the one side of the gate were fifteen cubits; their pillars three, and their sockets three.\n15. And for the other side of the court gate, on this hand and that hand, were hangings of fifteen cubits; their pillars three, and their sockets three.\n16. All the hangings of the court round about were of fine twined linen.\n17. And the sockets for the pillars were of brass; the hooks of the pillars and their fillets of silver; and the overlaying of their chapiters of silver; and all the pillars of the court were filleted with silver.\n18. And the hanging for the gate of the court was needlework, of blue, and purple, and scarlet, and fine twined linen: and twenty cubits was the length, and the height in the breadth was five cubits, answerable to the hangings of the court.\n19. And their pillars were four, and their sockets of brass four; their hooks of silver, and the overlaying of their chapiters and their fillets of silver.\n20. And all the pins of the tabernacle, and of the court round about, were of brass.\n21. This is the sum of the tabernacle, even of the tabernacle of testimony, as it was counted, according to the commandment of Moses, for the service of the Levites, by the hand of Ithamar, son to Aaron the priest.\n22. And Bezaleel the son of Uri, the son of Hur, of the tribe of Judah, made all that the LORD commanded Moses.\n23. And with him was Aholiab, son of Ahisamach, of the tribe of Dan, an engraver, and a cunning workman, and an embroiderer in blue, and in purple, and in scarlet, and fine linen.\n24. All the gold that was occupied for the work in all the work of the holy place, even the gold of the offering, was twenty and nine talents, and seven hundred and thirty shekels, after the shekel of the sanctuary.\n25. And the silver of them that were numbered of the congregation was an hundred talents, and a thousand seven hundred and threescore and fifteen shekels, after the shekel of the sanctuary:\n26. A bekah for every man,, half a shekel, after the shekel of the sanctuary, for every one that went to be numbered, from twenty years old and upward, for six hundred thousand and three thousand and five hundred and fifty men.\n27. And of the hundred talents of silver were cast the sockets of the sanctuary, and the sockets of the vail; an hundred sockets of the hundred talents, a talent for a socket.\n28. And of the thousand seven hundred seventy and five shekels he made hooks for the pillars, and overlaid their chapiters, and filleted them.\n29. And the brass of the offering was seventy talents, and two thousand and four hundred shekels.\n30. And therewith he made the sockets to the door of the tabernacle of the congregation, and the brasen altar, and the brasen grate for it, and all the vessels of the altar,\n31. And the sockets of the court round about, and the sockets of the court gate, and all the pins of the tabernacle, and all the pins of the court round about."
+        "en": "1. And he made the altar of burnt offering of shittim wood: five cubits was the length thereof, and five cubits the breadth thereof; it was foursquare; and three cubits the height thereof.\n2. And he made the horns thereof on the four corners of it; the horns thereof were of the same: and he overlaid it with brass.\n3. And he made all the vessels of the altar, the pots, and the shovels, and the basons, and the fleshhooks, and the firepans: all the vessels thereof made he of brass.\n4. And he made for the altar a brasen grate of network under the compass thereof beneath unto the midst of it.\n5. And he cast four rings for the four ends of the grate of brass, to be places for the staves.\n6. And he made the staves of shittim wood, and overlaid them with brass.\n7. And he put the staves into the rings on the sides of the altar, to bear it withal; he made the altar hollow with boards.\n8. And he made the laver of brass, and the foot of it of brass, of the lookingglasses of the women assembling, which assembled at the door of the tabernacle of the congregation.\n9. And he made the court: on the south side southward the hangings of the court were of fine twined linen, an hundred cubits:\n10. Their pillars were twenty, and their brasen sockets twenty; the hooks of the pillars and their fillets were of silver.\n11. And for the north side the hangings were an hundred cubits, their pillars were twenty, and their sockets of brass twenty; the hooks of the pillars and their fillets of silver.\n12. And for the west side were hangings of fifty cubits, their pillars ten, and their sockets ten; the hooks of the pillars and their fillets of silver.\n13. And for the east side eastward fifty cubits.\n14. The hangings of the one side of the gate were fifteen cubits; their pillars three, and their sockets three.\n15. And for the other side of the court gate, on this hand and that hand, were hangings of fifteen cubits; their pillars three, and their sockets three.\n16. All the hangings of the court round about were of fine twined linen.\n17. And the sockets for the pillars were of brass; the hooks of the pillars and their fillets of silver; and the overlaying of their chapiters of silver; and all the pillars of the court were filleted with silver.\n18. And the hanging for the gate of the court was needlework, of blue, and purple, and scarlet, and fine twined linen: and twenty cubits was the length, and the height in the breadth was five cubits, answerable to the hangings of the court.\n19. And their pillars were four, and their sockets of brass four; their hooks of silver, and the overlaying of their chapiters and their fillets of silver.\n20. And all the pins of the tabernacle, and of the court round about, were of brass.\n21. This is the sum of the tabernacle, even of the tabernacle of testimony, as it was counted, according to the commandment of Moses, for the service of the Levites, by the hand of Ithamar, son to Aaron the priest.\n22. And Bezaleel the son of Uri, the son of Hur, of the tribe of Judah, made all that the LORD commanded Moses.\n23. And with him was Aholiab, son of Ahisamach, of the tribe of Dan, an engraver, and a cunning workman, and an embroiderer in blue, and in purple, and in scarlet, and fine linen.\n24. All the gold that was occupied for the work in all the work of the holy place, even the gold of the offering, was twenty and nine talents, and seven hundred and thirty shekels, after the shekel of the sanctuary.\n25. And the silver of them that were numbered of the congregation was an hundred talents, and a thousand seven hundred and threescore and fifteen shekels, after the shekel of the sanctuary:\n26. A bekah for every man, that is, half a shekel, after the shekel of the sanctuary, for every one that went to be numbered, from twenty years old and upward, for six hundred thousand and three thousand and five hundred and fifty men.\n27. And of the hundred talents of silver were cast the sockets of the sanctuary, and the sockets of the vail; an hundred sockets of the hundred talents, a talent for a socket.\n28. And of the thousand seven hundred seventy and five shekels he made hooks for the pillars, and overlaid their chapiters, and filleted them.\n29. And the brass of the offering was seventy talents, and two thousand and four hundred shekels.\n30. And therewith he made the sockets to the door of the tabernacle of the congregation, and the brasen altar, and the brasen grate for it, and all the vessels of the altar,\n31. And the sockets of the court round about, and the sockets of the court gate, and all the pins of the tabernacle, and all the pins of the court round about."
       },
       "capituloRelativo": 38
     },
     {
       "id": "exodus_chapter_39",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 39",
@@ -1632,7 +1618,7 @@
     },
     {
       "id": "exodus_chapter_40",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 40",
