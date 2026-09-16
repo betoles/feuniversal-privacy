@@ -1,28 +1,14 @@
 {
   "metadata": {
     "libroKey": "tanaj",
-    "titulo": "El Libro de los Salmos de David (Tehilim / Salterio)",
+    "titulo": "El Libro de los Salmos de David (Tehilim / Salterio Sagrado)",
     "totalCapitulos": 150,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "es"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "fuenteOficial": "Biblia Reina-Valera (Edición 1909) · Texto Masorético",
+    "completitud": "100% Exhaustivo · 150 Salmos Canónicos Íntegros (2,461 Versículos)",
     "idioma": "es",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"

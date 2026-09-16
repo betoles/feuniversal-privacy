@@ -1,28 +1,14 @@
 {
   "metadata": {
     "libroKey": "pentateuch",
-    "titulo": "El Santo Pentateuco / La Santa Torá (Los Cinco Libros de Moisés)",
+    "titulo": "El Santo Pentateuco / La Torá (Los Cinco Libros de Moisés)",
     "totalCapitulos": 90,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "es"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
+    "fuenteOficial": "Biblia Reina-Valera (Edición 1909) · Texto Masorético (Códice de Leningrado)",
+    "completitud": "100% Exhaustivo · Génesis (50) + Éxodo (40) Íntegros (90 Capítulos / 2,746 Versículos)",
     "idioma": "es",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
@@ -30,7 +16,7 @@
   "capitulos": [
     {
       "id": "genesis_chapter_1",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 1",
@@ -48,7 +34,7 @@
     },
     {
       "id": "genesis_chapter_2",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 2",
@@ -66,7 +52,7 @@
     },
     {
       "id": "genesis_chapter_3",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 3",
@@ -84,7 +70,7 @@
     },
     {
       "id": "genesis_chapter_4",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 4",
@@ -102,7 +88,7 @@
     },
     {
       "id": "genesis_chapter_5",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 5",
@@ -120,7 +106,7 @@
     },
     {
       "id": "genesis_chapter_6",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 6",
@@ -138,7 +124,7 @@
     },
     {
       "id": "genesis_chapter_7",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 7",
@@ -156,7 +142,7 @@
     },
     {
       "id": "genesis_chapter_8",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 8",
@@ -174,7 +160,7 @@
     },
     {
       "id": "genesis_chapter_9",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 9",
@@ -192,7 +178,7 @@
     },
     {
       "id": "genesis_chapter_10",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 10",
@@ -210,7 +196,7 @@
     },
     {
       "id": "genesis_chapter_11",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 11",
@@ -228,7 +214,7 @@
     },
     {
       "id": "genesis_chapter_12",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 12",
@@ -246,7 +232,7 @@
     },
     {
       "id": "genesis_chapter_13",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 13",
@@ -264,7 +250,7 @@
     },
     {
       "id": "genesis_chapter_14",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 14",
@@ -282,7 +268,7 @@
     },
     {
       "id": "genesis_chapter_15",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 15",
@@ -300,7 +286,7 @@
     },
     {
       "id": "genesis_chapter_16",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 16",
@@ -318,7 +304,7 @@
     },
     {
       "id": "genesis_chapter_17",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 17",
@@ -336,7 +322,7 @@
     },
     {
       "id": "genesis_chapter_18",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 18",
@@ -354,7 +340,7 @@
     },
     {
       "id": "genesis_chapter_19",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 19",
@@ -372,7 +358,7 @@
     },
     {
       "id": "genesis_chapter_20",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 20",
@@ -390,7 +376,7 @@
     },
     {
       "id": "genesis_chapter_21",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 21",
@@ -408,7 +394,7 @@
     },
     {
       "id": "genesis_chapter_22",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 22",
@@ -426,7 +412,7 @@
     },
     {
       "id": "genesis_chapter_23",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 23",
@@ -444,7 +430,7 @@
     },
     {
       "id": "genesis_chapter_24",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 24",
@@ -462,7 +448,7 @@
     },
     {
       "id": "genesis_chapter_25",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 25",
@@ -480,7 +466,7 @@
     },
     {
       "id": "genesis_chapter_26",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 26",
@@ -498,7 +484,7 @@
     },
     {
       "id": "genesis_chapter_27",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 27",
@@ -516,7 +502,7 @@
     },
     {
       "id": "genesis_chapter_28",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 28",
@@ -534,7 +520,7 @@
     },
     {
       "id": "genesis_chapter_29",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 29",
@@ -552,7 +538,7 @@
     },
     {
       "id": "genesis_chapter_30",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 30",
@@ -570,7 +556,7 @@
     },
     {
       "id": "genesis_chapter_31",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 31",
@@ -588,7 +574,7 @@
     },
     {
       "id": "genesis_chapter_32",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 32",
@@ -606,7 +592,7 @@
     },
     {
       "id": "genesis_chapter_33",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 33",
@@ -624,7 +610,7 @@
     },
     {
       "id": "genesis_chapter_34",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 34",
@@ -642,7 +628,7 @@
     },
     {
       "id": "genesis_chapter_35",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 35",
@@ -660,7 +646,7 @@
     },
     {
       "id": "genesis_chapter_36",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 36",
@@ -678,7 +664,7 @@
     },
     {
       "id": "genesis_chapter_37",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 37",
@@ -696,7 +682,7 @@
     },
     {
       "id": "genesis_chapter_38",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 38",
@@ -714,7 +700,7 @@
     },
     {
       "id": "genesis_chapter_39",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 39",
@@ -732,7 +718,7 @@
     },
     {
       "id": "genesis_chapter_40",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 40",
@@ -750,7 +736,7 @@
     },
     {
       "id": "genesis_chapter_41",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 41",
@@ -768,7 +754,7 @@
     },
     {
       "id": "genesis_chapter_42",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 42",
@@ -786,7 +772,7 @@
     },
     {
       "id": "genesis_chapter_43",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 43",
@@ -804,7 +790,7 @@
     },
     {
       "id": "genesis_chapter_44",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 44",
@@ -822,7 +808,7 @@
     },
     {
       "id": "genesis_chapter_45",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 45",
@@ -840,7 +826,7 @@
     },
     {
       "id": "genesis_chapter_46",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 46",
@@ -858,7 +844,7 @@
     },
     {
       "id": "genesis_chapter_47",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 47",
@@ -876,7 +862,7 @@
     },
     {
       "id": "genesis_chapter_48",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 48",
@@ -894,7 +880,7 @@
     },
     {
       "id": "genesis_chapter_49",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 49",
@@ -912,7 +898,7 @@
     },
     {
       "id": "genesis_chapter_50",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Génesis (Bereshit)",
       "libroKey": "genesis",
       "capitulo": "Capítulo 50",
@@ -930,7 +916,7 @@
     },
     {
       "id": "exodus_chapter_1",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 1",
@@ -948,7 +934,7 @@
     },
     {
       "id": "exodus_chapter_2",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 2",
@@ -966,7 +952,7 @@
     },
     {
       "id": "exodus_chapter_3",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 3",
@@ -984,7 +970,7 @@
     },
     {
       "id": "exodus_chapter_4",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 4",
@@ -1002,7 +988,7 @@
     },
     {
       "id": "exodus_chapter_5",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 5",
@@ -1020,7 +1006,7 @@
     },
     {
       "id": "exodus_chapter_6",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 6",
@@ -1038,7 +1024,7 @@
     },
     {
       "id": "exodus_chapter_7",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 7",
@@ -1056,7 +1042,7 @@
     },
     {
       "id": "exodus_chapter_8",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 8",
@@ -1074,7 +1060,7 @@
     },
     {
       "id": "exodus_chapter_9",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 9",
@@ -1092,7 +1078,7 @@
     },
     {
       "id": "exodus_chapter_10",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 10",
@@ -1110,7 +1096,7 @@
     },
     {
       "id": "exodus_chapter_11",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 11",
@@ -1128,7 +1114,7 @@
     },
     {
       "id": "exodus_chapter_12",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 12",
@@ -1146,7 +1132,7 @@
     },
     {
       "id": "exodus_chapter_13",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 13",
@@ -1164,7 +1150,7 @@
     },
     {
       "id": "exodus_chapter_14",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 14",
@@ -1182,7 +1168,7 @@
     },
     {
       "id": "exodus_chapter_15",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 15",
@@ -1200,7 +1186,7 @@
     },
     {
       "id": "exodus_chapter_16",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 16",
@@ -1218,7 +1204,7 @@
     },
     {
       "id": "exodus_chapter_17",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 17",
@@ -1236,7 +1222,7 @@
     },
     {
       "id": "exodus_chapter_18",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 18",
@@ -1254,7 +1240,7 @@
     },
     {
       "id": "exodus_chapter_19",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 19",
@@ -1272,7 +1258,7 @@
     },
     {
       "id": "exodus_chapter_20",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 20",
@@ -1290,7 +1276,7 @@
     },
     {
       "id": "exodus_chapter_21",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 21",
@@ -1308,7 +1294,7 @@
     },
     {
       "id": "exodus_chapter_22",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 22",
@@ -1326,7 +1312,7 @@
     },
     {
       "id": "exodus_chapter_23",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 23",
@@ -1344,7 +1330,7 @@
     },
     {
       "id": "exodus_chapter_24",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 24",
@@ -1362,7 +1348,7 @@
     },
     {
       "id": "exodus_chapter_25",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 25",
@@ -1380,7 +1366,7 @@
     },
     {
       "id": "exodus_chapter_26",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 26",
@@ -1398,7 +1384,7 @@
     },
     {
       "id": "exodus_chapter_27",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 27",
@@ -1416,7 +1402,7 @@
     },
     {
       "id": "exodus_chapter_28",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 28",
@@ -1434,7 +1420,7 @@
     },
     {
       "id": "exodus_chapter_29",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 29",
@@ -1452,7 +1438,7 @@
     },
     {
       "id": "exodus_chapter_30",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 30",
@@ -1470,7 +1456,7 @@
     },
     {
       "id": "exodus_chapter_31",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 31",
@@ -1488,7 +1474,7 @@
     },
     {
       "id": "exodus_chapter_32",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 32",
@@ -1506,7 +1492,7 @@
     },
     {
       "id": "exodus_chapter_33",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 33",
@@ -1524,7 +1510,7 @@
     },
     {
       "id": "exodus_chapter_34",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 34",
@@ -1542,7 +1528,7 @@
     },
     {
       "id": "exodus_chapter_35",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 35",
@@ -1560,7 +1546,7 @@
     },
     {
       "id": "exodus_chapter_36",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 36",
@@ -1578,7 +1564,7 @@
     },
     {
       "id": "exodus_chapter_37",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 37",
@@ -1596,7 +1582,7 @@
     },
     {
       "id": "exodus_chapter_38",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 38",
@@ -1614,7 +1600,7 @@
     },
     {
       "id": "exodus_chapter_39",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 39",
@@ -1632,7 +1618,7 @@
     },
     {
       "id": "exodus_chapter_40",
-      "tradicion": "catolicismo",
+      "tradicion": "biblia_hebrea",
       "libro": "El Santo Libro de Éxodo (Shemot)",
       "libroKey": "exodus",
       "capitulo": "Capítulo 40",

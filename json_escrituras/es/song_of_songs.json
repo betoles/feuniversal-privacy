@@ -1,10 +1,14 @@
 {
   "metadata": {
     "libroKey": "song_of_songs",
-    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
+    "titulo": "El Cantar de los Cantares de Salomón (Shir HaShirim · Cántico de los Cánticos)",
     "totalCapitulos": 8,
+    "idiomasDisponibles": [
+      "es"
+    ],
     "idiomaLiturgicoOriginal": "Hebreo Bíblico (עברית מקראית - Masorético)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Biblia Reina-Valera (Edición 1909) · Texto Masorético",
+    "completitud": "100% Exhaustivo · 8 Capítulos / 117 Versículos Íntegros",
     "idioma": "es",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
@@ -12,7 +16,7 @@
   "capitulos": [
     {
       "id": "song_of_songs_chapter_1",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 1: Canto de Amor Místico y Comunión Espiritual",
@@ -24,12 +28,12 @@
       "textoOriginal": "שִׁיר הַשִּׁירִים אֲשֶׁר לִשְׁלֹמֹה: יִשָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ, כִּי-טוֹבִים דֹּדֶיךָ מִיָּיִן. לְרֵיחַ שְׁמָנֶיךָ טוֹבִים, שֶׁמֶן תּוּרַק שְׁמֶךָ--עַל-כֵּן, עֲלָמוֹת אֲהֵבוּךָ. מָשְׁכֵנִי, אַחֲרֶיךָ נָּרוּצָה; הֱבִיאַנִי הַמֶּלֶךְ חֲדָרָיו, נָגִילָה וְנִשְׂמְחָה בָּךְ--נַזְכִּירָה דֹדֶיךָ מִיַּיִן, מֵישָׁרִים אֲהֵבוּךָ.",
       "foneticaLiturgica": "Shīr ha-Shīrīm 'asher li-Shlōmōh: Yishāqēnī min-nəshīqōt pīhū, kī-ṭōvīm dōdekhā mi-yyāyin. Lə-rēaḥ shəmānēkhā ṭōvīm, shemen tūraq shəmekhā—'al-kēn 'ălāmōt 'ăhēvūkhā. Moshkhēnī, 'aḥărekhā nnārūṣāh; hĕvī'anī ham-melekh ḥădārāw...",
       "traducciones": {
-        "es": "1. ¡Oh, si él me besara con besos de su boca! Porque mejores son tus amores que el vino.\n2. A más del olor de tus suaves ungüentos, tu nombre es como ungüento derramado; por eso las doncellas te aman.\n3. Atráeme; en pos de ti correremos. El rey me ha metido en sus cámaras; nos gozaremos y alegraremos en ti; nos acordaremos de tus amores más que del vino; con razón te aman.\n4. Morena soy, oh hijas de Jerusalén, pero codiciable como las tiendas de Cedar, como las cortinas de Salomón.\n5. Hazme saber, oh tú a quien ama mi alma, dónde apacientas, dónde sesteas al mediodía."
+        "es": "1. CANCION de canciones, la cual es de Salomón.\n2. ¡Oh si él me besara con ósculos de su boca! Porque mejores son tus amores que el vino.\n3. Por el olor de tus suaves unguüentos, (Ungüento derramado es tu nombre,) Por eso las doncellas te amaron.\n4. Llévame en pos de ti, correremos. Metióme el rey en sus cámaras: Nos gozaremos y alegraremos en ti; Acordarémonos de tus amores más que del vino: Los rectos te aman.\n5. Morena soy, oh hijas de Jerusalem, Mas codiciable; Como las cabañas de Cedar, Como las tiendas de Salomón.\n6. No miréis en que soy morena, Porque el sol me miró. Los hijos de mi madre se airaron contra mí, Hiciéronme guarda de viñas; Y mi viña, que era mía, no guardé.\n7. Hazme saber, ó tú á quien ama mi alma, Dónde repastas, dónde haces tener majada al medio día: Porque, ¿por qué había yo de estar como vagueando Tras los rebaños de tus compañeros?\n8. Si tú no lo sabes, oh hermosa entre las mujeres, Sal, yéndote por las huellas del rebaño, Y apacienta tus cabritas junto á las cabañas de los pastores.\n9. A yegua de los carros de Faraón Te he comparado, amiga mía.\n10. Hermosas son tus mejillas entre los pendientes, Tu cuello entre los collares.\n11. Zarcillos de oro te haremos, Con clavos de plata.\n12. Mientras que el rey estaba en su reclinatorio, Mi nardo dió su olor.\n13. Mi amado es para mí un manojito de mirra, Que reposa entre mis pechos.\n14. Racimo de copher en las viñas de Engadi Es para mí mi amado.\n15. He aquí que tú eres hermosa, amiga mía; He aquí que eres bella: tus ojos de paloma.\n16. He aquí que tú eres hermoso, amado mío, y suave: Nuestro lecho también florido.\n17. Las vigas de nuestra casa son de cedro, Y de ciprés los artesonados.\n"
       }
     },
     {
       "id": "song_of_songs_chapter_2",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 2: La Rosa de Sarón y el Lirio de los Valles",
@@ -41,12 +45,12 @@
       "textoOriginal": "אֲנִי חֲבַצֶּלֶת הַשָּׁרוֹן, שׁוֹשַׁנַּת הָעֲמָקִים. כְּשׁוֹשַׁנָּה בֵּין הַחוֹחִים, כֵּן רַעְיָתִי בֵּין הַבָּנוֹת. כְּתַפּוּחַ בַּעֲצֵי הַיַּעַר, כֵּן דּוֹדִי בֵּין הַבָּנִים... קוֹל דּוֹדִי, הִנֵּה-זֶה בָּא--מְדַלֵּג, עַל-הֶהָרִים, מְקַפֵּץ, עַל-הַגְּבָעוֹת.",
       "foneticaLiturgica": "'Ănī ḥăvaṣṣelet ha-Shārōn, shōshannat hā-‘ămāqīm. Kə-shōshannāh bēn ha-ḥōḥīm, kēn ra‘yātī bēn hab-bānōt. Qōl dōdī, hinnēh-zeh bā'—mədalleg ‘al-hehārīm, məqappēṣ ‘al-hag-gəvā‘ōt...",
       "traducciones": {
-        "es": "1. Yo soy la rosa de Sarón, y el lirio de los valles.\n2. Como el lirio entre los espinos, así es mi amiga entre las doncellas.\n3. Como el manzano entre los árboles silvestres, así es mi amado entre los jóvenes; bajo la sombra del deseado me senté, y su fruto fue dulce a mi paladar.\n4. Me llevó a la casa del banquete, y su bandera sobre mí fue amor.\n5. ¡La voz de mi amado! He aquí él viene saltando sobre los montes, brincando sobre los collados.\n6. Mi amado habló, y me dijo: Levántate, amiga mía, hermosa mía, y ven. Porque he aquí ha pasado el invierno, se ha mudado, la lluvia se fue; se han mostrado las flores en la tierra."
+        "es": "1. YO soy la rosa de Sarón, Y el lirio de los valles.\n2. Como el lirio entre las espinas, Así es mi amiga entre las doncellas.\n3. Como el manzano entre los árboles silvestres, Así es mi amado entre los mancebos: Bajo la sombra del deseado me senté, Y su fruto fué dulce en mi paladar.\n4. Llevóme á la cámara del vino, Y su bandera sobre mí fué amor.\n5. Sustentadme con frascos, corroboradme con manzanas; Porque estoy enferma de amor.\n6. Su izquierda esté debajo de mi cabeza, Y su derecha me abrace.\n7. Yo os conjuro, oh doncellas de Jerusalem, Por las gamas y por las ciervas del campo, Que no despertéis ni hagáis velar al amor Hasta que quiera.\n8. ¡La voz de mi amado! He aquí él viene Saltando sobre los montes, brincando sobre los collados.\n9. Mi amado es semejante al gamo, ó al cabrito de los ciervos. Helo aquí, está tras nuestra pared, Mirando por las ventanas, Mostrándose por las rejas.\n10. Mi amado habló, y me dijo: Levántate, oh amiga mía, hermosa mía, y vente.\n11. Porque he aquí ha pasado el invierno, Hase mudado, la lluvia se fué;\n12. Hanse mostrado las flores en la tierra, El tiempo de la canción es venido, Y en nuestro país se ha oído la voz de la tórtola;\n13. La higuera ha echado sus higos, Y las vides en cierne Dieron olor: Levántate, oh amiga mía, hermosa mía, y vente.\n14. Paloma mía, que estás en los agujeros de la peña, en lo escondido de escarpados parajes, Muéstrame tu rostro, hazme oir tu voz; Porque dulce es la voz tuya, y hermoso tu aspecto.\n15. Cazadnos las zorra, las zorras pequeñas, que echan á perder las viñas; Pues que nuestras viñas están en cierne.\n16. Mi amado es mío, y yo suya; El apacienta entre lirios.\n17. Hasta que apunte el día, y huyan las sombras, Tórnate, amado mío; sé semejante al gamo, ó al cabrito de los ciervos, Sobre los montes de Bether.\n"
       }
     },
     {
       "id": "song_of_songs_chapter_3",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 3: La Búsqueda Nocturna y el Cortejo Celestial",
@@ -58,12 +62,12 @@
       "textoOriginal": "עַל-מִשְׁכָּבִי בַּלֵּילוֹת, בִּקַּשְׁתִּי אֵת שֶׁאָהֲבָה נַפְשִׁי--בִּקַּשְׁתִּיו, וְלֹא מְצָאתִיו. אָקוּמָה נָּא וַאֲסוֹבְבָה בָעִיר, בַּשְּׁוָקִים וּבָרְחֹבוֹת--אֲבַקְשָׁה, אֵת שֶׁאָהֲבָה נַפְשִׁי... מִי זֹאת עֹלָה מִן-הַמִּדְבָּר, כְּתִימֲרוֹת עָשָׁן--מְקֻטֶּרֶת מֹר וּלְבוֹנָה, מִכֹּל אַבְקַת רוֹכֵל.",
       "foneticaLiturgica": "‘Al-mishkāvī bal-lēlōt, biqqashtī 'ēt she-'āhăvāh nafshī—biqqashtīw wə-lō' məṣā'tīw... Mī zō't ‘ōlāh min-ham-midbār, kə-tīmărōt ‘āshān—məquṭṭeret mōr ū-ləvōnāh...",
       "traducciones": {
-        "es": "1. Por las noches busqué en mi lecho al que ama mi alma; lo busqué, y no lo hallé.\n2. Y dije: Me levantaré ahora, y rodearé por la ciudad; por las calles y por las plazas buscaré al que ama mi alma; lo busqué, y no lo hallé.\n3. Apenas hube pasado de los guardas, hallé al que ama mi alma; trabé de él, y no lo dejé, hasta que lo metí en casa de mi madre, y en la cámara de la que me concibió.\n4. ¿Quién es ésta que sube del desierto como columna de humo, sahumada de mirra y de incienso y de todos los polvos aromáticos?"
+        "es": "1. POR las noches busqué en mi lecho al que ama mi alma: Busquélo, y no lo hallé.\n2. Levantaréme ahora, y rodearé por la ciudad; Por las calles y por las plazas Buscaré al que ama mi alma: Busquélo, y no lo hallé.\n3. Halláronme los guardas que rondan la ciudad, Y díjeles: ¿Habéis visto al que ama mi alma?\n4. Pasando de ellos un poco, Hallé luego al que mi alma ama: Trabé de él, y no lo dejé, Hasta que lo metí en casa de mi madre, Y en la cámara de la que me engendró.\n5. Yo os conjuro, oh doncellas de Jerusalem, Por las gamas y por las ciervas del campo, Que no despertéis ni hagáis velar al amor, Hasta que quiera.\n6. ¿Quién es ésta que sube del desierto como columnita de humo, Sahumada de mirra y de incienso, Y de todos polvos aromáticos?\n7. He aquí es la litera de Salomón: Sesenta valientes la rodean, De los fuertes de Israel.\n8. Todos ellos tienen espadas, diestros en la guerra; Cada uno su espada sobre su muslo, Por los temores de la noche.\n9. El rey Salomón se hizo una carroza De madera del Líbano.\n10. Sus columnas hizo de plata, Su respaldo de oro, su cielo de grana, Su interior enlosado de amor, Por las doncellas de Jerusalem.\n11. Salid, oh doncellas de Sión, y ved al rey Salomón Con la corona con que le coronó su madre el día de su desposorio, Y el día del gozo de su corazón.\n"
       }
     },
     {
       "id": "song_of_songs_chapter_4",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 4: La Belleza Inmaculada y el Huerto Cerrado",
@@ -75,12 +79,12 @@
       "textoOriginal": "הִנָּךְ יָפָה רַעְיָתִי, הִנָּךְ יָפָה--עֵינַיִךְ יוֹנִים, מִבַּעַד לְצַמָּתֵךְ... כֻּלָּךְ יָפָה רַעְיָתִי, וּמוּם אֵין בָּךְ. גַּן נָעוּל, אֲחֹתִי כַלָּה; גַּל נָעוּל, מַעְיָן חָתוּם.",
       "foneticaLiturgica": "Hinnākh yāfāh ra‘yātī, hinnākh yāfāh—‘ēnayikh yōnīm... Kullākh yāfāh ra‘yātī, ū-mūm 'ēn bākh. Gan nā‘ūl, 'ăḥōtī khallāh; gal nā‘ūl, ma‘yān ḥātūm...",
       "traducciones": {
-        "es": "1. He aquí que tú eres hermosa, amiga mía; he aquí que eres hermosa; tus ojos entre tus guedejas son como de paloma.\n2. Toda tú eres hermosa, amiga mía, y en ti no hay mancha.\n3. Huerto cerrado eres, hermana mía, esposa mía; fuente cerrada, manantial sellado.\n4. Tus renuevos son paraíso de granados, con frutos suaves, de flores de alheña y nardos;\n5. Manantial de los huertos, pozo de aguas vivas, que fluyen del Líbano.\n6. ¡Levántate, Aquilón, y ven, Austro; soplad en mi huerto, despréndanse sus aromas! Venga mi amado a su huerto, y coma de su dulce fruta."
+        "es": "1. HE aquí que tú eres hermosa, amiga mía, he aquí que tú eres hermosa; Tus ojos entre tus guedejas como de paloma; Tus cabellos como manada de cabras, Que se muestran desde el monte de Galaad.\n2. Tus dientes, como manadas de trasquiladas ovejas, Que suben del lavadero, Todas con crías mellizas, Y ninguna entre ellas estéril.\n3. Tus labios, como un hilo de grana, Y tu habla hermosa; Tus sienes, como cachos de granada á la parte adentro de tus guedejas.\n4. Tu cuello, como la torre de David, edificada para muestra; Mil escudos están colgados de ella, Todos escudos de valientes.\n5. Tus dos pechos, como dos cabritos mellizos de gama, Que son apacentados entre azucenas.\n6. Hasta que apunte el día y huyan las sombras, Iréme al monte de la mirra, Y al collado del incienso.\n7. Toda tú eres hermosa, amiga mía Y en ti no hay mancha.\n8. Conmigo del Líbano, oh esposa, Conmigo ven del Líbano: Mira desde la cumbre de Amana, Desde la cumbre de Senir y de Hermón, Desde las guaridas de los leones, Desde los montes de los tigres.\n9. Prendiste mi corazón, hermana, esposa mía; Has preso mi corazón con uno de tus ojos, Con una gargantilla de tu cuello.\n10. ¡Cuán hermosos son tus amores, hermana, esposa mía! ¡Cuánto mejores que el vino tus amores, Y el olor de tus ungüentos que todas las especias aromáticas!\n11. Como panal de miel destilan tus labios, oh esposa; Miel y leche hay debajo de tu lengua; Y el olor de tus vestidos como el olor del Líbano.\n12. Huerto cerrado eres, mi hermana, esposa mía; Fuente cerrada, fuente sellada.\n13. Tus renuevos paraíso de granados, con frutos suaves, De cámphoras y nardos,\n14. Nardo y azafrán, Caña aromática y canela, con todos los árboles de incienso; Mirra y áloes, con todas las principales especias.\n15. Fuente de huertos, Pozo de aguas vivas, Que corren del Líbano.\n16. Levántate, Aquilón, y ven, Austro: Sopla mi huerto, despréndanse sus aromas. Venga mi amado á su huerto, Y coma de su dulce fruta.\n"
       }
     },
     {
       "id": "song_of_songs_chapter_5",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 5: La Presencia del Amado y el Cántico a su Perfección",
@@ -92,12 +96,12 @@
       "textoOriginal": "בָּאתִי לְגַנִּי אֲחֹתִי כַלָּה, אָרִיתִי מוֹרִי עִם-בְּשָׂמִי... אֲנִי יְשֵׁנָה, וְלִבִּי עֵר; קוֹל דּוֹדִי דוֹפֵק... דּוֹדִי צַח וְאָדוֹם, דָּגוּל מֵרְבָבָה... חִכּוֹ מַמְתַקִּים, וְכֻלּוֹ מַחֲמַדִּים; זֶה דוֹדִי וְזֶה רֵעִי, בְּנוֹת יְרוּשָׁלִָם.",
       "foneticaLiturgica": "Bā'tī lə-gannī 'ăḥōtī khallāh... 'Ănī yəshēnāh, wə-libbī ‘ēr; qōl dōdī dōfēq... Dōdī ṣaḥ wə-'ādōm, dāgūl mē-rəvāvāh... Ḥikkō mamtaqqīm, wə-khullō maḥămaddīm; zeh dōdī wə-zeh rē‘ī, bənōt Yərūshālāyim.",
       "traducciones": {
-        "es": "1. Yo vine a mi huerto, oh hermana, esposa mía; he recogido mi mirra y mis aromas; he comido mi panal y mi miel, mi vino y mi leche he bebido.\n2. Yo dormía, pero mi corazón velaba. ¡Es la voz de mi amado que llama!\n3. Mi amado es blanco y rubio, señalado entre diez mil.\n4. Su cabeza como oro finísimo; sus cabellos crespos, negros como el cuervo.\n5. Sus ojos, como palomas junto a los arroyos de las aguas, lavados con leche, a la perfección colocados.\n6. Su paladar, dulcísimo, y todo él codiciable. Tal es mi amado, tal es mi amigo, oh doncellas de Jerusalén."
+        "es": "1. YO vine á mi huerto, oh hermana, esposa mía: Cogido he mi mirra y mis aromas; He comido mi panal y mi miel, Mi vino y mi leche he bebido. Comed, amigos; Babed, amados, y embriagaos.\n2. Yo dormía, pero mi corazón velaba: La voz de mi amado que llamaba: Abreme, hermana mía, amiga mía, paloma mía, perfecta mía; Porque mi cabeza está llena de rocío, Mis cabellos de las gotas de la noche.\n3. Heme desnudado mi ropa; ¿cómo la tengo de vestir? He lavado mis pies; ¿cómo los tengo de ensuciar?\n4. Mi amado metió su mano por el agujero, Y mis entrañas se conmovieron dentro de mí.\n5. Yo me levanté para abrir á mi amado, Y mis manos gotearon mirra, Y mis dedos mirra que corría Sobre las aldabas del candado.\n6. Abrí yo á mi amado; Mas mi amado se había ido, había ya pasado: Y tras su hablar salió mi alma: Busquélo, y no lo hallé; Llamélo, y no me respondió.\n7. Halláronme los guardas que rondan la ciudad: Hiriéronme, llagáronme, Quitáronme mi manto de encima los guardas de los muros.\n8. Yo os conjuro, oh doncellas de Jerusalem, si hallareis á mi amado, Que le hagáis saber cómo de amor estoy enferma.\n9. ¿Qué es tu amado más que otro amado, Oh la más hermosa de todas las mujeres? ¿Qué es tu amado más que otro amado, Que así nos conjuras?\n10. Mi amado es blanco y rubio, Señalado entre diez mil.\n11. Su cabeza, como, oro finísimo; Sus cabellos crespos, negros como el cuervo.\n12. Sus ojos, como palomas junto á los arroyos de las aguas, Que se lavan con leche, y a la perfección colocados.\n13. Sus mejillas, como una era de especias aromáticas, como fragantes flores: Sus labios, como lirios que destilan mirra que trasciende.\n14. Sus manos, como anillos de oro engastados de jacintos: Su vientre, como claro marfil cubierto de zafiros.\n15. Sus piernas, como columnas de mármol fundadas sobre basas de fino oro: Su aspecto como el Líbano, escogido como los cedros.\n16. Su paladar, dulcísimo: y todo él codiciable. Tal es mi amado, tal es mi amigo, Oh doncellas de Jerusalem.\n"
       }
     },
     {
       "id": "song_of_songs_chapter_6",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 6: El Regreso al Huerto y la Majestad Celestial",
@@ -109,12 +113,12 @@
       "textoOriginal": "אָנָה הָלַךְ דּוֹדֵךְ, הַיָּפָה בַּנָּשִׁים... דּוֹדִי יָרַד לְגַנּוֹ, לַעֲרֻגוֹת הַבֹּשֶׂם--לִרְעוֹת בַּגַּנִּים, וְלִלְקֹט שׁוֹשַׁנִּים. אֲנִי לְדוֹדִי וְדוֹדִי לִי, הָרֹעֶה בַּשּׁוֹשַׁנִּים. מִי-זֹאת הַנִּשְׁקָפָה, כְּמוֹ-שָׁחַר: יָפָה כַלְּבָנָה, בָּרָה כַּחַמָּה--אֲיֻמָּה, כַּנִּדְגָּלוֹת.",
       "foneticaLiturgica": "'Ānāh hālakh dōdēkh, hay-yāfāh ban-nāshīm... Dōdī yārad lə-gannō... 'Ănī lə-dōdī wə-dōdī lī, hā-rō‘eh bash-shōshannīm. Mī-zō't han-nishqāfāh, kəmō-shāḥar: yāfāh khal-ləvānāh, bārāh kha-ḥammāh—'ăyummāh kan-nidgālōt.",
       "traducciones": {
-        "es": "1. ¿A dónde se fue tu amado, oh la más hermosa de todas las mujeres? ¿A dónde se apartó tu amado, y le buscaremos contigo?\n2. Mi amado descendió a su huerto, a las eras de las especias, para apacentar en los huertos y para recoger los lirios.\n3. Yo soy de mi amado, y mi amado es mío; él apacienta entre los lirios.\n4. Hermosa eres tú, oh amiga mía, como Tirsa; de desear, como Jerusalén; imponente como ejércitos con banderas.\n5. ¿Quién es ésta que se muestra como el alba, hermosa como la luna, esclarecida como el sol, imponente como ejércitos en orden?"
+        "es": "1. ¿DONDE se ha ido tu amado, Oh la más hermosa de todas las mujeres? ¿Adónde se apartó tu amado, Y le buscaremos contigo?\n2. Mi amado descendió á su huerto, á las eras de los aromas Para apacentar en los huertos, y para coger los lirios.\n3. Yo soy de mi amado, y mi amado es mío: El apacienta entre los lirios.\n4. Hermosa eres tú, oh amiga mía, como Tirsa; De desear, como Jerusalem; Imponente como ejércitos en orden.\n5. Aparta tus ojos de delante de mí, Porque ellos me vencieron. Tu cabello es como manada de cabras, Que se muestran en Galaad.\n6. Tus dientes, como manada de ovejas Que suben del lavadero, Todas con crías mellizas, Y estéril no hay entre ellas.\n7. Como cachos de granada son tus sienes Entre tus guedejas.\n8. Sesenta son las reinas, y ochenta las concubinas, Y las doncellas sin cuento:\n9. Mas una es la paloma mía, la perfecta mía; Unica es á su madre, Escogida á la que la engendró. Viéronla las doncellas, y llamáronla bienaventurada; Las reinas y las concubinas, y la alabaron.\n10. ¿Quién es ésta que se muestra como el alba, Hermosa como la luna, Esclarecida como el sol, Imponente como ejércitos en orden?\n11. Al huerto de los nogales descendí A ver los frutos del valle, Y para ver si brotaban las vides, Si florecían los granados.\n12. No lo supe: hame mi alma hecho Como los carros de Amminadab.\n13. Tórnate, tórnate, oh Sulamita; Tórnate, tórnate, y te miraremos. ¿Qué veréis en la Sulamita? Como la reunión de dos campamentos.\n"
       }
     },
     {
       "id": "song_of_songs_chapter_7",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 7: La Danza de Mahanaim y la Comunión de Amor",
@@ -126,12 +130,12 @@
       "textoOriginal": "שׁוּבִי שׁוּבִי הַשּׁוּלַמִּית, שׁוּבִי שׁוּבִי וְנֶחֱזֶה-בָּךְ; מַה-תֶּחֱזוּ בַּשּׁוּלַמִּית, כִּמְחֹלַת הַמַּחֲנָיִם. מַה-יָּפוּ פְעָמַיִךְ בַּנְּעָלִים, בַּת-נָדִיב... אֲנִי לְדוֹדִי, וְעָלַי תְּשׁוּקָתוֹ. לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה, נָלִינָה בַּכְּפָרִים.",
       "foneticaLiturgica": "Shūvī shūvī hash-Shūlammīt... Mah-yāfū fə‘āmayikh ban-nə‘ālīm, bat-nādīv... 'Ănī lə-dōdī, wə-‘ālay təshūqātō. Ləkhāh dōdī nēṣē' has-sādeh, nālīnāh vak-kəfārīm.",
       "traducciones": {
-        "es": "1. ¡Vuélvete, vuélvete, oh sulamita; vuélvete, vuélvete, y te miraremos! ¿Qué veréis en la sulamita? Algo como la reunión de dos campamentos.\n2. ¡Cuán hermosos son tus pies en el calzado, oh hija de príncipe! Los contornos de tus muslos son como joyas, obra de excelente maestro.\n3. ¡Qué hermosa eres, y cuán suave, oh amor deleitoso!\n4. Tu estatura es semejante a la palmera, y tus pechos a los racimos.\n5. Yo soy de mi amado, y conmigo tiene su contentamiento.\n6. Ven, oh amado mío, salgamos al campo, moremos en las aldeas. Levantémonos de mañana a las viñas; allí te daré mis amores."
+        "es": "1. ¡CUAN hermosos son tus pies en los calzados, oh hija de príncipe! Los contornos de tus muslos son como joyas, Obra de mano de excelente maestro.\n2. Tu ombligo, como una taza redonda, Que no le falta bebida. Tu vientre, como montón de trigo, Cercado de lirios.\n3. Tus dos pechos, como dos cabritos Mellizos de gama.\n4. Tu cuello, como torre de marfil; Tus ojos, como las pesqueras de Hesbón junto á la puerta de Bat-rabbim; Tu nariz, como la torre del Líbano, Que mira hacia Damasco.\n5. Tu cabeza encima de ti, como el Carmelo; Y el cabello de tu cabeza, como la púrpura del rey Ligada en los corredores.\n6. ¡Qué hermosa eres, y cuán suave, Oh amor deleitoso!\n7. Y tu estatura es semejante á la palma, Y tus pechos á los racimos!\n8. Yo dije: Subiré á la palma, Asiré sus ramos: Y tus pechos serán ahora como racimos de vid, Y el olor de tu boca como de manzanas;\n9. Y tu paladar como el buen vino, Que se entra á mi amado suavemente, Y hace hablar los labios de los viejos.\n10. Yo soy de mi amado, Y conmigo tiene su contentamiento.\n11. Ven, oh amado mío, salgamos al campo, Moremos en las aldeas.\n12. Levantémonos de mañana á las viñas; Veamos si brotan las vides, si se abre el cierne, Si han florecido los granados; Allí te daré mis amores.\n13. Las mandrágoras han dado olor, Y á nuestras puertas hay toda suerte de dulces frutas, nuevas y añejas. Que para ti, oh amado mío, he guardado.\n"
       }
     },
     {
       "id": "song_of_songs_chapter_8",
-      "tradicion": "hebreo_salmos",
+      "tradicion": "biblia_hebrea",
       "libro": "El Cantar de los Cantares de Salomón (Shir HaShirim)",
       "libroKey": "song_of_songs",
       "capitulo": "Capítulo 8: El Sello sobre el Corazón: El Amor es Fuerte como la Muerte",
@@ -143,7 +147,7 @@
       "textoOriginal": "שִׂימֵנִי כַחוֹתָם עַל-לִבֶּךָ, כַּחוֹתָם עַל-זְרוֹעֶךָ--כִּי-עַזָּה כַמָּוֶת אַהֲבָה, קָשָׁה כִשְׁאוֹל קִנְאָה: רְשָׁפֶיהָ--רִשְׁפֵּי, אֵשׁ שַׁלְהֶבֶתְיָה. מַיִם רַבִּים, לֹא יוּכְלוּ לְכַבּוֹת אֶת-הָאַהֲבָה, וּנְהָרוֹת, לֹא יִשְׁטְפוּהָ; אִם-יִתֵּן אִישׁ אֶת-כָּל-הוֹן בֵּיתוֹ, בָּאַהֲבָה--בּוֹז, יָבוּזוּ לוֹ.",
       "foneticaLiturgica": "Sīmēnī kha-ḥōtām ‘al-libbekhā, ka-ḥōtām ‘al-zərō‘ekhā—kī-‘azzāh kha-māwet 'ahăvāh, qāshāh khish-'ōl qin'āh: rəshāfēhā—rishpē 'ēsh shalhevetyāh. Mayim rabbīm lō' yūkhəlū lə-khabbōt 'et-hā-'ahăvāh...",
       "traducciones": {
-        "es": "1. Ponme como un sello sobre tu corazón, como una marca sobre tu brazo; porque fuerte es como la muerte el amor; tenaces como el Seol los celos; sus brasas, brasas de fuego, fuerte llama del Señor.\n2. Las muchas aguas no podrán apagar el amor, ni lo ahogarán los ríos. Si diese el hombre todos los bienes de su casa por este amor, de cierto lo menospreciarían.\n3. Mi viña, que es mía, está delante de mí; las mil monedas serán para ti, oh Salomón, y doscientas para los que guardan su fruto.\n4. Oh tú que habitas en los huertos, los compañeros escuchan tu voz; házmela oír.\n5. Huye, amado mío, y sé semejante al corzo o al cervatillo sobre las montañas de los aromas."
+        "es": "1. ¡OH quién te me diese como hermano Que mamó los pechos de mi madre; De modo que te halle yo fuera, y te bese, Y no me menosprecien!\n2. Yo te llevaría, te metiera en casa de mi madre: Tú me enseñarías, Y yo te hiciera beber vino Adobado del mosto de mis granadas.\n3. Su izquierda esté debajo de mi cabeza, Y su derecha me abrace.\n4. Conjúroos, oh doncellas de Jerusalem, Que no despertéis, ni hagáis velar al amor, Hasta que quiera.\n5. ¿Quién es ésta que sube del desierto, Recostada sobre su amado? Debajo de un manzano te desperté: Allí tuvo tu madre dolores, Allí tuvo dolores la que te parió.\n6. Ponme como un sello sobre tu corazón, como una marca sobre tu brazo: Porque fuerte es como la muerte el amor; Duro como el sepulcro el celo: Sus brasas, brasas de fuego, Fuerte llama.\n7. Las muchas aguas no podrán apagar el amor, Ni lo ahogarán los ríos. Si diese el hombre toda la hacienda de su casa por este amor, De cierto lo menospreciaran.\n8. Tenemos una pequeña hermana, Que no tiene pechos: ¿Qué haremos á nuestra hermana Cuando de ella se hablare?\n9. Si ella es muro, Edificaremos sobre él un palacio de plata: Y si fuere puerta, La guarneceremos con tablas de cedro.\n10. Yo soy muro, y mis pechos como torres, Desde que fuí en sus ojos como la que halla paz.\n11. Salomón tuvo una viña en Baal-hamón, La cual entregó á guardas, Cada uno de los cuales debía traer mil monedas de plata por su fruto.\n12. Mi viña, que es mía, está delante de mí: Las mil serán tuyas, oh Salomón, Y doscientas, de los que guardan su fruto.\n13. Oh tú la que moras en los huertos, Los compañeros escuchan tu voz: Házmela oir.\n14. Huye, amado mío; Y sé semejante al gamo, ó al cervatillo, Sobre las montañas de los aromas.\n"
       }
     }
   ]
