@@ -595,7 +595,7 @@
     if ('caches' in window) {
       caches.keys().then(keys => {
         keys.forEach(k => {
-          if (!k.includes('v10.8.0')) {
+          if (!k.includes('v10.8.5')) {
             console.log('[Cache Cleanup] Purgando caché obsoleta:', k);
             caches.delete(k);
           }
@@ -615,7 +615,7 @@
         regs.forEach(r => r.update());
       });
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=10.8.0').then(reg => {
+        navigator.serviceWorker.register('./sw.js?v=10.8.5').then(reg => {
           reg.update();
         }).catch(err => {
           console.log('[PWA] Service Worker activo');
@@ -625,7 +625,7 @@
   </script>
 
   <!-- Script Principal con Cache-Busting -->
-  <script type="module" src="js/app.js?v=10.8.0"></script>
+  <script type="module" src="js/app.js?v=10.8.5"></script>
 
 </body>
 </html>

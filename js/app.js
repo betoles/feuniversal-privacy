@@ -3,33 +3,33 @@
  * Unifica la arquitectura de datos, el HUD Glassmorphic y las funcionalidades interactivas.
  */
 
-import { TRADITIONS, getTradition } from './data/traditions.js?v=9.3.0';
-import { INTENTIONS, CANONICAL_INTENTIONS, EMOTIONAL_STATES, getCanonicalIntention } from './data/intentions.js?v=9.3.0';
-import { PRAYERS_DB } from './data/prayers-db.js?v=9.3.0';
-import { PrayerCorpusService } from './services/prayer-corpus-service.js?v=9.3.0';
-import { StorageService } from './services/storage-service.js?v=9.3.0';
-import { soundManager } from './services/sound-service.js?v=9.3.0';
-import { renderIcon, renderLangBadge } from './components/icons.js?v=9.3.0';
-import { t, isRTL } from './data/i18n.js?v=9.3.0';
-import { STOPWORDS_BY_LANG, matchesTraditionInclusive, getSharedTraditions, getEcumenicalBadgeText } from './data/cross-traditions.js?v=10.4.0';
-import { prayerMatchesEmotionCanonical } from './data/emotion-taxonomy.js?v=10.4.0';
-import { NotificationService } from './services/notification-service.js?v=10.7.5';
+import { TRADITIONS, getTradition } from './data/traditions.js?v=10.8.5';
+import { INTENTIONS, CANONICAL_INTENTIONS, EMOTIONAL_STATES, getCanonicalIntention } from './data/intentions.js?v=10.8.5';
+import { PRAYERS_DB } from './data/prayers-db.js?v=10.8.5';
+import { PrayerCorpusService } from './services/prayer-corpus-service.js?v=10.8.5';
+import { StorageService } from './services/storage-service.js?v=10.8.5';
+import { soundManager } from './services/sound-service.js?v=10.8.5';
+import { renderIcon, renderLangBadge } from './components/icons.js?v=10.8.5';
+import { t, isRTL } from './data/i18n.js?v=10.8.5';
+import { STOPWORDS_BY_LANG, matchesTraditionInclusive, getSharedTraditions, getEcumenicalBadgeText } from './data/cross-traditions.js?v=10.8.5';
+import { prayerMatchesEmotionCanonical } from './data/emotion-taxonomy.js?v=10.8.5';
+import { NotificationService } from './services/notification-service.js?v=10.8.5';
 
-import { OnboardingComponent } from './components/onboarding.js?v=9.3.0';
-import { MirrorReaderComponent } from './components/mirror-reader.js?v=9.3.0';
-import { AltarComponent } from './components/altar.js?v=9.3.0';
-import { BeadCounterComponent } from './components/bead-counter.js?v=9.3.0';
-import { VaultComponent } from './components/vault.js?v=9.3.0';
-import { SpiritualCompassComponent } from './components/spiritual-compass.js?v=9.3.0';
-import { SacredHabitComponent } from './components/sacred-habit.js?v=9.3.0';
-import { SacredSoundPicker } from './components/sacred-sound-picker.js?v=9.3.0';
-import { NovenaModalComponent } from './components/novena-modal.js?v=9.3.0';
-import { NotificationModalComponent } from './components/notification-modal.js?v=9.3.0';
-import { ScripturesViewComponent } from './components/scriptures-view.js?v=9.3.0';
-import { MembershipComponent } from './components/membership.js?v=9.3.0';
-import { LanguageModalComponent } from './components/language-modal.js?v=9.3.0';
-import { SacredDialog } from './components/sacred-dialog.js?v=9.3.0';
-import { PrivacyModalComponent } from './components/privacy-modal.js?v=9.3.0';
+import { OnboardingComponent } from './components/onboarding.js?v=10.8.5';
+import { MirrorReaderComponent } from './components/mirror-reader.js?v=10.8.5';
+import { AltarComponent } from './components/altar.js?v=10.8.5';
+import { BeadCounterComponent } from './components/bead-counter.js?v=10.8.5';
+import { VaultComponent } from './components/vault.js?v=10.8.5';
+import { SpiritualCompassComponent } from './components/spiritual-compass.js?v=10.8.5';
+import { SacredHabitComponent } from './components/sacred-habit.js?v=10.8.5';
+import { SacredSoundPicker } from './components/sacred-sound-picker.js?v=10.8.5';
+import { NovenaModalComponent } from './components/novena-modal.js?v=10.8.5';
+import { NotificationModalComponent } from './components/notification-modal.js?v=10.8.5';
+import { ScripturesViewComponent } from './components/scriptures-view.js?v=10.8.5';
+import { MembershipComponent } from './components/membership.js?v=10.8.5';
+import { LanguageModalComponent } from './components/language-modal.js?v=10.8.5';
+import { SacredDialog } from './components/sacred-dialog.js?v=10.8.5';
+import { PrivacyModalComponent } from './components/privacy-modal.js?v=10.8.5';
 
 
 export class FeUniversalApp {
