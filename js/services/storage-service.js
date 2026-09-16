@@ -1171,6 +1171,80 @@ export class StorageService {
     }
   }
 
+  /**
+   * Exporta toda la información local de la Bóveda y devocionales en formato JSON verificado
+   */
+  static exportBackupJSON() {
+    try {
+      const backup = {
+        app: "FeUniversal - Faith & Prayers",
+        version: "9.1.0",
+        exportDate: new Date().toISOString(),
+        signature: "FEUNIVERSAL_SACRED_BACKUP_V1",
+        data: {
+          preferences: this.getPreferences(),
+          vault: this.getVaultItems(),
+          altar: this.getAltarState(),
+          beadStats: this.getBeadStats(),
+          spiritualScore: this.getSpiritualScore()
+        }
+      };
+      return JSON.stringify(backup, null, 2);
+    } catch (e) {
+      console.error("Error generating backup JSON:", e);
+      return null;
+    }
+  }
+
+  /**
+   * Importa y restaura una copia de seguridad JSON previa con validación exhaustiva
+   */
+  static importBackupJSON(jsonString) {
+    try {
+      if (!jsonString || typeof jsonString !== 'string') {
+        throw new Error('Invalid backup file');
+      }
+      const parsed = JSON.parse(jsonString);
+      if (!parsed || (!parsed.data && !parsed.vault)) {
+        throw new Error('Unrecognized backup structure');
+      }
+
+      const payload = parsed.data || parsed;
+      let restoredCount = 0;
+
+      // 1. Restaurar Bóveda
+      if (Array.isArray(payload.vault)) {
+        this.saveVaultItems(payload.vault);
+        restoredCount += payload.vault.length;
+      }
+
+      // 2. Restaurar Preferencias
+      if (payload.preferences && typeof payload.preferences === 'object') {
+        this.savePreferences(payload.preferences);
+      }
+
+      // 3. Restaurar Altar
+      if (payload.altar && typeof payload.altar === 'object') {
+        this.saveAltarState(payload.altar);
+      }
+
+      // 4. Restaurar Estadísticas de Rosario / Mala
+      if (payload.beadStats && typeof payload.beadStats === 'object') {
+        _safeSetItem(STORAGE_KEYS.BEAD_STATS, JSON.stringify(payload.beadStats));
+      }
+
+      // 5. Restaurar Métricas Espirituales
+      if (payload.spiritualScore && typeof payload.spiritualScore === 'object') {
+        _safeSetItem(STORAGE_KEYS.STREAKS, JSON.stringify(payload.spiritualScore));
+      }
+
+      return { success: true, restoredCount };
+    } catch (e) {
+      console.error("Error importing backup JSON:", e);
+      return { success: false, error: e.message };
+    }
+  }
+
   // Score y Balance de Enfoque Espiritual (HUD Metrix)
   static getSpiritualScore() {
     try {

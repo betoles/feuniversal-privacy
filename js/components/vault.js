@@ -211,8 +211,30 @@ export class VaultComponent {
           <div class="section-title" style="margin-bottom: 16px; font-size: 1.15rem; font-weight: 800; font-family: var(--font-display); color: var(--text-primary);">${t('vault_journal_title', lang)}</div>
           <div>${itemsHTML}</div>
 
+          <!-- Card de Respaldo y Copia de Seguridad JSON -->
+          <div class="crystal-card" style="margin-top: 24px; padding: 18px 16px; border: 1px solid var(--glass-border);">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+              <span style="width: 20px; height: 20px; color: var(--accent-gold); display: flex; align-items: center;">${renderIcon('nav_vault')}</span>
+              <span style="font-weight: 800; font-size: 0.95rem; color: var(--text-primary); font-family: var(--font-display);">${t('vault_backup_title', lang) || 'Copia de Seguridad & Respaldo JSON'}</span>
+            </div>
+            <p style="font-size: 0.78rem; color: var(--text-secondary); margin: 0 0 14px; line-height: 1.4;">
+              ${t('vault_backup_desc', lang) || 'Exporta o restaura tus peticiones, oraciones y devocionales en un archivo JSON privado.'}
+            </p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+              <button type="button" id="btn-export-vault-backup" class="btn-crystal" style="padding: 10px 8px; font-size: 0.76rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer;">
+                <span style="width: 14px; height: 14px; display: flex; color: var(--accent-gold);">${renderIcon('ui_cloud_download')}</span>
+                <span>${t('vault_export_btn', lang) || 'Exportar JSON'}</span>
+              </button>
+              <button type="button" id="btn-trigger-import-vault" class="btn-crystal" style="padding: 10px 8px; font-size: 0.76rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer;">
+                <span style="width: 14px; height: 14px; display: flex; color: var(--accent-cyan);">${renderIcon('ui_refresh')}</span>
+                <span>${t('vault_import_btn', lang) || 'Restaurar JSON'}</span>
+              </button>
+              <input type="file" id="input-import-vault-file" accept=".json,application/json" style="display: none;">
+            </div>
+          </div>
+
           <!-- Enlace a Política de Privacidad (Data Safety) -->
-          <div style="margin-top: 24px; text-align: center;">
+          <div style="margin-top: 20px; text-align: center;">
             <button type="button" class="btn-open-privacy-link" style="background: none; border: none; color: var(--accent-cyan); cursor: pointer; text-decoration: underline; font-size: 0.76rem; padding: 8px 12px; display: inline-flex; align-items: center; justify-content: center; gap: 6px;">
               <span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); flex-shrink: 0;">${renderIcon('ui_lock')}</span>
               <span>${t('privacy_policy_btn', lang) || 'Política de Privacidad & Seguridad de Datos (100% Local)'}</span>
@@ -1092,5 +1114,67 @@ export class VaultComponent {
         }
       });
     });
+
+    // Exportar Respaldo JSON de Bóveda
+    const exportBackupBtn = document.getElementById('btn-export-vault-backup');
+    if (exportBackupBtn) {
+      exportBackupBtn.addEventListener('click', () => {
+        const jsonContent = StorageService.exportBackupJSON();
+        if (jsonContent) {
+          const blob = new Blob([jsonContent], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          const dateStr = new Date().toISOString().slice(0, 10);
+          a.href = url;
+          a.download = `feuniversal-backup-${dateStr}.json`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        }
+      });
+    }
+
+    // Importar Respaldo JSON de Bóveda
+    const triggerImportBtn = document.getElementById('btn-trigger-import-vault');
+    const importFileInput = document.getElementById('input-import-vault-file');
+    if (triggerImportBtn && importFileInput) {
+      triggerImportBtn.addEventListener('click', () => {
+        importFileInput.value = '';
+        importFileInput.click();
+      });
+
+      importFileInput.addEventListener('change', (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            const content = event.target.result;
+            const res = StorageService.importBackupJSON(content);
+            const prefs = StorageService.getPreferences();
+            const lang = prefs.idioma || 'es';
+            if (res && res.success) {
+              SacredDialog.alert({
+                title: t('vault_backup_success_title', lang) || '¡Bóveda Restaurada con Éxito!',
+                message: t('vault_backup_success_msg', lang) || 'Se han restaurado correctamente tus peticiones, veladoras y preferencias devocionales.',
+                icon: 'nav_vault',
+                type: 'success',
+                buttonText: t('dialog_accept', lang) || 'Aceptar'
+              });
+              this.render();
+            } else {
+              SacredDialog.alert({
+                title: 'Error de Importación',
+                message: res.error || 'El archivo no contiene una estructura JSON de respaldo válida.',
+                icon: 'ui_close',
+                type: 'warning',
+                buttonText: t('dialog_accept', lang) || 'Aceptar'
+              });
+            }
+          };
+          reader.readAsText(file);
+        }
+      });
+    }
   }
 }

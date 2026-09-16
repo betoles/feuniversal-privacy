@@ -1,5 +1,12 @@
 export const UI_TRANSLATIONS = {
   "es": {
+    "vault_backup_title": "Copia de Seguridad & Respaldo JSON",
+    "vault_backup_desc": "Exporta o restaura tus peticiones, oraciones y devocionales en un archivo JSON privado.",
+    "vault_export_btn": "Exportar Copia de Seguridad",
+    "vault_import_btn": "Restaurar Copia de Seguridad",
+    "vault_backup_success_title": "¡Bóveda Restaurada con Éxito!",
+    "vault_backup_success_msg": "Se han restaurado correctamente tus peticiones, veladoras y preferencias devocionales.",
+
     "scriptures_offline_retry_title": "Capítulo en Espera de Conexión",
     "scriptures_offline_retry_desc": "Comprueba tu conexión de red para descargar este libro sagrado y guardarlo automáticamente en tu dispositivo.",
     "scriptures_retry_btn": "Reintentar Descarga",
@@ -603,6 +610,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "¡Sensores Calibrados! Precisión Óptima"
   },
   "en": {
+    "vault_backup_title": "JSON Backup & Restore",
+    "vault_backup_desc": "Export or restore your petitions, prayers, and devotionals in a private JSON file.",
+    "vault_export_btn": "Export Backup File",
+    "vault_import_btn": "Restore from Backup",
+    "vault_backup_success_title": "Vault Restored Successfully!",
+    "vault_backup_success_msg": "Your petitions, candles, and devotional preferences have been restored successfully.",
+
     "scriptures_offline_retry_title": "Chapter Awaiting Connection",
     "scriptures_offline_retry_desc": "Check your network connection to download this sacred book and store it automatically on your device.",
     "scriptures_retry_btn": "Retry Download",
@@ -1206,6 +1220,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensors Calibrated! Optimal Precision"
   },
   "fr": {
+    "vault_backup_title": "Sauvegarde & Restauration JSON",
+    "vault_backup_desc": "Exportez ou restaurez vos intentions, prières et dévotions dans un fichier JSON privé.",
+    "vault_export_btn": "Exporter la Sauvegarde",
+    "vault_import_btn": "Restaurer la Sauvegarde",
+    "vault_backup_success_title": "Coffre Restauré avec Succès !",
+    "vault_backup_success_msg": "Vos intentions, bougies et préférences dévotionnelles ont été restaurées avec succès.",
+
     "scriptures_offline_retry_title": "Chapitre en Attente de Connexion",
     "scriptures_offline_retry_desc": "Vérifiez votre connexion réseau pour télécharger ce livre sacré et l'enregistrer automatiquement sur votre appareil.",
     "scriptures_retry_btn": "Réessayer le Téléchargement",
@@ -1809,6 +1830,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Capteurs Calibrés ! Précision Optimale"
   },
   "pt": {
+    "vault_backup_title": "Backup e Restauração JSON",
+    "vault_backup_desc": "Exporte ou restaure seus pedidos, orações e devocionais em um arquivo JSON privado.",
+    "vault_export_btn": "Exportar Backup",
+    "vault_import_btn": "Restaurar Backup",
+    "vault_backup_success_title": "Cofre Restaurado com Sucesso!",
+    "vault_backup_success_msg": "Seus pedidos, velas e preferências devocionais foram restaurados com sucesso.",
+
     "scriptures_offline_retry_title": "Capítulo Aguardando Conexão",
     "scriptures_offline_retry_desc": "Verifique sua conexão de rede para baixar este livro sagrado e salvá-lo automaticamente no seu dispositivo.",
     "scriptures_retry_btn": "Tentar Novamente",
@@ -2412,6 +2440,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensores Calibrados! Precisão Ideal"
   },
   "it": {
+    "vault_backup_title": "Backup e Ripristino JSON",
+    "vault_backup_desc": "Esporta o ripristina le tue petizioni, preghiere e devozioni in un file JSON privato.",
+    "vault_export_btn": "Esporta Backup",
+    "vault_import_btn": "Ripristina da Backup",
+    "vault_backup_success_title": "Cassaforte Ripristinata con Successo!",
+    "vault_backup_success_msg": "Le tue petizioni, candele e preferenze devozionali sono state ripristinate con successo.",
+
     "scriptures_offline_retry_title": "Capitolo in Attesa di Connessione",
     "scriptures_offline_retry_desc": "Controlla la tua connessione di rete per scaricare questo libro sacro e salvarlo automaticamente sul tuo dispositivo.",
     "scriptures_retry_btn": "Riprova Download",
@@ -3015,6 +3050,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensori Calibrati! Precisione Ottimale"
   },
   "de": {
+    "vault_backup_title": "JSON-Sicherung & Wiederherstellung",
+    "vault_backup_desc": "Exportiere oder stelle deine Bitten, Gebete und Andachten in einer privaten JSON-Datei wieder her.",
+    "vault_export_btn": "Sicherung exportieren",
+    "vault_import_btn": "Aus Sicherung wiederherstellen",
+    "vault_backup_success_title": "Tresor erfolgreich wiederhergestellt!",
+    "vault_backup_success_msg": "Deine Bitten, Kerzen und Andachtseinstellungen wurden erfolgreich wiederhergestellt.",
+
     "scriptures_offline_retry_title": "Kapitel wartet auf Verbindung",
     "scriptures_offline_retry_desc": "Überprüfe deine Netzwerkverbindung, um dieses heilige Buch herunterzuladen und automatisch auf deinem Gerät zu speichern.",
     "scriptures_retry_btn": "Download wiederholen",
@@ -3618,6 +3660,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensoren Kalibriert! Optimale Präzision"
   },
   "ru": {
+    "vault_backup_title": "Резервное копирование и восстановление JSON",
+    "vault_backup_desc": "Экспортируйте или восстановите свои прошения, молитвы и духовные записи в приватном файле JSON.",
+    "vault_export_btn": "Экспорт резервной копии",
+    "vault_import_btn": "Восстановить из копии",
+    "vault_backup_success_title": "Хранилище успешно восстановлено!",
+    "vault_backup_success_msg": "Ваши прошения, лампады и духовные настройки были успешно восстановлены.",
+
     "scriptures_offline_retry_title": "Глава ожидает подключения",
     "scriptures_offline_retry_desc": "Проверьте сетевое подключение, чтобы загрузить эту священную книгу и автоматически сохранить её на вашем устройстве.",
     "scriptures_retry_btn": "Повторить загрузку",
@@ -4221,6 +4270,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Датчики Калиброваны! Оптимальная Точность"
   },
   "ar": {
+    "vault_backup_title": "النسخ الاحتياطي والاستعادة بتنسيق JSON",
+    "vault_backup_desc": "قم بتصدير أو استعادة أدعيتك وصلواتك وتأملاتك في ملف JSON خاص.",
+    "vault_export_btn": "تصدير النسخة الاحتياطية",
+    "vault_import_btn": "استعادة من النسخة الاحتياطية",
+    "vault_backup_success_title": "تمت استعادة الخزينة بنجاح!",
+    "vault_backup_success_msg": "تمت استعادة أدعيتك وشموعك وتفضيلاتك التعبدية بنجاح.",
+
     "scriptures_offline_retry_title": "الفصل في انتظار الاتصال",
     "scriptures_offline_retry_desc": "تحقق من اتصال الشبكة لتنزيل هذا الكتاب المقدس وحفظه تلقائيًا على جهازك.",
     "scriptures_retry_btn": "إعادة المحاولة",
@@ -4824,6 +4880,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "تمت معايرة المستشعرات! دقة مثالية"
   },
   "he": {
+    "vault_backup_title": "גיבוי ושחזור JSON",
+    "vault_backup_desc": "ייצא או שחזר את בקשותיך, תפילותיך ורשומותיך בקובץ JSON פרטי.",
+    "vault_export_btn": "ייצוא קובץ גיבוי",
+    "vault_import_btn": "שחזור מקובץ גיבוי",
+    "vault_backup_success_title": "הכספת שוחזרה בהצלחה!",
+    "vault_backup_success_msg": "בקשותיך, הנרות והעדפותיך שוחזרו בהצלחה.",
+
     "scriptures_offline_retry_title": "פרק ממתין לחיבור",
     "scriptures_offline_retry_desc": "בדוק את חיבור הרשת שלך כדי להוריד ספר קדוש זה ולשמור אותו אוטומטית במכשיר שלך.",
     "scriptures_retry_btn": "נסה שוב",
@@ -5427,6 +5490,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "החיישנים כוילו! דיוק אופטימלי"
   },
   "hi": {
+    "vault_backup_title": "JSON बैकअप और पुनर्स्थापना",
+    "vault_backup_desc": "अपनी प्रार्थनाओं, याचिकाओं और आध्यात्मिक अभिलेखों को एक निजी JSON फ़ाइल में निर्यात या पुनर्स्थापित करें।",
+    "vault_export_btn": "बैकअप निर्यात करें",
+    "vault_import_btn": "बैकअप से पुनर्स्थापित करें",
+    "vault_backup_success_title": "वॉल्ट सफलतापूर्वक पुनर्स्थापित हुआ!",
+    "vault_backup_success_msg": "आपकी प्रार्थनाएं, दीये और आध्यात्मिक प्राथमिकताएं सफलतापूर्वक पुनर्स्थापित हो गई हैं।",
+
     "scriptures_offline_retry_title": "अध्याय कनेक्शन की प्रतीक्षा कर रहा है",
     "scriptures_offline_retry_desc": "इस पवित्र ग्रंथ को डाउनलोड करने और इसे अपने डिवाइस पर स्वचालित रूप से सहेजने के लिए अपने नेटवर्क कनेक्शन की जांच करें।",
     "scriptures_retry_btn": "पुनः प्रयास करें",
@@ -6030,6 +6100,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "सेंसर कैलिब्रेटेड! इष्टतम सटीकता"
   },
   "zh": {
+    "vault_backup_title": "JSON 备份与数据恢复",
+    "vault_backup_desc": "将您的祈祷、心愿和灵修记录导出或恢复为私密 JSON 文件。",
+    "vault_export_btn": "导出备份文件",
+    "vault_import_btn": "从备份文件恢复",
+    "vault_backup_success_title": "灵修宝库恢复成功！",
+    "vault_backup_success_msg": "您的心愿、供烛及各项灵修设置均已成功恢复。",
+
     "scriptures_offline_retry_title": "章节等待网络连接",
     "scriptures_offline_retry_desc": "请检查您的网络连接以获取此经文，下载后将自动保存在您的设备中以便离线阅读。",
     "scriptures_retry_btn": "重新下载",
@@ -6633,6 +6710,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "传感器校准完成！达到最佳精度"
   },
   "la": {
+    "vault_backup_title": "Servatio et Recuperatio JSON",
+    "vault_backup_desc": "Effunde aut restitue petitiones, preces et devotiones tuas in archivo privato JSON.",
+    "vault_export_btn": "Effundere Servationem",
+    "vault_import_btn": "Restituere ex Servatione",
+    "vault_backup_success_title": "Arca feliciter restituta est!",
+    "vault_backup_success_msg": "Petitiones, cerei et optiones tuae feliciter restitutae sunt.",
+
     "scriptures_offline_retry_title": "Caput Exspectat Connexionem",
     "scriptures_offline_retry_desc": "Comproba connexionem interretialem ut hunc librum sacrum recipias et in machinamento tuo serves.",
     "scriptures_retry_btn": "Iterum Conari",
@@ -7236,6 +7320,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensores Calibrati! Praecisio Optima"
   },
   "ja": {
+    "vault_backup_title": "JSONバックアップと復元",
+    "vault_backup_desc": "祈り、願い、ディボーションの記録を非公開のJSONファイルとしてエクスポートまたは復元します。",
+    "vault_export_btn": "バックアップをエクスポート",
+    "vault_import_btn": "バックアップから復元",
+    "vault_backup_success_title": "保管庫が正常に復元されました！",
+    "vault_backup_success_msg": "あなたの祈り、ろうそく、ディボーション設定が正常に復元されました。",
+
     "scriptures_offline_retry_title": "章の接続を待機中",
     "scriptures_offline_retry_desc": "この聖典をダウンロードして端末に自動保存するために、ネットワーク接続を確認してください。",
     "scriptures_retry_btn": "再試行",
@@ -7839,6 +7930,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "センサー校正完了！最適な精度"
   },
   "bn": {
+    "vault_backup_title": "JSON ব্যাকআপ ও পুনরুদ্ধার",
+    "vault_backup_desc": "একটি ব্যক্তিগত JSON ফাইলে আপনার প্রার্থনা, আবেদন এবং ভক্তিমূলক রেকর্ড রপ্তানি বা পুনরুদ্ধার করুন।",
+    "vault_export_btn": "ব্যাকআপ রপ্তানি করুন",
+    "vault_import_btn": "ব্যাকআপ থেকে পুনরুদ্ধার করুন",
+    "vault_backup_success_title": "ভল্ট সফলভাবে পুনরুদ্ধার করা হয়েছে!",
+    "vault_backup_success_msg": "আপনার প্রার্থনা, প্রদীপ এবং ভক্তিমূলক পছন্দগুলি সফলভাবে পুনরুদ্ধার করা হয়েছে।",
+
     "scriptures_offline_retry_title": "অধ্যায় সংযোগের অপেক্ষায়",
     "scriptures_offline_retry_desc": "এই পবিত্র গ্রন্থটি ডাউনলোড করতে এবং এটি স্বয়ংক্রিয়ভাবে আপনার ডিভাইসে সংরক্ষণ করতে আপনার নেটওয়ার্ক সংযোগ পরীক্ষা করুন।",
     "scriptures_retry_btn": "পুনরায় চেষ্টা করুন",
@@ -8442,6 +8540,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "সেন্সর ক্যালিব্রেট করা হয়েছে! সর্বোত্তম নির্ভুলতা"
   },
   "id": {
+    "vault_backup_title": "Cadangkan & Pulihkan JSON",
+    "vault_backup_desc": "Ekspor atau pulihkan permohonan, doa, dan catatan devosi Anda dalam file JSON privat.",
+    "vault_export_btn": "Ekspor Cadangan",
+    "vault_import_btn": "Pulihkan dari Cadangan",
+    "vault_backup_success_title": "Brankas Berhasil Dipulihkan!",
+    "vault_backup_success_msg": "Permohonan, lilin, dan preferensi devosi Anda telah berhasil dipulihkan.",
+
     "scriptures_offline_retry_title": "Bab Menunggu Koneksi",
     "scriptures_offline_retry_desc": "Periksa koneksi jaringan Anda untuk mengunduh kitab suci ini dan menyimpannya secara otomatis di perangkat Anda.",
     "scriptures_retry_btn": "Coba Lagi",
@@ -9045,6 +9150,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensor Dikalibrasi! Presisi Optimal"
   },
   "ur": {
+    "vault_backup_title": "JSON بیک اپ اور بحالی",
+    "vault_backup_desc": "اپنی دعاؤں، التجاوں اور روحانی ریکارڈ کو ایک نجی JSON فائل میں برآمد یا بحال کریں۔",
+    "vault_export_btn": "بیک اپ فائل برآمد کریں",
+    "vault_import_btn": "بیک اپ سے بحال کریں",
+    "vault_backup_success_title": "والٹ کامیابی سے بحال ہو گیا!",
+    "vault_backup_success_msg": "آپ کی دعائیں، شمعیں اور عبادتی ترجیحات کامیابی سے بحال ہو گئی ہیں۔",
+
     "scriptures_offline_retry_title": "باب کنکشن کا منتظر ہے",
     "scriptures_offline_retry_desc": "اس مقدس کتاب کو ڈاؤن لوڈ کرنے اور اسے خود بخود اپنے آلے میں محفوظ کرنے کے لیے اپنا نیٹ ورک کنکشن چیک کریں۔",
     "scriptures_retry_btn": "دوبارہ کوشش کریں",
@@ -9648,6 +9760,13 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "سینسر کیلیبریٹ ہو گئے! بہترین درستگی"
   },
   "sw": {
+    "vault_backup_title": "Hifadhi Nakala na Urejeshe JSON",
+    "vault_backup_desc": "Hamisha au urejeshe maombi, sala na kumbukumbu zako za ibada kwenye faili ya faragha ya JSON.",
+    "vault_export_btn": "Hamisha Hifadhi Nakala",
+    "vault_import_btn": "Rejesha kutoka Nakala",
+    "vault_backup_success_title": "Hifadhi Imerudishwa Kikamilifu!",
+    "vault_backup_success_msg": "Maombi yako, mishumaa na mapendeleo ya ibada yamerejeshwa kikamilifu.",
+
     "scriptures_offline_retry_title": "Sura Inasubiri Muunganisho",
     "scriptures_offline_retry_desc": "Angalia muunganisho wako wa mtandao ili kupakua kitabu hiki kitakatifu na kukihifadhi kiotomatiki kwenye kifaa chako.",
     "scriptures_retry_btn": "Jaribu Tena",
