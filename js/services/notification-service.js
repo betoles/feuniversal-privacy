@@ -263,4 +263,84 @@ export class NotificationService {
       console.warn('No fue posible disparar la notificación:', e);
     }
   }
+
+  /**
+   * Genera un archivo iCalendar (.ics) estándar con alarmas nativas diarias (Alba, Mediodía, Ocaso, Noche)
+   * 100% compatible con Apple Calendar, Google Calendar y Outlook.
+   */
+  static exportToICSCalendar(schedule = null, lang = 'es') {
+    const s = schedule || NotificationService.getSchedule();
+    const l = (lang || 'es').toLowerCase();
+
+    const slots = [
+      { key: 'alba', enabled: s.albaEnabled, time: s.albaTime || '06:00', title: t('notif_dawn_title', l) || 'Oración del Amanecer', desc: t('notif_dawn_sub', l) || 'Comienza tu día con bendición y gratitud.' },
+      { key: 'mediodia', enabled: s.mediodiaEnabled, time: s.mediodiaTime || '12:00', title: t('notif_midday_title', l) || 'Pausa Sagrada del Mediodía', desc: t('notif_midday_sub', l) || 'Momento de serenidad y paz espiritual.' },
+      { key: 'ocaso', enabled: s.ocasoEnabled, time: s.ocasoTime || '18:30', title: t('notif_dusk_title', l) || 'Oración del Ocaso / Vísperas', desc: t('notif_dusk_desc', l) || 'Gratitud y recogimiento sagrado.' },
+      { key: 'noche', enabled: s.nocheEnabled, time: s.nocheTime || '21:30', title: t('notif_night_title', l) || 'Oración de la Noche', desc: t('notif_night_sub', l) || 'Descanso reparador bajo el amparo celestial.' }
+    ];
+
+    const activeSlots = slots.filter(slot => slot.enabled);
+    if (activeSlots.length === 0) return null;
+
+    const now = new Date();
+    const nowStr = now.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+    const dateBase = now.toISOString().slice(0, 10).replace(/-/g, '');
+
+    let icsContent = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//FeUniversal//Santuario Espiritual Universal//ES',
+      'CALSCALE:GREGORIAN',
+      'METHOD:PUBLISH',
+      'X-WR-CALNAME:FeUniversal - Horarios Sagrados',
+      'X-WR-TIMEZONE:' + (Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC')
+    ];
+
+    for (const slot of activeSlots) {
+      const [hh, mm] = (slot.time || '07:00').split(':');
+      const startStamp = `${dateBase}T${hh.padStart(2, '0')}${mm.padStart(2, '0')}00`;
+      const endStamp = `${dateBase}T${hh.padStart(2, '0')}${String(Math.min(59, Number(mm) + 15)).padStart(2, '0')}00`;
+      const uid = `feuniversal-${slot.key}-${now.getTime()}@feuniversal.app`;
+
+      icsContent.push(
+        'BEGIN:VEVENT',
+        `UID:${uid}`,
+        `DTSTAMP:${nowStr}`,
+        `DTSTART:${startStamp}`,
+        `DTEND:${endStamp}`,
+        'RRULE:FREQ=DAILY',
+        `SUMMARY:✦ ${slot.title}`,
+        `DESCRIPTION:${slot.desc}\\n\\nReza y medita en: https://betoles.github.io/feuniversal-privacy/`,
+        'URL:https://betoles.github.io/feuniversal-privacy/',
+        'STATUS:CONFIRMED',
+        'BEGIN:VALARM',
+        'TRIGGER:-PT0M',
+        'ACTION:DISPLAY',
+        `DESCRIPTION:✦ ${slot.title}`,
+        'END:VALARM',
+        'END:VEVENT'
+      );
+    }
+
+    icsContent.push('END:VCALENDAR');
+    return icsContent.join('\r\n');
+  }
+
+  static downloadICSFile(schedule = null, lang = 'es') {
+    const icsText = NotificationService.exportToICSCalendar(schedule, lang);
+    if (!icsText) return false;
+
+    if (typeof window === 'undefined' || typeof document === 'undefined') return true;
+
+    const blob = new Blob([icsText], { type: 'text/calendar;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', `FeUniversal_Horarios_Sagrados_${lang}.ics`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    return true;
+  }
 }

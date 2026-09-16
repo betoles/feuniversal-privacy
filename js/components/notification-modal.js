@@ -146,14 +146,43 @@ export class NotificationModalComponent {
 
         </div>
 
-        <button id="btn-save-notif-schedule" class="btn-crystal btn-crystal-primary" style="width: 100%; padding: 12px; font-size: 0.9rem; font-weight: 800;">
-          ${t('notif_btn_save_activate', lang)}
-        </button>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <button id="btn-save-notif-schedule" class="btn-crystal btn-crystal-primary" style="width: 100%; padding: 12px; font-size: 0.9rem; font-weight: 800; cursor: pointer;">
+            ${t('notif_btn_save_activate', lang)}
+          </button>
+
+          <button id="btn-sync-calendar-ics" class="btn-crystal btn-crystal-gold" style="width: 100%; padding: 11px; font-size: 0.85rem; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer;">
+            <span>${t('notif_btn_sync_calendar', lang) || '📅 Sincronizar con Calendario del Móvil (.ics)'}</span>
+          </button>
+
+          <p style="font-size: 0.68rem; color: var(--text-muted); text-align: center; margin: 4px 0 0; line-height: 1.35;">
+            ${t('notif_calendar_hint', lang) || 'Recomendado para iPhone y Android: Suena con alarma nativa aunque la pantalla esté apagada o en reposo.'}
+          </p>
+        </div>
       </div>
     `;
 
     const closeBtn = document.getElementById('btn-close-notif-modal');
     if (closeBtn) closeBtn.addEventListener('click', () => this.close());
+
+    const syncCalendarBtn = document.getElementById('btn-sync-calendar-ics');
+    if (syncCalendarBtn) {
+      syncCalendarBtn.addEventListener('click', () => {
+        const sched = NotificationService.getSchedule();
+        sched.albaEnabled = document.getElementById('notif-toggle-alba')?.checked || false;
+        sched.mediodiaEnabled = document.getElementById('notif-toggle-mediodia')?.checked || false;
+        sched.ocasoEnabled = document.getElementById('notif-toggle-ocaso')?.checked || false;
+        sched.nocheEnabled = document.getElementById('notif-toggle-noche')?.checked || false;
+        NotificationService.saveSchedule(sched);
+
+        const ok = NotificationService.downloadICSFile(sched, lang);
+        if (ok) {
+          SacredDialog.toast(t('notif_calendar_synced_toast', lang) || '✨ Calendario devocional generado con éxito.');
+        } else {
+          SacredDialog.toast('⚠️ Activa al menos un horario para exportar al calendario.');
+        }
+      });
+    }
 
     this.modal.querySelectorAll('.btn-pick-time').forEach(btn => {
       btn.addEventListener('click', () => {
