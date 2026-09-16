@@ -28,25 +28,30 @@ export class SacredScripturePicker {
   static onSelectCallback = null;
   static filterQuery = '';
 
+  static booksTab = 'all'; // 'all' | 'my_faith' (Todos los libros disponibles por defecto)
+
   static ensureModal() {
     let el = document.getElementById('modal-sacred-scripture-picker');
     if (!el) {
       el = document.createElement('div');
       el.id = 'modal-sacred-scripture-picker';
-      el.style.cssText = 'display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 5100; padding: 12px 10px 80px; align-items: center; justify-content: center; box-sizing: border-box; overflow-y: auto;';
+      el.style.cssText = 'display: none; position: fixed; inset: 0; background: var(--modal-backdrop, rgba(0,0,0,0.85)); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 5100; padding: 12px 10px 80px; align-items: center; justify-content: center; box-sizing: border-box; overflow-y: auto;';
+      el.addEventListener('click', (e) => {
+        if (e.target === el) SacredScripturePicker.close();
+      });
       document.body.appendChild(el);
     }
     SacredScripturePicker.modalEl = el;
   }
 
-  static open({ currentScriptureId = 'quran_sura_1_fatiha', onSelect, initialStep = 'books' }) {
+  static open({ currentScriptureId = 'quran_sura_1_fatiha', onSelect, initialStep = 'books', initialBookKey = null }) {
     SacredScripturePicker.ensureModal();
     SacredScripturePicker.currentScriptureId = currentScriptureId;
     SacredScripturePicker.onSelectCallback = onSelect;
     SacredScripturePicker.filterQuery = '';
 
     const currentItem = getScriptureById(currentScriptureId);
-    SacredScripturePicker.selectedBookKey = currentItem ? currentItem.libroKey : 'tao';
+    SacredScripturePicker.selectedBookKey = initialBookKey || (currentItem ? currentItem.libroKey : 'genesis');
     SacredScripturePicker.currentStep = initialStep;
 
     SacredScripturePicker.render();
@@ -70,15 +75,13 @@ export class SacredScripturePicker {
   /**
    * FASE 1: SELECTOR DE OBRAS SAGRADAS (LIBROS CANÓNICOS)
    */
-  static booksTab = 'my_faith'; // 'my_faith' | 'all'
-
   static renderBooksStep() {
     const query = SacredScripturePicker.filterQuery.trim().toLowerCase();
     const prefs = StorageService.getPreferences();
     const lang = prefs.idioma || 'es';
     const userTraditions = (prefs && prefs.tradicionesActivas) || [];
 
-    // Libros de mi fe vs todos
+    // Libros de mi fe vs todos (Por defecto 'all' para acceso libre universal)
     const myFaithBooks = SACRED_BOOKS_INDEX.filter(b => userTraditions.includes(b.tradicion));
     const booksToDisplay = (SacredScripturePicker.booksTab === 'my_faith' && myFaithBooks.length > 0 && !query) 
       ? myFaithBooks 
@@ -94,7 +97,7 @@ export class SacredScripturePicker {
     });
 
     const libraryTitle = t('scriptures_library_title', lang) || 'Biblioteca de Sagradas Escrituras';
-    const libraryDesc = t('scriptures_library_subtitle', lang) || 'Elige la Obra Sagrada que deseas explorar para acceder a sus capítulos completos.';
+    const libraryDesc = t('scriptures_library_subtitle', lang) || 'Elige cualquier Obra Sagrada disponible para acceder a sus capítulos completos.';
     const tabMyFaithLabel = t('scriptures_tab_my_faith', lang) || 'Libros de Mi Fe';
     const tabAllLabel = t('scriptures_tab_all_library', lang) || 'Toda la Biblioteca';
     const searchPlaceholder = t('scriptures_search_placeholder', lang) || 'Buscar libro sagrado o tradición...';
@@ -106,7 +109,7 @@ export class SacredScripturePicker {
     const noBooksFound = noBooksFoundTpl.replace('{query}', SacredScripturePicker.filterQuery);
 
     SacredScripturePicker.modalEl.innerHTML = `
-      <div class="crystal-card" style="max-width: 540px; width: 100%; margin: auto; padding: 22px 16px 26px; position: relative; max-height: 88vh; overflow-y: auto; overflow-x: hidden; box-sizing: border-box;">
+      <div class="crystal-card" style="max-width: 560px; width: 100%; margin: auto; padding: 22px 18px 26px; position: relative; max-height: 88vh; overflow-y: auto; overflow-x: hidden; box-sizing: border-box; background: var(--glass-surface-modal, var(--glass-surface-2)); border: 1.5px solid var(--glass-border-highlight); border-radius: var(--radius-xl); box-shadow: var(--glass-shadow-lg);">
         <button id="btn-close-scripture-picker" class="btn-modal-close" title="${closeLabel}">${renderIcon('ui_close')}</button>
 
         <!-- Cabecera de Nivel 1 -->
@@ -121,13 +124,13 @@ export class SacredScripturePicker {
         <!-- PESTAÑAS DE DEVOCIÓN ACTIVA / BIBLIOTECA UNIVERSAL (ICONOS SVG PUROS) -->
         ${myFaithBooks.length > 0 ? `
           <div style="display: flex; gap: 8px; margin-bottom: 14px;">
-            <button type="button" id="tab-my-faith-books" class="btn-crystal ${SacredScripturePicker.booksTab === 'my_faith' ? 'btn-crystal-gold' : ''}" style="flex: 1; padding: 10px 8px; font-size: 0.80rem; font-weight: 800; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; text-align: center; gap: 7px; cursor: pointer;">
-              <span style="display: inline-flex; width: 16px; height: 16px; color: var(--accent-gold); flex-shrink: 0;">${renderIcon('ui_sparkles')}</span>
-              <span style="text-align: center; line-height: 1.25;">${tabMyFaithLabel} (${myFaithBooks.length})</span>
-            </button>
             <button type="button" id="tab-all-books" class="btn-crystal ${SacredScripturePicker.booksTab === 'all' ? 'btn-crystal-gold' : ''}" style="flex: 1; padding: 10px 8px; font-size: 0.80rem; font-weight: 800; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; text-align: center; gap: 7px; cursor: pointer;">
               <span style="display: inline-flex; width: 16px; height: 16px; color: var(--accent-cyan); flex-shrink: 0;">${renderIcon('nav_explore')}</span>
               <span style="text-align: center; line-height: 1.25;">${tabAllLabel} (${SACRED_BOOKS_INDEX.length})</span>
+            </button>
+            <button type="button" id="tab-my-faith-books" class="btn-crystal ${SacredScripturePicker.booksTab === 'my_faith' ? 'btn-crystal-gold' : ''}" style="flex: 1; padding: 10px 8px; font-size: 0.80rem; font-weight: 800; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; text-align: center; gap: 7px; cursor: pointer;">
+              <span style="display: inline-flex; width: 16px; height: 16px; color: var(--accent-gold); flex-shrink: 0;">${renderIcon('ui_sparkles')}</span>
+              <span style="text-align: center; line-height: 1.25;">${tabMyFaithLabel} (${myFaithBooks.length})</span>
             </button>
           </div>
         ` : ''}
@@ -153,8 +156,8 @@ export class SacredScripturePicker {
             const chapUnit = b.totalChapters === 1 ? singleBadge : multiBadge;
 
             return `
-              <button type="button" class="report-type-chip ${isCurrentlyActiveBook ? 'active' : ''} book-select-card" data-book-key="${b.key}" style="width: 100%; padding: 14px 16px; text-align: left; display: flex; align-items: flex-start; gap: 14px; box-sizing: border-box; height: auto; min-height: 70px; flex-shrink: 0; transition: all var(--transition-fast); cursor: pointer;">
-                <div style="width: 42px; height: 42px; border-radius: var(--radius-sm); background: rgba(234, 179, 8, 0.12); display: flex; align-items: center; justify-content: center; color: var(--accent-gold); flex-shrink: 0; border: 1px solid rgba(234, 179, 8, 0.25); margin-top: 2px;">
+              <button type="button" class="crystal-card book-select-card ${isCurrentlyActiveBook ? 'active-glow-gold' : ''}" data-book-key="${b.key}" style="width: 100%; padding: 14px 16px; text-align: left; display: flex; align-items: flex-start; gap: 14px; box-sizing: border-box; background: var(--glass-surface-2); border: 1.5px solid ${isCurrentlyActiveBook ? 'var(--accent-gold)' : 'var(--glass-border)'}; border-radius: var(--radius-lg); flex-shrink: 0; transition: all var(--transition-fast); cursor: pointer;">
+                <div style="width: 42px; height: 42px; border-radius: var(--radius-sm); background: var(--glass-surface-3); display: flex; align-items: center; justify-content: center; color: var(--accent-gold); flex-shrink: 0; border: 1px solid var(--glass-border); margin-top: 2px;">
                   <span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center;">${renderIcon(b.iconKey)}</span>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 0;">
@@ -287,7 +290,7 @@ export class SacredScripturePicker {
     const totalChapsUnit = bookChapters.length === 1 ? singleBadge : multiBadge;
 
     SacredScripturePicker.modalEl.innerHTML = `
-      <div class="crystal-card" style="max-width: 580px; width: 100%; margin: auto; padding: 22px 18px 26px; position: relative; max-height: 88vh; overflow-y: auto; overflow-x: hidden; box-sizing: border-box;">
+      <div class="crystal-card" style="max-width: 580px; width: 100%; margin: auto; padding: 22px 18px 26px; position: relative; max-height: 88vh; overflow-y: auto; overflow-x: hidden; box-sizing: border-box; background: var(--glass-surface-modal, var(--glass-surface-2)); border: 1.5px solid var(--glass-border-highlight); border-radius: var(--radius-xl); box-shadow: var(--glass-shadow-lg);">
         <button id="btn-close-scripture-picker" class="btn-modal-close" title="${closeLabel}">${renderIcon('ui_close')}</button>
 
         <!-- BARRA DE RETORNO AL CATÁLOGO DE LIBROS -->
@@ -338,7 +341,7 @@ export class SacredScripturePicker {
                     const chapterTitle = formatChapterLabel(s, lang) || s.capitulo;
 
                     return `
-                      <button type="button" class="report-type-chip ${isSelected ? 'active' : ''} chapter-item-btn" data-scripture-id="${s.id}" style="width: 100%; padding: 13px 14px; text-align: left; display: flex; align-items: flex-start; gap: 12px; box-sizing: border-box; height: auto; min-height: 56px; flex-shrink: 0; transition: all var(--transition-fast); cursor: pointer;">
+                      <button type="button" class="crystal-card chapter-item-btn ${isSelected ? 'active-glow-gold' : ''}" data-scripture-id="${s.id}" style="width: 100%; padding: 13px 14px; text-align: left; display: flex; align-items: flex-start; gap: 12px; box-sizing: border-box; background: var(--glass-surface-2); border: 1.5px solid ${isSelected ? 'var(--accent-gold)' : 'var(--glass-border)'}; border-radius: var(--radius-md); flex-shrink: 0; transition: all var(--transition-fast); cursor: pointer;">
                         <div style="width: 32px; height: 32px; border-radius: var(--radius-sm); background: ${isSelected ? 'var(--accent-gold)' : 'var(--glass-surface-3)'}; color: ${isSelected ? '#000000' : 'var(--accent-gold)'}; font-weight: 900; font-family: var(--font-mono); font-size: 0.80rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0; border: 1px solid var(--glass-border); margin-top: 2px;">
                           ${s.capituloNumero}
                         </div>

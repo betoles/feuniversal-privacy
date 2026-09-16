@@ -6,15 +6,16 @@
  * Renderizado Exhaustivo Versículo por Versículo y Resaltado Dinámico.
  */
 
-import { SCRIPTURES_CATALOG, getAdjacentScriptures, getScriptureById, getScriptureBookTitle, getScriptureSection, getScriptureOrigLang, formatChapterLabel } from '../data/scriptures-catalog.js';
-import { ScriptureSearchEngine } from '../services/scripture-search-engine.js';
-import { ScriptureCorpusService } from '../services/scripture-corpus-service.js';
-import { StorageService } from '../services/storage-service.js';
-import { SocialShareComponent } from './social-share.js';
-import { TranslationReportModalComponent } from './translation-report-modal.js';
-import { cleanScriptureTextNLP } from '../utils/text-sanitizer.js';
-import { renderIcon } from './icons.js';
-import { t, isRTL } from '../data/i18n.js';
+import { SCRIPTURES_CATALOG, getAdjacentScriptures, getScriptureById, getScriptureBookTitle, getScriptureSection, getScriptureOrigLang, formatChapterLabel } from '../data/scriptures-catalog.js?v=10.8.5';
+import { ScriptureSearchEngine } from '../services/scripture-search-engine.js?v=10.8.5';
+import { ScriptureCorpusService } from '../services/scripture-corpus-service.js?v=10.8.5';
+import { StorageService } from '../services/storage-service.js?v=10.8.5';
+import { SacredScripturePicker } from './sacred-scripture-picker.js?v=10.8.5';
+import { SocialShareComponent } from './social-share.js?v=10.8.5';
+import { TranslationReportModalComponent } from './translation-report-modal.js?v=10.8.5';
+import { cleanScriptureTextNLP } from '../utils/text-sanitizer.js?v=10.8.5';
+import { renderIcon } from './icons.js?v=10.8.5';
+import { t, isRTL } from '../data/i18n.js?v=10.8.5';
 
 export class ScripturesViewComponent {
   constructor() {
