@@ -1,5 +1,10 @@
 export const UI_TRANSLATIONS = {
   "es": {
+    "compass_mode_solar": "Sol en Vivo",
+    "compass_solar_hint": "Alinea la brújula con la posición del Sol en tu horizonte",
+    "compass_ios_permission_btn": "Activar Sensores de Movimiento (iOS)",
+    "compass_ios_permission_granted": "¡Sensores Conectados con Éxito!",
+
     "share_blessing_title": "Comparte esta Bendición Sagrada",
     "share_blessing_desc": "¿Conoces a alguien que necesite paz, sanación o fortaleza hoy? Envíale esta plegaria.",
     "share_blessing_hero_whatsapp": "Enviar Bendición por WhatsApp",
@@ -594,6 +599,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "¡Sensores Calibrados! Precisión Óptima"
   },
   "en": {
+    "compass_mode_solar": "Live Sun",
+    "compass_solar_hint": "Align compass with the Sun's position on your horizon",
+    "compass_ios_permission_btn": "Enable Motion Sensors (iOS)",
+    "compass_ios_permission_granted": "Sensors Connected Successfully!",
+
     "share_blessing_title": "Share this Sacred Blessing",
     "share_blessing_desc": "Do you know someone who needs peace, healing, or strength today? Send them this prayer.",
     "share_blessing_hero_whatsapp": "Send Blessing via WhatsApp",
@@ -1188,6 +1198,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensors Calibrated! Optimal Precision"
   },
   "fr": {
+    "compass_mode_solar": "Soleil en Direct",
+    "compass_solar_hint": "Alignez la boussole avec la position du Soleil à votre horizon",
+    "compass_ios_permission_btn": "Activer les Capteurs de Mouvement (iOS)",
+    "compass_ios_permission_granted": "Capteurs Connectés avec Succès !",
+
     "share_blessing_title": "Partagez cette Bénédiction Sacrée",
     "share_blessing_desc": "Connaissez-vous quelqu'un qui a besoin de paix, de guérison ou de force aujourd'hui ? Envoyez-lui cette prière.",
     "share_blessing_hero_whatsapp": "Envoyer la Bénédiction par WhatsApp",
@@ -1782,6 +1797,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Capteurs Calibrés ! Précision Optimale"
   },
   "pt": {
+    "compass_mode_solar": "Sol ao Vivo",
+    "compass_solar_hint": "Alinhe a bússola com a posição do Sol no seu horizonte",
+    "compass_ios_permission_btn": "Ativar Sensores de Movimento (iOS)",
+    "compass_ios_permission_granted": "Sensores Conectados com Sucesso!",
+
     "share_blessing_title": "Compartilhe esta Bênção Sagrada",
     "share_blessing_desc": "Conhece alguém que precisa de paz, cura ou força hoje? Envie esta oração.",
     "share_blessing_hero_whatsapp": "Enviar Bênção pelo WhatsApp",
@@ -2376,6 +2396,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensores Calibrados! Precisão Ideal"
   },
   "it": {
+    "compass_mode_solar": "Sole dal Vivo",
+    "compass_solar_hint": "Allinea la bussola con la posizione del Sole sul tuo orizzonte",
+    "compass_ios_permission_btn": "Attiva Sensori di Movimento (iOS)",
+    "compass_ios_permission_granted": "Sensori Connessi con Successo!",
+
     "share_blessing_title": "Condividi questa Sacra Benedizione",
     "share_blessing_desc": "Conosci qualcuno che ha bisogno di pace, guarigione o forza oggi? Inviagli questa preghiera.",
     "share_blessing_hero_whatsapp": "Invia Benedizione via WhatsApp",
@@ -2970,6 +2995,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensori Calibrati! Precisione Ottimale"
   },
   "de": {
+    "compass_mode_solar": "Live-Sonne",
+    "compass_solar_hint": "Richte den Kompass nach dem Sonnenstand an deinem Horizont aus",
+    "compass_ios_permission_btn": "Bewegungssensoren aktivieren (iOS)",
+    "compass_ios_permission_granted": "Sensoren erfolgreich verbunden!",
+
     "share_blessing_title": "Teile diesen Heiligen Segen",
     "share_blessing_desc": "Kennst du jemanden, der heute Frieden, Heilung oder Kraft braucht? Sende ihm dieses Gebet.",
     "share_blessing_hero_whatsapp": "Segen über WhatsApp senden",
@@ -3564,6 +3594,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensoren Kalibriert! Optimale Präzision"
   },
   "ru": {
+    "compass_mode_solar": "Живое Солнце",
+    "compass_solar_hint": "Совместите компас с положением Солнца на вашем горизонте",
+    "compass_ios_permission_btn": "Включить датчики движения (iOS)",
+    "compass_ios_permission_granted": "Датчики успешно подключены!",
+
     "share_blessing_title": "Поделитесь этим священным благословением",
     "share_blessing_desc": "Знаете ли вы кого-то, кому сегодня нужен мир, исцеление или духовная сила? Отправьте эту молитву.",
     "share_blessing_hero_whatsapp": "Отправить благословение в WhatsApp",
@@ -4158,6 +4193,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Датчики Калиброваны! Оптимальная Точность"
   },
   "ar": {
+    "compass_mode_solar": "الشمس المباشرة",
+    "compass_solar_hint": "قم بمحاذاة البوصلة مع موقع الشمس في أفقك",
+    "compass_ios_permission_btn": "تفعيل مستشعرات الحركة (iOS)",
+    "compass_ios_permission_granted": "تم توصيل المستشعرات بنجاح!",
+
     "share_blessing_title": "شارك هذه البركة المقدسة",
     "share_blessing_desc": "هل تعرف شخصًا بحاجة إلى السلام أو الشفاء أو القوة اليوم؟ أرسل له هذا الدعاء المبارك.",
     "share_blessing_hero_whatsapp": "إرسال البركة عبر واتساب",
@@ -4752,6 +4792,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "تمت معايرة المستشعرات! دقة مثالية"
   },
   "he": {
+    "compass_mode_solar": "שמש חיה",
+    "compass_solar_hint": "כוון את המצפן לפי מיקום השמש באופק שלך",
+    "compass_ios_permission_btn": "הפעל חיישני תנועה (iOS)",
+    "compass_ios_permission_granted": "חיישנים חוברו בהצלחה!",
+
     "share_blessing_title": "שתף ברכה קדושה זו",
     "share_blessing_desc": "האם אתה מכיר מישהו הזקוק לשלום, רפואה או כוח היום? שלח לו תפילה זו.",
     "share_blessing_hero_whatsapp": "שלח ברכה בוואטסאפ",
@@ -5346,6 +5391,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "החיישנים כוילו! דיוק אופטימלי"
   },
   "hi": {
+    "compass_mode_solar": "प्रत्यक्ष सूर्य",
+    "compass_solar_hint": "कंपास को अपने क्षितिज पर सूर्य की स्थिति के साथ संरेखित करें",
+    "compass_ios_permission_btn": "मोशन सेंसर सक्रिय करें (iOS)",
+    "compass_ios_permission_granted": "सेंसर सफलतापूर्वक कनेक्ट हुए!",
+
     "share_blessing_title": "यह पवित्र आशीर्वाद साझा करें",
     "share_blessing_desc": "क्या आप किसी ऐसे व्यक्ति को जानते हैं जिसे आज शांति, उपचार या शक्ति की आवश्यकता है? उन्हें यह प्रार्थना भेजें।",
     "share_blessing_hero_whatsapp": "व्हाट्सएप के माध्यम से आशीर्वाद भेजें",
@@ -5940,6 +5990,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "सेंसर कैलिब्रेटेड! इष्टतम सटीकता"
   },
   "zh": {
+    "compass_mode_solar": "实时太阳",
+    "compass_solar_hint": "将罗盘对准地平线上的太阳方位",
+    "compass_ios_permission_btn": "启用动作传感器 (iOS)",
+    "compass_ios_permission_granted": "传感器连接成功！",
+
     "share_blessing_title": "分享这份神圣的祝福",
     "share_blessing_desc": "您身边是否有人今天需要内心的平安、医治与力量？请将这篇祷文分享给他们。",
     "share_blessing_hero_whatsapp": "通过 WhatsApp 分享祝福",
@@ -6534,6 +6589,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "传感器校准完成！达到最佳精度"
   },
   "la": {
+    "compass_mode_solar": "Sol Vivus",
+    "compass_solar_hint": "Dirige acum secundum situm Solis in horizonte tuo",
+    "compass_ios_permission_btn": "Activa Sensores Motus (iOS)",
+    "compass_ios_permission_granted": "Sensores feliciter connecti sunt!",
+
     "share_blessing_title": "Hanc Sacram Benedictionem Communica",
     "share_blessing_desc": "Nostine aliquem qui pace, sanatione aut fortitudine hodie egeat? Hanc orationem mitte.",
     "share_blessing_hero_whatsapp": "Benedictionem per WhatsApp mittere",
@@ -7128,6 +7188,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensores Calibrati! Praecisio Optima"
   },
   "ja": {
+    "compass_mode_solar": "ライブ太陽",
+    "compass_solar_hint": "地平線上の太陽の位置に合わせてコンパスを調整します",
+    "compass_ios_permission_btn": "モーションセンサーを有効化 (iOS)",
+    "compass_ios_permission_granted": "センサーが正常に接続されました！",
+
     "share_blessing_title": "この聖なる祝福を分かち合う",
     "share_blessing_desc": "今日、平安、癒し、あるいは力を必要としている人をご存知ですか？この祈りを届けてください。",
     "share_blessing_hero_whatsapp": "WhatsAppで祝福を送る",
@@ -7722,6 +7787,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "センサー校正完了！最適な精度"
   },
   "bn": {
+    "compass_mode_solar": "সরাসরি সূর্য",
+    "compass_solar_hint": "আপনার দিগন্তে সূর্যের অবস্থানের সাথে কম্পাস সারিবদ্ধ করুন",
+    "compass_ios_permission_btn": "মোশন সেন্সর সক্রিয় করুন (iOS)",
+    "compass_ios_permission_granted": "সেন্সর সফলভাবে সংযুক্ত হয়েছে!",
+
     "share_blessing_title": "এই পবিত্র আশীর্বাদ শেয়ার করুন",
     "share_blessing_desc": "আপনি কি এমন কাউকে চেনেন যার আজ শান্তি, নিরাময় বা শক্তির প্রয়োজন? তাকে এই প্রার্থনা পাঠান।",
     "share_blessing_hero_whatsapp": "হোয়াটসঅ্যাপে আশীর্বাদ পাঠান",
@@ -8316,6 +8386,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "সেন্সর ক্যালিব্রেট করা হয়েছে! সর্বোত্তম নির্ভুলতা"
   },
   "id": {
+    "compass_mode_solar": "Matahari Langsung",
+    "compass_solar_hint": "Sejajarkan kompas dengan posisi Matahari di cakrawala Anda",
+    "compass_ios_permission_btn": "Aktifkan Sensor Gerak (iOS)",
+    "compass_ios_permission_granted": "Sensor Berhasil Terhubung!",
+
     "share_blessing_title": "Bagikan Berkat Suci Ini",
     "share_blessing_desc": "Apakah Anda mengenal seseorang yang membutuhkan kedamaian, kesembuhan, atau kekuatan hari ini? Kirimkan doa ini.",
     "share_blessing_hero_whatsapp": "Kirim Berkat via WhatsApp",
@@ -8910,6 +8985,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "Sensor Dikalibrasi! Presisi Optimal"
   },
   "ur": {
+    "compass_mode_solar": "براہ راست سورج",
+    "compass_solar_hint": "قطب نما کو اپنے افق پر سورج کی پوزیشن کے مطابق سیدھ میں کریں",
+    "compass_ios_permission_btn": "حرکتی سینسر فعال کریں (iOS)",
+    "compass_ios_permission_granted": "سینسر کامیابی سے منسلک ہو گئے!",
+
     "share_blessing_title": "یہ مقدس برکت شیئر کریں",
     "share_blessing_desc": "کیا آپ کسی کو جانتے ہیں جسے آج سکون، شفا یا طاقت کی ضرورت ہے؟ انہیں یہ دعا بھیجیں۔",
     "share_blessing_hero_whatsapp": "واٹس ایپ پر برکت بھیجیں",
@@ -9504,6 +9584,11 @@ export const UI_TRANSLATIONS = {
     "compass_calibrated_msg": "سینسر کیلیبریٹ ہو گئے! بہترین درستگی"
   },
   "sw": {
+    "compass_mode_solar": "Jua Moja kwa Moja",
+    "compass_solar_hint": "Panga dira kulingana na nafasi ya Jua kwenye upeo wako",
+    "compass_ios_permission_btn": "Washa Vihisi Mwendo (iOS)",
+    "compass_ios_permission_granted": "Vihisi Vimeunganishwa Kikamilifu!",
+
     "share_blessing_title": "Shiriki Baraka Hii Takatifu",
     "share_blessing_desc": "Je, unamjua mtu anayehitaji amani, uponyaji au nguvu leo? Mtumie sala hii.",
     "share_blessing_hero_whatsapp": "Tuma Baraka kupitia WhatsApp",

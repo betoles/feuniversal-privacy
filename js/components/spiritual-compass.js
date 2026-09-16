@@ -20,7 +20,7 @@ import { MembershipComponent } from "./membership.js";
 export class SpiritualCompassComponent {
   constructor() {
     this.container = null;
-    this.currentMode = "qibla"; // "qibla" | "east" | "zen"
+    this.currentMode = "qibla"; // "qibla" | "solar" | "east" | "zen"
     this.currentHeading = 0;
     this.targetHeading = 0;
     this.currentSkin = "classic_celestial"; // "classic_celestial" | "islamic_qibla" | "vedic_surya" | "zen_dharma"
@@ -31,6 +31,8 @@ export class SpiritualCompassComponent {
     this.dragStartAngle = 0;
     this.dragStartHeading = 0;
     this.animFrameId = null;
+    this.isIOS = typeof DeviceOrientationEvent !== "undefined" && typeof DeviceOrientationEvent.requestPermission === "function";
+    this.iosPermissionState = this.isIOS ? "prompt" : "unsupported";
     this.membership = new MembershipComponent();
   }
 
@@ -71,6 +73,8 @@ export class SpiritualCompassComponent {
   updateTargetHeading() {
     if (this.currentMode === "qibla") {
       this.targetHeading = SolarService.getQiblaBearing();
+    } else if (this.currentMode === "solar") {
+      this.targetHeading = SolarService.getCurrentSunAzimuth();
     } else if (this.currentMode === "east") {
       this.targetHeading = SolarService.getSunriseBearing();
     } else {
@@ -88,6 +92,24 @@ export class SpiritualCompassComponent {
           <rect x="114" y="12" width="12" height="12" rx="1.5" fill="#1e293b" stroke="#f59e0b" stroke-width="0.8"/>
           <line x1="114" y1="15" x2="126" y2="15" stroke="#fef08a" stroke-width="1.2"/>
           <polygon points="120,4 124,10 116,10" fill="#fbbf24"/>
+        </g>
+      `;
+    } else if (this.currentMode === "solar") {
+      beaconContent = `
+        <!-- Marcador Sagrado Sol en Vivo (Azimut Solar) -->
+        <g filter="drop-shadow(0 0 10px rgba(245, 158, 11, 0.95))">
+          <circle cx="120" cy="18" r="12" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="2"/>
+          <g stroke="#fef08a" stroke-width="1.4">
+            <line x1="120" y1="2" x2="120" y2="7"/>
+            <line x1="131" y1="7" x2="128" y2="10"/>
+            <line x1="136" y1="18" x2="131" y2="18"/>
+            <line x1="131" y1="29" x2="128" y2="26"/>
+            <line x1="109" y1="7" x2="112" y2="10"/>
+            <line x1="104" y1="18" x2="109" y2="18"/>
+            <line x1="109" y1="29" x2="112" y2="26"/>
+          </g>
+          <circle cx="120" cy="18" r="5" fill="#f59e0b"/>
+          <polygon points="120,4 124,10 116,10" fill="#f59e0b"/>
         </g>
       `;
     } else if (this.currentMode === "east") {
@@ -137,6 +159,7 @@ export class SpiritualCompassComponent {
       if (heading !== null) {
         this.currentHeading = Math.round(heading);
         this.hasSensor = true;
+        this.iosPermissionState = "granted";
         sensorReceived = true;
         if (this.isDesktopMode) {
           this.isDesktopMode = false;
@@ -265,15 +288,63 @@ export class SpiritualCompassComponent {
     this.animFrameId = requestAnimationFrame(step);
   }
 
+  async requestIOSSensorPermission() {
+    if (typeof DeviceOrientationEvent !== "undefined" && typeof DeviceOrientationEvent.requestPermission === "function") {
+      try {
+        const permission = await DeviceOrientationEvent.requestPermission();
+        if (permission === "granted") {
+          this.iosPermissionState = "granted";
+          this.hasSensor = true;
+          this.isDesktopMode = false;
+          this.startListening();
+          this.updateSensorBadge();
+          this.updateCompassDisplay();
+          if (navigator.vibrate) {
+            try { navigator.vibrate([40, 50, 40]); } catch (e) {}
+          }
+          return true;
+        } else {
+          this.iosPermissionState = "denied";
+          this.isDesktopMode = true;
+          this.updateSensorBadge();
+          return false;
+        }
+      } catch (err) {
+        console.warn("DeviceOrientation permission error:", err);
+        this.iosPermissionState = "denied";
+        this.isDesktopMode = true;
+        this.updateSensorBadge();
+        return false;
+      }
+    }
+    return false;
+  }
+
   updateSensorBadge() {
     const badge = document.getElementById("compass-sensor-badge");
     if (badge) {
       const prefs = StorageService.getPreferences();
       const lang = prefs.idioma || "es";
-      if (this.isDesktopMode) {
-        badge.innerHTML = `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_laptop")}</span> <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`;
-      } else {
+      if (this.hasSensor) {
         badge.innerHTML = `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_mobile")}</span> <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`;
+      } else if (this.isIOS && this.iosPermissionState === "prompt") {
+        badge.innerHTML = `
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+            <div><span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_mobile")}</span> <span style="color: var(--accent-gold); font-weight: 700;">iOS Safari</span> · Requiere permiso táctil</div>
+            <button id="btn-request-ios-sensors" class="btn-crystal btn-crystal-gold" style="font-size: 0.72rem; font-weight: 800; padding: 4px 12px; border-radius: var(--radius-full); cursor: pointer; display: inline-flex; align-items: center; gap: 5px; margin-top: 2px;">
+              <span style="width: 13px; height: 13px; display: inline-flex;">${renderIcon("ui_sparkles")}</span>
+              <span>${t("compass_ios_permission_btn", lang) || "Activar Sensores de Movimiento (iOS)"}</span>
+            </button>
+          </div>
+        `;
+        const iosBtn = document.getElementById("btn-request-ios-sensors");
+        if (iosBtn) {
+          iosBtn.onclick = async () => {
+            await this.requestIOSSensorPermission();
+          };
+        }
+      } else {
+        badge.innerHTML = `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_laptop")}</span> <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`;
       }
     }
   }
@@ -601,19 +672,23 @@ export class SpiritualCompassComponent {
           </div>
         </div>
 
-        <!-- Selector de Modos de Orientación -->
-        <div class="crystal-segmented-control" style="width: 100%; margin-bottom: 14px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; box-sizing: border-box; padding: 4px;">
-          <button type="button" class="segmented-item ${this.currentMode === "qibla" ? "active" : ""}" data-compass-mode="qibla" style="font-size: 0.72rem; padding: 6px 4px; min-height: 38px; min-width: 0; width: 100%; gap: 4px;">
-            <span style="width: 14px; height: 14px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-gold);">${renderIcon("trad_islam")}</span>
-            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 18px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_qibla", lang) || "Qibla"}</span>
+        <!-- Selector de Modos de Orientación (4 Modos Sagrados) -->
+        <div class="crystal-segmented-control" style="width: 100%; margin-bottom: 14px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; box-sizing: border-box; padding: 4px;">
+          <button type="button" class="segmented-item ${this.currentMode === "qibla" ? "active" : ""}" data-compass-mode="qibla" style="font-size: 0.70rem; padding: 6px 2px; min-height: 38px; min-width: 0; width: 100%; gap: 3px;">
+            <span style="width: 13px; height: 13px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-gold);">${renderIcon("trad_islam")}</span>
+            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 15px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_qibla", lang) || "Qibla"}</span>
           </button>
-          <button type="button" class="segmented-item ${this.currentMode === "east" ? "active" : ""}" data-compass-mode="east" style="font-size: 0.72rem; padding: 6px 4px; min-height: 38px; min-width: 0; width: 100%; gap: 4px;">
-            <span style="width: 14px; height: 14px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-rose);">${renderIcon("ui_sunrise_sunset")}</span>
-            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 18px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_east", lang) || "Oriente"}</span>
+          <button type="button" class="segmented-item ${this.currentMode === "solar" ? "active" : ""}" data-compass-mode="solar" style="font-size: 0.70rem; padding: 6px 2px; min-height: 38px; min-width: 0; width: 100%; gap: 3px;">
+            <span style="width: 13px; height: 13px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-gold);">${renderIcon("ui_sunrise_sunset")}</span>
+            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 15px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_solar", lang) || "Sol"}</span>
           </button>
-          <button type="button" class="segmented-item ${this.currentMode === "zen" ? "active" : ""}" data-compass-mode="zen" style="font-size: 0.72rem; padding: 6px 4px; min-height: 38px; min-width: 0; width: 100%; gap: 4px;">
-            <span style="width: 14px; height: 14px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-cyan);">${renderIcon("trad_budismo")}</span>
-            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 18px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_zen", lang) || "Zen"}</span>
+          <button type="button" class="segmented-item ${this.currentMode === "east" ? "active" : ""}" data-compass-mode="east" style="font-size: 0.70rem; padding: 6px 2px; min-height: 38px; min-width: 0; width: 100%; gap: 3px;">
+            <span style="width: 13px; height: 13px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-rose);">${renderIcon("ui_compass")}</span>
+            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 15px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_east", lang) || "Oriente"}</span>
+          </button>
+          <button type="button" class="segmented-item ${this.currentMode === "zen" ? "active" : ""}" data-compass-mode="zen" style="font-size: 0.70rem; padding: 6px 2px; min-height: 38px; min-width: 0; width: 100%; gap: 3px;">
+            <span style="width: 13px; height: 13px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent-cyan);">${renderIcon("trad_budismo")}</span>
+            <span style="display: inline-block; min-width: 0; max-width: calc(100% - 15px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700;">${t("compass_mode_zen", lang) || "Zen"}</span>
           </button>
         </div>
 
@@ -637,6 +712,11 @@ export class SpiritualCompassComponent {
           <div id="compass-target-diff" style="font-size: 0.74rem; font-weight: 700; color: var(--text-muted); margin-top: 4px;">
             ${t("compass_target", lang) || "Objetivo"}: ${this.targetHeading}°
           </div>
+          ${this.currentMode === "solar" ? `
+            <div style="font-size: 0.68rem; color: var(--accent-gold); margin-top: 3px; font-weight: 600;">
+              ${t("compass_solar_hint", lang) || "Alinea la brújula con la posición del Sol en tu horizonte"}
+            </div>
+          ` : ""}
         </div>
 
         <!-- Selector de Estilos Místicos 3D (Gratis y PRO) -->
@@ -672,11 +752,20 @@ export class SpiritualCompassComponent {
           </div>
         </div>
 
-        <!-- Barra de Estado de Sensores / Modo Escritorio -->
-        <div id="compass-sensor-badge" style="margin-bottom: 12px; font-size: 0.72rem; color: var(--text-secondary); text-align: center; background: rgba(0,0,0,0.35); padding: 6px 12px; border-radius: var(--radius-full); border: 1px solid var(--glass-border); width: 100%; box-sizing: border-box;">
-          ${this.isDesktopMode 
-            ? `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_laptop")}</span> <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`
-            : `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_mobile")}</span> <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`}
+        <!-- Barra de Estado de Sensores / Modo Escritorio / iOS Permission -->
+        <div id="compass-sensor-badge" style="margin-bottom: 12px; font-size: 0.72rem; color: var(--text-secondary); text-align: center; background: rgba(0,0,0,0.35); padding: 6px 12px; border-radius: var(--radius-md); border: 1px solid var(--glass-border); width: 100%; box-sizing: border-box;">
+          ${this.hasSensor
+            ? `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-cyan); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_mobile")}</span> <span style="color: var(--accent-cyan); font-weight: 700;">${t("compass_mobile_sensor", lang) || "Sensor Magnético Activo"}</span> · ${t("compass_mobile_hint", lang) || "Tiempo Real"}`
+            : (this.isIOS && this.iosPermissionState === "prompt"
+                ? `<div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+                     <div><span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_mobile")}</span> <span style="color: var(--accent-gold); font-weight: 700;">iOS Safari</span> · Requiere permiso táctil</div>
+                     <button id="btn-request-ios-sensors" class="btn-crystal btn-crystal-gold" style="font-size: 0.72rem; font-weight: 800; padding: 4px 12px; border-radius: var(--radius-full); cursor: pointer; display: inline-flex; align-items: center; gap: 5px; margin-top: 2px;">
+                       <span style="width: 13px; height: 13px; display: inline-flex;">${renderIcon("ui_sparkles")}</span>
+                       <span>${t("compass_ios_permission_btn", lang) || "Activar Sensores de Movimiento (iOS)"}</span>
+                     </button>
+                   </div>`
+                : `<span style="display: inline-flex; width: 14px; height: 14px; color: var(--accent-gold); vertical-align: middle; margin-right: 4px;">${renderIcon("ui_laptop")}</span> <span style="color: var(--accent-gold); font-weight: 700;">${t("compass_desktop_mode", lang) || "Modo Escritorio Interactivo"}</span> · ${t("compass_desktop_hint", lang) || "Arrastra para rotar o pulsa Auto-Alinear"}`
+              )}
         </div>
 
         <!-- Botones de Acción: Auto-Alineación y Calibración -->
@@ -698,6 +787,14 @@ export class SpiritualCompassComponent {
     // Eventos de Cierre
     const closeBtn = document.getElementById("btn-close-compass");
     if (closeBtn) closeBtn.onclick = () => this.close();
+
+    // Eventos de Permiso iOS
+    const iosSensorBtn = document.getElementById("btn-request-ios-sensors");
+    if (iosSensorBtn) {
+      iosSensorBtn.onclick = async () => {
+        await this.requestIOSSensorPermission();
+      };
+    }
 
     // Eventos de Selector de Modos
     this.container.querySelectorAll("[data-compass-mode]").forEach((btn) => {
@@ -741,16 +838,9 @@ export class SpiritualCompassComponent {
         const label = document.getElementById("calibrate-text-label");
         const glowRing = document.getElementById("compass-glow-ring");
 
-        // Solicitar permisos de sensor en iOS Safari
-        if (typeof DeviceOrientationEvent !== "undefined" && typeof DeviceOrientationEvent.requestPermission === "function") {
-          try {
-            const permission = await DeviceOrientationEvent.requestPermission();
-            if (permission === "granted") {
-              this.startListening();
-            }
-          } catch (err) {
-            console.warn("DeviceOrientation permission:", err);
-          }
+        // Solicitar permisos de sensor en iOS Safari si es necesario
+        if (this.isIOS && !this.hasSensor) {
+          await this.requestIOSSensorPermission();
         }
 
         // Haptic feedback

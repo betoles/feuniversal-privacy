@@ -130,4 +130,36 @@ export class SolarService {
   static getZenNorthBearing() {
     return 0;
   }
+
+  static getCurrentSunAzimuth(date = new Date()) {
+    const coords = this.getUserCoordinates();
+    const lat = coords.lat;
+    const lon = coords.lon;
+
+    const startOfYear = new Date(date.getFullYear(), 0, 0);
+    const diff = date - startOfYear;
+    const oneDay = 1000 * 60 * 60 * 24;
+    const dayOfYear = Math.floor(diff / oneDay);
+
+    const declination = 23.45 * Math.sin((360 / 365) * (dayOfYear - 81) * (Math.PI / 180));
+    const latRad = (lat * Math.PI) / 180;
+    const decRad = (declination * Math.PI) / 180;
+
+    const utcHours = date.getUTCHours() + date.getUTCMinutes() / 60 + date.getUTCSeconds() / 3600;
+    const solarTime = (utcHours + (lon / 15) + 24) % 24;
+    const hourAngle = (solarTime - 12) * 15;
+    const hourAngleRad = (hourAngle * Math.PI) / 180;
+
+    const sinAltitude = Math.sin(latRad) * Math.sin(decRad) + Math.cos(latRad) * Math.cos(decRad) * Math.cos(hourAngleRad);
+    const altitudeRad = Math.asin(Math.max(-1, Math.min(1, sinAltitude)));
+
+    const cosAzimuth = (Math.sin(decRad) - Math.sin(latRad) * Math.sin(altitudeRad)) / (Math.max(0.0001, Math.cos(latRad) * Math.cos(altitudeRad)));
+    let azimuth = Math.acos(Math.max(-1, Math.min(1, cosAzimuth))) * (180 / Math.PI);
+
+    if (Math.sin(hourAngleRad) > 0) {
+      azimuth = (360 - azimuth + 360) % 360;
+    }
+
+    return Math.round(azimuth);
+  }
 }
