@@ -1252,10 +1252,85 @@ export class SoundService {
     this.ttsRate = parseFloat(rate) || 0.85;
   }
 
-  speakPrayer(text, lang = 'es', onStateChange = null) {
+  /**
+   * Obtiene la lista de voces disponibles de forma asíncrona (esperando onvoiceschanged si es necesario)
+   */
+  async getAvailableVoicesAsync() {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return [];
+    let voices = window.speechSynthesis.getVoices();
+    if (voices && voices.length > 0) return voices;
+
+    return new Promise((resolve) => {
+      let resolved = false;
+      const onVoices = () => {
+        if (resolved) return;
+        resolved = true;
+        window.speechSynthesis.removeEventListener('voiceschanged', onVoices);
+        resolve(window.speechSynthesis.getVoices() || []);
+      };
+
+      window.speechSynthesis.addEventListener('voiceschanged', onVoices);
+      setTimeout(() => {
+        if (!resolved) {
+          resolved = true;
+          window.speechSynthesis.removeEventListener('voiceschanged', onVoices);
+          resolve(window.speechSynthesis.getVoices() || []);
+        }
+      }, 1000);
+    });
+  }
+
+  /**
+   * Busca la voz más adecuada para el idioma solicitado
+   */
+  async getMatchingVoice(lang = 'es') {
+    const l = (lang || 'es').toLowerCase();
+    const langCodes = {
+      es: ['es-ES', 'es-MX', 'es-US', 'es-419', 'es'],
+      en: ['en-US', 'en-GB', 'en-AU', 'en-CA', 'en'],
+      fr: ['fr-FR', 'fr-CA', 'fr'],
+      pt: ['pt-BR', 'pt-PT', 'pt'],
+      it: ['it-IT', 'it'],
+      de: ['de-DE', 'de-AT', 'de'],
+      ru: ['ru-RU', 'ru'],
+      ar: ['ar-SA', 'ar-EG', 'ar-AE', 'ar'],
+      he: ['he-IL', 'he'],
+      hi: ['hi-IN', 'hi'],
+      zh: ['zh-CN', 'zh-TW', 'zh-HK', 'zh'],
+      ja: ['ja-JP', 'ja'],
+      bn: ['bn-BD', 'bn-IN', 'bn'],
+      id: ['id-ID', 'id'],
+      ur: ['ur-PK', 'ur-IN', 'ur'],
+      sw: ['sw-KE', 'sw-TZ', 'sw'],
+      la: ['la', 'it-IT', 'es-ES'] // Fallback eclesiástico para latín
+    };
+
+    const targets = langCodes[l] || [l];
+    const voices = await this.getAvailableVoicesAsync();
+    if (!voices || voices.length === 0) return null;
+
+    for (const code of targets) {
+      const exact = voices.find(v => v.lang && v.lang.toLowerCase() === code.toLowerCase());
+      if (exact) return exact;
+      const prefix = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(code.toLowerCase()));
+      if (prefix) return prefix;
+    }
+
+    return null;
+  }
+
+  /**
+   * Comprueba si el dispositivo tiene voz sintetizada instalada para el idioma
+   */
+  async hasVoiceForLanguage(lang = 'es') {
+    const voice = await this.getMatchingVoice(lang);
+    return !!voice;
+  }
+
+  async speakPrayer(text, lang = 'es', onStateChange = null) {
     if (typeof window === 'undefined' || !('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
       console.warn('SpeechSynthesis no disponible en este entorno.');
-      if (onStateChange) onStateChange('idle');
+      if (onStateChange) onStateChange('unavailable');
       return;
     }
 
@@ -1266,6 +1341,7 @@ export class SoundService {
       } catch (e) {}
       this.isTTSPlaying = true;
       this.isTTSPaused = false;
+      this._startTTSHeartbeat();
       if (onStateChange) onStateChange('playing');
       return;
     }
@@ -1277,11 +1353,13 @@ export class SoundService {
       } catch (e) {}
       this.isTTSPlaying = false;
       this.isTTSPaused = true;
+      this._stopTTSHeartbeat();
       if (onStateChange) onStateChange('paused');
       return;
     }
 
     // Caso 3: Iniciar nueva lectura desde cero cancelando instancias previas
+    this._stopTTSHeartbeat();
     try {
       window.speechSynthesis.cancel();
     } catch (e) {}
@@ -1299,41 +1377,26 @@ export class SoundService {
       return;
     }
 
+    // Detectar si hay voz compatible
+    const matchedVoice = await this.getMatchingVoice(lang);
+    const l = (lang || 'es').toLowerCase();
+
+    // Si es un idioma no disponible (y no es latín con fallback), notificar
+    if (!matchedVoice && !['es', 'en', 'fr', 'pt', 'it', 'de', 'la'].includes(l)) {
+      if (onStateChange) onStateChange('unavailable');
+      return;
+    }
+
     const utterance = new SpeechSynthesisUtterance(cleanText);
-    this.currentUtterance = utterance; // Previene recolección de basura prematura
+    this.currentUtterance = utterance;
     utterance.rate = this.ttsRate || 0.85;
     utterance.pitch = 0.95;
 
-    const langCodes = {
-      es: 'es-ES',
-      en: 'en-US',
-      fr: 'fr-FR',
-      pt: 'pt-BR',
-      it: 'it-IT',
-      de: 'de-DE',
-      ru: 'ru-RU',
-      ar: 'ar-SA',
-      he: 'he-IL',
-      hi: 'hi-IN',
-      zh: 'zh-CN',
-      la: 'la',
-      ja: 'ja-JP',
-      bn: 'bn-BD',
-      id: 'id-ID',
-      ur: 'ur-PK',
-      sw: 'sw-KE'
-    };
-    utterance.lang = langCodes[lang] || 'es-ES';
-
-    // Asignar voz natural si está precargada
-    const voices = window.speechSynthesis.getVoices();
-    if (voices && voices.length > 0) {
-      const targetLang = utterance.lang;
-      const targetPrefix = targetLang.split('-')[0].toLowerCase();
-      const matchingVoice = voices.find(v => v.lang === targetLang || (v.lang && v.lang.toLowerCase().startsWith(targetPrefix)));
-      if (matchingVoice) {
-        utterance.voice = matchingVoice;
-      }
+    if (matchedVoice) {
+      utterance.voice = matchedVoice;
+      utterance.lang = matchedVoice.lang;
+    } else {
+      utterance.lang = l === 'la' ? 'it-IT' : 'es-ES';
     }
 
     this.isTTSPlaying = true;
@@ -1343,6 +1406,7 @@ export class SoundService {
     utterance.onstart = () => {
       this.isTTSPlaying = true;
       this.isTTSPaused = false;
+      this._startTTSHeartbeat();
       if (onStateChange) onStateChange('playing');
     };
 
@@ -1350,31 +1414,54 @@ export class SoundService {
       this.isTTSPlaying = false;
       this.isTTSPaused = false;
       this.currentUtterance = null;
+      this._stopTTSHeartbeat();
       if (onStateChange) onStateChange('ended');
     };
+
     utterance.onerror = (err) => {
       console.warn('SpeechSynthesis error:', err);
       this.isTTSPlaying = false;
       this.isTTSPaused = false;
       this.currentUtterance = null;
+      this._stopTTSHeartbeat();
       if (onStateChange) onStateChange('idle');
     };
 
     try {
       window.speechSynthesis.speak(utterance);
-      // Reanudar inmediatamente por si Chrome/Safari entra en estado paused al encolar
       if (window.speechSynthesis.paused) {
         window.speechSynthesis.resume();
       }
+      this._startTTSHeartbeat();
     } catch (e) {
       console.warn('Error al iniciar speak:', e);
       this.isTTSPlaying = false;
       this.currentUtterance = null;
+      this._stopTTSHeartbeat();
       if (onStateChange) onStateChange('idle');
     }
   }
 
+  _startTTSHeartbeat() {
+    this._stopTTSHeartbeat();
+    if (typeof window === 'undefined' || !window.speechSynthesis) return;
+    this._ttsHeartbeat = setInterval(() => {
+      if (window.speechSynthesis && window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+        window.speechSynthesis.pause();
+        window.speechSynthesis.resume();
+      }
+    }, 12000);
+  }
+
+  _stopTTSHeartbeat() {
+    if (this._ttsHeartbeat) {
+      clearInterval(this._ttsHeartbeat);
+      this._ttsHeartbeat = null;
+    }
+  }
+
   pauseTTS(onStateChange = null) {
+    this._stopTTSHeartbeat();
     if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis.speaking) {
       try { window.speechSynthesis.pause(); } catch (e) {}
       this.isTTSPlaying = false;
@@ -1388,11 +1475,13 @@ export class SoundService {
       try { window.speechSynthesis.resume(); } catch (e) {}
       this.isTTSPlaying = true;
       this.isTTSPaused = false;
+      this._startTTSHeartbeat();
       if (onStateChange) onStateChange('playing');
     }
   }
 
   stopTTS(onStateChange = null) {
+    this._stopTTSHeartbeat();
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       try { window.speechSynthesis.cancel(); } catch (e) {}
     }

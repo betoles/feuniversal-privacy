@@ -658,6 +658,16 @@ export class MirrorReaderComponent {
             card.scrollIntoView({ behavior: 'smooth', block: 'center' });
           } catch (e) {}
         }
+      } else if (state === 'unavailable') {
+        ttsBtn.innerHTML = `${renderIcon('ui_voice')}<span>${t('sound_audio_btn', lang) || 'Audio'}</span>`;
+        ttsBtn.classList.remove('active-glow-cyan');
+        SacredDialog.toast(t('tts_voice_unavailable', lang) || 'Voz del sistema no disponible en este dispositivo. Acompañando con música sagrada...');
+        if (!isSoundOn) {
+          soundManager.playAmbient(this.currentSound || 'solfeggio_528');
+          if (ambientBtn) ambientBtn.classList.add('active-glow-gold');
+          if (labelAmbientBtn) labelAmbientBtn.innerText = t('stop_sound', lang) || 'Pausar';
+          isSoundOn = true;
+        }
       } else {
         ttsBtn.innerHTML = `${renderIcon('ui_voice')}<span>${t('sound_audio_btn', lang) || 'Audio'}</span>`;
         ttsBtn.classList.remove('active-glow-cyan');
