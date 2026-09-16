@@ -1,10 +1,30 @@
 {
   "metadata": {
     "libroKey": "dhammapada",
-    "titulo": "法句经 (佛陀圣道经典)",
+    "titulo": "法句经 (佛陀圣道经典 · Dhammapada)",
     "totalCapitulos": 26,
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Khuddaka Nikaya (Tipitaka Canónico) · Traducción Ven. Fazun / Xuanzang",
+    "completitud": "100% Exhaustivo · 26 Vaggas Canónicas Íntegras",
+    "idiomasDisponibles": [
+      "es",
+      "en",
+      "de",
+      "fr",
+      "pt",
+      "ru",
+      "zh",
+      "ar",
+      "la",
+      "it",
+      "ja",
+      "sw",
+      "he",
+      "hi",
+      "bn",
+      "ur",
+      "id"
+    ],
     "idioma": "zh",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
@@ -41,7 +61,7 @@
       "textoOriginal": "अप्पमादो अमतपदं पमादो मच्चुनो पदं। अप्पमत्ता न मीयन्ति ये पमत्ता यथा मता॥",
       "foneticaLiturgica": "Appamādo amatapadaṁ pamādo maccuno padaṁ | appamattā na mīyanti ye pamattā yathā matā ||",
       "traducciones": {
-        "zh": "21. 放逸是通往不死之道；疏忽是死亡之道。谨慎者不死；疏忽的人就像死人一样。"
+        "zh": "21. 不放逸是不死道，放逸是死路。不放逸者不死，放逸者如已死。"
       }
     },
     {
@@ -262,7 +282,7 @@
       "textoOriginal": "सुसुखं वत जीवाम वेरिनेसु अवेरिनो। वेरिनेसु मनुस्सेसु विहराम अवेरिनो॥ जयं वेरं पसवति दुक्खं सेति पराजितो। उपसन्तो सुखं सेति हित्वा जयपराजयं॥",
       "foneticaLiturgica": "Susukhaṁ vata jīvāma verinesu averino...",
       "traducciones": {
-        "zh": "197. 我们确实生活得很幸福，敌对之中友善。\n201. 胜利滋生仇恨；失败者生活在痛苦之中。幸福地过着平静的生活，放弃胜利和失败。"
+        "zh": "197. 我们确实生活得很幸福，在仇敌之中没有仇恨；在怨恨之人中间，我们安乐生活。\n201. 胜利滋生仇恨；失败者生活在痛苦之中。幸福地过着平静的生活，放弃胜利和失败。"
       }
     },
     {
@@ -347,7 +367,7 @@
       "textoOriginal": "मग्गानट्ठङ्गिको सेट्ठो सच्चानं चतुरो पदा। विरागो सेट्ठो धम्मानं द्विपदानं च चक्खुमा॥",
       "foneticaLiturgica": "Maggānaṭṭhaṅgiko seṭṭho saccānaṁ caturo padā...",
       "traducciones": {
-        "zh": "273. 道中，八正道为最佳；真理，四言；德行、脱离执着；以及人类，有眼睛能看的人。"
+        "zh": "273. 诸道之中八圣道最佳；诸谛之中四圣谛最佳；诸法之中离欲最佳；具眼人中两足尊（佛陀）最佳。"
       }
     },
     {
@@ -449,7 +469,7 @@
       "textoOriginal": "छिन्न सोतं परक्कम्म कामे पनुद ब्राह्मण। सङ्खारानं खयं ञत्वा अकतञ्ञू सि ब्राह्मण॥ यस्स पारं अपारं वा पारापारं न विज्जति। वीतद्दरं विसंयुत्तं तमहं ब्रूमि ब्राह्मणं॥",
       "foneticaLiturgica": "Chinda sotaṁ parakkamma kāme panuda brāhmaṇa...",
       "traducciones": {
-        "zh": "383. 求知者啊，努力精进，斩断欲望之流！了解有为之物的毁灭，成为了解非受造物的人。\n385. 彼岸彼岸无有，无所畏惧、超脱者，我谓之圣者。"
+        "zh": "383. 求知者啊，努力精进，斩断欲望之流！了解有为之物的毁灭，成为了解非受造物的人。\n385. 无彼岸亦无此岸，无彼岸此岸二者，远离恐惧与系缚者，我称之为圣者。"
       }
     }
   ]

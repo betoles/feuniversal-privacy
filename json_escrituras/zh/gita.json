@@ -1,10 +1,30 @@
 {
   "metadata": {
     "libroKey": "gita",
-    "titulo": "薄伽梵歌 (克里希那之歌)",
+    "titulo": "薄伽梵歌 (克里希那之歌 · Bhagavad Gita)",
     "totalCapitulos": 18,
     "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Mahabharata (Bhishma Parva) · Sánscrito Clásico",
+    "completitud": "100% Exhaustivo · 18 Yogas Canónicos Íntegros",
+    "idiomasDisponibles": [
+      "es",
+      "en",
+      "de",
+      "fr",
+      "pt",
+      "ru",
+      "zh",
+      "ar",
+      "la",
+      "it",
+      "ja",
+      "sw",
+      "he",
+      "hi",
+      "bn",
+      "ur",
+      "id"
+    ],
     "idioma": "zh",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
