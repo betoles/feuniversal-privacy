@@ -3,6 +3,9 @@
     "libroKey": "gospels",
     "titulo": "The Holy Canonical Gospels (Matthew, Mark, Luke, John)",
     "totalCapitulos": 89,
+    "idiomaLiturgicoOriginal": "Griego Koiné (Ἑλληνιστική Κοινή)",
+    "fuenteOficial": "Textus Receptus / Novum Testamentum Graece · King James Version (KJV)",
+    "completitud": "100% Exhaustive · 4 Canonical Gospels Complete (89 Chapters / 3,779 Verses)",
     "idiomasDisponibles": [
       "es",
       "en",
@@ -22,7 +25,6 @@
       "ur",
       "id"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
     "idioma": "en",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
