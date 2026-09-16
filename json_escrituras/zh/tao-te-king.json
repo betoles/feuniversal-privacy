@@ -4,1387 +4,1392 @@
     "titulo": "道德经 (老子五千言 · 道经与德经)",
     "totalCapitulos": 81,
     "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Texto recibido de Wang Bi (王弼本) · 通行本",
+    "version": "4.0.0-canonical-complete",
+    "completitud": "100% Exhaustivo · Texto íntegro en Chino Clásico (81/81 capítulos)",
     "idioma": "zh",
+    "idiomasDisponibles": [
+      "zh"
+    ],
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
   },
   "capitulos": [
     {
       "id": "tao_chapter_1",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 1: El Origen del Cielo y de la Tierra (El Tao Innombrable)",
       "capituloNumero": 1,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-5",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無，欲以觀其妙；常有，欲以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，衆妙之門。",
-      "foneticaLiturgica": "Dào kě dào, fēicháng Dào. Míng kě míng, fēicháng míng. Wúmíng tiāndì zhī shǐ; yǒumíng wànwù zhī mǔ. Gù cháng wú, yù yǐ guān qí miào; cháng yǒu, yù yǐ guān qí jiào...",
+      "foneticaLiturgica": "Dào kě dào， fēi cháng dào。 Míng kě míng， fēi cháng míng。 Wú míng tiān dì zhī shǐ； Yǒu míng wàn wù zhī mǔ。 Gù cháng wú， yù yǐ guān qí miào； Cháng yǒu， yù yǐ guān qí jiǎo。 Cǐ liǎng zhě， tóng chū ér yì míng， tóng wèi zhī xuán。 Xuán zhī yòu xuán， zhòng miào zhī mén。",
       "traducciones": {
-        "zh": "道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無，欲以觀其妙；常有，欲以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，衆妙之門。"
+        "zh": "可以用言语说出的道，就不是恒常之道；可以用名称命名的名，就不是恒常之名。'无'是天地的本始；'有'是万物的根源。所以要常从'无'中观察道的微妙，常从'有'中观察道的端倪。这两者同源而异名，都可称为幽深玄妙。玄妙又玄妙，这正是通向一切奥妙的门户。"
       }
     },
     {
       "id": "tao_chapter_2",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 2: La Dualidad de las Formas y la Práctica del No-Actuar (Wu Wei)",
       "capituloNumero": 2,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作而弗始，生而弗有，為而弗恃，功成而不居。夫唯弗居，是以不去。",
-      "foneticaLiturgica": "Tiānxià jiē zhī měi zhī wéi měi, sī è yǐ. Jiē zhī shàn zhī wéi shàn, sī bùshàn yǐ. Gù yǒu wú xiāng shēng, nán yì xiāng chéng...",
+      "foneticaLiturgica": "Tiān xià jiē zhī měi zhī wèi měi， sī è yǐ。 Jiē zhī shàn zhī wèi shàn， sī bù shàn yǐ。 Gù yǒu wú xiāng shēng， nán yì xiāng chéng， zhǎng duǎn xiāng jiào， gāo xià xiāng qīng， yīn shēng xiāng hé， qián hòu xiāng suí。 Shì yǐ shèng rén chù wú wèi zhī shì， xíng bù yán zhī jiào； Wàn wù zuò ér fú shǐ， shēng ér fú yǒu， wèi ér fú shì， gōng chéng ér bù jū。 Fū wéi fú jū， shì yǐ bù qù。",
       "traducciones": {
-        "zh": "天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作而弗始，生而弗有，為而弗恃，功成而不居。夫唯弗居，是以不去。"
+        "zh": "天下人都知道美之所以为美，丑的观念就产生了；都知道善之所以为善，不善的观念就产生了。所以有和无相互生成，难和易相互促成，长和短相互比较，高和下相互依存，音和声相互应和，前和后相互跟随。因此圣人以无为的态度处事，实行不言的教导；让万物自然兴起而不加干涉，生养万物而不占有，有所作为而不自恃，功成而不自居。正因为不居功，所以功绩不会失去。"
       }
     },
     {
       "id": "tao_chapter_3",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 3: La Quietud Interior y el Gobierno de la Paz",
       "capituloNumero": 3,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使民心不亂。是以聖人之治，虛其心，實其腹，弱其志，強其骨。常使民無知無欲。使夫智者不敢為也。為無為，則無不治。",
-      "foneticaLiturgica": "Bù shàng xián, shǐ mín bù zhēng; bù guì nándé zhī huò, shǐ mín bù wéi dào; bù jiàn kě yù, shǐ mín xīn bù luàn...",
+      "foneticaLiturgica": "Bù shàng xián， shǐ mín bù zhēng； Bù guì nán dé zhī huò， shǐ mín bù wèi dào； Bù jiàn kě yù， shǐ mín xīn bù luàn。 Shì yǐ shèng rén zhī zhì， xū qí xīn， shí qí fù， ruò qí zhì， qiáng qí gǔ。 Cháng shǐ mín wú zhī wú yù。 Shǐ fū zhì zhě bù gǎn wèi yě。 Wèi wú wèi， zé wú bù zhì。",
       "traducciones": {
-        "zh": "不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使民心不亂。是以聖人之治，虛其心，實其腹，弱其志，強其骨。常使民無知無欲。使夫智者不敢為也。為無為，則無不治。"
+        "zh": "不推崇杰出贤能，使民众不起争竞之心；不贵重珍贵财物，使民众不起盗窃之意；不显现可欲的事物，使民众的心不被搅乱。因此圣人治理天下：净化人们的心灵，满足人们的温饱，减损人们的逞强欲望，强健人们的体魄骨骼。常使民众清净纯朴无巧诈之知、无贪妄之欲，使巧诈聪明的人不敢妄作妄为。遵行无为的原则行事，天下就没有不被治理好的。"
       }
     },
     {
       "id": "tao_chapter_4",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 4: El Manantial Inagotable del Tao",
       "capituloNumero": 4,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "道沖，而用之或不盈。淵兮，似萬物之宗；湛兮，似或存。吾不知誰之子，象帝之先。",
-      "foneticaLiturgica": "Dào chōng, ér yòng zhī huò bù yíng. Yuān xī, sì wànwù zhī zōng; cuò qí ruì, jiě qí fēn...",
+      "foneticaLiturgica": "Dào chōng， ér yòng zhī huò bù yíng。 Yuān xī， shì wàn wù zhī zōng； Zhàn xī， shì huò cún。 Wú bù zhī shuí zhī zi， xiàng dì zhī xiān。",
       "traducciones": {
-        "zh": "道沖，而用之或不盈。淵兮，似萬物之宗；湛兮，似或存。吾不知誰之子，象帝之先。"
+        "zh": "道本体空虚无形，但在运用时却无穷无尽。它是如此幽深深邃，好像是万物的宗主。挫去自己的锐气，解开纷繁的纠结，调和自身的光芒，同化于尘世之中。它是如此沉寂幽隐，似亡而实存。我不知道它是从何而产生的，它似乎比天地帝王还要久远。"
       }
     },
     {
       "id": "tao_chapter_5",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 5: El Fuelle Celestial y la Imparcialidad",
       "capituloNumero": 5,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天地不仁，以萬物為芻狗；聖人不仁，以百姓為芻狗。天地之間，其猶橐籥乎？虛而不屈，動而愈出。多言數窮，不如守中。",
-      "foneticaLiturgica": "Tiāndì bù rén, yǐ wànwù wéi chú gǒu; shèngrén bù rén, yǐ bǎixìng wéi chú gǒu...",
+      "foneticaLiturgica": "Tiān dì bù rén， yǐ wàn wù wèi chú gǒu； Shèng rén bù rén， yǐ bǎi xìng wèi chú gǒu。 Tiān dì zhī jiān， qí yóu tuó yuè hū？ Xū ér bù qū， dòng ér yù chū。 Duō yán shù qióng， bù rú shǒu zhōng。",
       "traducciones": {
-        "zh": "天地不仁，以萬物為芻狗；聖人不仁，以百姓為芻狗。天地之間，其猶橐籥乎？虛而不屈，動而愈出。多言數窮，不如守中。"
+        "zh": "天地并不偏私自爱，任凭万物自然生长荣枯，如同对待草木扎成的刍狗；圣人也没有偏私偏爱，任凭民众各遂其生，如同对待刍狗一样自然。天地之间，不就正如一个大风箱吗？虚空而不会穷竭，越鼓动风力越大，生生不息。政令话语繁多反而加速困窘穷途，不如保持内心的虚静守中。"
       }
     },
     {
       "id": "tao_chapter_6",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 6: El Valle Misterioso y la Raíz Inmortal",
       "capituloNumero": 6,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-2",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "谷神不死，是謂玄牝。玄牝之門，是謂天地根。綿綿若存，用之不勤。",
-      "foneticaLiturgica": "Gǔ shén bù sǐ, shì wèi xuán pìn. Xuán pìn zhī mén, shì wèi tiāndì gēn. Miánmián ruò cún...",
+      "foneticaLiturgica": "Gǔ shén bù sǐ， shì wèi xuán pìn。 Xuán pìn zhī mén， shì wèi tiān dì gēn。 Mián mián ruò cún， yòng zhī bù qín。",
       "traducciones": {
-        "zh": "谷神不死，是謂玄牝。玄牝之門，是謂天地根。綿綿若存，用之不勤。"
+        "zh": "生养万物的幽谷之神是永恒不死的，这就是玄妙的母体（玄牝）。玄妙母体的门户，就是天地的根本。它绵延不绝地永存着，运用它时自然从容，无穷无尽。"
       }
     },
     {
       "id": "tao_chapter_7",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 7: La Perennidad del Cielo y el Desinterés del Sabio",
       "capituloNumero": 7,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天長地久。天地所以能長且久者，以其不自生，故能長生。是以聖人後其身而身先；外其身而身存。非以其無私邪？故能成其私。",
-      "foneticaLiturgica": "Tiān cháng dì jiǔ. Tiāndì suǒyǐ néng cháng qiě jiǔ zhě, yǐ qí bù zì shēng, gù néng cháng shēng...",
+      "foneticaLiturgica": "Tiān zhǎng dì jiǔ。 Tiān dì suǒ yǐ néng zhǎng qiě jiǔ zhě， yǐ qí bù zì shēng， gù néng zhǎng shēng。 Shì yǐ shèng rén hòu qí shēn ér shēn xiān； Wài qí shēn ér shēn cún。 Fēi yǐ qí wú sī xié？ Gù néng chéng qí sī。",
       "traducciones": {
-        "zh": "天長地久。天地所以能長且久者，以其不自生，故能長生。是以聖人後其身而身先；外其身而身存。非以其無私邪？故能成其私。"
+        "zh": "天长地久。天地之所以能够长久生存，是因为它不自求生存，所以能够长久生存。因此圣人把自己退在众人之后，反而能赢得众人的敬重；把自身的安危置之度外，自身的生命反而得到保全。这不正是因为他不自私自利吗？所以反而能够成就他的一切。"
       }
     },
     {
       "id": "tao_chapter_8",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 8: La Bondad Suprema como el Agua",
       "capituloNumero": 8,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "上善若水。水善利萬物而不爭，處衆人之所惡，故幾於道。居善地，心善淵，與善仁，言善信，政善治，事善能，動善時。夫唯不爭，故無尤。",
-      "foneticaLiturgica": "Shàng shàn ruò shuǐ. Shuǐ shàn lì wànwù ér bù zhēng, chù zhòngrén zhī suǒ è, gù jǐ yú Dào...",
+      "foneticaLiturgica": "Shàng shàn ruò shuǐ。 Shuǐ shàn lì wàn wù ér bù zhēng， chù zhòng rén zhī suǒ è， gù jǐ yú dào。 Jū shàn dì， xīn shàn yuān， yǔ shàn rén， yán shàn xìn， zhèng shàn zhì， shì shàn néng， dòng shàn shí。 Fū wéi bù zhēng， gù wú yóu。",
       "traducciones": {
-        "zh": "上善若水。水善利萬物而不爭，處衆人之所惡，故幾於道。居善地，心善淵，與善仁，言善信，政善治，事善能，動善時。夫唯不爭，故無尤。"
+        "zh": "最上等的善就像水一样。水善于利益万物而不与万物争竞，处在众人所厌恶的低下之地，所以最接近于道。安居处于谦下之地，居心深沉宁静，与人相处仁厚真诚，说话信实守信，为政治理有条理，处事能发挥所长，行动顺应时机。正因为与世无争，所以不会招致怨咎与过失。"
       }
     },
     {
       "id": "tao_chapter_9",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 9: La Moderación y el Retiro Oportuno",
       "capituloNumero": 9,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "持而盈之，不如其已；揣而銳之，不可長保。金玉滿堂，莫之能守；富貴而驕，自遺其咎。功遂身退，天之道也。",
-      "foneticaLiturgica": "Chí ér yíng zhī, bùrú qí yǐ; chuǎi ér ruì zhī, bùkě cháng bǎo...",
+      "foneticaLiturgica": "Chí ér yíng zhī， bù rú qí yǐ； Chuāi ér ruì zhī， bù kě zhǎng bǎo。 Jīn yù mǎn táng， mò zhī néng shǒu； Fù guì ér jiāo， zì yí qí jiù。 Gōng suì shēn tuì， tiān zhī dào yě。",
       "traducciones": {
-        "zh": "持而盈之，不如其已；揣而銳之，不可長保。金玉滿堂，莫之能守；富貴而驕，自遺其咎。功遂身退，天之道也。"
+        "zh": "持握盛满的水还不如适可而止；锤炼得过于锋利的刀刃，难以保持长久锋利；金玉满堂，没有人能守得住；富贵而骄傲自满，必定给自己招来祸患。功成名遂之后身退隐伏，这才是合乎天道的法则。"
       }
     },
     {
       "id": "tao_chapter_10",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 10: La Unidad del Alma y el Poder de la Virtud Secreta",
       "capituloNumero": 10,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "載營魄抱一，能無離乎？專氣致柔，能如嬰兒乎？滌除玄覽，能無疵乎？愛國治民，能無為乎？天門開闔，能為雌乎？明白四達，能無知乎？生之畜之，生而弗有，為而弗恃，長而弗宰，是謂玄德。",
-      "foneticaLiturgica": "Zǎi yíng pò bào yī, néng wú lí hū? Zhuān qì zhì róu, néng rú yīng'ér hū?...",
+      "foneticaLiturgica": "Zài yíng pò bào yī， néng wú lí hū？ Zhuān qì zhì róu， néng rú yīng ér hū？ Dí chú xuán lǎn， néng wú cī hū？ Ài guó zhì mín， néng wú wèi hū？ Tiān mén kāi hé， néng wèi cí hū？ Míng bái sì dá， néng wú zhī hū？ Shēng zhī chù zhī， shēng ér fú yǒu， wèi ér fú shì， zhǎng ér fú zǎi， shì wèi xuán dé。",
       "traducciones": {
-        "zh": "載營魄抱一，能無離乎？專氣致柔，能如嬰兒乎？滌除玄覽，能無疵乎？愛國治民，能無為乎？天門開闔，能為雌乎？明白四達，能無知乎？生之畜之，生而弗有，為而弗恃，長而弗宰，是謂玄德。"
+        "zh": "精神与肉体合一，能够做到不分离吗？聚结精气达到柔顺，能够像纯洁的婴儿一样吗？洗涤内心玄妙的镜子，能够做到毫无瑕疵吗？爱护百姓治理国家，能够做到顺应无为吗？感官门户开闭之间，能够安守静雌的柔德吗？明白洞达一切事理，能够做到不逞智巧吗？生养万物培育万物，生养了万物而不据为己有，帮助了万物而不自恃有功，统领万物而不主宰支配，这就是最深沉幽玄的品德（玄德）。"
       }
     },
     {
       "id": "tao_chapter_11",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 11: La Utilidad de lo No Existente y el Vacío",
       "capituloNumero": 11,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "三十輻，共一轂，當其無，有車之用。埏埴以為器，當其無，有器之用。鑿戶牖以為室，當其無，有室之用。故有之以為利，無之以為用。",
-      "foneticaLiturgica": "Sānshí fú gòng yī gǔ, dāng qí wú, yǒu chē zhī yòng...",
+      "foneticaLiturgica": "Sān shí fú， gòng yī gǔ， dāng qí wú， yǒu chē zhī yòng。 Shān zhí yǐ wèi qì， dāng qí wú， yǒu qì zhī yòng。 Záo hù yǒu yǐ wèi shì， dāng qí wú， yǒu shì zhī yòng。 Gù yǒu zhī yǐ wèi lì， wú zhī yǐ wèi yòng。",
       "traducciones": {
-        "zh": "三十輻，共一轂，當其無，有車之用。埏埴以為器，當其無，有器之用。鑿戶牖以為室，當其無，有室之用。故有之以為利，無之以為用。"
+        "zh": "三十根辐条汇集在一个车毂上，正因为车毂中间是空虚的，车子才具有运转运载的作用。揉捏黏土烧制成器皿，正因为器皿内部是中空的，器皿才具有盛放物品的作用。开凿门窗建造房屋，正因为房屋内是空荡的，房屋才具有居住出入的作用。所以，'有形'给人带来便利，而'无形'才发挥真正的作用。"
       }
     },
     {
       "id": "tao_chapter_12",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 12: La Moderación de los Sentidos",
       "capituloNumero": 12,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "五色令人目盲；五音令人耳聾；五味令人口爽；馳騁畋獵，令人心發狂；難得之貨，令人行妨。是以聖人為腹不為目，故去彼取此。",
-      "foneticaLiturgica": "Wǔ sè lìng rén mù máng; wǔ yīn lìng rén ěr lóng; wǔ wèi lìng rén kǒu shuǎng...",
+      "foneticaLiturgica": "Wǔ sè lìng rén mù máng； Wǔ yīn lìng rén ěr lóng； Wǔ wèi lìng rén kǒu shuǎng； Chí chěng tián liè， lìng rén xīn fā kuáng； Nán dé zhī huò， lìng rén xíng fáng。 Shì yǐ shèng rén wèi fù bù wèi mù， gù qù bǐ qǔ cǐ。",
       "traducciones": {
-        "zh": "五色令人目盲；五音令人耳聾；五味令人口爽；馳騁畋獵，令人心發狂；難得之貨，令人行妨。是以聖人為腹不為目，故去彼取此。"
+        "zh": "缤纷的五色令人眼花缭乱；杂乱的五音令人听觉迟钝；丰盛的五味令人口味败坏；纵情驰骋打猎令人心发狂躁；难得的珍贵财物令人行为不轨。因此圣人但求温饱充实内在，不追求感官享乐外在的虚华；所以摒弃物欲的诱惑，选取质朴的内在本真。"
       }
     },
     {
       "id": "tao_chapter_13",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 13: La Calma ante el Honor y la Desgracia",
       "capituloNumero": 13,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "寵辱若驚，貴大患若身。何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。何謂貴大患若身？吾所以有大患者，為吾有身，及吾無身，吾有何患？故貴以身為天下，若可寄天下；愛以身為天下，若可託天下。",
-      "foneticaLiturgica": "Chǒng rǔ ruò jīng, guì dà huàn ruò shēn...",
+      "foneticaLiturgica": "Chǒng rǔ ruò jīng， guì dà huàn ruò shēn。 Hé wèi chǒng rǔ ruò jīng？ Chǒng wèi xià， dé zhī ruò jīng， shī zhī ruò jīng， shì wèi chǒng rǔ ruò jīng。 Hé wèi guì dà huàn ruò shēn？ Wú suǒ yǐ yǒu dà huàn zhě， wèi wú yǒu shēn， jí wú wú shēn， wú yǒu hé huàn？ Gù guì yǐ shēn wèi tiān xià， ruò kě jì tiān xià； Ài yǐ shēn wèi tiān xià， ruò kě tuō tiān xià。",
       "traducciones": {
-        "zh": "寵辱若驚，貴大患若身。何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。何謂貴大患若身？吾所以有大患者，為吾有身，及吾無身，吾有何患？故貴以身為天下，若可寄天下；愛以身為天下，若可託天下。"
+        "zh": "受到宠爱或遭受屈辱都感到惊恐不安，把大患看得像自己的身体一样重。什么叫受宠和受辱都惊恐？得宠是下等的，得到宠爱感到惊喜惶恐，失去宠爱也感到惊恐不安，这就叫受宠受辱都惊恐。什么叫把大患看得像自己的身体一样重？我之所以有大祸患，是因为我有这个身体与私心；如果我没有这个私身，我还有什么祸患呢？所以，能够以舍己之身担当天下重任的人，才可以把天下托付给他；能够以爱惜自身之心爱护天下的人，才可以把天下交付于他。"
       }
     },
     {
       "id": "tao_chapter_14",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 14: La Manifestación del Misterio Invisible e Inaudible",
       "capituloNumero": 14,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "視之不見，名曰夷；聽之不聞，名曰希；搏之不得，名曰微。此三者不可致詰，故混而為一。其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，是謂惚恍。迎之不見其首，隨之不見其後。執古之道，以御今之有。能知古始，是謂道紀。",
-      "foneticaLiturgica": "Shì zhī bù jiàn, míng yuē Yí; tīng zhī bù wén, míng yuē Xī; bó zhī bù dé, míng yuē Wēi...",
+      "foneticaLiturgica": "Shì zhī bù jiàn， míng yuē yí； Tīng zhī bù wén， míng yuē xī； Bó zhī bù dé， míng yuē wēi。 Cǐ sān zhě bù kě zhì jié， gù hùn ér wèi yī。 Qí shàng bù jiǎo， qí xià bù mèi。 Shéng shéng bù kě míng， fù guī yú wú wù。 Shì wèi wú zhuàng zhī zhuàng， wú wù zhī xiàng， shì wèi hū huǎng。 Yíng zhī bù jiàn qí shǒu， suí zhī bù jiàn qí hòu。 Zhí gǔ zhī dào， yǐ yù jīn zhī yǒu。 Néng zhī gǔ shǐ， shì wèi dào jì。",
       "traducciones": {
-        "zh": "視之不見，名曰夷；聽之不聞，名曰希；搏之不得，名曰微。此三者不可致詰，故混而為一。其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，是謂惚恍。迎之不見其首，隨之不見其後。執古之道，以御今之有。能知古始，是謂道紀。"
+        "zh": "看它却看不见，名字叫'夷'（无色）；听它却听不见，名字叫'希'（无声）；摸它却摸不着，名字叫'微'（无形）。这三者的玄妙不可穷究探寻，所以混融为一体。它上方并不显得光明，它下方并不显得幽暗。绵延不绝不可名状，又复归于空无一物。这就是没有形状的形状，没有物象的形象，称作恍惚不定。迎着它看不见它的前头，跟着它看不见它的后背。把握亘古以来的大道，来驾驭支配当下的万物，能够了解宇宙古老的始源，这就是大道的规律准则。"
       }
     },
     {
       "id": "tao_chapter_15",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 15: Las Virtudes Prístinas de los Antiguos Maestros",
       "capituloNumero": 15,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "古之善為士者，微妙玄通，深不可識。夫唯不可識，故強為之容：豫兮若冬涉川；猶兮若畏四鄰；儼兮其若客；渙兮若冰之將釋；敦兮其若樸；曠兮其若谷；混兮其若濁；孰能濁以靜之徐清？孰能安以動之徐生？保此道者，不欲盈。夫唯不盈，故能蔽而新成。",
-      "foneticaLiturgica": "Gǔ zhī shàn wéi shì zhě, wēimiào xuántōng, shēn bùkě shí...",
+      "foneticaLiturgica": "Gǔ zhī shàn wèi shì zhě， wēi miào xuán tōng， shēn bù kě shí。 Fū wéi bù kě shí， gù qiáng wèi zhī róng： yù xī ruò dōng shè chuān； Yóu xī ruò wèi sì lín； Yǎn xī qí ruò kè； Huàn xī ruò bīng zhī jiāng shì； Dūn xī qí ruò pǔ； Kuàng xī qí ruò gǔ； Hùn xī qí ruò zhuó； Shú néng zhuó yǐ jìng zhī xú qīng？ Shú néng ān yǐ dòng zhī xú shēng？ Bǎo cǐ dào zhě， bù yù yíng。 Fū wéi bù yíng， gù néng bì ér xīn chéng。",
       "traducciones": {
-        "zh": "古之善為士者，微妙玄通，深不可識。夫唯不可識，故強為之容：豫兮若冬涉川；猶兮若畏四鄰；儼兮其若客；渙兮若冰之將釋；敦兮其若樸；曠兮其若谷；混兮其若濁；孰能濁以靜之徐清？孰能安以動之徐生？保此道者，不欲盈。夫唯不盈，故能蔽而新成。"
+        "zh": "古时善于行道的人，微妙玄通，深邃博大得不可测度。正因为深不可测，所以勉强来形容他们：小心谨慎的样子，如同冬天徒步涉过冰河；警惕戒备的样子，如同防备四邻的窥视；端庄严肃的样子，如同作客受访的宾客；温和涣散的样子，如同冰雪渐渐融化；纯朴敦厚的样子，如同未经雕琢的原木；空旷旷达的样子，如同幽深开阔的山谷；浑厚包容的样子，如同浑浊的水流。谁能在浑浊中安静下来，使浊水慢慢澄清？谁能在长久的安定中徐徐生发，使万物充满生机？保持这种大道的人，不自满盈。正因为不自满盈，所以能隐蔽自身而不急于显露新锐。"
       }
     },
     {
       "id": "tao_chapter_16",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 16: El Retorno a la Raíz y la Quietud Eterna",
       "capituloNumero": 16,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "致虛極，守靜篤。萬物並作，吾以觀復。夫物芸芸，各復歸其根。歸根曰靜，靜曰復命。復命曰常，知常曰明。不知常，妄作凶。知常容，容乃公，公乃全，全乃天，天乃道，道乃久，沒身不殆。",
-      "foneticaLiturgica": "Zhì xū jí, shǒu jìng dǔ. Wànwù bìng zuò, wú yǐ guān fù...",
+      "foneticaLiturgica": "Zhì xū jí， shǒu jìng dǔ。 Wàn wù bìng zuò， wú yǐ guān fù。 Fū wù yún yún， gè fù guī qí gēn。 Guī gēn yuē jìng， jìng yuē fù mìng。 Fù mìng yuē cháng， zhī cháng yuē míng。 Bù zhī cháng， wàng zuò xiōng。 Zhī cháng róng， róng nǎi gōng， gōng nǎi quán， quán nǎi tiān， tiān nǎi dào， dào nǎi jiǔ， méi shēn bù dài。",
       "traducciones": {
-        "zh": "致虛極，守靜篤。萬物並作，吾以觀復。夫物芸芸，各復歸其根。歸根曰靜，靜曰復命。復命曰常，知常曰明。不知常，妄作凶。知常容，容乃公，公乃全，全乃天，天乃道，道乃久，沒身不殆。"
+        "zh": "达到至极的虚空境界，安守宁静的坚定本体。万物蓬勃并作生长，我由此观察它们往复循环的规律。万物纷纷芸芸生长繁茂，最终各自回归到它们的根本。回归根本就叫做静，静就叫做回复本命。回复本命就是恒常的规律。认识恒常规律叫做明智；不认识恒常规律而妄作妄动，必定招致凶险灾祸。认识常道就能包容一切，能包容一切就能公正无私，公正无私就能通达天下，通达天下就能合于天道，合于天道就能合于大道，合于大道就能长久永恒，终身不会遭遇危险。"
       }
     },
     {
       "id": "tao_chapter_17",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 17: El Arte Supremo del Gobierno Invisible",
       "capituloNumero": 17,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "太上，不知有之；其次，親而譽之；其次，畏之；其次，侮之。信不足焉，有不信焉。悠兮其貴言。功成事遂，百姓皆謂：我自然。",
-      "foneticaLiturgica": "Tài shàng, bù zhī yǒu zhī; qícì, qīn ér yù zhī; qícì, wèi zhī; qícì, wǔ zhī...",
+      "foneticaLiturgica": "Tài shàng， bù zhī yǒu zhī； Qí cì， qīn ér yù zhī； Qí cì， wèi zhī； Qí cì， wǔ zhī。 Xìn bù zú yān， yǒu bù xìn yān。 Yōu xī qí guì yán。 Gōng chéng shì suì， bǎi xìng jiē wèi： wǒ zì rán。",
       "traducciones": {
-        "zh": "太上，不知有之；其次，親而譽之；其次，畏之；其次，侮之。信不足焉，有不信焉。悠兮其貴言。功成事遂，百姓皆謂：我自然。"
+        "zh": "最上等的统治者，民众仅仅知道有他的存在而已；其次的统治者，民众亲近他并且赞美他；再次的统治者，民众畏惧他；最下等的统治者，民众轻蔑侮辱他。统治者的诚信不足，民众自然就不会信任他。最高明的统治者悠闲沉静，极少轻易发号施令，当大功告成、事情办妥之时，百姓都说：'我们本来就是自然而然这样的啊！'"
       }
     },
     {
       "id": "tao_chapter_18",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 18: La Decadencia de la Gran Vía y el Artificio",
       "capituloNumero": 18,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-2",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "大道廢，有仁義；智慧出，有大偽；六親不和，有孝慈；國家昏亂，有忠臣。",
-      "foneticaLiturgica": "Dà Dào fèi, yǒu rényì; zhìhuì chū, yǒu dà wěi; liùqīn bù hé, yǒu xiàocí; guójiā hūnluàn, yǒu zhōngchén.",
+      "foneticaLiturgica": "Dà dào fèi， yǒu rén yì； Zhì huì chū， yǒu dà wěi； Liù qīn bù hé， yǒu xiào cí； Guó jiā hūn luàn， yǒu zhōng chén。",
       "traducciones": {
-        "zh": "大道廢，有仁義；智慧出，有大偽；六親不和，有孝慈；國家昏亂，有忠臣。"
+        "zh": "当大道废弃的时候，才提倡所谓的仁义；当智慧巧诈产生的时候，才有大伪大奸的虚饰；当家庭六亲不和睦的时候，才倡导孝顺与慈爱；当国家混乱昏暗的时候，才显现出忠臣的贞节。"
       }
     },
     {
       "id": "tao_chapter_19",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 19: El Retorno a la Sencillez y la Pureza",
       "capituloNumero": 19,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "絕聖棄智，民利百倍；絕仁棄義，民復孝慈；絕巧棄利，盜賊無有。此三者以為文，不足。故令有所屬：見素抱樸，少私寡欲，絕學無憂。",
-      "foneticaLiturgica": "Jué shèng qì zhì, mín lì bǎi bèi; jué rén qì yì, mín fù xiàocí...",
+      "foneticaLiturgica": "Jué shèng qì zhì， mín lì bǎi bèi； Jué rén qì yì， mín fù xiào cí； Jué qiǎo qì lì， dào zéi wú yǒu。 Cǐ sān zhě yǐ wèi wén， bù zú。 Gù lìng yǒu suǒ shǔ： jiàn sù bào pǔ， shǎo sī guǎ yù， jué xué wú yōu。",
       "traducciones": {
-        "zh": "絕聖棄智，民利百倍；絕仁棄義，民復孝慈；絕巧棄利，盜賊無有。此三者以為文，不足。故令有所屬：見素抱樸，少私寡欲，絕學無憂。"
+        "zh": "抛弃所谓的聪明与智巧，百姓得益百倍；抛弃所谓的仁爱与义理，百姓重归孝慈的天性；抛弃巧谋与私利，盗贼盗寇自然绝迹。这三者作为条规法则是远远不够的，所以要让人有所归从：保持纯朴纯真，减少私心与欲望。"
       }
     },
     {
       "id": "tao_chapter_20",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 20: El Sabio en Aparente Soledad y Diferencia",
       "capituloNumero": 20,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "唯之與阿，相去幾何？美之與惡，相去若何？人之所畏，不可不畏。荒兮，其未央哉！衆人熙熙，如享太牢，如春登臺。我獨泊兮，其未兆；沌沌兮，如嬰兒之未孩；儽儽兮，若無所歸。衆人皆有餘，而我獨若遺。我愚人之心也哉！俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮其若海，飂兮若無止。衆人皆有以，而我獨頑且鄙。我獨異於人，而貴食母。",
-      "foneticaLiturgica": "Jué xué wú yōu. Wéi zhī yǔ ē, xiāng qù jǐ hé? Měi zhī yǔ è, xiāng qù ruò hé?...",
+      "foneticaLiturgica": "Wéi zhī yǔ ā， xiāng qù jǐ hé？ Měi zhī yǔ è， xiāng qù ruò hé？ Rén zhī suǒ wèi， bù kě bù wèi。 Huāng xī， qí wèi yāng zāi！ Zhòng rén xī xī， rú xiǎng tài láo， rú chūn dēng tái。 Wǒ dú pō xī， qí wèi zhào； Dùn dùn xī， rú yīng ér zhī wèi hái； Léi léi xī， ruò wú suǒ guī。 Zhòng rén jiē yǒu yú， ér wǒ dú ruò yí。 Wǒ yú rén zhī xīn yě zāi！ Sú rén zhāo zhāo， wǒ dú hūn hūn。 Sú rén chá chá， wǒ dú mèn mèn。 Dàn xī qí ruò hǎi， liù xī ruò wú zhǐ。 Zhòng rén jiē yǒu yǐ， ér wǒ dú wán qiě bǐ。 Wǒ dú yì yú rén， ér guì sì mǔ。",
       "traducciones": {
-        "zh": "唯之與阿，相去幾何？美之與惡，相去若何？人之所畏，不可不畏。荒兮，其未央哉！衆人熙熙，如享太牢，如春登臺。我獨泊兮，其未兆；沌沌兮，如嬰兒之未孩；儽儽兮，若無所歸。衆人皆有餘，而我獨若遺。我愚人之心也哉！俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮其若海，飂兮若無止。衆人皆有以，而我獨頑且鄙。我獨異於人，而貴食母。"
+        "zh": "断绝繁琐浮华的学问，便没有忧愁烦恼。应诺与呵斥，相差有多大？美好与丑恶，相差有多远？众人所畏惧的，我也不能不畏惧，但是这迷茫茫的旷远何时才是尽头啊！众人都兴高采烈欢欣鼓舞，如同参加盛大的宴席，如同春日登上高台远眺。唯独我安闲沉静没有征兆，像一个还不会发笑的婴儿；疲倦漂泊，好像没有归宿之处。众人都富足有余，唯独我好像有所匮乏。我真是一颗愚人之心啊，浑浑噩噩！世人都明明白白清清楚楚，唯独我昏昏沉沉迷迷茫茫；世人都精明能察斤斤计较，唯独我沉默质朴无拘无束。辽阔广大如同汪洋大海，飘飘忽忽好像无所止息。众人都有所作为有所本领，唯独我顽愚笨拙显得鄙陋。我唯独与世人不同，是因为我以得受大道母体的养育为贵。"
       }
     },
     {
       "id": "tao_chapter_21",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 21: El Corazón del Tao y la Esencia Verdadera",
       "capituloNumero": 21,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "孔德之容，唯道是從。道之為物，唯恍唯惚。惚兮恍兮，其中有象；恍兮惚兮，其中有物。窈兮冥兮，其中有精；其精甚真，其中有信。自古及今，其名不去，以閱衆甫。吾何以知衆甫之狀哉？以此。",
-      "foneticaLiturgica": "Kǒng dé zhī róng, wéi Dào shì cóng. Dào zhī wéi wù, wéi huǎng wéi hū...",
+      "foneticaLiturgica": "Kǒng dé zhī róng， wéi dào shì cóng。 Dào zhī wèi wù， wéi huǎng wéi hū。 Hū xī huǎng xī， qí zhōng yǒu xiàng； Huǎng xī hū xī， qí zhōng yǒu wù。 Yǎo xī míng xī， qí zhōng yǒu jīng； Qí jīng shèn zhēn， qí zhōng yǒu xìn。 Zì gǔ jí jīn， qí míng bù qù， yǐ yuè zhòng fǔ。 Wú hé yǐ zhī zhòng fǔ zhī zhuàng zāi？ Yǐ cǐ。",
       "traducciones": {
-        "zh": "孔德之容，唯道是從。道之為物，唯恍唯惚。惚兮恍兮，其中有象；恍兮惚兮，其中有物。窈兮冥兮，其中有精；其精甚真，其中有信。自古及今，其名不去，以閱衆甫。吾何以知衆甫之狀哉？以此。"
+        "zh": "大德所显现的容貌风范，完全顺从于大道。道作为存在之物，唯独是恍恍惚惚、若隐若现的。恍惚之中，却有实在的形象；恍惚之中，却有实在的物象。幽暗深邃之中，却蕴涵着精纯的本质；这种精纯极其真切，其中蕴藏着无可置疑的信验。从古至今，它的名字从未消逝，由此来统领观察万物的开端。我凭借什么了解万物的始源呢？正是凭借着大道本身。"
       }
     },
     {
       "id": "tao_chapter_22",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 22: La Plenitud en la Humildad y la Entrega",
       "capituloNumero": 22,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。是以聖人抱一為天下式。不自見，故明；不自是，故彰；不自伐，故有功；不自矜，故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。",
-      "foneticaLiturgica": "Qū zé quán, wǎng zé zhí, wā zé yíng, bì zé xīn...",
+      "foneticaLiturgica": "Qū zé quán， wǎng zé zhí， wā zé yíng， bì zé xīn， shǎo zé dé， duō zé huò。 Shì yǐ shèng rén bào yī wèi tiān xià shì。 Bù zì jiàn， gù míng； Bù zì shì， gù zhāng； Bù zì fá， gù yǒu gōng； Bù zì jīn， gù zhǎng。 Fū wéi bù zhēng， gù tiān xià mò néng yǔ zhī zhēng。 Gǔ zhī suǒ wèi qū zé quán zhě， qǐ xū yán zāi！ Chéng quán ér guī zhī。",
       "traducciones": {
-        "zh": "曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。是以聖人抱一為天下式。不自見，故明；不自是，故彰；不自伐，故有功；不自矜，故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。"
+        "zh": "受委屈反得保全，弯曲反得伸直，低下凹陷反得充盈，敝旧陈残反得更新，少取反得富足，贪多反而迷惑。因此圣人执守大道作为天下的准则：不自我显露，所以明澈昭彰；不自以为是，所以是非分明；不自我夸耀，所以功勋卓越；不自我骄傲，所以能长久居长。正因为不与人争，所以天下没有人能与他相争。古人所说的'委曲求全'，难道是虚妄的话吗？它是实实在在能够全归于你的真理啊！"
       }
     },
     {
       "id": "tao_chapter_23",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 23: La Moderación en las Palabras y la Unión con el Tao",
       "capituloNumero": 23,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "希言自然。故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？故從事於道者，同於道；德者，同於德；失者，同於失。同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。信不足焉，有不信焉。",
-      "foneticaLiturgica": "Xī yán zìrán. Gù piāofēng bù zhōng zhāo, zhòuyǔ bù zhōng rì...",
+      "foneticaLiturgica": "Xī yán zì rán。 Gù piāo fēng bù zhōng cháo， zhòu yǔ bù zhōng rì。 Shú wèi cǐ zhě？ Tiān dì。 Tiān dì shàng bù néng jiǔ， ér kuàng yú rén hū？ Gù cóng shì yú dào zhě， tóng yú dào； Dé zhě， tóng yú dé； Shī zhě， tóng yú shī。 Tóng yú dào zhě， dào yì lè dé zhī； Tóng yú dé zhě， dé yì lè dé zhī； Tóng yú shī zhě， shī yì lè dé zhī。 Xìn bù zú yān， yǒu bù xìn yān。",
       "traducciones": {
-        "zh": "希言自然。故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？故從事於道者，同於道；德者，同於德；失者，同於失。同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。信不足焉，有不信焉。"
+        "zh": "少发号施令才是符合自然的。狂风刮不了一个早晨，暴雨下不了一整天。是谁造成风雨的呢？是天地。天地尚且不能使狂暴持久，何况于人呢？所以从事于道的人，同化于道；从事于德的人，同化于德；从事于失道的人，同化于失道。同化于道的人，道乐于接纳他；同化于德的人，德乐于接纳他；同化于失道的人，失道也乐于接纳他。自身的诚信不足，别人就不会信任你。"
       }
     },
     {
       "id": "tao_chapter_24",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 24: La Vana Ostentación y el Orgullo Inútil",
       "capituloNumero": 24,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "企者不立；跨者不行；自見者不明；自是者不彰；自伐者無功；自矜者不長。其在道也，曰：餘食贅形。物或惡之，故有道者不處。",
-      "foneticaLiturgica": "Qǐ zhě bù lì; kuà zhě bù xíng; zì jiàn zhě bù míng...",
+      "foneticaLiturgica": "Qǐ zhě bù lì； Kuà zhě bù xíng； Zì jiàn zhě bù míng； Zì shì zhě bù zhāng； Zì fá zhě wú gōng； Zì jīn zhě bù zhǎng。 Qí zài dào yě， yuē： yú shí zhuì xíng。 Wù huò è zhī， gù yǒu dào zhě bù chù。",
       "traducciones": {
-        "zh": "企者不立；跨者不行；自見者不明；自是者不彰；自伐者無功；自矜者不長。其在道也，曰：餘食贅形。物或惡之，故有道者不處。"
+        "zh": "踮起脚尖想站得高，反而站立不稳；跨开大步想要快走，反而走不长远；自我显露张扬的人，反而得不到彰显；自以为是的人，反而无法明辨是非；自我夸耀的人，反而没有功劳；自我骄纵自满的人，反而不能长久。用大道的眼光来看，这些行为就像吃剩下的残羹赘瘤，令人厌恶。所以体悟大道的人不这样做。"
       }
     },
     {
       "id": "tao_chapter_25",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 25: La Grandeza del Cosmos y la Matriz Primordial",
       "capituloNumero": 25,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "有物混成，先天地生。寂兮寥兮，獨立而不改，周行而不殆，可以為天地母。吾不知其名，強字之曰道，強為之名曰大。大曰逝，逝曰遠，遠曰反。故道大，天大，地大，人亦大。域中有四大，而人居其一焉。人法地，地法天，天法道，道法自然。",
-      "foneticaLiturgica": "Yǒu wù hùnchéng, xiān tiāndì shēng. Jì xī liáo xī, dúlì ér bù gǎi...",
+      "foneticaLiturgica": "Yǒu wù hùn chéng， xiān tiān dì shēng。 Jì xī liáo xī， dú lì ér bù gǎi， zhōu xíng ér bù dài， kě yǐ wèi tiān dì mǔ。 Wú bù zhī qí míng， qiáng zì zhī yuē dào， qiáng wèi zhī míng yuē dà。 Dà yuē shì， shì yuē yuǎn， yuǎn yuē fǎn。 Gù dào dà， tiān dà， dì dà， rén yì dà。 Yù zhōng yǒu sì dà， ér rén jū qí yī yān。 Rén fǎ dì， dì fǎ tiān， tiān fǎ dào， dào fǎ zì rán。",
       "traducciones": {
-        "zh": "有物混成，先天地生。寂兮寥兮，獨立而不改，周行而不殆，可以為天地母。吾不知其名，強字之曰道，強為之名曰大。大曰逝，逝曰遠，遠曰反。故道大，天大，地大，人亦大。域中有四大，而人居其一焉。人法地，地法天，天法道，道法自然。"
+        "zh": "有一个浑然一体的存在，先于天地而诞生。寂静无声，广阔空虚，独立长存而不改变，周流运行而不停息，可以作为天下万物的母体。我不知道它的名字，勉强称它为'道'，再勉强给它起个名字叫'大'。大就意味着周流运转，周流运转就意味着辽远无极，辽远无极就意味着循环往复。所以道广大，天广大，地广大，人（王）也广大。宇宙间有四大，而人（王）居其中之一。人效法大地，大地效法上天，上天效法大道，大道效法自然。"
       }
     },
     {
       "id": "tao_chapter_26",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 26: La Gravedad como Raíz de la Ligereza",
       "capituloNumero": 26,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "重為輕根，靜為躁君。是以君子終日行不離輜重。雖有榮觀，燕處超然。奈何萬乘之主，而以身輕天下？輕則失根，躁則失君。",
-      "foneticaLiturgica": "Dàodéjīng Dì 26 Zhāng...",
+      "foneticaLiturgica": "Zhòng wèi qīng gēn， jìng wèi zào jūn。 Shì yǐ jūn zǐ zhōng rì xíng bù lí zī zhòng。 Suī yǒu róng guān， yàn chù chāo rán。 Nài hé wàn chéng zhī zhǔ， ér yǐ shēn qīng tiān xià？ Qīng zé shī gēn， zào zé shī jūn。",
       "traducciones": {
-        "zh": "重為輕根，靜為躁君。是以君子終日行不離輜重。雖有榮觀，燕處超然。奈何萬乘之主，而以身輕天下？輕則失根，躁則失君。"
+        "zh": "厚重是轻率的根基，宁静是躁动的主宰。因此君子整天行走，不离开载有重物的车队行李。虽然身处荣华安乐的环境，却安然自处超然物外。为什么万乘大国之君主，却以轻率的态度来对待天下呢？轻率就会失去根本，躁动就会失去君主的威严与统御。"
       }
     },
     {
       "id": "tao_chapter_27",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 27: La Destreza Sublime sin Dejar Huella",
       "capituloNumero": 27,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "善行無轍跡，善言無瑕謫；善數不用籌策；善閉無關楗而不可開，善結無繩約而不可解。是以聖人常善救人，故無棄人；常善救物，故無棄物。是謂襲明。故善人者，不善人之師；不善人者，善人之資。不貴其師，不愛其資，雖智大迷，是謂要妙。",
-      "foneticaLiturgica": "Dàodéjīng Dì 27 Zhāng...",
+      "foneticaLiturgica": "Shàn xíng wú zhé jī， shàn yán wú xiá zhé； Shàn shù bù yòng chóu cè； Shàn bì wú guān jiàn ér bù kě kāi， shàn jié wú shéng yuē ér bù kě jiě。 Shì yǐ shèng rén cháng shàn jiù rén， gù wú qì rén； Cháng shàn jiù wù， gù wú qì wù。 Shì wèi xí míng。 Gù shàn rén zhě， bù shàn rén zhī shī； Bù shàn rén zhě， shàn rén zhī zī。 Bù guì qí shī， bù ài qí zī， suī zhì dà mí， shì wèi yào miào。",
       "traducciones": {
-        "zh": "善行無轍跡，善言無瑕謫；善數不用籌策；善閉無關楗而不可開，善結無繩約而不可解。是以聖人常善救人，故無棄人；常善救物，故無棄物。是謂襲明。故善人者，不善人之師；不善人者，善人之資。不貴其師，不愛其資，雖智大迷，是謂要妙。"
+        "zh": "善于行走的人，不留车辙足迹；善于言辞的人，没有差错瑕疵；善于计算的人，不用筹码算盘；善于关闭的人，不用门闩插销却无人能开启；善于捆缚的人，不用绳索绳结却无人能解开。因此圣人始终善于拯救扶助人，所以没有被遗弃的人；始终善于保全利用物，所以没有被遗弃的物。这叫做内藏的智慧与洞察。所以善人是不善之人的老师，不善之人是善人的资鉴。如果不尊重老师，不爱惜资鉴，即便自以为聪明，也是大大的糊涂。这就是极其奥妙精微的要旨。"
       }
     },
     {
       "id": "tao_chapter_28",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 28: Retornar a la Condición del Infante y del Valle",
       "capituloNumero": 28,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "知其雄，守其雌，為天下谿。為天下谿，恆德不離，復歸於嬰兒。知其白，守其黑，為天下式。為天下式，恆德不忒，復歸於無極。知其榮，守其辱，為天下谷。為天下谷，恆德乃足，復歸於樸。樸散則為器，聖人用之，則為官長，故大制不割。",
-      "foneticaLiturgica": "Dàodéjīng Dì 28 Zhāng...",
+      "foneticaLiturgica": "Zhī qí xióng， shǒu qí cí， wèi tiān xià xī。 Wèi tiān xià xī， héng dé bù lí， fù guī yú yīng ér。 Zhī qí bái， shǒu qí hēi， wèi tiān xià shì。 Wèi tiān xià shì， héng dé bù tè， fù guī yú wú jí。 Zhī qí róng， shǒu qí rǔ， wèi tiān xià gǔ。 Wèi tiān xià gǔ， héng dé nǎi zú， fù guī yú pǔ。 Pǔ sàn zé wèi qì， shèng rén yòng zhī， zé wèi guān zhǎng， gù dà zhì bù gē。",
       "traducciones": {
-        "zh": "知其雄，守其雌，為天下谿。為天下谿，恆德不離，復歸於嬰兒。知其白，守其黑，為天下式。為天下式，恆德不忒，復歸於無極。知其榮，守其辱，為天下谷。為天下谷，恆德乃足，復歸於樸。樸散則為器，聖人用之，則為官長，故大制不割。"
+        "zh": "深知雄健阳刚，却甘守雌柔谦逊，甘作天下的深谷溪流。作天下的溪流，永恒的常德就不会离散，回复到婴儿般纯洁的纯真状态。深知洁白光明，却甘守幽暗暗昧，甘作天下的楷模。作天下的楷模，永恒的常德就不会出现差错，回复到无极的玄远之境。深知尊荣显贵，却甘守卑微屈辱，甘作天下的低谷。作天下的低谷，永恒的常德才充沛丰盈，回复到未经雕琢的原木（朴）状态。纯朴的原木分散开来，就制作成各种器物；圣人运用原木的纯朴，就能成为百官的统领。所以最完美的制度格局是不加割裂造作的。"
       }
     },
     {
       "id": "tao_chapter_29",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 29: El Cuidado Sagrado del Universo sin Tratar de Forzarlo",
       "capituloNumero": 29,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "將欲取天下而為之，吾見其不得已。天下神器，不可為也，不可執也。為者敗之，執者失之。是以聖人無為，故無敗；無執，故無失。夫物或行或隨；或噓或吹；或強或羸；或載或隳。是以聖人去甚，去奢，去泰。",
-      "foneticaLiturgica": "Dàodéjīng Dì 29 Zhāng...",
+      "foneticaLiturgica": "Jiāng yù qǔ tiān xià ér wèi zhī， wú jiàn qí bù dé yǐ。 Tiān xià shén qì， bù kě wèi yě， bù kě zhí yě。 Wèi zhě bài zhī， zhí zhě shī zhī。 Shì yǐ shèng rén wú wèi， gù wú bài； Wú zhí， gù wú shī。 Fū wù huò xíng huò suí； Huò xū huò chuī； Huò qiáng huò léi； Huò zài huò huī。 Shì yǐ shèng rén qù shèn， qù shē， qù tài。",
       "traducciones": {
-        "zh": "將欲取天下而為之，吾見其不得已。天下神器，不可為也，不可執也。為者敗之，執者失之。是以聖人無為，故無敗；無執，故無失。夫物或行或隨；或噓或吹；或強或羸；或載或隳。是以聖人去甚，去奢，去泰。"
+        "zh": "想要夺取天下而强行加以治理作为的，我看他达不到目的。天下是神圣之物，不能强行治理把持。强作胡为的必定败亡，紧抓把持的必定失去。所以万物有的前行，有的后随；有的轻吹，有的急喘；有的强壮，有的衰弱；有的安稳，有的倾危。因此圣人摒弃过分、奢华和骄纵极端的行为。"
       }
     },
     {
       "id": "tao_chapter_30",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 30: La Advertencia contra el Uso de la Fuerza y la Violencia",
       "capituloNumero": 30,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "以道佐人主者，不以兵強天下。其事好還。師之所處，荊棘生焉。大軍之後，必有兇年。善有果而已，不敢以取強。果而勿矜，果而勿伐，果而勿驕。果而不得已，果而勿強。物壯則老，是謂不道，不道早已。",
-      "foneticaLiturgica": "Dàodéjīng Dì 30 Zhāng...",
+      "foneticaLiturgica": "Yǐ dào zuǒ rén zhǔ zhě， bù yǐ bīng qiáng tiān xià。 Qí shì hǎo hái。 Shī zhī suǒ chù， jīng jí shēng yān。 Dà jūn zhī hòu， bì yǒu xiōng nián。 Shàn yǒu guǒ ér yǐ， bù gǎn yǐ qǔ qiáng。 Guǒ ér wù jīn， guǒ ér wù fá， guǒ ér wù jiāo。 Guǒ ér bù dé yǐ， guǒ ér wù qiáng。 Wù zhuàng zé lǎo， shì wèi bù dào， bù dào zǎo yǐ。",
       "traducciones": {
-        "zh": "以道佐人主者，不以兵強天下。其事好還。師之所處，荊棘生焉。大軍之後，必有兇年。善有果而已，不敢以取強。果而勿矜，果而勿伐，果而勿驕。果而不得已，果而勿強。物壯則老，是謂不道，不道早已。"
+        "zh": "以大道辅佐君主的人，不用武力兵刃在天下逞强争霸。用兵动武这件事容易招致反噬报复。军队驻扎过的地方，必定长满荆棘野草；大战之后，必定伴随着荒年灾馑。善于用兵的人只求达到救危的目的即可，不敢用武力来逞强霸凌。达成了目的而不自我夸耀，达成了目的而不自我夸功，达成了目的而不骄傲自满，达成了目的而只是出于不得已，达成了目的而不逞强施暴。事物过于强壮刚烈就会走向衰老，这叫作违背大道，违背大道必定迅速消亡。"
       }
     },
     {
       "id": "tao_chapter_31",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 31: Las Armas como Instrumentos de Desgracia",
       "capituloNumero": 31,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "夫佳兵者，不祥之器，物或惡之，故有道者不處。君子居則貴左，用兵則貴右。兵者不祥之器，非君子之器，不得已而用之，恬淡為上。勝而不美，而美之者，是樂殺人。夫樂殺人者，則不可得志於天下矣。吉事尚左，凶事尚右。偏將軍居左，上將軍居右，言以喪禮處之。殺人之衆，以悲哀泣之，戰勝以喪禮處之。",
-      "foneticaLiturgica": "Dàodéjīng Dì 31 Zhāng...",
+      "foneticaLiturgica": "Fū jiā bīng zhě， bù xiáng zhī qì， wù huò è zhī， gù yǒu dào zhě bù chù。 Jūn zǐ jū zé guì zuǒ， yòng bīng zé guì yòu。 Bīng zhě bù xiáng zhī qì， fēi jūn zǐ zhī qì， bù dé yǐ ér yòng zhī， tián dàn wèi shàng。 Shèng ér bù měi， ér měi zhī zhě， shì lè shā rén。 Fū lè shā rén zhě， zé bù kě dé zhì yú tiān xià yǐ。 Jí shì shàng zuǒ， xiōng shì shàng yòu。 Piān jiāng jūn jū zuǒ， shàng jiāng jūn jū yòu， yán yǐ sàng lǐ chù zhī。 Shā rén zhī zhòng， yǐ bēi āi qì zhī， zhàn shèng yǐ sàng lǐ chù zhī。",
       "traducciones": {
-        "zh": "夫佳兵者，不祥之器，物或惡之，故有道者不處。君子居則貴左，用兵則貴右。兵者不祥之器，非君子之器，不得已而用之，恬淡為上。勝而不美，而美之者，是樂殺人。夫樂殺人者，則不可得志於天下矣。吉事尚左，凶事尚右。偏將軍居左，上將軍居右，言以喪禮處之。殺人之衆，以悲哀泣之，戰勝以喪禮處之。"
+        "zh": "兵器利刃是不吉祥的器具，万物都厌恶它，所以有道的人不崇尚使用它。君子平时以左方为尊贵，用兵作战时则以右方为尊贵。兵器是不吉祥的器物，不是君子所使用的器具；到了迫不得已而使用它的时候，以恬淡克制为上策。即使取得了胜利也不要自我炫耀。自我炫耀的人，就是以杀人为乐。凡是喜欢杀人的人，绝不可能在天下得志。吉庆的事情以左方为上，凶丧的事情以右方为上。偏将军居于左边，上将军居于右边，这是说以处理丧礼的礼仪来对待战争。杀伤了众多的人民，应当以哀痛悲伤的心情来悼念他们；取得了战争的胜利，也要以丧礼的仪式来面对。"
       }
     },
     {
       "id": "tao_chapter_32",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 32: El Tao Innombrable y el Rocío Dulce de la Paz",
       "capituloNumero": 32,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "道常無名、樸。雖小，天下莫能臣。侯王若能守之，萬物將自賓。天地相合，以降甘露，民莫之令而自均。始制有名，名亦既有，夫亦將知止，知止所以不殆。譬道之在天下，猶川谷之於江海。",
-      "foneticaLiturgica": "Dàodéjīng Dì 32 Zhāng...",
+      "foneticaLiturgica": "Dào cháng wú míng、 pǔ。 Suī xiǎo， tiān xià mò néng chén。 Hóu wáng ruò néng shǒu zhī， wàn wù jiāng zì bīn。 Tiān dì xiāng hé， yǐ jiàng gān lù， mín mò zhī lìng ér zì jūn。 Shǐ zhì yǒu míng， míng yì jì yǒu， fū yì jiāng zhī zhǐ， zhī zhǐ suǒ yǐ bù dài。 Pì dào zhī zài tiān xià， yóu chuān gǔ zhī yú jiāng hǎi。",
       "traducciones": {
-        "zh": "道常無名、樸。雖小，天下莫能臣。侯王若能守之，萬物將自賓。天地相合，以降甘露，民莫之令而自均。始制有名，名亦既有，夫亦將知止，知止所以不殆。譬道之在天下，猶川谷之於江海。"
+        "zh": "道恒常无名，虽然质朴微小，天下没有人能够臣服支配它。侯王如果能坚守住它，万物都会自然归顺服从。天地阴阳之气相合，降下甘露，不用人们命令干预而自然平均洒向大地。万物开始产生就有了名称制度，名称制度既然已经确立，就应当懂得适可而止。懂得适可而止，就可以免除危险。大道存在于天下，就像小溪江河归流于大海一样。"
       }
     },
     {
       "id": "tao_chapter_33",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 33: El Autoconocimiento y la Verdadera Fuerza Interior",
       "capituloNumero": 33,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "知人者智，自知者明。勝人者有力，自勝者強。知足者富。強行者有志。不失其所者久。死而不亡者壽。",
-      "foneticaLiturgica": "Dàodéjīng Dì 33 Zhāng...",
+      "foneticaLiturgica": "Zhī rén zhě zhì， zì zhī zhě míng。 Shèng rén zhě yǒu lì， zì shèng zhě qiáng。 Zhī zú zhě fù。 Qiáng xíng zhě yǒu zhì。 Bù shī qí suǒ zhě jiǔ。 Sǐ ér bù wáng zhě shòu。",
       "traducciones": {
-        "zh": "知人者智，自知者明。勝人者有力，自勝者強。知足者富。強行者有志。不失其所者久。死而不亡者壽。"
+        "zh": "能了解认识别人的人是有智慧的，能真正认识自己的人才是真正的明智。能战胜克服别人的人是有力量的，能战胜克服自己的人才是真正的刚强。懂得自我满足知足的人是富足的，坚持不懈力行实践的人是有志向的。不丧失根本之道的人能够长久，肉体虽死而精神永存不朽的人才是真正的长寿。"
       }
     },
     {
       "id": "tao_chapter_34",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 34: La Grandeza del Tao que Nutre a Todos sin Dominar",
       "capituloNumero": 34,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "大道氾兮，其可左右。萬物恃之以生而弗辭，功成而不名有。衣養萬物而弗為主，常無欲，可名於小；萬物歸焉而弗為主，可名為大。以其終不自為大，故能成其大。",
-      "foneticaLiturgica": "Dàodéjīng Dì 34 Zhāng...",
+      "foneticaLiturgica": "Dà dào fàn xī， qí kě zuǒ yòu。 Wàn wù shì zhī yǐ shēng ér fú cí， gōng chéng ér bù míng yǒu。 Yī yǎng wàn wù ér fú wèi zhǔ， cháng wú yù， kě míng yú xiǎo； Wàn wù guī yān ér fú wèi zhǔ， kě míng wèi dà。 Yǐ qí zhōng bù zì wèi dà， gù néng chéng qí dà。",
       "traducciones": {
-        "zh": "大道氾兮，其可左右。萬物恃之以生而弗辭，功成而不名有。衣養萬物而弗為主，常無欲，可名於小；萬物歸焉而弗為主，可名為大。以其終不自為大，故能成其大。"
+        "zh": "广大无边的大道，向四面八方流布充溢，可左可右无所不至。万物依赖它生长繁衍而它从不辞谢推脱，大功告成了它却不占有声名。它滋养润泽万物而不以主宰者自居，始终没有私欲，可以称它为'微小'；万物归附于它而它不居于主宰之位，可以称它为'伟大'。正因为圣人始终不自以为伟大，所以才能够成就真正的伟大。"
       }
     },
     {
       "id": "tao_chapter_35",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 35: La Gran Imagen de Paz que Atrae al Mundo",
       "capituloNumero": 35,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "執大象，天下往。往而不害，安平太。樂與餌，過客止。道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。",
-      "foneticaLiturgica": "Dàodéjīng Dì 35 Zhāng...",
+      "foneticaLiturgica": "Zhí dà xiàng， tiān xià wǎng。 Wǎng ér bù hài， ān píng tài。 Lè yǔ ěr， guò kè zhǐ。 Dào zhī chū kǒu， dàn hū qí wú wèi， shì zhī bù zú jiàn， tīng zhī bù zú wén， yòng zhī bù zú jì。",
       "traducciones": {
-        "zh": "執大象，天下往。往而不害，安平太。樂與餌，過客止。道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。"
+        "zh": "执守着大道的崇高形象，天下人都会前来归附。前来归附而不受伤害，反而安居乐业泰平祥和。丰盛的乐曲与美食，能使过路的行人驻足流连；而道说出来的话语，却平淡无味。看它看不见，听它听不到，而运用它却无穷无尽。"
       }
     },
     {
       "id": "tao_chapter_36",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 36: La Transformación Sutil: Lo Débil Vence a lo Fuerte",
       "capituloNumero": 36,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "將欲歙之，必固張之；將欲弱之，必固強之；將欲廢之，必固興之；將欲取之，必固與之。是謂微明。柔弱勝剛強。魚不可脫於淵，國之利器不可以示人。",
-      "foneticaLiturgica": "Dàodéjīng Dì 36 Zhāng...",
+      "foneticaLiturgica": "Jiāng yù shè zhī， bì gù zhāng zhī； Jiāng yù ruò zhī， bì gù qiáng zhī； Jiāng yù fèi zhī， bì gù xìng zhī； Jiāng yù qǔ zhī， bì gù yǔ zhī。 Shì wèi wēi míng。 Róu ruò shèng gāng qiáng。 Yú bù kě tuō yú yuān， guó zhī lì qì bù kě yǐ shì rén。",
       "traducciones": {
-        "zh": "將欲歙之，必固張之；將欲弱之，必固強之；將欲廢之，必固興之；將欲取之，必固與之。是謂微明。柔弱勝剛強。魚不可脫於淵，國之利器不可以示人。"
+        "zh": "想要收敛它的，必先暂且扩张它；想要削弱它的，必先暂且增强它；想要废弃它的，必先暂且兴举它；想要夺取它的，必先暂且给予它。这叫做幽微精妙的明识洞察。柔弱胜过刚强。鱼不能脱离深水潭渊，国家的锋利权柄不可轻易显露向人炫耀。"
       }
     },
     {
       "id": "tao_chapter_37",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 37: El No-Hacer que Todo lo Transforma en Armonía",
       "capituloNumero": 37,
       "seccion": "Daojing · El Libro de la Vía",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "道常無為而無不為。侯王若能守之，萬物將自化。化而欲作，吾將鎮之以無名之樸。鎮之以無名之樸，夫亦將無欲。不欲以靜，天下將自定。",
-      "foneticaLiturgica": "Dàodéjīng Dì 37 Zhāng...",
+      "foneticaLiturgica": "Dào cháng wú wèi ér wú bù wèi。 Hóu wáng ruò néng shǒu zhī， wàn wù jiāng zì huà。 Huà ér yù zuò， wú jiāng zhèn zhī yǐ wú míng zhī pǔ。 Zhèn zhī yǐ wú míng zhī pǔ， fū yì jiāng wú yù。 Bù yù yǐ jìng， tiān xià jiāng zì dìng。",
       "traducciones": {
-        "zh": "道常無為而無不為。侯王若能守之，萬物將自化。化而欲作，吾將鎮之以無名之樸。鎮之以無名之樸，夫亦將無欲。不欲以靜，天下將自定。"
+        "zh": "道恒常顺应自然无所作为，而没有任何事情不是自然生成的。侯王如果能够坚守住它，万物都会自然化育生长。化育生长过程中如果产生贪欲妄动，我将用无名的原始质朴（朴）来镇抚平息它。以无名的质朴平息私欲，民众就不会贪妄争竞；不贪妄争竞而达到清静宁定，天下就会自然归于平正安宁。"
       }
     },
     {
       "id": "tao_chapter_38",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 38: La Virtud Superior y el Desprendimiento",
       "capituloNumero": 38,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "上德不德，是以有德；下德不失德，是以無德。上德無為而無以為；下德無為而有以為。上仁為之而無以為；上義為之而有以為。上禮為之而莫之應，則攘臂而扔之。故失道而後德，失德而後仁，失仁而後義，失義而後禮。夫禮者，忠信之薄，而亂之首。前識者，道之華，而愚之始。是以大丈夫處其厚，不居其薄；處其實，不居其華。故去彼取此。",
-      "foneticaLiturgica": "Dàodéjīng Dì 38 Zhāng...",
+      "foneticaLiturgica": "Shàng dé bù dé， shì yǐ yǒu dé； Xià dé bù shī dé， shì yǐ wú dé。 Shàng dé wú wèi ér wú yǐ wèi； Xià dé wú wèi ér yǒu yǐ wèi。 Shàng rén wèi zhī ér wú yǐ wèi； Shàng yì wèi zhī ér yǒu yǐ wèi。 Shàng lǐ wèi zhī ér mò zhī yīng， zé rǎng bì ér rēng zhī。 Gù shī dào ér hòu dé， shī dé ér hòu rén， shī rén ér hòu yì， shī yì ér hòu lǐ。 Fū lǐ zhě， zhōng xìn zhī báo， ér luàn zhī shǒu。 Qián shí zhě， dào zhī huá， ér yú zhī shǐ。 Shì yǐ dà zhàng fū chù qí hòu， bù jū qí báo； Chù qí shí， bù jū qí huá。 Gù qù bǐ qǔ cǐ。",
       "traducciones": {
-        "zh": "上德不德，是以有德；下德不失德，是以無德。上德無為而無以為；下德無為而有以為。上仁為之而無以為；上義為之而有以為。上禮為之而莫之應，則攘臂而扔之。故失道而後德，失德而後仁，失仁而後義，失義而後禮。夫禮者，忠信之薄，而亂之首。前識者，道之華，而愚之始。是以大丈夫處其厚，不居其薄；處其實，不居其華。故去彼取此。"
+        "zh": "上等之德的人不刻意表现其德，所以真正拥有大德；下等之德的人死守其德不放，所以没有真正的大德。上德之人顺应无为而无所图谋；下德之人刻意有所作为而怀有私图。上仁之人有所作为却出于自然无私心；上义之人有所作为且怀有明确规范；上礼之人有所作为而得不到别人回应时，就会拉胳膊扯袖子强迫别人顺从。所以，失去了大道而后才提倡德，失去了德而后才提倡仁，失去了仁而后才提倡义，失去了义而后才提倡礼。所谓礼，是忠厚与诚信的衰薄，是祸乱动荡的开端。所谓前识先知，只是大道的虚浮虚华，是愚昧的始端。因此大丈夫立身敦厚实在，不居于轻浮虚薄；立身于大道的实质，不居于外在的虚华。所以摒弃虚浮而选取笃实。"
       }
     },
     {
       "id": "tao_chapter_39",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
-      "capitulo": "Capítulo 39: Capítulo 39: La Sabiduría del Tao y la Virtud Serena (Capítulo 39)",
+      "capitulo": "Capítulo 39: La Sabiduría del Tao y la Virtud Serena",
       "capituloNumero": 39,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "昔之得一者：天得一以清；地得一以寧；神得一以靈；谷得一以盈；萬物得一以生；侯王得一以為天下正。其致之也，謂天無以清，將恐裂；地無以寧，將恐廢；神無以靈，將恐歇；谷無以盈，將恐竭；萬物無以生，將恐滅；侯王無以正，將恐蹶。故貴以賤為本，高以下為基。是以侯王自謂孤、寡、不穀。此非以賤為本邪？非乎？故致譽無譽。是故不欲琭琭如玉，珞珞如石。",
-      "foneticaLiturgica": "Dàodéjīng Dì 39 Zhāng...",
+      "foneticaLiturgica": "Xī zhī dé yī zhě： tiān dé yī yǐ qīng； Dì dé yī yǐ níng； Shén dé yī yǐ líng； Gǔ dé yī yǐ yíng； Wàn wù dé yī yǐ shēng； Hóu wáng dé yī yǐ wèi tiān xià zhèng。 Qí zhì zhī yě， wèi tiān wú yǐ qīng， jiāng kǒng liè； Dì wú yǐ níng， jiāng kǒng fèi； Shén wú yǐ líng， jiāng kǒng xiē； Gǔ wú yǐ yíng， jiāng kǒng jié； Wàn wù wú yǐ shēng， jiāng kǒng miè； Hóu wáng wú yǐ zhèng， jiāng kǒng jué。 Gù guì yǐ jiàn wèi běn， gāo yǐ xià wèi jī。 Shì yǐ hóu wáng zì wèi gū、 guǎ、 bù gǔ。 Cǐ fēi yǐ jiàn wèi běn xié？ Fēi hū？ Gù zhì yù wú yù。 Shì gù bù yù lù lù rú yù， luò luò rú shí。",
       "traducciones": {
-        "zh": "昔之得一者：天得一以清；地得一以寧；神得一以靈；谷得一以盈；萬物得一以生；侯王得一以為天下正。其致之也，謂天無以清，將恐裂；地無以寧，將恐廢；神無以靈，將恐歇；谷無以盈，將恐竭；萬物無以生，將恐滅；侯王無以正，將恐蹶。故貴以賤為本，高以下為基。是以侯王自謂孤、寡、不穀。此非以賤為本邪？非乎？故致譽無譽。是故不欲琭琭如玉，珞珞如石。"
+        "zh": "往昔得到'一'的：天得到'一'而清明；地得到'一'而宁静；神得到'一'而灵妙；谷得到'一'而充盈；万物得到'一'而生长；侯王得到'一'而成为天下的楷模。推究起来：天不能保持清明，恐怕要崩裂；地不能保持宁静，恐怕要塌陷；神不能保持灵妙，恐怕要消歇；谷不能保持充盈，恐怕要枯竭；万物不能保持生长，恐怕要灭绝；侯王不能保持高贵，恐怕要倾覆。所以贵以贱为根本，高以下为基础。因此侯王自称'孤'、'寡'、'不穀'。这不正是把低贱当作根本吗？难道不是吗？所以最高的荣誉就是没有荣誉。因此不愿像美玉那样华丽，而宁愿像石头那样质朴。"
       }
     },
     {
       "id": "tao_chapter_40",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 40: El Retorno es el Movimiento del Tao",
       "capituloNumero": 40,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "反者道之動；弱者道之用。天下萬物生於有，有生於無。",
-      "foneticaLiturgica": "Dàodéjīng Dì 40 Zhāng...",
+      "foneticaLiturgica": "Fǎn zhě dào zhī dòng； Ruò zhě dào zhī yòng。 Tiān xià wàn wù shēng yú yǒu， yǒu shēng yú wú。",
       "traducciones": {
-        "zh": "反者道之動；弱者道之用。天下萬物生於有，有生於無。"
+        "zh": "循环往复的运动，是大道的运转规律；柔顺温弱的姿态，是大道的功用显现。天下万物都产生于'有'，而'有'产生于'无'。"
       }
     },
     {
       "id": "tao_chapter_41",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 41: La Escucha del Tao y la Gran Sabiduría",
       "capituloNumero": 41,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "上士聞道，勤而行之；中士聞道，若存若亡；下士聞道，大笑之。不笑不足以為道。故建言有之：明道若昧；進道若退；夷道若纇；上德若谷；大白若辱；廣德若不足；建德若偷；質真若渝；大方無隅；大器晚成；大音希聲；大象無形；道隱無名。夫唯道，善貸且成。",
-      "foneticaLiturgica": "Dàodéjīng Dì 41 Zhāng...",
+      "foneticaLiturgica": "Shàng shì wén dào， qín ér xíng zhī； Zhōng shì wén dào， ruò cún ruò wáng； Xià shì wén dào， dà xiào zhī。 Bù xiào bù zú yǐ wèi dào。 Gù jiàn yán yǒu zhī： míng dào ruò mèi； Jìn dào ruò tuì； Yí dào ruò lèi； Shàng dé ruò gǔ； Dà bái ruò rǔ； Guǎng dé ruò bù zú； Jiàn dé ruò tōu； Zhì zhēn ruò yú； Dà fāng wú yú； Dà qì wǎn chéng； Dà yīn xī shēng； Dà xiàng wú xíng； Dào yǐn wú míng。 Fū wéi dào， shàn dài qiě chéng。",
       "traducciones": {
-        "zh": "上士聞道，勤而行之；中士聞道，若存若亡；下士聞道，大笑之。不笑不足以為道。故建言有之：明道若昧；進道若退；夷道若纇；上德若谷；大白若辱；廣德若不足；建德若偷；質真若渝；大方無隅；大器晚成；大音希聲；大象無形；道隱無名。夫唯道，善貸且成。"
+        "zh": "上士听闻大道，勤勉努力地身体力行；中士听闻大道，似信非信若存若亡；下士听闻大道，哈哈大笑予以嘲讽。如果不被嘲笑，那就不足以成为真正的大道了！所以古老的名言说：光明坦荡的大道好像暗昧模糊，向前迈进的大道好像向后退缩，平坦通达的大道好像崎岖不平；崇高的上德好像低洼的深谷，极度的纯洁好像蒙受污垢，广大的德行好像有所不足，刚健建树的德行好像懒惰怠惰，纯真纯质的本色好像斑驳变易；最辽阔的方正没有棱角，最宏大的器皿晚成不易显现，最浩大的声音听不到声响，最伟大的形象看不到形态。大道隐匿而没有名称。唯有大道，善于滋养并成全一切万物。"
       }
     },
     {
       "id": "tao_chapter_42",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 42: El Uno Engendra el Dos, el Dos Engendra el Tres",
       "capituloNumero": 42,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，唯孤、寡、不穀，而王公以為稱。故物或損之而益，或益之而損。人之所教，我亦教之。強梁者不得其死，吾將以為教父。",
-      "foneticaLiturgica": "Dàodéjīng Dì 42 Zhāng...",
+      "foneticaLiturgica": "Dào shēng yī， yī shēng èr， èr shēng sān， sān shēng wàn wù。 Wàn wù fù yīn ér bào yáng， chōng qì yǐ wèi hé。 Rén zhī suǒ è， wéi gū、 guǎ、 bù gǔ， ér wáng gōng yǐ wèi chēng。 Gù wù huò sǔn zhī ér yì， huò yì zhī ér sǔn。 Rén zhī suǒ jiào， wǒ yì jiào zhī。 Qiáng liáng zhě bù dé qí sǐ， wú jiāng yǐ wèi jiào fù。",
       "traducciones": {
-        "zh": "道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，唯孤、寡、不穀，而王公以為稱。故物或損之而益，或益之而損。人之所教，我亦教之。強梁者不得其死，吾將以為教父。"
+        "zh": "道生一，一生二，二生三，三生万物。万物背负阴气而怀抱阳气，阴阳二气互相激荡交融而达到和谐平衡。人们所最厌恶的称谓，就是'孤'、'寡'、'不穀'，而王公侯王却用来作为自己的自称。所以一切事物，减损它它反而增加，增加它它反而减损。别人所教导我的，我也用来教导别人：'强暴逞强的人不得善终。'我把这句话当作教诲的纲领基石。"
       }
     },
     {
       "id": "tao_chapter_43",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 43: Lo Más Blando del Mundo Penetra lo Más Duro",
       "capituloNumero": 43,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天下之至柔，馳騁天下之至堅。無有入無間，吾是以知無為之有益。不言之教，無為之益，天下希及之。",
-      "foneticaLiturgica": "Dàodéjīng Dì 43 Zhāng...",
+      "foneticaLiturgica": "Tiān xià zhī zhì róu， chí chěng tiān xià zhī zhì jiān。 Wú yǒu rù wú jiān， wú shì yǐ zhī wú wèi zhī yǒu yì。 Bù yán zhī jiào， wú wèi zhī yì， tiān xià xī jí zhī。",
       "traducciones": {
-        "zh": "天下之至柔，馳騁天下之至堅。無有入無間，吾是以知無為之有益。不言之教，無為之益，天下希及之。"
+        "zh": "天下最柔弱的东西，能够驰骋穿透天下最坚硬的事物。无形无体之气，能够进入没有缝隙的空间。我由此认识到无为的好处。不言的教导，无为的益处，天下很少有人能真正领悟企及。"
       }
     },
     {
       "id": "tao_chapter_44",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 44: La Fama, la Riqueza y el Contento Interior",
       "capituloNumero": 44,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "名與身孰親？身與貨孰多？得與亡孰病？甚愛必大費；多藏必厚亡。故知足不辱，知止不殆，可以長久。",
-      "foneticaLiturgica": "Dàodéjīng Dì 44 Zhāng...",
+      "foneticaLiturgica": "Míng yǔ shēn shú qīn？ Shēn yǔ huò shú duō？ Dé yǔ wáng shú bìng？ Shèn ài bì dà fèi； Duō cáng bì hòu wáng。 Gù zhī zú bù rǔ， zhī zhǐ bù dài， kě yǐ zhǎng jiǔ。",
       "traducciones": {
-        "zh": "名與身孰親？身與貨孰多？得與亡孰病？甚愛必大費；多藏必厚亡。故知足不辱，知止不殆，可以長久。"
+        "zh": "名声与生命相比，哪一个更亲切宝贵？生命与财富相比，哪一个更重要丰厚？获得与丧失相比，哪一个更有害痛切？因此，过分的爱惜必定招致巨大的耗费，过多的积敛必定招致沉重的损失。懂得满足就不会遭受屈辱，懂得适可而止就不会陷入危险，这样才可以长久平安。"
       }
     },
     {
       "id": "tao_chapter_45",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 45: La Gran Perfección que Parece Incompleta",
       "capituloNumero": 45,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "大成若缺，其用不弊。大盈若沖，其用不窮。大直若屈，大巧若拙，大辯若訥。靜勝躁，寒勝熱。清靜為天下正。",
-      "foneticaLiturgica": "Dàodéjīng Dì 45 Zhāng...",
+      "foneticaLiturgica": "Dà chéng ruò quē， qí yòng bù bì。 Dà yíng ruò chōng， qí yòng bù qióng。 Dà zhí ruò qū， dà qiǎo ruò zhuō， dà biàn ruò nè。 Jìng shèng zào， hán shèng rè。 Qīng jìng wèi tiān xià zhèng。",
       "traducciones": {
-        "zh": "大成若缺，其用不弊。大盈若沖，其用不窮。大直若屈，大巧若拙，大辯若訥。靜勝躁，寒勝熱。清靜為天下正。"
+        "zh": "最完满的圆满好像有所欠缺，但它的功用永不衰竭；最充盈的充实好像空虚虚空，但它的功用无穷无尽。最正直的正直好像弯曲，最灵巧的技巧好像笨拙，最卓越的口才好像口吃。躁动可以战胜寒冷，安静可以克服炎热。清静宁定才是天下的正道楷模。"
       }
     },
     {
       "id": "tao_chapter_46",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 46: La Moderación de los Deseos y la Calma",
       "capituloNumero": 46,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天下有道，卻走馬以糞。天下無道，戎馬生於郊。禍莫大於不知足；咎莫大於欲得。故知足之足，常足矣。",
-      "foneticaLiturgica": "Dàodéjīng Dì 46 Zhāng...",
+      "foneticaLiturgica": "Tiān xià yǒu dào， què zǒu mǎ yǐ fèn。 Tiān xià wú dào， róng mǎ shēng yú jiāo。 Huò mò dà yú bù zhī zú； Jiù mò dà yú yù dé。 Gù zhī zú zhī zú， cháng zú yǐ。",
       "traducciones": {
-        "zh": "天下有道，卻走馬以糞。天下無道，戎馬生於郊。禍莫大於不知足；咎莫大於欲得。故知足之足，常足矣。"
+        "zh": "天下合于大道的时候，战马被退回农田用来运粪耕作；天下背离大道的时候，怀胎的母马也要在城郊边境上产驹服役。最大的祸患莫过于不知满足，最大的罪过莫过于贪得无厌。所以懂得适足的满足，才是永远恒久的满足。"
       }
     },
     {
       "id": "tao_chapter_47",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 47: Conocer el Mundo sin Traspasar la Puerta",
       "capituloNumero": 47,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "不出戶，知天下；不窺牖，見天道。其出彌遠，其知彌少。是以聖人不行而知，不見而名，不為而成。",
-      "foneticaLiturgica": "Dàodéjīng Dì 47 Zhāng...",
+      "foneticaLiturgica": "Bù chū hù， zhī tiān xià； Bù kuī yǒu， jiàn tiān dào。 Qí chū mí yuǎn， qí zhī mí shǎo。 Shì yǐ shèng rén bù xíng ér zhī， bù jiàn ér míng， bù wèi ér chéng。",
       "traducciones": {
-        "zh": "不出戶，知天下；不窺牖，見天道。其出彌遠，其知彌少。是以聖人不行而知，不見而名，不為而成。"
+        "zh": "不出门户，就能知晓天下的事理；不望窗外，就能通达天道的规律。向外走得越远，知道的反而越少。因此圣人不行走就能预知，不窥看就能明白，不妄作妄为就能成就大业。"
       }
     },
     {
       "id": "tao_chapter_48",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 48: Disminuir Día a Día hasta el No-Actuar",
       "capituloNumero": 48,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "為學日益，為道日損。損之又損，以至於無為。無為而無不為。取天下常以無事，及其有事，不足以取天下。",
-      "foneticaLiturgica": "Dàodéjīng Dì 48 Zhāng...",
+      "foneticaLiturgica": "Wèi xué rì yì， wèi dào rì sǔn。 Sǔn zhī yòu sǔn， yǐ zhì yú wú wèi。 Wú wèi ér wú bù wèi。 Qǔ tiān xià cháng yǐ wú shì， jí qí yǒu shì， bù zú yǐ qǔ tiān xià。",
       "traducciones": {
-        "zh": "為學日益，為道日損。損之又損，以至於無為。無為而無不為。取天下常以無事，及其有事，不足以取天下。"
+        "zh": "求取世俗学问天天都在增加，体悟大道天天都在减损。减损了再减损，一直达到顺应无为的境界。达到了无为的境界，就没有什么事情不能顺理成章地完成。治理天下应当经常不生事扰民，如果多事扰民妄作作为，就不配治理天下了。"
       }
     },
     {
       "id": "tao_chapter_49",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 49: El Corazón del Sabio y la Bondad sin Distinción",
       "capituloNumero": 49,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "聖人常無心，以百姓心為心。善者，吾善之；不善者，吾亦善之；德善。信者，吾信之；不信者，吾亦信之；德信。聖人在天下，歙歙焉，為天下渾其心，百姓皆注其耳目，聖人皆孩之。",
-      "foneticaLiturgica": "Dàodéjīng Dì 49 Zhāng...",
+      "foneticaLiturgica": "Shèng rén cháng wú xīn， yǐ bǎi xìng xīn wèi xīn。 Shàn zhě， wú shàn zhī； Bù shàn zhě， wú yì shàn zhī； Dé shàn。 Xìn zhě， wú xìn zhī； Bù xìn zhě， wú yì xìn zhī； Dé xìn。 Shèng rén zài tiān xià， shè shè yān， wèi tiān xià hún qí xīn， bǎi xìng jiē zhù qí ěr mù， shèng rén jiē hái zhī。",
       "traducciones": {
-        "zh": "聖人常無心，以百姓心為心。善者，吾善之；不善者，吾亦善之；德善。信者，吾信之；不信者，吾亦信之；德信。聖人在天下，歙歙焉，為天下渾其心，百姓皆注其耳目，聖人皆孩之。"
+        "zh": "圣人没有固定的私心，以百姓的心作为自己的心。善良的人，我以善意对待他；不善良的人，我也以善意对待他，这样便得到了纯全的善。信实的人，我以诚信对待他；不信实的人，我也以诚信对待他，这样便得到了纯全的信。圣人居于天下，收敛心智使天下的心思浑然融为一体。百姓都注视着圣人的耳目，而圣人都把他们当作自己的纯真孩童来爱护。"
       }
     },
     {
       "id": "tao_chapter_50",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 50: El Cultivo de la Vida y la Serenidad ante la Muerte",
       "capituloNumero": 50,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "出生入死。生之徒，十有三；死之徒，十有三；人之生，動之於死地，亦十有三。夫何故？以其生生之厚。蓋聞善攝生者，陸行不遇兕虎，入軍不被甲兵；兕無所投其角，虎無所措其爪，兵無所容其刃。夫何故？以其無死地。",
-      "foneticaLiturgica": "Dàodéjīng Dì 50 Zhāng...",
+      "foneticaLiturgica": "Chū shēng rù sǐ。 Shēng zhī tú， shí yǒu sān； Sǐ zhī tú， shí yǒu sān； Rén zhī shēng， dòng zhī yú sǐ dì， yì shí yǒu sān。 Fū hé gù？ Yǐ qí shēng shēng zhī hòu。 Gài wén shàn shè shēng zhě， lù xíng bù yù sì hǔ， rù jūn bù bèi jiǎ bīng； Sì wú suǒ tóu qí jiǎo， hǔ wú suǒ cuò qí zhǎo， bīng wú suǒ róng qí rèn。 Fū hé gù？ Yǐ qí wú sǐ dì。",
       "traducciones": {
-        "zh": "出生入死。生之徒，十有三；死之徒，十有三；人之生，動之於死地，亦十有三。夫何故？以其生生之厚。蓋聞善攝生者，陸行不遇兕虎，入軍不被甲兵；兕無所投其角，虎無所措其爪，兵無所容其刃。夫何故？以其無死地。"
+        "zh": "人从出生走向死亡。长寿得生的人占十分之三；短命早死的人占十分之三；本可以生存的人因为躁动贪生走向死地的也占十分之三。这是什么缘故呢？是因为他们过分追求享乐、过分贪求厚养生命。听说善于摄养保全生命的人，在陆地上行走不会遇到犀牛和猛虎，在战争中不用披坚执锐；犀牛找不到投刺利角的地方，猛虎找不到抓握利爪的地方，兵刃找不到刺入锋芒的地方。这是什么缘故呢？是因为他心中没有致死的死地。"
       }
     },
     {
       "id": "tao_chapter_51",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 51: La Nutrición del Tao y la Virtud Misteriosa",
       "capituloNumero": 51,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "道生之，德畜之，物形之，勢成之。是以萬物莫不尊道而貴德。道之尊，德之貴，夫莫之命而常自然。故道生之，德畜之；長之育之；亭之毒之；養之覆之。生而弗有，為而弗恃，長而弗宰。是謂玄德。",
-      "foneticaLiturgica": "Dàodéjīng Dì 51 Zhāng...",
+      "foneticaLiturgica": "Dào shēng zhī， dé chù zhī， wù xíng zhī， shì chéng zhī。 Shì yǐ wàn wù mò bù zūn dào ér guì dé。 Dào zhī zūn， dé zhī guì， fū mò zhī mìng ér cháng zì rán。 Gù dào shēng zhī， dé chù zhī； Zhǎng zhī yù zhī； Tíng zhī dú zhī； Yǎng zhī fù zhī。 Shēng ér fú yǒu， wèi ér fú shì， zhǎng ér fú zǎi。 Shì wèi xuán dé。",
       "traducciones": {
-        "zh": "道生之，德畜之，物形之，勢成之。是以萬物莫不尊道而貴德。道之尊，德之貴，夫莫之命而常自然。故道生之，德畜之；長之育之；亭之毒之；養之覆之。生而弗有，為而弗恃，長而弗宰。是謂玄德。"
+        "zh": "道生成万物，德畜养万物，物质赋予万物形态，环境势态成全万物。因此万物没有不尊崇大道、不珍贵德行的。大道的受尊崇，德行的被珍贵，并不是谁的命令强加，而是始终自然而然的。所以道生成万物，德畜养万物；使万物成长发育，使万物成熟结果，使万物受到养育与庇护。生养了万物而不据为己有，有所作为而不自恃有功，统领万物而不主宰奴役。这就是最深奥幽玄的德（玄德）。"
       }
     },
     {
       "id": "tao_chapter_52",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 52: El Retorno a la Madre y la Preservación de la Luz",
       "capituloNumero": 52,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天下有始，以為天下母。既得其母，以知其子，復守其母，沒身不殆。塞其兌，閉其門，終身不勤。開其兌，濟其事，終身不救。見小曰明，守柔曰強。用其光，復歸其明，無遺身殃；是為習常。",
-      "foneticaLiturgica": "Dàodéjīng Dì 52 Zhāng...",
+      "foneticaLiturgica": "Tiān xià yǒu shǐ， yǐ wèi tiān xià mǔ。 Jì dé qí mǔ， yǐ zhī qí zi， fù shǒu qí mǔ， méi shēn bù dài。 Sāi qí duì， bì qí mén， zhōng shēn bù qín。 Kāi qí duì， jì qí shì， zhōng shēn bù jiù。 Jiàn xiǎo yuē míng， shǒu róu yuē qiáng。 Yòng qí guāng， fù guī qí míng， wú yí shēn yāng； Shì wèi xí cháng。",
       "traducciones": {
-        "zh": "天下有始，以為天下母。既得其母，以知其子，復守其母，沒身不殆。塞其兌，閉其門，終身不勤。開其兌，濟其事，終身不救。見小曰明，守柔曰強。用其光，復歸其明，無遺身殃；是為習常。"
+        "zh": "天下万物都有一个始源，这个始源可以看作是天下万物的母体。既然认识了母体，就能据此认识作为子代的万物；认识了万物之后，又能返本坚守住母体之道，终身就不会遭遇危险。闭塞耳目的感官欲望，关闭欲念的门户，终身不会困顿劳苦。敞开感官的欲望，忙于奔波俗事，终身无法得到解救。能察见细微之处叫做明智，能坚守柔弱之态叫做刚强。运用大道的智慧光芒，返照内心的本真明澈，不给自身遗留灾殃祸患，这就叫做承袭永恒的常道。"
       }
     },
     {
       "id": "tao_chapter_53",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 53: El Sendero Luminoso del Tao y el Rechazo a la Vanidad",
       "capituloNumero": 53,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "使我介然有知，行於大道，唯施是畏。大道甚夷，而人好徑。朝甚除，田甚蕪，倉甚虛；服文綵，帶利劍，厭飲食，財貨有餘；是為盜夸。非道也哉！",
-      "foneticaLiturgica": "Dàodéjīng Dì 53 Zhāng...",
+      "foneticaLiturgica": "Shǐ wǒ jiè rán yǒu zhī， xíng yú dà dào， wéi shī shì wèi。 Dà dào shèn yí， ér rén hǎo jìng。 Cháo shèn chú， tián shèn wú， cāng shèn xū； Fú wén cǎi， dài lì jiàn， yàn yǐn shí， cái huò yǒu yú； Shì wèi dào kuā。 Fēi dào yě zāi！",
       "traducciones": {
-        "zh": "使我介然有知，行於大道，唯施是畏。大道甚夷，而人好徑。朝甚除，田甚蕪，倉甚虛；服文綵，帶利劍，厭飲食，財貨有餘；是為盜夸。非道也哉！"
+        "zh": "假如我有一点真正的智慧，在大道上行走，唯一畏惧的就是偏离大道走入邪径。大道非常平坦宽广，而世人却偏偏喜欢走险阻捷径。朝廷殿堂修缮得极其富丽，农田却极其荒芜，粮仓极其空虚；身穿华丽锦绣的衣服，佩带锋利的宝剑，饱食厌倦精美的酒肉，搜刮储藏剩余的财富财宝；这叫做强盗头目。这多么背离大道啊！"
       }
     },
     {
       "id": "tao_chapter_54",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 54: El Cultivo de la Virtud en uno Mismo, en el Hogar y en el Mundo",
       "capituloNumero": 54,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "善建者不拔，善抱者不脫，子孫以祭祀不輟。修之於身，其德乃真；修之於家，其德乃餘；修之於鄉，其德乃長；修之於邦，其德乃豐；修之於天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以邦觀邦，以天下觀天下。吾何以知天下然哉？以此。",
-      "foneticaLiturgica": "Dàodéjīng Dì 54 Zhāng...",
+      "foneticaLiturgica": "Shàn jiàn zhě bù bá， shàn bào zhě bù tuō， zi sūn yǐ jì sì bù chuò。 Xiū zhī yú shēn， qí dé nǎi zhēn； Xiū zhī yú jiā， qí dé nǎi yú； Xiū zhī yú xiāng， qí dé nǎi zhǎng； Xiū zhī yú bāng， qí dé nǎi fēng； Xiū zhī yú tiān xià， qí dé nǎi pǔ。 Gù yǐ shēn guān shēn， yǐ jiā guān jiā， yǐ xiāng guān xiāng， yǐ bāng guān bāng， yǐ tiān xià guān tiān xià。 Wú hé yǐ zhī tiān xià rán zāi？ Yǐ cǐ。",
       "traducciones": {
-        "zh": "善建者不拔，善抱者不脫，子孫以祭祀不輟。修之於身，其德乃真；修之於家，其德乃餘；修之於鄉，其德乃長；修之於邦，其德乃豐；修之於天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以邦觀邦，以天下觀天下。吾何以知天下然哉？以此。"
+        "zh": "善于建树立身的人根基不可拔除，善于持守抱元的人不会滑脱遗失，子孙后代的祭祀便绵延不绝。将大道修持于自身，他的德行就是真切纯正的；将大道修持于家庭，他的德行就会充裕有余；将大道修持于乡村乡里，他的德行就会久远流长；将大道修持于国家，他的德行就会丰盛充沛；将大道修持于天下，他的德行就会普照寰宇。所以，用修身之道来观察认识自身，用齐家之道来观察认识家庭，用治乡之道来观察认识乡里，用治国之道来观察认识国家，用平天下之道来观察认识天下。我凭什么知道天下的大势规律呢？就是凭着这种大道的修持与体悟。"
       }
     },
     {
       "id": "tao_chapter_55",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 55: La Plenitud Vital del Recién Nacido",
       "capituloNumero": 55,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "含德之厚，比於赤子。毒蟲不螫，猛獸不據，攫鳥不搏。骨弱筋柔而握固。未知牝牡之合而朘作，精之至也。終日號而嗌不嗄，和之至也。知和曰常，知常曰明。益生曰祥。心使氣曰強。物壯則老，謂之不道，不道早已。",
-      "foneticaLiturgica": "Dàodéjīng Dì 55 Zhāng...",
+      "foneticaLiturgica": "Hán dé zhī hòu， bǐ yú chì zi。 Dú chóng bù shì， měng shòu bù jù， jué niǎo bù bó。 Gǔ ruò jīn róu ér wò gù。 Wèi zhī pìn mǔ zhī hé ér zuī zuò， jīng zhī zhì yě。 Zhōng rì hào ér ài bù á， hé zhī zhì yě。 Zhī hé yuē cháng， zhī cháng yuē míng。 Yì shēng yuē xiáng。 Xīn shǐ qì yuē qiáng。 Wù zhuàng zé lǎo， wèi zhī bù dào， bù dào zǎo yǐ。",
       "traducciones": {
-        "zh": "含德之厚，比於赤子。毒蟲不螫，猛獸不據，攫鳥不搏。骨弱筋柔而握固。未知牝牡之合而朘作，精之至也。終日號而嗌不嗄，和之至也。知和曰常，知常曰明。益生曰祥。心使氣曰強。物壯則老，謂之不道，不道早已。"
+        "zh": "蕴含深厚德行的人，可以比作初生的婴儿。毒虫不叮咬他，猛兽不搏击他，凶禽不扑抓他。他的筋骨虽然柔弱而拳头却握得很紧。他虽然不懂男女阴阳之合，但生殖之器能够勃起，这是精气充沛到了极点。整天号哭而喉咙不沙哑，这是体内元气调和到了极点。认识调和叫做常道，认识常道叫做明智。贪求纵欲益生叫做灾殃，心灵任由血气妄动叫做逞强。事物过于刚壮就会走向衰老，这叫做违背大道，违背大道必定迅速消亡。"
       }
     },
     {
       "id": "tao_chapter_56",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 56: Quien Sabe no Habla; Quien Habla no Sabe",
       "capituloNumero": 56,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "知者不言，言者不知。塞其兌，閉其門，挫其銳，解其紛，和其光，同其塵，是謂玄同。故不可得而親，不可得而疏；不可得而利，不可得而害；不可得而貴，不可得而賤。故為天下貴。",
-      "foneticaLiturgica": "Dàodéjīng Dì 56 Zhāng...",
+      "foneticaLiturgica": "Zhī zhě bù yán， yán zhě bù zhī。 Sāi qí duì， bì qí mén， cuò qí ruì， jiě qí fēn， hé qí guāng， tóng qí chén， shì wèi xuán tóng。 Gù bù kě dé ér qīn， bù kě dé ér shū； Bù kě dé ér lì， bù kě dé ér hài； Bù kě dé ér guì， bù kě dé ér jiàn。 Gù wèi tiān xià guì。",
       "traducciones": {
-        "zh": "知者不言，言者不知。塞其兌，閉其門，挫其銳，解其紛，和其光，同其塵，是謂玄同。故不可得而親，不可得而疏；不可得而利，不可得而害；不可得而貴，不可得而賤。故為天下貴。"
+        "zh": "真正懂得大道的人不随意妄言，随意夸夸其谈的人不是真正懂道。闭塞感官的欲念，关闭私欲的门户，磨去锐气，解开纷扰，调和光芒，融于尘世，这叫做玄妙的同化（玄同）。所以对于这样的人，既不能通过亲近来讨好他，也不能通过疏远来伤害他；既不能通过利益来引诱他，也不能通过祸害来威胁他；既不能通过尊贵来荣耀他，也不能通过卑贱来屈辱他。因此他成为天下最尊贵的人。"
       }
     },
     {
       "id": "tao_chapter_57",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 57: Gobernar con Rectitud y Vivir con Libertad Espontánea",
       "capituloNumero": 57,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "以正治國，以奇用兵，以無事取天下。吾何以知其然哉？以此：天下多忌諱，而民彌貧；人多利器，國家滋昏；人多伎巧，奇物滋起；法令滋彰，盜賊多有。故聖人云：我無為，而民自化；我好靜，而民自正；我無事，而民自富；我無欲，而民自樸。",
-      "foneticaLiturgica": "Dàodéjīng Dì 57 Zhāng...",
+      "foneticaLiturgica": "Yǐ zhèng zhì guó， yǐ qí yòng bīng， yǐ wú shì qǔ tiān xià。 Wú hé yǐ zhī qí rán zāi？ Yǐ cǐ： tiān xià duō jì huì， ér mín mí pín； Rén duō lì qì， guó jiā zī hūn； Rén duō jì qiǎo， qí wù zī qǐ； Fǎ lìng zī zhāng， dào zéi duō yǒu。 Gù shèng rén yún： wǒ wú wèi， ér mín zì huà； Wǒ hǎo jìng， ér mín zì zhèng； Wǒ wú shì， ér mín zì fù； Wǒ wú yù， ér mín zì pǔ。",
       "traducciones": {
-        "zh": "以正治國，以奇用兵，以無事取天下。吾何以知其然哉？以此：天下多忌諱，而民彌貧；人多利器，國家滋昏；人多伎巧，奇物滋起；法令滋彰，盜賊多有。故聖人云：我無為，而民自化；我好靜，而民自正；我無事，而民自富；我無欲，而民自樸。"
+        "zh": "以端正清平治理国家，以诡诈奇巧用兵作战，以清静无事夺取治理天下。我凭什么知道是这样的呢？就是凭着这些事实：天下的禁忌法令越多，百姓反而越贫困穷苦；民间的锋利武器越多，国家政局反而越加昏乱；人们的机巧智谋越多，邪异古怪的事物反而越层出不穷；律法政令越严密昭彰，盗贼强盗反而越来越多。所以圣人说：我顺应无为，百姓自然化育向善；我爱好清静，百姓自然走向端正；我不滋生扰民之事，百姓自然富足充裕；我清心无欲，百姓自然归于纯真纯朴。"
       }
     },
     {
       "id": "tao_chapter_58",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 58: La Paciencia Benévola y la Moderación Serena",
       "capituloNumero": 58,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "其政悶悶，其民淳淳；其政察察，其民缺缺。是以聖人方而不割，廉而不劌，直而不肆，光而不燿。禍兮福之所倚，福兮禍之所伏。孰知其極？其無正也。正復為奇，善復為妖。人之迷，其日固久。",
-      "foneticaLiturgica": "Dàodéjīng Dì 58 Zhāng...",
+      "foneticaLiturgica": "Qí zhèng mèn mèn， qí mín chún chún； Qí zhèng chá chá， qí mín quē quē。 Shì yǐ shèng rén fāng ér bù gē， lián ér bù guì， zhí ér bù sì， guāng ér bù yào。 Huò xī fú zhī suǒ yǐ， fú xī huò zhī suǒ fú。 Shú zhī qí jí？ Qí wú zhèng yě。 Zhèng fù wèi qí， shàn fù wèi yāo。 Rén zhī mí， qí rì gù jiǔ。",
       "traducciones": {
-        "zh": "其政悶悶，其民淳淳；其政察察，其民缺缺。是以聖人方而不割，廉而不劌，直而不肆，光而不燿。禍兮福之所倚，福兮禍之所伏。孰知其極？其無正也。正復為奇，善復為妖。人之迷，其日固久。"
+        "zh": "政令宽厚昏暗不苛察，百姓就淳朴真诚；政令严苛明察秋毫，百姓就狡黠缺德。因此圣人方正而不割伤人，廉洁锋利而不刺伤人，端正直率而不放肆傲慢，光彩照人而不刺眼眩惑。灾祸啊，依傍着幸福而存在；幸福啊，潜伏着灾祸的危机。谁能知道灾祸与幸福的终极界限呢？它们并没有固定的标准。原本的正道会突然转变为奇诡，原本的善良会突然转变为妖异。人们沉溺于这种迷惑之中，时间本来就已经很久远了。"
       }
     },
     {
       "id": "tao_chapter_59",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 59: La Moderación y el Enraizamiento Profundo",
       "capituloNumero": 59,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "治人事天，莫若嗇。夫唯嗇，是謂早服；早服謂之重積德；重積德則無不克；無不克則莫知其極；莫知其極，可以有國；有國之母，可以長久；是謂深根固柢，長生久視之道。",
-      "foneticaLiturgica": "Dàodéjīng Dì 59 Zhāng...",
+      "foneticaLiturgica": "Zhì rén shì tiān， mò ruò sè。 Fū wéi sè， shì wèi zǎo fú； Zǎo fú wèi zhī zhòng jī dé； Zhòng jī dé zé wú bù kè； Wú bù kè zé mò zhī qí jí； Mò zhī qí jí， kě yǐ yǒu guó； Yǒu guó zhī mǔ， kě yǐ zhǎng jiǔ； Shì wèi shēn gēn gù dǐ， zhǎng shēng jiǔ shì zhī dào。",
       "traducciones": {
-        "zh": "治人事天，莫若嗇。夫唯嗇，是謂早服；早服謂之重積德；重積德則無不克；無不克則莫知其極；莫知其極，可以有國；有國之母，可以長久；是謂深根固柢，長生久視之道。"
+        "zh": "治理人事与侍奉天道，没有什么比得上节制俭啬。唯有节制俭啬，才叫作尽早顺应大道；尽早顺应大道，就叫作厚重地积蓄德行；厚重地积蓄德行，就无往而不胜；无往而不胜，他的力量就没有极限；达到了力量无极限的境界，就可以担当执掌国家的重任；掌握了治理国家的根本母体，国家就可以长治久安；这就叫作根基深厚牢固、长生久视的大道。"
       }
     },
     {
       "id": "tao_chapter_60",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 60: Gobernar con Delicadeza como Cocinar un Pescadillo",
       "capituloNumero": 60,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "治大國，若烹小鮮。以道莅天下，其鬼不神；非其鬼不神，其神不傷人；非其神不傷人，聖人亦不傷人。夫兩不相傷，故德交歸焉。",
-      "foneticaLiturgica": "Dàodéjīng Dì 60 Zhāng...",
+      "foneticaLiturgica": "Zhì dà guó， ruò pēng xiǎo xiān。 Yǐ dào lì tiān xià， qí guǐ bù shén； Fēi qí guǐ bù shén， qí shén bù shāng rén； Fēi qí shén bù shāng rén， shèng rén yì bù shāng rén。 Fū liǎng bù xiāng shāng， gù dé jiāo guī yān。",
       "traducciones": {
-        "zh": "治大國，若烹小鮮。以道莅天下，其鬼不神；非其鬼不神，其神不傷人；非其神不傷人，聖人亦不傷人。夫兩不相傷，故德交歸焉。"
+        "zh": "治理大国，就如同煎烹小鱼一样不可轻易翻动扰乱。以大道统领治理天下，鬼怪神灵就不显露灵异作祟；不仅鬼怪不显灵作祟，即使神灵显灵也不会伤害人民；不仅神灵不伤害人民，圣人也绝不伤害人民。既然神灵与圣人两不相伤，所以大道之德就会相互交融归聚于天下百姓。"
       }
     },
     {
       "id": "tao_chapter_61",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 61: La Humildad del Valle en las Grandes Naciones",
       "capituloNumero": 61,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "大邦者下流，天下之牝，天下之交也。牝常以靜勝牡，以靜為下。故大邦以下小邦，則取小邦；小邦以下大邦，則取大邦。故或下以取，或下而取。大邦不過欲兼畜人，小邦不過欲入事人。夫兩者各得所欲，大者宜為下。",
-      "foneticaLiturgica": "Dàodéjīng Dì 61 Zhāng...",
+      "foneticaLiturgica": "Dà bāng zhě xià liú， tiān xià zhī pìn， tiān xià zhī jiāo yě。 Pìn cháng yǐ jìng shèng mǔ， yǐ jìng wèi xià。 Gù dà bāng yǐ xià xiǎo bāng， zé qǔ xiǎo bāng； Xiǎo bāng yǐ xià dà bāng， zé qǔ dà bāng。 Gù huò xià yǐ qǔ， huò xià ér qǔ。 Dà bāng bù guò yù jiān chù rén， xiǎo bāng bù guò yù rù shì rén。 Fū liǎng zhě gè dé suǒ yù， dà zhě yí wèi xià。",
       "traducciones": {
-        "zh": "大邦者下流，天下之牝，天下之交也。牝常以靜勝牡，以靜為下。故大邦以下小邦，則取小邦；小邦以下大邦，則取大邦。故或下以取，或下而取。大邦不過欲兼畜人，小邦不過欲入事人。夫兩者各得所欲，大者宜為下。"
+        "zh": "大国就像江河的下游低洼之处，是天下的交汇之所，天下的雌柔之地。雌性始终以安静胜过雄性，以处于安静低下的姿态自持。所以大国对待小国谦逊居下，就能取得小国的信服拥戴；小国对待大国谦逊居下，就能取得大国的信任包容。所以或者通过居下而取得信任，或者因为居下而赢得包容。大国不过是想兼顾畜养包容天下，小国不过是想加入大国寻求庇护。这两者既然都能得到各自所期望的，所以大国尤其应当谦逊居下。"
       }
     },
     {
       "id": "tao_chapter_62",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 62: El Tao como el Tesoro y Santuario de Todos los Seres",
       "capituloNumero": 62,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "道者萬物之奧。善人之寶，不善人之所保。美言可以市尊，美行可以加人。人之不善，何棄之有？故立天子，置三公，雖有拱璧以先駟馬，不如坐進此道。古之所以貴此道者何？不曰：求以得，有罪以免邪？故為天下貴。",
-      "foneticaLiturgica": "Dàodéjīng Dì 62 Zhāng...",
+      "foneticaLiturgica": "Dào zhě wàn wù zhī ào。 Shàn rén zhī bǎo， bù shàn rén zhī suǒ bǎo。 Měi yán kě yǐ shì zūn， měi xíng kě yǐ jiā rén。 Rén zhī bù shàn， hé qì zhī yǒu？ Gù lì tiān zi， zhì sān gōng， suī yǒu gǒng bì yǐ xiān sì mǎ， bù rú zuò jìn cǐ dào。 Gǔ zhī suǒ yǐ guì cǐ dào zhě hé？ Bù yuē： qiú yǐ dé， yǒu zuì yǐ miǎn xié？ Gù wèi tiān xià guì。",
       "traducciones": {
-        "zh": "道者萬物之奧。善人之寶，不善人之所保。美言可以市尊，美行可以加人。人之不善，何棄之有？故立天子，置三公，雖有拱璧以先駟馬，不如坐進此道。古之所以貴此道者何？不曰：求以得，有罪以免邪？故為天下貴。"
+        "zh": "大道是万物深奥的庇护所。是善良之人的至宝，也是不善之人所赖以保全的依靠。美好的言辞可以换来众人的尊崇，高尚的行为可以使人受到推崇。那些不善的人，大道何曾抛弃过他们呢？所以即便确立天子、设置三公辅政，即便拥有拱璧玉器并在前面配以四马大车，还不如安安静静进入体悟这个大道。古人之所以尊崇重视这个大道，是什么原因呢？不正是说：有求就能得到，有罪过就能免于祸难吗？因此它被天下人视为最尊贵的至宝。"
       }
     },
     {
       "id": "tao_chapter_63",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 63: Comenzar lo Difícil por lo Fácil",
       "capituloNumero": 63,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "為無為，事無事，味無味。大小多少，報怨以德。圖難於其易，為大於其細；天下難事，必作於易，天下大事，必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，故終無難矣。",
-      "foneticaLiturgica": "Dàodéjīng Dì 63 Zhāng...",
+      "foneticaLiturgica": "Wèi wú wèi， shì wú shì， wèi wú wèi。 Dà xiǎo duō shǎo， bào yuàn yǐ dé。 Tú nán yú qí yì， wèi dà yú qí xì； Tiān xià nán shì， bì zuò yú yì， tiān xià dà shì， bì zuò yú xì。 Shì yǐ shèng rén zhōng bù wèi dà， gù néng chéng qí dà。 Fū qīng nuò bì guǎ xìn， duō yì bì duō nán。 Shì yǐ shèng rén yóu nán zhī， gù zhōng wú nán yǐ。",
       "traducciones": {
-        "zh": "為無為，事無事，味無味。大小多少，報怨以德。圖難於其易，為大於其細；天下難事，必作於易，天下大事，必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，故終無難矣。"
+        "zh": "以无为的态度去作为，以无事的方式去处事，以恬淡的滋味去品味。不论大小多少，用大德去回报怨恨。在容易之时图谋克服困难，在细微之处成就宏大事业；天下的难事，必定从容易的地方开始做起；天下的大事，必定从细微的地方开始做起。因此圣人始终不自以为伟大，所以才能够成就伟大的事业。轻易许下诺言的人必定缺少信用，把事情看得太容易的人必定遭遇更多困难。因此圣人面对一切事情都慎重对待看待为不易，所以终究没有克服不了的困难。"
       }
     },
     {
       "id": "tao_chapter_64",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 64: Un Árbol Gigante Nace de una Pequeña Semilla",
       "capituloNumero": 64,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "其安易持，其未兆易謀。其脆易泮，其微易散。為之於未有，治之於未亂。合抱之木，生於毫末；九層之臺，起於累土；千里之行，始於足下。為者敗之，執者失之。是以聖人無為故無敗，無執故無失。民之從事，常於幾成而敗之。慎終如始，則無敗事。是以聖人欲不欲，不貴難得之貨；學不學，復衆人之所過，以輔萬物之自然，而不敢為。",
-      "foneticaLiturgica": "Dàodéjīng Dì 64 Zhāng...",
+      "foneticaLiturgica": "Qí ān yì chí， qí wèi zhào yì móu。 Qí cuì yì pàn， qí wēi yì sàn。 Wèi zhī yú wèi yǒu， zhì zhī yú wèi luàn。 Hé bào zhī mù， shēng yú háo mò； Jiǔ céng zhī tái， qǐ yú lèi tǔ； Qiān lǐ zhī xíng， shǐ yú zú xià。 Wèi zhě bài zhī， zhí zhě shī zhī。 Shì yǐ shèng rén wú wèi gù wú bài， wú zhí gù wú shī。 Mín zhī cóng shì， cháng yú jǐ chéng ér bài zhī。 Shèn zhōng rú shǐ， zé wú bài shì。 Shì yǐ shèng rén yù bù yù， bù guì nán dé zhī huò； Xué bù xué， fù zhòng rén zhī suǒ guò， yǐ fǔ wàn wù zhī zì rán， ér bù gǎn wèi。",
       "traducciones": {
-        "zh": "其安易持，其未兆易謀。其脆易泮，其微易散。為之於未有，治之於未亂。合抱之木，生於毫末；九層之臺，起於累土；千里之行，始於足下。為者敗之，執者失之。是以聖人無為故無敗，無執故無失。民之從事，常於幾成而敗之。慎終如始，則無敗事。是以聖人欲不欲，不貴難得之貨；學不學，復衆人之所過，以輔萬物之自然，而不敢為。"
+        "zh": "局面安定的时候容易持守掌控，隐患未显露苗头的时候容易谋划防范。事物脆弱的时候容易消解破除，事物微细的时候容易消散瓦解。在事情未发生之前就预先处置，在祸乱未发生之前就预先治理。合抱粗的大树，是从细小的幼芽生长出来的；九层的高台，是从一筐筐泥土堆砌起来的；千里远的长途跋涉，是从迈出第一步开始的。勉强强作作为的必定败亡，紧抓把持不放的必定失去。因此圣人顺应无为所以没有败亡，不固执把持所以没有失去。普通人做事，往往在快要成功的时候遭遇失败。如果能在事情结束时像开始时那样慎重对待，就不会有失败的事情了。因此圣人追求常人不追求的清静，不珍视难以得到的稀有财物；学习常人不学习的质朴真理，补救纠正众人常犯的过错，以此来辅助万物的自然本性，而不敢妄自强作胡为。"
       }
     },
     {
       "id": "tao_chapter_65",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 65: La Sabiduría Prístina de la Simplicidad",
       "capituloNumero": 65,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "古之善為道者，非以明民，將以愚之。民之難治，以其智多。故以智治國，國之賊；不以智治國，國之福。知此兩者亦稽式。常知稽式，是謂玄德。玄德深矣，遠矣，與物反矣，然後乃至大順。",
-      "foneticaLiturgica": "Dàodéjīng Dì 65 Zhāng...",
+      "foneticaLiturgica": "Gǔ zhī shàn wèi dào zhě， fēi yǐ míng mín， jiāng yǐ yú zhī。 Mín zhī nán zhì， yǐ qí zhì duō。 Gù yǐ zhì zhì guó， guó zhī zéi； Bù yǐ zhì zhì guó， guó zhī fú。 Zhī cǐ liǎng zhě yì jī shì。 Cháng zhī jī shì， shì wèi xuán dé。 Xuán dé shēn yǐ， yuǎn yǐ， yǔ wù fǎn yǐ， rán hòu nǎi zhì dà shùn。",
       "traducciones": {
-        "zh": "古之善為道者，非以明民，將以愚之。民之難治，以其智多。故以智治國，國之賊；不以智治國，國之福。知此兩者亦稽式。常知稽式，是謂玄德。玄德深矣，遠矣，與物反矣，然後乃至大順。"
+        "zh": "古时善于行道的人，不是用巧诈去教民聪明，而是让百姓保持质朴浑厚。百姓之所以难以治理，是因为他们心机智巧太多。所以用机巧智谋来治国，是国家的祸害；不用机巧智谋来治国，是国家的福气。了解这两种治国方式也是一种法则准绳。始终明晓这种法则准绳，就叫做深奥幽玄的德（玄德）。玄德幽深啊，辽远啊，与世俗之物完全相反，然而最终却能达到天下大顺的至高境地。"
       }
     },
     {
       "id": "tao_chapter_66",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 66: El Mar como Rey de los Cien Ríos por su Humildad",
       "capituloNumero": 66,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "江海所以能為百谷王者，以其善下之，故能為百谷王。是以聖人欲上民，必以言下之；欲先民，必以身後之。是以聖人處上而民不重，處前而民不害。是以天下樂推而不厭。以其不爭，故天下莫能與之爭。",
-      "foneticaLiturgica": "Dàodéjīng Dì 66 Zhāng...",
+      "foneticaLiturgica": "Jiāng hǎi suǒ yǐ néng wèi bǎi gǔ wáng zhě， yǐ qí shàn xià zhī， gù néng wèi bǎi gǔ wáng。 Shì yǐ shèng rén yù shàng mín， bì yǐ yán xià zhī； Yù xiān mín， bì yǐ shēn hòu zhī。 Shì yǐ shèng rén chù shàng ér mín bù zhòng， chù qián ér mín bù hài。 Shì yǐ tiān xià lè tuī ér bù yàn。 Yǐ qí bù zhēng， gù tiān xià mò néng yǔ zhī zhēng。",
       "traducciones": {
-        "zh": "江海所以能為百谷王者，以其善下之，故能為百谷王。是以聖人欲上民，必以言下之；欲先民，必以身後之。是以聖人處上而民不重，處前而民不害。是以天下樂推而不厭。以其不爭，故天下莫能與之爭。"
+        "zh": "江海之所以能够成为一切百谷溪流汇聚的王者，是因为它善于处于低下的地势，所以才能成为百谷溪流的王者。因此圣人想要居于百姓之上，必须在言语上对百姓谦逊居下；想要居于百姓之前，必须在自身利益上退居于百姓之后。因此圣人居于高位而百姓不觉得沉重压迫，居于前方而百姓不觉得阻碍妨害。所以天下人都乐于推戴拥护他而不感到厌倦。正因为他不与世人相争，所以天下没有人能与他相争。"
       }
     },
     {
       "id": "tao_chapter_67",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 67: Los Tres Tesoros: Compasión, Frugalidad y Humildad",
       "capituloNumero": 67,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天下皆謂我道大，似不肖。夫唯大，故似不肖。若肖，久矣其細也夫！我有三寶，持而保之。一曰慈，二曰儉，三曰不敢為天下先。慈故能勇；儉故能廣；不敢為天下先，故能成器長。今舍慈且勇；舍儉且廣；舍後且先；死矣！夫慈以戰則勝，以守則固。天將救之，以慈衛之。",
-      "foneticaLiturgica": "Dàodéjīng Dì 67 Zhāng...",
+      "foneticaLiturgica": "Tiān xià jiē wèi wǒ dào dà， shì bù xiào。 Fū wéi dà， gù shì bù xiào。 Ruò xiào， jiǔ yǐ qí xì yě fū！ Wǒ yǒu sān bǎo， chí ér bǎo zhī。 Yī yuē cí， èr yuē jiǎn， sān yuē bù gǎn wèi tiān xià xiān。 Cí gù néng yǒng； Jiǎn gù néng guǎng； Bù gǎn wèi tiān xià xiān， gù néng chéng qì zhǎng。 Jīn shě cí qiě yǒng； Shě jiǎn qiě guǎng； Shě hòu qiě xiān； Sǐ yǐ！ Fū cí yǐ zhàn zé shèng， yǐ shǒu zé gù。 Tiān jiāng jiù zhī， yǐ cí wèi zhī。",
       "traducciones": {
-        "zh": "天下皆謂我道大，似不肖。夫唯大，故似不肖。若肖，久矣其細也夫！我有三寶，持而保之。一曰慈，二曰儉，三曰不敢為天下先。慈故能勇；儉故能廣；不敢為天下先，故能成器長。今舍慈且勇；舍儉且廣；舍後且先；死矣！夫慈以戰則勝，以守則固。天將救之，以慈衛之。"
+        "zh": "天下人都说我的道广大无边，好像什么都不相像。正因为它是如此广大，所以才显得什么都不相像。如果它像某样具体的东西，早就变成细小琐碎之物了！我有三件法宝，始终执持并珍爱保全它。第一件叫作'慈爱'，第二件叫作'俭啬'，第三件叫作'不敢居于天下人之先'。因为慈爱所以能够勇敢无畏；因为俭啬所以能够宽裕广大；因为不敢居于天下人之先，所以能够成为万物的领袖统帅。现在如果舍弃慈爱而一味勇武，舍弃俭啬而一味扩充，舍弃退后谦逊而一味争先抢前，这就是走向死亡自取灭亡！凭借慈爱去作战就能取得胜利，凭借慈爱去防守就能坚如磐石。上天将要救助他，就会用慈爱来庇护护卫他。"
       }
     },
     {
       "id": "tao_chapter_68",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 68: El Arte del Guerrero Pacífico y la No-Violencia",
       "capituloNumero": 68,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "善為士者，不武；善戰者，不怒；善勝敵者，不與；善用人者，為之下。是謂不爭之德，是謂用人之力，是謂配天古之極。",
-      "foneticaLiturgica": "Dàodéjīng Dì 68 Zhāng...",
+      "foneticaLiturgica": "Shàn wèi shì zhě， bù wǔ； Shàn zhàn zhě， bù nù； Shàn shèng dí zhě， bù yǔ； Shàn yòng rén zhě， wèi zhī xià。 Shì wèi bù zhēng zhī dé， shì wèi yòng rén zhī lì， shì wèi pèi tiān gǔ zhī jí。",
       "traducciones": {
-        "zh": "善為士者，不武；善戰者，不怒；善勝敵者，不與；善用人者，為之下。是謂不爭之德，是謂用人之力，是謂配天古之極。"
+        "zh": "善于做将领武士的人，不逞勇武；善于作战的人，不轻易发怒动怒；善于战胜敌人的人，不与敌人正面硬拼争锋；善于任用他人的人，对人谦逊居下。这叫做不与人争竞的大德，这叫做善于运用众人的力量，这叫做顺应天道古老久远的至高法则。"
       }
     },
     {
       "id": "tao_chapter_69",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 69: La Estrategia de la Paciencia y el Respeto al Prójimo",
       "capituloNumero": 69,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "用兵有言：吾不敢為主，而為客；不敢進寸，而退尺。是謂行無行；攘無臂；扔無敵；執無兵。禍莫大於輕敵，輕敵幾喪吾寶。故抗兵相若，哀者勝矣。",
-      "foneticaLiturgica": "Dàodéjīng Dì 69 Zhāng...",
+      "foneticaLiturgica": "Yòng bīng yǒu yán： wú bù gǎn wèi zhǔ， ér wèi kè； Bù gǎn jìn cùn， ér tuì chǐ。 Shì wèi xíng wú xíng； Rǎng wú bì； Rēng wú dí； Zhí wú bīng。 Huò mò dà yú qīng dí， qīng dí jǐ sàng wú bǎo。 Gù kàng bīng xiāng ruò， āi zhě shèng yǐ。",
       "traducciones": {
-        "zh": "用兵有言：吾不敢為主，而為客；不敢進寸，而退尺。是謂行無行；攘無臂；扔無敵；執無兵。禍莫大於輕敵，輕敵幾喪吾寶。故抗兵相若，哀者勝矣。"
+        "zh": "用兵打仗有名言说：我不敢主动充当进攻的主人，而宁愿充当防守的客人；不敢前进一步，而宁愿后退一尺。这叫做行军不见阵列，举臂不见胳膊，面对敌人不见敌对，握持武器不见兵刃。最大的祸患莫过于轻视低估敌人，轻敌几乎会丧失我的三件法宝。所以两军对垒实力相当的时候，怀有悲悯哀痛之心的一方必定取得胜利。"
       }
     },
     {
       "id": "tao_chapter_70",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 70: La Sencillez Oculta del Sabio",
       "capituloNumero": 70,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "吾言甚易知，甚易行。天下莫能知，莫能行。言有宗，事有君。夫唯無知，是以不我知。知我者希，則我者貴。是以聖人被褐而懷玉。",
-      "foneticaLiturgica": "Dàodéjīng Dì 70 Zhāng...",
+      "foneticaLiturgica": "Wú yán shèn yì zhī， shèn yì xíng。 Tiān xià mò néng zhī， mò néng xíng。 Yán yǒu zōng， shì yǒu jūn。 Fū wéi wú zhī， shì yǐ bù wǒ zhī。 Zhī wǒ zhě xī， zé wǒ zhě guì。 Shì yǐ shèng rén bèi hè ér huái yù。",
       "traducciones": {
-        "zh": "吾言甚易知，甚易行。天下莫能知，莫能行。言有宗，事有君。夫唯無知，是以不我知。知我者希，則我者貴。是以聖人被褐而懷玉。"
+        "zh": "我的言论非常容易理解，非常容易践行。然而天下人没有人能够真正理解，没有人能够真正践行。我的言论有它的宗旨根本，我的行事有它的主导准则。正因为世人没有认识到这一点，所以才不能理解我。理解我的人极少，效法我的人就极其尊贵。因此圣人表面身穿粗布麻衣，而怀中却揣藏着温润的美玉。"
       }
     },
     {
       "id": "tao_chapter_71",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 71: Reconocer la Propia Ignorancia es Sabiduría",
       "capituloNumero": 71,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "知不知，尚矣；不知知，病也。聖人不病，以其病病。夫唯病病，是以不病。",
-      "foneticaLiturgica": "Dàodéjīng Dì 71 Zhāng...",
+      "foneticaLiturgica": "Zhī bù zhī， shàng yǐ； Bù zhī zhī， bìng yě。 Shèng rén bù bìng， yǐ qí bìng bìng。 Fū wéi bìng bìng， shì yǐ bù bìng。",
       "traducciones": {
-        "zh": "知不知，尚矣；不知知，病也。聖人不病，以其病病。夫唯病病，是以不病。"
+        "zh": "知道自己有所不知，这是最高明的境界；不知道却自以为知道，这是一种毛病病态。圣人之所以没有这种毛病，是因为他把这种毛病当作病态来戒惕。正因为他时刻戒惕这种毛病，所以才不会犯这种毛病。"
       }
     },
     {
       "id": "tao_chapter_72",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 72: La Reverencia por lo Sagrado y el Respeto a la Vida",
       "capituloNumero": 72,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "民不畏威，則大威至。無狎其所居，無厭其所生。夫唯不厭，是以不厭。是以聖人自知不自見；自愛不自貴。故去彼取此。",
-      "foneticaLiturgica": "Dàodéjīng Dì 72 Zhāng...",
+      "foneticaLiturgica": "Mín bù wèi wēi， zé dà wēi zhì。 Wú xiá qí suǒ jū， wú yàn qí suǒ shēng。 Fū wéi bù yàn， shì yǐ bù yàn。 Shì yǐ shèng rén zì zhī bù zì jiàn； Zì ài bù zì guì。 Gù qù bǐ qǔ cǐ。",
       "traducciones": {
-        "zh": "民不畏威，則大威至。無狎其所居，無厭其所生。夫唯不厭，是以不厭。是以聖人自知不自見；自愛不自貴。故去彼取此。"
+        "zh": "当百姓不再畏惧统治者的严酷威压时，天下动荡的大祸大乱就会降临。不要逼迫侵扰百姓安居的住所，不要压榨断绝百姓赖以维生的生计。正因为统治者不压迫厌弃百姓，所以百姓才不会厌弃反抗统治者。因此圣人深知自己却不自我炫耀，自尊自爱却不自显尊贵。所以舍弃自显炫耀，而选取深沉的自知与自爱。"
       }
     },
     {
       "id": "tao_chapter_73",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 73: La Red Celestial que Todo lo Abarca en Silencio",
       "capituloNumero": 73,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "勇於敢則殺，勇於不敢則活。此兩者，或利或害。天之所惡，孰知其故？是以聖人猶難之。天之道，不爭而善勝，不言而善應，不召而自來，繟然而善謀。天網恢恢，疏而不失。",
-      "foneticaLiturgica": "Dàodéjīng Dì 73 Zhāng...",
+      "foneticaLiturgica": "Yǒng yú gǎn zé shā， yǒng yú bù gǎn zé huó。 Cǐ liǎng zhě， huò lì huò hài。 Tiān zhī suǒ è， shú zhī qí gù？ Shì yǐ shèng rén yóu nán zhī。 Tiān zhī dào， bù zhēng ér shàn shèng， bù yán ér shàn yīng， bù zhào ér zì lái， chǎn rán ér shàn móu。 Tiān wǎng huī huī， shū ér bù shī。",
       "traducciones": {
-        "zh": "勇於敢則殺，勇於不敢則活。此兩者，或利或害。天之所惡，孰知其故？是以聖人猶難之。天之道，不爭而善勝，不言而善應，不召而自來，繟然而善謀。天網恢恢，疏而不失。"
+        "zh": "勇于敢作敢为逞强勇的就会招致死亡，勇于不敢妄为安守退让的就能得以存活。这两种勇敢，有的带来利益，有的带来祸害。上天所厌恶的，谁能知道其中的究竟因由呢？因此圣人对于敢勇之事依然慎重对待。天道的法则：不与人争却善于取胜，不说话却善于应和，不召唤万物自然归来，悠闲坦然却善于运筹帷幄。天网广大浩瀚无边，虽然网眼稀疏却没有任何遗漏丢失。"
       }
     },
     {
       "id": "tao_chapter_74",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 74: El Respeto al Gran Carpintero y el Misterio de la Vida",
       "capituloNumero": 74,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "民不畏死，奈何以死懼之？若使民常畏死，而為奇者，吾得執而殺之，孰敢？常有司殺者殺。夫代司殺者殺，是謂代大匠斲，夫代大匠斲者，希有不傷其手矣。",
-      "foneticaLiturgica": "Dàodéjīng Dì 74 Zhāng...",
+      "foneticaLiturgica": "Mín bù wèi sǐ， nài hé yǐ sǐ jù zhī？ Ruò shǐ mín cháng wèi sǐ， ér wèi qí zhě， wú dé zhí ér shā zhī， shú gǎn？ Cháng yǒu sī shā zhě shā。 Fū dài sī shā zhě shā， shì wèi dài dà jiàng zhuó， fū dài dà jiàng zhuó zhě， xī yǒu bù shāng qí shǒu yǐ。",
       "traducciones": {
-        "zh": "民不畏死，奈何以死懼之？若使民常畏死，而為奇者，吾得執而殺之，孰敢？常有司殺者殺。夫代司殺者殺，是謂代大匠斲，夫代大匠斲者，希有不傷其手矣。"
+        "zh": "当百姓不畏惧死亡的时候，怎么能用死亡来恐吓威胁他们呢？假使让百姓常常畏惧死亡，对于作恶作乱的人，我把他们抓起来杀掉，谁还敢胡作非为呢？世间始终有司掌杀戮的天道规律在执行死刑。如果代替司掌杀戮的天道去杀人，就如同代替技艺高超的木匠去砍削木头。代替大木匠砍削木头的人，很少有不砍伤自己双手的。"
       }
     },
     {
       "id": "tao_chapter_75",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 75: La Libertad de los Pueblos y el Daño del Exceso de Control",
       "capituloNumero": 75,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "民之飢，以其上食稅之多，是以飢。民之難治，以其上之有為，是以難治。民之輕死，以其上求生之厚，是以輕死。夫唯無以生為者，是賢於貴生。",
-      "foneticaLiturgica": "Dàodéjīng Dì 75 Zhāng...",
+      "foneticaLiturgica": "Mín zhī jī， yǐ qí shàng shí shuì zhī duō， shì yǐ jī。 Mín zhī nán zhì， yǐ qí shàng zhī yǒu wèi， shì yǐ nán zhì。 Mín zhī qīng sǐ， yǐ qí shàng qiú shēng zhī hòu， shì yǐ qīng sǐ。 Fū wéi wú yǐ shēng wèi zhě， shì xián yú guì shēng。",
       "traducciones": {
-        "zh": "民之飢，以其上食稅之多，是以飢。民之難治，以其上之有為，是以難治。民之輕死，以其上求生之厚，是以輕死。夫唯無以生為者，是賢於貴生。"
+        "zh": "百姓之所以遭受饥荒挨饿，是因为统治者吞食搜刮的租税太多，所以才挨饿。百姓之所以难以统治治理，是因为统治者政令繁苛妄作作为，所以才难以治理。百姓之所以轻视生命不怕死，是因为统治者过分追求奉养自身的生活享受，所以百姓才轻生冒死。唯有不过分追求生活享受厚养自身的人，才比贪求享受过度贵生的人更加贤明高尚。"
       }
     },
     {
       "id": "tao_chapter_76",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 76: La Flexibilidad de la Vida y la Rigidez de la Muerte",
       "capituloNumero": 76,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "人之生也柔弱，其死也堅強。草木之生也柔脆，其死也枯槁。故堅強者死之徒，柔弱者生之徒。是以兵強則滅，木強則折。強大處下，柔弱處上。",
-      "foneticaLiturgica": "Dàodéjīng Dì 76 Zhāng...",
+      "foneticaLiturgica": "Rén zhī shēng yě róu ruò， qí sǐ yě jiān qiáng。 Cǎo mù zhī shēng yě róu cuì， qí sǐ yě kū gǎo。 Gù jiān qiáng zhě sǐ zhī tú， róu ruò zhě shēng zhī tú。 Shì yǐ bīng qiáng zé miè， mù qiáng zé zhé。 Qiáng dà chù xià， róu ruò chù shàng。",
       "traducciones": {
-        "zh": "人之生也柔弱，其死也堅強。草木之生也柔脆，其死也枯槁。故堅強者死之徒，柔弱者生之徒。是以兵強則滅，木強則折。強大處下，柔弱處上。"
+        "zh": "人活着的时候身体是柔弱柔软的，死了之后身体就变得僵硬坚硬。草木活着的时候枝叶是柔嫩脆弱的，死了之后就变得枯槁干硬。所以坚硬刚强是走向死亡的同类，柔弱柔软是通向生机的同类。因此军队过于刚强逞勇就会走向覆灭，树木过于粗壮刚硬就会折断倒塌。强大刚烈处于劣势下位，柔顺弱小处于优势上位。"
       }
     },
     {
       "id": "tao_chapter_77",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 77: El Arco Celestial que Equilibra los Extremos",
       "capituloNumero": 77,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天之道，其猶張弓歟？高者抑之，下者舉之；有餘者損之，不足者補之。天之道，損有餘而補不足。人之道，則不然，損不足以奉有餘。孰能有餘以奉天下，唯有道者。是以聖人為而弗恃，功成而不居，其不欲見賢。",
-      "foneticaLiturgica": "Dàodéjīng Dì 77 Zhāng...",
+      "foneticaLiturgica": "Tiān zhī dào， qí yóu zhāng gōng yú？ Gāo zhě yì zhī， xià zhě jǔ zhī； Yǒu yú zhě sǔn zhī， bù zú zhě bǔ zhī。 Tiān zhī dào， sǔn yǒu yú ér bǔ bù zú。 Rén zhī dào， zé bù rán， sǔn bù zú yǐ fèng yǒu yú。 Shú néng yǒu yú yǐ fèng tiān xià， wéi yǒu dào zhě。 Shì yǐ shèng rén wèi ér fú shì， gōng chéng ér bù jū， qí bù yù jiàn xián。",
       "traducciones": {
-        "zh": "天之道，其猶張弓歟？高者抑之，下者舉之；有餘者損之，不足者補之。天之道，損有餘而補不足。人之道，則不然，損不足以奉有餘。孰能有餘以奉天下，唯有道者。是以聖人為而弗恃，功成而不居，其不欲見賢。"
+        "zh": "天道的规律，难道不正像拉开弓射箭一样吗？弦拉高了就把它压低一些，弦低了就把它抬高一些；有多余的就减损它，不足的就补充它。天道的法则，是减损有余的来补充不足的。而世俗人道的法则却不是这样，是减损贫困不足的来奉养富贵有余的。谁能够把有多余的奉献拿来奉献给天下人呢？唯有体悟大道的人才能做到。因此圣人有所作为而不自恃居功，大功告成了而不自居功劳，他不愿显露自己的贤能才华。"
       }
     },
     {
       "id": "tao_chapter_78",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 78: La Debilidad que Vence a la Fuerza como el Agua",
       "capituloNumero": 78,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "天下莫柔弱於水，而攻堅強者莫之能勝，以其無以易之。弱之勝強，柔之勝剛，天下莫不知，莫能行。是以聖人云：受國之垢，是謂社稷主；受國不祥，是為天下王。正言若反。",
-      "foneticaLiturgica": "Dàodéjīng Dì 78 Zhāng...",
+      "foneticaLiturgica": "Tiān xià mò róu ruò yú shuǐ， ér gōng jiān qiáng zhě mò zhī néng shèng， yǐ qí wú yǐ yì zhī。 Ruò zhī shèng qiáng， róu zhī shèng gāng， tiān xià mò bù zhī， mò néng xíng。 Shì yǐ shèng rén yún： shòu guó zhī gòu， shì wèi shè jì zhǔ； Shòu guó bù xiáng， shì wèi tiān xià wáng。 Zhèng yán ruò fǎn。",
       "traducciones": {
-        "zh": "天下莫柔弱於水，而攻堅強者莫之能勝，以其無以易之。弱之勝強，柔之勝剛，天下莫不知，莫能行。是以聖人云：受國之垢，是謂社稷主；受國不祥，是為天下王。正言若反。"
+        "zh": "天下没有比水更柔弱的事物，然而攻击坚硬强固的事物却没有能胜过水的，因为没有任何东西能够取代它。弱能够战胜强，柔能够战胜刚，天下人没有人不知道这个道理，却没有人能够真正身体力行。因此圣人说：承担全国屈辱污垢的人，才配称作社稷江山的主人；承担全国灾难不祥的人，才配成为天下的君王。合乎正道的话听起来往往像是相反的反话。"
       }
     },
     {
       "id": "tao_chapter_79",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 79: Cumplir la Promesa sin Exigir a los Demás",
       "capituloNumero": 79,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "和大怨，必有餘怨；報怨以德，安可以為善？是以聖人執左契，而不責於人。有德司契，無德司徹。天道無親，常與善人。",
-      "foneticaLiturgica": "Dàodéjīng Dì 79 Zhāng...",
+      "foneticaLiturgica": "Hé dà yuàn， bì yǒu yú yuàn； Bào yuàn yǐ dé， ān kě yǐ wèi shàn？ Shì yǐ shèng rén zhí zuǒ qì， ér bù zé yú rén。 Yǒu dé sī qì， wú dé sī chè。 Tiān dào wú qīn， cháng yǔ shàn rén。",
       "traducciones": {
-        "zh": "和大怨，必有餘怨；報怨以德，安可以為善？是以聖人執左契，而不責於人。有德司契，無德司徹。天道無親，常與善人。"
+        "zh": "调解了重大的怨恨，必定还会残留一些余怨；如果用大德去报答怨恨，怎么能算作彻底妥善的善举呢？因此圣人持有借契的存根（左契），却不强行向别人索取逼债。有德的人就像持有契约宽厚待人，无德的人就像苛刻收税严厉搜刮。天道没有偏私偏爱，却始终眷顾佑助善良的人。"
       }
     },
     {
       "id": "tao_chapter_80",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 80: La Paz de la Aldea y la Vida Armoniosa",
       "capituloNumero": 80,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "小國寡民。使有什伯之器而不用；使民重死而不遠徙。雖有舟輿，無所乘之，雖有甲兵，無所陳之。使民復結繩而用之。甘其食，美其服，安其居，樂其俗。鄰國相望，雞犬之聲相聞，民至老死，不相往來。",
-      "foneticaLiturgica": "Dàodéjīng Dì 80 Zhāng...",
+      "foneticaLiturgica": "Xiǎo guó guǎ mín。 Shǐ yǒu shén bó zhī qì ér bù yòng； Shǐ mín zhòng sǐ ér bù yuǎn xǐ。 Suī yǒu zhōu yú， wú suǒ chéng zhī， suī yǒu jiǎ bīng， wú suǒ chén zhī。 Shǐ mín fù jié shéng ér yòng zhī。 Gān qí shí， měi qí fú， ān qí jū， lè qí sú。 Lín guó xiāng wàng， jī quǎn zhī shēng xiāng wén， mín zhì lǎo sǐ， bù xiāng wǎng lái。",
       "traducciones": {
-        "zh": "小國寡民。使有什伯之器而不用；使民重死而不遠徙。雖有舟輿，無所乘之，雖有甲兵，無所陳之。使民復結繩而用之。甘其食，美其服，安其居，樂其俗。鄰國相望，雞犬之聲相聞，民至老死，不相往來。"
+        "zh": "国家要小，人口要少。即使有成百上千种器械器具也不用它；使百姓看重生命而不轻易向远方迁徙。虽然有船只和车辆，却没有乘坐出行的需要；虽然有铠甲和武器，却没有陈列布防的场合。使百姓重新回复到结绳记事的纯朴时代。吃得香甜可口，穿得舒适美观，住得安宁踏实，过得欢乐融洽。邻国之间彼此看得见，鸡鸣狗叫的声音互相听得见，而百姓直到老死，也不用为了争名夺利而互相往来纷扰。"
       }
     },
     {
       "id": "tao_chapter_81",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 81: La Verdad Serena y la Plenitud del Sabio que Da Todo sin Reservas",
       "capituloNumero": 81,
       "seccion": "Dejing · El Libro de la Virtud",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "1",
       "idiomaLiturgicoOriginal": "Chino Clásico (文言文 · 道德經)",
       "dir": "ltr",
       "textoOriginal": "信言不美，美言不信。善者不辯，辯者不善。知者不博，博者不知。聖人不積，既以為人己愈有，既以與人己愈多。天之道，利而不害；聖人之道，為而不爭。",
-      "foneticaLiturgica": "Dàodéjīng Dì 81 Zhāng...",
+      "foneticaLiturgica": "Xìn yán bù měi， měi yán bù xìn。 Shàn zhě bù biàn， biàn zhě bù shàn。 Zhī zhě bù bó， bó zhě bù zhī。 Shèng rén bù jī， jì yǐ wèi rén jǐ yù yǒu， jì yǐ yǔ rén jǐ yù duō。 Tiān zhī dào， lì ér bù hài； Shèng rén zhī dào， wèi ér bù zhēng。",
       "traducciones": {
-        "zh": "信言不美，美言不信。善者不辯，辯者不善。知者不博，博者不知。聖人不積，既以為人己愈有，既以與人己愈多。天之道，利而不害；聖人之道，為而不爭。"
+        "zh": "真实可信的话听起来并不华美，华美动听的话听起来往往不可信。善良的人不与人争辩辩驳，喜欢巧言辩驳的人往往不善良。真正通晓大智的人不卖弄博杂见识，到处炫耀博杂见识的人不是真正懂道。圣人不私自积蓄财富，既然全心全意帮助别人，自己反而更加充实富有；既然毫无保留给予别人，自己拥有的反而更加丰厚多广。天道的法则，是利益万物而不伤害万物；圣人的处世之道，是有所作为而不与世人争竞争夺。"
       }
     }
   ]
