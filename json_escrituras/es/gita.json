@@ -1,10 +1,14 @@
 {
   "metadata": {
     "libroKey": "gita",
-    "titulo": "El Srimad Bhagavad Gita (El Canto Celestial del Señor Krishna)",
+    "titulo": "El Srimad Bhagavad Gita (El Canto Celestial del Señor Krishna · श्रीमद्भगवद्गीता)",
     "totalCapitulos": 18,
+    "idiomasDisponibles": [
+      "es"
+    ],
     "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Mahabharata (Bhishma Parva) · Sánscrito Clásico y Traducción Devocional en Español",
+    "completitud": "100% Exhaustivo · 18 Yogas Canónicos Completos",
     "idioma": "es",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"

@@ -1,10 +1,14 @@
 {
   "metadata": {
     "libroKey": "dhammapada",
-    "titulo": "El Dhammapada de Buda (El Camino de la Doctrina Sagrada)",
+    "titulo": "El Dhammapada de Buda (El Camino de la Sagrada Doctrina · धम्मपद)",
     "totalCapitulos": 26,
+    "idiomasDisponibles": [
+      "es"
+    ],
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "fuenteOficial": "Khuddaka Nikaya (Pali Canon / Tipitaka) · Traducción Canónica en Español",
+    "completitud": "100% Exhaustivo · 26 Vaggas Canónicas Completas",
     "idioma": "es",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
