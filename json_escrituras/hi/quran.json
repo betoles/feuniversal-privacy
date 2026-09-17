@@ -4,25 +4,11 @@
     "titulo": "पवित्र क़ुरआन (अल-क़ुरआन अल-करीम)",
     "totalCapitulos": 114,
     "idiomasDisponibles": [
-      "ar",
-      "en",
-      "es",
-      "fr",
-      "de",
-      "ru",
-      "zh",
-      "ja",
-      "hi",
-      "bn",
-      "ur",
-      "pt",
-      "it",
-      "sw",
-      "id"
+      "hi"
     ],
     "fuenteOficial": "Tanzil / King Fahd Quran Complex / AlQuran.cloud API",
     "version": "4.0.0-canonical-complete",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · 114 Suras / 6,236 Aleyas Canónicas en Hindi (Traducción Farooq Khan / Ahmed)",
     "idioma": "hi",
     "esquema": "modular_lazy_v4",
     "dir": "ltr"
