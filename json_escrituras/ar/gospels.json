@@ -4,28 +4,14 @@
     "titulo": "الأناجيل المقدسة القانونية (متى، مرقس، لوقا، يوحنا)",
     "totalCapitulos": 89,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "ar"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · 4 Evangelios Canónicos (3,779 Versículos)",
     "idioma": "ar",
     "esquema": "modular_lazy_v4",
-    "dir": "rtl"
+    "dir": "rtl",
+    "fuenteOficial": "ترجمة سميث وفاندايك (Smith & Van Dyke 1865) · الأناجيل المقدسة الأربعة",
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {

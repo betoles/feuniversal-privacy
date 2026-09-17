@@ -4,28 +4,14 @@
     "titulo": "الرسائل الرسولية وأعمال الرسل",
     "totalCapitulos": 121,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "ar"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · 21 Epístolas + Hechos de los Apóstoles (2,767 Versículos)",
     "idioma": "ar",
     "esquema": "modular_lazy_v4",
-    "dir": "rtl"
+    "dir": "rtl",
+    "fuenteOficial": "ترجمة سميث وفاندايك (Smith & Van Dyke 1865) · الرسائل الرسولية وأعمال الرسل",
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {
@@ -2184,7 +2170,7 @@
       "textoOriginal": "1. Senior Gaio charissimo, quem ego diligo in veritate.\n2. Charissime, de omnibus orationem facio prospere te ingredi, et valere, sicut prospere agit anima tua.\n3. Gavisus sum valde venientibus fratribus, et testimonium perhibentibus veritati tuæ, sicut tu in veritate ambulas.\n4. Maiorem horum non habeo gratiam, quam ut audiam filios meos in veritate ambulare.\n5. Charissime, fideliter facis quidquid operaris in fratres, et hoc in peregrinos,\n6. qui testimonium reddiderunt charitati tuæ in conspectu Ecclesiæ: quos, benefaciens, deduces digne Deo.\n7. Pro nomine enim eius profecti sunt, nihil accipientes a Gentibus.\n8. Nos ergo debemus suscipere huiusmodi, ut cooperatores simus veritatis.\n9. Scripsissem forsitan Ecclesiæ: sed is, qui amat primatum genere in eis, Diotrephes, non recipit nos.\n10. propter hoc si venero, commonebo eius opera, quæ facit: verbis malignis garriens in nos: et quasi non ei ista sufficient: neque ipse suscipit fratres: et eos, qui suscipiunt, prohibet, et de Ecclesia eiicit.\n11. Charissime, noli imitari malum, sed quod bonum est. Qui benefacit, ex Deo est: qui malefacit, non vidit Deum.\n12. Demetrio testimonium redditur ab omnibus, et ab ipsa veritate, sed et nos testimonium perhibemus: et nosti quoniam testimonium nostrum verum est.\n13. Multa habui tibi scribere: sed nolui per atramentum et calamum scribere tibi.\n14. Spero autem protinus te videre, et os ad os loquemur. Pax tibi. Salutant te amici. Saluta amicos nominatim.",
       "foneticaLiturgica": "Tercera Epístola de San Juan · Capítulo 1",
       "traducciones": {
-        "ar": "1.:\n2. ايها الحبيب في كل شيء اروم ان تكون ناجحا وصحيحا كما ان نفسك ناجحة.\n3. لاني فرحت جدا اذ حضر اخوة وشهدوا بالحق الذي فيك كما انك تسلك بالحق.\n4. ليس لي فرح اعظم من هذا ان اسمع عن اولادي انهم يسلكون بالحق\n5. ايها الحبيب انت تفعل بالامانة كل ما تصنعه الى الاخوة والى الغرباء\n6. الذين شهدوا بمحبتك امام الكنيسة. الذين تفعل حسنا اذا شيعتهم كما يحق للّه\n7. لانهم من اجل اسمه خرجوا وهم لا يأخذون شيئا من الامم.\n8. فنحن ينبغي لنا ان نقبل امثال هؤلاء لكي نكون عاملين معهم بالحق\n9. كتبت الى الكنيسة ولكن ديوتريفس الذي يحب ان يكون الاول بينهم لا يقبلنا.\n10. من اجل ذلك اذا جئت فسأذكّره باعماله التي يعملها هاذرا علينا باقوال خبيثة. واذ هو غير مكتف بهذه لا يقبل الاخوة ويمنع ايضا الذين يريدون ويطردهم من الكنيسة.\n11. ايها الحبيب لا تتمثل بالشر بل بالخير لان من يصنع الخير هو من الله ومن يصنع الشر فلم يبصر الله\n12. ديمتريوس مشهود له من الجميع ومن الحق نفسه ونحن ايضا نشهد وانتم تعلمون ان شهادتنا هي صادقة\n13. وكان لي كثير لاكتبه لكنني لست اريد ان اكتب اليك بحبر وقلم\n14. ولكنني ارجو ان اراك عن قريب فنتكلم فما لفم. ( [ (III John 1:15) ) سلام لك. يسلم عليك الاحباء. سلم على الاحباء باسمائهم"
+        "ar": "1. الشيخ، الى غايوس الحبيب الذي انا احبه بالحق.\n2. ايها الحبيب في كل شيء اروم ان تكون ناجحا وصحيحا كما ان نفسك ناجحة.\n3. لاني فرحت جدا اذ حضر اخوة وشهدوا بالحق الذي فيك كما انك تسلك بالحق.\n4. ليس لي فرح اعظم من هذا ان اسمع عن اولادي انهم يسلكون بالحق\n5. ايها الحبيب انت تفعل بالامانة كل ما تصنعه الى الاخوة والى الغرباء\n6. الذين شهدوا بمحبتك امام الكنيسة. الذين تفعل حسنا اذا شيعتهم كما يحق للّه\n7. لانهم من اجل اسمه خرجوا وهم لا يأخذون شيئا من الامم.\n8. فنحن ينبغي لنا ان نقبل امثال هؤلاء لكي نكون عاملين معهم بالحق\n9. كتبت الى الكنيسة ولكن ديوتريفس الذي يحب ان يكون الاول بينهم لا يقبلنا.\n10. من اجل ذلك اذا جئت فسأذكّره باعماله التي يعملها هاذرا علينا باقوال خبيثة. واذ هو غير مكتف بهذه لا يقبل الاخوة ويمنع ايضا الذين يريدون ويطردهم من الكنيسة.\n11. ايها الحبيب لا تتمثل بالشر بل بالخير لان من يصنع الخير هو من الله ومن يصنع الشر فلم يبصر الله\n12. ديمتريوس مشهود له من الجميع ومن الحق نفسه ونحن ايضا نشهد وانتم تعلمون ان شهادتنا هي صادقة\n13. وكان لي كثير لاكتبه لكنني لست اريد ان اكتب اليك بحبر وقلم\n14. ولكنني ارجو ان اراك عن قريب فنتكلم فما لفم. ( [ (III John 1:15) ) سلام لك. يسلم عليك الاحباء. سلم على الاحباء باسمائهم"
       },
       "capituloRelativo": 1
     },
