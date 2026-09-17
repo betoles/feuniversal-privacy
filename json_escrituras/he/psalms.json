@@ -4,28 +4,14 @@
     "titulo": "ספר תהילים לדוד המלך (מזמורי תהילים)",
     "totalCapitulos": 150,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "he"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · 150 מזמורים מלאים (2461 פסוקים)",
     "idioma": "he",
     "esquema": "modular_lazy_v4",
-    "dir": "rtl"
+    "dir": "rtl",
+    "fuenteOficial": "ספר תהילים (מזמורי דוד המלך) · נוסח המסורה",
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {

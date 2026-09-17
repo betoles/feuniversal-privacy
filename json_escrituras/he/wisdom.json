@@ -4,28 +4,14 @@
     "titulo": "ספרי חכמה ומשלי שלמה (ספר משלי וקהלת)",
     "totalCapitulos": 31,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "he"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · 31 פרקים במשלי (915 פסוקים)",
     "idioma": "he",
     "esquema": "modular_lazy_v4",
-    "dir": "rtl"
+    "dir": "rtl",
+    "fuenteOficial": "ספר משלי לשלמה המלך · נוסח המסורה",
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {

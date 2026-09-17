@@ -4,28 +4,14 @@
     "titulo": "חמישה חומשי תורה הקדושים (תורת משה)",
     "totalCapitulos": 90,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "he"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · 90 פרקים מלאים בתורה (2736 פסוקי מסורה)",
     "idioma": "he",
     "esquema": "modular_lazy_v4",
-    "dir": "rtl"
+    "dir": "rtl",
+    "fuenteOficial": "חמישה חומשי תורה (בראשית ושמות) · נוסח המסורה",
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {
