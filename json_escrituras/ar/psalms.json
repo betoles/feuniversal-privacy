@@ -4,28 +4,14 @@
     "titulo": "سفر المزامير لداود (مزامير / تهليم)",
     "totalCapitulos": 150,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "ar"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · سفر المزامير الكامل (150 مزموراً / 2461 آية)",
     "idioma": "ar",
     "esquema": "modular_lazy_v4",
-    "dir": "rtl"
+    "dir": "rtl",
+    "fuenteOficial": "ترجمة سميث وفاندايك (Smith & Van Dyke 1865) · سفر المزامير (مزامير داود)",
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {
