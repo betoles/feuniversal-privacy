@@ -4,28 +4,14 @@
     "titulo": "यूहन्ना का प्रकाशितवाक्य (रहस्योद्घाटन)",
     "totalCapitulos": 22,
     "idiomasDisponibles": [
-      "es",
-      "en",
-      "de",
-      "fr",
-      "pt",
-      "ru",
-      "zh",
-      "ar",
-      "la",
-      "it",
-      "ja",
-      "sw",
-      "he",
-      "hi",
-      "bn",
-      "ur",
-      "id"
+      "hi"
     ],
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · Apocalipsis de San Juan en Hindi (404 Versículos)",
     "idioma": "hi",
     "esquema": "modular_lazy_v4",
-    "dir": "ltr"
+    "dir": "ltr",
+    "fuenteOficial": "Hindi Holy Bible (BSI / Hindi Contemporary Version)",
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {
