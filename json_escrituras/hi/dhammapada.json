@@ -3,8 +3,8 @@
     "libroKey": "dhammapada",
     "titulo": "धम्मपद (भगवान बुद्ध की पावन वाणी)",
     "totalCapitulos": 26,
-    "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-    "completitud": "100% Exhaustivo · 26 Vaggas del Dhammapada en Hindi",
+    "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
+    "completitud": "100% Exhaustivo · 26 Vaggas Canónicos (Selección Esencial Devocional)",
     "idioma": "hi",
     "esquema": "modular_lazy_v4",
     "dir": "ltr",
@@ -20,16 +20,16 @@
       "tradicion": "budismo",
       "libro": "El Dhammapada (Palabras de Sabiduría)",
       "libroKey": "dhammapada",
-      "capitulo": "Capítulo 1: Yamakavagga (Los Versos Gemelos (La Mente y el Karma))",
+      "capitulo": "Capítulo 1: Yamakavagga (Los Versos Gemelos: La Mente y el Karma)",
       "capituloNumero": 1,
       "seccion": "Tipitaka · Khuddaka Nikaya · Los Versos Gemelos (La Mente y el Karma)",
-      "versiculoNumero": "1-20",
+      "versiculoNumero": "1-2",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पदुट्ठेन भासति वा करोति वा। ततो नं दुक्खमन्वेति चक्कंव वहतो पदं॥ मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पसन्नेन भासति वा करोति वा। ततो नं सुखमन्वेति छायाव अनपायिनी॥",
       "foneticaLiturgica": "Manopubbaṅgamā dhammā manoseṭṭhā manomayā | manasā ce paduṭṭhena bhāsati vā karoti vā...",
       "traducciones": {
-        "hi": "1. मन सभी मानसिक अवस्थाओं से पहले आता है। मन उनका प्रधान है; वे सभी मन से निर्मित हैं। यदि कोई व्यक्ति अशुद्ध मन से बोलता है या कार्य करता है तो दुख उसका पीछा करता है।\n2. यदि कोई व्यक्ति सच्चे मन से बोलता है या कार्य करता है तो खुशी कभी न छूटने वाली परछाई की तरह उसके साथ चलती है।"
+        "hi": "1. मन सभी मानसिक अवस्थाओं का अगुआ है। मन ही उनका प्रधान है और वे सब मन से ही निर्मित हैं। यदि कोई मनुष्य दूषित मन से बोलता या काम करता है, तो दुःख उसका वैसे ही पीछा करता है जैसे गाड़ी का पहिया खींचने वाले बैल के पैरों का।\n2. मन सभी मानसिक अवस्थाओं का अगुआ है। मन ही उनका प्रधान है और वे सब मन से ही निर्मित हैं। यदि कोई मनुष्य शुद्ध मन से बोलता या काम करता है, तो सुख उसकी कभी न छोड़ने वाली परछाई की भांति उसके साथ-साथ चलता है।"
       },
       "capituloRelativo": 1
     },
@@ -41,13 +41,13 @@
       "capitulo": "Capítulo 2: Appamadavagga (La Atención y la Consciencia Plena)",
       "capituloNumero": 2,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Atención y la Consciencia Plena",
-      "versiculoNumero": "21-32",
+      "versiculoNumero": "21-22",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "अप्पमादो अमतपदं पमादो मच्चुनो पदं। अप्पमत्ता न मीयन्ति ये पमत्ता यथा मता॥",
       "foneticaLiturgica": "Appamādo amatapadaṁ pamādo maccuno padaṁ | appamattā na mīyanti ye pamattā yathā matā ||",
       "traducciones": {
-        "hi": "21. 'सावधानी अमरता का मार्ग है; असावधानी मृत्यु का मार्ग है। सावधान रहनेवाले नहीं मरते; असावधान लोग मरे हुओं के समान हैं।'"
+        "hi": "21. अप्रमाद (सजगता) अमृत का पद है, और प्रमाद (लापरवाही) मृत्यु का पद है। जो अप्रमादी हैं वे कभी नहीं मरते, और जो प्रमादी हैं वे मरे हुए के समान हैं।\n22. इस भेद को स्पष्ट रूप से जानकर, बुद्धिमान लोग अप्रमाद में लीन रहते हैं और आर्यों के गोचर में आनन्दित होते हैं।"
       },
       "capituloRelativo": 2
     },
@@ -59,13 +59,13 @@
       "capitulo": "Capítulo 3: Cittavagga (El Dominio y la Serenidad de la Mente)",
       "capituloNumero": 3,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio y la Serenidad de la Mente",
-      "versiculoNumero": "33-43",
+      "versiculoNumero": "33",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "फन्दनं चपलं चित्तं दुरक्खं दुन्निवारयं। उजुं करोति मेधावी उसुकारोव तेजनं॥",
       "foneticaLiturgica": "Phandanaṁ capalaṁ cittaṁ durakkhaṁ dunnivārayaṁ | ujuṁ karoti medhāvī usukāro'va tejanaṁ ||",
       "traducciones": {
-        "hi": "33. 'जिस प्रकार एक फ्लेचर तीर को सीधा करता है, उसी प्रकार बुद्धिमान व्यक्ति अस्थिर, चंचल मन को सीधा करता है, जिसकी रक्षा करना और नियंत्रित करना कठिन है।'"
+        "hi": "33. जिस प्रकार तीर बनाने वाला बाण को सीधा करता है, उसी प्रकार बुद्धिमान व्यक्ति अपने चंचल और अस्थिर मन को सीधा करता है, जिस पर नियंत्रण रखना कठिन है।"
       },
       "capituloRelativo": 3
     },
@@ -77,13 +77,13 @@
       "capitulo": "Capítulo 4: Pupphavagga (Las Flores de la Sabiduría)",
       "capituloNumero": 4,
       "seccion": "Tipitaka · Khuddaka Nikaya · Las Flores de la Sabiduría",
-      "versiculoNumero": "44-59",
+      "versiculoNumero": "44-45",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "यथापि रुचिरं पुप्फं वण्णवन्तं अगन्धकं। एवं सुभासिता वाचा अफला होती अकुब्बतो॥ यथापि रुचिरं पुप्फं वण्णवन्तं सगन्धकं। एवं सुभासिता वाचा सफला होती सुकुब्बतो॥",
       "foneticaLiturgica": "Yathāpi ruciraṁ pupphaṁ vaṇṇavantaṁ agandhakaṁ...",
       "traducciones": {
-        "hi": "51. 'जैसे एक सुंदर फूल रंगों से भरा होता है लेकिन सुगंध के बिना, वैसे ही, उस व्यक्ति के उचित शब्द निष्फल होते हैं जो उन पर अमल नहीं करता है।'"
+        "hi": "44. इस पृथ्वी, यमलोक और देवताओं सहित इस संसार को कौन जानेगा? सुस्पष्ट धर्मपद का चयन कौन करेगा, जैसे कुशल मालाकार फूलों को चुनता है?\n45. साधक ही इस पृथ्वी, यमलोक और देवलोक को जानेगा। साधक ही सुस्पष्ट धर्मपद का चयन करेगा, जैसे चतुर मालाकार उत्तम फूलों का चयन करता है।"
       },
       "capituloRelativo": 4
     },
@@ -95,13 +95,13 @@
       "capitulo": "Capítulo 5: Balavagga (El Necio y el Apego)",
       "capituloNumero": 5,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Necio y el Apego",
-      "versiculoNumero": "60-75",
+      "versiculoNumero": "60",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "दीघा जागरतो रत्ति दीघं सन्तस्स योजनं। दीघो बालानं संसारो सद्धम्मं अविजानतं॥",
       "foneticaLiturgica": "Dīghā jāgarato ratti dīghaṁ santassa yojanaṁ...",
       "traducciones": {
-        "hi": "60. सोने वालों के लिये रात बहुत लम्बी है; थके हुए यात्री के लिए मार्ग लंबा है; उन मूर्खों के लिए पुनर्जन्म का चक्र लंबा है जो उत्कृष्ट सत्य को नहीं जानते हैं।"
+        "hi": "60. जागने वाले के लिए रात लंबी होती है; थके हुए यात्री के लिए मार्ग लंबा होता है; और उन मूर्खों के लिए संसार का चक्र लंबा होता है जो सत्य धर्म को नहीं जानते।"
       },
       "capituloRelativo": 5
     },
@@ -113,13 +113,13 @@
       "capitulo": "Capítulo 6: Panditavagga (El Hombre Sabio e Iluminado)",
       "capituloNumero": 6,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Sabio e Iluminado",
-      "versiculoNumero": "76-89",
+      "versiculoNumero": "76",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "सेलो यथा एकघनो वातेन न समीरति। एवं निन्दापसंसासु न सम्मिञ्जन्ति पण्डिता॥",
       "foneticaLiturgica": "Selo yathā ekaghano vātena na samīrati | evaṁ nindā-pasaṁsāsu na sammiñjanti paṇḍitā ||",
       "traducciones": {
-        "hi": "81. 'जैसे ठोस चट्टान हवा से नहीं हिलती, वैसे ही बुद्धिमान लोग प्रशंसा या निंदा से नहीं हिलते।'"
+        "hi": "76. जो व्यक्ति दोषों को दिखाने वाला और छिपे हुए खजाने को बताने वाले के समान फटकारने वाला हो, ऐसे बुद्धिमान और ज्ञानी पुरुष की संगति करनी चाहिए। ऐसे पुरुष की संगति करने वाले का कल्याण ही होता है, अकल्याण नहीं।"
       },
       "capituloRelativo": 6
     },
@@ -131,13 +131,13 @@
       "capitulo": "Capítulo 7: Arahantavagga (El Santo que Alcanzó la Paz Suprema)",
       "capituloNumero": 7,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Santo que Alcanzó la Paz Suprema",
-      "versiculoNumero": "90-99",
+      "versiculoNumero": "90",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "गताद्धिनो विसोकस्स विप्पमुत्तस्स सब्बधि। सब्बगन्थप्पहीनस्स परिळाहो न विज्जति॥",
       "foneticaLiturgica": "Gataddhino visokassa vippamuttassa sabbadhi...",
       "traducciones": {
-        "hi": "90. 'जिसने यात्रा पूरी कर ली है, जो दुःख से मुक्त है, हर तरह से मुक्त है, और जिसने सभी बंधनों को नष्ट कर दिया है, उसके लिए जुनून का बुखार नहीं रहता है।'"
+        "hi": "90. जिसने अपनी यात्रा पूरी कर ली है, जो शोक-रहित है, जो सब प्रकार से मुक्त हो चुका है और जिसने सब ग्रंथियों को तोड़ दिया है, उसे कोई संताप नहीं होता।"
       },
       "capituloRelativo": 7
     },
@@ -149,13 +149,13 @@
       "capitulo": "Capítulo 8: Sahassavagga (El Valor de los Mil Pasajes y la Paz Interior)",
       "capituloNumero": 8,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Valor de los Mil Pasajes y la Paz Interior",
-      "versiculoNumero": "100-115",
+      "versiculoNumero": "100",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "सहस्समपि चे वाचा अनत्थपदसंहिता। एकं अत्थपदं सेय्यो यं सुत्वा उपसम्मति॥",
       "foneticaLiturgica": "Sahassam api ce vācā anattha-pada-saṁhitā | ekaṁ attha-padaṁ seyyo yaṁ sutvā upasammati ||",
       "traducciones": {
-        "hi": "100. 'हजारों बेकार शब्दों से बेहतर एक सार्थक शब्द है, जिसे सुनकर शांति मिलती है।'"
+        "hi": "100. व्यर्थ के पदों से युक्त हज़ार वाणियों के भाषण से वह एक सार्थक पद अधिक श्रेष्ठ है, जिसे सुनकर मनुष्य को परम शांति प्राप्त होती है।"
       },
       "capituloRelativo": 8
     },
@@ -167,13 +167,13 @@
       "capitulo": "Capítulo 9: Papavagga (El Mal y la Protección de la Virtud)",
       "capituloNumero": 9,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Mal y la Protección de la Virtud",
-      "versiculoNumero": "116-128",
+      "versiculoNumero": "116",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "अभिथरेथ कल्याणे पापा चित्तं निवारये। दन्धं हि करोतो पुञ्ञं पापिस्मिं रमती मनो॥",
       "foneticaLiturgica": "Abhittharetha kalyāṇe pāpā cittaṁ nivāraye...",
       "traducciones": {
-        "hi": "116. 'नेकी करने में जल्दी करो; अपने मन को बुराई से रोकें। यदि कोई अच्छा करने में धीमा है, तो उसका मन बुराई में आनंद पाता है।'"
+        "hi": "116. शुभ कार्य करने में शीघ्रता करनी चाहिए और मन को पाप से रोकना चाहिए; क्योंकि पुण्य कार्य करने में ढिलाई करने वाले का मन पाप में रमने लगता है।"
       },
       "capituloRelativo": 9
     },
@@ -185,13 +185,13 @@
       "capitulo": "Capítulo 10: Dandavagga (La Compasión y la No-Violencia hacia Todos los Seres)",
       "capituloNumero": 10,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Compasión y la No-Violencia hacia Todos los Seres",
-      "versiculoNumero": "129-145",
+      "versiculoNumero": "129",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "सब्बे तसन्ति दण्डस्स सब्बे भायन्ति मच्चुनो। अत्तानं उपमं कत्वा न हनेय्य न घातये॥",
       "foneticaLiturgica": "Sabbe tasanti daṇḍassa sabbe bhāyanti maccuno | attānaṁ upamaṁ katvā na haneyya na ghātaye ||",
       "traducciones": {
-        "hi": "129. 'हिंसा से सब कांपते हैं; सभी मृत्यु से डरते हैं. स्वयं को दूसरे के स्थान पर रखकर न तो किसी को मारना चाहिए और न ही किसी को मरवाना चाहिए।'"
+        "hi": "129. सब दंड से कांपते हैं; सभी को मृत्यु से भय लगता है। अपने आप को दूसरों के स्थान पर रखकर, न किसी पर प्रहार करें और न किसी का वध करवाएं।"
       },
       "capituloRelativo": 10
     },
@@ -203,13 +203,13 @@
       "capitulo": "Capítulo 11: Jaravagga (La Vejez y la Transitoriedad de la Vida)",
       "capituloNumero": 11,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Vejez y la Transitoriedad de la Vida",
-      "versiculoNumero": "146-156",
+      "versiculoNumero": "146",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "को नु हासो किमानन्दो निच्चं पज्जलितो सति। अन्धकारेन ओनद्धा पदीपं न गवेस्सथ॥",
       "foneticaLiturgica": "Ko nu hāso kim ānando niccaṁ pajjalite sati...",
       "traducciones": {
-        "hi": "146. 'हंसी क्यों है, खुशी क्यों है, जब दुनिया हमेशा जल रही है? अंधकार से घिरे हुए, क्या तुम प्रकाश की तलाश नहीं करोगे?'"
+        "hi": "146. जब यह संसार निरंतर प्रज्वलित हो रहा है, तब यह कैसी हंसी और कैसा आनंद? अंधकार से घिरे हुए तुम प्रकाश की खोज क्यों नहीं करते?"
       },
       "capituloRelativo": 11
     },
@@ -221,13 +221,13 @@
       "capitulo": "Capítulo 12: Attavagga (El Sí Mismo y la Autorrealización)",
       "capituloNumero": 12,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Sí Mismo y la Autorrealización",
-      "versiculoNumero": "157-166",
+      "versiculoNumero": "157",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "अत्ता हि अत्तनो नाथो को हि नाथो परो सिया। अत्तना हि सुदन्तेन नाथं लभति दुल्लभं॥",
       "foneticaLiturgica": "Attā hi attano nātho ko hi nātho paro siyā | attanā hi sudantena nāthaṁ labhati dullabhaṁ ||",
       "traducciones": {
-        "hi": "160. 'वास्तव में वही अपना रक्षक है; रक्षक और कौन हो सकता है? अपने आप को पूरी तरह से नियंत्रित करने से व्यक्ति ऐसी महारत हासिल कर लेता है जिसे पाना मुश्किल है।'"
+        "hi": "157. यदि मनुष्य अपने आप को प्रिय समझता है, तो उसे अपनी भली-भांति रक्षा करनी चाहिए। बुद्धिमान पुरुष को रात के तीनों पहरों में से किसी एक पहर में अवश्य जागते रहना चाहिए।"
       },
       "capituloRelativo": 12
     },
@@ -239,13 +239,13 @@
       "capitulo": "Capítulo 13: Lokavagga (El Mundo y el Despertar de la Ilusión)",
       "capituloNumero": 13,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Mundo y el Despertar de la Ilusión",
-      "versiculoNumero": "167-178",
+      "versiculoNumero": "167",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "यथा बुब्बुळकं पस्से यथा पस्से मरीचिकं। एवं लोकं अवेक्खन्तं मच्चुराजा न पस्सति॥",
       "foneticaLiturgica": "Yathā bubbuḷakaṁ passe yathā passe marīcikaṁ...",
       "traducciones": {
-        "hi": "170. 'संसार को एक बुलबुले के रूप में देखो, इसे एक मृगतृष्णा के रूप में देखो। मृत्यु का राजा उसे नहीं देखता जो इस प्रकार संसार को तुच्छ दृष्टि से देखता है।'"
+        "hi": "167. हीन धर्म का आचरण न करे; प्रमाद के साथ जीवन न बिताए; मिथ्या दृष्टि का सेवन न करे और संसार को बढ़ाने वाला न बने।"
       },
       "capituloRelativo": 13
     },
@@ -257,13 +257,13 @@
       "capitulo": "Capítulo 14: Buddhavagga (El Iluminado y el Cese del Sufrimiento)",
       "capituloNumero": 14,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Iluminado y el Cese del Sufrimiento",
-      "versiculoNumero": "179-196",
+      "versiculoNumero": "179",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "सब्बपापस्स अकरणं कुसलस्स उपसम्पदा। सचित्तपरियोदपनं एतं बुद्धान सासनं॥",
       "foneticaLiturgica": "Sabbapāpassa akaraṇaṁ kusalassa upasampadā | sacittapariyodapanaṁ etaṁ buddhāna sāsanaṁ ||",
       "traducciones": {
-        "hi": "183. 'सभी बुराइयों से बचना, अच्छाई को विकसित करना और अपने मन को शुद्ध करना - यही बुद्ध की शिक्षा है।'"
+        "hi": "179. जिसकी विजय को कोई पराजय में नहीं बदल सकता, जिसकी जीती हुई वासनाओं तक संसार में कोई नहीं पहुंच सकता, उस अनंत गोचर और पद-रहित बुद्ध को तुम किस मार्ग से ले जाओगे?"
       },
       "capituloRelativo": 14
     },
@@ -275,13 +275,13 @@
       "capitulo": "Capítulo 15: Sukhavagga (La Verdadera Dicha y Felicidad Interior)",
       "capituloNumero": 15,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Verdadera Dicha y Felicidad Interior",
-      "versiculoNumero": "197-208",
+      "versiculoNumero": "197, 201",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "सुसुखं वत जीवाम वेरिनेसु अवेरिनो। वेरिनेसु मनुस्सेसु विहराम अवेरिनो॥ जयं वेरं पसवति दुक्खं सेति पराजितो। उपसन्तो सुखं सेति हित्वा जयपराजयं॥",
       "foneticaLiturgica": "Susukhaṁ vata jīvāma verinesu averino...",
       "traducciones": {
-        "hi": "197. 'हम वास्तव में खुश हैं, शत्रुता के बीच मैत्रीपूर्ण रहते हैं।'\n201. 'जीत नफरत पैदा करती है. पराजित लोग पीड़ा में रहते हैं। 'जय और पराजय को त्यागकर सुखपूर्वक शांतिपूर्ण जीवन जीते हैं।"
+        "hi": "197. हम वास्तव में वैरियों के बीच वैर-रहित होकर सुखपूर्वक जीवन बिताते हैं।\n201. विजय से वैर उत्पन्न होता है; पराजित व्यक्ति दुःख में पड़ता है। जय और पराजय दोनों को त्यागकर शांतचित्त मनुष्य सुखपूर्वक रहता है।"
       },
       "capituloRelativo": 15
     },
@@ -293,13 +293,13 @@
       "capitulo": "Capítulo 16: Piyavagga (El Afecto Apego y la Libertad Emocional)",
       "capituloNumero": 16,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Afecto Apego y la Libertad Emocional",
-      "versiculoNumero": "209-220",
+      "versiculoNumero": "209",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "पियतो जायती सोको पियतो जायती भयं। पियतो विप्पमुत्तस्स नत्थि सोको कुतो भयं॥",
       "foneticaLiturgica": "Piyato jāyatī soko piyato jāyatī bhayaṁ...",
       "traducciones": {
-        "hi": "212. 'प्रेम से दुःख उत्पन्न होता है, प्रेम से भय उत्पन्न होता है। जो प्रेम से पूरी तरह मुक्त है, उसके लिए कोई दुःख नहीं है, फिर भय कहाँ से?'"
+        "hi": "209. जो न करने योग्य कार्यों में स्वयं को लगाता है और करने योग्य साधना को छोड़ देता है, वह अपने सच्चे हित को त्यागकर प्रिय वस्तुओं के पीछे दौड़ता हुआ उन पुरुषों से ईर्ष्या करता है जो संयमी हैं।"
       },
       "capituloRelativo": 16
     },
@@ -311,13 +311,13 @@
       "capitulo": "Capítulo 17: Kodhavagga (El Dominio de la Ira y el Amor Incondicional)",
       "capituloNumero": 17,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio de la Ira y el Amor Incondicional",
-      "versiculoNumero": "221-234",
+      "versiculoNumero": "221",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "अक्कोधेन जिने कोधं असाधुं साधुना जिने। जिने कदरियं दानेन सच्चेन अलिकवादिनं॥",
       "foneticaLiturgica": "Akkodhena jine kodhaṁ asādhuṁ sādhunā jine | jine kadariyaṁ dānena saccena alikavādinaṁ ||",
       "traducciones": {
-        "hi": "223. 'क्रोध को अक्रोध से जीतो।' बुराई को अच्छाई से जीतो। क्षुद्रता को उदारता से जीतो। 'बेईमानी को सत्य से जीतो।'"
+        "hi": "221. क्रोध को त्याग दे, मान-अभिमान को छोड़ दे और सभी बंधनों को पार कर जाए। जो नाम और रूप में आसक्त नहीं होता और जिसमें कोई परिग्रह नहीं है, उस पर कोई दुःख नहीं पड़ता।"
       },
       "capituloRelativo": 17
     },
@@ -329,13 +329,13 @@
       "capitulo": "Capítulo 18: Malavagga (La Pureza y la Eliminación de las Impurezas)",
       "capituloNumero": 18,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Pureza y la Eliminación de las Impurezas",
-      "versiculoNumero": "235-255",
+      "versiculoNumero": "235",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "अनुपुब्बेन मेधावी थोकथोकं खणे खणे। कम्मारो रजतस्सेव निद्धमे मलमत्तनो॥",
       "foneticaLiturgica": "Anupubbena medhāvī thoka-thokaṁ khaṇe khaṇe...",
       "traducciones": {
-        "hi": "239. 'एक बुद्धिमान व्यक्ति को धीरे-धीरे, थोड़ा-थोड़ा करके, समय-समय पर अपनी अशुद्धियाँ दूर करनी चाहिए, जैसे एक लोहार चाँदी के मैल को हटाता है।'"
+        "hi": "235. अब तू पीले पत्ते के समान हो गया है; यमराज के दूत तेरे निकट आ पहुंचे हैं; तू महाप्रयाण के द्वार पर खड़ा है और तेरे पास यात्रा के लिए कोई पाथेय (संबल) भी नहीं है।"
       },
       "capituloRelativo": 18
     },
@@ -347,13 +347,13 @@
       "capitulo": "Capítulo 19: Dhammatthavagga (El Justo y el Establecido en el Dharma)",
       "capituloNumero": 19,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Justo y el Establecido en el Dharma",
-      "versiculoNumero": "256-272",
+      "versiculoNumero": "256",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "न तेन होति धम्मट्ठो येनत्थं सहसा नये। यो च अत्थं अनत्थं च उभो निच्छेय्य पण्डितो॥",
       "foneticaLiturgica": "Na tena hoti dhammattho yen'atthaṁ sahasā naye...",
       "traducciones": {
-        "hi": "256. 'कोई व्यक्ति न्यायपूर्ण नहीं है यदि वह किसी मामले का निर्णय मनमाने ढंग से करता है। लेकिन जो सही और गलत दोनों का मूल्यांकन करता है वह वास्तव में बुद्धिमान है।'"
+        "hi": "256. जो किसी मामले का फैसला जल्दबाजी या हठपूर्वक करता है, वह धार्मिक नहीं है। जो ज्ञानी पुरुष उचित और अनुचित दोनों पक्षों की भली-भांति जांच-पड़ताल करके निर्णय करता है, वही धर्मस्थ है।"
       },
       "capituloRelativo": 19
     },
@@ -365,13 +365,13 @@
       "capitulo": "Capítulo 20: Maggavagga (El Noble Óctuple Sendero)",
       "capituloNumero": 20,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Noble Óctuple Sendero",
-      "versiculoNumero": "273-289",
+      "versiculoNumero": "273",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "मग्गानट्ठङ्गिको सेट्ठो सच्चानं चतुरो पदा। विरागो सेट्ठो धम्मानं द्विपदानं च चक्खुमा॥",
       "foneticaLiturgica": "Maggānaṭṭhaṅgiko seṭṭho saccānaṁ caturo padā...",
       "traducciones": {
-        "hi": "273. 'मार्गों में अष्टांग सर्वोत्तम है; सत्य की, चार बातें; सद्गुणों की, आसक्ति से मुक्ति; और मनुष्य का, देखने वाली आँखों वाला।'"
+        "hi": "273. मार्गों में अष्टांगिक मार्ग श्रेष्ठ है; सत्यों में चार आर्य सत्य श्रेष्ठ हैं; धर्मों में विराग श्रेष्ठ है; और मनुष्यों में चक्षुष्मान (सम्यक संबुद्ध) श्रेष्ठ है।"
       },
       "capituloRelativo": 20
     },
@@ -383,13 +383,13 @@
       "capitulo": "Capítulo 21: Pakinnakavagga (Versos Misceláneos de la Sabiduría)",
       "capituloNumero": 21,
       "seccion": "Tipitaka · Khuddaka Nikaya · Versos Misceláneos de la Sabiduría",
-      "versiculoNumero": "290-305",
+      "versiculoNumero": "290",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "मत्तासुखपरिच्चागा पस्से चे विपुलं सुखं। चजे मत्तासुखं धीरो सम्पस्सं विपुलं सुखं॥",
       "foneticaLiturgica": "Mattāsukha-pariccāgā passe ce vipulaṁ sukhaṁ...",
       "traducciones": {
-        "hi": "290. 'यदि कोई कम सुख को त्यागकर अधिक सुख को देख सकता है, तो बुद्धिमान व्यक्ति बड़े को ध्यान में रखते हुए कम को त्याग दे।'"
+        "hi": "290. यदि छोटे सुख के त्यागने से बड़े और विपुल सुख की प्राप्ति होती हो, तो बुद्धिमान पुरुष को चाहिए कि वह बड़े सुख को देखते हुए छोटे सुख का परित्याग कर दे।"
       },
       "capituloRelativo": 21
     },
@@ -401,13 +401,13 @@
       "capitulo": "Capítulo 22: Nirayavagga (La Consecuencia de las Acciones Dañinas)",
       "capituloNumero": 22,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Consecuencia de las Acciones Dañinas",
-      "versiculoNumero": "306-319",
+      "versiculoNumero": "306",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "अभूतवादी निरयं उपेति यो वापि कत्वा न करोमीति चाह। उभोपि ते पेच्च समा भवन्ति निहीनकम्मा मनुजा परत्थ॥",
       "foneticaLiturgica": "Abhūtavādī nirayaṁ upeti...",
       "traducciones": {
-        "hi": "306. 'झूठ बोलने वाला दुःख की अवस्था में पहुँच जाता है, जैसे वह जो कोई काम करके कहता है, 'मैंने यह नहीं किया।''"
+        "hi": "306. झूठ बोलने वाला दुर्गति को प्राप्त होता है, और वह भी जो कोई पाप कर्म करके कहता है: 'मैंने यह नहीं किया।' दोनों ही नीच कर्म करने वाले परलोक में समान दंड के भागी होते हैं।"
       },
       "capituloRelativo": 22
     },
@@ -419,13 +419,13 @@
       "capitulo": "Capítulo 23: Nagavagga (La Fortaleza y Nobleza del Elefante)",
       "capituloNumero": 23,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Fortaleza y Nobleza del Elefante",
-      "versiculoNumero": "320-333",
+      "versiculoNumero": "320",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "अहं नागोवा सङ्गामे चापातो पतितं सरं। अतिवाक्यं तितिक्खिस्सं दुस्सीलो हि बहुज्जनो॥",
       "foneticaLiturgica": "Ahaṁ nāgo'va saṅgāme cāpāto patitaṁ saraṁ...",
       "traducciones": {
-        "hi": "320. 'मैं अपमान सहन करूंगा जैसे युद्ध में हाथी धनुष से छोड़े गए तीरों को सहन करता है; क्योंकि संसार अनियंत्रित लोगों से भरा है।'"
+        "hi": "320. जैसे संग्राम में उतरा हुआ हाथी धनुष से छूटे हुए बाणों को सहता है, वैसे ही मैं भी कटु वचनों को सहन करूंगा; क्योंकि संसार के अधिकांश लोग दुराचारी होते हैं।"
       },
       "capituloRelativo": 23
     },
@@ -437,13 +437,13 @@
       "capitulo": "Capítulo 24: Tanhavagga (El Deseo Ávido y el Origen de la Sed)",
       "capituloNumero": 24,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Deseo Ávido y el Origen de la Sed",
-      "versiculoNumero": "334-359",
+      "versiculoNumero": "334",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "मनुजस्स पमत्तचारिनो तण्हा वड्ढति मालुवा विय। सो पलवति हुरा हुरं फलं इच्छं व वनस्मि मक्कटो॥",
       "foneticaLiturgica": "Manujassa pamattacārino taṇhā vaḍḍhati māluvā viya...",
       "traducciones": {
-        "hi": "334. 'असावधानीपूर्वक जीने वाले व्यक्ति की लालसा रेंगने वाली लता की तरह बढ़ती है। वह फल की तलाश में जंगल में बंदर की तरह एक जीवन से दूसरे जीवन में छलांग लगाता है।'"
+        "hi": "334. प्रमादी मनुष्य की तृष्णा मालुवा लता की भांति बढ़ती जाती है। वह फल चाहने वाले बंदर की तरह एक भव से दूसरे भव में कूदता-फिरता है।"
       },
       "capituloRelativo": 24
     },
@@ -455,13 +455,13 @@
       "capitulo": "Capítulo 25: Bhikkhuvagga (El Monje y el Buscador de la Verdad)",
       "capituloNumero": 25,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Monje y el Buscador de la Verdad",
-      "versiculoNumero": "360-382",
+      "versiculoNumero": "360-361",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "चक्खुना संवरो साधु साधु सोतेन संवरो। घानेन संवरो साधु साधु जिव्हाय संवरो॥ कायेन संवरो साधु साधु वाचाय संवरो। मनसा संवरो साधु साधु सब्बत्थ संवरो॥",
       "foneticaLiturgica": "Cakkhunā saṁvaro sādhu sādhu sotena saṁvaro...",
       "traducciones": {
-        "hi": "360. आंख पर संयम रखना अच्छा है; कान पर संयम रखना अच्छा है; नाक पर संयम रखना अच्छा है; जीभ पर संयम रखना अच्छा है।'\n361. 'शरीर में संयम रखना अच्छा है; वाणी में संयम अच्छा है; विचार में संयम अच्छा है. हर प्रकार से संयमित साधु सभी कष्टों से मुक्त हो जाता है।"
+        "hi": "360. आंख पर संयम रखना अच्छा है; कान पर संयम रखना अच्छा है; नाक पर संयम रखना अच्छा है; जीभ पर संयम रखना अच्छा है।\n361. शरीर में संयम रखना अच्छा है; वाणी में संयम अच्छा है; मन में संयम अच्छा है। सब प्रकार से संयमित भिक्षु सब दुःखों से मुक्त हो जाता है।"
       },
       "capituloRelativo": 25
     },
@@ -473,13 +473,13 @@
       "capitulo": "Capítulo 26: Brahmanavagga (El Hombre Santo y el Iluminado de Corazón Puro)",
       "capituloNumero": 26,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Santo y el Iluminado de Corazón Puro",
-      "versiculoNumero": "383-423",
+      "versiculoNumero": "383, 385",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipiṭaka)",
       "dir": "ltr",
       "textoOriginal": "छिन्न सोतं परक्कम्म कामे पनुद ब्राह्मण। सङ्खारानं खयं ञत्वा अकतञ्ञू सि ब्राह्मण॥ यस्स पारं अपारं वा पारापारं न विज्जति। वीतद्दरं विसंयुत्तं तमहं ब्रूमि ब्राह्मणं॥",
       "foneticaLiturgica": "Chinda sotaṁ parakkamma kāme panuda brāhmaṇa...",
       "traducciones": {
-        "hi": "383. 'हे साधक, कड़ी मेहनत करो और इच्छाओं की धारा को काट दो! बद्ध वस्तुओं के विनाश को जानने वाले, अनिर्मित को जानने वाले बनें।'\n385. 'जिसके लिए न तो यह किनारा है और न ही वह किनारा, जो निर्भय और निर्लिप्त है - मैं उसे पवित्र कहता हूं।'"
+        "hi": "383. हे ब्राह्मण, पराक्रम कर और तृष्णा की धारा को काट दे! संस्कारों के क्षय को जानकर तू अकृत (निर्वाण) को जानने वाला बन जा।\n385. जिसके लिए न तो यह किनारा है और न वह किनारा, और जो भय-रहित और बंधनरहित है, उसे ही मैं ब्राह्मण (पवित्र) कहता हूं।"
       },
       "capituloRelativo": 26
     }
