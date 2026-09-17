@@ -7,12 +7,13 @@
     "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
     "idioma": "fr",
     "esquema": "modular_lazy_v4",
-    "dir": "ltr"
+    "dir": "ltr",
+    "tradicion": "taoismo"
   },
   "capitulos": [
     {
       "id": "tao_chapter_1",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 1: El Origen del Cielo y de la Tierra (El Tao Innombrable)",
@@ -29,7 +30,7 @@
     },
     {
       "id": "tao_chapter_2",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 2: La Dualidad de las Formas y la Práctica del No-Actuar (Wu Wei)",
@@ -46,7 +47,7 @@
     },
     {
       "id": "tao_chapter_3",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 3: La Quietud Interior y el Gobierno de la Paz",
@@ -63,7 +64,7 @@
     },
     {
       "id": "tao_chapter_4",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 4: El Manantial Inagotable del Tao",
@@ -80,7 +81,7 @@
     },
     {
       "id": "tao_chapter_5",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 5: El Fuelle Celestial y la Imparcialidad",
@@ -97,7 +98,7 @@
     },
     {
       "id": "tao_chapter_6",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 6: El Valle Misterioso y la Raíz Inmortal",
@@ -114,7 +115,7 @@
     },
     {
       "id": "tao_chapter_7",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 7: La Perennidad del Cielo y el Desinterés del Sabio",
@@ -131,7 +132,7 @@
     },
     {
       "id": "tao_chapter_8",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 8: La Bondad Suprema como el Agua",
@@ -148,7 +149,7 @@
     },
     {
       "id": "tao_chapter_9",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 9: La Moderación y el Retiro Oportuno",
@@ -165,7 +166,7 @@
     },
     {
       "id": "tao_chapter_10",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 10: La Unidad del Alma y el Poder de la Virtud Secreta",
@@ -182,7 +183,7 @@
     },
     {
       "id": "tao_chapter_11",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 11: La Utilidad de lo No Existente y el Vacío",
@@ -199,7 +200,7 @@
     },
     {
       "id": "tao_chapter_12",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 12: La Moderación de los Sentidos",
@@ -216,7 +217,7 @@
     },
     {
       "id": "tao_chapter_13",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 13: La Calma ante el Honor y la Desgracia",
@@ -233,7 +234,7 @@
     },
     {
       "id": "tao_chapter_14",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 14: La Manifestación del Misterio Invisible e Inaudible",
@@ -250,7 +251,7 @@
     },
     {
       "id": "tao_chapter_15",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 15: Las Virtudes Prístinas de los Antiguos Maestros",
@@ -267,7 +268,7 @@
     },
     {
       "id": "tao_chapter_16",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 16: El Retorno a la Raíz y la Quietud Eterna",
@@ -284,7 +285,7 @@
     },
     {
       "id": "tao_chapter_17",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 17: El Arte Supremo del Gobierno Invisible",
@@ -301,7 +302,7 @@
     },
     {
       "id": "tao_chapter_18",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 18: La Decadencia de la Gran Vía y el Artificio",
@@ -318,7 +319,7 @@
     },
     {
       "id": "tao_chapter_19",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 19: El Retorno a la Sencillez y la Pureza",
@@ -335,7 +336,7 @@
     },
     {
       "id": "tao_chapter_20",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 20: El Sabio en Aparente Soledad y Diferencia",
@@ -352,7 +353,7 @@
     },
     {
       "id": "tao_chapter_21",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 21: El Corazón del Tao y la Esencia Verdadera",
@@ -369,7 +370,7 @@
     },
     {
       "id": "tao_chapter_22",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 22: La Plenitud en la Humildad y la Entrega",
@@ -386,7 +387,7 @@
     },
     {
       "id": "tao_chapter_23",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 23: La Moderación en las Palabras y la Unión con el Tao",
@@ -403,7 +404,7 @@
     },
     {
       "id": "tao_chapter_24",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 24: La Vana Ostentación y el Orgullo Inútil",
@@ -420,7 +421,7 @@
     },
     {
       "id": "tao_chapter_25",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 25: La Grandeza del Cosmos y la Matriz Primordial",
@@ -437,7 +438,7 @@
     },
     {
       "id": "tao_chapter_26",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 26: La Gravedad como Raíz de la Ligereza",
@@ -454,7 +455,7 @@
     },
     {
       "id": "tao_chapter_27",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 27: La Destreza Sublime sin Dejar Huella",
@@ -471,7 +472,7 @@
     },
     {
       "id": "tao_chapter_28",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 28: Retornar a la Condición del Infante y del Valle",
@@ -488,7 +489,7 @@
     },
     {
       "id": "tao_chapter_29",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 29: El Cuidado Sagrado del Universo sin Tratar de Forzarlo",
@@ -505,7 +506,7 @@
     },
     {
       "id": "tao_chapter_30",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 30: La Advertencia contra el Uso de la Fuerza y la Violencia",
@@ -522,7 +523,7 @@
     },
     {
       "id": "tao_chapter_31",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 31: Las Armas como Instrumentos de Desgracia",
@@ -539,7 +540,7 @@
     },
     {
       "id": "tao_chapter_32",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 32: El Tao Innombrable y el Rocío Dulce de la Paz",
@@ -556,7 +557,7 @@
     },
     {
       "id": "tao_chapter_33",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 33: El Autoconocimiento y la Verdadera Fuerza Interior",
@@ -573,7 +574,7 @@
     },
     {
       "id": "tao_chapter_34",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 34: La Grandeza del Tao que Nutre a Todos sin Dominar",
@@ -590,7 +591,7 @@
     },
     {
       "id": "tao_chapter_35",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 35: La Gran Imagen de Paz que Atrae al Mundo",
@@ -607,7 +608,7 @@
     },
     {
       "id": "tao_chapter_36",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 36: La Transformación Sutil: Lo Débil Vence a lo Fuerte",
@@ -624,7 +625,7 @@
     },
     {
       "id": "tao_chapter_37",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 37: El No-Hacer que Todo lo Transforma en Armonía",
@@ -641,7 +642,7 @@
     },
     {
       "id": "tao_chapter_38",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 38: La Virtud Superior y el Desprendimiento",
@@ -658,7 +659,7 @@
     },
     {
       "id": "tao_chapter_39",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 39: Capítulo 39: La Sabiduría del Tao y la Virtud Serena (Capítulo 39)",
@@ -675,7 +676,7 @@
     },
     {
       "id": "tao_chapter_40",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 40: El Retorno es el Movimiento del Tao",
@@ -692,7 +693,7 @@
     },
     {
       "id": "tao_chapter_41",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 41: La Escucha del Tao y la Gran Sabiduría",
@@ -709,7 +710,7 @@
     },
     {
       "id": "tao_chapter_42",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 42: El Uno Engendra el Dos, el Dos Engendra el Tres",
@@ -726,7 +727,7 @@
     },
     {
       "id": "tao_chapter_43",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 43: Lo Más Blando del Mundo Penetra lo Más Duro",
@@ -743,7 +744,7 @@
     },
     {
       "id": "tao_chapter_44",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 44: La Fama, la Riqueza y el Contento Interior",
@@ -760,7 +761,7 @@
     },
     {
       "id": "tao_chapter_45",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 45: La Gran Perfección que Parece Incompleta",
@@ -777,7 +778,7 @@
     },
     {
       "id": "tao_chapter_46",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 46: La Moderación de los Deseos y la Calma",
@@ -794,7 +795,7 @@
     },
     {
       "id": "tao_chapter_47",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 47: Conocer el Mundo sin Traspasar la Puerta",
@@ -811,7 +812,7 @@
     },
     {
       "id": "tao_chapter_48",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 48: Disminuir Día a Día hasta el No-Actuar",
@@ -828,7 +829,7 @@
     },
     {
       "id": "tao_chapter_49",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 49: El Corazón del Sabio y la Bondad sin Distinción",
@@ -845,7 +846,7 @@
     },
     {
       "id": "tao_chapter_50",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 50: El Cultivo de la Vida y la Serenidad ante la Muerte",
@@ -862,7 +863,7 @@
     },
     {
       "id": "tao_chapter_51",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 51: La Nutrición del Tao y la Virtud Misteriosa",
@@ -879,7 +880,7 @@
     },
     {
       "id": "tao_chapter_52",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 52: El Retorno a la Madre y la Preservación de la Luz",
@@ -896,7 +897,7 @@
     },
     {
       "id": "tao_chapter_53",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 53: El Sendero Luminoso del Tao y el Rechazo a la Vanidad",
@@ -913,7 +914,7 @@
     },
     {
       "id": "tao_chapter_54",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 54: El Cultivo de la Virtud en uno Mismo, en el Hogar y en el Mundo",
@@ -930,7 +931,7 @@
     },
     {
       "id": "tao_chapter_55",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 55: La Plenitud Vital del Recién Nacido",
@@ -947,7 +948,7 @@
     },
     {
       "id": "tao_chapter_56",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 56: Quien Sabe no Habla; Quien Habla no Sabe",
@@ -964,7 +965,7 @@
     },
     {
       "id": "tao_chapter_57",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 57: Gobernar con Rectitud y Vivir con Libertad Espontánea",
@@ -981,7 +982,7 @@
     },
     {
       "id": "tao_chapter_58",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 58: La Paciencia Benévola y la Moderación Serena",
@@ -998,7 +999,7 @@
     },
     {
       "id": "tao_chapter_59",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 59: La Moderación y el Enraizamiento Profundo",
@@ -1015,7 +1016,7 @@
     },
     {
       "id": "tao_chapter_60",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 60: Gobernar con Delicadeza como Cocinar un Pescadillo",
@@ -1032,7 +1033,7 @@
     },
     {
       "id": "tao_chapter_61",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 61: La Humildad del Valle en las Grandes Naciones",
@@ -1049,7 +1050,7 @@
     },
     {
       "id": "tao_chapter_62",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 62: El Tao como el Tesoro y Santuario de Todos los Seres",
@@ -1066,7 +1067,7 @@
     },
     {
       "id": "tao_chapter_63",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 63: Comenzar lo Difícil por lo Fácil",
@@ -1083,7 +1084,7 @@
     },
     {
       "id": "tao_chapter_64",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 64: Un Árbol Gigante Nace de una Pequeña Semilla",
@@ -1100,7 +1101,7 @@
     },
     {
       "id": "tao_chapter_65",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 65: La Sabiduría Prístina de la Simplicidad",
@@ -1117,7 +1118,7 @@
     },
     {
       "id": "tao_chapter_66",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 66: El Mar como Rey de los Cien Ríos por su Humildad",
@@ -1134,7 +1135,7 @@
     },
     {
       "id": "tao_chapter_67",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 67: Los Tres Tesoros: Compasión, Frugalidad y Humildad",
@@ -1151,7 +1152,7 @@
     },
     {
       "id": "tao_chapter_68",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 68: El Arte del Guerrero Pacífico y la No-Violencia",
@@ -1168,7 +1169,7 @@
     },
     {
       "id": "tao_chapter_69",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 69: La Estrategia de la Paciencia y el Respeto al Prójimo",
@@ -1185,7 +1186,7 @@
     },
     {
       "id": "tao_chapter_70",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 70: La Sencillez Oculta del Sabio",
@@ -1202,7 +1203,7 @@
     },
     {
       "id": "tao_chapter_71",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 71: Reconocer la Propia Ignorancia es Sabiduría",
@@ -1219,7 +1220,7 @@
     },
     {
       "id": "tao_chapter_72",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 72: La Reverencia por lo Sagrado y el Respeto a la Vida",
@@ -1236,7 +1237,7 @@
     },
     {
       "id": "tao_chapter_73",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 73: La Red Celestial que Todo lo Abarca en Silencio",
@@ -1253,7 +1254,7 @@
     },
     {
       "id": "tao_chapter_74",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 74: El Respeto al Gran Carpintero y el Misterio de la Vida",
@@ -1270,7 +1271,7 @@
     },
     {
       "id": "tao_chapter_75",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 75: La Libertad de los Pueblos y el Daño del Exceso de Control",
@@ -1287,7 +1288,7 @@
     },
     {
       "id": "tao_chapter_76",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 76: La Flexibilidad de la Vida y la Rigidez de la Muerte",
@@ -1304,7 +1305,7 @@
     },
     {
       "id": "tao_chapter_77",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 77: El Arco Celestial que Equilibra los Extremos",
@@ -1321,7 +1322,7 @@
     },
     {
       "id": "tao_chapter_78",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 78: La Debilidad que Vence a la Fuerza como el Agua",
@@ -1338,7 +1339,7 @@
     },
     {
       "id": "tao_chapter_79",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 79: Cumplir la Promesa sin Exigir a los Demás",
@@ -1355,7 +1356,7 @@
     },
     {
       "id": "tao_chapter_80",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 80: La Paz de la Aldea y la Vida Armoniosa",
@@ -1372,7 +1373,7 @@
     },
     {
       "id": "tao_chapter_81",
-      "tradicion": "espiritismo",
+      "tradicion": "taoismo",
       "libro": "El Tao Te King (Laozi)",
       "libroKey": "tao",
       "capitulo": "Capítulo 81: La Verdad Serena y la Plenitud del Sabio que Da Todo sin Reservas",
