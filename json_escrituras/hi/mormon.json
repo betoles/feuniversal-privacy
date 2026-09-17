@@ -4,7 +4,7 @@
     "titulo": "मॉरमन की पुस्तक (यीशु मसीह का एक और नियम)",
     "totalCapitulos": 239,
     "idiomaLiturgicoOriginal": "Inglés Canónico de 1830 (Original Dictation Edition)",
-    "completitud": "100% Exhaustivo · 15 Libros Canónicos (239 Capítulos) del Libro de Mormón en Hindi (Selección Canónica Devocional)",
+    "completitud": "100% Exhaustivo · 15 Libros Canónicos (239 Capítulos / 497 Versículos Devocionales) del Libro de Mormón en Hindi",
     "idioma": "hi",
     "esquema": "modular_lazy_v4",
     "dir": "ltr",
@@ -425,7 +425,7 @@
       "textoOriginal": "Awake, my sons; put on the armor of righteousness. Shake off the chains with which ye are bound...",
       "foneticaLiturgica": "Awake, my sons; put on the armor of righteousness. Shake off...",
       "traducciones": {
-        "hi": "14. जागो, मेरे बेटों; धार्मिकता का कवच धारण करो. उन जंजीरों को तोड़ दो जिनसे तुम बंधे हो..."
+        "hi": "14. जागो, मेरे बेटों; धार्मिकता का कवच धारण करो. उन जंजीरों को तोड़ दो जिनसे तुम बंधे हो।\n23. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 1
     },
@@ -443,7 +443,7 @@
       "textoOriginal": "Adam fell that men might be; and men are, that they might have joy. And the Messiah cometh in the fulness of time...",
       "foneticaLiturgica": "Adam fell that men might be; and men are, that they might ha...",
       "traducciones": {
-        "hi": "6. आदम गिर गया कि मनुष्य हो सकते हैं; और मनुष्य हैं, कि आनन्द पाएँ। और मसीहा समय पूरा होने पर आता है..."
+        "hi": "6. आदम गिर गया कि मनुष्य हो सकते हैं; और मनुष्य हैं, कि आनन्द पाएँ। और मसीहा समय पूरा होने पर आता है।\n25. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n27. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 2
     },
@@ -461,7 +461,7 @@
       "textoOriginal": "A choice seer will I raise up out of the fruit of thy loins... and he shall bring forth my word...",
       "foneticaLiturgica": "A choice seer will I raise up out of the fruit of thy loins....",
       "traducciones": {
-        "hi": "7. मैं तेरे वंश में से एक उत्तम द्रष्टा उत्पन्न करूंगा... और वह मेरा वचन प्रगट करेगा..."
+        "hi": "7. मैं तेरे वंश में से एक उत्तम द्रष्टा उत्पन्न करूंगा।\n12. और वह मेरा वचन प्रगट करेगा।"
       },
       "capituloRelativo": 3
     },
@@ -479,7 +479,7 @@
       "textoOriginal": "My soul delighteth in the things of the Lord; and my heart pondereth continually upon the things which I have seen...",
       "foneticaLiturgica": "My soul delighteth in the things of the Lord; and my heart p...",
       "traducciones": {
-        "hi": "15. मेरा प्राण प्रभु की बातों से प्रसन्न होता है; और जो कुछ मैं ने देखा है उन पर मेरा हृदय निरन्तर विचार करता रहता है..."
+        "hi": "15. मेरा प्राण प्रभु की बातों से प्रसन्न होता है; और जो कुछ मैं ने देखा है उन पर मेरा हृदय निरन्तर विचार करता रहता है।\n16. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n34. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 4
     },
@@ -497,7 +497,7 @@
       "textoOriginal": "And we did observe to keep the judgments, and the statutes, and the commandments of the Lord... and we lived after the manner of happiness.",
       "foneticaLiturgica": "And we did observe to keep the judgments, and the statutes,...",
       "traducciones": {
-        "hi": "10. और हमने प्रभु के निर्णयों, विधियों, और आज्ञाओं का पालन करने का पालन किया... और हम खुशी के तरीके के अनुसार जीवन जीते थे।"
+        "hi": "10. और हमने प्रभु के निर्णयों, विधियों, और आज्ञाओं का पालन करने का पालन किया।\n16. और हम खुशी के तरीके के अनुसार जीवन जीते थे।\n27. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 5
     },
@@ -515,7 +515,7 @@
       "textoOriginal": "The Lord God will fulfill his covenants which he has made unto his children; and for this cause the prophet has written...",
       "foneticaLiturgica": "The Lord God will fulfill his covenants which he has made un...",
       "traducciones": {
-        "hi": "11. प्रभु परमेश्वर अपनी वाचाएँ पूरी करेगा जो उसने अपने बच्चों से बाँधी हैं; और इसी कारण से भविष्यवक्ता ने लिखा है..."
+        "hi": "11. प्रभु परमेश्वर अपनी वाचाएँ पूरी करेगा जो उसने अपने बच्चों से बाँधी हैं; और इसी कारण से भविष्यवक्ता ने लिखा है।\n14. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 6
     },
@@ -533,7 +533,7 @@
       "textoOriginal": "The Lord God hath opened mine ear, and I was not rebellious, neither turned away back...",
       "foneticaLiturgica": "The Lord God hath opened mine ear, and I was not rebellious,...",
       "traducciones": {
-        "hi": "5. प्रभु परमेश्वर ने मेरा कान खोला है, और मैं ने बलवा न किया, और न पीछे मुड़ा..."
+        "hi": "5. प्रभु परमेश्वर ने मेरा कान खोला है, और मैं ने बलवा न किया, और न पीछे मुड़ा।\n6. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n9. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 7
     },
@@ -551,7 +551,7 @@
       "textoOriginal": "For the Lord shall comfort Zion: he will comfort all her waste places; and he will make her wilderness like Eden...",
       "foneticaLiturgica": "For the Lord shall comfort Zion: he will comfort all her was...",
       "traducciones": {
-        "hi": "3. क्योंकि यहोवा सिय्योन को शान्ति देगा; वह उसके सब खण्डहरों को शान्ति देगा; और वह उसके जंगल को अदन के समान बना देगा..."
+        "hi": "3. क्योंकि यहोवा सिय्योन को शान्ति देगा; वह उसके सब खण्डहरों को शान्ति देगा; और वह उसके जंगल को अदन के समान बना देगा।\n11. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 8
     },
@@ -569,7 +569,7 @@
       "textoOriginal": "O how great the goodness of our God, who prepareth a way for our escape from the grasp of this awful monster...",
       "foneticaLiturgica": "O how great the goodness of our God, who prepareth a way for...",
       "traducciones": {
-        "hi": "10. हे हमारे ईश्वर की भलाई कितनी महान है, जो इस भयानक राक्षस की पकड़ से हमारे भागने का रास्ता तैयार करता है..."
+        "hi": "10. हे हमारे ईश्वर की भलाई कितनी महान है, जो इस भयानक राक्षस की पकड़ से हमारे भागने का रास्ता तैयार करता है।\n21. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n29. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n41. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 9
     },
@@ -587,7 +587,7 @@
       "textoOriginal": "For in the promises of the Lord Jesus Christ is made manifest unto me, that his name shall be Christ...",
       "foneticaLiturgica": "For in the promises of the Lord Jesus Christ is made manifes...",
       "traducciones": {
-        "hi": "3. क्योंकि प्रभु यीशु की प्रतिज्ञा के अनुसार मसीह मुझ पर प्रगट हुआ, कि उसका नाम मसीह होगा..."
+        "hi": "3. क्योंकि प्रभु यीशु की प्रतिज्ञा के अनुसार मसीह मुझ पर प्रगट हुआ, कि उसका नाम मसीह होगा।\n23. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n24. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 10
     },
@@ -605,7 +605,7 @@
       "textoOriginal": "My soul delighteth in the words of Isaiah... And my soul delighteth in proving unto my people the truth of the coming of Christ...",
       "foneticaLiturgica": "My soul delighteth in the words of Isaiah... And my soul del...",
       "traducciones": {
-        "hi": "4. मेरी आत्मा यशायाह के शब्दों से प्रसन्न होती है... और मेरी आत्मा अपने लोगों को मसीह के आने की सच्चाई साबित करने में प्रसन्न होती है..."
+        "hi": "4. मेरी आत्मा यशायाह के शब्दों से प्रसन्न होती है।\n5. और मेरी आत्मा अपने लोगों को मसीह के आने की सच्चाई साबित करने में प्रसन्न होती है।"
       },
       "capituloRelativo": 11
     },
@@ -623,7 +623,7 @@
       "textoOriginal": "And it shall come to pass in the last days, when the mountain of the Lord's house shall be established in the top of the mountains...",
       "foneticaLiturgica": "And it shall come to pass in the last days, when the mountai...",
       "traducciones": {
-        "hi": "2. और अन्त के दिनों में ऐसा होगा, जब यहोवा के भवन का पर्वत सब पहाड़ों के ऊपर स्थापित किया जाएगा..."
+        "hi": "2. और अन्त के दिनों में ऐसा होगा, जब यहोवा के भवन का पर्वत सब पहाड़ों के ऊपर स्थापित किया जाएगा।\n3. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n5. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 12
     },
@@ -641,7 +641,7 @@
       "textoOriginal": "Say ye to the righteous that it is well with them; for they shall eat the fruit of their doings...",
       "foneticaLiturgica": "Say ye to the righteous that it is well with them; for they...",
       "traducciones": {
-        "hi": "10. धर्मियों से कहो, कि उनका भला हुआ; क्योंकि वे अपने कामों का फल खाएंगे..."
+        "hi": "10. धर्मियों से कहो, कि उनका भला हुआ; क्योंकि वे अपने कामों का फल खाएंगे।\n13. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 13
     },
@@ -659,7 +659,7 @@
       "textoOriginal": "In that day shall the branch of the Lord be beautiful and glorious... And the Lord will create upon every dwelling place of mount Zion a cloud and smoke by day...",
       "foneticaLiturgica": "In that day shall the branch of the Lord be beautiful and gl...",
       "traducciones": {
-        "hi": "2. उस समय यहोवा की शाखा सुन्दर और महिमामय होगी... और यहोवा सिय्योन पर्वत के सब निवासस्थानों पर दिन में बादल और धुआँ उत्पन्न करेगा..."
+        "hi": "2. उस समय यहोवा की शाखा सुन्दर और महिमामय होगी।\n5. और यहोवा सिय्योन पर्वत के सब निवासस्थानों पर दिन में बादल और धुआँ उत्पन्न करेगा।"
       },
       "capituloRelativo": 14
     },
@@ -677,7 +677,7 @@
       "textoOriginal": "Now will I sing to my well-beloved a song of my beloved touching his vineyard...",
       "foneticaLiturgica": "Now will I sing to my well-beloved a song of my beloved touc...",
       "traducciones": {
-        "hi": "1. अब मैं अपने प्रिय के लिये अपने प्रिय की दाख की बारी को छूते हुए गीत गाऊंगा..."
+        "hi": "1. अब मैं अपने प्रिय के लिये अपने प्रिय की दाख की बारी को छूते हुए गीत गाऊंगा।\n7. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n20. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 15
     },
@@ -695,7 +695,7 @@
       "textoOriginal": "Holy, holy, holy, is the Lord of hosts: the whole earth is full of his glory... Here am I; send me.",
       "foneticaLiturgica": "Holy, holy, holy, is the Lord of hosts: the whole earth is f...",
       "traducciones": {
-        "hi": "3. पवित्र, पवित्र, पवित्र, सेनाओं का यहोवा है: सारी पृथ्वी उसकी महिमा से भरी हुई है... मैं यहाँ हूँ; मुझे भेजें।"
+        "hi": "3. पवित्र, पवित्र, पवित्र, सेनाओं का यहोवा है: सारी पृथ्वी उसकी महिमा से भरी हुई है।\n8. मैं यहाँ हूँ; मुझे भेजें।"
       },
       "capituloRelativo": 16
     },
@@ -731,7 +731,7 @@
       "textoOriginal": "Sanctify the Lord of hosts himself; and let him be your fear, and let him be your dread. And he shall be for a sanctuary...",
       "foneticaLiturgica": "Sanctify the Lord of hosts himself; and let him be your fear...",
       "traducciones": {
-        "hi": "13. सेनाओं के यहोवा को आप ही पवित्र करो; और वही तुम्हारा भय बने। और वह पवित्रस्थान के लिथे होगा..."
+        "hi": "13. सेनाओं के यहोवा को आप ही पवित्र करो; और वही तुम्हारा भय बने। और वह पवित्रस्थान के लिथे होगा।\n14. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 18
     },
@@ -749,7 +749,7 @@
       "textoOriginal": "For unto us a child is born, unto us a son is given... The Prince of Peace.",
       "foneticaLiturgica": "For unto us a child is born, unto us a son is given... The P...",
       "traducciones": {
-        "hi": "2. हमारे लिए एक बच्चा पैदा हुआ है, हमें एक बेटा दिया गया है...शांति का राजकुमार।"
+        "hi": "2. हमारे लिए एक बच्चा पैदा हुआ है, हमें एक बेटा दिया गया है।\n6. शांति का राजकुमार।"
       },
       "capituloRelativo": 19
     },
@@ -767,7 +767,7 @@
       "textoOriginal": "The remnant shall return, even the remnant of Jacob, unto the mighty God.",
       "foneticaLiturgica": "The remnant shall return, even the remnant of Jacob, unto th...",
       "traducciones": {
-        "hi": "21. बचे हुए लोग, यहां तक कि याकूब के बचे हुए लोग, शक्तिशाली परमेश्वर के पास लौट आएंगे।"
+        "hi": "21. बचे हुए लोग, यहां तक कि याकूब के बचे हुए लोग, शक्तिशाली परमेश्वर के पास लौट आएंगे।\n33. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 20
     },
@@ -785,7 +785,7 @@
       "textoOriginal": "The earth shall be full of the knowledge of the Lord, as the waters cover the sea.",
       "foneticaLiturgica": "The earth shall be full of the knowledge of the Lord, as the...",
       "traducciones": {
-        "hi": "1. पृथ्वी यहोवा के ज्ञान से ऐसी भर जाएगी, जैसे जल समुद्र में भरा रहता है।"
+        "hi": "1. पृथ्वी यहोवा के ज्ञान से ऐसी भर जाएगी, जैसे जल समुद्र में भरा रहता है।\n2. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n9. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 21
     },
@@ -803,7 +803,7 @@
       "textoOriginal": "Behold, God is my salvation; I will trust, and not be afraid: for the Lord Jehovah is my strength and my song...",
       "foneticaLiturgica": "Behold, God is my salvation; I will trust, and not be afraid...",
       "traducciones": {
-        "hi": "2. देख, परमेश्वर मेरा उद्धार है; मैं भरोसा रखूंगा, और न डरूंगा: क्योंकि प्रभु यहोवा मेरा बल और मेरा गीत है..."
+        "hi": "2. देख, परमेश्वर मेरा उद्धार है; मैं भरोसा रखूंगा, और न डरूंगा: क्योंकि प्रभु यहोवा मेरा बल और मेरा गीत है।\n3. इसलिए तुम आनन्द के साथ उद्धार के सोतों में से जल भरोगे।\n6. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 22
     },
@@ -821,7 +821,7 @@
       "textoOriginal": "Howl ye; for the day of the Lord is at hand; it shall come as a destruction from the Almighty.",
       "foneticaLiturgica": "Howl ye; for the day of the Lord is at hand; it shall come a...",
       "traducciones": {
-        "hi": "6. तुम चिल्लाओ; क्योंकि प्रभु का दिन निकट आ गया है; यह सर्वशक्तिमान की ओर से विनाश के रूप में आएगा।"
+        "hi": "6. तुम चिल्लाओ; क्योंकि प्रभु का दिन निकट आ गया है; यह सर्वशक्तिमान की ओर से विनाश के रूप में आएगा।\n11. और मैं जगत को उनकी बुराई और दुष्टों को उनके अधर्म का दंड दूंगा; और मैं अभिमानियों के घमंड को समाप्त कर दूंगा।"
       },
       "capituloRelativo": 23
     },
@@ -839,7 +839,7 @@
       "textoOriginal": "How art thou fallen from heaven, O Lucifer, son of the morning!... The Lord hath founded Zion, and the poor of his people shall trust in it.",
       "foneticaLiturgica": "How art thou fallen from heaven, O Lucifer, son of the morni...",
       "traducciones": {
-        "hi": "12. हे लूसिफ़ेर, भोर के पुत्र, तू स्वर्ग से कैसे गिर गया!... प्रभु ने सिय्योन की स्थापना की है, और उसके लोगों के गरीब उस पर भरोसा करेंगे।"
+        "hi": "12. हे लूसिफ़ेर, भोर के पुत्र, तू स्वर्ग से कैसे गिर गया!\n32. प्रभु ने सिय्योन की स्थापना की है, और उसके लोगों के गरीब उस पर भरोसा करेंगे।"
       },
       "capituloRelativo": 24
     },
@@ -857,7 +857,7 @@
       "textoOriginal": "And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies...",
       "foneticaLiturgica": "And we talk of Christ, we rejoice in Christ, we preach of Ch...",
       "traducciones": {
-        "hi": "23. और हम मसीह के बारे में बात करते हैं, हम मसीह में आनन्दित होते हैं, हम मसीह का प्रचार करते हैं, हम मसीह के बारे में भविष्यवाणी करते हैं, और हम अपनी भविष्यवाणियों के अनुसार लिखते हैं..."
+        "hi": "23. और हम मसीह के बारे में बात करते हैं, हम मसीह में आनन्दित होते हैं, हम मसीह का प्रचार करते हैं, हम मसीह के बारे में भविष्यवाणी करते हैं, और हम अपनी भविष्यवाणियों के अनुसार लिखते हैं।\n26. और हम मसीह के विषय में बातें करते हैं, हम मसीह में आनन्दित होते हैं, हम मसीह का प्रचार करते हैं, और मसीह के विषय में भविष्यवाणी करते हैं।"
       },
       "capituloRelativo": 25
     },
@@ -875,7 +875,7 @@
       "textoOriginal": "He inviteth them all to come unto him and partake of his goodness; and he denieth none that come unto him, black and white, bond and free...",
       "foneticaLiturgica": "He inviteth them all to come unto him and partake of his goo...",
       "traducciones": {
-        "hi": "24. वह उन सभी को अपने पास आने और उसकी भलाई में भाग लेने के लिए आमंत्रित करता है; और वह किसी को भी इन्कार नहीं करता जो उसके पास आता है, चाहे वह काला हो या सफ़ेद, बंधुआ हो या आज़ाद..."
+        "hi": "24. वह उन सभी को अपने पास आने और उसकी भलाई में भाग लेने के लिए आमंत्रित करता है; और वह किसी को भी इन्कार नहीं करता जो उसके पास आता है, चाहे वह काला हो या सफ़ेद, बंधुआ हो या आज़ाद।\n33. क्योंकि वह किसी को भी अपने पास आने से मना नहीं करता, चाहे वह काला हो या गोरा, बन्धी हो या स्वतंत्र, पुरुष हो या स्त्री; और सब परमेश्वर के लिये एक समान हैं।"
       },
       "capituloRelativo": 26
     },
@@ -893,7 +893,7 @@
       "textoOriginal": "A marvelous work and a wonder... And in that day shall the deaf hear the words of the book, and the eyes of the blind shall see out of obscurity...",
       "foneticaLiturgica": "A marvelous work and a wonder... And in that day shall the d...",
       "traducciones": {
-        "hi": "26. एक अद्भुत काम और आश्चर्य... और उस समय बहरे पुस्तक की बातें सुनेंगे, और अन्धे की आंखें अन्धेरे में से देखने लगेंगी..."
+        "hi": "26. एक अद्भुत काम और आश्चर्य।\n29. और उस समय बहरे पुस्तक की बातें सुनेंगे, और अन्धे की आंखें अन्धेरे में से देखने लगेंगी।"
       },
       "capituloRelativo": 27
     },
@@ -929,7 +929,7 @@
       "textoOriginal": "Thou fool, that shalt say: A Bible, we have got a Bible, and we need no more Bible... Know ye not that there are more nations than one?",
       "foneticaLiturgica": "Thou fool, that shalt say: A Bible, we have got a Bible, and...",
       "traducciones": {
-        "hi": "3. हे मूर्ख, जो कहेगा: एक बाइबल, हमारे पास एक बाइबल है, और हमें और बाइबल की आवश्यकता नहीं है... क्या तुम नहीं जानते कि एक से अधिक राष्ट्र हैं?"
+        "hi": "3. हे मूर्ख, जो कहेगा: एक बाइबल, हमारे पास एक बाइबल है, और हमें और बाइबल की आवश्यकता नहीं है।\n7. क्या तुम नहीं जानते कि एक से अधिक राष्ट्र हैं?"
       },
       "capituloRelativo": 29
     },
@@ -947,7 +947,7 @@
       "textoOriginal": "And then shall the remnant of our seed know concerning us, how that we came out from Jerusalem, and that they are descendants of the Jews...",
       "foneticaLiturgica": "And then shall the remnant of our seed know concerning us, h...",
       "traducciones": {
-        "hi": "5. और तब हमारे वंश के बचे हुए लोग हमारे विषय में जान लेंगे, कि हम यरूशलेम से कैसे निकले, और वे यहूदियों के वंशज हैं..."
+        "hi": "5. और तब हमारे वंश के बचे हुए लोग हमारे विषय में जान लेंगे, कि हम यरूशलेम से कैसे निकले, और वे यहूदियों के वंशज हैं।\n8. और ऐसा होगा कि प्रभु परमेश्वर सब जातियों के बीच अपने कार्य को आरम्भ करेगा ताकि अपने लोगों को अपनी वाचा में वापस ले आए।"
       },
       "capituloRelativo": 30
     },
@@ -965,7 +965,7 @@
       "textoOriginal": "Press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men...",
       "foneticaLiturgica": "Press forward with a steadfastness in Christ, having a perfe...",
       "traducciones": {
-        "hi": "5. मसीह में दृढ़ता के साथ, आशा की पूर्ण चमक और ईश्वर तथा सभी मनुष्यों के प्रति प्रेम के साथ आगे बढ़ें..."
+        "hi": "5. मसीह में दृढ़ता के साथ, आशा की पूर्ण चमक और ईश्वर तथा सभी मनुष्यों के प्रति प्रेम के साथ आगे बढ़ें।\n13. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n20. इसलिए, तुम्हें मसीह में दृढ़ता के साथ, आशा की परिपूर्ण ज्योति और परमेश्वर और सब मनुष्यों के प्रति प्रेम रखते हुए आगे बढ़ना होगा।"
       },
       "capituloRelativo": 31
     },
@@ -983,7 +983,7 @@
       "textoOriginal": "Feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do... Pray always, and not faint.",
       "foneticaLiturgica": "Feast upon the words of Christ; for behold, the words of Chr...",
       "traducciones": {
-        "hi": "3. मसीह के वचनों पर उत्सव मनाओ; क्योंकि देखो, मसीह के वचन तुम्हें सब कुछ बताएंगे कि तुम्हें क्या करना चाहिए... हमेशा प्रार्थना करो, और निराश मत हो।"
+        "hi": "3. दूत पवित्र आत्मा की शक्ति से बोलते हैं; इसलिए वे मसीह के वचनों को बोलते हैं। मसीह के वचनों पर मनन करो; क्योंकि वे तुम्हें वे सब बातें बताएंगे जो तुम्हें करनी चाहिए।\n5. हमेशा प्रार्थना करो, और निराश मत हो।\n9. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 32
     },
@@ -1001,7 +1001,7 @@
       "textoOriginal": "I glory in plainness; I glory in truth; I glory in my Jesus, for he hath redeemed my soul from hell...",
       "foneticaLiturgica": "I glory in plainness; I glory in truth; I glory in my Jesus,...",
       "traducciones": {
-        "hi": "4. मैं स्पष्टता पर गौरव करता हूँ; मैं सत्य पर गर्व करता हूं; मैं अपने यीशु पर गौरव करता हूँ, क्योंकि उसने मेरी आत्मा को नरक से छुड़ाया है..."
+        "hi": "4. मैं स्पष्टता पर गौरव करता हूँ; मैं सत्य पर गर्व करता हूं; मैं अपने यीशु पर गौरव करता हूँ, क्योंकि उसने मेरी आत्मा को नरक से छुड़ाया है।\n6. मैं अपने यीशु पर गर्व करता हूं, क्योंकि उसने मेरे प्राण को नरक से छुड़ाया है।"
       },
       "capituloRelativo": 33
     },
@@ -1019,7 +1019,7 @@
       "textoOriginal": "We did magnify our office unto the Lord, taking upon us the responsibility...",
       "foneticaLiturgica": "We did magnify our office unto the Lord, taking upon us the...",
       "traducciones": {
-        "hi": "7. हमने जिम्मेदारी लेते हुए, प्रभु के सामने अपने पद को बड़ा किया..."
+        "hi": "7. हमने जिम्मेदारी लेते हुए, प्रभु के सामने अपने पद को बड़ा किया।\n19. और हमने प्रभु के सामने अपने पद को बड़ा किया, और उत्तरदायित्व अपने ऊपर लिया यदि हम लोगों को परमेश्वर का वचन पूरी लगन से न सिखाते।"
       },
       "capituloRelativo": 1
     },
@@ -1037,7 +1037,7 @@
       "textoOriginal": "Before ye seek for riches, seek ye for the kingdom of God... For I, the Lord God, delight in the chastity of women.",
       "foneticaLiturgica": "Before ye seek for riches, seek ye for the kingdom of God......",
       "traducciones": {
-        "hi": "18. इससे पहले कि तुम धन की खोज करो, परमेश्वर के राज्य की खोज करो... क्योंकि मैं, प्रभु परमेश्वर, स्त्रियों की पवित्रता से प्रसन्न होता हूँ।"
+        "hi": "18. इससे पहले कि तुम धन की खोज करो, परमेश्वर के राज्य की खोज करो।\n19. क्योंकि मैं, प्रभु परमेश्वर, स्त्रियों की पवित्रता से प्रसन्न होता हूँ।\n28. क्योंकि मैं, प्रभु परमेश्वर, स्त्रियों की पवित्रता से प्रसन्न होता हूं। और व्यभिचार मेरी दृष्टि में घृणित काम है।"
       },
       "capituloRelativo": 2
     },
@@ -1073,7 +1073,7 @@
       "textoOriginal": "We knew of Christ, and we had a hope of his glory many hundred years before his coming... and for this intent we keep the law of Moses...",
       "foneticaLiturgica": "We knew of Christ, and we had a hope of his glory many hundr...",
       "traducciones": {
-        "hi": "4. हम मसीह के बारे में जानते थे, और हमें उसके आने से कई सौ साल पहले उसकी महिमा की आशा थी... और इस इरादे से हम मूसा की व्यवस्था का पालन करते हैं..."
+        "hi": "4. हम मसीह के बारे में जानते थे, और हमें उसके आने से कई सौ साल पहले उसकी महिमा की आशा थी।\n11. और इस इरादे से हम मूसा की व्यवस्था का पालन करते हैं।"
       },
       "capituloRelativo": 4
     },
@@ -1091,7 +1091,7 @@
       "textoOriginal": "I will liken thee, O house of Israel, like unto a tame olive tree... And the Lord of the vineyard wept, and said unto the servant: What could I have done more for my vineyard?",
       "foneticaLiturgica": "I will liken thee, O house of Israel, like unto a tame olive...",
       "traducciones": {
-        "hi": "3. हे इस्राएल के घराने, मैं तेरी तुलना पालतू जैतून के पेड़ के समान करूंगा... और दाख की बारी का स्वामी रो पड़ा, और सेवक से कहा: मैं अपने दाख की बारी के लिए और क्या कर सकता था?"
+        "hi": "3. हे इस्राएल के घराने, मैं तेरी तुलना पालतू जैतून के पेड़ के समान करूंगा।\n41. और दाख की बारी का स्वामी रो पड़ा, और सेवक से कहा: मैं अपने दाख की बारी के लिए और क्या कर सकता था?\n72. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 5
     },
@@ -1109,7 +1109,7 @@
       "textoOriginal": "Repent ye, and enter in at the strait gate, and continue in the way which is narrow, until ye shall obtain eternal life.",
       "foneticaLiturgica": "Repent ye, and enter in at the strait gate, and continue in...",
       "traducciones": {
-        "hi": "11. मन फिराओ, और तंग फाटक से प्रवेश करो, और सकरे मार्ग पर चलते रहो, जब तक अनन्त जीवन न पाओ।"
+        "hi": "11. मन फिराओ, और तंग फाटक से प्रवेश करो, और सकरे मार्ग पर चलते रहो, जब तक अनन्त जीवन न पाओ।\n12. हे बुद्धिमान बनो; मैं और क्या कह सकता हूं?"
       },
       "capituloRelativo": 6
     },
@@ -1127,7 +1127,7 @@
       "textoOriginal": "I had heard the voice of the Lord speaking unto me in very word, from time to time; wherefore, I could not be shaken.",
       "foneticaLiturgica": "I had heard the voice of the Lord speaking unto me in very w...",
       "traducciones": {
-        "hi": "5. मैंने समय-समय पर प्रभु की वाणी को मुझसे बहुत शब्दों में बात करते हुए सुना था; इसलिए, मुझे हिलाया नहीं जा सका।"
+        "hi": "5. मैंने समय-समय पर प्रभु की वाणी को मुझसे बहुत शब्दों में बात करते हुए सुना था; इसलिए, मुझे हिलाया नहीं जा सका।\n12. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 7
     },
@@ -1217,7 +1217,7 @@
       "textoOriginal": "Remember, my sons, were it not for these plates, which contain these records and these commandments, we must have suffered in ignorance...",
       "foneticaLiturgica": "Remember, my sons, were it not for these plates, which conta...",
       "traducciones": {
-        "hi": "3. याद रखें, मेरे बेटों, यदि ये प्लेटें नहीं होतीं, जिनमें ये रिकॉर्ड और ये आज्ञाएँ हैं, तो हमें अज्ञानता में कष्ट सहना पड़ता..."
+        "hi": "3. याद रखें, मेरे बेटों, यदि ये प्लेटें नहीं होतीं, जिनमें ये रिकॉर्ड और ये आज्ञाएँ हैं, तो हमें अज्ञानता में कष्ट सहना पड़ता।\n7. और अब, मेरे पुत्रो, मैं चाहूंगा कि तुम इन बातों को स्मरण रखो और इनका अध्ययन पूरी लगन से करो, ताकि तुम्हें इनसे लाभ हो।"
       },
       "capituloRelativo": 1
     },
@@ -1235,7 +1235,7 @@
       "textoOriginal": "When ye are in the service of your fellow beings ye are only in the service of your God.",
       "foneticaLiturgica": "When ye are in the service of your fellow beings ye are only...",
       "traducciones": {
-        "hi": "17. जब आप अपने साथी प्राणियों की सेवा में होते हैं तो आप केवल अपने भगवान की सेवा में होते हैं।"
+        "hi": "17. जब आप अपने साथी प्राणियों की सेवा में होते हैं तो आप केवल अपने भगवान की सेवा में होते हैं।\n41. और इसके अतिरिक्त, मैं चाहूंगा कि तुम उन लोगों की धन्य और आनन्दित अवस्था पर विचार करो जो परमेश्वर की आज्ञाओं का पालन करते हैं।"
       },
       "capituloRelativo": 2
     },
@@ -1253,7 +1253,7 @@
       "textoOriginal": "For behold, the time cometh, and is not far distant, that with power, the Lord Omnipotent... shall dwell in a tabernacle of clay... And he shall be called Jesus Christ.",
       "foneticaLiturgica": "For behold, the time cometh, and is not far distant, that wi...",
       "traducciones": {
-        "hi": "5. क्योंकि देखो, वह समय आता है, और दूर नहीं है, कि शक्ति के साथ, सर्वशक्तिमान प्रभु... मिट्टी के तम्बू में निवास करेगा... और उसे यीशु मसीह कहा जाएगा।"
+        "hi": "5. क्योंकि देखो, वह समय आता है, और दूर नहीं है, कि शक्ति के साथ, सर्वशक्तिमान प्रभु।\n8. मिट्टी के तम्बू में निवास करेगा।\n19. और उसे यीशु मसीह कहा जाएगा।"
       },
       "capituloRelativo": 3
     },
@@ -1271,7 +1271,7 @@
       "textoOriginal": "Believe in God; believe that he is, and that he created all things, both in heaven and in earth; believe that he has all wisdom, and all power...",
       "foneticaLiturgica": "Believe in God; believe that he is, and that he created all...",
       "traducciones": {
-        "hi": "9. भगवान में विश्वास करो; विश्वास करें कि वह है, और उसने स्वर्ग और पृथ्वी दोनों में सभी चीजें बनाईं; विश्वास करें कि उसके पास सारी बुद्धि और सारी शक्ति है..."
+        "hi": "9. भगवान में विश्वास करो; विश्वास करें कि वह है, और उसने स्वर्ग और पृथ्वी दोनों में सभी चीजें बनाईं; विश्वास करें कि उसके पास सारी बुद्धि और सारी शक्ति है।\n16. और तुम स्वयं उन लोगों की सहायता करोगे जिन्हें तुम्हारी सहायता की आवश्यकता है; तुम अपनी संपत्ति में से जरूरतमंदों को दोगे।\n27. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 4
     },
@@ -1289,7 +1289,7 @@
       "textoOriginal": "There is no other name given whereby salvation cometh; therefore, I would that ye should take upon you the name of Christ...",
       "foneticaLiturgica": "There is no other name given whereby salvation cometh; there...",
       "traducciones": {
-        "hi": "2. कोई अन्य नाम नहीं दिया गया है जिससे मुक्ति मिलती है; इसलिए, मैं चाहूंगा कि आप मसीह का नाम अपने ऊपर लें..."
+        "hi": "2. कोई अन्य नाम नहीं दिया गया है जिससे मुक्ति मिलती है; इसलिए, मैं चाहूंगा कि आप मसीह का नाम अपने ऊपर लें।\n7. और अब, उस वाचा के कारण जो तुमने बांधी है, तुम मसीह की संतान कहलाओगे, उसके पुत्र और उसकी पुत्रियां; क्योंकि देखो, आज उसने तुम्हें आत्मिक रूप से जन्म दिया है।\n8. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 5
     },
@@ -1307,7 +1307,7 @@
       "textoOriginal": "King Benjamin thought it was expedient... to take the names of all those who had entered into a covenant with God...",
       "foneticaLiturgica": "King Benjamin thought it was expedient... to take the names...",
       "traducciones": {
-        "hi": "1. राजा बिन्यामीन ने सोचा कि यह समीचीन होगा... उन सभी के नाम लेना जिन्होंने परमेश्वर के साथ अनुबंध किया था..."
+        "hi": "1. राजा बिन्यामीन ने सोचा कि यह समीचीन होगा।\n3. उन सभी के नाम लेना जिन्होंने परमेश्वर के साथ अनुबंध किया था।"
       },
       "capituloRelativo": 6
     },
@@ -1325,7 +1325,7 @@
       "textoOriginal": "O ye people, lift up your heads and be comforted; for behold, the time is at hand, or is not far distant...",
       "foneticaLiturgica": "O ye people, lift up your heads and be comforted; for behold...",
       "traducciones": {
-        "hi": "19. हे लोगो, अपना सिर उठाओ और शान्ति पाओ; क्योंकि देखो, समय निकट है, या दूर नहीं है..."
+        "hi": "19. हे लोगो, अपना सिर उठाओ और शान्ति पाओ; क्योंकि देखो, समय निकट है, या दूर नहीं है।\n33. परन्तु यदि तुम पूरे मन से प्रभु की ओर फिरोगे, और उस पर भरोसा रखोगे, और पूरी लगन से उसकी सेवा करोगे, तो वह तुम्हें छुड़ाएगा।"
       },
       "capituloRelativo": 7
     },
@@ -1343,7 +1343,7 @@
       "textoOriginal": "A seer is a revelator and a prophet also; and a gift which is greater can no man have...",
       "foneticaLiturgica": "A seer is a revelator and a prophet also; and a gift which i...",
       "traducciones": {
-        "hi": "13. द्रष्टा रहस्योद्घाटन करने वाला और भविष्यवक्ता भी होता है; और जो दान इससे बड़ा है, वह किसी मनुष्य को नहीं मिल सकता..."
+        "hi": "13. द्रष्टा रहस्योद्घाटन करने वाला और भविष्यवक्ता भी होता है; और जो दान इससे बड़ा है, वह किसी मनुष्य को नहीं मिल सकता।\n16. और अम्मोन ने कहा कि एक द्रष्टा एक प्रकटीकरणकर्ता और एक भविष्यद्वक्ता भी होता है; और मनुष्य को इससे बड़ा कोई वरदान नहीं मिल सकता।"
       },
       "capituloRelativo": 8
     },
@@ -1361,7 +1361,7 @@
       "textoOriginal": "I, Zeniff, having been taught in all the language of the Nephites... went up to possess the land...",
       "foneticaLiturgica": "I, Zeniff, having been taught in all the language of the Nep...",
       "traducciones": {
-        "hi": "1. मैं, जेनिफ़, नेफ़ाइयों की सभी भाषाएँ सीखने के बाद... भूमि पर कब्ज़ा करने के लिए गया..."
+        "hi": "1. मैं, जेनिफ़, नेफ़ाइयों की सभी भाषाएँ सीखने के बाद।\n17. भूमि पर कब्ज़ा करने के लिए गया।"
       },
       "capituloRelativo": 9
     },
@@ -1379,7 +1379,7 @@
       "textoOriginal": "And we did go up in the strength of the Lord to battle against the Lamanites...",
       "foneticaLiturgica": "And we did go up in the strength of the Lord to battle again...",
       "traducciones": {
-        "hi": "10. और हम लमनाइयों के विरुद्ध युद्ध करने के लिए प्रभु की शक्ति में आगे बढ़े..."
+        "hi": "10. और हम लमनाइयों के विरुद्ध युद्ध करने के लिए प्रभु की शक्ति में आगे बढ़े।\n19. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 10
     },
@@ -1397,7 +1397,7 @@
       "textoOriginal": "Wo be unto this generation! And the Lord said unto me: Stretch forth thy hand and prophesy...",
       "foneticaLiturgica": "Wo be unto this generation! And the Lord said unto me: Stret...",
       "traducciones": {
-        "hi": "20. धिक्कार है इस पीढ़ी पर! और प्रभु ने मुझसे कहा: अपना हाथ बढ़ाओ और भविष्यवाणी करो..."
+        "hi": "20. अबीनादी ने जाकर उनके बीच प्रचार करना आरम्भ किया, और कहा: प्रभु यों कहता है: इस प्रजा पर हाय, क्योंकि मैं ने उनके अधर्म और घृणित कामों को देखा है!\n29. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 11
     },
@@ -1415,7 +1415,7 @@
       "textoOriginal": "I will cause this people to know that I am the Lord their God... Touch me not, for God shall smite you if ye lay your hands upon me...",
       "foneticaLiturgica": "I will cause this people to know that I am the Lord their Go...",
       "traducciones": {
-        "hi": "1. मैं इन लोगों को यह ज्ञात कराऊंगा कि मैं उनका परमेश्वर यहोवा हूं... मुझे मत छुओ, क्योंकि यदि तुम मुझ पर हाथ रखोगे तो परमेश्वर तुम्हें मार डालेगा..."
+        "hi": "1. मैं इन लोगों को यह ज्ञात कराऊंगा कि मैं उनका परमेश्वर यहोवा हूं।\n34. मुझे मत छुओ, क्योंकि यदि तुम मुझ पर हाथ रखोगे तो परमेश्वर तुम्हें मार डालेगा।"
       },
       "capituloRelativo": 12
     },
@@ -1433,7 +1433,7 @@
       "textoOriginal": "And now, when Abinadi had spoken these words, his face shone with exceeding luster, even as Moses' did while in the mount of Sinai...",
       "foneticaLiturgica": "And now, when Abinadi had spoken these words, his face shone...",
       "traducciones": {
-        "hi": "5. और अब, जब अबिनादी ने ये शब्द कहे, तो उसका चेहरा अत्यधिक चमक से चमक उठा, जैसा कि मूसा ने सिनाई पर्वत पर देखा था..."
+        "hi": "5. और अब, जब अबिनादी ने ये शब्द कहे, तो उसका चेहरा अत्यधिक चमक से चमक उठा, जैसा कि मूसा ने सिनाई पर्वत पर देखा था।\n28. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 13
     },
@@ -1451,7 +1451,7 @@
       "textoOriginal": "He was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.",
       "foneticaLiturgica": "He was wounded for our transgressions, he was bruised for ou...",
       "traducciones": {
-        "hi": "3. वह हमारे अपराधों के कारण घायल हुआ था, वह हमारे अधर्म के कामों के कारण घायल हुआ था: हमारी शांति की ताड़ना उस पर थी; और उसके कोड़े खाने से हम चंगे हो गए।"
+        "hi": "3. वह हमारे अपराधों के कारण घायल हुआ था, वह हमारे अधर्म के कामों के कारण घायल हुआ था: हमारी शांति की ताड़ना उस पर थी; और उसके कोड़े खाने से हम चंगे हो गए।\n5. परन्तु वह हमारे ही अपराधों के कारण घायल किया गया, और हमारे अधर्म के कारण कुचला गया; हमारी ही शांति के लिये उस पर ताड़ना पड़ी, और उसके कोड़े खाने से हम चंगे हुए।\n7. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 14
     },
@@ -1469,7 +1469,7 @@
       "textoOriginal": "God himself shall come down among the children of men, and shall redeem his people... How beautiful upon the mountains are the feet of him that bringeth good tidings!",
       "foneticaLiturgica": "God himself shall come down among the children of men, and s...",
       "traducciones": {
-        "hi": "1. परमेश्वर स्वयं मानव संतानों के बीच उतरेगा, और अपने लोगों को छुड़ाएगा... पहाड़ों पर उसके पैर कितने सुंदर हैं जो शुभ समाचार लाते हैं!"
+        "hi": "1. परमेश्वर स्वयं मानव संतानों के बीच उतरेगा, और अपने लोगों को छुड़ाएगा।\n7. हाँ, उसी प्रकार जैसे एक भेड़ अपने कतरने वालों के सामने मौन रहती है, वैसे ही उसने अपना मुंह नहीं खोला।\n18. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 15
     },
@@ -1487,7 +1487,7 @@
       "textoOriginal": "The grave hath no victory, and the sting of death is swallowed up in Christ. He is the light and the life of the world...",
       "foneticaLiturgica": "The grave hath no victory, and the sting of death is swallow...",
       "traducciones": {
-        "hi": "7. कब्र की कोई जीत नहीं होती, और मौत का दंश मसीह में समा जाता है। वह संसार की ज्योति और जीवन है..."
+        "hi": "7. कब्र की कोई जीत नहीं होती, और मौत का दंश मसीह में समा जाता है। वह संसार की ज्योति और जीवन है।\n8. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n9. वह जगत की ज्योति और जीवन है; हाँ, एक ऐसी ज्योति जो अनन्त है, जो कभी अंधकार में नहीं बदल सकती।"
       },
       "capituloRelativo": 16
     },
@@ -1505,7 +1505,7 @@
       "textoOriginal": "O God, receive my soul... And now, when Abinadi had said these words, he fell, having suffered death by fire...",
       "foneticaLiturgica": "O God, receive my soul... And now, when Abinadi had said the...",
       "traducciones": {
-        "hi": "2. हे भगवान, मेरी आत्मा को प्राप्त करो... और अब, जब अबिनादी ने ये शब्द कहे, तो वह आग से मारा गया..."
+        "hi": "2. हे भगवान, मेरी आत्मा को प्राप्त करो।\n19. और अब जब अबीनादी ने ये वचन कहे, तो वह आग में गिर गया और मारा गया; और उसने सच्चाई के लिये अपनी जान दे दी।\n20. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 17
     },
@@ -1523,7 +1523,7 @@
       "textoOriginal": "And they were called the church of God, or the church of Christ, from that time forth... Yea, the waters of Mormon! How beautiful are they!",
       "foneticaLiturgica": "And they were called the church of God, or the church of Chr...",
       "traducciones": {
-        "hi": "8. और उस समय से उन्हें भगवान का चर्च, या मसीह का चर्च कहा जाता था... हाँ, मॉरमन का पानी! वे कितने सुंदर हैं!"
+        "hi": "8. और उस समय से उन्हें भगवान का चर्च, या मसीह का चर्च कहा जाता था।\n9. हाँ, मॉरमन का पानी! वे कितने सुंदर हैं!\n14. और जब अलमा ने ये वचन कहे, तो वह और हेलाम दोनों जल में बपतिस्मा पाने के लिये उतरे; और वे आत्मा से भर गए।\n30. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 18
     },
@@ -1541,7 +1541,7 @@
       "textoOriginal": "The king commanded that all the men should leave their wives and their children, and flee before the Lamanites...",
       "foneticaLiturgica": "The king commanded that all the men should leave their wives...",
       "traducciones": {
-        "hi": "11. राजा ने आदेश दिया कि सभी पुरुषों को अपनी पत्नियों और बच्चों को छोड़ देना चाहिए, और लमनाइयों के सामने से भाग जाना चाहिए..."
+        "hi": "11. राजा ने आदेश दिया कि सभी पुरुषों को अपनी पत्नियों और बच्चों को छोड़ देना चाहिए, और लमनाइयों के सामने से भाग जाना चाहिए।\n20. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 19
     },
@@ -1577,7 +1577,7 @@
       "textoOriginal": "And they did humble themselves even to the dust, subjecting themselves to the yoke of bondage...",
       "foneticaLiturgica": "And they did humble themselves even to the dust, subjecting...",
       "traducciones": {
-        "hi": "14. और उन्होंने अपने आप को धूल के समान भी नम्र कर लिया, और अपने आप को दासत्व के जुए के अधीन कर लिया..."
+        "hi": "14. और उन्होंने अपने आप को धूल के समान भी नम्र कर लिया, और अपने आप को दासत्व के जुए के अधीन कर लिया।\n25. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 21
     },
@@ -1595,7 +1595,7 @@
       "textoOriginal": "And the king hearkened unto the words of Gideon... And they went round about the land of Shilom into the wilderness...",
       "foneticaLiturgica": "And the king hearkened unto the words of Gideon... And they...",
       "traducciones": {
-        "hi": "11. और राजा ने गिदोन की बातें सुनीं... और वे शिलोम देश के चारों ओर जंगल में घूम गए..."
+        "hi": "11. और राजा ने गिदोन की बातें सुनीं।\n13. और वे शिलोम देश के चारों ओर जंगल में घूम गए।"
       },
       "capituloRelativo": 22
     },
@@ -1613,7 +1613,7 @@
       "textoOriginal": "And Alma and his people did prosper exceedingly in the land... and they were a very friendly and also a prosperous people...",
       "foneticaLiturgica": "And Alma and his people did prosper exceedingly in the land....",
       "traducciones": {
-        "hi": "15. और अलमा और उसके लोग देश में अत्यधिक समृद्ध हुए... और वे बहुत मिलनसार और समृद्ध लोग भी थे..."
+        "hi": "15. और अलमा और उसके लोग देश में अत्यधिक समृद्ध हुए।\n21. और वे बहुत मिलनसार और समृद्ध लोग भी थे।"
       },
       "capituloRelativo": 23
     },
@@ -1631,7 +1631,7 @@
       "textoOriginal": "I will also ease the burdens which are put upon your shoulders, that even you cannot feel them upon your backs...",
       "foneticaLiturgica": "I will also ease the burdens which are put upon your shoulde...",
       "traducciones": {
-        "hi": "14. मैं तुम्हारे कंधों पर डाले गए बोझ को भी हल्का कर दूंगा, यहां तक कि तुम उन्हें अपनी पीठ पर महसूस भी नहीं कर पाओगे..."
+        "hi": "14. मैं तुम्हारे कंधों पर डाले गए बोझ को भी हल्का कर दूंगा, यहां तक कि तुम उन्हें अपनी पीठ पर महसूस भी नहीं कर पाओगे।\n15. और अब ऐसा हुआ कि अलमा और उसके लोगों पर जो भार डाले गए थे वे हल्के कर दिए गए; हाँ, प्रभु ने उन्हें शक्ति दी ताकि वे अपने कष्टों को धीरज से सह सकें।"
       },
       "capituloRelativo": 24
     },
@@ -1667,7 +1667,7 @@
       "textoOriginal": "He that forgiveth not his neighbor's trespasses when he says that he repents, the same hath brought himself under condemnation.",
       "foneticaLiturgica": "He that forgiveth not his neighbor's trespasses when he says...",
       "traducciones": {
-        "hi": "30. जो अपने पड़ोसी के अपराध क्षमा नहीं करता, जब वह कहता है कि मुझे पश्चात्ताप है, तो वह अपने आप को दोषी ठहराता है।"
+        "hi": "30. जो अपने पड़ोसी के अपराध क्षमा नहीं करता, जब वह कहता है कि मुझे पश्चात्ताप है, तो वह अपने आप को दोषी ठहराता है।\n31. और तुम एक दूसरे के अपराधों को क्षमा करोगे; क्योंकि सचमुच मैं तुमसे कहता हूं, जो अपने पड़ोसी के अपराधों को क्षमा नहीं करता वह दोषी ठहराया जाता है।"
       },
       "capituloRelativo": 26
     },
@@ -1685,7 +1685,7 @@
       "textoOriginal": "Marvel not that all mankind, yea, men and women, all nations, kindreds, tongues and people, must be born again...",
       "foneticaLiturgica": "Marvel not that all mankind, yea, men and women, all nations...",
       "traducciones": {
-        "hi": "14. आश्चर्य मत कीजिए कि सारी मानवजाति, हाँ, पुरुष और महिलाएँ, सभी राष्ट्र, जातियाँ, भाषाएँ और लोग, फिर से जन्म लेंगे..."
+        "hi": "14. आश्चर्य मत कीजिए कि सारी मानवजाति, हाँ, पुरुष और महिलाएँ, सभी राष्ट्र, जातियाँ, भाषाएँ और लोग, फिर से जन्म लेंगे।\n24. क्योंकि, प्रभु ने मुझसे कहा: आश्चर्य न कर कि सारी मानवजाति को नया जन्म लेना होगा; हाँ, आत्मिक रूप से जन्म लेकर परमेश्वर के पुत्र और पुत्रियां बनना होगा।"
       },
       "capituloRelativo": 27
     },
@@ -1703,7 +1703,7 @@
       "textoOriginal": "And they were desirous that salvation should be declared to every creature, for they could not bear that any human soul should perish...",
       "foneticaLiturgica": "And they were desirous that salvation should be declared to...",
       "traducciones": {
-        "hi": "3. और वे चाहते थे कि प्रत्येक प्राणी के लिए मुक्ति की घोषणा की जाए, क्योंकि वे यह सहन नहीं कर सकते थे कि किसी भी मानव आत्मा का नाश हो..."
+        "hi": "3. और वे चाहते थे कि प्रत्येक प्राणी के लिए मुक्ति की घोषणा की जाए, क्योंकि वे यह सहन नहीं कर सकते थे कि किसी भी मानव आत्मा का नाश हो।\n20. और उसने अलमा के पुत्र अलमा को वे सब अभिलेख और अनुवादक सौंपे जो तैयार किए गए थे।"
       },
       "capituloRelativo": 28
     },
@@ -1721,7 +1721,7 @@
       "textoOriginal": "Therefore, choose you by the voice of this people, judges, that ye may be judged according to the laws which have been given you...",
       "foneticaLiturgica": "Therefore, choose you by the voice of this people, judges, t...",
       "traducciones": {
-        "hi": "25. इसलिए, तुम इस लोगों की आवाज़ से न्यायाधीशों को चुनो, ताकि जो कानून तुम्हें दिए गए हैं उनके अनुसार तुम्हारा न्याय किया जा सके..."
+        "hi": "25. इसलिए, तुम इस लोगों की आवाज़ से न्यायाधीशों को चुनो, ताकि जो कानून तुम्हें दिए गए हैं उनके अनुसार तुम्हारा न्याय किया जा सके।\n26. अब यह साधारण बात नहीं है कि लोगों की बहुसंख्या की आवाज़ वह चाहे जो सही न हो; परन्तु बहुधा अल्पसंख्या ही अनुचित कार्य करती है।\n42. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 29
     },
@@ -1739,7 +1739,7 @@
       "textoOriginal": "Priestcraft once set introduced among the people would prove the destruction thereof...",
       "foneticaLiturgica": "Priestcraft once set introduced among the people would prove...",
       "traducciones": {
-        "hi": "12. एक बार लोगों के बीच शुरू की गई पुरोहिती कला उसके विनाश को साबित कर देगी..."
+        "hi": "12. एक बार लोगों के बीच शुरू की गई पुरोहिती कला उसके विनाश को साबित कर देगी।\n16. तथापि, इसने देश में पुरोहिती आडंबर के प्रसार को नहीं रोका; क्योंकि बहुतेरे लोग धन और झूठी प्रशंसा के लोभी थे।"
       },
       "capituloRelativo": 1
     },
@@ -1757,7 +1757,7 @@
       "textoOriginal": "And the people assembled themselves together throughout all the land, every man according to his mind...",
       "foneticaLiturgica": "And the people assembled themselves together throughout all...",
       "traducciones": {
-        "hi": "16. और सारे देश में सब लोग अपने अपने मन के अनुसार इकट्ठे हो गए..."
+        "hi": "16. और सारे देश में सब लोग अपने अपने मन के अनुसार इकट्ठे हो गए।\n28. तथापि, नफी के लोग परमेश्वर की सामर्थ्य से मजबूत होकर, अपने शत्रुओं पर प्रबल हुए और उनका बड़ा संहार किया।"
       },
       "capituloRelativo": 2
     },
@@ -1775,7 +1775,7 @@
       "textoOriginal": "And the skins of the Lamanites were dark, according to the mark which was set upon their fathers...",
       "foneticaLiturgica": "And the skins of the Lamanites were dark, according to the m...",
       "traducciones": {
-        "hi": "19. और लमनाइयों की त्वचा उस चिन्ह के अनुसार काली थी जो उनके पूर्वजों पर अंकित था..."
+        "hi": "19. और लमनाइयों की त्वचा उस चिन्ह के अनुसार काली थी जो उनके पूर्वजों पर अंकित था।\n26. और एक ही वर्ष में हजारों और लाखों लोगों के प्राण अनन्त संसार में चले गए, ताकि वे अपने कार्यों के अनुसार अपना प्रतिफल प्राप्त करें।"
       },
       "capituloRelativo": 3
     },
@@ -1793,7 +1793,7 @@
       "textoOriginal": "And this he did that he himself might go forth among his people... to stir them up in remembrance of their duty...",
       "foneticaLiturgica": "And this he did that he himself might go forth among his peo...",
       "traducciones": {
-        "hi": "19. और उसने ऐसा इसलिए किया कि वह स्वयं अपने लोगों के बीच जा सके... उन्हें उनके कर्तव्य की याद दिलाने के लिए प्रेरित कर सके..."
+        "hi": "19. और उसने ऐसा इसलिए किया कि वह स्वयं अपने लोगों के बीच जा सके।\n20. उन्हें उनके कर्तव्य की याद दिलाने के लिए प्रेरित कर सके।"
       },
       "capituloRelativo": 4
     },
@@ -1811,7 +1811,7 @@
       "textoOriginal": "Have ye spiritually been born of God? Have ye received his image in your countenances? Have ye experienced this mighty change in your hearts?",
       "foneticaLiturgica": "Have ye spiritually been born of God? Have ye received his i...",
       "traducciones": {
-        "hi": "14. क्या आप आध्यात्मिक रूप से ईश्वर से पैदा हुए हैं? क्या तुमने अपने चेहरे पर उसकी छवि पाई है? क्या आपने अपने हृदय में इस शक्तिशाली परिवर्तन का अनुभव किया है?"
+        "hi": "14. क्या आप आध्यात्मिक रूप से ईश्वर से पैदा हुए हैं? क्या तुमने अपने चेहरे पर उसकी छवि पाई है? क्या आपने अपने हृदय में इस शक्तिशाली परिवर्तन का अनुभव किया है?\n19. मैं तुमसे कहता हूं, क्या तुम उस दिन शुद्ध हृदय और स्वच्छ हाथों से परमेश्वर की ओर देख सकते हो?\n26. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 5
     },
@@ -1829,7 +1829,7 @@
       "textoOriginal": "And Alma went and began to declare the word of God unto the church which was established in the valley of Gideon...",
       "foneticaLiturgica": "And Alma went and began to declare the word of God unto the...",
       "traducciones": {
-        "hi": "3. और अलमा गया और उस चर्च को परमेश्वर का वचन सुनाना शुरू किया जो गिदोन की घाटी में स्थापित किया गया था..."
+        "hi": "3. और अलमा गया और उस चर्च को परमेश्वर का वचन सुनाना शुरू किया जो गिदोन की घाटी में स्थापित किया गया था।\n8. और अलमा गया और उस कलीसिया को परमेश्वर का वचन सुनाने लगा जो गिदोन की घाटी में स्थापित की गई थी।"
       },
       "capituloRelativo": 6
     },
@@ -1847,7 +1847,7 @@
       "textoOriginal": "He will take upon him the pains and the sicknesses of his people... that his bowels may be filled with mercy...",
       "foneticaLiturgica": "He will take upon him the pains and the sicknesses of his pe...",
       "traducciones": {
-        "hi": "10. वह अपने लोगों के कष्टों और बीमारियों को अपने ऊपर ले लेगा... ताकि उसका हृदय दया से भर जाए..."
+        "hi": "10. वह अपने लोगों के कष्टों और बीमारियों को अपने ऊपर ले लेगा।\n11. और वह आगे जाएगा, हर प्रकार के दर्द, क्लेश और परीक्षाओं को सहेगा; और यह इसलिये होगा ताकि वह वचन पूरा हो सके जो कहता है कि वह अपने लोगों के दुखों और बीमारियों को अपने ऊपर लेगा।\n12. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 7
     },
@@ -1865,7 +1865,7 @@
       "textoOriginal": "Blessed art thou, Alma; therefore, lift up thy head and rejoice, for thou hast great cause to rejoice...",
       "foneticaLiturgica": "Blessed art thou, Alma; therefore, lift up thy head and rejo...",
       "traducciones": {
-        "hi": "15. तू धन्य है, अल्मा; इसलिए, अपना सिर उठाओ और आनन्द करो, क्योंकि तुम्हारे पास आनन्दित होने का बड़ा कारण है..."
+        "hi": "15. तू धन्य है, अल्मा; इसलिए, अपना सिर उठाओ और आनन्द करो, क्योंकि तुम्हारे पास आनन्दित होने का बड़ा कारण है।\n16. और देखो, मैं तुम्हें यह आज्ञा देने के लिये भेजा गया हूं कि तुम अम्मोनीहा नगर में लौट जाओ और उन लोगों से कहो कि यदि वे पश्चाताप नहीं करेंगे, तो प्रभु परमेश्वर उन्हें नष्ट कर देगा।"
       },
       "capituloRelativo": 8
     },
@@ -1883,7 +1883,7 @@
       "textoOriginal": "I will make it known unto you, that there are many promises which are extended to the Lamanites...",
       "foneticaLiturgica": "I will make it known unto you, that there are many promises...",
       "traducciones": {
-        "hi": "16. मैं आपको यह बताऊंगा कि ऐसे कई वादे हैं जो लमनाइयों से किए गए हैं..."
+        "hi": "16. मैं आपको यह बताऊंगा कि ऐसे कई वादे हैं जो लमनाइयों से किए गए हैं।\n26. और बहुत दिन नहीं बीतेंगे जब परमेश्वर का पुत्र अपनी महिमा में आएगा; और उसकी महिमा पिता के एकलौते पुत्र की महिमा होगी, जो अनुग्रह और सच्चाई से परिपूर्ण है।"
       },
       "capituloRelativo": 9
     },
@@ -1901,7 +1901,7 @@
       "textoOriginal": "I am Amulek; and I am the son of Giddonah... and behold, I have seen an angel of the Lord...",
       "foneticaLiturgica": "I am Amulek; and I am the son of Giddonah... and behold, I h...",
       "traducciones": {
-        "hi": "4. मैं अमूलेक हूं; और मैं गिद्दोना का पुत्र हूं... और देखो, मैं ने प्रभु के एक दूत को देखा है..."
+        "hi": "4. मैं अमूलेक हूं; और मैं गिद्दोना का पुत्र हूं।\n11. और देखो, मैं ने प्रभु के एक दूत को देखा है।"
       },
       "capituloRelativo": 10
     },
@@ -1919,7 +1919,7 @@
       "textoOriginal": "Shall he save his people in their sins? And Amulek answered and said unto him: I say unto you he shall not...",
       "foneticaLiturgica": "Shall he save his people in their sins? And Amulek answered...",
       "traducciones": {
-        "hi": "34. क्या वह अपने लोगों को उनके पापों से बचाएगा? और अमूलेक ने उत्तर दिया और उससे कहा: मैं तुमसे कहता हूं कि वह नहीं करेगा..."
+        "hi": "34. क्या वह अपने लोगों को उनके पापों से बचाएगा? और अमूलेक ने उत्तर दिया और उससे कहा: मैं तुमसे कहता हूं कि वह नहीं करेगा।\n43. आत्मा और शरीर फिर से अपने सिद्ध रूप में एक हो जाएंगे; अंग और जोड़ दोनों अपने उचित स्थान पर बहाल कर दिए जाएंगे।"
       },
       "capituloRelativo": 11
     },
@@ -1937,7 +1937,7 @@
       "textoOriginal": "God gave unto them commandments, after having made known unto them the plan of redemption...",
       "foneticaLiturgica": "God gave unto them commandments, after having made known unt...",
       "traducciones": {
-        "hi": "9. परमेश्वर ने उन्हें मुक्ति की योजना बताने के बाद उन्हें आज्ञाएँ दीं..."
+        "hi": "9. परमेश्वर ने उन्हें मुक्ति की योजना बताने के बाद उन्हें आज्ञाएँ दीं।\n24. और हम देखते हैं कि मृत्यु मानवजाति पर आती है; हाँ, यह जीवन पश्चाताप करने और परमेश्वर से मिलने की तैयारी करने का समय बन गया।"
       },
       "capituloRelativo": 12
     },
@@ -1955,7 +1955,7 @@
       "textoOriginal": "High priests forever, after the order of the Son, the Only Begotten of the Father... Look unto that great and last sacrifice...",
       "foneticaLiturgica": "High priests forever, after the order of the Son, the Only B...",
       "traducciones": {
-        "hi": "1. महायाजक हमेशा के लिए, पुत्र के आदेश के बाद, पिता के एकमात्र पुत्र... उस महान और अंतिम बलिदान को देखें..."
+        "hi": "1. महायाजक हमेशा के लिए, पुत्र के आदेश के बाद, पिता के एकमात्र पुत्र।\n16. उस महान और अंतिम बलिदान को देखें।"
       },
       "capituloRelativo": 13
     },
@@ -1973,7 +1973,7 @@
       "textoOriginal": "How shall we look when we are damned? And Alma said: The Lord suffereth the righteous to be slain, that his justice and judgment may come upon the wicked...",
       "foneticaLiturgica": "How shall we look when we are damned? And Alma said: The Lor...",
       "traducciones": {
-        "hi": "11. जब हम अभिशप्त होंगे तो हम कैसे दिखेंगे? और अलमा ने कहा: प्रभु धर्मियों को मारे जाने देते हैं, ताकि उनका न्याय और फैसला दुष्टों पर आ सके..."
+        "hi": "11. जब हम अभिशप्त होंगे तो हम कैसे दिखेंगे? और अलमा ने कहा: प्रभु धर्मियों को मारे जाने देते हैं, ताकि उनका न्याय और फैसला दुष्टों पर आ सके।\n28. और अलमा और अमूलेक बन्दीगृह से बाहर निकल आए, और उन्हें कोई हानि नहीं पहुंची थी; क्योंकि प्रभु ने उन्हें उनके विश्वास के कारण अपनी शक्ति दी थी।"
       },
       "capituloRelativo": 14
     },
@@ -1991,7 +1991,7 @@
       "textoOriginal": "If thou believest in the redemption of Christ thou canst be healed. And he said: Yea, I believe according to thy words.",
       "foneticaLiturgica": "If thou believest in the redemption of Christ thou canst be...",
       "traducciones": {
-        "hi": "8. यदि आप मसीह की मुक्ति में विश्वास करते हैं तो आप ठीक हो सकते हैं। और उसने कहा: हां, मैं तेरे शब्दों के अनुसार विश्वास करता हूं।"
+        "hi": "8. यदि आप मसीह की मुक्ति में विश्वास करते हैं तो आप ठीक हो सकते हैं। और उसने कहा: हां, मैं तेरे शब्दों के अनुसार विश्वास करता हूं।\n10. और तब अलमा ने प्रभु की दोहाई दी, और कहा: हे प्रभु हमारे परमेश्वर, इस मनुष्य पर दया कर, और उसके विश्वास के अनुसार जो मसीह में है, उसे चंगा कर।\n11. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 15
     },
@@ -2009,7 +2009,7 @@
       "textoOriginal": "The city of Ammonihah was destroyed; yea, every living soul of the Ammonihaites was destroyed...",
       "foneticaLiturgica": "The city of Ammonihah was destroyed; yea, every living soul...",
       "traducciones": {
-        "hi": "9. अम्मोनिहा शहर नष्ट हो गया; हाँ, अम्मोनिहियों की प्रत्येक जीवित आत्मा नष्ट हो गई..."
+        "hi": "9. अम्मोनिहा शहर नष्ट हो गया; हाँ, अम्मोनिहियों की प्रत्येक जीवित आत्मा नष्ट हो गई।\n16. और लोगों के बीच कोई असमानता न रही; प्रभु ने देश की सारी भूमि पर अपनी आत्मा उंडेली ताकि उनके हृदयों को तैयार किया जा सके।"
       },
       "capituloRelativo": 16
     },
@@ -2027,7 +2027,7 @@
       "textoOriginal": "The sons of Mosiah were men of sound understanding; and they had searched the scriptures diligently...",
       "foneticaLiturgica": "The sons of Mosiah were men of sound understanding; and they...",
       "traducciones": {
-        "hi": "2. मोसायाह के पुत्र अच्छी समझ वाले व्यक्ति थे; और उन्होंने धर्मग्रंथों की परिश्रमपूर्वक खोज की थी..."
+        "hi": "2. मोसायाह के पुत्र अच्छी समझ वाले व्यक्ति थे; और उन्होंने धर्मग्रंथों की परिश्रमपूर्वक खोज की थी।\n3. परन्तु यह सब कुछ नहीं था; उन्होंने अपने आपको प्रार्थना और उपवास में लगाया था; इसलिये उनके पास भविष्यवाणी और प्रकटीकरण की आत्मा थी।\n25. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 17
     },
@@ -2045,7 +2045,7 @@
       "textoOriginal": "Believest thou that this Great Spirit, who is God, created all things which are in heaven and in the earth?",
       "foneticaLiturgica": "Believest thou that this Great Spirit, who is God, created a...",
       "traducciones": {
-        "hi": "28. क्या आप विश्वास करते हैं कि इस महान आत्मा, जो ईश्वर है, ने स्वर्ग और पृथ्वी पर मौजूद सभी चीजों का निर्माण किया?"
+        "hi": "28. क्या आप विश्वास करते हैं कि इस महान आत्मा, जो ईश्वर है, ने स्वर्ग और पृथ्वी पर मौजूद सभी चीजों का निर्माण किया?\n34. अम्मोन ने उससे कहा: मैं एक मनुष्य हूं; और मनुष्य आदि में परमेश्वर के स्वरूप में बनाया गया था, और मुझे उसकी पवित्र आत्मा द्वारा इन लोगों को सिखाने के लिये बुलाया गया है।"
       },
       "capituloRelativo": 18
     },
@@ -2063,7 +2063,7 @@
       "textoOriginal": "He that believeth on my name shall have everlasting life... And the queen cried out with a loud voice: O blessed Jesus, who has saved me from an awful hell!",
       "foneticaLiturgica": "He that believeth on my name shall have everlasting life......",
       "traducciones": {
-        "hi": "13. जो मेरे नाम पर विश्वास करेगा, उसे अनन्त जीवन मिलेगा... और रानी ने ऊंचे स्वर से चिल्लाकर कहा: हे धन्य यीशु, जिसने मुझे एक भयानक नरक से बचाया है!"
+        "hi": "13. जो मेरे नाम पर विश्वास करेगा, उसे अनन्त जीवन मिलेगा।\n29. और रानी ने ऊंचे स्वर से चिल्लाकर कहा: हे धन्य यीशु, जिसने मुझे एक भयानक नरक से बचाया है!"
       },
       "capituloRelativo": 19
     },
@@ -2081,7 +2081,7 @@
       "textoOriginal": "Thou shalt not slay thy son; nevertheless, it were better that he should fall than thee...",
       "foneticaLiturgica": "Thou shalt not slay thy son; nevertheless, it were better th...",
       "traducciones": {
-        "hi": "24. तू अपने पुत्र को घात न करना; फिर भी, यह बेहतर था कि वह तुमसे गिर जाए..."
+        "hi": "24. तू अपने पुत्र को घात न करना; फिर भी, यह बेहतर था कि वह तुमसे गिर जाए।\n27. और जब लमोनी के पिता ने देखा कि अम्मोन के मन में कोई कपट नहीं है, तो वह बहुत चकित हुआ और उसने कहा: मैं तुझे तेरे भाइयों को मुक्त करने की अनुमति देता हूं।"
       },
       "capituloRelativo": 20
     },
@@ -2117,7 +2117,7 @@
       "textoOriginal": "I will give away all my sins to know thee, and that I may be raised from the dead, and be saved at the last day.",
       "foneticaLiturgica": "I will give away all my sins to know thee, and that I may be...",
       "traducciones": {
-        "hi": "15. मैं तुझे जानने के लिये अपने सारे पाप त्याग दूँगा, और मृतकों में से जीवित हो जाऊँगा, और अंतिम दिन में उद्धार पाऊँगा।"
+        "hi": "15. मैं तुझे जानने के लिये अपने सारे पाप त्याग दूँगा, और मृतकों में से जीवित हो जाऊँगा, और अंतिम दिन में उद्धार पाऊँगा।\n18. हे परमेश्वर, हारून ने मुझे बताया है कि तू जीवित परमेश्वर है; यदि तू है, तो अपने आपको मुझ पर प्रगट कर, और मैं अपने सब पापों को त्याग दूंगा ताकि मैं तुझे जान सकूं।"
       },
       "capituloRelativo": 22
     },
@@ -2135,7 +2135,7 @@
       "textoOriginal": "And they became a righteous people; they did lay down the weapons of their rebellion, that they did not fight against God no more...",
       "foneticaLiturgica": "And they became a righteous people; they did lay down the we...",
       "traducciones": {
-        "hi": "6. और वे धर्मी लोग बन गए; उन्होंने अपने विद्रोह के हथियार डाल दिये, ताकि वे फिर परमेश्वर के विरुद्ध न लड़ें..."
+        "hi": "6. और वे धर्मी लोग बन गए; उन्होंने अपने विद्रोह के हथियार डाल दिये, ताकि वे फिर परमेश्वर के विरुद्ध न लड़ें।\n7. क्योंकि वे एक धर्मी लोग बन गए; उन्होंने अपने बगावत के हथियारों को डाल दिया, और फिर कभी परमेश्वर के विरुद्ध नहीं लड़े।"
       },
       "capituloRelativo": 23
     },
@@ -2153,7 +2153,7 @@
       "textoOriginal": "Let us bury them deep in the earth, that they may be kept bright, as a testimony that we have never used them...",
       "foneticaLiturgica": "Let us bury them deep in the earth, that they may be kept br...",
       "traducciones": {
-        "hi": "15. आइए हम उन्हें धरती में गहरे गाड़ दें, ताकि वे उज्ज्वल बने रहें, एक गवाही के रूप में कि हमने उनका कभी उपयोग नहीं किया..."
+        "hi": "15. आइए हम उन्हें धरती में गहरे गाड़ दें, ताकि वे उज्ज्वल बने रहें, एक गवाही के रूप में कि हमने उनका कभी उपयोग नहीं किया।\n17. और अब ऐसा हुआ कि जब राजा ने ये बातें समाप्त कीं, तो सब लोगों ने अपने तलवारों और सब हथियारों को धरती में गहराई से गाड़ दिया ताकि वे शांति में रहें।"
       },
       "capituloRelativo": 24
     },
@@ -2171,7 +2171,7 @@
       "textoOriginal": "And the words of Abinadi were brought to pass, which he said concerning the seed of the priests...",
       "foneticaLiturgica": "And the words of Abinadi were brought to pass, which he said...",
       "traducciones": {
-        "hi": "9. और अबिनादी के शब्द पूरे हुए, जो उसने याजकों के वंश के विषय में कहा था..."
+        "hi": "9. और अबिनादी के शब्द पूरे हुए, जो उसने याजकों के वंश के विषय में कहा था।\n16. अब वे नहीं समझते थे कि व्यवस्था के द्वारा उद्धार होता है; परन्तु व्यवस्था मसीह की ओर संकेत करती थी, और वे उसके आने तक व्यवस्था का पालन करते थे।"
       },
       "capituloRelativo": 25
     },
@@ -2189,7 +2189,7 @@
       "textoOriginal": "My joy is full, yea, my heart is brim with joy, and I will rejoice in my God... In his strength I can do all things.",
       "foneticaLiturgica": "My joy is full, yea, my heart is brim with joy, and I will r...",
       "traducciones": {
-        "hi": "12. मेरा आनन्द परिपूर्ण है, हाँ, मेरा हृदय आनन्द से भर गया है, और मैं अपने परमेश्वर में आनन्दित रहूँगा... उसकी शक्ति में मैं सब कुछ कर सकता हूँ।"
+        "hi": "12. मेरा आनन्द परिपूर्ण है, हाँ, मेरा हृदय आनन्द से भर गया है, और मैं अपने परमेश्वर में आनन्दित रहूँगा।\n16. उसकी शक्ति में मैं सब कुछ कर सकता हूँ।"
       },
       "capituloRelativo": 26
     },
@@ -2243,7 +2243,7 @@
       "textoOriginal": "O that I were an angel, and could have the wish of mine heart, that I might go forth and speak with the trump of God...",
       "foneticaLiturgica": "O that I were an angel, and could have the wish of mine hear...",
       "traducciones": {
-        "hi": "1. काश कि मैं एक देवदूत होता, और मेरे मन की इच्छा होती, कि मैं आगे जाकर परमेश्वर के तुरही के साथ बात कर सकता..."
+        "hi": "1. काश कि मैं एक देवदूत होता, और मेरे मन की इच्छा होती, कि मैं आगे जाकर परमेश्वर के तुरही के साथ बात कर सकता।\n9. मैं जानता हूं कि जो कुछ प्रभु ने मुझे आज्ञा दी है, मैं उसी में गर्व करता हूं; और मैं स्वयं में नहीं, परन्तु प्रभु में घमंड करता हूं।"
       },
       "capituloRelativo": 29
     },
@@ -2279,7 +2279,7 @@
       "textoOriginal": "O Lord, wilt thou grant unto us that we may have success in bringing them again unto thee in Christ...",
       "foneticaLiturgica": "O Lord, wilt thou grant unto us that we may have success in...",
       "traducciones": {
-        "hi": "5. हे प्रभु, क्या आप हमें अनुदान देंगे कि हम उन्हें मसीह में आपके पास वापस लाने में सफल हो सकें..."
+        "hi": "5. हे प्रभु, क्या आप हमें अनुदान देंगे कि हम उन्हें मसीह में आपके पास वापस लाने में सफल हो सकें।\n34. हे प्रभु, क्या तू हमें सफलता प्रदान करेगा, ताकि हम अपने इन भाइयों को फिर से तेरे पास ला सकें?"
       },
       "capituloRelativo": 31
     },
@@ -2297,7 +2297,7 @@
       "textoOriginal": "Now, we will compare the word unto a seed. Now, if ye give place, that a seed may be planted in your heart, behold, if it be a true seed...",
       "foneticaLiturgica": "Now, we will compare the word unto a seed. Now, if ye give p...",
       "traducciones": {
-        "hi": "21. अब, हम शब्द की तुलना बीज से करेंगे। अब, यदि तुम जगह देते हो, कि तुम्हारे हृदय में एक बीज बोया जाए, तो देखो, क्या वह सच्चा बीज है..."
+        "hi": "21. अब, हम शब्द की तुलना बीज से करेंगे। अब, यदि तुम जगह देते हो, कि तुम्हारे हृदय में एक बीज बोया जाए, तो देखो, क्या वह सच्चा बीज है।\n28. अब हम वचन की तुलना एक बीज से करेंगे। यदि तुम अपने हृदय में स्थान दोगे ताकि वह बीज बोया जा सके, तो देखो, वह तुम्हारे भीतर बढ़ने लगेगा।\n41. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 32
     },
@@ -2315,7 +2315,7 @@
       "textoOriginal": "Thou art merciful, O God, for thou hast heard my prayer, even when I was in the wilderness... and it is because of thy Son that thou hast been thus merciful unto me.",
       "foneticaLiturgica": "Thou art merciful, O God, for thou hast heard my prayer, eve...",
       "traducciones": {
-        "hi": "3. हे भगवान, आप दयालु हैं, क्योंकि जब मैं जंगल में था तब भी आपने मेरी प्रार्थना सुनी... और यह आपके पुत्र के कारण है कि आप मुझ पर इतने दयालु रहे हैं।"
+        "hi": "3. हे भगवान, आप दयालु हैं, क्योंकि जब मैं जंगल में था तब भी आपने मेरी प्रार्थना सुनी।\n11. और यह आपके पुत्र के कारण है कि आप मुझ पर इतने दयालु रहे हैं।"
       },
       "capituloRelativo": 33
     },
@@ -2333,7 +2333,7 @@
       "textoOriginal": "For it is expedient that there should be a great and last sacrifice; yea, not a sacrifice of man, neither of beast... but it must be an infinite and eternal sacrifice.",
       "foneticaLiturgica": "For it is expedient that there should be a great and last sa...",
       "traducciones": {
-        "hi": "10. क्योंकि यह उचित है कि एक बड़ा और अन्तिम बलिदान हो; हाँ, न तो मनुष्य का बलिदान, न ही जानवर का... लेकिन यह एक अनंत और शाश्वत बलिदान होना चाहिए।"
+        "hi": "10. क्योंकि यह उचित है कि एक बड़ा और अन्तिम बलिदान हो; हाँ, न तो मनुष्य का बलिदान, न ही जानवर का।\n14. लेकिन यह एक अनंत और शाश्वत बलिदान होना चाहिए।\n32. क्योंकि देखो, यह जीवन मनुष्यों के लिये परमेश्वर से मिलने की तैयारी करने का समय है; हाँ, देखो, यह जीवन अपने कार्यों को पूरा करने का दिन है।"
       },
       "capituloRelativo": 34
     },
@@ -2369,7 +2369,7 @@
       "textoOriginal": "I cried within my heart: O Jesus, thou Son of God, have mercy on me... and my soul was filled with joy as exceeding as was my pain!",
       "foneticaLiturgica": "I cried within my heart: O Jesus, thou Son of God, have merc...",
       "traducciones": {
-        "hi": "3. मैं अपने दिल में रोया: हे यीशु, हे भगवान के पुत्र, मुझ पर दया करो... और मेरी आत्मा मेरे दर्द के समान ही खुशी से भर गई!"
+        "hi": "3. मैं अपने दिल में रोया: हे यीशु, हे भगवान के पुत्र, मुझ पर दया करो।\n17. और मेरी आत्मा मेरे दर्द के समान ही खुशी से भर गई!\n18. अब, जब मेरा मन इस विचार पर टिक गया, तो मैं ने अपने हृदय में पुकारा: हे यीशु, तू जो परमेश्वर का पुत्र है, मुझ पर दया कर!\n20. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 36
     },
@@ -2387,7 +2387,7 @@
       "textoOriginal": "By small and simple things are great things brought to pass... Counsel with the Lord in all thy doings, and he will direct thee for good.",
       "foneticaLiturgica": "By small and simple things are great things brought to pass....",
       "traducciones": {
-        "hi": "6. छोटी और साधारण चीज़ों से बड़ी चीज़ें घटित होती हैं... अपने सभी कार्यों में प्रभु से परामर्श करें, और वह तुम्हें भलाई के लिए निर्देशित करेगा।"
+        "hi": "6. छोटी और साधारण चीज़ों से बड़ी चीज़ें घटित होती हैं।\n37. अपने सभी कार्यों में प्रभु से परामर्श करें, और वह तुम्हें भलाई के लिए निर्देशित करेगा।\n46. हे मेरे पुत्र, मार्ग की सुगमता के कारण आलसी मत बनो; क्योंकि हमारे पिताओं के साथ ऐसा ही हुआ था।"
       },
       "capituloRelativo": 37
     },
@@ -2405,7 +2405,7 @@
       "textoOriginal": "See that ye bridle all your passions, that ye may be filled with love; see that ye refrain from idleness.",
       "foneticaLiturgica": "See that ye bridle all your passions, that ye may be filled...",
       "traducciones": {
-        "hi": "12. देखो कि तुम अपने सभी जुनून पर काबू पा लो, ताकि तुम प्यार से भर जाओ; देखो कि तुम आलस्य से बचे रहो।"
+        "hi": "12. देखो कि तुम अपने सभी जुनून पर काबू पा लो, ताकि तुम प्यार से भर जाओ; देखो कि तुम आलस्य से बचे रहो।\n13. जोरामियों की तरह घमण्ड से प्रार्थना मत करो; परन्तु यह ध्यान रखो कि तुम्हारा हृदय दीन और विनम्र रहे।"
       },
       "capituloRelativo": 38
     },
@@ -2423,7 +2423,7 @@
       "textoOriginal": "Know ye not, my son, that these things are an abomination in the sight of the Lord; yea, most abominable above all sins save it be the shedding of innocent blood...",
       "foneticaLiturgica": "Know ye not, my son, that these things are an abomination in...",
       "traducciones": {
-        "hi": "5. हे मेरे बेटे, क्या तुम नहीं जानते, कि ये बातें यहोवा की दृष्टि में घृणित हैं; हाँ, सभी पापों में सबसे घृणित पाप निर्दोष रक्तपात को छोड़कर..."
+        "hi": "5. हे मेरे बेटे, क्या तुम नहीं जानते, कि ये बातें यहोवा की दृष्टि में घृणित हैं; हाँ, सभी पापों में सबसे घृणित पाप निर्दोष रक्तपात को छोड़कर।\n9. अब, मेरे पुत्र, मैं चाहूंगा कि तू पश्चाताप करे और अपने पापों को त्याग दे, और अपनी आंखों की वासना के पीछे न चले।"
       },
       "capituloRelativo": 39
     },
@@ -2441,7 +2441,7 @@
       "textoOriginal": "There is a space between death and the resurrection of the body, and a state of the soul in happiness or in misery...",
       "foneticaLiturgica": "There is a space between death and the resurrection of the b...",
       "traducciones": {
-        "hi": "11. मृत्यु और शरीर के पुनरुत्थान और आत्मा की सुख या दुःख की स्थिति के बीच एक स्थान होता है..."
+        "hi": "11. मृत्यु और शरीर के पुनरुत्थान और आत्मा की सुख या दुःख की स्थिति के बीच एक स्थान होता है।\n12. और तब ऐसा होगा कि धर्मियों की आत्माएं सुख और आनन्द की अवस्था में ग्रहण की जाएंगी, जिसे विश्रामधाम कहा जाता है।"
       },
       "capituloRelativo": 40
     },
@@ -2459,7 +2459,7 @@
       "textoOriginal": "Wickedness never was happiness... Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness.",
       "foneticaLiturgica": "Wickedness never was happiness... Do not suppose, because it...",
       "traducciones": {
-        "hi": "10. दुष्टता कभी भी खुशी नहीं थी... ऐसा मत सोचो, क्योंकि यह बहाली के बारे में कहा गया है, कि तुम पाप से खुशी की ओर बहाल हो जाओगे।"
+        "hi": "10. दुष्टता कभी भी खुशी नहीं थी।\n14. ऐसा मत सोचो, क्योंकि यह बहाली के बारे में कहा गया है, कि तुम पाप से खुशी की ओर बहाल हो जाओगे।"
       },
       "capituloRelativo": 41
     },
@@ -2477,7 +2477,7 @@
       "textoOriginal": "Mercy claimeth the penitent, and mercy cometh because of the atonement... Justice exerciseth all his demands, and also mercy claimeth all which is her own.",
       "foneticaLiturgica": "Mercy claimeth the penitent, and mercy cometh because of the...",
       "traducciones": {
-        "hi": "15. दया पश्चाताप करने वाले पर दावा करती है, और दया प्रायश्चित के कारण आती है... न्याय उसकी सभी मांगों का पालन करता है, और दया उन सभी पर भी दावा करती है जो उसका अपना है।"
+        "hi": "15. दया पश्चाताप करने वाले पर दावा करती है, और दया प्रायश्चित के कारण आती है।\n23. न्याय उसकी सभी मांगों का पालन करता है, और दया उन सभी पर भी दावा करती है जो उसका अपना है।"
       },
       "capituloRelativo": 42
     },
@@ -2495,7 +2495,7 @@
       "textoOriginal": "They were fighting for their homes and their liberties, their wives and their children, and their all, yea, for their rites of worship and their church.",
       "foneticaLiturgica": "They were fighting for their homes and their liberties, thei...",
       "traducciones": {
-        "hi": "45. वे अपने घरों और अपनी स्वतंत्रताओं, अपनी पत्नियों और अपने बच्चों और अपने सब कुछ के लिए लड़ रहे थे, हाँ, अपनी पूजा के संस्कारों और अपने चर्च के लिए।"
+        "hi": "45. वे अपने घरों और अपनी स्वतंत्रताओं, अपनी पत्नियों और अपने बच्चों और अपने सब कुछ के लिए लड़ रहे थे, हाँ, अपनी पूजा के संस्कारों और अपने चर्च के लिए।\n47. और फिर, प्रभु ने कहा है कि: तुम अपने परिवारों की रक्षा लहू बहाने तक करोगे; इसलिये इस कारण नफाइयों ने लमानियों से युद्ध किया।"
       },
       "capituloRelativo": 43
     },
@@ -2531,7 +2531,7 @@
       "textoOriginal": "Blessed art thou; and the Lord shall prosper thee in this land... And Alma departed out of the land of Zarahemla, as if to go into the land of Melek...",
       "foneticaLiturgica": "Blessed art thou; and the Lord shall prosper thee in this la...",
       "traducciones": {
-        "hi": "16. तू धन्य है; और प्रभु तुम्हें इस देश में समृद्ध करेंगे... और अलमा जराहेमला प्रदेश से निकल गया, मानो मेलेक प्रदेश में जा रहा हो..."
+        "hi": "16. तू धन्य है; और प्रभु तुम्हें इस देश में समृद्ध करेंगे।\n18. और अलमा जराहेमला प्रदेश से निकल गया, मानो मेलेक प्रदेश में जा रहा हो।"
       },
       "capituloRelativo": 45
     },
@@ -2549,7 +2549,7 @@
       "textoOriginal": "In memory of our God, our religion, and freedom, and our peace, our wives, and our children—and he fastened it upon the end of a pole.",
       "foneticaLiturgica": "In memory of our God, our religion, and freedom, and our pea...",
       "traducciones": {
-        "hi": "12. हमारे ईश्वर, हमारे धर्म, और स्वतंत्रता, और हमारी शांति, हमारी पत्नियों और हमारे बच्चों की याद में - और उसने इसे एक खंभे के सिरे पर बांध दिया।"
+        "hi": "12. हमारे ईश्वर, हमारे धर्म, और स्वतंत्रता, और हमारी शांति, हमारी पत्नियों और हमारे बच्चों की याद में - और उसने इसे एक खंभे के सिरे पर बांध दिया।\n13. और उसने स्वतंत्रता का झंडा ऊंचा उठाया, और प्रार्थना की कि जब तक मसीहियों का एक भी विश्वासी शेष रहे, तब तक उस भूमि पर स्वतंत्रता की आशीष बनी रहे।"
       },
       "capituloRelativo": 46
     },
@@ -2585,7 +2585,7 @@
       "textoOriginal": "If all men had been, and were, and ever would be, like unto Moroni, behold, the very powers of hell would have been shaken forever...",
       "foneticaLiturgica": "If all men had been, and were, and ever would be, like unto...",
       "traducciones": {
-        "hi": "11. यदि सभी मनुष्य मोरोनी की तरह होते, और थे, और हमेशा रहेंगे, तो देखो, नरक की शक्तियां हमेशा के लिए हिल गई होती..."
+        "hi": "11. यदि सभी मनुष्य मोरोनी की तरह होते, और थे, और हमेशा रहेंगे, तो देखो, नरक की शक्तियां हमेशा के लिए हिल गई होती।\n17. हाँ, सचमुच, सचमुच मैं तुमसे कहता हूं, यदि सभी मनुष्य मोरोनी के समान होते, या कभी रहे होते, तो नरक की शक्तियां सदा के लिये हिल जातीं।"
       },
       "capituloRelativo": 48
     },
@@ -2675,7 +2675,7 @@
       "textoOriginal": "They entered into a covenant to fight for the liberty of the Nephites... and they were all young men, and they were exceedingly valiant for courage...",
       "foneticaLiturgica": "They entered into a covenant to fight for the liberty of the...",
       "traducciones": {
-        "hi": "20. उन्होंने नफाइयों की स्वतंत्रता के लिए लड़ने के लिए एक अनुबंध में प्रवेश किया... और वे सभी युवा पुरुष थे, और वे साहस के लिए अत्यधिक बहादुर थे..."
+        "hi": "20. उन्होंने नफाइयों की स्वतंत्रता के लिए लड़ने के लिए एक अनुबंध में प्रवेश किया।\n21. और वे सभी युवा पुरुष थे, और वे साहस के लिए अत्यधिक बहादुर थे।"
       },
       "capituloRelativo": 53
     },
@@ -2729,7 +2729,7 @@
       "textoOriginal": "They had been taught by their mothers, that if they did not doubt, God would deliver them... We do not doubt our mothers knew it.",
       "foneticaLiturgica": "They had been taught by their mothers, that if they did not...",
       "traducciones": {
-        "hi": "47. उन्हें उनकी माताओं ने सिखाया था, कि यदि वे संदेह नहीं करेंगे, तो भगवान उन्हें बचा लेंगे... हमें इसमें कोई संदेह नहीं है कि हमारी माताएं यह जानती थीं।"
+        "hi": "47. उन्हें उनकी माताओं ने सिखाया था, कि यदि वे संदेह नहीं करेंगे, तो भगवान उन्हें बचा लेंगे।\n48. हमें इसमें कोई संदेह नहीं है कि हमारी माताएं यह जानती थीं।"
       },
       "capituloRelativo": 56
     },
@@ -2747,7 +2747,7 @@
       "textoOriginal": "Not one soul of them had fallen to the earth; yea, and they had fought as if with the strength of God...",
       "foneticaLiturgica": "Not one soul of them had fallen to the earth; yea, and they...",
       "traducciones": {
-        "hi": "21. उनमें से एक भी प्राण पृथ्वी पर नहीं गिरा; हाँ, और वे ऐसे लड़े जैसे कि ईश्वर की शक्ति से..."
+        "hi": "21. उनमें से एक भी प्राण पृथ्वी पर नहीं गिरा; हाँ, और वे ऐसे लड़े जैसे कि ईश्वर की शक्ति से।\n25. और ऐसा हुआ कि हमारे दो सौ जवानों में से कोई भी नहीं मारा गया; और उनके दृढ़ विश्वास के कारण परमेश्वर की शक्ति ने उनकी रक्षा की।"
       },
       "capituloRelativo": 57
     },
@@ -2801,7 +2801,7 @@
       "textoOriginal": "Can you think to sit upon your thrones in a state of thoughtless stupor, while your enemies are spreading the work of death around you?",
       "foneticaLiturgica": "Can you think to sit upon your thrones in a state of thought...",
       "traducciones": {
-        "hi": "11. क्या आप विचारहीन स्तब्धता की स्थिति में अपने सिंहासन पर बैठने के बारे में सोच सकते हैं, जबकि आपके दुश्मन आपके चारों ओर मौत का काम फैला रहे हैं?"
+        "hi": "11. क्या आप विचारहीन स्तब्धता की स्थिति में अपने सिंहासन पर बैठने के बारे में सोच सकते हैं, जबकि आपके दुश्मन आपके चारों ओर मौत का काम फैला रहे हैं?\n23. क्या तुम यह सोचते हो कि परमेश्वर तुम्हें निर्दोष ठहराएगा जब तुम अपने भाइयों की रक्षा के लिये हाथ भी नहीं उठाते?"
       },
       "capituloRelativo": 60
     },
@@ -2945,7 +2945,7 @@
       "textoOriginal": "Remember that it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation...",
       "foneticaLiturgica": "Remember that it is upon the rock of our Redeemer, who is Ch...",
       "traducciones": {
-        "hi": "12. याद रखें कि यह हमारे मुक्तिदाता की चट्टान पर है, जो मसीह, परमेश्वर का पुत्र है, कि आपको अपनी नींव बनानी होगी..."
+        "hi": "12. याद रखें कि यह हमारे मुक्तिदाता की चट्टान पर है, जो मसीह, परमेश्वर का पुत्र है, कि आपको अपनी नींव बनानी होगी।\n44. और नफी और लेही उनके बीच में थे; हाँ, वे आग से घिरे हुए थे, फिर भी जले नहीं; और उनकी आत्माएं परमेश्वर की महिमा से भर गईं।"
       },
       "capituloRelativo": 5
     },
@@ -3035,7 +3035,7 @@
       "textoOriginal": "Blessed art thou, Nephi, for those things which thou hast done... with unwearyingness... I will make thee mighty in word and in deed...",
       "foneticaLiturgica": "Blessed art thou, Nephi, for those things which thou hast do...",
       "traducciones": {
-        "hi": "4. तू धन्य है, नफी, उन चीजों के लिए जो तूने किया है... अथक परिश्रम के साथ... मैं तुझे वचन और कर्म से शक्तिशाली बनाऊंगा..."
+        "hi": "4. तू धन्य है, नफी, उन चीजों के लिए जो तूने किया है।\n5. अथक परिश्रम के साथ।"
       },
       "capituloRelativo": 10
     },
@@ -3053,7 +3053,7 @@
       "textoOriginal": "O Lord, do not suffer that this people shall be destroyed by the sword; but let there be a famine in the land...",
       "foneticaLiturgica": "O Lord, do not suffer that this people shall be destroyed by...",
       "traducciones": {
-        "hi": "4. हे प्रभु, ऐसा मत सहो कि ये लोग तलवार से नष्ट हो जाएं; परन्तु देश में अकाल पड़े..."
+        "hi": "4. हे प्रभु, ऐसा मत सहो कि ये लोग तलवार से नष्ट हो जाएं; परन्तु देश में अकाल पड़े।\n17. और ऐसा हुआ कि नफी की प्रार्थना के अनुसार प्रभु ने अकाल को समाप्त कर दिया और भूमि पर बहुतायत से वर्षा भेजी।"
       },
       "capituloRelativo": 11
     },
@@ -3071,7 +3071,7 @@
       "textoOriginal": "O how foolish, and how vain, and how evil, and devilish, and how quick to do iniquity, and how slow to do good, are the children of men!",
       "foneticaLiturgica": "O how foolish, and how vain, and how evil, and devilish, and...",
       "traducciones": {
-        "hi": "1. हे मनुष्य के सन्तान कितने मूर्ख, और कितने व्यर्थ, और कितने बुरे, और शैतान, और अधर्म करने में कितने तेज, और भलाई करने में कितने धीमे हैं!"
+        "hi": "1. हे मनुष्य के सन्तान कितने मूर्ख, और कितने व्यर्थ, और कितने बुरे, और शैतान, और अधर्म करने में कितने तेज, और भलाई करने में कितने धीमे हैं!\n24. और परमेश्वर करे कि सब मनुष्य पश्चाताप और भले कामों के द्वारा उद्धार प्राप्त करें!"
       },
       "capituloRelativo": 12
     },
@@ -3089,7 +3089,7 @@
       "textoOriginal": "Behold, I, Samuel, a Lamanite, do speak the words of the Lord which he doth put into my heart... Five years more cometh, and then cometh the Son of God...",
       "foneticaLiturgica": "Behold, I, Samuel, a Lamanite, do speak the words of the Lor...",
       "traducciones": {
-        "hi": "5. देखो, मैं, शमूएल, एक लमनाई, प्रभु के वचन बोलता हूं जो उसने मेरे हृदय में डाला है... पांच वर्ष और आएंगे, और फिर परमेश्वर का पुत्र आएगा..."
+        "hi": "5. देखो, मैं, शमूएल, एक लमनाई, प्रभु के वचन बोलता हूं जो उसने मेरे हृदय में डाला है।\n38. पांच वर्ष और आएंगे, और फिर परमेश्वर का पुत्र आएगा।"
       },
       "capituloRelativo": 13
     },
@@ -3107,7 +3107,7 @@
       "textoOriginal": "Behold, I give unto you a sign; for five years more cometh, and behold, then cometh the Son of God to redeem all those who shall believe on his name.",
       "foneticaLiturgica": "Behold, I give unto you a sign; for five years more cometh,...",
       "traducciones": {
-        "hi": "3. देख, मैं तुझे एक चिन्ह देता हूं; पाँच वर्ष और आने वाले हैं, और देखो, परमेश्वर का पुत्र उन सब को छुड़ाने के लिये आएगा जो उसके नाम पर विश्वास करेंगे।"
+        "hi": "3. देख, मैं तुझे एक चिन्ह देता हूं; पाँच वर्ष और आने वाले हैं, और देखो, परमेश्वर का पुत्र उन सब को छुड़ाने के लिये आएगा जो उसके नाम पर विश्वास करेंगे।\n4. इसलिए, रात के समय कोई अंधकार नहीं होगा, और ऐसा जान पड़ेगा मानो दिन हो; और तुम जानोगे कि कल मसीह का जन्म होगा।\n20. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 14
     },
@@ -3125,7 +3125,7 @@
       "textoOriginal": "Because of their steadfastness when they are once enlightened, that the Lord shall bless them and prolong their days...",
       "foneticaLiturgica": "Because of their steadfastness when they are once enlightene...",
       "traducciones": {
-        "hi": "7. उनकी दृढ़ता के कारण जब वे एक बार प्रबुद्ध हो जाते हैं, तो प्रभु उन्हें आशीर्वाद देंगे और उनके दिनों को बढ़ाएंगे..."
+        "hi": "7. उनकी दृढ़ता के कारण जब वे एक बार प्रबुद्ध हो जाते हैं, तो प्रभु उन्हें आशीर्वाद देंगे और उनके दिनों को बढ़ाएंगे।\n13. और यह भविष्यद्वक्ताओं की उन भविष्यवाणियों के अनुसार है जो उन्होंने अंतिम दिनों के विषय में कही थीं।"
       },
       "capituloRelativo": 15
     },
@@ -3161,7 +3161,7 @@
       "textoOriginal": "Lift up your head and be of good cheer; for behold, the time is at hand, and on this night shall the sign be given...",
       "foneticaLiturgica": "Lift up your head and be of good cheer; for behold, the time...",
       "traducciones": {
-        "hi": "13. अपना सिर उठाओ और प्रसन्न रहो; क्योंकि देखो, समय निकट आ गया है, और इसी रात को चिन्ह दिया जाएगा..."
+        "hi": "13. अपना सिर उठाओ और प्रसन्न रहो; क्योंकि देखो, समय निकट आ गया है, और इसी रात को चिन्ह दिया जाएगा।\n19. और ऐसा हुआ कि उस पूरी रात कोई अंधकार नहीं हुआ, परन्तु दोपहर के समान उजाला रहा।"
       },
       "capituloRelativo": 1
     },
@@ -3287,7 +3287,7 @@
       "textoOriginal": "There arose a great storm, such an one as before was never known in all the land... and there was thick darkness upon all the face of the land...",
       "foneticaLiturgica": "There arose a great storm, such an one as before was never k...",
       "traducciones": {
-        "hi": "5. वहाँ एक बड़ा तूफ़ान उठा, ऐसा तूफ़ान जो पहले पूरे देश में कभी नहीं आया था... और पूरे देश पर घना अँधेरा छा गया..."
+        "hi": "5. वहाँ एक बड़ा तूफ़ान उठा, ऐसा तूफ़ान जो पहले पूरे देश में कभी नहीं आया था।\n20. और पूरे देश पर घना अँधेरा छा गया।"
       },
       "capituloRelativo": 8
     },
@@ -3305,7 +3305,7 @@
       "textoOriginal": "Behold, I am Jesus Christ the Son of God. I created the heavens and the earth, and all things that in them are. I was with the Father from the beginning...",
       "foneticaLiturgica": "Behold, I am Jesus Christ the Son of God. I created the heav...",
       "traducciones": {
-        "hi": "15. देखो, मैं परमेश्वर का पुत्र यीशु मसीह हूं। मैंने आकाश और पृथ्वी और उनमें जो कुछ है, सब बनाया। मैं शुरू से ही पिता के साथ था..."
+        "hi": "15. देखो, मैं परमेश्वर का पुत्र यीशु मसीह हूं। मैंने आकाश और पृथ्वी और उनमें जो कुछ है, सब बनाया। मैं शुरू से ही पिता के साथ था।\n20. और तुम मेरे लिये बलिदान के रूप में टूटे हुए हृदय और पछताए हुए मन को भेंट चढ़ाओगे; और जो कोई मेरे पास टूटे मन से आएगा, मैं उसे पवित्र आत्मा से बपतिस्मा दूंगा।"
       },
       "capituloRelativo": 9
     },
@@ -3341,7 +3341,7 @@
       "textoOriginal": "Behold my Beloved Son, in whom I am well pleased, in whom I have glorified my name—hear ye him... Behold, I am Jesus Christ, whom the prophets testified shall come into the world.",
       "foneticaLiturgica": "Behold my Beloved Son, in whom I am well pleased, in whom I...",
       "traducciones": {
-        "hi": "7. मेरे प्रिय पुत्र को देखो, जिस से मैं अति प्रसन्न हूं, जिस में मैं ने अपने नाम की महिमा की है—उसे सुनो... देखो, मैं यीशु मसीह हूं, जिसकी भविष्यद्वक्ताओं ने गवाही दी है, वह जगत में आएगा।"
+        "hi": "7. मेरे प्रिय पुत्र को देखो, जिस से मैं अति प्रसन्न हूं, जिस में मैं ने अपने नाम की महिमा की है—उसे सुनो।\n8. देखो, मैं यीशु मसीह हूं, जिसकी भविष्यद्वक्ताओं ने गवाही दी है, वह जगत में आएगा।\n10. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n11. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n14. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 11
     },
@@ -3359,7 +3359,7 @@
       "textoOriginal": "Blessed are the poor in spirit who come unto me, for theirs is the kingdom of heaven... Ye are the light of this people.",
       "foneticaLiturgica": "Blessed are the poor in spirit who come unto me, for theirs...",
       "traducciones": {
-        "hi": "3. धन्य हैं वे जो आत्मा के दीन हैं जो मेरे पास आते हैं, क्योंकि स्वर्ग का राज्य उन्हीं का है... तुम इस लोगों की रोशनी हो।"
+        "hi": "3. धन्य हैं वे जो आत्मा के दीन हैं जो मेरे पास आते हैं, क्योंकि स्वर्ग का राज्य उन्हीं का है।\n8. तुम इस लोगों की रोशनी हो।\n14. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n48. इसलिए मैं चाहूंगा कि तुम सिद्ध बनो, जैसा तुम्हारा स्वर्गीय पिता सिद्ध है।"
       },
       "capituloRelativo": 12
     },
@@ -3377,7 +3377,7 @@
       "textoOriginal": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name... Seek ye first the kingdom of God...",
       "foneticaLiturgica": "After this manner therefore pray ye: Our Father which art in...",
       "traducciones": {
-        "hi": "9. इस रीति से तुम प्रार्थना करो: हमारे पिता जो स्वर्ग में हैं, तुम्हारा नाम पवित्र माना जाए... पहले तुम परमेश्वर के राज्य की खोज करो..."
+        "hi": "9. इस रीति से तुम प्रार्थना करो: हमारे पिता जो स्वर्ग में हैं, तुम्हारा नाम पवित्र माना जाए।\n10. पहले तुम परमेश्वर के राज्य की खोज करो।\n11. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n12. और हमारे अपराधों को क्षमा कर, जैसे हम अपने अपराधियों को क्षमा करते हैं; और हमें परीक्षा में न ला, परन्तु बुराई से बचा।\n13. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।\n33. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 13
     },
@@ -3395,7 +3395,7 @@
       "textoOriginal": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you... A good tree cannot bring forth evil fruit...",
       "foneticaLiturgica": "Ask, and it shall be given you; seek, and ye shall find; kno...",
       "traducciones": {
-        "hi": "7. मांगो, और तुम्हें दिया जाएगा; ढूंढ़ो, और पाओगे; खटखटाओ, और वह तुम्हारे लिये खोला जाएगा... कोई अच्छा पेड़ बुरा फल नहीं ला सकता..."
+        "hi": "7. मांगो, और तुम्हें दिया जाएगा; ढूंढ़ो, और पाओगे; खटखटाओ, और वह तुम्हारे लिये खोला जाएगा।\n12. कोई अच्छा पेड़ बुरा फल नहीं ला सकता।\n24. इसलिए, जो कोई मेरी इन बातों को सुनता है और उन पर चलता है, मैं उसकी तुलना एक बुद्धिमान मनुष्य से करूंगा जिसने अपना घर चट्टान पर बनाया।"
       },
       "capituloRelativo": 14
     },
@@ -3413,7 +3413,7 @@
       "textoOriginal": "Behold, I am he that gave the law, and I am he who covenanted with my people Israel... I have other sheep, which are not of this land...",
       "foneticaLiturgica": "Behold, I am he that gave the law, and I am he who covenante...",
       "traducciones": {
-        "hi": "9. देखो, मैं ही वह हूं, जिस ने व्यवस्था दी, और मैं ही वह हूं, जिस ने अपनी प्रजा इस्राएल के साथ वाचा बान्धी... मेरी और भी भेड़ें हैं, जो इस देश की नहीं हैं..."
+        "hi": "9. देखो, मैं ही वह हूं, जिस ने व्यवस्था दी, और मैं ही वह हूं, जिस ने अपनी प्रजा इस्राएल के साथ वाचा बान्धी।\n21. मेरी और भी भेड़ें हैं, जो इस देश की नहीं हैं।"
       },
       "capituloRelativo": 15
     },
@@ -3431,7 +3431,7 @@
       "textoOriginal": "And blessed are the Gentiles, because of their belief in me, in and of the Holy Ghost...",
       "foneticaLiturgica": "And blessed are the Gentiles, because of their belief in me,...",
       "traducciones": {
-        "hi": "3. और अन्यजाति धन्य हैं, क्योंकि उन्होंने मुझ पर, और पवित्र आत्मा पर विश्वास किया है..."
+        "hi": "3. और अन्यजाति धन्य हैं, क्योंकि उन्होंने मुझ पर, और पवित्र आत्मा पर विश्वास किया है।\n13. परन्तु यदि अन्यजातियां पश्चाताप करेंगी और मेरे पास लौटेंगी, तो मैं अपनी वाचा को स्मरण करूंगा और उन्हें अपनी प्रजा में सम्मिलित करूंगा।"
       },
       "capituloRelativo": 16
     },
@@ -3449,7 +3449,7 @@
       "textoOriginal": "Have ye any that are sick among you? Bring them hither and I will heal them... And he took their little children, one by one, and blessed them, and prayed unto the Father for them.",
       "foneticaLiturgica": "Have ye any that are sick among you? Bring them hither and I...",
       "traducciones": {
-        "hi": "7. क्या तुम्हारे बीच कोई बीमार है? उन्हें यहाँ लाओ और मैं उन्हें ठीक कर दूँगा... और वह उनके छोटे-छोटे बच्चों को एक-एक करके ले गया, और उन्हें आशीर्वाद दिया, और उनके लिए पिता से प्रार्थना की।"
+        "hi": "7. क्या तुम्हारे बीच कोई बीमार है? उन्हें यहाँ लाओ और मैं उन्हें ठीक कर दूँगा।\n21. और वह उनके छोटे-छोटे बच्चों को एक-एक करके ले गया, और उन्हें आशीर्वाद दिया, और उनके लिए पिता से प्रार्थना की।\n24. और जब उन्होंने देखा, तो देखो, स्वर्ग के दूत नीचे उतरे और बच्चों को घेर लिया; और वे आग से घिर गए, और स्वर्गदूतों ने उनकी सेवा की।"
       },
       "capituloRelativo": 17
     },
@@ -3467,7 +3467,7 @@
       "textoOriginal": "And this shall ye do in remembrance of my body... Pray in your families unto the Father, always in my name, that your wives and your children may be blessed.",
       "foneticaLiturgica": "And this shall ye do in remembrance of my body... Pray in yo...",
       "traducciones": {
-        "hi": "7. और मेरे शरीर की याद में तुम यह करोगे... अपने परिवारों में हमेशा मेरे नाम पर पिता से प्रार्थना करो, ताकि तुम्हारी पत्नियाँ और तुम्हारे बच्चे धन्य हो सकें।"
+        "hi": "7. और मेरे शरीर की याद में तुम यह करोगे।\n21. अपने परिवारों में हमेशा मेरे नाम पर पिता से प्रार्थना करो, ताकि तुम्हारी पत्नियाँ और तुम्हारे बच्चे धन्य हो सकें।\n24. इसलिए अपनी ज्योति को उठाए रखो ताकि वह जगत के सामने चमके। देखो, मैं वही ज्योति हूं जिसे तुम्हें थामे रखना है—जो कुछ तुमने मुझे करते देखा है।"
       },
       "capituloRelativo": 18
     },
@@ -3485,7 +3485,7 @@
       "textoOriginal": "And they did pray for that which they most desired; and they desired that the Holy Ghost should be given unto them...",
       "foneticaLiturgica": "And they did pray for that which they most desired; and they...",
       "traducciones": {
-        "hi": "9. और उन्होंने उस चीज़ के लिए प्रार्थना की जिसे वे सबसे अधिक चाहते थे; और उन्होंने चाहा कि पवित्र आत्मा उन्हें दी जाए..."
+        "hi": "9. और उन्होंने उस चीज़ के लिए प्रार्थना की जिसे वे सबसे अधिक चाहते थे; और उन्होंने चाहा कि पवित्र आत्मा उन्हें दी जाए।\n25. और ऐसा हुआ कि यीशु ने उन्हें आशीष दी जब वे उससे प्रार्थना कर रहे थे; और उसका मुख उन पर चमका, और देखो वे यीशु के समान श्वेत हो गए।"
       },
       "capituloRelativo": 19
     },
@@ -3503,7 +3503,7 @@
       "textoOriginal": "He that eateth this bread eateth of my body to his soul; and he that drinketh of this wine drinketh of my blood to his soul...",
       "foneticaLiturgica": "He that eateth this bread eateth of my body to his soul; and...",
       "traducciones": {
-        "hi": "8. जो यह रोटी खाता है, वह अपने प्राण तक मेरे शरीर का कुछ खाता है; और जो यह शराब पीता है, वह जी भर कर मेरा खून पीता है..."
+        "hi": "8. जो यह रोटी खाता है, वह अपने प्राण तक मेरे शरीर का कुछ खाता है; और जो यह शराब पीता है, वह जी भर कर मेरा खून पीता है।\n27. और जब तुम आशीष पा चुके होगे, तब पिता की वह वाचा पूरी होगी जो उसने इब्राहीम से बांधी थी: तेरे वंश के द्वारा पृथ्वी के सब कुल आशीष पाएंगे।"
       },
       "capituloRelativo": 20
     },
@@ -3521,7 +3521,7 @@
       "textoOriginal": "When these things which I declare unto you... shall be made known unto the Gentiles, that they may know concerning this people...",
       "foneticaLiturgica": "When these things which I declare unto you... shall be made...",
       "traducciones": {
-        "hi": "1. जब ये बातें जो मैं तुम से कहता हूं... अन्यजातियों पर प्रगट की जाएंगी, कि वे इन लोगों के विषय में जानें..."
+        "hi": "1. जब ये बातें जो मैं तुम से कहता हूं।\n26. अन्यजातियों पर प्रगट की जाएंगी, कि वे इन लोगों के विषय में जानें।"
       },
       "capituloRelativo": 21
     },
@@ -3539,7 +3539,7 @@
       "textoOriginal": "Enlarge the place of thy tent, and let them stretch forth the curtains of thine habitations... For the mountains shall depart, and the hills be removed; but my kindness shall not depart from thee...",
       "foneticaLiturgica": "Enlarge the place of thy tent, and let them stretch forth th...",
       "traducciones": {
-        "hi": "2. अपने तम्बू का स्थान बढ़ाओ, और तुम्हारे निवासोंके पर्दे बढ़ाए जाएं... क्योंकि पहाड़ हट जाएंगे, और पहाड़ियां दूर हो जाएंगी; परन्तु मेरी करूणा तुझ पर से न हटेगी..."
+        "hi": "2. अपने तम्बू का स्थान बढ़ाओ, और तुम्हारे निवासोंके पर्दे बढ़ाए जाएं।\n10. क्योंकि पहाड़ हट जाएंगे, और पहाड़ियां दूर हो जाएंगी; परन्तु मेरी करूणा तुझ पर से न हटेगी।"
       },
       "capituloRelativo": 22
     },
@@ -3575,7 +3575,7 @@
       "textoOriginal": "Behold, I will send my messenger, and he shall prepare the way before me... And who may abide the day of his coming?",
       "foneticaLiturgica": "Behold, I will send my messenger, and he shall prepare the w...",
       "traducciones": {
-        "hi": "1. देख, मैं अपने दूत को भेजूंगा, और वह मेरे आगे मार्ग तैयार करेगा... और उसके आने के दिन पर कौन टिक सकेगा?"
+        "hi": "1. देख, मैं अपने दूत को भेजूंगा, और वह मेरे आगे मार्ग तैयार करेगा।\n10. और उसके आने के दिन पर कौन टिक सकेगा?"
       },
       "capituloRelativo": 24
     },
@@ -3593,7 +3593,7 @@
       "textoOriginal": "Unto you that fear my name shall the Sun of Righteousness arise with healing in his wings... Behold, I will send you Elijah the prophet...",
       "foneticaLiturgica": "Unto you that fear my name shall the Sun of Righteousness ar...",
       "traducciones": {
-        "hi": "2. तुम्हारे लिये जो मेरे नाम का भय मानते हो, धर्म का सूर्य उदय होगा, और उसके पंखों के द्वारा तुम चंगे हो जाओगे... देखो, मैं तुम्हारे लिये एलिय्याह भविष्यद्वक्ता को भेजूंगा..."
+        "hi": "2. तुम्हारे लिये जो मेरे नाम का भय मानते हो, धर्म का सूर्य उदय होगा, और उसके पंखों के द्वारा तुम चंगे हो जाओगे।\n5. देखो, मैं तुम्हारे लिये एलिय्याह भविष्यद्वक्ता को भेजूंगा।\n6. और वह पिताओं के हृदय को बच्चों की ओर, और बच्चों के हृदय को उनके पिताओं की ओर फेरेगा, ऐसा न हो कि मैं आकर पृथ्वी को विनाश से मारूं।"
       },
       "capituloRelativo": 25
     },
@@ -3611,7 +3611,7 @@
       "textoOriginal": "And he did expound all things, even from the beginning until the time that he should come in his glory...",
       "foneticaLiturgica": "And he did expound all things, even from the beginning until...",
       "traducciones": {
-        "hi": "1. और उसने सभी चीज़ों की व्याख्या की, यहाँ तक कि शुरुआत से लेकर उस समय तक जब तक कि वह अपनी महिमा में नहीं आ गया..."
+        "hi": "1. और उसने सभी चीज़ों की व्याख्या की, यहाँ तक कि शुरुआत से लेकर उस समय तक जब तक कि वह अपनी महिमा में नहीं आ गया।\n14. और ऐसा हुआ कि उसने बच्चों की जीभ खोल दी, और वे महान और अद्भुत बातें बोलने लगे, जो उनके पिताओं ने भी नहीं सुनी थीं।"
       },
       "capituloRelativo": 26
     },
@@ -3629,7 +3629,7 @@
       "textoOriginal": "What manner of men ought ye to be? Verily I say unto you, even as I am... If it be called in my name then it is my church.",
       "foneticaLiturgica": "What manner of men ought ye to be? Verily I say unto you, ev...",
       "traducciones": {
-        "hi": "8. तुम्हें किस प्रकार का मनुष्य होना चाहिए? मैं तुमसे सच कहता हूं, जैसा मैं हूं... यदि इसे मेरे नाम से बुलाया जाए तो यह मेरा चर्च है।"
+        "hi": "8. तुम्हें किस प्रकार का मनुष्य होना चाहिए? मैं तुमसे सच कहता हूं, जैसा मैं हूं।\n27. यदि इसे मेरे नाम से बुलाया जाए तो यह मेरा चर्च है।"
       },
       "capituloRelativo": 27
     },
@@ -3647,7 +3647,7 @@
       "textoOriginal": "Ye have desired the thing which John, my beloved, who was with me in my ministry... desired of me... ye shall never taste of death...",
       "foneticaLiturgica": "Ye have desired the thing which John, my beloved, who was wi...",
       "traducciones": {
-        "hi": "6. तुमने वही चाहा है जो यूहन्ना, मेरा प्रिय, जो मेरी सेवकाई में मेरे साथ था... मुझसे चाहता था... तुम कभी मृत्यु का स्वाद नहीं चखोगे..."
+        "hi": "6. तुमने वही चाहा है जो यूहन्ना, मेरा प्रिय, जो मेरी सेवकाई में मेरे साथ था।\n7. मुझसे चाहता था।"
       },
       "capituloRelativo": 28
     },
@@ -3719,7 +3719,7 @@
       "textoOriginal": "I, Mormon, being about ten years of age... Ammaron said unto me: I perceive that thou art a sober child, and art quick to observe...",
       "foneticaLiturgica": "I, Mormon, being about ten years of age... Ammaron said unto...",
       "traducciones": {
-        "hi": "2. मैं, मॉरमन, लगभग दस वर्ष का हूं... अम्मारॉन ने मुझसे कहा: मुझे लगता है कि आप एक शांत बच्चे हैं, और तुरंत निरीक्षण करने वाले हैं..."
+        "hi": "2. मैं, मॉरमन, लगभग दस वर्ष का हूं।\n15. अम्मारॉन ने मुझसे कहा: मुझे लगता है कि आप एक शांत बच्चे हैं, और तुरंत निरीक्षण करने वाले हैं।"
       },
       "capituloRelativo": 1
     },
@@ -3737,7 +3737,7 @@
       "textoOriginal": "In my sixteenth year I did go forth at the head of an army of the Nephites... but their sorrowing was not unto repentance...",
       "foneticaLiturgica": "In my sixteenth year I did go forth at the head of an army o...",
       "traducciones": {
-        "hi": "1. अपने सोलहवें वर्ष में मैं नफाइयों की एक सेना का नेतृत्व करने के लिए आगे बढ़ा... लेकिन उनका दुःख पश्चाताप के समान नहीं था..."
+        "hi": "1. अपने सोलहवें वर्ष में मैं नफाइयों की एक सेना का नेतृत्व करने के लिए आगे बढ़ा।\n13. लेकिन उनका दुःख पश्चाताप के समान नहीं था।"
       },
       "capituloRelativo": 2
     },
@@ -3755,7 +3755,7 @@
       "textoOriginal": "I utterly refused to go up against mine enemies... And I write unto all the ends of the earth...",
       "foneticaLiturgica": "I utterly refused to go up against mine enemies... And I wri...",
       "traducciones": {
-        "hi": "11. मैंने अपने शत्रुओं के विरुद्ध जाने से पूरी तरह इनकार कर दिया... और मैं पृथ्वी के सभी छोरों को लिखता हूँ..."
+        "hi": "11. मैंने अपने शत्रुओं के विरुद्ध जाने से पूरी तरह इनकार कर दिया।\n20. और मैं पृथ्वी के सभी छोरों को लिखता हूँ।"
       },
       "capituloRelativo": 3
     },
@@ -3791,7 +3791,7 @@
       "textoOriginal": "I did go forth among the Nephites, and did repent of the oath which I had made... And I write unto all the nations of the earth...",
       "foneticaLiturgica": "I did go forth among the Nephites, and did repent of the oat...",
       "traducciones": {
-        "hi": "1. मैं नफाइयों के बीच गया, और जो शपथ मैंने ली थी, उस पर पश्चाताप किया... और मैं पृथ्वी के सभी राष्ट्रों को लिखता हूं..."
+        "hi": "1. मैं नफाइयों के बीच गया, और जो शपथ मैंने ली थी, उस पर पश्चाताप किया।\n23. और मैं पृथ्वी के सभी राष्ट्रों को लिखता हूं।"
       },
       "capituloRelativo": 5
     },
@@ -3809,7 +3809,7 @@
       "textoOriginal": "O ye fair ones, how could ye have departed from the ways of the Lord! O ye fair ones, how could ye have rejected that Jesus, who stood with open arms to receive you!",
       "foneticaLiturgica": "O ye fair ones, how could ye have departed from the ways of...",
       "traducciones": {
-        "hi": "6. हे सुन्दर लोगों, तुम प्रभु के मार्ग से कैसे हट सकते हो! हे सुन्दर लोगों, तुम उस यीशु को कैसे अस्वीकार कर सकते हो, जो तुम्हारी अगवानी के लिए बांहें फैलाए खड़ा था!"
+        "hi": "6. हे सुन्दर लोगों, तुम प्रभु के मार्ग से कैसे हट सकते हो! हे सुन्दर लोगों, तुम उस यीशु को कैसे अस्वीकार कर सकते हो, जो तुम्हारी अगवानी के लिए बांहें फैलाए खड़ा था!\n17. हे सुन्दर लोगों, तुम प्रभु के मार्ग से कैसे भटक गए! हे सुन्दर लोगों, तुम उस यीशु को कैसे त्याग सकते थे जो तुम्हें अपनी बांहों में लेने के लिये तैयार खड़ा था!\n22. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 6
     },
@@ -3827,7 +3827,7 @@
       "textoOriginal": "Know ye that ye must come to the knowledge of your fathers, and repent of all your sins... and believe in Jesus Christ, that he is the Son of God...",
       "foneticaLiturgica": "Know ye that ye must come to the knowledge of your fathers,...",
       "traducciones": {
-        "hi": "5. तुम्हें पता है कि तुम्हें अपने पिताओं का ज्ञान प्राप्त करना होगा, और अपने सभी पापों से पश्चाताप करना होगा... और यीशु मसीह में विश्वास करना होगा, कि वह परमेश्वर का पुत्र है..."
+        "hi": "5. तुम्हें पता है कि तुम्हें अपने पिताओं का ज्ञान प्राप्त करना होगा, और अपने सभी पापों से पश्चाताप करना होगा।\n8. और यीशु मसीह में विश्वास करना होगा, कि वह परमेश्वर का पुत्र है।"
       },
       "capituloRelativo": 7
     },
@@ -3845,7 +3845,7 @@
       "textoOriginal": "I, Moroni, do finish the record of my father, Mormon... I even remain alone to write the sad tale of the destruction of my people...",
       "foneticaLiturgica": "I, Moroni, do finish the record of my father, Mormon... I ev...",
       "traducciones": {
-        "hi": "3. मैं, मोरोनी, अपने पिता, मॉरमन का रिकॉर्ड पूरा करता हूँ... मैं अपने लोगों के विनाश की दुखद कहानी लिखने के लिए भी अकेला रहता हूँ..."
+        "hi": "3. मैं, मोरोनी, अपने पिता, मॉरमन का रिकॉर्ड पूरा करता हूँ।\n35. मैं अपने लोगों के विनाश की दुखद कहानी लिखने के लिए भी अकेला रहता हूँ।\n38. हे कपटियो, तुम पवित्र परमेश्वर के चर्च को क्यों भ्रष्ट करते हो? तुम मसीह के नाम को अपने लाभ का साधन क्यों बनाते हो?"
       },
       "capituloRelativo": 8
     },
@@ -3863,7 +3863,7 @@
       "textoOriginal": "God is the same yesterday, today, and forever, and in him there is no variableness neither shadow of changing... God has not ceased to be a God of miracles.",
       "foneticaLiturgica": "God is the same yesterday, today, and forever, and in him th...",
       "traducciones": {
-        "hi": "9. ईश्वर कल, आज और सदैव एक ही है, और उसमें कोई परिवर्तनशीलता नहीं है और न ही परिवर्तन की छाया... ईश्वर चमत्कारों का ईश्वर नहीं रह गया है।"
+        "hi": "9. ईश्वर कल, आज और सदैव एक ही है, और उसमें कोई परिवर्तनशीलता नहीं है और न ही परिवर्तन की छाया।\n19. ईश्वर चमत्कारों का ईश्वर नहीं रह गया है।\n27. हे तब, परमेश्वर के चमत्कारों को तुच्छ न जानो, और अविश्वास न करो; परन्तु प्रभु के पास आओ, और पूरे मन से उसकी खोज करो।"
       },
       "capituloRelativo": 9
     },
@@ -3881,7 +3881,7 @@
       "textoOriginal": "Cry unto the Lord, that he will not confound us that we may not understand our words...",
       "foneticaLiturgica": "Cry unto the Lord, that he will not confound us that we may...",
       "traducciones": {
-        "hi": "34. प्रभु की दोहाई दो, कि वह हमें भ्रमित न करे, कि हम हमारी बातें न समझें..."
+        "hi": "34. प्रभु की दोहाई दो, कि वह हमें भ्रमित न करे, कि हम हमारी बातें न समझें।\n43. और वहां मैं तुझे और तेरे वंश को आशीष दूंगा, और तेरे वंश से एक ऐसी महान जाति उत्पन्न करूंगा जो सारी पृथ्वी पर सबसे महान होगी।"
       },
       "capituloRelativo": 1
     },
@@ -3899,7 +3899,7 @@
       "textoOriginal": "The Lord did go before them, and did talk with them as he stood in a cloud... And the Lord said: Go to work and build, after the manner of barges...",
       "foneticaLiturgica": "The Lord did go before them, and did talk with them as he st...",
       "traducciones": {
-        "hi": "14. प्रभु उनके आगे आगे गए, और बादल में खड़े होकर उनसे बातचीत की... और प्रभु ने कहा: काम पर जाओ और जहाज़ों की तरह निर्माण करो..."
+        "hi": "14. प्रभु उनके आगे आगे गए, और बादल में खड़े होकर उनसे बातचीत की।\n16. और प्रभु ने कहा: काम पर जाओ और जहाज़ों की तरह निर्माण करो।"
       },
       "capituloRelativo": 2
     },
@@ -3917,7 +3917,7 @@
       "textoOriginal": "Behold, O Lord, thou canst do this... And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord... Behold, I am Jesus Christ.",
       "foneticaLiturgica": "Behold, O Lord, thou canst do this... And the veil was taken...",
       "traducciones": {
-        "hi": "4. देख, हे प्रभु, तू यह कर सकता है... और येरेद के भाई की आंखों से पर्दा हट गया, और उसने प्रभु की उंगली देखी... देख, मैं यीशु मसीह हूं।"
+        "hi": "4. देख, हे प्रभु, तू यह कर सकता है।\n6. और येरेद के भाई की आंखों से पर्दा हट गया, और उसने प्रभु की उंगली देखी।\n14. देख, मैं यीशु मसीह हूं।"
       },
       "capituloRelativo": 3
     },
@@ -3935,7 +3935,7 @@
       "textoOriginal": "He that believeth these things which I have spoken... them will I visit with the manifestations of my Spirit...",
       "foneticaLiturgica": "He that believeth these things which I have spoken... them w...",
       "traducciones": {
-        "hi": "11. जो इन बातों पर विश्वास करता है जो मैं ने कही है... मैं अपनी आत्मा की अभिव्यक्ति से उनका दर्शन करूंगा..."
+        "hi": "11. जो इन बातों पर विश्वास करता है जो मैं ने कही है।\n12. मैं अपनी आत्मा की अभिव्यक्ति से उनका दर्शन करूंगा।"
       },
       "capituloRelativo": 4
     },
@@ -3953,7 +3953,7 @@
       "textoOriginal": "Unto three shall they be shown by the power of God... and in the mouth of three witnesses shall these things be established...",
       "foneticaLiturgica": "Unto three shall they be shown by the power of God... and in...",
       "traducciones": {
-        "hi": "3. वे तीन को परमेश्वर की शक्ति दिखाएंगे... और ये बातें तीन गवाहों के मुंह में स्थापित की जाएंगी..."
+        "hi": "3. वे तीन को परमेश्वर की शक्ति दिखाएंगे।\n4. और ये बातें तीन गवाहों के मुंह में स्थापित की जाएंगी।"
       },
       "capituloRelativo": 5
     },
@@ -3971,7 +3971,7 @@
       "textoOriginal": "The Lord God caused that there should a furious wind blow upon the face of the waters... and they did sing praises unto the Lord...",
       "foneticaLiturgica": "The Lord God caused that there should a furious wind blow up...",
       "traducciones": {
-        "hi": "9. प्रभु परमेश्वर ने पानी के ऊपर प्रचंड हवा चलने का कारण बना दिया... और उन्होंने प्रभु की स्तुति गाई..."
+        "hi": "9. प्रभु परमेश्वर ने पानी के ऊपर प्रचंड हवा चलने का कारण बना दिया।\n12. और उन्होंने प्रभु की स्तुति गाई।"
       },
       "capituloRelativo": 6
     },
@@ -4079,7 +4079,7 @@
       "textoOriginal": "Faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith... My grace is sufficient for all men that humble themselves before me.",
       "foneticaLiturgica": "Faith is things which are hoped for and not seen; wherefore,...",
       "traducciones": {
-        "hi": "6. विश्वास ऐसी चीज़ें हैं जिनकी आशा की जाती है और देखी नहीं जातीं; इसलिए, विवाद मत करो क्योंकि तुम देखते नहीं हो, क्योंकि जब तक तुम्हारे विश्वास का परीक्षण नहीं हो जाता तब तक तुम्हें कोई गवाही नहीं मिलती... मेरी कृपा उन सभी मनुष्यों के लिए पर्याप्त है जो मेरे सामने खुद को विनम्र करते हैं।"
+        "hi": "6. विश्वास ऐसी चीज़ें हैं जिनकी आशा की जाती है और देखी नहीं जातीं; इसलिए, विवाद मत करो क्योंकि तुम देखते नहीं हो, क्योंकि जब तक तुम्हारे विश्वास का परीक्षण नहीं हो जाता तब तक तुम्हें कोई गवाही नहीं मिलती।\n27. मेरी कृपा उन सभी मनुष्यों के लिए पर्याप्त है जो मेरे सामने खुद को विनम्र करते हैं।\n41. और अब मैं तुमसे आग्रह करता हूं कि तुम उस यीशु की खोज करो जिसके विषय में भविष्यद्वक्ताओं और प्रेरितों ने लिखा है, ताकि पिता और प्रभु यीशु मसीह का अनुग्रह तुम्हारे साथ सदा बना रहे।"
       },
       "capituloRelativo": 12
     },
@@ -4097,7 +4097,7 @@
       "textoOriginal": "Ether was a prophet of the Lord... and he spake concerning a New Jerusalem upon this land...",
       "foneticaLiturgica": "Ether was a prophet of the Lord... and he spake concerning a...",
       "traducciones": {
-        "hi": "3. ईथर प्रभु का भविष्यवक्ता था... और उसने इस भूमि पर नये यरूशलेम के बारे में बात की थी..."
+        "hi": "3. ईथर प्रभु का भविष्यवक्ता था।\n13. और उसने इस भूमि पर नये यरूशलेम के बारे में बात की थी।"
       },
       "capituloRelativo": 13
     },
@@ -4133,7 +4133,7 @@
       "textoOriginal": "Coriantumr fell to the earth, and became as if he had no life... And the Lord spake unto Ether, and said unto him: Go forth. And he went forth, and beheld that the words of the Lord had all been fulfilled.",
       "foneticaLiturgica": "Coriantumr fell to the earth, and became as if he had no lif...",
       "traducciones": {
-        "hi": "30. कोरियंटूमर पृथ्वी पर गिर गया, और ऐसा हो गया मानो उसमें कोई जीवन ही न हो... और प्रभु ने ईथर से बात की, और उससे कहा: आगे बढ़ो। और वह बाहर गया, और क्या देखा कि प्रभु के सभी वचन पूरे हो गए हैं।"
+        "hi": "30. कोरियंटूमर पृथ्वी पर गिर गया, और ऐसा हो गया मानो उसमें कोई जीवन ही न हो।\n33. और प्रभु ने ईथर से बात की, और उससे कहा: आगे बढ़ो। और वह बाहर गया, और क्या देखा कि प्रभु के सभी वचन पूरे हो गए हैं।\n34. अब एतेर ने जो अंतिम वचन लिखे वे ये हैं: चाहे प्रभु चाहे कि मैं मारा जाऊं, या जीवित रहूं, इससे कोई अंतर नहीं पड़ता, यदि केवल मैं परमेश्वर के राज्य में बच जाऊं। आमीन।"
       },
       "capituloRelativo": 15
     },
@@ -4151,7 +4151,7 @@
       "textoOriginal": "I, Moroni, after having made an end of abridging the account of the people of Jared, I had not supposed to have written more... I will write a few more things, that perhaps they may be of worth unto my brethren, the Lamanites...",
       "foneticaLiturgica": "I, Moroni, after having made an end of abridging the account...",
       "traducciones": {
-        "hi": "1. मैं, मोरोनी, येरेद के लोगों के विवरण को संक्षिप्त करने के बाद, मुझे और अधिक नहीं लिखना चाहिए था... मैं कुछ और चीजें लिखूंगा, ताकि शायद वे मेरे भाइयों, लमनाइयों के लिए उपयोगी हो सकें..."
+        "hi": "1. मैं, मोरोनी, येरेद के लोगों के विवरण को संक्षिप्त करने के बाद, मुझे और अधिक नहीं लिखना चाहिए था।\n3. मैं कुछ और चीजें लिखूंगा, ताकि शायद वे मेरे भाइयों, लमनाइयों के लिए उपयोगी हो सकें।"
       },
       "capituloRelativo": 1
     },
@@ -4169,7 +4169,7 @@
       "textoOriginal": "The words of Christ, which he spake unto his disciples, the twelve whom he had chosen, as he laid his hands upon them... In my name shall ye give it, for thus do mine apostles.",
       "foneticaLiturgica": "The words of Christ, which he spake unto his disciples, the...",
       "traducciones": {
-        "hi": "1. मसीह के वचन, जो उस ने अपने चेलों से कहे, अर्थात् उन बारहों से जिन्हें उसने चुना था, जब उस ने उन पर हाथ रखे थे... तुम इसे मेरे नाम से दोगे, क्योंकि मेरे प्रेरित ऐसा ही करते हैं।"
+        "hi": "1. मसीह के वचन, जो उस ने अपने चेलों से कहे, अर्थात् उन बारहों से जिन्हें उसने चुना था, जब उस ने उन पर हाथ रखे थे।\n2. तुम इसे मेरे नाम से दोगे, क्योंकि मेरे प्रेरित ऐसा ही करते हैं।"
       },
       "capituloRelativo": 2
     },
@@ -4187,7 +4187,7 @@
       "textoOriginal": "The manner which the disciples, who were called the elders of the church, ordained priests and teachers... In the name of Jesus Christ I ordain thee to be a priest...",
       "foneticaLiturgica": "The manner which the disciples, who were called the elders o...",
       "traducciones": {
-        "hi": "1. जिस तरह से शिष्यों ने, जिन्हें चर्च के बुजुर्ग कहा जाता था, पुजारियों और शिक्षकों को नियुक्त किया... यीशु मसीह के नाम पर मैं आपको एक पुजारी के रूप में नियुक्त करता हूं..."
+        "hi": "1. जिस तरह से शिष्यों ने, जिन्हें चर्च के बुजुर्ग कहा जाता था, पुजारियों और शिक्षकों को नियुक्त किया।\n3. यीशु मसीह के नाम पर मैं आपको एक पुजारी के रूप में नियुक्त करता हूं।"
       },
       "capituloRelativo": 3
     },
@@ -4241,7 +4241,7 @@
       "textoOriginal": "And now I speak concerning baptism... And the church did meet together oft, to fast and to pray, and to speak one with another concerning the welfare of their souls...",
       "foneticaLiturgica": "And now I speak concerning baptism... And the church did mee...",
       "traducciones": {
-        "hi": "4. और अब मैं बपतिस्मा के संबंध में बोलता हूं... और चर्च अक्सर एक साथ मिलते थे, उपवास करते थे और प्रार्थना करते थे, और अपनी आत्माओं के कल्याण के संबंध में एक दूसरे से बात करते थे..."
+        "hi": "4. और अब मैं बपतिस्मा के संबंध में बोलता हूं।\n5. और चर्च अक्सर एक साथ मिलते थे, उपवास करते थे और प्रार्थना करते थे, और अपनी आत्माओं के कल्याण के संबंध में एक दूसरे से बात करते थे।"
       },
       "capituloRelativo": 6
     },
@@ -4259,7 +4259,7 @@
       "textoOriginal": "Charity is the pure love of Christ, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him... Pray unto the Father with all the energy of heart, that ye may be filled with this love...",
       "foneticaLiturgica": "Charity is the pure love of Christ, and it endureth forever;...",
       "traducciones": {
-        "hi": "45. प्रेम मसीह का शुद्ध प्रेम है, और यह सदैव बना रहता है; और अंतिम दिन जिसके पास यह पाया जाता है, उसके साथ अच्छा होगा... हृदय की पूरी ऊर्जा से पिता से प्रार्थना करें, ताकि आप इस प्रेम से भर जाएं..."
+        "hi": "45. प्रेम मसीह का शुद्ध प्रेम है, और यह सदैव बना रहता है; और अंतिम दिन जिसके पास यह पाया जाता है, उसके साथ अच्छा होगा।\n46. हृदय की पूरी ऊर्जा से पिता से प्रार्थना करें, ताकि आप इस प्रेम से भर जाएं।\n47. परन्तु प्रेम मसीह का सच्चा और शुद्ध प्रेम है, और यह सदैव बना रहता है; और जिसके पास अंतिम दिन यह पाया जाएगा, उसका भला होगा।\n48. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 7
     },
@@ -4277,7 +4277,7 @@
       "textoOriginal": "Little children are whole, for they are not capable of committing sin; wherefore the curse of Adam is taken from them in me... Little children are alive in Christ, even from the foundation of the world.",
       "foneticaLiturgica": "Little children are whole, for they are not capable of commi...",
       "traducciones": {
-        "hi": "8. छोटे बच्चे पूर्ण होते हैं, क्योंकि वे पाप करने में सक्षम नहीं होते; इसलिए मुझमें आदम का अभिशाप उनसे दूर हो गया है... छोटे बच्चे मसीह में जीवित हैं, यहाँ तक कि दुनिया की नींव से भी।"
+        "hi": "8. छोटे बच्चे पूर्ण होते हैं, क्योंकि वे पाप करने में सक्षम नहीं होते; इसलिए मुझमें आदम का अभिशाप उनसे दूर हो गया है।\n22. छोटे बच्चे मसीह में जीवित हैं, यहाँ तक कि दुनिया की नींव से भी।"
       },
       "capituloRelativo": 8
     },
@@ -4313,7 +4313,7 @@
       "textoOriginal": "When ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost... Yea, come unto Christ, and be perfected in him, and deny yourselves of all ungodliness...",
       "foneticaLiturgica": "When ye shall receive these things, I would exhort you that...",
       "traducciones": {
-        "hi": "4. जब तुम ये चीजें प्राप्त करोगे, तो मैं तुमसे आग्रह करूंगा कि यदि ये चीजें सच नहीं हैं, तो तुम मसीह के नाम पर, अनन्त पिता परमेश्वर से पूछोगे; और यदि तुम सच्चे हृदय से, सच्चे इरादे से, मसीह में विश्वास रखते हुए पूछोगे, तो वह पवित्र आत्मा की शक्ति से इसकी सच्चाई तुम्हारे सामने प्रकट करेगा... हाँ, मसीह के पास आओ, और उसमें परिपूर्ण हो जाओ, और अपने आप को सभी अधार्मिकता से इनकार करो..."
+        "hi": "4. जब तुम ये चीजें प्राप्त करोगे, तो मैं तुमसे आग्रह करूंगा कि यदि ये चीजें सच नहीं हैं, तो तुम मसीह के नाम पर, अनन्त पिता परमेश्वर से पूछोगे; और यदि तुम सच्चे हृदय से, सच्चे इरादे से, मसीह में विश्वास रखते हुए पूछोगे, तो वह पवित्र आत्मा की शक्ति से इसकी सच्चाई तुम्हारे सामने प्रकट करेगा।\n5. हाँ, मसीह के पास आओ, और उसमें परिपूर्ण हो जाओ, और अपने आप को सभी अधार्मिकता से इनकार करो।\n32. हाँ, मसीह के पास आओ, और उसमें सिद्ध बनो, और अपने आपको सब अभक्ति से दूर रखो; और यदि तुम सब अभक्ति को त्याग दोगे, और अपने सारे सामर्थ्य, मन और शक्ति से परमेश्वर से प्रेम रखोगे, तो उसका अनुग्रह तुम्हारे लिये पर्याप्त है।\n34. प्रभु के वचनों को स्मरण रखो और उसकी आज्ञाओं का पालन करो।"
       },
       "capituloRelativo": 10
     }
