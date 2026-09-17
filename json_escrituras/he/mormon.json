@@ -4,14 +4,14 @@
     "titulo": "ספר מורמון (עדות נוספת לישוע המשיח)",
     "totalCapitulos": 239,
     "idiomaLiturgicoOriginal": "Inglés Canónico de 1830 (Original Dictation Edition)",
-    "completitud": "100% Exhaustivo · 15 Libros Canónicos / 239 Capítulos (Versículos Clave)",
+    "completitud": "100% Exhaustivo · 15 ספרים / 239 פרקים קנוניים (פסוקי מפתח)",
     "idioma": "he",
     "esquema": "modular_lazy_v4",
     "dir": "rtl",
     "idiomasDisponibles": [
       "he"
     ],
-    "fuenteOficial": "The Church of Jesus Christ of Latter-day Saints · Canonical 15 Books Edition",
+    "fuenteOficial": "ספר מורמון (עדות נוספת לישוע המשיח) · מהדורת 1830 Canónica",
     "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
@@ -371,7 +371,7 @@
       "textoOriginal": "For, behold, I have refined thee, I have chosen thee in the furnace of affliction... I am the first, and I am also the last.",
       "foneticaLiturgica": "For, behold, I have refined thee, I have chosen thee in the furnace of affliction...",
       "traducciones": {
-        "he": "10. For, behold, I have refined thee, I have chosen thee in the furnace of affliction.\n12. שמע אלי יעקב: אני הוא; אני הראשון, ואני גם האחרון.\n18. O that thou hadst hearkened to my commandments—then had thy peace been as a river, and thy righteousness as the waves of the sea."
+        "he": "10. כִּי הִנֵּה צְרַפְתִּיךָ, בְּחַרְתִּיךָ בְּכוּר עֹנִי׃\n12. שְׁמַע אֵלַי יַעֲקֹב וְיִשְׂרָאֵל מְקֹרָאִי; אֲנִי הוּא, אֲנִי רִאשׁוֹן אַף אֲנִי אַחֲרוֹן׃\n18. לוּא הִקְשַׁבְתָּ לְמִצְוֹתָי, וַיְהִי כַנָּהָר שְׁלוֹמֶךָ וְצִדְקָתְךָ כְּגַלֵּי הַיָּם׃"
       },
       "capituloRelativo": 20
     },
@@ -425,7 +425,7 @@
       "textoOriginal": "Awake, my sons; put on the armor of righteousness. Shake off the chains with which ye are bound...\n(2 Nephi 1)",
       "foneticaLiturgica": "Awake, my sons; put on the armor of righteousness. Shake off... (Second Book of Nephi 1)",
       "traducciones": {
-        "he": "14. התעוררו, בני; לבש את שריון הצדק. התנערו מהשלשלאות שבהן אתם קשורים...\n23. (ב' נפי 1)"
+        "he": "14. התעוררו, בני; לבש את שריון הצדק. התנערו מהשלשלאות שבהן אתם קשורים..."
       },
       "capituloRelativo": 1
     },
@@ -443,7 +443,7 @@
       "textoOriginal": "Adam fell that men might be; and men are, that they might have joy. And the Messiah cometh in the fulness of time...\n(2 Nephi 2)",
       "foneticaLiturgica": "Adam fell that men might be; and men are, that they might ha... (Second Book of Nephi 2)",
       "traducciones": {
-        "he": "אדם נפל כדי שאנשים יהיו; ואנשים הם, כדי שתהיה להם שמחה. והמשיח בא במלוא הזמן...\n(ב' נפי 2)"
+        "he": "אדם נפל כדי שאנשים יהיו; ואנשים הם, כדי שתהיה להם שמחה. והמשיח בא במלוא הזמן..."
       },
       "capituloRelativo": 2
     },
@@ -461,7 +461,7 @@
       "textoOriginal": "A choice seer will I raise up out of the fruit of thy loins... and he shall bring forth my word...\n(2 Nephi 3)",
       "foneticaLiturgica": "A choice seer will I raise up out of the fruit of thy loins.... (Second Book of Nephi 3)",
       "traducciones": {
-        "he": "7. רואה מובחר אקים מפרי חלציך... ויוציא דברי...\n12. (ב' נפי 3)"
+        "he": "7. רואה מובחר אקים מפרי חלציך... ויוציא דברי..."
       },
       "capituloRelativo": 3
     },
@@ -479,7 +479,7 @@
       "textoOriginal": "My soul delighteth in the things of the Lord; and my heart pondereth continually upon the things which I have seen...\n(2 Nephi 4)",
       "foneticaLiturgica": "My soul delighteth in the things of the Lord; and my heart p... (Second Book of Nephi 4)",
       "traducciones": {
-        "he": "נפשי מתענגת בדברי ה'; ולבי מהרהר ללא הרף בדברים אשר ראיתי...\n(ב' נפי 4)"
+        "he": "נפשי מתענגת בדברי ה'; ולבי מהרהר ללא הרף בדברים אשר ראיתי..."
       },
       "capituloRelativo": 4
     },
@@ -497,7 +497,7 @@
       "textoOriginal": "And we did observe to keep the judgments, and the statutes, and the commandments of the Lord... and we lived after the manner of happiness.\n(2 Nephi 5)",
       "foneticaLiturgica": "And we did observe to keep the judgments, and the statutes,... (Second Book of Nephi 5)",
       "traducciones": {
-        "he": "ושמרנו לשמור את המשפטים ואת החוקים ואת מצוות ה'... וחיינו כדרך האושר.\n(ב' נפי ה')"
+        "he": "ושמרנו לשמור את המשפטים ואת החוקים ואת מצוות ה'... וחיינו כדרך האושר."
       },
       "capituloRelativo": 5
     },
@@ -515,7 +515,7 @@
       "textoOriginal": "The Lord God will fulfill his covenants which he has made unto his children; and for this cause the prophet has written...\n(2 Nephi 6)",
       "foneticaLiturgica": "The Lord God will fulfill his covenants which he has made un... (Second Book of Nephi 6)",
       "traducciones": {
-        "he": "11. יקיים ה' אלהים את בריתו אשר כרת לבניו; ובגלל זה כתב הנביא...\n14. (ב' נפי 6)"
+        "he": "11. יקיים ה' אלהים את בריתו אשר כרת לבניו; ובגלל זה כתב הנביא..."
       },
       "capituloRelativo": 6
     },
@@ -533,7 +533,7 @@
       "textoOriginal": "The Lord God hath opened mine ear, and I was not rebellious, neither turned away back...\n(2 Nephi 7)",
       "foneticaLiturgica": "The Lord God hath opened mine ear, and I was not rebellious,... (Second Book of Nephi 7)",
       "traducciones": {
-        "he": "ה' אלוהים פתח את אוזני, ולא הייתי מרדנית ולא חזרתי לאחור...\n(ב' נפי ז')"
+        "he": "ה' אלוהים פתח את אוזני, ולא הייתי מרדנית ולא חזרתי לאחור..."
       },
       "capituloRelativo": 7
     },
@@ -551,7 +551,7 @@
       "textoOriginal": "For the Lord shall comfort Zion: he will comfort all her waste places; and he will make her wilderness like Eden...\n(2 Nephi 8)",
       "foneticaLiturgica": "For the Lord shall comfort Zion: he will comfort all her was... (Second Book of Nephi 8)",
       "traducciones": {
-        "he": "3. כִּי יְהוָה יִנְחָם אֶת-צִיּוֹן: יְנַחֵם אֶת-כָּל-הַשָּׁבְרוֹת; והוא יעשה לה מדבר עדן...\n11. (ב' נפי ח')"
+        "he": "3. כִּי יְהוָה יִנְחָם אֶת-צִיּוֹן: יְנַחֵם אֶת-כָּל-הַשָּׁבְרוֹת; והוא יעשה לה מדבר עדן..."
       },
       "capituloRelativo": 8
     },
@@ -569,7 +569,7 @@
       "textoOriginal": "O how great the goodness of our God, who prepareth a way for our escape from the grasp of this awful monster...\n(2 Nephi 9)",
       "foneticaLiturgica": "O how great the goodness of our God, who prepareth a way for... (Second Book of Nephi 9)",
       "traducciones": {
-        "he": "הו, כמה גדול טובו של אלוהינו, המכין דרך לבריחה מאחיזתה של המפלצת הנוראה הזו...\n(ב' נפי 9)"
+        "he": "הו, כמה גדול טובו של אלוהינו, המכין דרך לבריחה מאחיזתה של המפלצת הנוראה הזו..."
       },
       "capituloRelativo": 9
     },
@@ -587,7 +587,7 @@
       "textoOriginal": "For in the promises of the Lord Jesus Christ is made manifest unto me, that his name shall be Christ...\n(2 Nephi 10)",
       "foneticaLiturgica": "For in the promises of the Lord Jesus Christ is made manifes... (Second Book of Nephi 10)",
       "traducciones": {
-        "he": "כי בהבטחותיו של האדון ישוע המשיח מתגלה לי, ששמו יהיה המשיח...\n(ב' נפי 10)"
+        "he": "כי בהבטחותיו של האדון ישוע המשיח מתגלה לי, ששמו יהיה המשיח..."
       },
       "capituloRelativo": 10
     },
@@ -605,7 +605,7 @@
       "textoOriginal": "My soul delighteth in the words of Isaiah... And my soul delighteth in proving unto my people the truth of the coming of Christ...\n(2 Nephi 11)",
       "foneticaLiturgica": "My soul delighteth in the words of Isaiah... And my soul del... (Second Book of Nephi 11)",
       "traducciones": {
-        "he": "4. נפשי מתענגת על דברי ישעיהו... ונשמתי מתענגת להוכיח לעמי את אמיתת ביאת המשיח...\n5. (ב' נפי 11)"
+        "he": "4. נפשי מתענגת על דברי ישעיהו... ונשמתי מתענגת להוכיח לעמי את אמיתת ביאת המשיח..."
       },
       "capituloRelativo": 11
     },
@@ -623,7 +623,7 @@
       "textoOriginal": "And it shall come to pass in the last days, when the mountain of the Lord's house shall be established in the top of the mountains...\n(2 Nephi 12)",
       "foneticaLiturgica": "And it shall come to pass in the last days, when the mountai... (Second Book of Nephi 12)",
       "traducciones": {
-        "he": "ויהי באחרית הימים, כאשר יוקם הר בית ה' בראש ההרים...\n(ב' נפי 12)"
+        "he": "ויהי באחרית הימים, כאשר יוקם הר בית ה' בראש ההרים..."
       },
       "capituloRelativo": 12
     },
@@ -641,7 +641,7 @@
       "textoOriginal": "Say ye to the righteous that it is well with them; for they shall eat the fruit of their doings...\n(2 Nephi 13)",
       "foneticaLiturgica": "Say ye to the righteous that it is well with them; for they... (Second Book of Nephi 13)",
       "traducciones": {
-        "he": "10. אמרו לצדיקים כי טוב להם; כי יאכלו פרי מעשיהם...\n13. (ב' נפי 13)"
+        "he": "10. אמרו לצדיקים כי טוב להם; כי יאכלו פרי מעשיהם..."
       },
       "capituloRelativo": 13
     },
@@ -659,7 +659,7 @@
       "textoOriginal": "In that day shall the branch of the Lord be beautiful and glorious... And the Lord will create upon every dwelling place of mount Zion a cloud and smoke by day...\n(2 Nephi 14)",
       "foneticaLiturgica": "In that day shall the branch of the Lord be beautiful and gl... (Second Book of Nephi 14)",
       "traducciones": {
-        "he": "2. ביום ההוא יהיה ענף ה' יפה ותפאר... ויברא ה' על כל משכן הר ציון ענן ועשן ביום...\n5. (ב' נפי 14)"
+        "he": "2. ביום ההוא יהיה ענף ה' יפה ותפאר... ויברא ה' על כל משכן הר ציון ענן ועשן ביום..."
       },
       "capituloRelativo": 14
     },
@@ -677,7 +677,7 @@
       "textoOriginal": "Now will I sing to my well-beloved a song of my beloved touching his vineyard...\n(2 Nephi 15)",
       "foneticaLiturgica": "Now will I sing to my well-beloved a song of my beloved touc... (Second Book of Nephi 15)",
       "traducciones": {
-        "he": "עכשיו אשיר לאהובי שיר של אהובי נוגע בכרם...\n(ב' נפי 15)"
+        "he": "עכשיו אשיר לאהובי שיר של אהובי נוגע בכרם..."
       },
       "capituloRelativo": 15
     },
@@ -695,7 +695,7 @@
       "textoOriginal": "Holy, holy, holy, is the Lord of hosts: the whole earth is full of his glory... Here am I; send me.\n(2 Nephi 16)",
       "foneticaLiturgica": "Holy, holy, holy, is the Lord of hosts: the whole earth is f... (Second Book of Nephi 16)",
       "traducciones": {
-        "he": "3. קדוש, קדוש, קדוש, ה' צבאות: מלא הארץ כבודו... הנה אני; לשלוח לי.\n8. (ב' נפי 16)"
+        "he": "3. קדוש, קדוש, קדוש, ה' צבאות: מלא הארץ כבודו... הנה אני; לשלוח לי."
       },
       "capituloRelativo": 16
     },
@@ -713,7 +713,7 @@
       "textoOriginal": "Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.\n(2 Nephi 17)",
       "foneticaLiturgica": "Behold, a virgin shall conceive, and bear a son, and shall c... (Second Book of Nephi 17)",
       "traducciones": {
-        "he": "הִנֵּה, בַּתְלָה תַהֲרוֹת וַתֵּלֶד בֶּן, וְתִקְרָא אֶת שְׁמוֹ עִמְנוּאֵל.\n(ב' נפי 17)"
+        "he": "הִנֵּה, בַּתְלָה תַהֲרוֹת וַתֵּלֶד בֶּן, וְתִקְרָא אֶת שְׁמוֹ עִמְנוּאֵל."
       },
       "capituloRelativo": 17
     },
@@ -731,7 +731,7 @@
       "textoOriginal": "Sanctify the Lord of hosts himself; and let him be your fear, and let him be your dread. And he shall be for a sanctuary...\n(2 Nephi 18)",
       "foneticaLiturgica": "Sanctify the Lord of hosts himself; and let him be your fear... (Second Book of Nephi 18)",
       "traducciones": {
-        "he": "13. קדש את ה' צבאות בעצמו; וַיְהִי אֶת-יְרֵאתֶךָ, וְהוּא יִהְיֶה לָכֶם. והוא יהיה למקדש...\n14. (ב' נפי 18)"
+        "he": "13. קדש את ה' צבאות בעצמו; וַיְהִי אֶת-יְרֵאתֶךָ, וְהוּא יִהְיֶה לָכֶם. והוא יהיה למקדש..."
       },
       "capituloRelativo": 18
     },
@@ -749,7 +749,7 @@
       "textoOriginal": "For unto us a child is born, unto us a son is given... The Prince of Peace.\n(2 Nephi 19)",
       "foneticaLiturgica": "For unto us a child is born, unto us a son is given... The P... (Second Book of Nephi 19)",
       "traducciones": {
-        "he": "2. כי ילד נולד לנו, בן ניתן לנו... נסיך השלום.\n6. (ב' נפי 19)"
+        "he": "2. כי ילד נולד לנו, בן ניתן לנו... נסיך השלום."
       },
       "capituloRelativo": 19
     },
@@ -767,7 +767,7 @@
       "textoOriginal": "The remnant shall return, even the remnant of Jacob, unto the mighty God.\n(2 Nephi 20)",
       "foneticaLiturgica": "The remnant shall return, even the remnant of Jacob, unto th... (Second Book of Nephi 20)",
       "traducciones": {
-        "he": "21. תשוב הנשאר, שארית יעקב, אל האלוהים הגבור.\n33. (ב' נפי 20)"
+        "he": "21. תשוב הנשאר, שארית יעקב, אל האלוהים הגבור."
       },
       "capituloRelativo": 20
     },
@@ -785,7 +785,7 @@
       "textoOriginal": "The earth shall be full of the knowledge of the Lord, as the waters cover the sea.\n(2 Nephi 21)",
       "foneticaLiturgica": "The earth shall be full of the knowledge of the Lord, as the... (Second Book of Nephi 21)",
       "traducciones": {
-        "he": "תהיה הארץ מלאה בדעת ה', כמו המים מכסים את הים.\n(ב' נפי 21)"
+        "he": "תהיה הארץ מלאה בדעת ה', כמו המים מכסים את הים."
       },
       "capituloRelativo": 21
     },
@@ -803,7 +803,7 @@
       "textoOriginal": "Behold, God is my salvation; I will trust, and not be afraid: for the Lord Jehovah is my strength and my song...\n(2 Nephi 22)",
       "foneticaLiturgica": "Behold, God is my salvation; I will trust, and not be afraid... (Second Book of Nephi 22)",
       "traducciones": {
-        "he": "הִנֵּה אֱלֹהִים יְשׁוּעָתִי; אבטח ולא אפחד כי ה' יהוה עוזני ושירי...\n(ב' נפי 22)"
+        "he": "הִנֵּה אֱלֹהִים יְשׁוּעָתִי; אבטח ולא אפחד כי ה' יהוה עוזני ושירי..."
       },
       "capituloRelativo": 22
     },
@@ -821,7 +821,7 @@
       "textoOriginal": "Howl ye; for the day of the Lord is at hand; it shall come as a destruction from the Almighty.\n(2 Nephi 23)",
       "foneticaLiturgica": "Howl ye; for the day of the Lord is at hand; it shall come a... (Second Book of Nephi 23)",
       "traducciones": {
-        "he": "6. יילל אתם; כִּי קָרֵב יוֹם יְהוָה; יבוא כחורבן מאת ה'.\n11. (ב' נפי 23)"
+        "he": "6. יילל אתם; כִּי קָרֵב יוֹם יְהוָה; יבוא כחורבן מאת ה'."
       },
       "capituloRelativo": 23
     },
@@ -839,7 +839,7 @@
       "textoOriginal": "How art thou fallen from heaven, O Lucifer, son of the morning!... The Lord hath founded Zion, and the poor of his people shall trust in it.\n(2 Nephi 24)",
       "foneticaLiturgica": "How art thou fallen from heaven, O Lucifer, son of the morni... (Second Book of Nephi 24)",
       "traducciones": {
-        "he": "12. איך נפלת מן השמים, לוציפר, בן הבוקר!... ה' ייסד את ציון, ועניי עמו יבטחו בה.\n32. (ב' נפי 24)"
+        "he": "12. איך נפלת מן השמים, לוציפר, בן הבוקר!... ה' ייסד את ציון, ועניי עמו יבטחו בה."
       },
       "capituloRelativo": 24
     },
@@ -857,7 +857,7 @@
       "textoOriginal": "And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies...\n(2 Nephi 25)",
       "foneticaLiturgica": "And we talk of Christ, we rejoice in Christ, we preach of Ch... (Second Book of Nephi 25)",
       "traducciones": {
-        "he": "23. ואנחנו מדברים על המשיח, אנחנו שמחים במשיח, אנחנו מטיפים למשיח, אנחנו מתנבאים על המשיח, ואנחנו כותבים לפי נבואותינו...\n26. (ב' נפי 25)"
+        "he": "23. ואנחנו מדברים על המשיח, אנחנו שמחים במשיח, אנחנו מטיפים למשיח, אנחנו מתנבאים על המשיח, ואנחנו כותבים לפי נבואותינו..."
       },
       "capituloRelativo": 25
     },
@@ -875,7 +875,7 @@
       "textoOriginal": "He inviteth them all to come unto him and partake of his goodness; and he denieth none that come unto him, black and white, bond and free...\n(2 Nephi 26)",
       "foneticaLiturgica": "He inviteth them all to come unto him and partake of his goo... (Second Book of Nephi 26)",
       "traducciones": {
-        "he": "24. הוא מזמין את כולם לבוא אליו ולהשתתף בטובו; והוא לא מכחיש את מי שבא אליו, שחור ולבן, קשר וחופשי...\n33. (ב' נפי 26)"
+        "he": "24. הוא מזמין את כולם לבוא אליו ולהשתתף בטובו; והוא לא מכחיש את מי שבא אליו, שחור ולבן, קשר וחופשי..."
       },
       "capituloRelativo": 26
     },
@@ -893,7 +893,7 @@
       "textoOriginal": "A marvelous work and a wonder... And in that day shall the deaf hear the words of the book, and the eyes of the blind shall see out of obscurity...\n(2 Nephi 27)",
       "foneticaLiturgica": "A marvelous work and a wonder... And in that day shall the d... (Second Book of Nephi 27)",
       "traducciones": {
-        "he": "26. יצירה מופלאה ופליאה... וביום ההוא ישמעו החרשים את דברי הספר, ועיני העיוורים יראו מתוך ערפול...\n29. (ב' נפי 27)"
+        "he": "26. יצירה מופלאה ופליאה... וביום ההוא ישמעו החרשים את דברי הספר, ועיני העיוורים יראו מתוך ערפול..."
       },
       "capituloRelativo": 27
     },
@@ -911,7 +911,7 @@
       "textoOriginal": "For behold, thus saith the Lord God: I will give unto the children of men line upon line, precept upon precept, here a little and there a little...\n(2 Nephi 28)",
       "foneticaLiturgica": "For behold, thus saith the Lord God: I will give unto the ch... (Second Book of Nephi 28)",
       "traducciones": {
-        "he": "כִּי הִנֵּה כֹּה אָמַר יְהוָה אֱלֹהִים: אֶתֵּן לִבְנֵי הָאָדָם בִּקְרוֹת עַל קוֹרָה, מִצְוָה עַל מִצְוָה, הנה מעט ושם מעט...\n(ב' נפי 28)"
+        "he": "כִּי הִנֵּה כֹּה אָמַר יְהוָה אֱלֹהִים: אֶתֵּן לִבְנֵי הָאָדָם בִּקְרוֹת עַל קוֹרָה, מִצְוָה עַל מִצְוָה, הנה מעט ושם מעט..."
       },
       "capituloRelativo": 28
     },
@@ -929,7 +929,7 @@
       "textoOriginal": "Thou fool, that shalt say: A Bible, we have got a Bible, and we need no more Bible... Know ye not that there are more nations than one?\n(2 Nephi 29)",
       "foneticaLiturgica": "Thou fool, that shalt say: A Bible, we have got a Bible, and... (Second Book of Nephi 29)",
       "traducciones": {
-        "he": "3. טיפש אתה, שיאמר: תנ\"ך, יש לנו תנ\"ך, ואין לנו צורך יותר בתנ\"ך... האם אינכם יודעים שיש יותר גויים מאחד?\n7. (ב' נפי 29)"
+        "he": "3. טיפש אתה, שיאמר: תנ\"ך, יש לנו תנ\"ך, ואין לנו צורך יותר בתנ\"ך... האם אינכם יודעים שיש יותר גויים מאחד?"
       },
       "capituloRelativo": 29
     },
@@ -947,7 +947,7 @@
       "textoOriginal": "And then shall the remnant of our seed know concerning us, how that we came out from Jerusalem, and that they are descendants of the Jews...\n(2 Nephi 30)",
       "foneticaLiturgica": "And then shall the remnant of our seed know concerning us, h... (Second Book of Nephi 30)",
       "traducciones": {
-        "he": "5. ואז יידעו עלינו שארית זרענו כיצד יצאנו מירושלים וכי הם צאצאי היהודים...\n8. (ב' נפי 30)"
+        "he": "5. ואז יידעו עלינו שארית זרענו כיצד יצאנו מירושלים וכי הם צאצאי היהודים..."
       },
       "capituloRelativo": 30
     },
@@ -965,7 +965,7 @@
       "textoOriginal": "Press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men...\n(2 Nephi 31)",
       "foneticaLiturgica": "Press forward with a steadfastness in Christ, having a perfe... (Second Book of Nephi 31)",
       "traducciones": {
-        "he": "לחץ קדימה באיתן במשיח, עם זוהר מושלם של תקווה, ואהבת אלוהים וכל בני האדם...\n(ב' נפי 31)"
+        "he": "לחץ קדימה באיתן במשיח, עם זוהר מושלם של תקווה, ואהבת אלוהים וכל בני האדם..."
       },
       "capituloRelativo": 31
     },
@@ -983,7 +983,7 @@
       "textoOriginal": "Feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do... Pray always, and not faint.\n(2 Nephi 32)",
       "foneticaLiturgica": "Feast upon the words of Christ; for behold, the words of Chr... (Second Book of Nephi 32)",
       "traducciones": {
-        "he": "התענג על דברי המשיח; כי הנה, דברי המשיח יגידו לכם את כל מה שעליכם לעשות... התפללו תמיד, ואל תתעלפו.\n(ב' נפי 32)"
+        "he": "התענג על דברי המשיח; כי הנה, דברי המשיח יגידו לכם את כל מה שעליכם לעשות... התפללו תמיד, ואל תתעלפו."
       },
       "capituloRelativo": 32
     },
@@ -1001,7 +1001,7 @@
       "textoOriginal": "I glory in plainness; I glory in truth; I glory in my Jesus, for he hath redeemed my soul from hell...\n(2 Nephi 33)",
       "foneticaLiturgica": "I glory in plainness; I glory in truth; I glory in my Jesus,... (Second Book of Nephi 33)",
       "traducciones": {
-        "he": "4. אני מתפאר בפשטות; אני מתפאר באמת; אני מתפאר בישוע שלי, כי הוא גאל את נשמתי מהגיהנום...\n6. (ב' נפי 33)"
+        "he": "4. אני מתפאר בפשטות; אני מתפאר באמת; אני מתפאר בישוע שלי, כי הוא גאל את נשמתי מהגיהנום..."
       },
       "capituloRelativo": 33
     },
@@ -1019,7 +1019,7 @@
       "textoOriginal": "We did magnify our office unto the Lord, taking upon us the responsibility...\n(Book of Jacob 1)",
       "foneticaLiturgica": "We did magnify our office unto the Lord, taking upon us the... (Book of Jacob 1)",
       "traducciones": {
-        "he": "7. אכן הגדלנו את משרדנו לאלוהים, ולקחנו עלינו את האחריות...\n19. (ספר יעקב א')"
+        "he": "7. אכן הגדלנו את משרדנו לאלוהים, ולקחנו עלינו את האחריות..."
       },
       "capituloRelativo": 1
     },
@@ -1037,7 +1037,7 @@
       "textoOriginal": "Before ye seek for riches, seek ye for the kingdom of God... For I, the Lord God, delight in the chastity of women.\n(Book of Jacob 2)",
       "foneticaLiturgica": "Before ye seek for riches, seek ye for the kingdom of God...... (Book of Jacob 2)",
       "traducciones": {
-        "he": "לפני שאתם מבקשים עושר, חפשו את מלכות אלוהים... כי אני, ה' אלוהים, מתענג על טוהר המידות של נשים.\n(ספר יעקב ב')"
+        "he": "לפני שאתם מבקשים עושר, חפשו את מלכות אלוהים... כי אני, ה' אלוהים, מתענג על טוהר המידות של נשים."
       },
       "capituloRelativo": 2
     },
@@ -1055,7 +1055,7 @@
       "textoOriginal": "Look unto God with firmness of mind, and pray unto him with exceeding faith, and he will comfort you in your afflictions...\n(Book of Jacob 3)",
       "foneticaLiturgica": "Look unto God with firmness of mind, and pray unto him with... (Book of Jacob 3)",
       "traducciones": {
-        "he": "הבט אל ה' בתקיפות נפש, והתפלל אליו באמונה יתרה, והוא ינחם אתכם במצוקותיכם...\n(ספר יעקב ג')"
+        "he": "הבט אל ה' בתקיפות נפש, והתפלל אליו באמונה יתרה, והוא ינחם אתכם במצוקותיכם..."
       },
       "capituloRelativo": 3
     },
@@ -1073,7 +1073,7 @@
       "textoOriginal": "We knew of Christ, and we had a hope of his glory many hundred years before his coming... and for this intent we keep the law of Moses...\n(Book of Jacob 4)",
       "foneticaLiturgica": "We knew of Christ, and we had a hope of his glory many hundr... (Book of Jacob 4)",
       "traducciones": {
-        "he": "4. ידענו על המשיח, והייתה לנו תקווה לכבודו מאות שנים רבות לפני בואו... ולמען הכוונה הזו אנו מקיימים את תורת משה...\n11. (ספר יעקב ד')"
+        "he": "4. ידענו על המשיח, והייתה לנו תקווה לכבודו מאות שנים רבות לפני בואו... ולמען הכוונה הזו אנו מקיימים את תורת משה..."
       },
       "capituloRelativo": 4
     },
@@ -1091,7 +1091,7 @@
       "textoOriginal": "I will liken thee, O house of Israel, like unto a tame olive tree... And the Lord of the vineyard wept, and said unto the servant: What could I have done more for my vineyard?\n(Book of Jacob 5)",
       "foneticaLiturgica": "I will liken thee, O house of Israel, like unto a tame olive... (Book of Jacob 5)",
       "traducciones": {
-        "he": "אדמותך, בית ישראל, כזית מאולף... ויבכה אדון הכרם, ויאמר אל העבד: מה יכולתי לעשות יותר לכרם שלי?\n(ספר יעקב ה')"
+        "he": "אדמותך, בית ישראל, כזית מאולף... ויבכה אדון הכרם, ויאמר אל העבד: מה יכולתי לעשות יותר לכרם שלי?"
       },
       "capituloRelativo": 5
     },
@@ -1109,7 +1109,7 @@
       "textoOriginal": "Repent ye, and enter in at the strait gate, and continue in the way which is narrow, until ye shall obtain eternal life.\n(Book of Jacob 6)",
       "foneticaLiturgica": "Repent ye, and enter in at the strait gate, and continue in... (Book of Jacob 6)",
       "traducciones": {
-        "he": "11. חזרו בתשובה ונכנסו בשער הצר והמשיכו בדרך הצרה עד שתזכו לחיי עולם.\n12. (ספר יעקב ו')"
+        "he": "11. חזרו בתשובה ונכנסו בשער הצר והמשיכו בדרך הצרה עד שתזכו לחיי עולם."
       },
       "capituloRelativo": 6
     },
@@ -1127,7 +1127,7 @@
       "textoOriginal": "I had heard the voice of the Lord speaking unto me in very word, from time to time; wherefore, I could not be shaken.\n(Book of Jacob 7)",
       "foneticaLiturgica": "I had heard the voice of the Lord speaking unto me in very w... (Book of Jacob 7)",
       "traducciones": {
-        "he": "5. שמעתי את קול ה' מדבר אלי במילים ממש, מעת לעת; לכן, לא יכולתי להתנער.\n12. (ספר יעקב ז')"
+        "he": "5. שמעתי את קול ה' מדבר אלי במילים ממש, מעת לעת; לכן, לא יכולתי להתנער."
       },
       "capituloRelativo": 7
     },
@@ -1217,7 +1217,7 @@
       "textoOriginal": "Remember, my sons, were it not for these plates, which contain these records and these commandments, we must have suffered in ignorance...\n(Book of Mosiah 1)",
       "foneticaLiturgica": "Remember, my sons, were it not for these plates, which conta... (Book of Mosiah 1)",
       "traducciones": {
-        "he": "3. זכרו, בני, אלמלא הלוחות הללו, המכילים את הרישומים ואת המצוות הללו, ודאי סבלנו בבורות...\n7. (ספר משה א')"
+        "he": "3. זכרו, בני, אלמלא הלוחות הללו, המכילים את הרישומים ואת המצוות הללו, ודאי סבלנו בבורות..."
       },
       "capituloRelativo": 1
     },
@@ -1235,7 +1235,7 @@
       "textoOriginal": "When ye are in the service of your fellow beings ye are only in the service of your God.\n(Book of Mosiah 2)",
       "foneticaLiturgica": "When ye are in the service of your fellow beings ye are only... (Book of Mosiah 2)",
       "traducciones": {
-        "he": "17. כאשר אתם בשירות חבריכם, אתם רק בשירות אלוהיך.\n41. (ספר משה ב')"
+        "he": "17. כאשר אתם בשירות חבריכם, אתם רק בשירות אלוהיך."
       },
       "capituloRelativo": 2
     },
@@ -1253,7 +1253,7 @@
       "textoOriginal": "For behold, the time cometh, and is not far distant, that with power, the Lord Omnipotent... shall dwell in a tabernacle of clay... And he shall be called Jesus Christ.\n(Book of Mosiah 3)",
       "foneticaLiturgica": "For behold, the time cometh, and is not far distant, that wi... (Book of Mosiah 3)",
       "traducciones": {
-        "he": "כי הנה, מגיעה השעה, ואינה רחוקה, שבכוח, האדון הכל יכול... ישכון במשכן של חימר... והוא ייקרא ישוע המשיח.\n(ספר משה ג')"
+        "he": "כי הנה, מגיעה השעה, ואינה רחוקה, שבכוח, האדון הכל יכול... ישכון במשכן של חימר... והוא ייקרא ישוע המשיח."
       },
       "capituloRelativo": 3
     },
@@ -1271,7 +1271,7 @@
       "textoOriginal": "Believe in God; believe that he is, and that he created all things, both in heaven and in earth; believe that he has all wisdom, and all power...\n(Book of Mosiah 4)",
       "foneticaLiturgica": "Believe in God; believe that he is, and that he created all... (Book of Mosiah 4)",
       "traducciones": {
-        "he": "האמינו באלוהים; האמינו שהוא הוא, ושברא את כל הדברים, בשמים ובארץ; תאמין שיש לו כל חוכמה וכל כוח...\n(ספר משה ד')"
+        "he": "האמינו באלוהים; האמינו שהוא הוא, ושברא את כל הדברים, בשמים ובארץ; תאמין שיש לו כל חוכמה וכל כוח..."
       },
       "capituloRelativo": 4
     },
@@ -1289,7 +1289,7 @@
       "textoOriginal": "There is no other name given whereby salvation cometh; therefore, I would that ye should take upon you the name of Christ...\n(Book of Mosiah 5)",
       "foneticaLiturgica": "There is no other name given whereby salvation cometh; there... (Book of Mosiah 5)",
       "traducciones": {
-        "he": "לא ניתן שם אחר שבו באה הישועה; לכן, הייתי רוצה שתיקחו עליכם את שם המשיח...\n(ספר משה רבנו ה')"
+        "he": "לא ניתן שם אחר שבו באה הישועה; לכן, הייתי רוצה שתיקחו עליכם את שם המשיח..."
       },
       "capituloRelativo": 5
     },
@@ -1307,7 +1307,7 @@
       "textoOriginal": "King Benjamin thought it was expedient... to take the names of all those who had entered into a covenant with God...\n(Book of Mosiah 6)",
       "foneticaLiturgica": "King Benjamin thought it was expedient... to take the names... (Book of Mosiah 6)",
       "traducciones": {
-        "he": "1. המלך בנימין חשב שראוי... לקחת את שמות כל אלה שנכרתו בברית עם אלוהים...\n3. (ספר משה ו')"
+        "he": "1. המלך בנימין חשב שראוי... לקחת את שמות כל אלה שנכרתו בברית עם אלוהים..."
       },
       "capituloRelativo": 6
     },
@@ -1343,7 +1343,7 @@
       "textoOriginal": "A seer is a revelator and a prophet also; and a gift which is greater can no man have...\n(Book of Mosiah 8)",
       "foneticaLiturgica": "A seer is a revelator and a prophet also; and a gift which i... (Book of Mosiah 8)",
       "traducciones": {
-        "he": "13. רואה הוא מגלה וגם נביא; ומתנה גדולה יותר לא יכול להיות לאדם...\n16. (ספר משה ח')"
+        "he": "13. רואה הוא מגלה וגם נביא; ומתנה גדולה יותר לא יכול להיות לאדם..."
       },
       "capituloRelativo": 8
     },
@@ -1361,7 +1361,7 @@
       "textoOriginal": "I, Zeniff, having been taught in all the language of the Nephites... went up to possess the land...\n(Book of Mosiah 9)",
       "foneticaLiturgica": "I, Zeniff, having been taught in all the language of the Nep... (Book of Mosiah 9)",
       "traducciones": {
-        "he": "1. אני, זניף, לאחר שלימדתי את כל שפת הנפיים... עליתי לרשת את הארץ...\n17. (ספר משה ט')"
+        "he": "1. אני, זניף, לאחר שלימדתי את כל שפת הנפיים... עליתי לרשת את הארץ..."
       },
       "capituloRelativo": 9
     },
@@ -1397,7 +1397,7 @@
       "textoOriginal": "Wo be unto this generation! And the Lord said unto me: Stretch forth thy hand and prophesy...\n(Book of Mosiah 11)",
       "foneticaLiturgica": "Wo be unto this generation! And the Lord said unto me: Stret... (Book of Mosiah 11)",
       "traducciones": {
-        "he": "20. אוי לדור הזה! וַיֹּאמֶר יְהוָה אֵלַי: שָׁלַח אֶת יָדְךָ וּנְבָא...\n29. (ספר משה י\"א)"
+        "he": "20. אוי לדור הזה! וַיֹּאמֶר יְהוָה אֵלַי: שָׁלַח אֶת יָדְךָ וּנְבָא..."
       },
       "capituloRelativo": 11
     },
@@ -1451,7 +1451,7 @@
       "textoOriginal": "He was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.\n(Book of Mosiah 14)",
       "foneticaLiturgica": "He was wounded for our transgressions, he was bruised for ou... (Book of Mosiah 14)",
       "traducciones": {
-        "he": "על פשעינו נפצע, על עוונותינו נפגע: ייסורי שלומנו עליו; ובפסיו נרפא.\n(ספר משה רבנו י\"ד)"
+        "he": "על פשעינו נפצע, על עוונותינו נפגע: ייסורי שלומנו עליו; ובפסיו נרפא."
       },
       "capituloRelativo": 14
     },
@@ -1487,7 +1487,7 @@
       "textoOriginal": "The grave hath no victory, and the sting of death is swallowed up in Christ. He is the light and the life of the world...\n(Book of Mosiah 16)",
       "foneticaLiturgica": "The grave hath no victory, and the sting of death is swallow... (Book of Mosiah 16)",
       "traducciones": {
-        "he": "לקבר אין ניצחון, ועוקץ המוות נבלע במשיח. הוא האור וחיי העולם...\n(ספר משה ט\"ז)"
+        "he": "לקבר אין ניצחון, ועוקץ המוות נבלע במשיח. הוא האור וחיי העולם..."
       },
       "capituloRelativo": 16
     },
@@ -1505,7 +1505,7 @@
       "textoOriginal": "O God, receive my soul... And now, when Abinadi had said these words, he fell, having suffered death by fire...\n(Book of Mosiah 17)",
       "foneticaLiturgica": "O God, receive my soul... And now, when Abinadi had said the... (Book of Mosiah 17)",
       "traducciones": {
-        "he": "הו אלוהים, קבל את נשמתי... ועתה, כאשר אמר אבינאדי את המילים הללו, הוא נפל, לאחר שסבל מוות באש...\n(ספר משה י\"ז)"
+        "he": "הו אלוהים, קבל את נשמתי... ועתה, כאשר אמר אבינאדי את המילים הללו, הוא נפל, לאחר שסבל מוות באש..."
       },
       "capituloRelativo": 17
     },
@@ -1631,7 +1631,7 @@
       "textoOriginal": "I will also ease the burdens which are put upon your shoulders, that even you cannot feel them upon your backs...\n(Book of Mosiah 24)",
       "foneticaLiturgica": "I will also ease the burdens which are put upon your shoulde... (Book of Mosiah 24)",
       "traducciones": {
-        "he": "14. גם אני אקל את המשא המוטל על כתפיך, שאפילו אתה לא יכול להרגיש אותם על גבך...\n15. (ספר משה רבנו כ\"ד)"
+        "he": "14. גם אני אקל את המשא המוטל על כתפיך, שאפילו אתה לא יכול להרגיש אותם על גבך..."
       },
       "capituloRelativo": 24
     },
@@ -1649,7 +1649,7 @@
       "textoOriginal": "And Mosiah did read, and also caused to be read, the records of Zeniff to his people; yea, and they were struck with wonder...\n(Book of Mosiah 25)",
       "foneticaLiturgica": "And Mosiah did read, and also caused to be read, the records... (Book of Mosiah 25)",
       "traducciones": {
-        "he": "וַיִּקְרָא מוֹשֵׁיָה וְגַם הִקְרִיאוּ אֶת רְשׁוֹת זְנִיף לְעִמּוֹ; כן, והם הוכו בפליאה...\n(ספר משה רבנו כ\"ה)"
+        "he": "וַיִּקְרָא מוֹשֵׁיָה וְגַם הִקְרִיאוּ אֶת רְשׁוֹת זְנִיף לְעִמּוֹ; כן, והם הוכו בפליאה..."
       },
       "capituloRelativo": 25
     },
@@ -1703,7 +1703,7 @@
       "textoOriginal": "And they were desirous that salvation should be declared to every creature, for they could not bear that any human soul should perish...\n(Book of Mosiah 28)",
       "foneticaLiturgica": "And they were desirous that salvation should be declared to... (Book of Mosiah 28)",
       "traducciones": {
-        "he": "3. והם רצו שתוכרז ישועה לכל בריה, כי לא יכלו לשאת שכל נפש אדם תאבד...\n20. (ספר משה רבנו כ\"ח)"
+        "he": "3. והם רצו שתוכרז ישועה לכל בריה, כי לא יכלו לשאת שכל נפש אדם תאבד..."
       },
       "capituloRelativo": 28
     },
@@ -1721,7 +1721,7 @@
       "textoOriginal": "Therefore, choose you by the voice of this people, judges, that ye may be judged according to the laws which have been given you...\n(Book of Mosiah 29)",
       "foneticaLiturgica": "Therefore, choose you by the voice of this people, judges, t... (Book of Mosiah 29)",
       "traducciones": {
-        "he": "לכן בחרו בכם בקול העם הזה שופטים למען תישפטו על פי החוקים שניתנו לכם...\n(ספר משה רבנו כ\"ט)"
+        "he": "לכן בחרו בכם בקול העם הזה שופטים למען תישפטו על פי החוקים שניתנו לכם..."
       },
       "capituloRelativo": 29
     },
@@ -1919,7 +1919,7 @@
       "textoOriginal": "Shall he save his people in their sins? And Amulek answered and said unto him: I say unto you he shall not...\n(Book of Alma 11)",
       "foneticaLiturgica": "Shall he save his people in their sins? And Amulek answered... (Book of Alma 11)",
       "traducciones": {
-        "he": "Shall he save his people in their sins? ויען עמולק ויאמר אליו: אני אומר לך לא י..."
+        "he": "34. וַיֹּאמֶר זְאֶזְרוֹם: הַאִם יוֹשִׁיעַ אֶת עַמּוֹ בַּחֲטָאֵיהֶם? וַיַּעַן עֲמוּלֵק: לֹא יוֹשִׁיעַ בַּחֲטָאֵיהֶם, כִּי לֹא יִירַשׁ טָמֵא אֶת הַמַּלְכוּת׃"
       },
       "capituloRelativo": 11
     },
@@ -2117,7 +2117,7 @@
       "textoOriginal": "I will give away all my sins to know thee, and that I may be raised from the dead, and be saved at the last day.\n(Book of Alma 22)",
       "foneticaLiturgica": "I will give away all my sins to know thee, and that I may be... (Book of Alma 22)",
       "traducciones": {
-        "he": "15. אמסור את כל חטאי לדעתך, ולמען אקום מן המתים, ויושע ביום האחרון.\n18. (ספר עלמה כ\"ב)"
+        "he": "15. אמסור את כל חטאי לדעתך, ולמען אקום מן המתים, ויושע ביום האחרון."
       },
       "capituloRelativo": 22
     },
@@ -2225,7 +2225,7 @@
       "textoOriginal": "And this is the account of the wars and contentions among the Nephites, and also the wars between the Nephites and the Lamanites...\n(Book of Alma 28)",
       "foneticaLiturgica": "And this is the account of the wars and contentions among th... (Book of Alma 28)",
       "traducciones": {
-        "he": "וזהו התיאור של המלחמות והמחלוקות בין הנפיים, וגם המלחמות בין הנפיים והלמנים...\n(ספר עלמה כ\"ח)"
+        "he": "וזהו התיאור של המלחמות והמחלוקות בין הנפיים, וגם המלחמות בין הנפיים והלמנים..."
       },
       "capituloRelativo": 28
     },
@@ -3233,7 +3233,7 @@
       "textoOriginal": "Behold, I am a disciple of Jesus Christ, the Son of God. I have been called of him to declare his word among his people...\n(3 Nephi 5)",
       "foneticaLiturgica": "Behold, I am a disciple of Jesus Christ, the Son of God. I h... (Third Book of Nephi 5)",
       "traducciones": {
-        "he": "הנה, אני תלמידו של ישוע המשיח, בן האלוהים. נקראתי ממנו להכריז את דברו בקרב עמו...\n(3 נפי ה')"
+        "he": "הנה, אני תלמידו של ישוע המשיח, בן האלוהים. נקראתי ממנו להכריז את דברו בקרב עמו..."
       },
       "capituloRelativo": 5
     },
@@ -3395,7 +3395,7 @@
       "textoOriginal": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you... A good tree cannot bring forth evil fruit...\n(3 Nephi 14)",
       "foneticaLiturgica": "Ask, and it shall be given you; seek, and ye shall find; kno... (Third Book of Nephi 14)",
       "traducciones": {
-        "he": "בקשו, וניתן לכם; חפשו ותמצאו; דפקו וייפתח לכם... עץ טוב אינו יכול להביא פרי רע...\n(נפי ג' 14)"
+        "he": "בקשו, וניתן לכם; חפשו ותמצאו; דפקו וייפתח לכם... עץ טוב אינו יכול להביא פרי רע..."
       },
       "capituloRelativo": 14
     },
@@ -3413,7 +3413,7 @@
       "textoOriginal": "Behold, I am he that gave the law, and I am he who covenanted with my people Israel... I have other sheep, which are not of this land...\n(3 Nephi 15)",
       "foneticaLiturgica": "Behold, I am he that gave the law, and I am he who covenante... (Third Book of Nephi 15)",
       "traducciones": {
-        "he": "9. הנה אני נתן את התורה ואני אשר בריתי את עמי ישראל... יש לי עוד צאן, אשר אינם מהארץ הזאת...\n21. (נפי ג' 15)"
+        "he": "9. הנה אני נתן את התורה ואני אשר בריתי את עמי ישראל... יש לי עוד צאן, אשר אינם מהארץ הזאת..."
       },
       "capituloRelativo": 15
     },
@@ -3431,7 +3431,7 @@
       "textoOriginal": "And blessed are the Gentiles, because of their belief in me, in and of the Holy Ghost...\n(3 Nephi 16)",
       "foneticaLiturgica": "And blessed are the Gentiles, because of their belief in me,... (Third Book of Nephi 16)",
       "traducciones": {
-        "he": "3. ואשרי הגויים בגלל אמונתם בי, ברוח הקודש...\n13. (נפי ג' טז)"
+        "he": "3. ואשרי הגויים בגלל אמונתם בי, ברוח הקודש..."
       },
       "capituloRelativo": 16
     },
@@ -3449,7 +3449,7 @@
       "textoOriginal": "Have ye any that are sick among you? Bring them hither and I will heal them... And he took their little children, one by one, and blessed them, and prayed unto the Father for them.\n(3 Nephi 17)",
       "foneticaLiturgica": "Have ye any that are sick among you? Bring them hither and I... (Third Book of Nephi 17)",
       "traducciones": {
-        "he": "האם יש לכם חולים בקרבכם? הביאו אותם הנה וארפא אותם... ולקח את ילדיהם הקטנים, אחד אחד, ובירך אותם, והתפלל לאב עבורם.\n(נפי ג' 17)"
+        "he": "האם יש לכם חולים בקרבכם? הביאו אותם הנה וארפא אותם... ולקח את ילדיהם הקטנים, אחד אחד, ובירך אותם, והתפלל לאב עבורם."
       },
       "capituloRelativo": 17
     },
@@ -3467,7 +3467,7 @@
       "textoOriginal": "And this shall ye do in remembrance of my body... Pray in your families unto the Father, always in my name, that your wives and your children may be blessed.\n(3 Nephi 18)",
       "foneticaLiturgica": "And this shall ye do in remembrance of my body... Pray in yo... (Third Book of Nephi 18)",
       "traducciones": {
-        "he": "ואת זה תעשו לזכר גופי... התפללו במשפחותיכם אל האב, תמיד בשמי, למען יתברכו נשותיכם ובניכם.\n(נפי ג' 18)"
+        "he": "ואת זה תעשו לזכר גופי... התפללו במשפחותיכם אל האב, תמיד בשמי, למען יתברכו נשותיכם ובניכם."
       },
       "capituloRelativo": 18
     },
@@ -3485,7 +3485,7 @@
       "textoOriginal": "And they did pray for that which they most desired; and they desired that the Holy Ghost should be given unto them...\n(3 Nephi 19)",
       "foneticaLiturgica": "And they did pray for that which they most desired; and they... (Third Book of Nephi 19)",
       "traducciones": {
-        "he": "9. והם אכן התפללו על מה שהם רוצים ביותר; והם ביקשו שרוח הקודש תינתן להם...\n25. (נפי ג' 19)"
+        "he": "9. והם אכן התפללו על מה שהם רוצים ביותר; והם ביקשו שרוח הקודש תינתן להם..."
       },
       "capituloRelativo": 19
     },
@@ -3503,7 +3503,7 @@
       "textoOriginal": "He that eateth this bread eateth of my body to his soul; and he that drinketh of this wine drinketh of my blood to his soul...\n(3 Nephi 20)",
       "foneticaLiturgica": "He that eateth this bread eateth of my body to his soul; and... (Third Book of Nephi 20)",
       "traducciones": {
-        "he": "8. מי שאוכל את הלחם הזה אוכל מגופי לנפשו; והשותה מהיין הזה שותה מדמי לנפשו...\n27. (נפי ג' 20)"
+        "he": "8. מי שאוכל את הלחם הזה אוכל מגופי לנפשו; והשותה מהיין הזה שותה מדמי לנפשו..."
       },
       "capituloRelativo": 20
     },
@@ -3521,7 +3521,7 @@
       "textoOriginal": "When these things which I declare unto you... shall be made known unto the Gentiles, that they may know concerning this people...\n(3 Nephi 21)",
       "foneticaLiturgica": "When these things which I declare unto you... shall be made... (Third Book of Nephi 21)",
       "traducciones": {
-        "he": "1. כאשר הדברים האלה אשר אני אומר לכם... יוודעו לגויים למען ידעו על העם הזה...\n26. (נפי ג' 21)"
+        "he": "1. כאשר הדברים האלה אשר אני אומר לכם... יוודעו לגויים למען ידעו על העם הזה..."
       },
       "capituloRelativo": 21
     },
@@ -3611,7 +3611,7 @@
       "textoOriginal": "And he did expound all things, even from the beginning until the time that he should come in his glory...\n(3 Nephi 26)",
       "foneticaLiturgica": "And he did expound all things, even from the beginning until... (Third Book of Nephi 26)",
       "traducciones": {
-        "he": "1. וַיַּרְא אֶת הַכֹּל, מֵרֵאשִׁית וְעַד עֵת שֶׁיָּבֹא בִּכְבוֹדוֹ...\n14. (נפי ג' 26)"
+        "he": "1. וַיַּרְא אֶת הַכֹּל, מֵרֵאשִׁית וְעַד עֵת שֶׁיָּבֹא בִּכְבוֹדוֹ..."
       },
       "capituloRelativo": 26
     },
@@ -3629,7 +3629,7 @@
       "textoOriginal": "What manner of men ought ye to be? Verily I say unto you, even as I am... If it be called in my name then it is my church.\n(3 Nephi 27)",
       "foneticaLiturgica": "What manner of men ought ye to be? Verily I say unto you, ev... (Third Book of Nephi 27)",
       "traducciones": {
-        "he": "8. איזה סוג של אנשים אתה צריך להיות? באמת אני אומר לכם, כמו שאני... אם זה ייקרא בשמי אז זה הכנסייה שלי.\n27. (נפי ג' כ\"ז)"
+        "he": "8. איזה סוג של אנשים אתה צריך להיות? באמת אני אומר לכם, כמו שאני... אם זה ייקרא בשמי אז זה הכנסייה שלי."
       },
       "capituloRelativo": 27
     },
@@ -3647,7 +3647,7 @@
       "textoOriginal": "Ye have desired the thing which John, my beloved, who was with me in my ministry... desired of me... ye shall never taste of death...\n(3 Nephi 28)",
       "foneticaLiturgica": "Ye have desired the thing which John, my beloved, who was wi... (Third Book of Nephi 28)",
       "traducciones": {
-        "he": "6. רציתם את הדבר שיוחנן, אהובי, שהיה איתי בשירותי... חפץ בי... לעולם לא תטעמו מהמוות...\n7. (נפי ג' 28)"
+        "he": "6. רציתם את הדבר שיוחנן, אהובי, שהיה איתי בשירותי... חפץ בי... לעולם לא תטעמו מהמוות..."
       },
       "capituloRelativo": 28
     },
