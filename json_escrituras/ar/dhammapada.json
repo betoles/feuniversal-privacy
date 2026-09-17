@@ -4,7 +4,7 @@
     "titulo": "الدامابادا لبوذا (طريق الحكمة والحق)",
     "totalCapitulos": 26,
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "26 Vaggas Canónicos (Selección Esencial Devocional de los 423 Versos)",
     "idioma": "ar",
     "esquema": "modular_lazy_v4",
     "dir": "rtl"
@@ -18,14 +18,15 @@
       "capitulo": "Capítulo 1: Yamakavagga (Los Versos Gemelos (La Mente y el Karma))",
       "capituloNumero": 1,
       "seccion": "Tipitaka · Khuddaka Nikaya · Los Versos Gemelos (La Mente y el Karma)",
-      "versiculoNumero": "1-1",
+      "versiculoNumero": "1-20",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पदुट्ठेन भासति वा करोति वा। ततो नं दुक्खमन्वेति चक्कंव वहतो पदं॥ मनोपुब्बङ्गमा धम्मा मनोसेट्ठा मनोमया। मनसा चे पसन्नेन भासति वा करोति वा। ततो नं सुखमन्वेति छायाव अनपायिनी॥",
       "foneticaLiturgica": "Manopubbaṅgamā dhammā manoseṭṭhā manomayā | manasā ce paduṭṭhena bhāsati vā karoti vā...",
       "traducciones": {
         "ar": "1. العقل يسبق كل الحالات العقلية. العقل هو رئيسهم. كلهم من صنع العقل. إذا تكلم أو تصرف شخص بعقل غير طاهر، فإن المعاناة تتبعه.\n2. إذا تكلم الإنسان أو تصرف بعقلٍ نقي، فإن السعادة تتبعه كالظل الذي لا يرحل."
-      }
+      },
+      "capituloRelativo": 1
     },
     {
       "id": "dhammapada_vagga_2",
@@ -35,14 +36,15 @@
       "capitulo": "Capítulo 2: Appamadavagga (La Atención y la Consciencia Plena)",
       "capituloNumero": 2,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Atención y la Consciencia Plena",
-      "versiculoNumero": "1-2",
+      "versiculoNumero": "21-32",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "अप्पमादो अमतपदं पमादो मच्चुनो पदं। अप्पमत्ता न मीयन्ति ये पमत्ता यथा मता॥",
       "foneticaLiturgica": "Appamādo amatapadaṁ pamādo maccuno padaṁ | appamattā na mīyanti ye pamattā yathā matā ||",
       "traducciones": {
         "ar": "21. اليقظة هي الطريق إلى الخالدين. الغفلة هي الطريق إلى الموت. المُتنبهون لا يموتون؛ الغافلون مثل الموتى."
-      }
+      },
+      "capituloRelativo": 2
     },
     {
       "id": "dhammapada_vagga_3",
@@ -52,14 +54,15 @@
       "capitulo": "Capítulo 3: Cittavagga (El Dominio y la Serenidad de la Mente)",
       "capituloNumero": 3,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio y la Serenidad de la Mente",
-      "versiculoNumero": "1-3",
+      "versiculoNumero": "33-43",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "फन्दनं चपलं चित्तं दुरक्खं दुन्निवारयं। उजुं करोति मेधावी उसुकारोव तेजनं॥",
       "foneticaLiturgica": "Phandanaṁ capalaṁ cittaṁ durakkhaṁ dunnivārayaṁ | ujuṁ karoti medhāvī usukāro'va tejanaṁ ||",
       "traducciones": {
         "ar": "33. \"تمامًا كما يقوم الرامي بتقويم السهم، كذلك يقوم الشخص الحكيم بتقويم العقل غير المستقر والمتقلب، والذي يصعب حراسته والسيطرة عليه.\""
-      }
+      },
+      "capituloRelativo": 3
     },
     {
       "id": "dhammapada_vagga_4",
@@ -69,14 +72,15 @@
       "capitulo": "Capítulo 4: Pupphavagga (Las Flores de la Sabiduría)",
       "capituloNumero": 4,
       "seccion": "Tipitaka · Khuddaka Nikaya · Las Flores de la Sabiduría",
-      "versiculoNumero": "1-4",
+      "versiculoNumero": "44-59",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "यथापि रुचिरं पुप्फं वण्णवन्तं अगन्धकं। एवं सुभासिता वाचा अफला होती अकुब्बतो॥ यथापि रुचिरं पुप्फं वण्णवन्तं सगन्धकं। एवं सुभासिता वाचा सफला होती सुकुब्बतो॥",
       "foneticaLiturgica": "Yathāpi ruciraṁ pupphaṁ vaṇṇavantaṁ agandhakaṁ...",
       "traducciones": {
         "ar": "51. \"مثل زهرة جميلة مملوءة بالألوان ولكن بدون رائحة، هكذا الكلمات الجميلة لمن لا يمارسها غير مثمرة.\""
-      }
+      },
+      "capituloRelativo": 4
     },
     {
       "id": "dhammapada_vagga_5",
@@ -86,14 +90,15 @@
       "capitulo": "Capítulo 5: Balavagga (El Necio y el Apego)",
       "capituloNumero": 5,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Necio y el Apego",
-      "versiculoNumero": "1-5",
+      "versiculoNumero": "60-75",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "दीघा जागरतो रत्ति दीघं सन्तस्स योजनं। दीघो बालानं संसारो सद्धम्मं अविजानतं॥",
       "foneticaLiturgica": "Dīghā jāgarato ratti dīghaṁ santassa yojanaṁ...",
       "traducciones": {
         "ar": "60. الليل طويل للأرقام. الدوري طويل بالنسبة للمسافر المتعب؛ طويلة هي دورة الولادات الجديدة للحمقى الذين لا يعرفون الحقيقة السامية."
-      }
+      },
+      "capituloRelativo": 5
     },
     {
       "id": "dhammapada_vagga_6",
@@ -103,14 +108,15 @@
       "capitulo": "Capítulo 6: Panditavagga (El Hombre Sabio e Iluminado)",
       "capituloNumero": 6,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Sabio e Iluminado",
-      "versiculoNumero": "1-6",
+      "versiculoNumero": "76-89",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "सेलो यथा एकघनो वातेन न समीरति। एवं निन्दापसंसासु न सम्मिञ्जन्ति पण्डिता॥",
       "foneticaLiturgica": "Selo yathā ekaghano vātena na samīrati | evaṁ nindā-pasaṁsāsu na sammiñjanti paṇḍitā ||",
       "traducciones": {
         "ar": "81. \"كما أن الصخر الصلب لا تهزه الريح، كذلك الحكماء لا يتأثرون بالمدح أو الذنب.\""
-      }
+      },
+      "capituloRelativo": 6
     },
     {
       "id": "dhammapada_vagga_7",
@@ -120,14 +126,15 @@
       "capitulo": "Capítulo 7: Arahantavagga (El Santo que Alcanzó la Paz Suprema)",
       "capituloNumero": 7,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Santo que Alcanzó la Paz Suprema",
-      "versiculoNumero": "1-7",
+      "versiculoNumero": "90-99",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "गताद्धिनो विसोकस्स विप्पमुत्तस्स सब्बधि। सब्बगन्थप्पहीनस्स परिळाहो न विज्जति॥",
       "foneticaLiturgica": "Gataddhino visokassa vippamuttassa sabbadhi...",
       "traducciones": {
         "ar": "90. \"بالنسبة لمن أكمل الرحلة، والذي تحرر من الحزن، وتحرر في كل شيء، والذي حطم كل القيود، لم تعد حمى العاطفة موجودة.\""
-      }
+      },
+      "capituloRelativo": 7
     },
     {
       "id": "dhammapada_vagga_8",
@@ -137,14 +144,15 @@
       "capitulo": "Capítulo 8: Sahassavagga (El Valor de los Mil Pasajes y la Paz Interior)",
       "capituloNumero": 8,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Valor de los Mil Pasajes y la Paz Interior",
-      "versiculoNumero": "1-8",
+      "versiculoNumero": "100-115",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "सहस्समपि चे वाचा अनत्थपदसंहिता। एकं अत्थपदं सेय्यो यं सुत्वा उपसम्मति॥",
       "foneticaLiturgica": "Sahassam api ce vācā anattha-pada-saṁhitā | ekaṁ attha-padaṁ seyyo yaṁ sutvā upasammati ||",
       "traducciones": {
         "ar": "100. «خير من ألف كلمة عديمة الفائدة كلمة واحدة ذات معنى، عند سماعها تنال السلام»."
-      }
+      },
+      "capituloRelativo": 8
     },
     {
       "id": "dhammapada_vagga_9",
@@ -154,14 +162,15 @@
       "capitulo": "Capítulo 9: Papavagga (El Mal y la Protección de la Virtud)",
       "capituloNumero": 9,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Mal y la Protección de la Virtud",
-      "versiculoNumero": "1-9",
+      "versiculoNumero": "116-128",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "अभिथरेथ कल्याणे पापा चित्तं निवारये। दन्धं हि करोतो पुञ्ञं पापिस्मिं रमती मनो॥",
       "foneticaLiturgica": "Abhittharetha kalyāṇe pāpā cittaṁ nivāraye...",
       "traducciones": {
         "ar": "116. 'سارعوا إلى فعل الخير. راجع عقلك من الشر. إذا كان الإنسان بطيئًا في فعل الخير، فإن عقله يجد متعة في الشر."
-      }
+      },
+      "capituloRelativo": 9
     },
     {
       "id": "dhammapada_vagga_10",
@@ -171,14 +180,15 @@
       "capitulo": "Capítulo 10: Dandavagga (La Compasión y la No-Violencia hacia Todos los Seres)",
       "capituloNumero": 10,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Compasión y la No-Violencia hacia Todos los Seres",
-      "versiculoNumero": "1-10",
+      "versiculoNumero": "129-145",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "सब्बे तसन्ति दण्डस्स सब्बे भायन्ति मच्चुनो। अत्तानं उपमं कत्वा न हनेय्य न घातये॥",
       "foneticaLiturgica": "Sabbe tasanti daṇḍassa sabbe bhāyanti maccuno | attānaṁ upamaṁ katvā na haneyya na ghātaye ||",
       "traducciones": {
         "ar": "129. الكل يرتعد من الظلم. الجميع يخافون الموت. ومن يضع نفسه مكان شخص آخر، فلا يجوز له أن يقتل أو يتسبب في قتل شخص آخر."
-      }
+      },
+      "capituloRelativo": 10
     },
     {
       "id": "dhammapada_vagga_11",
@@ -188,14 +198,15 @@
       "capitulo": "Capítulo 11: Jaravagga (La Vejez y la Transitoriedad de la Vida)",
       "capituloNumero": 11,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Vejez y la Transitoriedad de la Vida",
-      "versiculoNumero": "1-11",
+      "versiculoNumero": "146-156",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "को नु हासो किमानन्दो निच्चं पज्जलितो सति। अन्धकारेन ओनद्धा पदीपं न गवेस्सथ॥",
       "foneticaLiturgica": "Ko nu hāso kim ānando niccaṁ pajjalite sati...",
       "traducciones": {
         "ar": "146. لماذا يوجد ضحك، لماذا يوجد فرح، والعالم مشتعل إلى الأبد؟ أفلا تطلبون نورًا وقد أحاطت بهم الظلمة؟"
-      }
+      },
+      "capituloRelativo": 11
     },
     {
       "id": "dhammapada_vagga_12",
@@ -205,14 +216,15 @@
       "capitulo": "Capítulo 12: Attavagga (El Sí Mismo y la Autorrealización)",
       "capituloNumero": 12,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Sí Mismo y la Autorrealización",
-      "versiculoNumero": "1-12",
+      "versiculoNumero": "157-166",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "अत्ता हि अत्तनो नाथो को हि नाथो परो सिया। अत्तना हि सुदन्तेन नाथं लभति दुल्लभं॥",
       "foneticaLiturgica": "Attā hi attano nātho ko hi nātho paro siyā | attanā hi sudantena nāthaṁ labhati dullabhaṁ ||",
       "traducciones": {
         "ar": "160. 'المرء هو حامي نفسه حقًا. من غيره يمكن أن يكون الحامي؟ عندما يتحكم المرء في نفسه بشكل كامل، يكتسب إتقانًا يصعب العثور عليه."
-      }
+      },
+      "capituloRelativo": 12
     },
     {
       "id": "dhammapada_vagga_13",
@@ -222,14 +234,15 @@
       "capitulo": "Capítulo 13: Lokavagga (El Mundo y el Despertar de la Ilusión)",
       "capituloNumero": 13,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Mundo y el Despertar de la Ilusión",
-      "versiculoNumero": "1-13",
+      "versiculoNumero": "167-178",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "यथा बुब्बुळकं पस्से यथा पस्से मरीचिकं। एवं लोकं अवेक्खन्तं मच्चुराजा न पस्सति॥",
       "foneticaLiturgica": "Yathā bubbuḷakaṁ passe yathā passe marīcikaṁ...",
       "traducciones": {
         "ar": "170. 'انظر إلى العالم كفقاعة، وانظر إليه باعتباره سرابا. ملك الموت لا يرى ذلك الذي ينظر هكذا إلى العالم»."
-      }
+      },
+      "capituloRelativo": 13
     },
     {
       "id": "dhammapada_vagga_14",
@@ -239,14 +252,15 @@
       "capitulo": "Capítulo 14: Buddhavagga (El Iluminado y el Cese del Sufrimiento)",
       "capituloNumero": 14,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Iluminado y el Cese del Sufrimiento",
-      "versiculoNumero": "1-14",
+      "versiculoNumero": "179-196",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "सब्बपापस्स अकरणं कुसलस्स उपसम्पदा। सचित्तपरियोदपनं एतं बुद्धान सासनं॥",
       "foneticaLiturgica": "Sabbapāpassa akaraṇaṁ kusalassa upasampadā | sacittapariyodapanaṁ etaṁ buddhāna sāsanaṁ ||",
       "traducciones": {
         "ar": "183. “تجنب كل الشرور، وتنمية الخير، وتطهير عقل المرء – هذه هي تعاليم بوذا”."
-      }
+      },
+      "capituloRelativo": 14
     },
     {
       "id": "dhammapada_vagga_15",
@@ -256,14 +270,15 @@
       "capitulo": "Capítulo 15: Sukhavagga (La Verdadera Dicha y Felicidad Interior)",
       "capituloNumero": 15,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Verdadera Dicha y Felicidad Interior",
-      "versiculoNumero": "1-15",
+      "versiculoNumero": "197-208",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "सुसुखं वत जीवाम वेरिनेसु अवेरिनो। वेरिनेसु मनुस्सेसु विहराम अवेरिनो॥ जयं वेरं पसवति दुक्खं सेति पराजितो। उपसन्तो सुखं सेति हित्वा जयपराजयं॥",
       "foneticaLiturgica": "Susukhaṁ vata jīvāma verinesu averino...",
       "traducciones": {
         "ar": "197. 'نحن نعيش سعداء حقًا، ودودون وسط العداء.'\n201. النصر يولد الكراهية. المهزوم يعيش في الألم. لحسن الحظ يعيش المسالمون، ويتخلىون عن النصر والهزيمة."
-      }
+      },
+      "capituloRelativo": 15
     },
     {
       "id": "dhammapada_vagga_16",
@@ -273,14 +288,15 @@
       "capitulo": "Capítulo 16: Piyavagga (El Afecto Apego y la Libertad Emocional)",
       "capituloNumero": 16,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Afecto Apego y la Libertad Emocional",
-      "versiculoNumero": "1-16",
+      "versiculoNumero": "209-220",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "पियतो जायती सोको पियतो जायती भयं। पियतो विप्पमुत्तस्स नत्थि सोको कुतो भयं॥",
       "foneticaLiturgica": "Piyato jāyatī soko piyato jāyatī bhayaṁ...",
       "traducciones": {
         "ar": "212. «من التحبب يأتي الحزن، ومن التحبب يأتي الخوف. بالنسبة لمن تحرر تمامًا من المودة، ليس هناك حزن، فمن أين الخوف؟»."
-      }
+      },
+      "capituloRelativo": 16
     },
     {
       "id": "dhammapada_vagga_17",
@@ -290,14 +306,15 @@
       "capitulo": "Capítulo 17: Kodhavagga (El Dominio de la Ira y el Amor Incondicional)",
       "capituloNumero": 17,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Dominio de la Ira y el Amor Incondicional",
-      "versiculoNumero": "1-17",
+      "versiculoNumero": "221-234",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "अक्कोधेन जिने कोधं असाधुं साधुना जिने। जिने कदरियं दानेन सच्चेन अलिकवादिनं॥",
       "foneticaLiturgica": "Akkodhena jine kodhaṁ asādhuṁ sādhunā jine | jine kadariyaṁ dānena saccena alikavādinaṁ ||",
       "traducciones": {
         "ar": "223. 'قهر الغضب بعدم الغضب. اقهروا السيئات بالحسنات. تغلب على الخسة بالكرم. تغلب على الكذب بالحقيقة."
-      }
+      },
+      "capituloRelativo": 17
     },
     {
       "id": "dhammapada_vagga_18",
@@ -307,14 +324,15 @@
       "capitulo": "Capítulo 18: Malavagga (La Pureza y la Eliminación de las Impurezas)",
       "capituloNumero": 18,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Pureza y la Eliminación de las Impurezas",
-      "versiculoNumero": "1-18",
+      "versiculoNumero": "235-255",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "अनुपुब्बेन मेधावी थोकथोकं खणे खणे। कम्मारो रजतस्सेव निद्धमे मलमत्तनो॥",
       "foneticaLiturgica": "Anupubbena medhāvī thoka-thokaṁ khaṇe khaṇe...",
       "traducciones": {
         "ar": "239. “بالتدريج، شيئًا فشيئًا، من وقت لآخر، يجب على الشخص الحكيم أن يزيل نجاساته، كما يزيل الحداد خبث الفضة.”"
-      }
+      },
+      "capituloRelativo": 18
     },
     {
       "id": "dhammapada_vagga_19",
@@ -324,14 +342,15 @@
       "capitulo": "Capítulo 19: Dhammatthavagga (El Justo y el Establecido en el Dharma)",
       "capituloNumero": 19,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Justo y el Establecido en el Dharma",
-      "versiculoNumero": "1-19",
+      "versiculoNumero": "256-272",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "न तेन होति धम्मट्ठो येनत्थं सहसा नये। यो च अत्थं अनत्थं च उभो निच्छेय्य पण्डितो॥",
       "foneticaLiturgica": "Na tena hoti dhammattho yen'atthaṁ sahasā naye...",
       "traducciones": {
         "ar": "256. 'لا يكون الشخص عادلاً إذا قرر قضية ما بشكل تعسفي. لكن من يقيم الصواب والخطأ فهو حكيم حقًا."
-      }
+      },
+      "capituloRelativo": 19
     },
     {
       "id": "dhammapada_vagga_20",
@@ -341,14 +360,15 @@
       "capitulo": "Capítulo 20: Maggavagga (El Noble Óctuple Sendero)",
       "capituloNumero": 20,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Noble Óctuple Sendero",
-      "versiculoNumero": "1-20",
+      "versiculoNumero": "273-289",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "मग्गानट्ठङ्गिको सेट्ठो सच्चानं चतुरो पदा। विरागो सेट्ठो धम्मानं द्विपदानं च चक्खुमा॥",
       "foneticaLiturgica": "Maggānaṭṭhaṅgiko seṭṭho saccānaṁ caturo padā...",
       "traducciones": {
         "ar": "273. 'من بين الطرق، الثماني هو الأفضل؛ للحقائق الأقوال الأربعة؛ الفضائل، التحرر من الارتباط؛ ومن البشر ذو العيون التي ترى»."
-      }
+      },
+      "capituloRelativo": 20
     },
     {
       "id": "dhammapada_vagga_21",
@@ -358,14 +378,15 @@
       "capitulo": "Capítulo 21: Pakinnakavagga (Versos Misceláneos de la Sabiduría)",
       "capituloNumero": 21,
       "seccion": "Tipitaka · Khuddaka Nikaya · Versos Misceláneos de la Sabiduría",
-      "versiculoNumero": "1-21",
+      "versiculoNumero": "290-305",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "मत्तासुखपरिच्चागा पस्से चे विपुलं सुखं। चजे मत्तासुखं धीरो सम्पस्सं विपुलं सुखं॥",
       "foneticaLiturgica": "Mattāsukha-pariccāgā passe ce vipulaṁ sukhaṁ...",
       "traducciones": {
         "ar": "290. “إذا كان من خلال التخلي عن السعادة الأقل، يمكن للمرء أن يرى سعادة أكبر، فليتخلى الشخص الحكيم عن السعادة الأقل، مع مراعاة الأكبر”."
-      }
+      },
+      "capituloRelativo": 21
     },
     {
       "id": "dhammapada_vagga_22",
@@ -375,14 +396,15 @@
       "capitulo": "Capítulo 22: Nirayavagga (La Consecuencia de las Acciones Dañinas)",
       "capituloNumero": 22,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Consecuencia de las Acciones Dañinas",
-      "versiculoNumero": "1-22",
+      "versiculoNumero": "306-319",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "अभूतवादी निरयं उपेति यो वापि कत्वा न करोमीति चाह। उभोपि ते पेच्च समा भवन्ति निहीनकम्मा मनुजा परत्थ॥",
       "foneticaLiturgica": "Abhūtavādī nirayaṁ upeti...",
       "traducciones": {
         "ar": "306. «إن المتكلم بالباطل يصير في حالة من الويل، وكذلك الذي إذا عمل عملا، قال: لم أفعله»."
-      }
+      },
+      "capituloRelativo": 22
     },
     {
       "id": "dhammapada_vagga_23",
@@ -392,14 +414,15 @@
       "capitulo": "Capítulo 23: Nagavagga (La Fortaleza y Nobleza del Elefante)",
       "capituloNumero": 23,
       "seccion": "Tipitaka · Khuddaka Nikaya · La Fortaleza y Nobleza del Elefante",
-      "versiculoNumero": "1-23",
+      "versiculoNumero": "320-333",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "अहं नागोवा सङ्गामे चापातो पतितं सरं। अतिवाक्यं तितिक्खिस्सं दुस्सीलो हि बहुज्जनो॥",
       "foneticaLiturgica": "Ahaṁ nāgo'va saṅgāme cāpāto patitaṁ saraṁ...",
       "traducciones": {
         "ar": "320. 'سأتحمل الإساءة كما يتحمل الفيل في المعركة سهام القوس؛ لأن العالم مليء بالناس غير المنضبطين."
-      }
+      },
+      "capituloRelativo": 23
     },
     {
       "id": "dhammapada_vagga_24",
@@ -409,14 +432,15 @@
       "capitulo": "Capítulo 24: Tanhavagga (El Deseo Ávido y el Origen de la Sed)",
       "capituloNumero": 24,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Deseo Ávido y el Origen de la Sed",
-      "versiculoNumero": "1-24",
+      "versiculoNumero": "334-359",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "मनुजस्स पमत्तचारिनो तण्हा वड्ढति मालुवा विय। सो पलवति हुरा हुरं फलं इच्छं व वनस्मि मक्कटो॥",
       "foneticaLiturgica": "Manujassa pamattacārino taṇhā vaḍḍhati māluvā viya...",
       "traducciones": {
         "ar": "334. «شهوة من يعيش على غفلة ينمو مثل كرمة زاحفة». يقفز من حياة إلى أخرى مثل قرد في الغابة يبحث عن الفاكهة."
-      }
+      },
+      "capituloRelativo": 24
     },
     {
       "id": "dhammapada_vagga_25",
@@ -426,14 +450,15 @@
       "capitulo": "Capítulo 25: Bhikkhuvagga (El Monje y el Buscador de la Verdad)",
       "capituloNumero": 25,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Monje y el Buscador de la Verdad",
-      "versiculoNumero": "1-25",
+      "versiculoNumero": "360-382",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "चक्खुना संवरो साधु साधु सोतेन संवरो। घानेन संवरो साधु साधु जिव्हाय संवरो॥ कायेन संवरो साधु साधु वाचाय संवरो। मनसा संवरो साधु साधु सब्बत्थ संवरो॥",
       "foneticaLiturgica": "Cakkhunā saṁvaro sādhu sādhu sotena saṁvaro...",
       "traducciones": {
         "ar": "360. «الخير كف العين». الخير هو ضبط النفس على الأذن. الخير هو ضبط النفس على الأنف. وخير هو حبس اللسان.\n361. «الخير ضبط الجسد. الخير هو ضبط النفس في الكلام. الخير هو ضبط النفس في الفكر. الراهب المقيد بكل الطرق يتحرر من كل معاناة."
-      }
+      },
+      "capituloRelativo": 25
     },
     {
       "id": "dhammapada_vagga_26",
@@ -443,14 +468,15 @@
       "capitulo": "Capítulo 26: Brahmanavagga (El Hombre Santo y el Iluminado de Corazón Puro)",
       "capituloNumero": 26,
       "seccion": "Tipitaka · Khuddaka Nikaya · El Hombre Santo y el Iluminado de Corazón Puro",
-      "versiculoNumero": "1-26",
+      "versiculoNumero": "383-423",
       "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
       "dir": "rtl",
       "textoOriginal": "छिन्न सोतं परक्कम्म कामे पनुद ब्राह्मण। सङ्खारानं खयं ञत्वा अकतञ्ञू सि ब्राह्मण॥ यस्स पारं अपारं वा पारापारं न विज्जति। वीतद्दरं विसंयुत्तं तमहं ब्रूमि ब्राह्मणं॥",
       "foneticaLiturgica": "Chinda sotaṁ parakkamma kāme panuda brāhmaṇa...",
       "traducciones": {
         "ar": "383. «يا أيها الطالب اجتهد واقطع نهر الشهوات!» عارفًا تدمير الأشياء المشروطة، كن ممن يعرف غير المخلوق.\n385. “الشخص الذي لا يوجد له هذا الشاطئ ولا الشاطئ الآخر، والذي لا يعرف الخوف ومنعزلًا – هو الذي أسميه مقدسًا.”"
-      }
+      },
+      "capituloRelativo": 26
     }
   ]
 }
