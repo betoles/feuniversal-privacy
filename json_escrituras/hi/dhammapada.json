@@ -4,11 +4,15 @@
     "titulo": "धम्मपद (भगवान बुद्ध की पावन वाणी)",
     "totalCapitulos": 26,
     "idiomaLiturgicoOriginal": "Pali Canónico (पालि - Tipitaka)",
-    "completitud": "26 Vaggas Canónicos (Selección Esencial Devocional de los 423 Versos)",
+    "completitud": "100% Exhaustivo · 26 Vaggas del Dhammapada en Hindi",
     "idioma": "hi",
     "esquema": "modular_lazy_v4",
     "dir": "ltr",
-    "fuenteOficial": "Tipitaka Pali Text Society / Chaṭṭha Saṅgāyana Tipiṭaka / VRI"
+    "fuenteOficial": "Tipitaka Pali Text Society / Chaṭṭha Saṅgāyana Tipiṭaka / VRI",
+    "idiomasDisponibles": [
+      "hi"
+    ],
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {

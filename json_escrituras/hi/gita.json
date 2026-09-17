@@ -4,10 +4,15 @@
     "titulo": "श्रीमद्भगवद्गीता (भगवान श्रीकृष्ण का दिव्य उपदेश)",
     "totalCapitulos": 18,
     "idiomaLiturgicoOriginal": "Sánscrito Védico (संस्कृतम् - Devanagari)",
-    "completitud": "100% Exhaustivo y Auténtico en 17 Idiomas",
+    "completitud": "100% Exhaustivo · 18 Adhyayas de la Bhagavad Gita en Hindi",
     "idioma": "hi",
     "esquema": "modular_lazy_v4",
-    "dir": "ltr"
+    "dir": "ltr",
+    "fuenteOficial": "श्रीमद्भगवद्गीता (Gita Press Gorakhpur / Canonical Sanskrit-Hindi Edition)",
+    "idiomasDisponibles": [
+      "hi"
+    ],
+    "version": "4.0.0-canonical-complete"
   },
   "capitulos": [
     {
